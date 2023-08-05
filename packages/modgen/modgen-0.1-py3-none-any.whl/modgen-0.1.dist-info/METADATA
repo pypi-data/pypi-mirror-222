@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: modgen
+Version: 0.1
+Summary: A Python package to dynamically generate module from local Python file.
+Home-page: https://github.com/guyko81/import_local_module
+Author: Gabor Gulyas
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
