@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: easywrite
+Version: 1.0.0
+Summary: A Python module for easy text output with colors
+Home-page: https://github.com/yourusername/easywrite
+Author: Your Name
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Put a more detailed description of your module here
