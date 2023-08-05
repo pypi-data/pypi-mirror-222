@@ -1,0 +1,4 @@
+[console_scripts]
+filter_fasta = sequence_unet.scripts.filter_fasta:main
+sequence_unet = sequence_unet.scripts.make_preds:main
+split_fasta = sequence_unet.scripts.split_fasta:main
