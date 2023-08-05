@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: amlb
+Version: 0.0.1
+Summary: Benchmarking for AutoML frameworks
+Author-email: Pieter Gijsbers <p.gijsbers@tue.nl>
+Project-URL: Homepage, https://github.com/openml/automlbenchmark
+
