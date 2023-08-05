@@ -1,0 +1,14 @@
+euxfel_bunch_pattern
+extra_data>=1.13
+extra_geom
+karabo_bridge
+
+[docs]
+black
+mkdocs-material
+mkdocstrings
+mkdocstrings-python>=1.2.0
+pymdown-extensions
+
+[test]
+pytest
