@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+BIPLABPDF.egg-info/PKG-INFO
+BIPLABPDF.egg-info/SOURCES.txt
+BIPLABPDF.egg-info/dependency_links.txt
+BIPLABPDF.egg-info/top_level.txt
+biplabpdf/__init__.py
+biplabpdf/pdf2image.py
+biplabpdf/pdf2text.py
