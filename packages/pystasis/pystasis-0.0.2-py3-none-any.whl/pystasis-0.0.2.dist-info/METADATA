@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pystasis
+Version: 0.0.2
+Summary: Detect breaking changes in Python projects
+Author: Regan Koopmans
+Author-email: regan@koopmans.io
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: git-python (>=1.0.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# pystasis
+
+pystasis is a tool to help you catch breaking changes in your Python projects.
+It does this by comparing AST (abstract-syntax tree) changes between commits
+in git repositories.
+
+## Installation
+
+You can install pystasis with the following command:
+
+```
+pip install pystasis
+```
+
