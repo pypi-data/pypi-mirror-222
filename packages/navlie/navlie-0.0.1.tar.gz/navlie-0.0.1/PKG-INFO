@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: navlie
+Version: 0.0.1
+Summary: A collection of common state estimation algorithms in robotics.
+Home-page: https://github.com/decargroup/navlie
+Project-URL: Source, https://github.com/decargroup/navlie
+Project-URL: Tracker, https://github.com/decargroup/navlie/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: test
+License-File: LICENSE
