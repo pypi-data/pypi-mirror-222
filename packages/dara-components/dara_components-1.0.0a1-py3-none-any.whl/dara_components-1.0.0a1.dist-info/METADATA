@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: dara-components
+Version: 1.0.0a1
+Summary: Components for the Dara Framework
+Home-page: https://dara.causalens.com/
+License: Apache-2.0
+Author: Patricia Jacob
+Author-email: patricia@causalens.com
+Requires-Python: >=3.8.0,<3.12.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bokeh (>=3.1.0,<3.2.0)
+Requires-Dist: cai-causal-graph (>=0.0.1)
+Requires-Dist: dara-core (==1.0.0-a.1)
+Requires-Dist: dill (>=0.3.0,<0.4.0)
+Requires-Dist: matplotlib (>=2.0.0)
+Requires-Dist: pandas (>=1.1.0,<3.0.0)
+Requires-Dist: plotly (>=5.14.0,<5.15.0)
+Requires-Dist: scipy
+Requires-Dist: seaborn (>=0.11.0)
+Project-URL: Repository, https://github.com/causalens/dara
