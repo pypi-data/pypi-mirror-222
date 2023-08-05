@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dbt-publish"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Vaccaro <atvaccaro@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dbt_publish"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
