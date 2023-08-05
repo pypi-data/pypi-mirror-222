@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+az_image_converter.egg-info/PKG-INFO
+az_image_converter.egg-info/SOURCES.txt
+az_image_converter.egg-info/dependency_links.txt
+az_image_converter.egg-info/requires.txt
+az_image_converter.egg-info/top_level.txt
