@@ -1,0 +1,3 @@
+[console_scripts]
+wiz2=wiz2.main:app
+
