@@ -1,0 +1,2 @@
+[console_scripts]
+pih_mio = __main__:main
