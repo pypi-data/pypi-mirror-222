@@ -1,0 +1,5 @@
+setup.py
+proxyai.egg-info/PKG-INFO
+proxyai.egg-info/SOURCES.txt
+proxyai.egg-info/dependency_links.txt
+proxyai.egg-info/top_level.txt
