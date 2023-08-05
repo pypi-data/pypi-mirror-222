@@ -1,0 +1,13 @@
+mozprofile/__init__.py,sha256=ihr4d3lKJsjSiSc2m5SfiWgJlxJ9iXkUeVqqOJTsmMc,729
+mozprofile/addons.py,sha256=4dBEVgMfhFZRC36Z_8ADeifMRLmj5un_-tNPuBol6fU,13425
+mozprofile/cli.py,sha256=ND3cgAm6KR1XtsbjVT3biInzT35-5NdEsJqIWlJ12ws,5780
+mozprofile/diff.py,sha256=3E3zmsU2jeor46fON9JIGG4FzCoGrfPlK37pFlyG52w,2342
+mozprofile/permissions.py,sha256=XLFYVskC_LSO0-Uw7oMDcFKFhErxfUAla87VsAfu7NI,10411
+mozprofile/prefs.py,sha256=VLf-3Olx4orU8E3fEtK03YO_TguQEtvAgG6DRJS8plc,8511
+mozprofile/profile.py,sha256=rDGk2-tgK5RooiqDBqL8v8XvZCvqAFBI0pxqMkIcJlk,19762
+mozprofile/view.py,sha256=Y_2yBDN7J8N9JRG898NNl_Qih8POsJ2ZBJU09wh2ch8,1182
+mozprofile-2.6.0.dist-info/METADATA,sha256=AUefwZLhlvrODTaWEHHRcLRsy1xWznn0sFj13kipCGY,977
+mozprofile-2.6.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+mozprofile-2.6.0.dist-info/entry_points.txt,sha256=TAgL9N8xdO8dxoxCFWnujd5G1ieM-npnmS9TCsLmM-c,187
+mozprofile-2.6.0.dist-info/top_level.txt,sha256=6-H1mNyVNxHee-CKD4JLDabfOLKykhFg-iVMhyUl9bI,11
+mozprofile-2.6.0.dist-info/RECORD,,
