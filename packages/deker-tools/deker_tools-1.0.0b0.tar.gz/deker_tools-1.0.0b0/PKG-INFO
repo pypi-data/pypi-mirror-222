@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: deker_tools
+Version: 1.0.0b0
+Summary: Tools for Deker management
+Home-page: https://github.com/openweathermap/deker-tools
+Author: OpenWeatherMap Ltd.
+Author-email: info@openweathermap.org
+Maintainer-email: info@openweathermap.org
+License: GPL-3.0-only
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+License-File: LICENSE
