@@ -1,0 +1,8 @@
+astropy
+matplotlib
+numpy
+pandas
+scipy
+specutils
+sphinx
+myst-parser

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dysh.egg-info/PKG-INFO
+dysh.egg-info/SOURCES.txt
+dysh.egg-info/dependency_links.txt
+dysh.egg-info/not-zip-safe
+dysh.egg-info/requires.txt
+dysh.egg-info/top_level.txt
+tests/__init__.py
+tests/s1d.py
+tests/test_astrodysh.py
