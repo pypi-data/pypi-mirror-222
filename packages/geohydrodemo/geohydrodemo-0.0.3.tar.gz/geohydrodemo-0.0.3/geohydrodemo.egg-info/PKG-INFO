@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: geohydrodemo
+Version: 0.0.3
+Summary: A python package for interactive mapping
+Home-page: https://github.com/bojichen/geohydrodemo
+Author: Boji Chen
+Author-email: bojichen@connect.hku.hk
+License: MIT license
+Keywords: geohydrodemo
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geohydrodemo
+
+
+[![image](https://img.shields.io/pypi/v/geohydrodemo.svg)](https://pypi.python.org/pypi/geohydrodemo)
+[![image](https://img.shields.io/conda/vn/conda-forge/geohydrodemo.svg)](https://anaconda.org/conda-forge/geohydrodemo)
+
+
+**A python package for interactive mapping**
+
+
+-   Free software: MIT license
+-   Documentation: https://bojichen.github.io/geohydrodemo
+-   This is just a practice 
+-   PyPI: <https://pypi.org/project/geohydrodemo/>
+    
+
+## Features
+
+-   TODO
+-   TODO 2

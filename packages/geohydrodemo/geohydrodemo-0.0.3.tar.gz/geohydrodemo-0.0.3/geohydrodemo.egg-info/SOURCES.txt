@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geohydrodemo/__init__.py
+geohydrodemo/common.py
+geohydrodemo/geohydrodemo.py
+geohydrodemo.egg-info/PKG-INFO
+geohydrodemo.egg-info/SOURCES.txt
+geohydrodemo.egg-info/dependency_links.txt
+geohydrodemo.egg-info/not-zip-safe
+geohydrodemo.egg-info/top_level.txt
