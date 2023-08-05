@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nonebot_plugin_aujob
+Version: 0.0.6
+Summary: A nonebot plugin
+Author-email: qwqZYLqwq <3422471182@qq.com>
+Project-URL: Homepage, https://github.com/qwqZYLqwq/nonebot-plugin-aujob
+Project-URL: Bug Tracker, https://github.com/qwqZYLqwq/nonebot-plugin-aujob/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
