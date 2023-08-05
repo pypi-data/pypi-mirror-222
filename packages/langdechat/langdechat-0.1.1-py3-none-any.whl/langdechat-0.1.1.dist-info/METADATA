@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: langdechat
+Version: 0.1.1
+Summary: Prompt Performance Check Library
+Home-page: https://github.com/yourusername/langdechat
+Author: beluuuuuuga
+Author-email: koki.inoue@elith.co.jp
+License-File: LICENSE
+Requires-Dist: langchain (==0.0.240)
+Requires-Dist: datasets (>=0.2.0)
+Requires-Dist: openai (>=0.27.0)
+
