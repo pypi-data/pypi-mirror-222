@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: python-aap
+Version: 0.0.5
+Summary: Unofficial python wrapper over Ansible Automation Platform REST API
+Author-email: Ivan Mitruk <imitruk@redhat.com>
+Project-URL: Homepage, https://gitlab.corp.redhat.com/network/python-aap/
+Project-URL: Bug Tracker, https://gitlab.corp.redhat.com/network/python-aap/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Ansible Automation Platform Python Module
+
+This is unofficial wrapper for Ansible Automation Platform (AAP) API.
+
+## Example
+
+Python module can be invoked directly to execute job in aap and report status to terminal.
+```
+python_aap run-job --id <job-id> -f
+```
