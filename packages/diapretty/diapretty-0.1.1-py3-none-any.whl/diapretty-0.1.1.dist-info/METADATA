@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: diapretty
+Version: 0.1.1
+Summary: diapretty - LocalStack diagnosis pretty printer
+Home-page: https://github.com/silv-io/diapretty
+Author: Silvio Vasiljevic
+Author-email: silvio.vasiljevic@localstack.cloud
+Requires-Dist: jinja2
+Requires-Dist: click
+Provides-Extra: dev
+Requires-Dist: black (>=22.1) ; extra == 'dev'
+Requires-Dist: isort (>=5.10) ; extra == 'dev'
+

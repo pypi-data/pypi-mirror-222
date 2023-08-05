@@ -1,0 +1,13 @@
+diapretty/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diapretty/html.py,sha256=nNlKseJFQJ0JiPOivdmo5Y-eGklkx7wLRguaJKHG4No,1007
+diapretty/main.py,sha256=VyK5_t9MMtG2X8-Rn70yGu7FGlaDSLSB9-Q5JtbMvDw,512
+diapretty/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diapretty/server/__main__.py,sha256=N5njeWrHh0rgVOhUeZ8Sb_w2FWuYD6TaiuFSEbcC1Rk,212
+diapretty/server/api.py,sha256=YlzIOpgXJJCxHG168rWY9risuD8Rb63iRDcjrWmcEGM,559
+diapretty/templates/template.html.jinja2,sha256=0orfL-itRpftuK9rUsgPrVp1Gc7BeawBsf-dyckgspE,29756
+diapretty-0.1.1.data/scripts/diapretty,sha256=gP_fWvdUJRHUfnCY3i5EtrPuOQcFbtesnZFxw8GBelY,523
+diapretty-0.1.1.dist-info/METADATA,sha256=7tOh7lW4BKmKkSwAE1iMmB82ub86eRShIpf7WRZpqHg,391
+diapretty-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+diapretty-0.1.1.dist-info/entry_points.txt,sha256=0bHSKr0Jg1vDoh7ra3-snqaGBvUcP-YU89XIMKnvQx0,50
+diapretty-0.1.1.dist-info/top_level.txt,sha256=os2Y9MeZLRGq3R31lvb1Ph6FME7E7rOLcNTnp9yXuts,10
+diapretty-0.1.1.dist-info/RECORD,,
