@@ -1,0 +1,13 @@
+llama_trainer/__init__.py,sha256=LNhCpEUO03bzkqaA3D9WTBeQ89rbWupfz4xY1-C0bYg,90
+llama_trainer/infer.py,sha256=gVCDdCrmooyfRCZZyJzN31bniTpatUwlvde__gIFdjY,2998
+llama_trainer/trainer.py,sha256=v7Kp3nRo8MW9od6x55f3BxN26UMr1rYrK74r9lt0FtA,9226
+llama_trainer/version.py,sha256=F2zU3-yd6OoU_F3GDFnReDYRr6EDOGU7-5zkT7Inle4,466
+llama_trainer/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama_trainer/cli/train.py,sha256=H6AvaSA2s-x0AOOMrmiJ7rlhSoc3cHuUHc4uDo84uWs,5218
+llama_trainer/utils/__init__.py,sha256=xLk1RhwOYDFCMMewa4CYtYPlJ7_0NxfaCdQV3qidwxU,262
+llama_trainer/utils/llama_patch.py,sha256=dubZer3mYfZv0ZoWzs9-MouSaA6Fne_aqGnFX5SGH5Y,6147
+llama_trainer/utils/stopping_criteria.py,sha256=28-rSJj1v2qSrdv4ULhEFIKjqwB9jwj9pP9MfSiJCHw,906
+llama_trainer-0.1.0.dist-info/METADATA,sha256=8543R9o9rWHOg-K14R9tzBvFJ5VEgoP9vp_9owA047c,1961
+llama_trainer-0.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+llama_trainer-0.1.0.dist-info/top_level.txt,sha256=8k1VVgmrHsSRfUkfDTDuWUh5sJy3sDmhRMbjLLqpl28,14
+llama_trainer-0.1.0.dist-info/RECORD,,
