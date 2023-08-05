@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: diagnostic
+Version: 1.0.0
+Summary: Present errors that contain causes better understand what happened.
+Author-email: Pradyun Gedam <mail@pradyunsg.me>
+Requires-Python: >=3.7
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Typing :: Typed
+Requires-Dist: rich
+Requires-Dist: markdown-it-py
+Requires-Dist: typing_extensions; python_version < '3.10'
+Requires-Dist: docutils
+Requires-Dist: docutils ; extra == "check-docs"
+Project-URL: Documentation, https://diagnostic.readthedocs.io/en/stable/
+Project-URL: GitHub, https://github.com/pradyunsg/diagnostic
+Provides-Extra: check-docs
