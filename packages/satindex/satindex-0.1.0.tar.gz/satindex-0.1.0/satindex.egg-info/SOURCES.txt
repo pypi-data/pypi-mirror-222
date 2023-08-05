@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.rst
+setup.cfg
+setup.py
+satindex/__init__.py
+satindex/satellite_image.py
+satindex.egg-info/PKG-INFO
+satindex.egg-info/SOURCES.txt
+satindex.egg-info/dependency_links.txt
+satindex.egg-info/not-zip-safe
+satindex.egg-info/requires.txt
+satindex.egg-info/top_level.txt
+tests/test_satindex.py
