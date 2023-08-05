@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: prioritydecorators
+Version: 0.1.0
+Summary: Library for adding/removing multiple decorators to a method with priorities
+Home-page: UNKNOWN
+Author: Maxim Gorbach
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: sortedcontainers (==2.4.0)
+
+UNKNOWN
+
