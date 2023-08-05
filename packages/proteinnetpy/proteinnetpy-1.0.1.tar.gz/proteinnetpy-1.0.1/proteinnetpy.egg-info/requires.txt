@@ -1,0 +1,10 @@
+numpy
+biopython
+
+[datasets]
+
+[datasets:sys_platform != "darwin" or platform_machine != "arm64"]
+tensorflow<3,>=2
+
+[datasets:sys_platform == "darwin" and platform_machine == "arm64"]
+tensorflow-macos<3,>=2
