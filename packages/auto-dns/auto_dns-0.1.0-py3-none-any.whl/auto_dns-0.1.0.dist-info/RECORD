@@ -1,0 +1,12 @@
+auto_dns/__init__.py,sha256=DKEQajhi_CBajEvPCJ_txZzm3ZM-q4M3EZsXrKdA10w,44
+auto_dns/__main__.py,sha256=ZhYXpfpOWXOmCqZDGYJN2BCBinekRuux1gbWAyTdn8Q,48
+auto_dns/dns_providers/__init__.py,sha256=4yUKWJDGNT29gnyCtxDRIjLO6DAgNH2NlYwaoZLklos,60
+auto_dns/dns_providers/arvan.py,sha256=D6FnsHy7uHEDQWeXtEuWHan-Qge3dTFCbfiPR3g73Ls,521
+auto_dns/dns_providers/base.py,sha256=aHzfa3N_AOBdbnHizGEOOfCsHCssBCi11IMomacnQXg,415
+auto_dns/dns_providers/cloudflare.py,sha256=9GhuWb5x5nz7zkVawzgdMbIPUWahYLdbtNEBLBPSpOo,545
+auto_dns/exceptions.py,sha256=acqoSpZJizK1y0b1B3wNkeP67HWpFtJ4eVcpe2MNwuk,111
+auto_dns/main.py,sha256=cVGnhkf0bruG32Jdc4axYds65jCkYUP35PkTI4fb3AE,3811
+auto_dns-0.1.0.dist-info/entry_points.txt,sha256=USekCzN1pvFK9OQfU_JOzr8icNYFwZEPrc1a-5tvbeE,40
+auto_dns-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+auto_dns-0.1.0.dist-info/METADATA,sha256=3-SLryy3HlcclsrCGObxxmF4UjdoPcgUDNJxjWOCaDk,1492
+auto_dns-0.1.0.dist-info/RECORD,,
