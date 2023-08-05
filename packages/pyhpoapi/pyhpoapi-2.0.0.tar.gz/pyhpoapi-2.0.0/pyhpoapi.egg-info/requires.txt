@@ -1,0 +1,6 @@
+pydantic>=2
+scipy
+pyhpo>=3.2
+fastapi>=0.100
+uvicorn
+aiofiles
