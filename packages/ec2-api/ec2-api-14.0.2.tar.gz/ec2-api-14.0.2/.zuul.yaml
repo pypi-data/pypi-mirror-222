@@ -1,0 +1,13 @@
+- project:
+    queue: ec2-api
+    templates:
+      - check-requirements
+      - openstack-lower-constraints-jobs
+      - openstack-python3-yoga-jobs
+      - publish-openstack-docs-pti
+    check:
+      jobs:
+        - ec2api-tempest-plugin-functional
+    gate:
+      jobs:
+        - ec2api-tempest-plugin-functional
