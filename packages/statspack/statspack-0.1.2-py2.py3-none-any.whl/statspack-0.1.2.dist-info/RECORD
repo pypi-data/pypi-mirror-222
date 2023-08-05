@@ -1,0 +1,10 @@
+statspack/__init__.py,sha256=Ku0aUO3Ax2qfkEqpKk6gKqCxwazvW6IMZsigUJRTKLo,626
+statspack/binning.py,sha256=y0BhJLQPRGRlZ54s6SNe_y_iDjMHftMNoDIEeydNJJk,3922
+statspack/contour_pdf.py,sha256=HT4h9ECPNMXPbui256uz9PM3O6pxZxzFZ1vVYdKHsiY,3632
+statspack/density_contour.py,sha256=ulB9HbMkdhVL7uhl50zTbZ33ezF0oGKMuceVAI5fdkQ,3344
+statspack/find_confidence_interval.py,sha256=447-X3Xx0djxLAbSeu6KkmFtvmEJxKbF0UwC4XZd3eo,1611
+statspack-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+statspack-0.1.2.dist-info/METADATA,sha256=hM8x4mgIpeJnKVhHS26LPg5t3q_65NowqUgbPQfVbXI,3430
+statspack-0.1.2.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+statspack-0.1.2.dist-info/top_level.txt,sha256=ipXMiotZgIw2bhnimE3reYNHfAk_BYb0YmVDQjhmXmo,10
+statspack-0.1.2.dist-info/RECORD,,
