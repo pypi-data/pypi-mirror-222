@@ -1,0 +1,14 @@
+usepy_plugin_notify/__init__.py,sha256=YCCpG2BLB0TvJuMSiNFGA3Yg1c4bKObyxIAuWBnSE1g,89
+usepy_plugin_notify/channels/__init__.py,sha256=PjvEbAAwrsffi119p9HTJhHP3qw3_OiGkQ0CVQ8wbjQ,219
+usepy_plugin_notify/channels/bark.py,sha256=l9VLFMmD09iAHKXwahNPeUsvzfYnxjDmK1eJvlITYqk,962
+usepy_plugin_notify/channels/base.py,sha256=Zpz22I0m2gB_G8NmkXxQDIdg0ZsX_WXCnHzPFbE9leg,367
+usepy_plugin_notify/channels/chanify.py,sha256=2_AO1dq1XV6V3jkOPsNS8Lgig-1CJcSgyc7uliNIKw4,1066
+usepy_plugin_notify/channels/ding.py,sha256=GebNQN7CNIyb3xOKecIShnJA7sxLiwO4jvh8yK-JLt4,1343
+usepy_plugin_notify/channels/email.py,sha256=FHYwcTT5J3gvQ3Wj6kLngAwTQArSBbWaqd72vHiFSrQ,1690
+usepy_plugin_notify/channels/pushdeer.py,sha256=QQ7cfmb37DJ1ofEgR7dEKGSRhlcfX3_6OUVNwKr7Fsw,1069
+usepy_plugin_notify/channels/pushover.py,sha256=c56UInTHskT1icrXIJcElz2c36mWEqPPXLR3hbsDJEc,1166
+usepy_plugin_notify/channels/wechat.py,sha256=4JosX-T764bUAkSiF96Ru9N5BpsThaUxh4-JxBsu8Eg,1137
+usepy_plugin_notify/notification.py,sha256=3PbuaNh6ow5zJnJa1gVWI6CuIu-2ukjjpBzj3GXIsiE,1201
+usepy_plugin_notify-0.3.0.dist-info/METADATA,sha256=3OwPviLcwIHDj4Znbwz9ImCTd7umjnoOW7r-WVE2y7Q,1728
+usepy_plugin_notify-0.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+usepy_plugin_notify-0.3.0.dist-info/RECORD,,
