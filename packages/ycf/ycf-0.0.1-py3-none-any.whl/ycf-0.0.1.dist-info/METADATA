@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ycf
+Version: 0.0.1
+Summary: A script to help solve problems
+Author: UMadd
+Project-URL: Homepage, https://github.com/UltraMadd/yourcodeforce
+Project-URL: Bug Tracker, https://github.com/UltraMadd/yourcodeforce/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# yourcodeforce
+
+Small python script that allows you to solve problems offline
+
+## Problems
+2014 dump of PE
+
+## Install And Use
+
+### Install from pypi
+`pip install ycf`
+
+### Usage
+`ycf --help`
+
+
+## Todos
+- [ ] Add more problems
+
