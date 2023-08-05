@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+neffint/__init__.py
+neffint/_version.py
+neffint/adaptive_fourier_integral.py
+neffint/fixed_grid_fourier_integral.py
+neffint/utils.py
+neffint.egg-info/PKG-INFO
+neffint.egg-info/SOURCES.txt
+neffint.egg-info/dependency_links.txt
+neffint.egg-info/requires.txt
+neffint.egg-info/top_level.txt
+tests/test_adaptive_fourier_integral.py
+tests/test_fixed_grid_fourier_integral.py

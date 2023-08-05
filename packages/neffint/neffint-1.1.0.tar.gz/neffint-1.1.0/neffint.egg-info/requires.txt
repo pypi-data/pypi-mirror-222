@@ -1,0 +1,16 @@
+numpy
+scipy
+
+[core]
+numpy
+scipy
+
+[docs]
+sphinx
+sphinx-rtd-theme
+nbsphinx
+nbsphinx-link
+ipykernel
+
+[test]
+pytest
