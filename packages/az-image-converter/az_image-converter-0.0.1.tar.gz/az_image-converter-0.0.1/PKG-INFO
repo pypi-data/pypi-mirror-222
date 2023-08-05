@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: az_image-converter
+Version: 0.0.1
+Summary: Az Image Converter is a Python library that provides a simple and convenient way to convert images. A Library by Azeem Akhtar
+Author: Azeem Akhtar
+Author-email: hellomazeem@gmail.com
+Keywords: Image,Image Converter,PNG TO JPG Converter,JPG TO PNG Converter,Azeem Akhtar
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Az Image Converter is a Python library that provides a simple and convenient way to convert images between different formats using the Pillow library.
