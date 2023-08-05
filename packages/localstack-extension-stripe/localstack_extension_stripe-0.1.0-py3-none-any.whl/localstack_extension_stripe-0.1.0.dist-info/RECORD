@@ -1,0 +1,9 @@
+localstack_stripe/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+localstack_stripe/extension.py,sha256=926NRGgAOcHXghvHyt6UoYcZAWCiwsgnVK-3uy-BrI0,1343
+localstack_stripe/localstripe.py,sha256=DG1ME2YLCLPnh48A6JfBMOlg6s1nKI1tLkv0Wr6mFYc,756
+localstack_extension_stripe-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+localstack_extension_stripe-0.1.0.dist-info/METADATA,sha256=OLQsWIFxe-UMoUR9ZyqwdHX4xwl_4Xbh7x9j3BKUfDk,1797
+localstack_extension_stripe-0.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+localstack_extension_stripe-0.1.0.dist-info/entry_points.txt,sha256=sxNi8JAVIogr4wVgXZ916grAuIQtJJCY9z7aWT1p64Q,87
+localstack_extension_stripe-0.1.0.dist-info/top_level.txt,sha256=0Y3ZkmhFL65L73Hw0uX3K67_Xi5m52lGJZef2L55nDo,18
+localstack_extension_stripe-0.1.0.dist-info/RECORD,,
