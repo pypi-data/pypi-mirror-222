@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydeum"
+version = "0.0.1"
+authors = [
+  { name="Louis Grange", email="louisgrange@ik.me" },
+]
+description = "Blockchain access to Ideum"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    'Development Status :: 1 - Planning',
+    'Intended Audience :: Financial and Insurance Industry',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3',
+    'Topic :: Office/Business :: Financial'
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Iodeum/pydeum"
+"Bug Tracker" = "https://github.com/Iodeum/pydeum/issues"

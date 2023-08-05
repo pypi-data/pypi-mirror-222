@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pydeum
+Version: 0.0.1
+Summary: Blockchain access to Ideum
+Author-email: Louis Grange <louisgrange@ik.me>
+Project-URL: Homepage, https://github.com/Iodeum/pydeum
+Project-URL: Bug Tracker, https://github.com/Iodeum/pydeum/issues
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business :: Financial
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Installation
+
+```shell
+pip3 install 
+```
+
+```python
+
+```
