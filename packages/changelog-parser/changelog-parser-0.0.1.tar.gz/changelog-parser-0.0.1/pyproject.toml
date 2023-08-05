@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "changelog-parser"
+version = "0.0.1"
+description = "Parses changelog files"
+readme = "README.md"
+requires-python = ">= 3.8"
+license.file = "LICENSE"
+authors = [
+  { name = "Jason Stiefel", email = "Jason.R.Stiefel@gmail.com" }
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+urls.homepage = "https://github.com/JasonStiefel/changelog-parser"
+urls.changelog = "https://github.com/JasonStiefel/changelog-parser/blob/main/CHANGELOG.md"
+
+dependencies = [
+  "semver"
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+  "pytest-xdist"
+]
+
+[tool.pytest.ini_options]
+log_cli_level = "info"
+testpaths = [ "test" ]
+
+[tool.setuptools.package-dir]
+changelog = "src"
+
+[tool.setuptools.package-data]
+profile_service = [
+  "*.ini"
+]
