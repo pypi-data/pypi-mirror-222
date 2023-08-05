@@ -1,0 +1,11 @@
+numpy
+pandas
+biopython
+tqdm
+proteinnetpy
+
+[:sys_platform != "darwin" or platform_machine != "arm64"]
+tensorflow<3.0.0,>=2.6.0
+
+[:sys_platform == "darwin" and platform_machine == "arm64"]
+tensorflow-macos<3.0.0,>=2.6.0
