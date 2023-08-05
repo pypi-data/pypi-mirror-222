@@ -1,0 +1,8 @@
+ansys/dpf/gatebin/_version.py,sha256=ZvcHOxQ7hM_ZVsUXKm6kc2qblSjHsU0P0cAt4SjdjlQ,160
+ansys/dpf/gatebin/libAns.Dpf.GrpcClient.so,sha256=EGcVFt_bsdN00g6iixhddpO56XeRnTiLd98gs2WB7Tk,17876568
+ansys/dpf/gatebin/libDPFClientAPI.so,sha256=uAkdtTgtjPbxGMLVSA2FjJY7wmW9TfiBWfqKmHMzZsw,1718688
+ansys_dpf_gatebin-0.4.0.dist-info/LICENSE,sha256=mP9YC7yLdV25DlDjg6RnKlI457fy-sUACVGgbI4zEqo,1306
+ansys_dpf_gatebin-0.4.0.dist-info/METADATA,sha256=1LGo7H9CLEw5iV4FuZOYs-7u2ftre9PtonnJO96jWLM,1246
+ansys_dpf_gatebin-0.4.0.dist-info/WHEEL,sha256=M3kLzn9mAxa7ayUm_cCKSC3BYqHK-BfmGDlZW_0L8Po,106
+ansys_dpf_gatebin-0.4.0.dist-info/top_level.txt,sha256=9rw0UJ0mtof2GA3U8RpqYo6EmbpfE8-wo3NoX6SlYtg,6
+ansys_dpf_gatebin-0.4.0.dist-info/RECORD,,
