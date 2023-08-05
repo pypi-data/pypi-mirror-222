@@ -1,0 +1,13 @@
+easy_logger/__init__.py,sha256=antcNjvWFjdK_AFSG5I656673uqx4isI4-cUAoSryIc,695
+easy_logger/_version.py,sha256=ooH0pgbKoGv7jBDUS6gbeis8xXYQsPqeAOqeDtE7U_E,48
+easy_logger/decorate.py,sha256=dQA1Cno2qGMbEgvWIOQxfCJps3mYhmPEHU6nQpEqYRk,5799
+easy_logger/log_config.py,sha256=gjzMnUvr5VUxA-6oxW1N_MdP_UoCo5-DuSzVKtpzaY8,7359
+easy_logger/log_format.py,sha256=wjL3Rn8cO9YvoxSJmaWtmSNjKuHgxb7fL_JuBbtHqGg,2277
+easy_logger/statics.py,sha256=c97c4TpF_-EeXc_JuKjVnjXOPLlHg6paUHm5bwgPGE8,192
+easy_logger/utils.py,sha256=yY3xuUApXf3d02vi8zuhsqG77uc_sEF4paFpaVullfM,2142
+py_easy_logger-0.0.5.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+py_easy_logger-0.0.5.dist-info/METADATA,sha256=79LRF8-WZ54u8AOIAZDlxTkEUN4W0-L5N_emfj_jrkw,47833
+py_easy_logger-0.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+py_easy_logger-0.0.5.dist-info/top_level.txt,sha256=35X4uUL3-mSpqofJ23Vvta6ihBPWs7ovK2OCDfOq3pQ,12
+py_easy_logger-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+py_easy_logger-0.0.5.dist-info/RECORD,,
