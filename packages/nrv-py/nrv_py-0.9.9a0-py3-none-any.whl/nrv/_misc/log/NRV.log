@@ -1,0 +1,1919 @@
+07/26/2023 10:19:44 AM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/26/2023 10:20:01 AM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/26/2023 10:32:31 AM running egg_info
+07/26/2023 10:32:31 AM creating nrv_py.egg-info
+07/26/2023 10:32:31 AM writing nrv_py.egg-info/PKG-INFO
+07/26/2023 10:32:31 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/26/2023 10:32:31 AM writing requirements to nrv_py.egg-info/requires.txt
+07/26/2023 10:32:31 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/26/2023 10:32:31 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/26/2023 10:32:31 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/26/2023 10:32:31 AM reading manifest template 'MANIFEST.in'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/geom/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/log/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/mods/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/pops/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/ppops/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/stats/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/materials/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/NRV.ini'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/26/2023 10:32:31 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/26/2023 10:32:31 AM running sdist
+07/26/2023 10:32:31 AM running egg_info
+07/26/2023 10:32:31 AM writing nrv_py.egg-info/PKG-INFO
+07/26/2023 10:32:31 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/26/2023 10:32:31 AM writing requirements to nrv_py.egg-info/requires.txt
+07/26/2023 10:32:31 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/26/2023 10:32:31 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/26/2023 10:32:31 AM reading manifest template 'MANIFEST.in'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/geom/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/log/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/mods/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/pops/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/ppops/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/stats/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/materials/*'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrv/NRV.ini'
+07/26/2023 10:32:31 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/26/2023 10:32:31 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/26/2023 10:32:31 AM running check
+07/26/2023 10:32:31 AM creating nrv-py-0.9.9
+07/26/2023 10:32:31 AM creating nrv-py-0.9.9/nrv
+07/26/2023 10:32:31 AM creating nrv-py-0.9.9/nrv_py.egg-info
+07/26/2023 10:32:31 AM copying files to nrv-py-0.9.9...
+07/26/2023 10:32:31 AM copying MANIFEST.in -> nrv-py-0.9.9
+07/26/2023 10:32:31 AM copying pyproject.toml -> nrv-py-0.9.9
+07/26/2023 10:32:31 AM copying setup.py -> nrv-py-0.9.9
+07/26/2023 10:32:31 AM copying nrv/__init__.py -> nrv-py-0.9.9/nrv
+07/26/2023 10:32:31 AM copying nrv_py.egg-info/PKG-INFO -> nrv-py-0.9.9/nrv_py.egg-info
+07/26/2023 10:32:31 AM copying nrv_py.egg-info/SOURCES.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/26/2023 10:32:31 AM copying nrv_py.egg-info/dependency_links.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/26/2023 10:32:31 AM copying nrv_py.egg-info/requires.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/26/2023 10:32:31 AM copying nrv_py.egg-info/top_level.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/26/2023 10:32:31 AM Writing nrv-py-0.9.9/setup.cfg
+07/26/2023 10:32:31 AM Creating tar archive
+07/26/2023 10:32:31 AM removing 'nrv-py-0.9.9' (and everything under it)
+07/26/2023 10:32:37 AM running egg_info
+07/26/2023 10:32:37 AM writing nrv_py.egg-info/PKG-INFO
+07/26/2023 10:32:37 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/26/2023 10:32:37 AM writing requirements to nrv_py.egg-info/requires.txt
+07/26/2023 10:32:37 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/26/2023 10:32:37 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/26/2023 10:32:37 AM reading manifest template 'MANIFEST.in'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/geom/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/log/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/mods/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/pops/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/ppops/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/stats/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/materials/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/NRV.ini'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/26/2023 10:32:37 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/26/2023 10:32:37 AM running bdist_wheel
+07/26/2023 10:32:37 AM running build
+07/26/2023 10:32:37 AM running build_py
+07/26/2023 10:32:37 AM creating build
+07/26/2023 10:32:37 AM creating build/lib
+07/26/2023 10:32:37 AM creating build/lib/nrv
+07/26/2023 10:32:37 AM copying nrv/__init__.py -> build/lib/nrv
+07/26/2023 10:32:37 AM running egg_info
+07/26/2023 10:32:37 AM writing nrv_py.egg-info/PKG-INFO
+07/26/2023 10:32:37 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/26/2023 10:32:37 AM writing requirements to nrv_py.egg-info/requires.txt
+07/26/2023 10:32:37 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/26/2023 10:32:37 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/26/2023 10:32:37 AM reading manifest template 'MANIFEST.in'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/geom/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/log/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/mods/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/pops/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/ppops/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/stats/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/materials/*'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrv/NRV.ini'
+07/26/2023 10:32:37 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/26/2023 10:32:37 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/26/2023 10:32:37 AM installing to build/bdist.macosx-10.9-x86_64/wheel
+07/26/2023 10:32:37 AM running install
+07/26/2023 10:32:37 AM running install_lib
+07/26/2023 10:32:37 AM creating build/bdist.macosx-10.9-x86_64
+07/26/2023 10:32:37 AM creating build/bdist.macosx-10.9-x86_64/wheel
+07/26/2023 10:32:37 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/26/2023 10:32:37 AM copying build/lib/nrv/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/26/2023 10:32:37 AM running install_egg_info
+07/26/2023 10:32:37 AM Copying nrv_py.egg-info to build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9-py3.10.egg-info
+07/26/2023 10:32:37 AM running install_scripts
+07/26/2023 10:32:37 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9.dist-info/WHEEL
+07/26/2023 10:32:37 AM creating '/Users/fkolbl/Desktop/NRV-master/dist/.tmp-3uwxrjq7/nrv_py-0.9.9-py3-none-any.whl' and adding 'build/bdist.macosx-10.9-x86_64/wheel' to it
+07/26/2023 10:32:37 AM adding 'nrv/__init__.py'
+07/26/2023 10:32:37 AM adding 'nrv_py-0.9.9.dist-info/METADATA'
+07/26/2023 10:32:37 AM adding 'nrv_py-0.9.9.dist-info/WHEEL'
+07/26/2023 10:32:37 AM adding 'nrv_py-0.9.9.dist-info/top_level.txt'
+07/26/2023 10:32:37 AM adding 'nrv_py-0.9.9.dist-info/RECORD'
+07/26/2023 10:32:37 AM removing build/bdist.macosx-10.9-x86_64/wheel
+07/26/2023 02:08:59 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/26/2023 02:09:15 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/26/2023 02:10:36 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/26/2023 02:16:20 PM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/26/2023 02:40:40 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/26/2023 02:40:43 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/26/2023 02:45:02 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/26/2023 02:45:43 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/26/2023 02:48:50 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/26/2023 02:49:16 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/27/2023 10:22:41 AM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/27/2023 10:42:01 AM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/27/2023 11:11:43 AM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/27/2023 12:59:09 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/27/2023 01:00:01 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/27/2023 01:04:28 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/27/2023 01:09:56 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/27/2023 01:15:16 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/27/2023 01:26:51 PM /Users/fkolbl/Desktop/NRV-master/nrv/nmod/fascicle_generator.py:628: NumbaDeprecationWarning: [1mThe 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.[0m
+  @numba.jit(fastmath=True, cache=True)
+
+07/27/2023 01:28:02 PM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/27/2023 01:28:02 PM running egg_info
+07/27/2023 01:28:02 PM creating nrv_py.egg-info
+07/27/2023 01:28:02 PM writing nrv_py.egg-info/PKG-INFO
+07/27/2023 01:28:02 PM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/27/2023 01:28:02 PM writing requirements to nrv_py.egg-info/requires.txt
+07/27/2023 01:28:02 PM writing top-level names to nrv_py.egg-info/top_level.txt
+07/27/2023 01:28:02 PM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:28:02 PM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:28:02 PM reading manifest template 'MANIFEST.in'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/geom/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/comsol_templates/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/log/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/mods/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/OTF_PP/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/pops/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/ppops/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/stats/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/materials/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/NRV.ini'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrn/nrv2calm/*'
+07/27/2023 01:28:02 PM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:28:02 PM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/27/2023 01:28:02 PM running sdist
+07/27/2023 01:28:02 PM running egg_info
+07/27/2023 01:28:02 PM writing nrv_py.egg-info/PKG-INFO
+07/27/2023 01:28:02 PM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/27/2023 01:28:02 PM writing requirements to nrv_py.egg-info/requires.txt
+07/27/2023 01:28:02 PM writing top-level names to nrv_py.egg-info/top_level.txt
+07/27/2023 01:28:02 PM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:28:02 PM reading manifest template 'MANIFEST.in'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/geom/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/comsol_templates/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/log/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/mods/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/OTF_PP/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/pops/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/ppops/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/stats/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/materials/*'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrv/NRV.ini'
+07/27/2023 01:28:02 PM warning: no files found matching 'nrn/nrv2calm/*'
+07/27/2023 01:28:02 PM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:28:02 PM running check
+07/27/2023 01:28:02 PM creating nrv-py-0.9.9
+07/27/2023 01:28:02 PM creating nrv-py-0.9.9/nrv
+07/27/2023 01:28:02 PM creating nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:28:02 PM copying files to nrv-py-0.9.9...
+07/27/2023 01:28:02 PM copying MANIFEST.in -> nrv-py-0.9.9
+07/27/2023 01:28:02 PM copying pyproject.toml -> nrv-py-0.9.9
+07/27/2023 01:28:02 PM copying setup.py -> nrv-py-0.9.9
+07/27/2023 01:28:02 PM copying nrv/__init__.py -> nrv-py-0.9.9/nrv
+07/27/2023 01:28:02 PM copying nrv_py.egg-info/PKG-INFO -> nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:28:02 PM copying nrv_py.egg-info/SOURCES.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:28:02 PM copying nrv_py.egg-info/dependency_links.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:28:02 PM copying nrv_py.egg-info/requires.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:28:02 PM copying nrv_py.egg-info/top_level.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:28:02 PM Writing nrv-py-0.9.9/setup.cfg
+07/27/2023 01:28:02 PM Creating tar archive
+07/27/2023 01:28:02 PM removing 'nrv-py-0.9.9' (and everything under it)
+07/27/2023 01:28:08 PM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/27/2023 01:28:08 PM running egg_info
+07/27/2023 01:28:08 PM writing nrv_py.egg-info/PKG-INFO
+07/27/2023 01:28:08 PM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/27/2023 01:28:08 PM writing requirements to nrv_py.egg-info/requires.txt
+07/27/2023 01:28:08 PM writing top-level names to nrv_py.egg-info/top_level.txt
+07/27/2023 01:28:08 PM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:28:08 PM reading manifest template 'MANIFEST.in'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrv/geom/*'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrv/comsol_templates/*'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrv/log/*'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrv/mods/*'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrv/OTF_PP/*'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrv/pops/*'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrv/ppops/*'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrv/stats/*'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrv/materials/*'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrv/NRV.ini'
+07/27/2023 01:28:08 PM warning: no files found matching 'nrn/nrv2calm/*'
+07/27/2023 01:28:08 PM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:28:09 PM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/27/2023 01:28:09 PM running bdist_wheel
+07/27/2023 01:28:09 PM running build
+07/27/2023 01:28:09 PM running build_py
+07/27/2023 01:28:09 PM creating build
+07/27/2023 01:28:09 PM creating build/lib
+07/27/2023 01:28:09 PM creating build/lib/nrv
+07/27/2023 01:28:09 PM copying nrv/__init__.py -> build/lib/nrv
+07/27/2023 01:28:09 PM running egg_info
+07/27/2023 01:28:09 PM writing nrv_py.egg-info/PKG-INFO
+07/27/2023 01:28:09 PM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/27/2023 01:28:09 PM writing requirements to nrv_py.egg-info/requires.txt
+07/27/2023 01:28:09 PM writing top-level names to nrv_py.egg-info/top_level.txt
+07/27/2023 01:28:09 PM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:28:09 PM reading manifest template 'MANIFEST.in'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrv/geom/*'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrv/comsol_templates/*'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrv/log/*'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrv/mods/*'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrv/OTF_PP/*'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrv/pops/*'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrv/ppops/*'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrv/stats/*'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrv/materials/*'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrv/NRV.ini'
+07/27/2023 01:28:09 PM warning: no files found matching 'nrn/nrv2calm/*'
+07/27/2023 01:28:09 PM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:28:09 PM installing to build/bdist.macosx-10.9-x86_64/wheel
+07/27/2023 01:28:09 PM running install
+07/27/2023 01:28:09 PM running install_lib
+07/27/2023 01:28:09 PM creating build/bdist.macosx-10.9-x86_64
+07/27/2023 01:28:09 PM creating build/bdist.macosx-10.9-x86_64/wheel
+07/27/2023 01:28:09 PM creating build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/27/2023 01:28:09 PM copying build/lib/nrv/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/27/2023 01:28:09 PM running install_egg_info
+07/27/2023 01:28:09 PM Copying nrv_py.egg-info to build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9-py3.10.egg-info
+07/27/2023 01:28:09 PM running install_scripts
+07/27/2023 01:28:09 PM creating build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9.dist-info/WHEEL
+07/27/2023 01:28:09 PM creating '/Users/fkolbl/Desktop/NRV-master/dist/.tmp-w5e6i24c/nrv_py-0.9.9-py3-none-any.whl' and adding 'build/bdist.macosx-10.9-x86_64/wheel' to it
+07/27/2023 01:28:09 PM adding 'nrv/__init__.py'
+07/27/2023 01:28:09 PM adding 'nrv_py-0.9.9.dist-info/METADATA'
+07/27/2023 01:28:09 PM adding 'nrv_py-0.9.9.dist-info/WHEEL'
+07/27/2023 01:28:09 PM adding 'nrv_py-0.9.9.dist-info/top_level.txt'
+07/27/2023 01:28:09 PM adding 'nrv_py-0.9.9.dist-info/RECORD'
+07/27/2023 01:28:09 PM removing build/bdist.macosx-10.9-x86_64/wheel
+07/27/2023 01:36:11 PM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/27/2023 01:36:11 PM running egg_info
+07/27/2023 01:36:11 PM creating nrv_py.egg-info
+07/27/2023 01:36:11 PM writing nrv_py.egg-info/PKG-INFO
+07/27/2023 01:36:11 PM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/27/2023 01:36:11 PM writing requirements to nrv_py.egg-info/requires.txt
+07/27/2023 01:36:11 PM writing top-level names to nrv_py.egg-info/top_level.txt
+07/27/2023 01:36:11 PM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:36:11 PM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:36:11 PM reading manifest template 'MANIFEST.in'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrv/geom/*'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrv/comsol_templates/*'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrv/log/*'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrv/mods/*'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrv/OTF_PP/*'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrv/pops/*'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrv/ppops/*'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrv/stats/*'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrv/materials/*'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrv/NRV.ini'
+07/27/2023 01:36:11 PM warning: no files found matching 'nrn/nrv2calm/*'
+07/27/2023 01:36:11 PM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:36:12 PM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/27/2023 01:36:12 PM running sdist
+07/27/2023 01:36:12 PM running egg_info
+07/27/2023 01:36:12 PM writing nrv_py.egg-info/PKG-INFO
+07/27/2023 01:36:12 PM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/27/2023 01:36:12 PM writing requirements to nrv_py.egg-info/requires.txt
+07/27/2023 01:36:12 PM writing top-level names to nrv_py.egg-info/top_level.txt
+07/27/2023 01:36:12 PM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:36:12 PM reading manifest template 'MANIFEST.in'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrv/geom/*'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrv/comsol_templates/*'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrv/log/*'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrv/mods/*'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrv/OTF_PP/*'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrv/pops/*'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrv/ppops/*'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrv/stats/*'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrv/materials/*'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrv/NRV.ini'
+07/27/2023 01:36:12 PM warning: no files found matching 'nrn/nrv2calm/*'
+07/27/2023 01:36:12 PM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:36:12 PM running check
+07/27/2023 01:36:12 PM creating nrv-py-0.9.9
+07/27/2023 01:36:12 PM creating nrv-py-0.9.9/nrv
+07/27/2023 01:36:12 PM creating nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:36:12 PM copying files to nrv-py-0.9.9...
+07/27/2023 01:36:12 PM copying MANIFEST.in -> nrv-py-0.9.9
+07/27/2023 01:36:12 PM copying pyproject.toml -> nrv-py-0.9.9
+07/27/2023 01:36:12 PM copying setup.py -> nrv-py-0.9.9
+07/27/2023 01:36:12 PM copying nrv/__init__.py -> nrv-py-0.9.9/nrv
+07/27/2023 01:36:12 PM copying nrv_py.egg-info/PKG-INFO -> nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:36:12 PM copying nrv_py.egg-info/SOURCES.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:36:12 PM copying nrv_py.egg-info/dependency_links.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:36:12 PM copying nrv_py.egg-info/requires.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:36:12 PM copying nrv_py.egg-info/top_level.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/27/2023 01:36:12 PM Writing nrv-py-0.9.9/setup.cfg
+07/27/2023 01:36:12 PM Creating tar archive
+07/27/2023 01:36:12 PM removing 'nrv-py-0.9.9' (and everything under it)
+07/27/2023 01:36:17 PM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/27/2023 01:36:17 PM running egg_info
+07/27/2023 01:36:17 PM writing nrv_py.egg-info/PKG-INFO
+07/27/2023 01:36:17 PM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/27/2023 01:36:17 PM writing requirements to nrv_py.egg-info/requires.txt
+07/27/2023 01:36:17 PM writing top-level names to nrv_py.egg-info/top_level.txt
+07/27/2023 01:36:17 PM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:36:17 PM reading manifest template 'MANIFEST.in'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrv/geom/*'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrv/comsol_templates/*'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrv/log/*'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrv/mods/*'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrv/OTF_PP/*'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrv/pops/*'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrv/ppops/*'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrv/stats/*'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrv/materials/*'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrv/NRV.ini'
+07/27/2023 01:36:17 PM warning: no files found matching 'nrn/nrv2calm/*'
+07/27/2023 01:36:17 PM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:36:18 PM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/27/2023 01:36:18 PM running bdist_wheel
+07/27/2023 01:36:18 PM running build
+07/27/2023 01:36:18 PM running build_py
+07/27/2023 01:36:18 PM creating build
+07/27/2023 01:36:18 PM creating build/lib
+07/27/2023 01:36:18 PM creating build/lib/nrv
+07/27/2023 01:36:18 PM copying nrv/__init__.py -> build/lib/nrv
+07/27/2023 01:36:18 PM running egg_info
+07/27/2023 01:36:18 PM writing nrv_py.egg-info/PKG-INFO
+07/27/2023 01:36:18 PM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/27/2023 01:36:18 PM writing requirements to nrv_py.egg-info/requires.txt
+07/27/2023 01:36:18 PM writing top-level names to nrv_py.egg-info/top_level.txt
+07/27/2023 01:36:18 PM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:36:18 PM reading manifest template 'MANIFEST.in'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrv/geom/*'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrv/comsol_templates/*'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrv/log/*'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrv/mods/*'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrv/OTF_PP/*'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrv/pops/*'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrv/ppops/*'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrv/stats/*'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrv/materials/*'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrv/NRV.ini'
+07/27/2023 01:36:18 PM warning: no files found matching 'nrn/nrv2calm/*'
+07/27/2023 01:36:18 PM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/27/2023 01:36:18 PM installing to build/bdist.macosx-10.9-x86_64/wheel
+07/27/2023 01:36:18 PM running install
+07/27/2023 01:36:18 PM running install_lib
+07/27/2023 01:36:18 PM creating build/bdist.macosx-10.9-x86_64
+07/27/2023 01:36:18 PM creating build/bdist.macosx-10.9-x86_64/wheel
+07/27/2023 01:36:18 PM creating build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/27/2023 01:36:18 PM copying build/lib/nrv/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/27/2023 01:36:18 PM running install_egg_info
+07/27/2023 01:36:18 PM Copying nrv_py.egg-info to build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9-py3.10.egg-info
+07/27/2023 01:36:18 PM running install_scripts
+07/27/2023 01:36:18 PM creating build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9.dist-info/WHEEL
+07/27/2023 01:36:18 PM creating '/Users/fkolbl/Desktop/NRV-master/dist/.tmp-5r_vtlpb/nrv_py-0.9.9-py3-none-any.whl' and adding 'build/bdist.macosx-10.9-x86_64/wheel' to it
+07/27/2023 01:36:18 PM adding 'nrv/__init__.py'
+07/27/2023 01:36:18 PM adding 'nrv_py-0.9.9.dist-info/METADATA'
+07/27/2023 01:36:18 PM adding 'nrv_py-0.9.9.dist-info/WHEEL'
+07/27/2023 01:36:18 PM adding 'nrv_py-0.9.9.dist-info/top_level.txt'
+07/27/2023 01:36:18 PM adding 'nrv_py-0.9.9.dist-info/RECORD'
+07/27/2023 01:36:18 PM removing build/bdist.macosx-10.9-x86_64/wheel
+07/28/2023 10:55:01 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 10:55:01 AM running egg_info
+07/28/2023 10:55:01 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 10:55:01 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 10:55:01 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 10:55:01 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 10:55:01 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 10:55:01 AM reading manifest template 'MANIFEST.in'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 10:55:01 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 10:55:01 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 10:55:01 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 10:55:02 AM running sdist
+07/28/2023 10:55:02 AM running egg_info
+07/28/2023 10:55:02 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 10:55:02 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 10:55:02 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 10:55:02 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 10:55:02 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 10:55:02 AM reading manifest template 'MANIFEST.in'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 10:55:02 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 10:55:02 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 10:55:02 AM running check
+07/28/2023 10:55:02 AM creating nrv-py-0.9.9
+07/28/2023 10:55:02 AM creating nrv-py-0.9.9/nrv
+07/28/2023 10:55:02 AM creating nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 10:55:02 AM copying files to nrv-py-0.9.9...
+07/28/2023 10:55:02 AM copying MANIFEST.in -> nrv-py-0.9.9
+07/28/2023 10:55:02 AM copying pyproject.toml -> nrv-py-0.9.9
+07/28/2023 10:55:02 AM copying setup.py -> nrv-py-0.9.9
+07/28/2023 10:55:02 AM copying nrv/__init__.py -> nrv-py-0.9.9/nrv
+07/28/2023 10:55:02 AM copying nrv_py.egg-info/PKG-INFO -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 10:55:02 AM copying nrv_py.egg-info/SOURCES.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 10:55:02 AM copying nrv_py.egg-info/dependency_links.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 10:55:02 AM copying nrv_py.egg-info/requires.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 10:55:02 AM copying nrv_py.egg-info/top_level.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 10:55:02 AM Writing nrv-py-0.9.9/setup.cfg
+07/28/2023 10:55:02 AM Creating tar archive
+07/28/2023 10:55:02 AM removing 'nrv-py-0.9.9' (and everything under it)
+07/28/2023 10:55:07 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 10:55:07 AM running egg_info
+07/28/2023 10:55:07 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 10:55:07 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 10:55:07 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 10:55:07 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 10:55:07 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 10:55:07 AM reading manifest template 'MANIFEST.in'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 10:55:07 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 10:55:07 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 10:55:08 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 10:55:08 AM running bdist_wheel
+07/28/2023 10:55:08 AM running build
+07/28/2023 10:55:08 AM running build_py
+07/28/2023 10:55:08 AM creating build
+07/28/2023 10:55:08 AM creating build/lib
+07/28/2023 10:55:08 AM creating build/lib/nrv
+07/28/2023 10:55:08 AM copying nrv/__init__.py -> build/lib/nrv
+07/28/2023 10:55:08 AM running egg_info
+07/28/2023 10:55:08 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 10:55:08 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 10:55:08 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 10:55:08 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 10:55:08 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 10:55:08 AM reading manifest template 'MANIFEST.in'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 10:55:08 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 10:55:08 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 10:55:08 AM installing to build/bdist.macosx-10.9-x86_64/wheel
+07/28/2023 10:55:08 AM running install
+07/28/2023 10:55:08 AM running install_lib
+07/28/2023 10:55:08 AM creating build/bdist.macosx-10.9-x86_64
+07/28/2023 10:55:08 AM creating build/bdist.macosx-10.9-x86_64/wheel
+07/28/2023 10:55:08 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/28/2023 10:55:08 AM copying build/lib/nrv/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/28/2023 10:55:08 AM running install_egg_info
+07/28/2023 10:55:08 AM Copying nrv_py.egg-info to build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9-py3.10.egg-info
+07/28/2023 10:55:08 AM running install_scripts
+07/28/2023 10:55:08 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9.dist-info/WHEEL
+07/28/2023 10:55:08 AM creating '/Users/fkolbl/Desktop/NRV-master/dist/.tmp-x9451vam/nrv_py-0.9.9-py3-none-any.whl' and adding 'build/bdist.macosx-10.9-x86_64/wheel' to it
+07/28/2023 10:55:08 AM adding 'nrv/__init__.py'
+07/28/2023 10:55:08 AM adding 'nrv_py-0.9.9.dist-info/METADATA'
+07/28/2023 10:55:08 AM adding 'nrv_py-0.9.9.dist-info/WHEEL'
+07/28/2023 10:55:08 AM adding 'nrv_py-0.9.9.dist-info/top_level.txt'
+07/28/2023 10:55:08 AM adding 'nrv_py-0.9.9.dist-info/RECORD'
+07/28/2023 10:55:08 AM removing build/bdist.macosx-10.9-x86_64/wheel
+07/28/2023 11:06:18 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 11:06:18 AM running egg_info
+07/28/2023 11:06:18 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 11:06:18 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 11:06:18 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 11:06:18 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 11:06:18 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:06:18 AM reading manifest template 'MANIFEST.in'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 11:06:18 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 11:06:18 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:06:19 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 11:06:19 AM running sdist
+07/28/2023 11:06:19 AM running egg_info
+07/28/2023 11:06:19 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 11:06:19 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 11:06:19 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 11:06:19 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 11:06:19 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:06:19 AM reading manifest template 'MANIFEST.in'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 11:06:19 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 11:06:19 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:06:19 AM running check
+07/28/2023 11:06:19 AM creating nrv-py-0.9.9
+07/28/2023 11:06:19 AM creating nrv-py-0.9.9/nrv
+07/28/2023 11:06:19 AM creating nrv-py-0.9.9/nrv/backend
+07/28/2023 11:06:19 AM creating nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:06:19 AM creating nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:06:19 AM creating nrv-py-0.9.9/nrv/optim
+07/28/2023 11:06:19 AM creating nrv-py-0.9.9/nrv/utils
+07/28/2023 11:06:19 AM creating nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:06:19 AM copying files to nrv-py-0.9.9...
+07/28/2023 11:06:19 AM copying MANIFEST.in -> nrv-py-0.9.9
+07/28/2023 11:06:19 AM copying pyproject.toml -> nrv-py-0.9.9
+07/28/2023 11:06:19 AM copying setup.py -> nrv-py-0.9.9
+07/28/2023 11:06:19 AM copying nrv/__init__.py -> nrv-py-0.9.9/nrv
+07/28/2023 11:06:19 AM copying nrv/backend/MCore.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:06:19 AM copying nrv/backend/NRV_Class.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:06:19 AM copying nrv/backend/__init__.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:06:19 AM copying nrv/backend/compileMods.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:06:19 AM copying nrv/backend/file_handler.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:06:19 AM copying nrv/backend/inouts.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:06:19 AM copying nrv/backend/log_interface.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:06:19 AM copying nrv/backend/parameters.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:06:19 AM copying nrv/fmod/__init__.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:06:19 AM copying nrv/fmod/electrodes.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:06:19 AM copying nrv/fmod/extracellular.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:06:19 AM copying nrv/fmod/materials.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:06:19 AM copying nrv/fmod/recording.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:06:19 AM copying nrv/fmod/stimulus.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:06:19 AM copying nrv/nmod/__init__.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:06:19 AM copying nrv/nmod/axons.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:06:19 AM copying nrv/nmod/fascicle_generator.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:06:19 AM copying nrv/nmod/fascicles.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:06:19 AM copying nrv/nmod/myelinated.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:06:19 AM copying nrv/nmod/nerve.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:06:19 AM copying nrv/nmod/thin_myelinated.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:06:19 AM copying nrv/nmod/unmyelinated.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:06:19 AM copying nrv/optim/CostFunctions.py -> nrv-py-0.9.9/nrv/optim
+07/28/2023 11:06:19 AM copying nrv/optim/Optimizers.py -> nrv-py-0.9.9/nrv/optim
+07/28/2023 11:06:19 AM copying nrv/optim/Problems.py -> nrv-py-0.9.9/nrv/optim
+07/28/2023 11:06:19 AM copying nrv/optim/__init__.py -> nrv-py-0.9.9/nrv/optim
+07/28/2023 11:06:19 AM copying nrv/utils/__init__.py -> nrv-py-0.9.9/nrv/utils
+07/28/2023 11:06:19 AM copying nrv/utils/nrv_function.py -> nrv-py-0.9.9/nrv/utils
+07/28/2023 11:06:19 AM copying nrv/utils/saving_handler.py -> nrv-py-0.9.9/nrv/utils
+07/28/2023 11:06:19 AM copying nrv/utils/units.py -> nrv-py-0.9.9/nrv/utils
+07/28/2023 11:06:19 AM copying nrv_py.egg-info/PKG-INFO -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:06:19 AM copying nrv_py.egg-info/SOURCES.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:06:19 AM copying nrv_py.egg-info/dependency_links.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:06:19 AM copying nrv_py.egg-info/requires.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:06:19 AM copying nrv_py.egg-info/top_level.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:06:19 AM Writing nrv-py-0.9.9/setup.cfg
+07/28/2023 11:06:19 AM Creating tar archive
+07/28/2023 11:06:19 AM removing 'nrv-py-0.9.9' (and everything under it)
+07/28/2023 11:06:24 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 11:06:24 AM running egg_info
+07/28/2023 11:06:24 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 11:06:24 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 11:06:24 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 11:06:24 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 11:06:24 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:06:24 AM reading manifest template 'MANIFEST.in'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 11:06:24 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 11:06:24 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:06:25 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 11:06:25 AM running bdist_wheel
+07/28/2023 11:06:25 AM running build
+07/28/2023 11:06:25 AM running build_py
+07/28/2023 11:06:25 AM creating build
+07/28/2023 11:06:25 AM creating build/lib
+07/28/2023 11:06:25 AM creating build/lib/nrv
+07/28/2023 11:06:25 AM copying nrv/__init__.py -> build/lib/nrv
+07/28/2023 11:06:25 AM creating build/lib/nrv/backend
+07/28/2023 11:06:25 AM copying nrv/backend/file_handler.py -> build/lib/nrv/backend
+07/28/2023 11:06:25 AM copying nrv/backend/NRV_Class.py -> build/lib/nrv/backend
+07/28/2023 11:06:25 AM copying nrv/backend/compileMods.py -> build/lib/nrv/backend
+07/28/2023 11:06:25 AM copying nrv/backend/__init__.py -> build/lib/nrv/backend
+07/28/2023 11:06:25 AM copying nrv/backend/inouts.py -> build/lib/nrv/backend
+07/28/2023 11:06:25 AM copying nrv/backend/MCore.py -> build/lib/nrv/backend
+07/28/2023 11:06:25 AM copying nrv/backend/parameters.py -> build/lib/nrv/backend
+07/28/2023 11:06:25 AM copying nrv/backend/log_interface.py -> build/lib/nrv/backend
+07/28/2023 11:06:25 AM creating build/lib/nrv/fmod
+07/28/2023 11:06:25 AM copying nrv/fmod/recording.py -> build/lib/nrv/fmod
+07/28/2023 11:06:25 AM copying nrv/fmod/materials.py -> build/lib/nrv/fmod
+07/28/2023 11:06:25 AM copying nrv/fmod/extracellular.py -> build/lib/nrv/fmod
+07/28/2023 11:06:25 AM copying nrv/fmod/__init__.py -> build/lib/nrv/fmod
+07/28/2023 11:06:25 AM copying nrv/fmod/stimulus.py -> build/lib/nrv/fmod
+07/28/2023 11:06:25 AM copying nrv/fmod/electrodes.py -> build/lib/nrv/fmod
+07/28/2023 11:06:25 AM creating build/lib/nrv/nmod
+07/28/2023 11:06:25 AM copying nrv/nmod/thin_myelinated.py -> build/lib/nrv/nmod
+07/28/2023 11:06:25 AM copying nrv/nmod/axons.py -> build/lib/nrv/nmod
+07/28/2023 11:06:25 AM copying nrv/nmod/myelinated.py -> build/lib/nrv/nmod
+07/28/2023 11:06:25 AM copying nrv/nmod/__init__.py -> build/lib/nrv/nmod
+07/28/2023 11:06:25 AM copying nrv/nmod/fascicle_generator.py -> build/lib/nrv/nmod
+07/28/2023 11:06:25 AM copying nrv/nmod/nerve.py -> build/lib/nrv/nmod
+07/28/2023 11:06:25 AM copying nrv/nmod/unmyelinated.py -> build/lib/nrv/nmod
+07/28/2023 11:06:25 AM copying nrv/nmod/fascicles.py -> build/lib/nrv/nmod
+07/28/2023 11:06:25 AM creating build/lib/nrv/optim
+07/28/2023 11:06:25 AM copying nrv/optim/__init__.py -> build/lib/nrv/optim
+07/28/2023 11:06:25 AM copying nrv/optim/Optimizers.py -> build/lib/nrv/optim
+07/28/2023 11:06:25 AM copying nrv/optim/Problems.py -> build/lib/nrv/optim
+07/28/2023 11:06:25 AM copying nrv/optim/CostFunctions.py -> build/lib/nrv/optim
+07/28/2023 11:06:25 AM creating build/lib/nrv/utils
+07/28/2023 11:06:25 AM copying nrv/utils/saving_handler.py -> build/lib/nrv/utils
+07/28/2023 11:06:25 AM copying nrv/utils/units.py -> build/lib/nrv/utils
+07/28/2023 11:06:25 AM copying nrv/utils/__init__.py -> build/lib/nrv/utils
+07/28/2023 11:06:25 AM copying nrv/utils/nrv_function.py -> build/lib/nrv/utils
+07/28/2023 11:06:25 AM running egg_info
+07/28/2023 11:06:25 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 11:06:25 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 11:06:25 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 11:06:25 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 11:06:25 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:06:25 AM reading manifest template 'MANIFEST.in'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 11:06:25 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 11:06:25 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:06:25 AM installing to build/bdist.macosx-10.9-x86_64/wheel
+07/28/2023 11:06:25 AM running install
+07/28/2023 11:06:25 AM running install_lib
+07/28/2023 11:06:25 AM creating build/bdist.macosx-10.9-x86_64
+07/28/2023 11:06:25 AM creating build/bdist.macosx-10.9-x86_64/wheel
+07/28/2023 11:06:25 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/28/2023 11:06:25 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/fmod/recording.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/fmod/materials.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/fmod/extracellular.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/fmod/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/fmod/stimulus.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/fmod/electrodes.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:06:25 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/optim
+07/28/2023 11:06:25 AM copying build/lib/nrv/optim/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/optim
+07/28/2023 11:06:25 AM copying build/lib/nrv/optim/Optimizers.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/optim
+07/28/2023 11:06:25 AM copying build/lib/nrv/optim/Problems.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/optim
+07/28/2023 11:06:25 AM copying build/lib/nrv/optim/CostFunctions.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/optim
+07/28/2023 11:06:25 AM copying build/lib/nrv/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/28/2023 11:06:25 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/utils
+07/28/2023 11:06:25 AM copying build/lib/nrv/utils/saving_handler.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils
+07/28/2023 11:06:25 AM copying build/lib/nrv/utils/units.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils
+07/28/2023 11:06:25 AM copying build/lib/nrv/utils/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils
+07/28/2023 11:06:25 AM copying build/lib/nrv/utils/nrv_function.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils
+07/28/2023 11:06:25 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:06:25 AM copying build/lib/nrv/backend/file_handler.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:06:25 AM copying build/lib/nrv/backend/NRV_Class.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:06:25 AM copying build/lib/nrv/backend/compileMods.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:06:25 AM copying build/lib/nrv/backend/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:06:25 AM copying build/lib/nrv/backend/inouts.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:06:25 AM copying build/lib/nrv/backend/MCore.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:06:25 AM copying build/lib/nrv/backend/parameters.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:06:25 AM copying build/lib/nrv/backend/log_interface.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:06:25 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/nmod/thin_myelinated.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/nmod/axons.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/nmod/myelinated.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/nmod/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/nmod/fascicle_generator.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/nmod/nerve.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/nmod/unmyelinated.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:06:25 AM copying build/lib/nrv/nmod/fascicles.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:06:25 AM running install_egg_info
+07/28/2023 11:06:25 AM Copying nrv_py.egg-info to build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9-py3.10.egg-info
+07/28/2023 11:06:25 AM running install_scripts
+07/28/2023 11:06:25 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9.dist-info/WHEEL
+07/28/2023 11:06:25 AM creating '/Users/fkolbl/Desktop/NRV-master/dist/.tmp-3mhafz76/nrv_py-0.9.9-py3-none-any.whl' and adding 'build/bdist.macosx-10.9-x86_64/wheel' to it
+07/28/2023 11:06:25 AM adding 'nrv/__init__.py'
+07/28/2023 11:06:25 AM adding 'nrv/backend/MCore.py'
+07/28/2023 11:06:25 AM adding 'nrv/backend/NRV_Class.py'
+07/28/2023 11:06:25 AM adding 'nrv/backend/__init__.py'
+07/28/2023 11:06:25 AM adding 'nrv/backend/compileMods.py'
+07/28/2023 11:06:25 AM adding 'nrv/backend/file_handler.py'
+07/28/2023 11:06:25 AM adding 'nrv/backend/inouts.py'
+07/28/2023 11:06:25 AM adding 'nrv/backend/log_interface.py'
+07/28/2023 11:06:25 AM adding 'nrv/backend/parameters.py'
+07/28/2023 11:06:25 AM adding 'nrv/fmod/__init__.py'
+07/28/2023 11:06:25 AM adding 'nrv/fmod/electrodes.py'
+07/28/2023 11:06:25 AM adding 'nrv/fmod/extracellular.py'
+07/28/2023 11:06:25 AM adding 'nrv/fmod/materials.py'
+07/28/2023 11:06:25 AM adding 'nrv/fmod/recording.py'
+07/28/2023 11:06:25 AM adding 'nrv/fmod/stimulus.py'
+07/28/2023 11:06:25 AM adding 'nrv/nmod/__init__.py'
+07/28/2023 11:06:25 AM adding 'nrv/nmod/axons.py'
+07/28/2023 11:06:25 AM adding 'nrv/nmod/fascicle_generator.py'
+07/28/2023 11:06:25 AM adding 'nrv/nmod/fascicles.py'
+07/28/2023 11:06:25 AM adding 'nrv/nmod/myelinated.py'
+07/28/2023 11:06:25 AM adding 'nrv/nmod/nerve.py'
+07/28/2023 11:06:25 AM adding 'nrv/nmod/thin_myelinated.py'
+07/28/2023 11:06:25 AM adding 'nrv/nmod/unmyelinated.py'
+07/28/2023 11:06:25 AM adding 'nrv/optim/CostFunctions.py'
+07/28/2023 11:06:25 AM adding 'nrv/optim/Optimizers.py'
+07/28/2023 11:06:25 AM adding 'nrv/optim/Problems.py'
+07/28/2023 11:06:25 AM adding 'nrv/optim/__init__.py'
+07/28/2023 11:06:25 AM adding 'nrv/utils/__init__.py'
+07/28/2023 11:06:25 AM adding 'nrv/utils/nrv_function.py'
+07/28/2023 11:06:25 AM adding 'nrv/utils/saving_handler.py'
+07/28/2023 11:06:25 AM adding 'nrv/utils/units.py'
+07/28/2023 11:06:25 AM adding 'nrv_py-0.9.9.dist-info/METADATA'
+07/28/2023 11:06:25 AM adding 'nrv_py-0.9.9.dist-info/WHEEL'
+07/28/2023 11:06:25 AM adding 'nrv_py-0.9.9.dist-info/top_level.txt'
+07/28/2023 11:06:25 AM adding 'nrv_py-0.9.9.dist-info/RECORD'
+07/28/2023 11:06:25 AM removing build/bdist.macosx-10.9-x86_64/wheel
+07/28/2023 11:29:39 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 11:29:39 AM running egg_info
+07/28/2023 11:29:39 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 11:29:39 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 11:29:39 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 11:29:39 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 11:29:39 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:29:39 AM reading manifest template 'MANIFEST.in'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 11:29:39 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 11:29:39 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:29:39 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 11:29:40 AM running sdist
+07/28/2023 11:29:40 AM running egg_info
+07/28/2023 11:29:40 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 11:29:40 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 11:29:40 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 11:29:40 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 11:29:40 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:29:40 AM reading manifest template 'MANIFEST.in'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 11:29:40 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 11:29:40 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:29:40 AM running check
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/_misc
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/_misc/OTF_PP
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/_misc/comsol_templates
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/_misc/geom
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/_misc/log
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/backend
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/fmod/FEM
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/optim
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/utils
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/utils/cell
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv/utils/fascicle
+07/28/2023 11:29:40 AM creating nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:29:40 AM copying files to nrv-py-0.9.9...
+07/28/2023 11:29:40 AM copying MANIFEST.in -> nrv-py-0.9.9
+07/28/2023 11:29:40 AM copying pyproject.toml -> nrv-py-0.9.9
+07/28/2023 11:29:40 AM copying setup.py -> nrv-py-0.9.9
+07/28/2023 11:29:40 AM copying nrv/__init__.py -> nrv-py-0.9.9/nrv
+07/28/2023 11:29:40 AM copying nrv/nrv2calm -> nrv-py-0.9.9/nrv
+07/28/2023 11:29:40 AM copying nrv/_misc/NRV.ini -> nrv-py-0.9.9/nrv/_misc
+07/28/2023 11:29:40 AM copying nrv/_misc/OTF_PP/default.py -> nrv-py-0.9.9/nrv/_misc/OTF_PP
+07/28/2023 11:29:40 AM copying nrv/_misc/OTF_PP/is_blocked.py -> nrv-py-0.9.9/nrv/_misc/OTF_PP
+07/28/2023 11:29:40 AM copying nrv/_misc/OTF_PP/is_excited.py -> nrv-py-0.9.9/nrv/_misc/OTF_PP
+07/28/2023 11:29:40 AM copying nrv/_misc/OTF_PP/is_onset.py -> nrv-py-0.9.9/nrv/_misc/OTF_PP
+07/28/2023 11:29:40 AM copying nrv/_misc/OTF_PP/raster_plot.py -> nrv-py-0.9.9/nrv/_misc/OTF_PP
+07/28/2023 11:29:40 AM copying nrv/_misc/OTF_PP/rmv_keys.py -> nrv-py-0.9.9/nrv/_misc/OTF_PP
+07/28/2023 11:29:40 AM copying nrv/_misc/OTF_PP/vmem_plot.py -> nrv-py-0.9.9/nrv/_misc/OTF_PP
+07/28/2023 11:29:40 AM copying nrv/_misc/comsol_templates/Nerve_1_Fascicle_1_CUFF.mph -> nrv-py-0.9.9/nrv/_misc/comsol_templates
+07/28/2023 11:29:40 AM copying nrv/_misc/comsol_templates/Nerve_1_Fascicle_1_LIFE.mph -> nrv-py-0.9.9/nrv/_misc/comsol_templates
+07/28/2023 11:29:40 AM copying nrv/_misc/comsol_templates/Nerve_1_Fascicle_2_LIFE.mph -> nrv-py-0.9.9/nrv/_misc/comsol_templates
+07/28/2023 11:29:40 AM copying nrv/_misc/geom/smoothed_edges_white.dxf -> nrv-py-0.9.9/nrv/_misc/geom
+07/28/2023 11:29:40 AM copying nrv/_misc/geom/smoothed_edges_white.png -> nrv-py-0.9.9/nrv/_misc/geom
+07/28/2023 11:29:40 AM copying nrv/_misc/log/NRV.log -> nrv-py-0.9.9/nrv/_misc/log
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/bone.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/cerebrospinal_fluid.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/dura.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/endoneurium_bhadra.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/endoneurium_ranck.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/epidural_space.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/epineurium.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/material_1.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/material_2.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/muscle.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/perineurium.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/platinum.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/saline.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/materials/silicone.mat -> nrv-py-0.9.9/nrv/_misc/materials
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/AXNODE.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/CaPump.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/DNav18.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/KCa.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/NaCaPump.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/Nakpump.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/NakpumpSchild.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/Nav11_a.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/Nav16_a.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/RattayAberham.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/caextscale.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/caintscale.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/can.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/cat.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/extrapump.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/flut_motor.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/flut_sensory.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/h.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/k_ion_dynamics.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/ka.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/kaslow.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/kd.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/kdr.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/kdr_Tiger.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/kds.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/kf.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/kmtype.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/kna.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/ks.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/leak.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/leakSchild.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/mysa_motor.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/mysa_sensory.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/na3.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/na_ion_dynamics.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/naf.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/naf97.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/naf97mean.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/nahh.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/nas.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/nas97.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/nas97mean.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/nattxs.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/nav1p9.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/nax.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/node_motor.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/node_sensory.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/stin_motor.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/mods/stin_sensory.mod -> nrv-py-0.9.9/nrv/_misc/mods
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_1000_axons_A.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_1000_axons_B.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_1000_axons_C.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_1000_axons_D.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_1000_axons_E.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_1000_axons_F.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_100_axons_A.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_100_axons_B.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_100_axons_C.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_100_axons_D.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_100_axons_E.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_100_axons_F.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_2000_axons_A.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_2000_axons_B.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_2000_axons_C.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_2000_axons_D.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_2000_axons_E.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_2000_axons_F.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_200_axons_A.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_200_axons_B.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_200_axons_C.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_200_axons_D.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_200_axons_E.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_200_axons_F.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_5000_axons_A.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_5000_axons_B.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_5000_axons_C.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_5000_axons_D.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_5000_axons_E.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_5000_axons_F.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_500_axons_A.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_500_axons_B.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_500_axons_C.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_500_axons_D.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_500_axons_E.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/pops/Population_of_500_axons_F.pop -> nrv-py-0.9.9/nrv/_misc/pops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_A.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_B.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_C.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_D.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_E.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_F.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_A.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_B.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_C.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_D.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_E.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_F.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_A.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_B.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_C.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_D.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_E.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_F.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_A.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_B.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_C.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_D.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_E.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_F.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_A.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_B.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_C.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_D.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_E.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_F.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_A.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_B.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_C.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_D.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_E.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_F.ppop -> nrv-py-0.9.9/nrv/_misc/ppops
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Jacobs_11_A.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Jacobs_11_B.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Jacobs_11_C.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Jacobs_11_D.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Jacobs_9_A.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Jacobs_9_B.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Jacobs_9_C.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Jacobs_9_D.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Ochoa_M.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Ochoa_U.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Schellens_1.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/_misc/stats/Schellens_2.csv -> nrv-py-0.9.9/nrv/_misc/stats
+07/28/2023 11:29:40 AM copying nrv/backend/MCore.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:29:40 AM copying nrv/backend/NRV_Class.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:29:40 AM copying nrv/backend/__init__.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:29:40 AM copying nrv/backend/compileMods.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:29:40 AM copying nrv/backend/file_handler.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:29:40 AM copying nrv/backend/inouts.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:29:40 AM copying nrv/backend/log_interface.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:29:40 AM copying nrv/backend/parameters.py -> nrv-py-0.9.9/nrv/backend
+07/28/2023 11:29:40 AM copying nrv/fmod/__init__.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:29:40 AM copying nrv/fmod/electrodes.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:29:40 AM copying nrv/fmod/extracellular.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:29:40 AM copying nrv/fmod/materials.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:29:40 AM copying nrv/fmod/recording.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:29:40 AM copying nrv/fmod/stimulus.py -> nrv-py-0.9.9/nrv/fmod
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/COMSOL_model.py -> nrv-py-0.9.9/nrv/fmod/FEM
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/FEM.py -> nrv-py-0.9.9/nrv/fmod/FEM
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/FENICS_model.py -> nrv-py-0.9.9/nrv/fmod/FEM
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/__init__.py -> nrv-py-0.9.9/nrv/fmod/FEM
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/fenics_utils/FEMSimulation.py -> nrv-py-0.9.9/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/fenics_utils/SimParameters.py -> nrv-py-0.9.9/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/fenics_utils/SimResult.py -> nrv-py-0.9.9/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/fenics_utils/__init__.py -> nrv-py-0.9.9/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/fenics_utils/fenics_materials.py -> nrv-py-0.9.9/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/mesh_creator/MshCreator.py -> nrv-py-0.9.9/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/mesh_creator/NRV_Msh.py -> nrv-py-0.9.9/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/mesh_creator/NerveMshCreator.py -> nrv-py-0.9.9/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:40 AM copying nrv/fmod/FEM/mesh_creator/__init__.py -> nrv-py-0.9.9/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:40 AM copying nrv/nmod/__init__.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:29:40 AM copying nrv/nmod/axons.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:29:40 AM copying nrv/nmod/fascicle_generator.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:29:40 AM copying nrv/nmod/fascicles.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:29:40 AM copying nrv/nmod/myelinated.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:29:40 AM copying nrv/nmod/nerve.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:29:40 AM copying nrv/nmod/thin_myelinated.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:29:40 AM copying nrv/nmod/unmyelinated.py -> nrv-py-0.9.9/nrv/nmod
+07/28/2023 11:29:40 AM copying nrv/optim/CostFunctions.py -> nrv-py-0.9.9/nrv/optim
+07/28/2023 11:29:40 AM copying nrv/optim/Optimizers.py -> nrv-py-0.9.9/nrv/optim
+07/28/2023 11:29:40 AM copying nrv/optim/Problems.py -> nrv-py-0.9.9/nrv/optim
+07/28/2023 11:29:40 AM copying nrv/optim/__init__.py -> nrv-py-0.9.9/nrv/optim
+07/28/2023 11:29:40 AM copying nrv/utils/__init__.py -> nrv-py-0.9.9/nrv/utils
+07/28/2023 11:29:40 AM copying nrv/utils/nrv_function.py -> nrv-py-0.9.9/nrv/utils
+07/28/2023 11:29:40 AM copying nrv/utils/saving_handler.py -> nrv-py-0.9.9/nrv/utils
+07/28/2023 11:29:40 AM copying nrv/utils/units.py -> nrv-py-0.9.9/nrv/utils
+07/28/2023 11:29:40 AM copying nrv/utils/cell/CL_discretization.py -> nrv-py-0.9.9/nrv/utils/cell
+07/28/2023 11:29:40 AM copying nrv/utils/cell/CL_postprocessing.py -> nrv-py-0.9.9/nrv/utils/cell
+07/28/2023 11:29:40 AM copying nrv/utils/cell/CL_simulations.py -> nrv-py-0.9.9/nrv/utils/cell
+07/28/2023 11:29:40 AM copying nrv/utils/fascicle/FL_postprocessing.py -> nrv-py-0.9.9/nrv/utils/fascicle
+07/28/2023 11:29:40 AM copying nrv_py.egg-info/PKG-INFO -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:29:40 AM copying nrv_py.egg-info/SOURCES.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:29:40 AM copying nrv_py.egg-info/dependency_links.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:29:40 AM copying nrv_py.egg-info/requires.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:29:40 AM copying nrv_py.egg-info/top_level.txt -> nrv-py-0.9.9/nrv_py.egg-info
+07/28/2023 11:29:40 AM Writing nrv-py-0.9.9/setup.cfg
+07/28/2023 11:29:40 AM Creating tar archive
+07/28/2023 11:29:41 AM removing 'nrv-py-0.9.9' (and everything under it)
+07/28/2023 11:29:47 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 11:29:47 AM running egg_info
+07/28/2023 11:29:47 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 11:29:47 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 11:29:47 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 11:29:47 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 11:29:47 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:29:47 AM reading manifest template 'MANIFEST.in'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 11:29:47 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 11:29:47 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:29:47 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 11:29:47 AM running bdist_wheel
+07/28/2023 11:29:47 AM running build
+07/28/2023 11:29:47 AM running build_py
+07/28/2023 11:29:47 AM creating build
+07/28/2023 11:29:47 AM creating build/lib
+07/28/2023 11:29:47 AM creating build/lib/nrv
+07/28/2023 11:29:47 AM copying nrv/__init__.py -> build/lib/nrv
+07/28/2023 11:29:47 AM creating build/lib/nrv/_misc
+07/28/2023 11:29:47 AM creating build/lib/nrv/_misc/OTF_PP
+07/28/2023 11:29:47 AM copying nrv/_misc/OTF_PP/raster_plot.py -> build/lib/nrv/_misc/OTF_PP
+07/28/2023 11:29:47 AM copying nrv/_misc/OTF_PP/is_blocked.py -> build/lib/nrv/_misc/OTF_PP
+07/28/2023 11:29:47 AM copying nrv/_misc/OTF_PP/rmv_keys.py -> build/lib/nrv/_misc/OTF_PP
+07/28/2023 11:29:47 AM copying nrv/_misc/OTF_PP/default.py -> build/lib/nrv/_misc/OTF_PP
+07/28/2023 11:29:47 AM copying nrv/_misc/OTF_PP/is_onset.py -> build/lib/nrv/_misc/OTF_PP
+07/28/2023 11:29:47 AM copying nrv/_misc/OTF_PP/is_excited.py -> build/lib/nrv/_misc/OTF_PP
+07/28/2023 11:29:47 AM copying nrv/_misc/OTF_PP/vmem_plot.py -> build/lib/nrv/_misc/OTF_PP
+07/28/2023 11:29:47 AM creating build/lib/nrv/backend
+07/28/2023 11:29:47 AM copying nrv/backend/file_handler.py -> build/lib/nrv/backend
+07/28/2023 11:29:47 AM copying nrv/backend/NRV_Class.py -> build/lib/nrv/backend
+07/28/2023 11:29:47 AM copying nrv/backend/compileMods.py -> build/lib/nrv/backend
+07/28/2023 11:29:47 AM copying nrv/backend/__init__.py -> build/lib/nrv/backend
+07/28/2023 11:29:47 AM copying nrv/backend/inouts.py -> build/lib/nrv/backend
+07/28/2023 11:29:47 AM copying nrv/backend/MCore.py -> build/lib/nrv/backend
+07/28/2023 11:29:47 AM copying nrv/backend/parameters.py -> build/lib/nrv/backend
+07/28/2023 11:29:47 AM copying nrv/backend/log_interface.py -> build/lib/nrv/backend
+07/28/2023 11:29:47 AM creating build/lib/nrv/fmod
+07/28/2023 11:29:47 AM copying nrv/fmod/recording.py -> build/lib/nrv/fmod
+07/28/2023 11:29:47 AM copying nrv/fmod/materials.py -> build/lib/nrv/fmod
+07/28/2023 11:29:47 AM copying nrv/fmod/extracellular.py -> build/lib/nrv/fmod
+07/28/2023 11:29:47 AM copying nrv/fmod/__init__.py -> build/lib/nrv/fmod
+07/28/2023 11:29:47 AM copying nrv/fmod/stimulus.py -> build/lib/nrv/fmod
+07/28/2023 11:29:47 AM copying nrv/fmod/electrodes.py -> build/lib/nrv/fmod
+07/28/2023 11:29:47 AM creating build/lib/nrv/fmod/FEM
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/FENICS_model.py -> build/lib/nrv/fmod/FEM
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/__init__.py -> build/lib/nrv/fmod/FEM
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/COMSOL_model.py -> build/lib/nrv/fmod/FEM
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/FEM.py -> build/lib/nrv/fmod/FEM
+07/28/2023 11:29:47 AM creating build/lib/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/fenics_utils/SimParameters.py -> build/lib/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/fenics_utils/__init__.py -> build/lib/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/fenics_utils/fenics_materials.py -> build/lib/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/fenics_utils/SimResult.py -> build/lib/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/fenics_utils/FEMSimulation.py -> build/lib/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:47 AM creating build/lib/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/mesh_creator/NRV_Msh.py -> build/lib/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/mesh_creator/MshCreator.py -> build/lib/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/mesh_creator/NerveMshCreator.py -> build/lib/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:47 AM copying nrv/fmod/FEM/mesh_creator/__init__.py -> build/lib/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:47 AM creating build/lib/nrv/nmod
+07/28/2023 11:29:47 AM copying nrv/nmod/thin_myelinated.py -> build/lib/nrv/nmod
+07/28/2023 11:29:47 AM copying nrv/nmod/axons.py -> build/lib/nrv/nmod
+07/28/2023 11:29:47 AM copying nrv/nmod/myelinated.py -> build/lib/nrv/nmod
+07/28/2023 11:29:47 AM copying nrv/nmod/__init__.py -> build/lib/nrv/nmod
+07/28/2023 11:29:47 AM copying nrv/nmod/fascicle_generator.py -> build/lib/nrv/nmod
+07/28/2023 11:29:47 AM copying nrv/nmod/nerve.py -> build/lib/nrv/nmod
+07/28/2023 11:29:47 AM copying nrv/nmod/unmyelinated.py -> build/lib/nrv/nmod
+07/28/2023 11:29:47 AM copying nrv/nmod/fascicles.py -> build/lib/nrv/nmod
+07/28/2023 11:29:47 AM creating build/lib/nrv/optim
+07/28/2023 11:29:47 AM copying nrv/optim/__init__.py -> build/lib/nrv/optim
+07/28/2023 11:29:47 AM copying nrv/optim/Optimizers.py -> build/lib/nrv/optim
+07/28/2023 11:29:47 AM copying nrv/optim/Problems.py -> build/lib/nrv/optim
+07/28/2023 11:29:47 AM copying nrv/optim/CostFunctions.py -> build/lib/nrv/optim
+07/28/2023 11:29:47 AM creating build/lib/nrv/utils
+07/28/2023 11:29:47 AM copying nrv/utils/saving_handler.py -> build/lib/nrv/utils
+07/28/2023 11:29:47 AM copying nrv/utils/units.py -> build/lib/nrv/utils
+07/28/2023 11:29:47 AM copying nrv/utils/__init__.py -> build/lib/nrv/utils
+07/28/2023 11:29:47 AM copying nrv/utils/nrv_function.py -> build/lib/nrv/utils
+07/28/2023 11:29:47 AM creating build/lib/nrv/utils/cell
+07/28/2023 11:29:47 AM copying nrv/utils/cell/CL_postprocessing.py -> build/lib/nrv/utils/cell
+07/28/2023 11:29:47 AM copying nrv/utils/cell/CL_simulations.py -> build/lib/nrv/utils/cell
+07/28/2023 11:29:47 AM copying nrv/utils/cell/CL_discretization.py -> build/lib/nrv/utils/cell
+07/28/2023 11:29:47 AM creating build/lib/nrv/utils/fascicle
+07/28/2023 11:29:47 AM copying nrv/utils/fascicle/FL_postprocessing.py -> build/lib/nrv/utils/fascicle
+07/28/2023 11:29:47 AM running egg_info
+07/28/2023 11:29:47 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 11:29:47 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 11:29:47 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 11:29:47 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 11:29:48 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:29:48 AM reading manifest template 'MANIFEST.in'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 11:29:48 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 11:29:48 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:29:48 AM copying nrv/nrv2calm -> build/lib/nrv
+07/28/2023 11:29:48 AM copying nrv/_misc/NRV.ini -> build/lib/nrv/_misc
+07/28/2023 11:29:48 AM creating build/lib/nrv/_misc/comsol_templates
+07/28/2023 11:29:48 AM copying nrv/_misc/comsol_templates/Nerve_1_Fascicle_1_CUFF.mph -> build/lib/nrv/_misc/comsol_templates
+07/28/2023 11:29:48 AM copying nrv/_misc/comsol_templates/Nerve_1_Fascicle_1_LIFE.mph -> build/lib/nrv/_misc/comsol_templates
+07/28/2023 11:29:48 AM copying nrv/_misc/comsol_templates/Nerve_1_Fascicle_2_LIFE.mph -> build/lib/nrv/_misc/comsol_templates
+07/28/2023 11:29:48 AM creating build/lib/nrv/_misc/geom
+07/28/2023 11:29:48 AM copying nrv/_misc/geom/smoothed_edges_white.dxf -> build/lib/nrv/_misc/geom
+07/28/2023 11:29:48 AM copying nrv/_misc/geom/smoothed_edges_white.png -> build/lib/nrv/_misc/geom
+07/28/2023 11:29:48 AM creating build/lib/nrv/_misc/log
+07/28/2023 11:29:48 AM copying nrv/_misc/log/NRV.log -> build/lib/nrv/_misc/log
+07/28/2023 11:29:48 AM creating build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/bone.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/cerebrospinal_fluid.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/dura.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/endoneurium_bhadra.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/endoneurium_ranck.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/epidural_space.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/epineurium.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/material_1.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/material_2.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/muscle.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/perineurium.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/platinum.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/saline.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying nrv/_misc/materials/silicone.mat -> build/lib/nrv/_misc/materials
+07/28/2023 11:29:48 AM creating build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/AXNODE.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/CaPump.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/DNav18.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/KCa.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/NaCaPump.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/Nakpump.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/NakpumpSchild.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/Nav11_a.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/Nav16_a.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/RattayAberham.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/caextscale.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/caintscale.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/can.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/cat.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/extrapump.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/flut_motor.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/flut_sensory.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/h.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/k_ion_dynamics.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/ka.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/kaslow.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/kd.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/kdr.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/kdr_Tiger.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/kds.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/kf.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/kmtype.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/kna.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/ks.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/leak.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/leakSchild.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/mysa_motor.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/mysa_sensory.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/na3.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/na_ion_dynamics.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/naf.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/naf97.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/naf97mean.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/nahh.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/nas.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/nas97.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/nas97mean.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/nattxs.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/nav1p9.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/nax.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/node_motor.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/node_sensory.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/stin_motor.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying nrv/_misc/mods/stin_sensory.mod -> build/lib/nrv/_misc/mods
+07/28/2023 11:29:48 AM creating build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_1000_axons_A.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_1000_axons_B.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_1000_axons_C.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_1000_axons_D.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_1000_axons_E.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_1000_axons_F.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_100_axons_A.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_100_axons_B.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_100_axons_C.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_100_axons_D.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_100_axons_E.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_100_axons_F.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_2000_axons_A.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_2000_axons_B.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_2000_axons_C.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_2000_axons_D.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_2000_axons_E.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_2000_axons_F.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_200_axons_A.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_200_axons_B.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_200_axons_C.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_200_axons_D.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_200_axons_E.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_200_axons_F.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_5000_axons_A.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_5000_axons_B.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_5000_axons_C.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_5000_axons_D.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_5000_axons_E.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_5000_axons_F.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_500_axons_A.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_500_axons_B.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_500_axons_C.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_500_axons_D.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_500_axons_E.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying nrv/_misc/pops/Population_of_500_axons_F.pop -> build/lib/nrv/_misc/pops
+07/28/2023 11:29:48 AM creating build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_A.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_B.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_C.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_D.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_E.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_1000_axons_F.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_A.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_B.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_C.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_D.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_E.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_100_axons_F.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_A.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_B.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_C.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_D.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_E.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_2000_axons_F.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_A.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_B.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_C.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_D.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_E.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_200_axons_F.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_A.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_B.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_C.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_D.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_E.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_5000_axons_F.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_A.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_B.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_C.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_D.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_E.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying nrv/_misc/ppops/Placed_population_of_500_axons_F.ppop -> build/lib/nrv/_misc/ppops
+07/28/2023 11:29:48 AM creating build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Jacobs_11_A.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Jacobs_11_B.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Jacobs_11_C.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Jacobs_11_D.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Jacobs_9_A.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Jacobs_9_B.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Jacobs_9_C.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Jacobs_9_D.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Ochoa_M.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Ochoa_U.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Schellens_1.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying nrv/_misc/stats/Schellens_2.csv -> build/lib/nrv/_misc/stats
+07/28/2023 11:29:48 AM installing to build/bdist.macosx-10.9-x86_64/wheel
+07/28/2023 11:29:48 AM running install
+07/28/2023 11:29:48 AM running install_lib
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/28/2023 11:29:48 AM copying build/lib/nrv/nrv2calm -> build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/epidural_space.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/cerebrospinal_fluid.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/dura.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/material_2.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/material_1.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/endoneurium_ranck.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/muscle.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/endoneurium_bhadra.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/perineurium.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/platinum.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/saline.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/bone.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/epineurium.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/materials/silicone.mat -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/materials
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_100_axons_D.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_200_axons_A.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_500_axons_E.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_500_axons_D.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_100_axons_E.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_200_axons_B.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_500_axons_F.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_200_axons_C.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_100_axons_F.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_100_axons_B.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_500_axons_C.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_500_axons_B.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_200_axons_F.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_100_axons_C.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_100_axons_A.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_200_axons_D.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_500_axons_A.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_200_axons_E.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_1000_axons_E.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_1000_axons_D.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_1000_axons_F.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_1000_axons_C.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_1000_axons_B.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_1000_axons_A.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_2000_axons_D.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_2000_axons_E.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_5000_axons_F.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_5000_axons_D.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_2000_axons_F.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_5000_axons_E.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_5000_axons_A.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_2000_axons_B.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_2000_axons_C.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_5000_axons_B.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_2000_axons_A.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/pops/Population_of_5000_axons_C.pop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/pops
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/comsol_templates
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/comsol_templates/Nerve_1_Fascicle_2_LIFE.mph -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/comsol_templates
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/comsol_templates/Nerve_1_Fascicle_1_CUFF.mph -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/comsol_templates
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/comsol_templates/Nerve_1_Fascicle_1_LIFE.mph -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/comsol_templates
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/NRV.ini -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/geom
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/geom/smoothed_edges_white.png -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/geom
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/geom/smoothed_edges_white.dxf -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/geom
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_500_axons_C.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_1000_axons_C.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_2000_axons_F.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_100_axons_E.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_200_axons_C.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_200_axons_B.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_100_axons_D.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_5000_axons_F.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_1000_axons_B.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_500_axons_B.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_200_axons_E.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_500_axons_E.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_1000_axons_E.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_5000_axons_A.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_100_axons_C.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_100_axons_B.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_2000_axons_A.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_1000_axons_D.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_500_axons_D.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_200_axons_D.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_100_axons_A.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_2000_axons_B.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_5000_axons_C.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_500_axons_F.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_1000_axons_F.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_2000_axons_C.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_5000_axons_B.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_200_axons_F.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_2000_axons_D.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_5000_axons_E.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_1000_axons_A.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_500_axons_A.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_200_axons_A.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_2000_axons_E.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_5000_axons_D.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/ppops/Placed_population_of_100_axons_F.ppop -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/ppops
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/nahh.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/KCa.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/naf97.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/nav1p9.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/cat.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/leakSchild.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/kna.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/nattxs.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/caextscale.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/mysa_motor.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/kmtype.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/nax.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/nas97mean.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/kds.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/caintscale.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/kdr.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/naf97mean.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/CaPump.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/kaslow.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/AXNODE.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/naf.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/kdr_Tiger.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/stin_motor.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/k_ion_dynamics.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/NakpumpSchild.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/na3.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/nas.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/h.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/leak.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/mysa_sensory.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/extrapump.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/flut_sensory.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/RattayAberham.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/DNav18.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/na_ion_dynamics.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/Nav11_a.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/NaCaPump.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/stin_sensory.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/node_sensory.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/flut_motor.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/Nav16_a.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/kf.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/kd.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/ks.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/node_motor.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/ka.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/can.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/Nakpump.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/mods/nas97.mod -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/mods
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/OTF_PP
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/OTF_PP/raster_plot.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/OTF_PP
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/OTF_PP/is_blocked.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/OTF_PP
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/OTF_PP/rmv_keys.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/OTF_PP
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/OTF_PP/default.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/OTF_PP
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/OTF_PP/is_onset.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/OTF_PP
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/OTF_PP/is_excited.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/OTF_PP
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/OTF_PP/vmem_plot.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/OTF_PP
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/log
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/log/NRV.log -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/log
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Jacobs_11_A.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Jacobs_11_B.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Jacobs_11_C.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Ochoa_M.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Jacobs_11_D.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Schellens_1.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Ochoa_U.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Jacobs_9_D.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Schellens_2.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Jacobs_9_A.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Jacobs_9_C.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM copying build/lib/nrv/_misc/stats/Jacobs_9_B.csv -> build/bdist.macosx-10.9-x86_64/wheel/nrv/_misc/stats
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/fenics_utils/SimParameters.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/fenics_utils/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/fenics_utils/fenics_materials.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/fenics_utils/SimResult.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/fenics_utils/FEMSimulation.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/mesh_creator/NRV_Msh.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/mesh_creator/MshCreator.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/mesh_creator/NerveMshCreator.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/mesh_creator/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/FENICS_model.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/COMSOL_model.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/FEM/FEM.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod/FEM
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/recording.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/materials.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/extracellular.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/stimulus.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/fmod/electrodes.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/fmod
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/optim
+07/28/2023 11:29:48 AM copying build/lib/nrv/optim/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/optim
+07/28/2023 11:29:48 AM copying build/lib/nrv/optim/Optimizers.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/optim
+07/28/2023 11:29:48 AM copying build/lib/nrv/optim/Problems.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/optim
+07/28/2023 11:29:48 AM copying build/lib/nrv/optim/CostFunctions.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/optim
+07/28/2023 11:29:48 AM copying build/lib/nrv/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/utils
+07/28/2023 11:29:48 AM copying build/lib/nrv/utils/saving_handler.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils
+07/28/2023 11:29:48 AM copying build/lib/nrv/utils/units.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils
+07/28/2023 11:29:48 AM copying build/lib/nrv/utils/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils
+07/28/2023 11:29:48 AM copying build/lib/nrv/utils/nrv_function.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/utils/cell
+07/28/2023 11:29:48 AM copying build/lib/nrv/utils/cell/CL_postprocessing.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils/cell
+07/28/2023 11:29:48 AM copying build/lib/nrv/utils/cell/CL_simulations.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils/cell
+07/28/2023 11:29:48 AM copying build/lib/nrv/utils/cell/CL_discretization.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils/cell
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/utils/fascicle
+07/28/2023 11:29:48 AM copying build/lib/nrv/utils/fascicle/FL_postprocessing.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/utils/fascicle
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:29:48 AM copying build/lib/nrv/backend/file_handler.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:29:48 AM copying build/lib/nrv/backend/NRV_Class.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:29:48 AM copying build/lib/nrv/backend/compileMods.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:29:48 AM copying build/lib/nrv/backend/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:29:48 AM copying build/lib/nrv/backend/inouts.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:29:48 AM copying build/lib/nrv/backend/MCore.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:29:48 AM copying build/lib/nrv/backend/parameters.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:29:48 AM copying build/lib/nrv/backend/log_interface.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/backend
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/nmod/thin_myelinated.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/nmod/axons.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/nmod/myelinated.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/nmod/__init__.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/nmod/fascicle_generator.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/nmod/nerve.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/nmod/unmyelinated.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:29:48 AM copying build/lib/nrv/nmod/fascicles.py -> build/bdist.macosx-10.9-x86_64/wheel/nrv/nmod
+07/28/2023 11:29:48 AM running install_egg_info
+07/28/2023 11:29:48 AM Copying nrv_py.egg-info to build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9-py3.10.egg-info
+07/28/2023 11:29:48 AM running install_scripts
+07/28/2023 11:29:48 AM creating build/bdist.macosx-10.9-x86_64/wheel/nrv_py-0.9.9.dist-info/WHEEL
+07/28/2023 11:29:48 AM creating '/Users/fkolbl/Desktop/NRV-master/dist/.tmp-b7re7g3_/nrv_py-0.9.9-py3-none-any.whl' and adding 'build/bdist.macosx-10.9-x86_64/wheel' to it
+07/28/2023 11:29:48 AM adding 'nrv/__init__.py'
+07/28/2023 11:29:48 AM adding 'nrv/nrv2calm'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/NRV.ini'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/OTF_PP/default.py'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/OTF_PP/is_blocked.py'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/OTF_PP/is_excited.py'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/OTF_PP/is_onset.py'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/OTF_PP/raster_plot.py'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/OTF_PP/rmv_keys.py'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/OTF_PP/vmem_plot.py'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/comsol_templates/Nerve_1_Fascicle_1_CUFF.mph'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/comsol_templates/Nerve_1_Fascicle_1_LIFE.mph'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/comsol_templates/Nerve_1_Fascicle_2_LIFE.mph'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/geom/smoothed_edges_white.dxf'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/geom/smoothed_edges_white.png'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/log/NRV.log'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/bone.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/cerebrospinal_fluid.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/dura.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/endoneurium_bhadra.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/endoneurium_ranck.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/epidural_space.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/epineurium.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/material_1.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/material_2.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/muscle.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/perineurium.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/platinum.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/saline.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/materials/silicone.mat'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/AXNODE.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/CaPump.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/DNav18.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/KCa.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/NaCaPump.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/Nakpump.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/NakpumpSchild.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/Nav11_a.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/Nav16_a.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/RattayAberham.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/caextscale.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/caintscale.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/can.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/cat.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/extrapump.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/flut_motor.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/flut_sensory.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/h.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/k_ion_dynamics.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/ka.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/kaslow.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/kd.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/kdr.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/kdr_Tiger.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/kds.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/kf.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/kmtype.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/kna.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/ks.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/leak.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/leakSchild.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/mysa_motor.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/mysa_sensory.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/na3.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/na_ion_dynamics.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/naf.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/naf97.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/naf97mean.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/nahh.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/nas.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/nas97.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/nas97mean.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/nattxs.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/nav1p9.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/nax.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/node_motor.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/node_sensory.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/stin_motor.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/mods/stin_sensory.mod'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_1000_axons_A.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_1000_axons_B.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_1000_axons_C.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_1000_axons_D.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_1000_axons_E.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_1000_axons_F.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_100_axons_A.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_100_axons_B.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_100_axons_C.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_100_axons_D.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_100_axons_E.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_100_axons_F.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_2000_axons_A.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_2000_axons_B.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_2000_axons_C.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_2000_axons_D.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_2000_axons_E.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_2000_axons_F.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_200_axons_A.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_200_axons_B.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_200_axons_C.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_200_axons_D.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_200_axons_E.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_200_axons_F.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_5000_axons_A.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_5000_axons_B.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_5000_axons_C.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_5000_axons_D.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_5000_axons_E.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_5000_axons_F.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_500_axons_A.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_500_axons_B.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_500_axons_C.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_500_axons_D.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_500_axons_E.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/pops/Population_of_500_axons_F.pop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_1000_axons_A.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_1000_axons_B.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_1000_axons_C.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_1000_axons_D.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_1000_axons_E.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_1000_axons_F.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_100_axons_A.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_100_axons_B.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_100_axons_C.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_100_axons_D.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_100_axons_E.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_100_axons_F.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_2000_axons_A.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_2000_axons_B.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_2000_axons_C.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_2000_axons_D.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_2000_axons_E.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_2000_axons_F.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_200_axons_A.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_200_axons_B.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_200_axons_C.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_200_axons_D.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_200_axons_E.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_200_axons_F.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_5000_axons_A.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_5000_axons_B.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_5000_axons_C.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_5000_axons_D.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_5000_axons_E.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_5000_axons_F.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_500_axons_A.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_500_axons_B.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_500_axons_C.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_500_axons_D.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_500_axons_E.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/ppops/Placed_population_of_500_axons_F.ppop'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Jacobs_11_A.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Jacobs_11_B.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Jacobs_11_C.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Jacobs_11_D.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Jacobs_9_A.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Jacobs_9_B.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Jacobs_9_C.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Jacobs_9_D.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Ochoa_M.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Ochoa_U.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Schellens_1.csv'
+07/28/2023 11:29:48 AM adding 'nrv/_misc/stats/Schellens_2.csv'
+07/28/2023 11:29:48 AM adding 'nrv/backend/MCore.py'
+07/28/2023 11:29:48 AM adding 'nrv/backend/NRV_Class.py'
+07/28/2023 11:29:48 AM adding 'nrv/backend/__init__.py'
+07/28/2023 11:29:48 AM adding 'nrv/backend/compileMods.py'
+07/28/2023 11:29:48 AM adding 'nrv/backend/file_handler.py'
+07/28/2023 11:29:48 AM adding 'nrv/backend/inouts.py'
+07/28/2023 11:29:48 AM adding 'nrv/backend/log_interface.py'
+07/28/2023 11:29:48 AM adding 'nrv/backend/parameters.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/__init__.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/electrodes.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/extracellular.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/materials.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/recording.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/stimulus.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/COMSOL_model.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/FEM.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/FENICS_model.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/__init__.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/fenics_utils/FEMSimulation.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/fenics_utils/SimParameters.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/fenics_utils/SimResult.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/fenics_utils/__init__.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/fenics_utils/fenics_materials.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/mesh_creator/MshCreator.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/mesh_creator/NRV_Msh.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/mesh_creator/NerveMshCreator.py'
+07/28/2023 11:29:48 AM adding 'nrv/fmod/FEM/mesh_creator/__init__.py'
+07/28/2023 11:29:48 AM adding 'nrv/nmod/__init__.py'
+07/28/2023 11:29:48 AM adding 'nrv/nmod/axons.py'
+07/28/2023 11:29:48 AM adding 'nrv/nmod/fascicle_generator.py'
+07/28/2023 11:29:48 AM adding 'nrv/nmod/fascicles.py'
+07/28/2023 11:29:48 AM adding 'nrv/nmod/myelinated.py'
+07/28/2023 11:29:48 AM adding 'nrv/nmod/nerve.py'
+07/28/2023 11:29:48 AM adding 'nrv/nmod/thin_myelinated.py'
+07/28/2023 11:29:48 AM adding 'nrv/nmod/unmyelinated.py'
+07/28/2023 11:29:48 AM adding 'nrv/optim/CostFunctions.py'
+07/28/2023 11:29:48 AM adding 'nrv/optim/Optimizers.py'
+07/28/2023 11:29:48 AM adding 'nrv/optim/Problems.py'
+07/28/2023 11:29:48 AM adding 'nrv/optim/__init__.py'
+07/28/2023 11:29:48 AM adding 'nrv/utils/__init__.py'
+07/28/2023 11:29:48 AM adding 'nrv/utils/nrv_function.py'
+07/28/2023 11:29:48 AM adding 'nrv/utils/saving_handler.py'
+07/28/2023 11:29:48 AM adding 'nrv/utils/units.py'
+07/28/2023 11:29:48 AM adding 'nrv/utils/cell/CL_discretization.py'
+07/28/2023 11:29:48 AM adding 'nrv/utils/cell/CL_postprocessing.py'
+07/28/2023 11:29:48 AM adding 'nrv/utils/cell/CL_simulations.py'
+07/28/2023 11:29:48 AM adding 'nrv/utils/fascicle/FL_postprocessing.py'
+07/28/2023 11:29:48 AM adding 'nrv_py-0.9.9.dist-info/METADATA'
+07/28/2023 11:29:48 AM adding 'nrv_py-0.9.9.dist-info/WHEEL'
+07/28/2023 11:29:48 AM adding 'nrv_py-0.9.9.dist-info/top_level.txt'
+07/28/2023 11:29:48 AM adding 'nrv_py-0.9.9.dist-info/RECORD'
+07/28/2023 11:29:48 AM removing build/bdist.macosx-10.9-x86_64/wheel
+07/28/2023 11:33:12 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 11:33:12 AM running egg_info
+07/28/2023 11:33:12 AM creating nrv_py.egg-info
+07/28/2023 11:33:12 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 11:33:12 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 11:33:12 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 11:33:12 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 11:33:12 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:33:12 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:33:12 AM reading manifest template 'MANIFEST.in'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 11:33:12 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:33:12 AM NRV WARNING: No mods compiled as the environnement variable NRVPATH does not exist
+07/28/2023 11:33:12 AM running sdist
+07/28/2023 11:33:12 AM running egg_info
+07/28/2023 11:33:12 AM writing nrv_py.egg-info/PKG-INFO
+07/28/2023 11:33:12 AM writing dependency_links to nrv_py.egg-info/dependency_links.txt
+07/28/2023 11:33:12 AM writing requirements to nrv_py.egg-info/requires.txt
+07/28/2023 11:33:12 AM writing top-level names to nrv_py.egg-info/top_level.txt
+07/28/2023 11:33:12 AM reading manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:33:12 AM reading manifest template 'MANIFEST.in'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/geom/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/comsol_templates/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/log/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/mods/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/OTF_PP/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/pops/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/ppops/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/stats/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/materials/*'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrv/NRV.ini'
+07/28/2023 11:33:12 AM warning: no files found matching 'nrn/nrv2calm/*'
+07/28/2023 11:33:12 AM writing manifest file 'nrv_py.egg-info/SOURCES.txt'
+07/28/2023 11:33:12 AM running check
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/_misc
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/_misc/OTF_PP
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/_misc/comsol_templates
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/_misc/geom
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/_misc/log
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/_misc/materials
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/_misc/mods
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/_misc/pops
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/_misc/ppops
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/_misc/stats
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/backend
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/fmod
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/fmod/FEM
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/fmod/FEM/fenics_utils
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/fmod/FEM/mesh_creator
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/nmod
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/optim
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/utils
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/utils/cell
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv/utils/fascicle
+07/28/2023 11:33:12 AM creating nrv-py-0.9.9a0/nrv_py.egg-info
+07/28/2023 11:33:12 AM copying files to nrv-py-0.9.9a0...
+07/28/2023 11:33:12 AM copying MANIFEST.in -> nrv-py-0.9.9a0
+07/28/2023 11:33:12 AM copying pyproject.toml -> nrv-py-0.9.9a0
+07/28/2023 11:33:12 AM copying setup.py -> nrv-py-0.9.9a0
+07/28/2023 11:33:12 AM copying nrv/__init__.py -> nrv-py-0.9.9a0/nrv
+07/28/2023 11:33:12 AM copying nrv/nrv2calm -> nrv-py-0.9.9a0/nrv
+07/28/2023 11:33:12 AM copying nrv/_misc/NRV.ini -> nrv-py-0.9.9a0/nrv/_misc
+07/28/2023 11:33:12 AM copying nrv/_misc/OTF_PP/default.py -> nrv-py-0.9.9a0/nrv/_misc/OTF_PP
+07/28/2023 11:33:12 AM copying nrv/_misc/OTF_PP/is_blocked.py -> nrv-py-0.9.9a0/nrv/_misc/OTF_PP
+07/28/2023 11:33:12 AM copying nrv/_misc/OTF_PP/is_excited.py -> nrv-py-0.9.9a0/nrv/_misc/OTF_PP
+07/28/2023 11:33:12 AM copying nrv/_misc/OTF_PP/is_onset.py -> nrv-py-0.9.9a0/nrv/_misc/OTF_PP
+07/28/2023 11:33:12 AM copying nrv/_misc/OTF_PP/raster_plot.py -> nrv-py-0.9.9a0/nrv/_misc/OTF_PP
+07/28/2023 11:33:12 AM copying nrv/_misc/OTF_PP/rmv_keys.py -> nrv-py-0.9.9a0/nrv/_misc/OTF_PP
+07/28/2023 11:33:12 AM copying nrv/_misc/OTF_PP/vmem_plot.py -> nrv-py-0.9.9a0/nrv/_misc/OTF_PP
+07/28/2023 11:33:12 AM copying nrv/_misc/comsol_templates/Nerve_1_Fascicle_1_CUFF.mph -> nrv-py-0.9.9a0/nrv/_misc/comsol_templates
+07/28/2023 11:33:12 AM copying nrv/_misc/comsol_templates/Nerve_1_Fascicle_1_LIFE.mph -> nrv-py-0.9.9a0/nrv/_misc/comsol_templates
+07/28/2023 11:33:12 AM copying nrv/_misc/comsol_templates/Nerve_1_Fascicle_2_LIFE.mph -> nrv-py-0.9.9a0/nrv/_misc/comsol_templates
+07/28/2023 11:33:12 AM copying nrv/_misc/geom/smoothed_edges_white.dxf -> nrv-py-0.9.9a0/nrv/_misc/geom
+07/28/2023 11:33:12 AM copying nrv/_misc/geom/smoothed_edges_white.png -> nrv-py-0.9.9a0/nrv/_misc/geom
+07/28/2023 11:33:12 AM copying nrv/_misc/log/NRV.log -> nrv-py-0.9.9a0/nrv/_misc/log
