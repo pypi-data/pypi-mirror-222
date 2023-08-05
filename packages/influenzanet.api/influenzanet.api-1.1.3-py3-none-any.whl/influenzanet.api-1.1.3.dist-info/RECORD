@@ -1,0 +1,8 @@
+influenzanet/api/__init__.py,sha256=6H7VOrVv-04JgBGXUAmiR3b5FJmeotqDqpp15jGtTS8,60
+influenzanet/api/management_api.py,sha256=tEC9X0dEryQMpTB_w_kSgJqLm2p3oFOO-yLOUqlSCt0,27261
+influenzanet/api/response_parser.py,sha256=9g2NF_EJMF1nfC9VyqgdJytWurd7pdTS3SlOf6Uxq0Q,9177
+influenzanet.api-1.1.3.dist-info/LICENCE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+influenzanet.api-1.1.3.dist-info/METADATA,sha256=vI5a5krmyIF7__2tmsP1UXF_KfXd8lG5TpWbxZh2m5Y,799
+influenzanet.api-1.1.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+influenzanet.api-1.1.3.dist-info/top_level.txt,sha256=Q5XA2x35ce2-P1VJfX3NjNBeI6Di1JQIecqq2Z8ERv8,13
+influenzanet.api-1.1.3.dist-info/RECORD,,
