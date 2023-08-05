@@ -1,0 +1,11 @@
+pinboard/__init__.py,sha256=nDtpFC4Aa6JZJqLCRHM7rWiOC5IU3tdV-727r4DfmQk,1280
+pinboard/exceptions.py,sha256=XIRHqkw6Getnhym2U-gkwTZNiPM-tmYiP288tcQqWdQ,947
+pinboard/metadata.py,sha256=Q1pMMinSsRNBduiAzQSFoVmrDtIzfb1Qf8dgag1dRRc,793
+pinboard/pinboard.py,sha256=lLYVIsFFT_bB1L-7_yTAOeX6H3jtoL31wP26QhE264Q,7995
+pinboard-2.1.9.data/scripts/pinboard,sha256=OdqyQDig9bHKSBMyXwxVUzLrFWf-BIryZqijkM0Ivco,13202
+pinboard-2.1.9.dist-info/LICENSE,sha256=mGBnO_2HFwXPHYTI0KAhHiBUMd9CX4Qvv7fqN2TCiEc,10176
+pinboard-2.1.9.dist-info/METADATA,sha256=FH4s0ieRaeWgzkXBP6tK0yklSHiHVUaBZtmvk_8AOQI,1001
+pinboard-2.1.9.dist-info/NOTICE,sha256=M4eh8UDJvAugg3Lmv0EwJkIIneJYW_Au3m5SleOcBgU,148
+pinboard-2.1.9.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+pinboard-2.1.9.dist-info/top_level.txt,sha256=R_OwVaG_Zm7olbljHMVP4L-C4-A68xlXT3tK8-z7-qs,9
+pinboard-2.1.9.dist-info/RECORD,,
