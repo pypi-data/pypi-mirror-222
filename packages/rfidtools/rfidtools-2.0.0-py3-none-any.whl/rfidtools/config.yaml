@@ -1,0 +1,14 @@
+# SQL database connection configuration
+db:
+  server: 192.168.2.67
+  table: DataWhseCiot
+  user: SA
+  pass: Passw0rd
+
+# SSH connection configuration
+ssh:
+  server: 192.168.2.67
+  user: RFIDAdmin
+  pass: Passw0rd2987
+  logs-path: C:\Print_Logs\
+  archives-path: C:\Print_Archives\
