@@ -1,0 +1,9 @@
+mailhog/__init__.py,sha256=MJ5MDD-VFV-37SOevGn4DY2R5w_IIJ2H2RfUxV-zask,17
+mailhog/extension.py,sha256=nO0yy18Mpi3YBP6hZur989bmXIX_6qWnzdu_oR6IHUg,4034
+mailhog/package.py,sha256=8-0eIUSmIoco-hWuGqskf9q6RYxlTIIlHwFXz1n4Kvk,1562
+mailhog/server.py,sha256=0_9TFR_S8dhEBQCIlgujywu6dGiLCu2ifZtgwpnudfc,4018
+localstack_extension_mailhog-0.1.0.dist-info/METADATA,sha256=xyI2nXNjxI1-JBSffRO5jYYONypw80SqLnyR4guwQHs,5365
+localstack_extension_mailhog-0.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+localstack_extension_mailhog-0.1.0.dist-info/entry_points.txt,sha256=mC0ECAabO0_sf_9V6ZTHzkI1H1MtYuXFqatpB1EhpIo,69
+localstack_extension_mailhog-0.1.0.dist-info/top_level.txt,sha256=GAe5ynoIVHuwlTekm5ALapEip6GPgLvN3OoNIquhyZQ,8
+localstack_extension_mailhog-0.1.0.dist-info/RECORD,,
