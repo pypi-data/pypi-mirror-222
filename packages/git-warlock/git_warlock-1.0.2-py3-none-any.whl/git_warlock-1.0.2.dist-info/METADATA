@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: git-warlock
+Version: 1.0.2
+Summary: A script to remove .git folders in all subdirectories
+Author: willywdev
+Requires-Dist: rich
+
