@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: euxfel-EXtra
+Version: 2023.2
+Summary: European XFEL toolkit for research and analysis
+Author-email: European XFEL <da@xfel.eu>
+License: BSD-3-Clause
+Project-URL: Homepage, https://github.com/European-XFEL/EXtra
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: euxfel-bunch-pattern
+Requires-Dist: extra-data (>=1.13)
+Requires-Dist: extra-geom
+Requires-Dist: karabo-bridge
+Provides-Extra: docs
+Requires-Dist: black ; extra == 'docs'
+Requires-Dist: mkdocs-material ; extra == 'docs'
+Requires-Dist: mkdocstrings ; extra == 'docs'
+Requires-Dist: mkdocstrings-python (>=1.2.0) ; extra == 'docs'
+Requires-Dist: pymdown-extensions ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# EXtra - European XFEL Toolkit for Research and Analysis
+
+This repository holds various bits of code to make data analysis simpler.
+
+## Development
+During development in a custom environment it's often helpful to install the
+package in editable mode:
+```bash
+$ pip install -e '.[tests,docs]'
+```
+
+Tests are stored under `tests/` and use pytest:
+```bash
+$ python -m pytest .
+```
+
+The documentation is written using [mkdocs](https://www.mkdocs.org/) with
+[mkdocstrings-python](https://mkdocstrings.github.io/python/). To automatically
+rebuild the docs while editing, run:
+```bash
+$ mkdocs serve
+```
