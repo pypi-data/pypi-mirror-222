@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: localstack-extension-hello-world
+Version: 0.0.1.dev1
+Summary: LocalStack hello world extension Example
+Home-page: https://github.com/localstack/localstack-extensions/tree/main/hello-world
+Author: Thomas Rausch
+Author-email: thomas@localstack.cloud
+Project-URL: extension_manifest, https://github.com/localstack/localstack-extensions/tree/main/hello-world/manifest.json
+Project-URL: extension_website, https://github.com/localstack/localstack-extensions/tree/main/hello-world
+Requires-Dist: localstack (>=1.0)
+
