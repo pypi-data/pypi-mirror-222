@@ -1,0 +1,11 @@
+[project]
+name="amlb"
+version="0.0.1"
+authors = [
+  { name="Pieter Gijsbers", email="p.gijsbers@tue.nl" }
+] 
+description="Benchmarking for AutoML frameworks"
+
+[project.urls]
+"Homepage" = "https://github.com/openml/automlbenchmark"
+
