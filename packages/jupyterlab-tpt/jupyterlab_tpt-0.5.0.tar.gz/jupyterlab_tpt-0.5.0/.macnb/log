@@ -1,0 +1,116 @@
+[I 2023-07-27 11:54:24.437 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-07-27 11:54:24.469 ServerApp] Package jupyter_lsp took 0.0308s to import
+[W 2023-07-27 11:54:24.469 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-07-27 11:54:24.480 ServerApp] Package jupyter_server_terminals took 0.0104s to import
+[I 2023-07-27 11:54:24.482 ServerApp] Package jupyterlab_myst took 0.0021s to import
+[I 2023-07-27 11:54:24.618 ServerApp] Package jupytext took 0.1359s to import
+[I 2023-07-27 11:54:24.619 ServerApp] Package notebook took 0.0000s to import
+[I 2023-07-27 11:54:24.622 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-07-27 11:54:24.622 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-07-27 11:54:24.623 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-07-27 11:54:24.628 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2023-07-27 11:54:24.630 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-27 11:54:24.630 LabApp] 'iopub_data_rate_limit' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use '21235-25155' instead of '"21235-25155"' if you require traitlets >=5.
+  warn(
+[W 2023-07-27 11:54:24.636 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[W 2023-07-27 11:54:24.636 ServerApp] ServerApp.iopub_data_rate_limit config is deprecated in 2.0. Use ZMQChannelsWebsocketConnection.iopub_data_rate_limit.
+[I 2023-07-27 11:54:24.636 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-07-27 11:54:24.636 ServerApp] jupyterlab_myst | extension was successfully linked.
+[I 2023-07-27 11:54:24.636 ServerApp] jupytext | extension was successfully linked.
+[I 2023-07-27 11:54:24.644 ServerApp] notebook | extension was successfully linked.
+[W 2023-07-27 11:54:25.086 ServerApp] jupyter_nbextensions_configurator | error adding extension (enabled: True): The module 'jupyter_nbextensions_configurator' could not be found (No module named 'jupyter_nbextensions_configurator'). Are you sure the extension is installed?
+    Traceback (most recent call last):
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/jupyter_server/extension/manager.py", line 319, in add_extension
+        extpkg = ExtensionPackage(name=extension_name, enabled=enabled)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/jupyter_server/extension/manager.py", line 183, in __init__
+        self._load_metadata()
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/jupyter_server/extension/manager.py", line 198, in _load_metadata
+        raise ExtensionModuleNotFound(msg) from None
+    jupyter_server.extension.utils.ExtensionModuleNotFound: The module 'jupyter_nbextensions_configurator' could not be found (No module named 'jupyter_nbextensions_configurator'). Are you sure the extension is installed?
+[I 2023-07-27 11:54:25.087 ServerApp] notebook_shim | extension was successfully linked.
+/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use '21235-25155' instead of '"21235-25155"' if you require traitlets >=5.
+  warn(
+[I 2023-07-27 11:54:25.155 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-07-27 11:54:25.158 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-07-27 11:54:25.159 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-07-27 11:54:25.167 LabApp] JupyterLab extension loaded from /Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/jupyterlab
+[I 2023-07-27 11:54:25.167 LabApp] JupyterLab application directory is /Users/tparment/miniconda3/envs/jupyterlab-tpt/share/jupyter/lab
+[I 2023-07-27 11:54:25.168 LabApp] Extension Manager is 'pypi'.
+[I 2023-07-27 11:54:25.171 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-07-27 11:54:25.173 ServerApp] jupyterlab_myst | extension was successfully loaded.
+[W 2023-07-27 11:54:25.173 ServerApp] [Jupytext Server Extension] Async contents managers like AsyncLargeFileManager are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2023-07-27 11:54:25.173 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2023-07-27 11:54:25.175 ServerApp] jupytext | extension was successfully loaded.
+[I 2023-07-27 11:54:25.179 ServerApp] notebook | extension was successfully loaded.
+[I 2023-07-27 11:54:25.181 ServerApp] Serving notebooks from local directory: /Users/tparment/git/jupyterlab-tpt
+[I 2023-07-27 11:54:25.181 ServerApp] Jupyter Server 2.7.0 is running at:
+[I 2023-07-27 11:54:25.181 ServerApp] http://localhost:53327/lab?token=...
+[I 2023-07-27 11:54:25.181 ServerApp]     http://127.0.0.1:53327/lab?token=...
+[I 2023-07-27 11:54:25.181 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2023-07-27 11:54:25.563 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2023-07-27 11:54:33.515 ServerApp] 404 GET /custom/license.css (f88372398b814b4eb38169e4f9d03033@::1) 20.91ms referer=http://localhost:53327/custom/custom.css
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-07-27 11:54:35.946 ServerApp] Loaded Jupytext configuration file at /Users/tparment/jupytext.toml
+[W 2023-07-27 11:55:11.242 ServerApp] 404 GET /api/contents/ds-howtos/dashboard-with-dash-nb.py?content=0&1690451711215 (::1): file or directory does not exist: 'ds-howtos/dashboard-with-dash-nb.py'
+[W 2023-07-27 11:55:11.243 ServerApp] wrote error: "file or directory does not exist: 'ds-howtos/dashboard-with-dash-nb.py'"
+    Traceback (most recent call last):
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 122, in get
+        self.contents_manager.get(
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/jupytext/contentsmanager.py", line 199, in get
+        return self.super.get(path, content, type, format)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 415, in get
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: 'ds-howtos/dashboard-with-dash-nb.py')
+[W 2023-07-27 11:55:11.253 ServerApp] 404 GET /api/contents/ds-howtos/dashboard-with-dash-nb.py?content=0&1690451711215 (f88372398b814b4eb38169e4f9d03033@::1) 13.66ms referer=http://localhost:53327/lab
+[I 2023-07-27 11:55:11.376 LabApp] Build is up to date
+[W 2023-07-27 11:55:11.900 ServerApp] 404 GET /api/contents/ds-howtos?1690451711896 (::1): file or directory does not exist: 'ds-howtos'
+[W 2023-07-27 11:55:11.900 ServerApp] wrote error: "file or directory does not exist: 'ds-howtos'"
+    Traceback (most recent call last):
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 122, in get
+        self.contents_manager.get(
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/jupytext/contentsmanager.py", line 199, in get
+        return self.super.get(path, content, type, format)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/Users/tparment/miniconda3/envs/jupyterlab-tpt/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 415, in get
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: 'ds-howtos')
+[W 2023-07-27 11:55:11.901 ServerApp] 404 GET /api/contents/ds-howtos?1690451711896 (f88372398b814b4eb38169e4f9d03033@::1) 1.81ms referer=http://localhost:53327/lab
+[I 2023-07-27 11:55:24.144 ServerApp] Kernel started: 15064221-e787-446d-a72e-2e5f04ce1076
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-07-27 11:55:24.991 ServerApp] Connecting to kernel 15064221-e787-446d-a72e-2e5f04ce1076.
+[I 2023-07-27 11:55:24.995 ServerApp] Connecting to kernel 15064221-e787-446d-a72e-2e5f04ce1076.
+[I 2023-07-27 11:55:25.085 ServerApp] Connecting to kernel 15064221-e787-446d-a72e-2e5f04ce1076.
+[I 2023-07-27 11:56:50.067 ServerApp] Saving file at /examples/test-nb.ipynb
+[I 2023-07-27 11:56:50.070 ServerApp] Saving test-nb.ipynb
+[I 2023-07-27 11:57:06.764 ServerApp] Saving file at /examples/test-nb.ipynb
+[I 2023-07-27 11:57:06.767 ServerApp] Saving test-nb.ipynb
+[I 2023-07-27 11:57:10.479 ServerApp] Saving file at /examples/test-nb.ipynb
+[I 2023-07-27 11:57:10.483 ServerApp] Saving test-nb.ipynb
+[I 2023-07-27 11:57:20.635 ServerApp] Saving file at /examples/test-nb.ipynb
+[I 2023-07-27 11:57:20.638 ServerApp] Saving test-nb.ipynb
+[I 2023-07-27 11:57:32.948 ServerApp] Saving file at /examples/test-nb.ipynb
+[I 2023-07-27 11:57:32.952 ServerApp] Saving test-nb.ipynb
+[I 2023-07-27 11:58:54.122 ServerApp] Starting buffering for 15064221-e787-446d-a72e-2e5f04ce1076:598023b2-2745-431e-b0bd-767a6409b62f
+[I 2023-07-27 11:58:56.408 ServerApp] Connecting to kernel 15064221-e787-446d-a72e-2e5f04ce1076.
+[I 2023-07-27 11:58:56.654 ServerApp] Starting buffering for 15064221-e787-446d-a72e-2e5f04ce1076:26234317-c513-4d4b-99fe-4baf97c9e7a3
+[I 2023-07-27 11:58:56.827 LabApp] Build is up to date
+[I 2023-07-27 11:58:57.195 ServerApp] Connecting to kernel 15064221-e787-446d-a72e-2e5f04ce1076.
+[C 2023-07-27 12:03:59.915 ServerApp] received signal 15, stopping
+[I 2023-07-27 12:03:59.916 ServerApp] Shutting down 7 extensions
+[I 2023-07-27 12:03:59.916 ServerApp] Shutting down 1 kernel
+[I 2023-07-27 12:03:59.916 ServerApp] Kernel shutdown: 15064221-e787-446d-a72e-2e5f04ce1076
