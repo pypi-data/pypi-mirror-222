@@ -1,0 +1,12 @@
+taglogger/__init__.py,sha256=wmWK5PEmd4BONfjg9f7_AB5FlvgtdqPNhgN4MlWoksg,43
+taglogger/colors.py,sha256=NJKnP9qgkoZD2aVN38QybCUcVmrHYVqE4g_mUfBD948,1453
+taglogger/tlog.py,sha256=4RyOjm4v-6n_9KT0cTh-hHE3RyUT11mMieuso3VWghg,2271
+taglogger/version.py,sha256=0E2q3bbXSYHV7qQaXVj0To-J2XdlP2Roo0TsM8oQtR4,160
+tests/test_tlog.py,sha256=GtGzANzAPrjTkaKLwQVl_AVvujgjOewXK7ocSYvmR64,529
+tests/test_version.py,sha256=a-vFysy1Lk7SZpvNUvfx3hEEWN_l5zEVAtmj6P2em7o,86
+taglogger-0.0.1.dist-info/LICENSE,sha256=lYrnN7X1289HwbAf_IOTsjn7PZXtdakVFmn5nlarOXA,1065
+taglogger-0.0.1.dist-info/METADATA,sha256=us6ZDPYLXJDgpzs0HiXV319ECqdaou6DZ3VFceSq8ik,1064
+taglogger-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+taglogger-0.0.1.dist-info/entry_points.txt,sha256=1PXcKH9vFxAywsJNEzmnNXXFgiDH98PjUHsUluDwMOs,54
+taglogger-0.0.1.dist-info/top_level.txt,sha256=incJOlFtfuKKWxrrebQndV2vmripzDDzRyt9dnyVpN0,21
+taglogger-0.0.1.dist-info/RECORD,,
