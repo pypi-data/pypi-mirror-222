@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: Xssec
+Version: 0.1.5
+Summary: 一个可以加密文本的库
+Home-page: https://github.com/your_username/Xssec
+Author: Xssoft
+Author-email: xssoft2022@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Xssec
+Xssec是一个Python文本加密库，由诗软科技制作
+
+
+## 安装
+
+```
+pip install xssec
+```
+
+
+## 使用方法
+
+```python
+from xssec import lock, unlock
+
+# 设置密码
+psw = 123
+
+# 对文本进行加密
+text = "你好，世界！"
+lock_txt = lock(text, psw)
+print("加密后的文本:", lock_txt)
+
+# 将加密文本解密
+unlock_txt = unlock(lock_txt, psw)
+print("解密后的文本:", unlock_txt)
+```
+
+
+
+
+
