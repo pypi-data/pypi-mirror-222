@@ -1,0 +1,11 @@
+setup.py
+./pkgUdit/__init__.py
+./pkgUdit/pswdGen.py
+./pkgUdit/test.py
+./pkgUdit/data/names.csv
+./pkgUdit/data/places.csv
+pkgUdit.egg-info/PKG-INFO
+pkgUdit.egg-info/SOURCES.txt
+pkgUdit.egg-info/dependency_links.txt
+pkgUdit.egg-info/not-zip-safe
+pkgUdit.egg-info/top_level.txt
