@@ -1,0 +1,9 @@
+odoo/addons/sm_crm_donation/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/sm_crm_donation/__manifest__.py,sha256=fj2na2cRtQDMy11tpixsOYP_Koxz7hCjY7vXIQZgp8g,393
+odoo/addons/sm_crm_donation/data/utm_source_data.xml,sha256=Bp-odJJV41Y6orO-POztQjCb6x5_uWF22GnjWlmHvlg,229
+odoo/addons/sm_crm_donation/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/sm_crm_donation/views/crm_lead_views.xml,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo12_addon_sm_crm_donation-12.0.0.0.1.dist-info/METADATA,sha256=5uNmx8ddMr7wwd_rXWWm5jf1uESKybVkG5l3l7gVDmo,381
+odoo12_addon_sm_crm_donation-12.0.0.0.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+odoo12_addon_sm_crm_donation-12.0.0.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_sm_crm_donation-12.0.0.0.1.dist-info/RECORD,,
