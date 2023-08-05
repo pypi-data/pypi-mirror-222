@@ -1,0 +1,5 @@
+setup.py
+voysen.egg-info/PKG-INFO
+voysen.egg-info/SOURCES.txt
+voysen.egg-info/dependency_links.txt
+voysen.egg-info/top_level.txt
