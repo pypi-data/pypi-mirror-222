@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/FIM/__init__.py
+src/FIM/apriori.py
+src/FIM/association_rules.py
+src/FIM/eclat.py
+src/FIM/fpgrowth.py
+src/FIM/hmine.py
+src/FIM/utils.py
+src/FSM/__init__.py
+src/fimproject.egg-info/PKG-INFO
+src/fimproject.egg-info/SOURCES.txt
+src/fimproject.egg-info/dependency_links.txt
+src/fimproject.egg-info/requires.txt
+src/fimproject.egg-info/top_level.txt
