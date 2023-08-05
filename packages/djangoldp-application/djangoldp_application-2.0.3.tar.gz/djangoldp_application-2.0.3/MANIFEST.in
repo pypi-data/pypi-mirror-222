@@ -1,0 +1,3 @@
+recursive-include djangoldp_application/templates *
+recursive-include djangoldp_application/static *
+recursive-include djangoldp_application/locale *
