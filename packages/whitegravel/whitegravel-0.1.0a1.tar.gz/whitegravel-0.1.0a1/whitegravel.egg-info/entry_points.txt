@@ -1,0 +1,2 @@
+[console_scripts]
+whitegravel = whitegravel.cli:cli

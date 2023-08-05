@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: whitegravel
+Version: 0.1.0a1
+Summary: All-in-one Cybersecurity Management Platform
+Author-email: Juan Cerezo <jcerezo.dev@proton.me>
+License: GPL-3.0-only
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# whitegravel
+All-in-one Cybersecurity Management Platform
