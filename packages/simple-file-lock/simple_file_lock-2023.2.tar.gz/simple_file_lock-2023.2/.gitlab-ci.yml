@@ -1,0 +1,28 @@
+pages:
+  image: sphinxdoc/sphinx
+
+  tags:
+    - ci.inria.fr
+    - linux
+    - small
+
+  script:
+    - bash ./scripts/build_documentation.sh -i public
+
+  artifacts:
+    paths:
+    - public
+
+  only:
+  - main
+
+test:
+  image: python:latest
+
+  tags:
+    - ci.inria.fr
+    - linux
+    - small
+
+  script:
+    - bash ./scripts/test.sh
