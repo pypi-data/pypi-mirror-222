@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: semgrep-rules-manager
+Version: 0.1.0.post1
+Summary: Manager of third-party Semgrep rules
+Home-page: https://github.com/iosifache/semgrep-rules-manager
+License: MIT
+Keywords: semgrep,semgrep-rules,semgrep-rules-manager,sast
+Author: George-Andrei Iosif
+Author-email: andrei.iosif@canonical.com
+Requires-Python: >=3.10,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: System :: Software Distribution
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: gitpython (>=3.1.32,<4.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: rich (>=13.4.2,<14.0.0)
+Project-URL: Repository, https://github.com/iosifache/semgrep-rules-manager
+Description-Content-Type: text/markdown
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/returntocorp/semgrep/develop/images/semgrep-logo-light.svg" height="100" alt="Semgrep logo"/>
+</p>
+
+## Description
+
+Despite the fact that there is an open source repository containing community rules, some Semgrep users prefer to keep their custom rules in repositories that they manage.
+
+The goal of **`semgrep-rules-manager`** is to collect **high-quality Semgrep rules from third-party sources**. It allows you to examine information about a source, download it, and check for and retrieve remote updates. If a downloaded source no longer meets your requirements, `semgrep-rules-manager` can handle deletion procedures.
+
+## Included Sources
+
+| Identifier    | Repository URL                                             | Author        | License   |
+|---------------|------------------------------------------------------------|---------------|-----------|
+| `community`   | https://github.com/returntocorp/semgrep-rules              | Semgrep       | LGPL 2.1  |
+| `gitlab`      | https://gitlab.com/gitlab-org/security-products/sast-rules | GitLab        | MIT       |
+| `trailofbits` | https://github.com/trailofbits/semgrep-rules               | Trail of Bits | AGPL-3.0  |
+| `0xdea`       | https://github.com/0xdea/semgrep-rules                     | Marco Ivaldi  | MIT       |
+| `elttam`      | https://github.com/elttam/semgrep-rules                    | elttam        | MIT       |
+| `kondukto`    | https://github.com/kondukto-io/semgrep-rules               | Kondukto      |           |
+
+## Read Further
+
+This is only an excerpt from the [`README.md` hosted on GitHub](https://github.com/iosifache/semgrep-rules-manager#readme).
+

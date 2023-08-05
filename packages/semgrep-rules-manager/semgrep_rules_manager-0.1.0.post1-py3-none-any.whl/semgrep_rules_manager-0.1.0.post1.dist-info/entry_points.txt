@@ -1,0 +1,4 @@
+[console_scripts]
+generate-readme=actions.generate_readme.generate_readme:main
+semgrep-rules-manager=semgrep_rules_manager.cli:main
+
