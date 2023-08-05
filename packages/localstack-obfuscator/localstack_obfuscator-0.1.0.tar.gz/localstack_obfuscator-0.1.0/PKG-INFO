@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: localstack_obfuscator
+Version: 0.1.0
+Summary: LocalStack to obfuscate sensitive data
+Home-page: https://localstack.cloud
+Author: LocalStack GmbH
+Author-email: support@localstack.cloud
+Description-Content-Type: text/markdown
