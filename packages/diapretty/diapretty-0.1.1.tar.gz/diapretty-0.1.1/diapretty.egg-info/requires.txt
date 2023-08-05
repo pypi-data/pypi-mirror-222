@@ -1,0 +1,6 @@
+jinja2
+click
+
+[dev]
+black>=22.1
+isort>=5.10
