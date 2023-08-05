@@ -1,0 +1,9 @@
+pkgUdit/__init__.py,sha256=H2LpazwxItJEifVBzZ4P4C8E0oISXpilMEWLGaCoxew,275
+pkgUdit/pswdGen.py,sha256=3CJeU5G_lUySJzm4HOnr6Vru1_GDg-0Nz3iKly5k89c,2619
+pkgUdit/test.py,sha256=upu6sDDdG5IelpClUQvP4SbH-fvYL6EzT7gCzpX106I,2243
+pkgUdit/data/Names.csv,sha256=dMqJdYHE7WbE2E_J4b-FN1d6C0gAzrpzmFipqw1qtA0,72
+pkgUdit/data/Places.csv,sha256=ipOhlK7HqhhSUnp8KdUWYT62ZyZnYMTJELMh2N7czg8,79
+pkgUdit-1.1.5.9.dist-info/METADATA,sha256=4hXRzMeRkYBN9lCl2iR9-0PyecmGuQANsZv32XaP_Ko,316
+pkgUdit-1.1.5.9.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pkgUdit-1.1.5.9.dist-info/top_level.txt,sha256=6HDcohhlcW4NGgQUEahihS6gyf5t4TajlQuyJGMTe4c,8
+pkgUdit-1.1.5.9.dist-info/RECORD,,
