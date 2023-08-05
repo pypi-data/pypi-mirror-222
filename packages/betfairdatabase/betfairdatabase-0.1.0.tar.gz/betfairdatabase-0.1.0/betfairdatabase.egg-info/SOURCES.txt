@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+betfairdatabase/__init__.py
+betfairdatabase/api.py
+betfairdatabase/core.py
+betfairdatabase/exceptions.py
+betfairdatabase.egg-info/PKG-INFO
+betfairdatabase.egg-info/SOURCES.txt
+betfairdatabase.egg-info/dependency_links.txt
+betfairdatabase.egg-info/top_level.txt
+tests/test_integration.py
