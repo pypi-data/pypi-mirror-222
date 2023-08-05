@@ -1,0 +1,14 @@
+README.md
+setup.py
+python_lib_template.egg-info/PKG-INFO
+python_lib_template.egg-info/SOURCES.txt
+python_lib_template.egg-info/dependency_links.txt
+python_lib_template.egg-info/requires.txt
+python_lib_template.egg-info/top_level.txt
+python_library/__init__.py
+python_library/sample.py
+tests/__init__.py
+tests/integration/__init__.py
+tests/integration/test_mongo_connection.py
+tests/integration/test_neo4j_connection.py
+tests/integration/test_rabbitmq_connection.py
