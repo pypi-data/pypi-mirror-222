@@ -1,0 +1,7 @@
+pyproject.toml
+nonebot_plugin_aujob/__init__.py
+nonebot_plugin_aujob.egg-info/PKG-INFO
+nonebot_plugin_aujob.egg-info/SOURCES.txt
+nonebot_plugin_aujob.egg-info/dependency_links.txt
+nonebot_plugin_aujob.egg-info/requires.txt
+nonebot_plugin_aujob.egg-info/top_level.txt
