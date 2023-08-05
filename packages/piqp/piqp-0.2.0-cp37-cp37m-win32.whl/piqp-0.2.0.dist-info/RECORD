@@ -1,0 +1,10 @@
+piqp/__init__.py,sha256=5vDu1dVO-3qcDj9VN_0TzFZLPRVebR5NzvVkk-c6Ii0,1002
+piqp/instruction_set.cp37-win32.pyd,sha256=-diRqcJ_nRkxQ8ELKBUYnXdPQnIL-JX7eHP9Q-awqqI,98816
+piqp/piqp_python.cp37-win32.pyd,sha256=wS5cNGKAhEwqlh1XNLb__AJrygnG0KaDbKn6j9ZoAJ8,561664
+piqp/piqp_python_avx2.cp37-win32.pyd,sha256=BX8An5L23V9Zh-YurJ5a-lL0tuRtFw1KSN8kKHN1Oik,569856
+piqp/piqp_python_avx512.cp37-win32.pyd,sha256=mu6uZv-HAxTLvhSz7dQKVPlrnHgDRdX5iL2QDWqmWRY,584704
+piqp-0.2.0.dist-info/LICENSE,sha256=BAu4BiSxvgpDLLfynelNT3pK5-gTrsexBua5JhUSHkY,1337
+piqp-0.2.0.dist-info/METADATA,sha256=16Gt9k2Xl0XHj8j8Oa0v3aH0q7M-GU_-PBf9nNIsL2A,4407
+piqp-0.2.0.dist-info/WHEEL,sha256=e5gFL3EEsgeHILVq1R-KAYDxaDKHppZuFWXjYCEUBkk,97
+piqp-0.2.0.dist-info/top_level.txt,sha256=F-GFRluNmn1bIS3npWT9LVAqKKnPzP4_LX_vULOXLnE,5
+piqp-0.2.0.dist-info/RECORD,,
