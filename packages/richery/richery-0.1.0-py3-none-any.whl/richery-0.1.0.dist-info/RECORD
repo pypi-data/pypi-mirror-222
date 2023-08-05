@@ -1,0 +1,10 @@
+richery/__init__.py,sha256=MWErYxnBJnULY4BDttoCJv_Xr-1bF7IHjaDFgMfIhhg,268
+richery/ansitool.py,sha256=ZGv0H2ly6HbizwsuBkRy0PNvL3gI5dMwa1t56dmZOvc,3919
+richery/canvas.py,sha256=9dKShVcWgRetYqXkcLn2v1EKlXSEEMNzadd_cYVCmj8,8995
+richery/colordef.py,sha256=ci31PsIoka38CUWpDFbavNsuQYDfY7zHzaSFhf5YBE0,2838
+richery/textwork.py,sha256=VJwInrGj5_7MFm61PcHEcYjUp7vDRUVsFAvWsf2-TmU,2212
+richery-0.1.0.dist-info/LICENSE,sha256=EZuxhuQyroi5kdIW6P2La2g2nmHjDcRGNbUZALPNqz8,1068
+richery-0.1.0.dist-info/METADATA,sha256=VYVOQbtEaSCdqIfLRuderC8-43LAmkvjg9aO6YW2kKI,470
+richery-0.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+richery-0.1.0.dist-info/top_level.txt,sha256=jDVrPhDGMDpv5A_9PBcmONEwNDkvpLM1kmbf2hFs9Ws,8
+richery-0.1.0.dist-info/RECORD,,
