@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+modgen/__init__.py
+modgen/modgen.py
+modgen.egg-info/PKG-INFO
+modgen.egg-info/SOURCES.txt
+modgen.egg-info/dependency_links.txt
+modgen.egg-info/top_level.txt
