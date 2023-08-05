@@ -1,0 +1,2 @@
+class whitegravelError(Exception):
+    pass
