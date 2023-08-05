@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+oobleck.egg-info/PKG-INFO
+oobleck.egg-info/SOURCES.txt
+oobleck.egg-info/dependency_links.txt
+oobleck.egg-info/not-zip-safe
+oobleck.egg-info/top_level.txt
