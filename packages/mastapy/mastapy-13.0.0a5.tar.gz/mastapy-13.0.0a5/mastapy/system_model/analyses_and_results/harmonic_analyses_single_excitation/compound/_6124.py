@@ -1,0 +1,193 @@
+﻿"""_6124.py
+
+BevelGearCompoundHarmonicAnalysisOfSingleExcitation
+"""
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, List
+
+from mastapy._internal import constructor, conversion
+from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6112
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_BEVEL_GEAR_COMPOUND_HARMONIC_ANALYSIS_OF_SINGLE_EXCITATION = python_net_import('SMT.MastaAPI.SystemModel.AnalysesAndResults.HarmonicAnalysesSingleExcitation.Compound', 'BevelGearCompoundHarmonicAnalysisOfSingleExcitation')
+
+if TYPE_CHECKING:
+    from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation import _5994
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('BevelGearCompoundHarmonicAnalysisOfSingleExcitation',)
+
+
+class BevelGearCompoundHarmonicAnalysisOfSingleExcitation(_6112.AGMAGleasonConicalGearCompoundHarmonicAnalysisOfSingleExcitation):
+    """BevelGearCompoundHarmonicAnalysisOfSingleExcitation
+
+    This is a mastapy class.
+    """
+
+    TYPE = _BEVEL_GEAR_COMPOUND_HARMONIC_ANALYSIS_OF_SINGLE_EXCITATION
+
+    class _Cast_BevelGearCompoundHarmonicAnalysisOfSingleExcitation:
+        """Special nested class for casting BevelGearCompoundHarmonicAnalysisOfSingleExcitation to subclasses."""
+
+        def __init__(self, parent: 'BevelGearCompoundHarmonicAnalysisOfSingleExcitation'):
+            self._parent = parent
+
+        @property
+        def agma_gleason_conical_gear_compound_harmonic_analysis_of_single_excitation(self):
+            return self._parent._cast(_6112.AGMAGleasonConicalGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def conical_gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6140
+            
+            return self._parent._cast(_6140.ConicalGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6166
+            
+            return self._parent._cast(_6166.GearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def mountable_component_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6185
+            
+            return self._parent._cast(_6185.MountableComponentCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def component_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6133
+            
+            return self._parent._cast(_6133.ComponentCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def part_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6187
+            
+            return self._parent._cast(_6187.PartCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def part_compound_analysis(self):
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7512
+            
+            return self._parent._cast(_7512.PartCompoundAnalysis)
+
+        @property
+        def design_entity_compound_analysis(self):
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7509
+            
+            return self._parent._cast(_7509.DesignEntityCompoundAnalysis)
+
+        @property
+        def design_entity_analysis(self):
+            from mastapy.system_model.analyses_and_results import _2633
+            
+            return self._parent._cast(_2633.DesignEntityAnalysis)
+
+        @property
+        def bevel_differential_gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6119
+            
+            return self._parent._cast(_6119.BevelDifferentialGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def bevel_differential_planet_gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6122
+            
+            return self._parent._cast(_6122.BevelDifferentialPlanetGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def bevel_differential_sun_gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6123
+            
+            return self._parent._cast(_6123.BevelDifferentialSunGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def spiral_bevel_gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6207
+            
+            return self._parent._cast(_6207.SpiralBevelGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def straight_bevel_diff_gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6213
+            
+            return self._parent._cast(_6213.StraightBevelDiffGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def straight_bevel_gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6216
+            
+            return self._parent._cast(_6216.StraightBevelGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def straight_bevel_planet_gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6219
+            
+            return self._parent._cast(_6219.StraightBevelPlanetGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def straight_bevel_sun_gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6220
+            
+            return self._parent._cast(_6220.StraightBevelSunGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def zerol_bevel_gear_compound_harmonic_analysis_of_single_excitation(self):
+            from mastapy.system_model.analyses_and_results.harmonic_analyses_single_excitation.compound import _6234
+            
+            return self._parent._cast(_6234.ZerolBevelGearCompoundHarmonicAnalysisOfSingleExcitation)
+
+        @property
+        def bevel_gear_compound_harmonic_analysis_of_single_excitation(self) -> 'BevelGearCompoundHarmonicAnalysisOfSingleExcitation':
+            return self._parent
+
+        def __getattr__(self, name: str):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = ''.join(n.capitalize() for n in name.split('_'))
+                raise CastException(f'Detected an invalid cast. Cannot cast to type "{class_name}"') from None
+
+    def __init__(self, instance_to_wrap: 'BevelGearCompoundHarmonicAnalysisOfSingleExcitation.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def component_analysis_cases(self) -> 'List[_5994.BevelGearHarmonicAnalysisOfSingleExcitation]':
+        """List[BevelGearHarmonicAnalysisOfSingleExcitation]: 'ComponentAnalysisCases' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ComponentAnalysisCases
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+        return value
+
+    @property
+    def component_analysis_cases_ready(self) -> 'List[_5994.BevelGearHarmonicAnalysisOfSingleExcitation]':
+        """List[BevelGearHarmonicAnalysisOfSingleExcitation]: 'ComponentAnalysisCasesReady' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ComponentAnalysisCasesReady
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+        return value
+
+    @property
+    def cast_to(self) -> 'BevelGearCompoundHarmonicAnalysisOfSingleExcitation._Cast_BevelGearCompoundHarmonicAnalysisOfSingleExcitation':
+        return self._Cast_BevelGearCompoundHarmonicAnalysisOfSingleExcitation(self)
