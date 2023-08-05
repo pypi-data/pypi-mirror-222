@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: localstack-extension-stripe
+Version: 0.1.0
+Summary: LocalStack Extension: Stripe
+Home-page: https://github.com/localstack/localstack-extensions/tree/main/stripe
+Author: Thomas Rausch
+Author-email: thomas@localstack.cloud
+License: Apache License 2.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown; charset=UTF-8
+Provides-Extra: dev
+License-File: LICENSE
+
+Stripe LocalStack extensions
+============================
+
+A LocalStack extension that provides a mocked version of [Stripe](https://stripe.com) as a service.
+
+## Installing
+
+
+```bash
+localstack extensions install localstack-extension-stripe
+```
+
+## Using
+
+Once installed, you can query stripe either through `localhost:4566/stripe` or
+`stripe.localhost.localstack.cloud:4566`.
+
+```bash
+curl stripe.localhost.localstack.cloud:4566/v1/customers \
+	-u sk_test_12345: \
+	-d description="Customer data for Alice"
+````
+
+## Licensing
+
+* [localstripe](https://github.com/adrienverge/localstripe) is licensed under
+  the GNU General Public License version 3.
+* localstack-extension-stripe (this project) does not modify localstripe in
+  any way

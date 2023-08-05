@@ -1,0 +1,2 @@
+[localstack.extensions]
+localstripe = localstack_stripe.extension:LocalstripeExtension
