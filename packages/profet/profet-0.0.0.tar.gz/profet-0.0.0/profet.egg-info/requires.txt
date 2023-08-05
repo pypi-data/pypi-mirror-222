@@ -1,0 +1,16 @@
+numpy
+pypdb
+requests
+pandas
+requests_html
+bs4
+pypdb@ git+https://github.com/williamgilpin/pypdb@master#egg=pypdb
+
+[build_sphinx]
+sphinx
+sphinx_rtd_theme
+sphinx-argparse
+
+[dev]
+pytest
+pytest-cov
