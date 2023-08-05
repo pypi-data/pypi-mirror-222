@@ -1,0 +1,5 @@
+[console_scripts]
+add_tool = iseqresources.add_new_tool_to_json:main
+check_versions = iseqresources.check_versions_add_task:main
+update_docker_versions = iseqresources.update_docker_versions:main
+update_record = iseqresources.update_tool_record:main
