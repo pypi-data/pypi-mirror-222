@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+docs/source/conf.py
+thetis/__init__.py
+thetis/mlflow.py
+thetis/service.py
+thetis.egg-info/PKG-INFO
+thetis.egg-info/SOURCES.txt
+thetis.egg-info/dependency_links.txt
+thetis.egg-info/requires.txt
+thetis.egg-info/top_level.txt
