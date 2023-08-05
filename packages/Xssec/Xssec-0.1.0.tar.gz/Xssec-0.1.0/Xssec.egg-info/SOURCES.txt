@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+Xssec.egg-info/PKG-INFO
+Xssec.egg-info/SOURCES.txt
+Xssec.egg-info/dependency_links.txt
+Xssec.egg-info/top_level.txt
