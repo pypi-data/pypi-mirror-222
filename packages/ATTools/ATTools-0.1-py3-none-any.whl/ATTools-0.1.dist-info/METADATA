@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ATTools
+Version: 0.1
+Summary: Tools for The Open Network
+Author: NEVNORME
+Author-email: dev.nevermore696@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: asyncio
+Requires-Dist: aiohttp
+Requires-Dist: tonconnect
+Requires-Dist: dedust
+Requires-Dist: tontools
+Requires-Dist: xjet
+
