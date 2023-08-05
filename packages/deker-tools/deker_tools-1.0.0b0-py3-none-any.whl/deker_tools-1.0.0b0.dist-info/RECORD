@@ -1,0 +1,10 @@
+deker_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deker_tools/data.py,sha256=EYNv57a6ApMcWS_X-5_jN80aniGSgNlhjliBhAy1JtY,406
+deker_tools/path.py,sha256=swbp46RgdPN8MVBtPuhe4ocK0vjKwI9rO5krey3RIV8,1500
+deker_tools/slices.py,sha256=jM8nLL7zK4ZjUr3NmkuNCZQK21fFSbuslUKw55Ej6xw,13802
+deker_tools/time.py,sha256=pw2EYvbdH8mD738j5Xrwmg_zuWK9SUDtxXLnAbr7tZ8,978
+deker_tools-1.0.0b0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+deker_tools-1.0.0b0.dist-info/METADATA,sha256=0kl9JEgjkeFHr5Qr1EA61LhdZpgWs1k1weMFRSqmG2w,1157
+deker_tools-1.0.0b0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+deker_tools-1.0.0b0.dist-info/top_level.txt,sha256=900Si32MAIyARegmN7RgtSHRCoqMpq2baAlJXvJNyMc,12
+deker_tools-1.0.0b0.dist-info/RECORD,,
