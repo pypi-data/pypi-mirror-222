@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: PyTubeThumbs
+Version: 0.0.13
+Summary: It is a library that helps you create thumbnails
+Author: Free Python Code (Amr Elgarhy)
+Author-email: <amr.ee@yahoo.com>
+Keywords: python,thumbnails,images,youtube
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PIL
+
+
+# What Is PyTubeThumbs ?
+
+PyTubeThumbs
+
+It is a library that helps you create thumbnails for your YouTube channel easily and in a programmatic way 🙂
+
+
+
+
+
+## Examples of How To Use 
+
+
+
+Create thumbnail
+
+
+
+```python
+
+generator = PyTubeThumbs(title = 'How to make ChatBot in python', out_path='G:/')
+
+generator.add_text(
+
+            pos=(80, 50),
+
+            text = generator.title, 
+
+            size = 70,
+
+            color = 'black',
+
+            font_path='fonts/Cairo-Black.ttf',
+
+        )
+
+
+
+generator.add_image('python.png', pos = (100, 250), size = (140, 140))
+
+generator.add_image('robot.png', pos = (280, 250), size = (140, 140))
+
+generator.save_thumb()
+
+```
+
+
+
+You can also make a thumbnail in an easier way using a ready-made template
+
+
+
+```python
+
+
+
+generator = PyTubeThumbs(title = 'How to make ChatBot in python', out_path='G:/')
+
+generator.template_text_2imgs(generator.title, 'fonts/Cairo-Black.ttf', 'python.png', 'robot.png')
+
+
+
+generator.save_thumb()
+
+
+
+```
+
