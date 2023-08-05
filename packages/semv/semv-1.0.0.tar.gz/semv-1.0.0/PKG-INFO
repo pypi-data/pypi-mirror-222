@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: semv
+Version: 1.0.0
+Author-email: Ingo Fruend <github@ingofruend.net>
+License: BSD-3-Clause
+Keywords: Semantic Versioning
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# semv - Semantic Version Printing
+
+Intended use case:
+  $ git tag $(semv)
+
+## Design principles
+
+- No unexpected write
+- Do not trust the user's commit messages blindly
