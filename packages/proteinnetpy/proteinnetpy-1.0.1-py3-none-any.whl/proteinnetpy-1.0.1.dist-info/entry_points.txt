@@ -1,0 +1,4 @@
+[console_scripts]
+add_angles_to_proteinnet = proteinnetpy.scripts.add_angles:main
+filter_proteinnet = proteinnetpy.scripts.filter_proteinnet:main
+proteinnet_to_fasta = proteinnetpy.scripts.to_fasta:main
