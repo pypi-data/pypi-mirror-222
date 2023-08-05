@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hyd"
+version = "0.1.5"
+description = "A basic python youtube downloader made using tkinter, moviepy and pytube."
+authors = ["haukurlogi <haukurlogi2008@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+moviepy = "^1.0.3"
+pytube = "^15.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+hyd = 'hyd.HaukursYouTubeDownloader:main'
