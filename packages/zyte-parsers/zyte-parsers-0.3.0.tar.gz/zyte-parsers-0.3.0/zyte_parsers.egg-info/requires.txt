@@ -1,0 +1,6 @@
+attrs>=21.3.0
+html-text
+lxml
+parsel
+price-parser>=0.3.4
+w3lib
