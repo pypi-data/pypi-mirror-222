@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: libmytoken
+Version: 0.1.0
+Summary: A python library for interacting with a mytoken server.
+Home-page: https://github.com/oidc-mytoken/libpy
+Author: Gabriel Zachmann
+Author-email: mytoken-contact@lists.kit.edu
+License: MIT
+Project-URL: Source, https://github.com/oidc-mytoken/libpy
+Project-URL: Bug Tracker, https://github.com/oidc-mytoken/libpy/issues
+Project-URL: Documentation, https://mytoken-docs.data.kit.edu
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Classifier: Topic :: Utilities
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# libmytoken
+
+A python library for interacting with a [mytoken server](https://github.com/oidc-mytoken/server).
+
+This is the very first alpha version of the library, which currently only supports obtaining OpenID Connect access
+tokens from a mytoken.
+
+## Usage
+
+```python
+import libmytoken
+
+at = libmytoken.get_access_token_from_jwt_mytoken(mytoken)
+
+mytoken_server = libmytoken.MytokenServer("https://mytoken.data.kit.edu")
+at = mytoken_server.AccessToken.get(mytoken)
+full_response = mytoken_server.AccessToken.api_get(mytoken)
+
+```
+
+### Error Handling
+
+The library will raise an exception of type `MytokenError` if something goes wrong.
+
+Error Handling can be done the following way:
+
+```python
+try:
+    print(libmytoken.get_access_token_from_jwt_mytoken(mytoken))
+except libmytoken.MytokenError as e:
+    print("ERROR mytoken: {}".format(e))
+```
+
+## Installation
+
+`pip install libmytoken`
+
+## License
+
+`libmytoken` is provided under the [MIT License](https://opensource.org/licenses/MIT).
+
