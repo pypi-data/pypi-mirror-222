@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+pywaf.egg-info/PKG-INFO
+pywaf.egg-info/SOURCES.txt
+pywaf.egg-info/dependency_links.txt
+pywaf.egg-info/not-zip-safe
+pywaf.egg-info/top_level.txt
+waf/__init__.py
+waf/kernel.py
+waf/wavelet.py
+waf/window.py
