@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+prioritydecorators/__init__.py
+prioritydecorators/prioritydecorators.py
+prioritydecorators.egg-info/PKG-INFO
+prioritydecorators.egg-info/SOURCES.txt
+prioritydecorators.egg-info/dependency_links.txt
+prioritydecorators.egg-info/requires.txt
+prioritydecorators.egg-info/top_level.txt
