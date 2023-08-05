@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-lib-template
+Version: 1.0.0
+Summary: A python library template for future togethercrew python repos
+Author: Mohammad Amin Dadgar, TogetherCrew
+Maintainer: Mohammad Amin Dadgar
+Maintainer-email: dadgaramin96@gmail.com
+Requires-Dist: numpy (==1.24.1)
+Requires-Dist: pytest (==7.2.0)
+Requires-Dist: pytest-cov (==4.0.0)
+Requires-Dist: coverage (==7.2.5)
+Requires-Dist: python-dotenv (==0.21.1)
+Requires-Dist: tc-messageBroker (==1.4.0)
+Requires-Dist: pymongo (==4.3.3)
+Requires-Dist: neo4j (==5.8.0)
+
+# python-library
