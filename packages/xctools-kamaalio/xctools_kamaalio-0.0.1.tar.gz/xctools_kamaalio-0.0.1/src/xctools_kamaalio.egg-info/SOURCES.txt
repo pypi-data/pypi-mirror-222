@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/xctools_kamaalio/__init__.py
+src/xctools_kamaalio.egg-info/PKG-INFO
+src/xctools_kamaalio.egg-info/SOURCES.txt
+src/xctools_kamaalio.egg-info/dependency_links.txt
+src/xctools_kamaalio.egg-info/top_level.txt
