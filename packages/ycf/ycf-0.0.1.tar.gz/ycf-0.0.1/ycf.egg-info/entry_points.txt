@@ -1,0 +1,2 @@
+[console_scripts]
+ycf = ycf.main:main
