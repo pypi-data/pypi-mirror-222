@@ -1,0 +1,13 @@
+uni/__init__.py,sha256=5W5zV2wEk6YDXu6ACkze62U_JVdYsFYqcehAaGPGKws,93
+uni/__version__.py,sha256=v86-rfX403Ti9lVh8aGQcx0G4HgUVJM30PeHe3SLytQ,63
+uni/client.py,sha256=hE3VaauUFpNW57NDYVKSLMRfTl1tiXh1s26NmOv_mLI,2182
+uni/exception.py,sha256=5gdqh6Yd3XLKSPWeel0Rgpdk7qTSUBP99JXLGnEhFCw,243
+uni/response.py,sha256=9wOHpoXyxjFQziFIwO4QgRgn8cO4r70nAc0CB8BXkec,794
+uni/services/__init__.py,sha256=mlI1MgECKmsr2lXyIVVTRyZnyt3qTTprnlpsZ_naVio,65
+uni/services/messages.py,sha256=hZOO6aw_bXJyHYx7WX4rNTsjfQCSloPxl7g5lP-EEG8,172
+uni/services/otp.py,sha256=VaBSVIX3NiWadovL7QbrhPHFNR5VVBnt1Og--vkcYdk,311
+uni_sdk-0.3.0.dist-info/LICENSE,sha256=dq3-5nqpQNvZDKkZKz8oStVM7mWf01YH3ysmf9_TA_o,1066
+uni_sdk-0.3.0.dist-info/METADATA,sha256=JoItd7cMNsnm3kgbS_ps7GvCk6vw7mIa0nOjrBat8yg,4268
+uni_sdk-0.3.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+uni_sdk-0.3.0.dist-info/top_level.txt,sha256=PZ4btqwwJGAlD2ZKOlaVW9mc0Z2PS0uCdMcbgKkpr-8,4
+uni_sdk-0.3.0.dist-info/RECORD,,
