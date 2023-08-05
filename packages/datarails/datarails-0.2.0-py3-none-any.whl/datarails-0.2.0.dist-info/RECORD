@@ -1,0 +1,9 @@
+datarails/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+datarails/databox.py,sha256=UPRRGJciTrBTpxy7CFECSnw9fPLvhUbXVJwGPR3ANGg,732
+datarails/runner.py,sha256=f_FiZ4lcozP8slMO4lobfs8LbUQ9N1pmvlaCfBAEA9o,921
+datarails/step.py,sha256=cHxRU8K1jUG40t0kJIFy9boy9975JhIP5Q7Zc4B9cGs,1802
+datarails/type_vars.py,sha256=qN56YQirE2wl3oeeHYGXqjHbd3Xwug9Bm8UU-xh81Qc,61
+datarails-0.2.0.dist-info/METADATA,sha256=MbJ_fPuHACTCfDCsIR7q_2hLWY4JI2qyBENytDdxGpU,725
+datarails-0.2.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+datarails-0.2.0.dist-info/top_level.txt,sha256=n1osJ63ocvCEkd0xFa_Tb6rVqSIbnoduEE8hp8fQZVQ,10
+datarails-0.2.0.dist-info/RECORD,,
