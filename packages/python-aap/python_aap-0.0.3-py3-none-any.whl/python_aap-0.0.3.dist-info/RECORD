@@ -1,0 +1,10 @@
+src/aap/__init__.py,sha256=dGuWvF5nPBGr1QBNIwNHQGYUSGdzjSaNhzBrkSbjfFQ,265
+src/aap/__main__.py,sha256=mXXTPFgy-BorgHWHdlhqQXl3LcGlEqYmLNNvam-qbpw,4012
+src/aap/base.py,sha256=Y63TrkXEtBYyjwrEQBU7W9nIqRN35yr7l49ggVnrlYw,5364
+src/aap/endpoints.py,sha256=rL4jQmweAU_U1YTxPHtQI5WPebeSMK2bLwCQJkO8WYI,3090
+src/aap/mixins.py,sha256=79CIn-UWgoqDbByXpsTDnbtXtTuYGuObngimjsrgnO8,1901
+python_aap-0.0.3.dist-info/METADATA,sha256=UcEg9ebF1-m8lsWwbDGRw-L_F5O-5qHunhkO9iix-zY,855
+python_aap-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+python_aap-0.0.3.dist-info/entry_points.txt,sha256=UAuJypmxSCJ4Z6_c4uPEzqfNOD0n6dI9nCddAxiySSg,35
+python_aap-0.0.3.dist-info/licenses/LICENSE,sha256=2P3Y8HtQv1dLdLzeNEUeIT2AVXhty5-L9D2dCR1pZMM,18020
+python_aap-0.0.3.dist-info/RECORD,,
