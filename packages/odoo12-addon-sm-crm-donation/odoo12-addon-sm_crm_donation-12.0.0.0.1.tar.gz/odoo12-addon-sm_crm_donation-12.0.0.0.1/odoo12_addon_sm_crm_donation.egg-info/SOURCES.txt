@@ -1,0 +1,12 @@
+setup.py
+odoo/addons/sm_crm_donation/__init__.py
+odoo/addons/sm_crm_donation/__manifest__.py
+odoo/addons/sm_crm_donation/data/utm_source_data.xml
+odoo/addons/sm_crm_donation/models/__init__.py
+odoo/addons/sm_crm_donation/views/crm_lead_views.xml
+odoo12_addon_sm_crm_donation.egg-info/PKG-INFO
+odoo12_addon_sm_crm_donation.egg-info/SOURCES.txt
+odoo12_addon_sm_crm_donation.egg-info/dependency_links.txt
+odoo12_addon_sm_crm_donation.egg-info/not-zip-safe
+odoo12_addon_sm_crm_donation.egg-info/requires.txt
+odoo12_addon_sm_crm_donation.egg-info/top_level.txt

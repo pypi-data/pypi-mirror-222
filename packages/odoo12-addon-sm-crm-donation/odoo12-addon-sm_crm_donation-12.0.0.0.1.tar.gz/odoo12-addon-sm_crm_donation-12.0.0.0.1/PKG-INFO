@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: odoo12-addon-sm_crm_donation
+Version: 12.0.0.0.1
+Summary: sm_crm_donations
+Home-page: https://www.sommobilitat.coop
+Author: Som Mobilitat
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Python: >=3.5
