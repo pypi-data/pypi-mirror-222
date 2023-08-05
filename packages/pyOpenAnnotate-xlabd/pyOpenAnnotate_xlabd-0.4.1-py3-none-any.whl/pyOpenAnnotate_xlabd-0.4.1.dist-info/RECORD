@@ -1,0 +1,11 @@
+annotation/annotate.py,sha256=j6B0kVoUV--1hO5xT2myWbRnXXomjsAeLhvz3X1drhU,16831
+annotation/filters.py,sha256=L3dUDFsC4mz_zmHF9qU4tvKJEacyeSTY9-9TkrB7pYA,35
+annotation/utils.py,sha256=cQPXB-DXV3Hoy2NHjv2jStAoGRISfSlHROsqWFEw-yU,2919
+tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tools/visualize.py,sha256=4OdmK_K2kJPNmXss6uZKUH3h1Itj6sV9zzyr9p8S1ic,4639
+pyOpenAnnotate_xlabd-0.4.1.dist-info/LICENSE,sha256=GTHwwDjBGLD1m1XuvbS1v4gSTU48w7SRrck7W9rZ36Q,1068
+pyOpenAnnotate_xlabd-0.4.1.dist-info/METADATA,sha256=vu-2I7sGK3Pi6GvSnAFIEJdfSHyIuzcsiyl2b9Rz1zA,4134
+pyOpenAnnotate_xlabd-0.4.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pyOpenAnnotate_xlabd-0.4.1.dist-info/entry_points.txt,sha256=euHLUJx4mUVDOxr_T7yqrFNO3YHUe1-pJxA_07PzZJM,86
+pyOpenAnnotate_xlabd-0.4.1.dist-info/top_level.txt,sha256=9PVSGhfbA7rrtGbkTcBicrRKibNBZqCojsFXpjmWT1U,17
+pyOpenAnnotate_xlabd-0.4.1.dist-info/RECORD,,
