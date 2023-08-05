@@ -1,0 +1,52 @@
+[project]
+name = "vktoken"
+version = "3.0.0"
+description = "Tool for granting VK access token"
+authors = [
+    { name = "jieggii", email = "jieggii@protonmail.com" },
+]
+dependencies = [
+    "requests>=2.31.0",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+homepage = "https://github.com/jieggii/vktoken"
+repository = "https://github.com/jieggii/vktoken"
+keywords = [
+    "vk",
+    "vkontakte",
+]
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+vktoken = "vktoken.__main__:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.7.0",
+    "isort>=5.12.0",
+]
+
+[tool.pdm.scripts.fmt]
+shell = "black ./vktoken/ && isort ./vktoken/"
+
+[tool.black]
+line-length = 120
+target-version = [
+    "py311",
+]
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 120
