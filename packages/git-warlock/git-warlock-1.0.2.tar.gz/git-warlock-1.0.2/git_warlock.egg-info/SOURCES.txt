@@ -1,0 +1,11 @@
+README.md
+setup.py
+git_warlock/__init__.py
+git_warlock/git-warlock.py
+git_warlock/main.py
+git_warlock.egg-info/PKG-INFO
+git_warlock.egg-info/SOURCES.txt
+git_warlock.egg-info/dependency_links.txt
+git_warlock.egg-info/entry_points.txt
+git_warlock.egg-info/requires.txt
+git_warlock.egg-info/top_level.txt
