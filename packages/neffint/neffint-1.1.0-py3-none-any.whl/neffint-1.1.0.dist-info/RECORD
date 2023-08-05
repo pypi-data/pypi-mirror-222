@@ -1,0 +1,10 @@
+neffint/__init__.py,sha256=1KKwvSiOTux6zx-tk01-hBD2ylFh80ghyEE5_qJKhcE,445
+neffint/_version.py,sha256=Zm_ZiYJ3-Z-3WCF7AKskQult22_IJc43PhephZyDYmQ,54
+neffint/adaptive_fourier_integral.py,sha256=MkBkf93GJVo4XbR9jFVCmD5k1B-lTorGPReW3NcYWKA,31907
+neffint/fixed_grid_fourier_integral.py,sha256=qXSt9FMgY8ppiJYlKW4srpwatUakZHALpp0JxIBzFW0,15791
+neffint/utils.py,sha256=3_jvUedFRU5dS_LZiRrHdIu73FlXbGaEMsSP1FPcGHw,2154
+neffint-1.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+neffint-1.1.0.dist-info/METADATA,sha256=XhIMXqFS6Uq0bxzBInsYEr5WQTzpZn6jLwEW7Z0qMpw,6484
+neffint-1.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+neffint-1.1.0.dist-info/top_level.txt,sha256=GxmC_yxws6ymOF-EHI69tt-sKCT2sK6MF8UTfTCnbvw,8
+neffint-1.1.0.dist-info/RECORD,,
