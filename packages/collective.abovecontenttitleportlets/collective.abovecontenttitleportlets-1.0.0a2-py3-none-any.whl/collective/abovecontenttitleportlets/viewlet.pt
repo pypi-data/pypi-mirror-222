@@ -1,0 +1,7 @@
+<div class="row"
+     id="abovecontenttitleportlets"
+>
+  <div tal:replace="structure view/render_portlets"
+        tal:on-error="nothing"
+  ></div>
+</div>
