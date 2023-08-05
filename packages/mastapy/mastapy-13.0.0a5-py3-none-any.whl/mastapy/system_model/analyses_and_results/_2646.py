@@ -1,0 +1,61 @@
+﻿"""_2646.py
+
+CompoundDynamicModelForHarmonicAnalysis
+"""
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
+from mastapy.system_model.analyses_and_results import _2601
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_COMPOUND_DYNAMIC_MODEL_FOR_HARMONIC_ANALYSIS = python_net_import('SMT.MastaAPI.SystemModel.AnalysesAndResults', 'CompoundDynamicModelForHarmonicAnalysis')
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('CompoundDynamicModelForHarmonicAnalysis',)
+
+
+class CompoundDynamicModelForHarmonicAnalysis(_2601.CompoundAnalysis):
+    """CompoundDynamicModelForHarmonicAnalysis
+
+    This is a mastapy class.
+    """
+
+    TYPE = _COMPOUND_DYNAMIC_MODEL_FOR_HARMONIC_ANALYSIS
+
+    class _Cast_CompoundDynamicModelForHarmonicAnalysis:
+        """Special nested class for casting CompoundDynamicModelForHarmonicAnalysis to subclasses."""
+
+        def __init__(self, parent: 'CompoundDynamicModelForHarmonicAnalysis'):
+            self._parent = parent
+
+        @property
+        def compound_analysis(self):
+            return self._parent._cast(_2601.CompoundAnalysis)
+
+        @property
+        def marshal_by_ref_object_permanent(self):
+            from mastapy import _7519
+            
+            return self._parent._cast(_7519.MarshalByRefObjectPermanent)
+
+        @property
+        def compound_dynamic_model_for_harmonic_analysis(self) -> 'CompoundDynamicModelForHarmonicAnalysis':
+            return self._parent
+
+        def __getattr__(self, name: str):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = ''.join(n.capitalize() for n in name.split('_'))
+                raise CastException(f'Detected an invalid cast. Cannot cast to type "{class_name}"') from None
+
+    def __init__(self, instance_to_wrap: 'CompoundDynamicModelForHarmonicAnalysis.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def cast_to(self) -> 'CompoundDynamicModelForHarmonicAnalysis._Cast_CompoundDynamicModelForHarmonicAnalysis':
+        return self._Cast_CompoundDynamicModelForHarmonicAnalysis(self)

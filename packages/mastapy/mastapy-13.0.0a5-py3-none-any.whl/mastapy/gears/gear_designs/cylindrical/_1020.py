@@ -1,0 +1,157 @@
+﻿"""_1020.py
+
+CylindricalGearPinionTypeCutter
+"""
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
+from mastapy._internal import constructor
+from mastapy._internal.implicit import overridable
+from mastapy._internal.overridable_constructor import _unpack_overridable
+from mastapy.gears.gear_designs.cylindrical import _1003
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_CYLINDRICAL_GEAR_PINION_TYPE_CUTTER = python_net_import('SMT.MastaAPI.Gears.GearDesigns.Cylindrical', 'CylindricalGearPinionTypeCutter')
+
+if TYPE_CHECKING:
+    from mastapy.gears.gear_designs.cylindrical import _1021
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('CylindricalGearPinionTypeCutter',)
+
+
+class CylindricalGearPinionTypeCutter(_1003.CylindricalGearAbstractRack):
+    """CylindricalGearPinionTypeCutter
+
+    This is a mastapy class.
+    """
+
+    TYPE = _CYLINDRICAL_GEAR_PINION_TYPE_CUTTER
+
+    class _Cast_CylindricalGearPinionTypeCutter:
+        """Special nested class for casting CylindricalGearPinionTypeCutter to subclasses."""
+
+        def __init__(self, parent: 'CylindricalGearPinionTypeCutter'):
+            self._parent = parent
+
+        @property
+        def cylindrical_gear_abstract_rack(self):
+            return self._parent._cast(_1003.CylindricalGearAbstractRack)
+
+        @property
+        def cylindrical_gear_pinion_type_cutter(self) -> 'CylindricalGearPinionTypeCutter':
+            return self._parent
+
+        def __getattr__(self, name: str):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = ''.join(n.capitalize() for n in name.split('_'))
+                raise CastException(f'Detected an invalid cast. Cannot cast to type "{class_name}"') from None
+
+    def __init__(self, instance_to_wrap: 'CylindricalGearPinionTypeCutter.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def nominal_addendum_factor(self) -> 'float':
+        """float: 'NominalAddendumFactor' is the original name of this property."""
+
+        temp = self.wrapped.NominalAddendumFactor
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @nominal_addendum_factor.setter
+    def nominal_addendum_factor(self, value: 'float'):
+        self.wrapped.NominalAddendumFactor = float(value) if value is not None else 0.0
+
+    @property
+    def nominal_dedendum_factor(self) -> 'float':
+        """float: 'NominalDedendumFactor' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.NominalDedendumFactor
+
+        if temp is None:
+            return 0.0
+
+        return temp
+
+    @property
+    def number_of_teeth(self) -> 'int':
+        """int: 'NumberOfTeeth' is the original name of this property."""
+
+        temp = self.wrapped.NumberOfTeeth
+
+        if temp is None:
+            return 0
+
+        return temp
+
+    @number_of_teeth.setter
+    def number_of_teeth(self, value: 'int'):
+        self.wrapped.NumberOfTeeth = int(value) if value is not None else 0
+
+    @property
+    def profile_shift_coefficient(self) -> 'overridable.Overridable_float':
+        """overridable.Overridable_float: 'ProfileShiftCoefficient' is the original name of this property."""
+
+        temp = self.wrapped.ProfileShiftCoefficient
+
+        if temp is None:
+            return 0.0
+
+        return constructor.new_from_mastapy('mastapy._internal.implicit.overridable', 'Overridable_float')(temp) if temp is not None else 0.0
+
+    @profile_shift_coefficient.setter
+    def profile_shift_coefficient(self, value: 'overridable.Overridable_float.implicit_type()'):
+        wrapper_type = overridable.Overridable_float.wrapper_type()
+        enclosed_type = overridable.Overridable_float.implicit_type()
+        value, is_overridden = _unpack_overridable(value)
+        value = wrapper_type[enclosed_type](enclosed_type(value) if value is not None else 0.0, is_overridden)
+        self.wrapped.ProfileShiftCoefficient = value
+
+    @property
+    def left_flank(self) -> '_1021.CylindricalGearPinionTypeCutterFlank':
+        """CylindricalGearPinionTypeCutterFlank: 'LeftFlank' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.LeftFlank
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def right_flank(self) -> '_1021.CylindricalGearPinionTypeCutterFlank':
+        """CylindricalGearPinionTypeCutterFlank: 'RightFlank' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.RightFlank
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def cast_to(self) -> 'CylindricalGearPinionTypeCutter._Cast_CylindricalGearPinionTypeCutter':
+        return self._Cast_CylindricalGearPinionTypeCutter(self)
