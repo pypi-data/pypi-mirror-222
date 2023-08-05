@@ -1,0 +1,4 @@
+[console_scripts]
+compose_kiwi_description = kiwi_keg.tools.compose_kiwi_description:main
+generate_recipes_changelog = kiwi_keg.tools.generate_recipes_changelog:main
+keg = kiwi_keg.keg:main
