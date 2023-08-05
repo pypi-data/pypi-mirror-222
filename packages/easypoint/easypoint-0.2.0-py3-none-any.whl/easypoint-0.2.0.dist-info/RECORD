@@ -1,0 +1,10 @@
+easypoint/__init__.py,sha256=FxAS2-tGXA2mqmxEGhtoJ8mp9fBTQcUH8OkL3HQwgRQ,126
+easypoint/internal_types.py,sha256=FLuMvLjclskBzwdxugTvz6a3OvuEf4Taf68HPKJtjmg,456
+easypoint/matrix.py,sha256=BSONA6IFqY1AMRFm32EQLcWjCI6tw5rDoW11P_izjWI,7500
+easypoint/point.py,sha256=YkU-j4Hty7sOs646e_rAeWAOGevYLBJksGlyHrLh-_Q,10653
+easypoint/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easypoint/utils.py,sha256=cFoZoWvZ7fUmCWRsrFeMHtEQlaEB_oTr9DvOVBpFv1E,2355
+easypoint-0.2.0.dist-info/LICENSE,sha256=nuh1Z6_O2G2IwIGn8xay0SnQZPXL4P0gAnnW2LRy2Mw,1073
+easypoint-0.2.0.dist-info/METADATA,sha256=Nctko-BfdNR74HBPZ7I-M7mw3CEXtNDIUP_qr71Ig18,10274
+easypoint-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+easypoint-0.2.0.dist-info/RECORD,,
