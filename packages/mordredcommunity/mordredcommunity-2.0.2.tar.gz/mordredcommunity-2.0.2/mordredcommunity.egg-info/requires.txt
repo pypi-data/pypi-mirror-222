@@ -1,0 +1,9 @@
+rdkit
+six
+numpy
+networkx
+
+[full]
+pandas
+tqdm
+pyyaml
