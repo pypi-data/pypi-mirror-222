@@ -1,0 +1,10 @@
+gitreview_gpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitreview_gpt/__main__.py,sha256=wd5-KCqUwtEvCcdqAhcetEdt4qN3jFT7fHUcIeay62k,98
+gitreview_gpt/app.py,sha256=3fHOCQUVCSrKKTyGB7xBKQffMBRWMlJ72XoA_R7bHvY,6240
+gitreview_gpt/formatter.py,sha256=s2hJ7iw2n16OdxP6g7scKobiyAD5AlmcLFKx5yPuxcE,3849
+gitreview_gpt/prompt.py,sha256=nnP1aLsb-7L0HCg-jg-ZOd7Ki5gnI88Mlf6e5QEXJ_o,2478
+gitreview_gpt-0.1.0.dist-info/LICENSE,sha256=88xUoL3asiUYGNMS8eWnACS3PEEmYFGY5-VJPM8R3pI,1069
+gitreview_gpt-0.1.0.dist-info/METADATA,sha256=4lDeIkjaM_5T3ValFNYK9ygJx8s9T5RG3__DXwsWpME,1995
+gitreview_gpt-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+gitreview_gpt-0.1.0.dist-info/entry_points.txt,sha256=qytvn3bdxAH1C0l2NoCo2NtPQj4Axrg4_rCA6ua3IDI,52
+gitreview_gpt-0.1.0.dist-info/RECORD,,
