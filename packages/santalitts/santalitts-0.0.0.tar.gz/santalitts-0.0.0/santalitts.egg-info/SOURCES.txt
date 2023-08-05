@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+santalitts.egg-info/PKG-INFO
+santalitts.egg-info/SOURCES.txt
+santalitts.egg-info/dependency_links.txt
+santalitts.egg-info/top_level.txt
