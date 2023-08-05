@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: notecache
+Version: 0.0.1.dev1
+Summary: A package for caching large intermediate variables between sessions in Jupyter Notebook.
+Project-URL: Homepage, https://github.com/Jython1415/notecache
+Project-URL: Bug Tracker, https://github.com/Jython1415/notecache/issues
+Author-email: Joshua Shew <joshua.t.shew@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# notecache
+Jupyter Notebook caching tool for large intermediate data frames with state-dependent reevaluation.
