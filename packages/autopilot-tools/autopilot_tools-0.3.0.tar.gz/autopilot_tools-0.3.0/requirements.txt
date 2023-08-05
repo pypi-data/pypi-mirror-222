@@ -1,0 +1,6 @@
+matplotlib
+pytest
+pyyaml
+pyserial
+pymavlink
+tqdm
