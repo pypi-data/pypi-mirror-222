@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+check_schema_binding/__init__.py
+check_schema_binding/main.py
+check_schema_binding.egg-info/PKG-INFO
+check_schema_binding.egg-info/SOURCES.txt
+check_schema_binding.egg-info/dependency_links.txt
+check_schema_binding.egg-info/entry_points.txt
+check_schema_binding.egg-info/top_level.txt

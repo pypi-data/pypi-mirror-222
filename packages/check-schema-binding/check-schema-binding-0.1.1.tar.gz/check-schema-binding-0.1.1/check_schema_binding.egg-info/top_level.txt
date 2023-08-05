@@ -1,0 +1,1 @@
+check_schema_binding

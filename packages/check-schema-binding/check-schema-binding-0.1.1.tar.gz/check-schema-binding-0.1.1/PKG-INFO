@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: check-schema-binding
+Version: 0.1.1
+Summary: checks if a SQL file that creates a VIEW has a no schema binding.
+Home-page: UNKNOWN
+Author: Kim Friedel
+Author-email: kim.friedel@heyjobs.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

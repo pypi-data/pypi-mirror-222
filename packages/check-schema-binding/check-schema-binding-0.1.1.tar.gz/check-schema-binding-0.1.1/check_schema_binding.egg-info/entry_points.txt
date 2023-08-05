@@ -1,0 +1,3 @@
+[console_scripts]
+check-schema-binding = check_schema_binding.main:main
+
