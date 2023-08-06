@@ -1,0 +1,14 @@
+selenium_axe_python/__init__.py,sha256=aFAgd6_1i15I8pc5BZ6HN2WHwK7vTTmSBpLgHzEqy3Q,255
+selenium_axe_python/axe-core/axe.min.js,sha256=VTWaX4yE65_ofnyeohwMLLKvU1GEYDoWOCbKlcqFMs8,519419
+selenium_axe_python/axe.py,sha256=Mg0LcZcVxipom3tssC1qqjvcJGFtA9wB-OWacOL4BUc,3899
+selenium_axe_python/package-lock.json,sha256=cmE0LyEuAbnhbdkthp5Vnf7JkpGMA4WpAjoo_FzWsFk,372
+selenium_axe_python/package.json,sha256=m13TnFJ-tbnM9YrPxyRbC1LxSPGw61JBpmaEorgg6xQ,606
+selenium_axe_python/tests/__init__.py,sha256=R2GxiX4GPcWrum-c-WlQjnJ6y2cUFsGSu_B5cmU_Ix4,199
+selenium_axe_python/tests/conftest.py,sha256=xnhSOrOpGuMn2_ScoCxRatVagg4zEyjSXH2ReGLvQ4Y,1124
+selenium_axe_python/tests/pytest.ini,sha256=gAsWy3lJbnVZqkPM91OQGqhQAfuKCzkk2lq0qMSFwVE,2299
+selenium_axe_python/tests/test_axe.py,sha256=UuOiX1wZpKsgLSRX3r01WIVlKlDtBFIOV0jo52OIZI4,13523
+selenium_axe_python/tests/test_page.html,sha256=GrqpPk2AzcIiH46G1xmluEcmHq7Oda7qcShlVVfqYwo,379
+selenium_axe_python-2.1.11.dist-info/LICENSE.txt,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+selenium_axe_python-2.1.11.dist-info/METADATA,sha256=jgxd5y9PSZYMwETtdey0TTwMewTro94L7Yq8V8ENpVA,7641
+selenium_axe_python-2.1.11.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+selenium_axe_python-2.1.11.dist-info/RECORD,,
