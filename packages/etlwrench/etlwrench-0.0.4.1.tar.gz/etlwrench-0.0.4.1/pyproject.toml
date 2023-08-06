@@ -1,0 +1,20 @@
+[project]
+name = "etlwrench"
+version = "0.0.4.1"
+description = "a small toolchain for interacting with the etlwrench framework"
+authors = [
+    { name = "Gabriel Cordovado", email = "gabriel.cordovado@icloud.com" },
+]
+license = { file = "LICENSE" }
+readme = "readme.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.1.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/GabeCordo/etl-python"
+
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"
