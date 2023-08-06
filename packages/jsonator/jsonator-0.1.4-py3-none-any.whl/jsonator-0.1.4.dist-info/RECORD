@@ -1,0 +1,9 @@
+jsonator/__init__.py,sha256=wZrcF0Hy9AoJa5oCOz95LtNX5U9X4fZUlM5wlfimsdk,2413
+jsonator/__main__.py,sha256=ANsSZY3n9Ie2Ks_qJNLFEHU53N8xYDcYAB0DynEg-qg,82
+jsonator/jsonator.py,sha256=TSNu2OnmPUZasiiUd3XvR3r97w2d93nO91zV4JzkZyw,2351
+jsonator/output.py,sha256=DwML2Qzo5zNwo9xClExOy3jwlrcFrv5L0xBFAoeTKD8,1444
+jsonator-0.1.4.dist-info/METADATA,sha256=S1y49tJJ1XxDo7dZETw9xPLpiLhP8jbnZEri1m4BIzY,2146
+jsonator-0.1.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jsonator-0.1.4.dist-info/entry_points.txt,sha256=6EtC5v_jYIIoG4NV5s21RFVIi47JABFSI_hwAbPHcSM,43
+jsonator-0.1.4.dist-info/licenses/LICENSE,sha256=05TSEIBSkmX9kTFsD11l5U7PU4QRdfuSOIMSPKUwK_Y,1499
+jsonator-0.1.4.dist-info/RECORD,,
