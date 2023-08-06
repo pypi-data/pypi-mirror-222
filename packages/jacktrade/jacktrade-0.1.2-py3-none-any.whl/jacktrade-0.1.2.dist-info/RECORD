@@ -1,0 +1,10 @@
+jacktrade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jacktrade/benchmark.py,sha256=H8xywJLr6Uw_bJFgoFKzjLX-KowjL7GNGYOMaBmnndM,2300
+jacktrade/collections.py,sha256=wL2-Sve8a0opLLQn4Aoik-U8sNljZkE2fCVnnPs-Udo,3809
+jacktrade/multicore.py,sha256=Ea7es0dY1usySfvclVECakSYLeIv0vZuzIiYiabCWkY,2486
+jacktrade/pickler.py,sha256=nCPjbytkP_sHS__KB1pkaJJlDY_GJ3puetDmZXNjPEI,662
+jacktrade-0.1.2.dist-info/LICENSE.md,sha256=aZ-toprlzE9pHrZpVqzEIbl6Sg1JNktoRunpwRl3lUQ,1077
+jacktrade-0.1.2.dist-info/METADATA,sha256=samoMScuWQR-Vpo9a8Al6akTDvpIG0UkrYgV2e6f46U,5258
+jacktrade-0.1.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+jacktrade-0.1.2.dist-info/top_level.txt,sha256=LMWIKSmn4EGlqTJLq1cagezxLkc0RawctA3IRvXHk5c,10
+jacktrade-0.1.2.dist-info/RECORD,,
