@@ -1,0 +1,133 @@
+{% load static %}
+{% load amatak_shop %}
+
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  {% amatak_static_css %}
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      {% amatak_brand %}
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="is-active" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+
+      <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+      Categories
+    </a>
+
+        <div class="navbar-dropdown">
+
+    <div class="navbar-dropdown">
+      <a class="navbar-item">
+        Women Fashion
+      </a>
+      <a class="navbar-item">
+        Men Fashion
+      </a>
+      <a class="navbar-item">
+        Phones & Telecommunications
+      </a>
+      <a class="navbar-item">
+        Consumer & Electronics
+      </a>
+      <a class="navbar-item">
+        Phones & Telecommunications
+      </a>
+      <a class="navbar-item">
+        Jewelry & Watches
+      </a>
+      <a class="navbar-item">
+        Home,pet & Appliances
+      </a>
+      <a class="navbar-item">
+        Bags & Shoes
+      </a>
+      <a class="navbar-item">
+        Toys, Kids & Babies
+      </a>
+      <a class="navbar-item">
+        Home,pet & Appliances
+      </a>
+      <a class="navbar-item">
+        Outdoor Fun & Sports
+      </a>
+      <a class="navbar-item">
+        Beauty, Health & Hair
+      </a>
+       <a class="navbar-item">
+        Automobiles & Motorcycles
+      </a>
+       <a class="navbar-item">
+        Tools & Home Improvement
+      </a>
+      <a class="navbar-item">
+        Tools & Home Improvement
+      </a>
+        </div>
+      </div>
+    </div>
+
+      <a class="navbar-item">
+      New Arrival
+    </a>
+    <a class="navbar-item">
+      Stock Clearance
+    </a>
+      <a class="navbar-item">
+      Women Fashion
+    </a>
+      <a class="navbar-item">
+        Men Fashion
+      </a>
+    <div class="navbar-end">
+      <ul>
+          {% comment %}
+          <li class="nav-item">
+            <a class="nav-link waves-effect" href="/checkout">
+            Checkout</a>
+          </li> {% endcomment %}
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-end">
+          {% if request.user.is_authenticated %}
+          <li class="navbar-item">
+            <a href="{% url 'amatak_shop:order-summary' %}" class="nav-link waves-effect">
+              <span class="badge red z-depth-1 mr-1"> {{ request.user|cart_item_count }} </span>
+              <i class="fas fa-shopping-cart"></i>
+              <span class="clearfix d-none d-sm-inline-block"> Cart </span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link waves-effect" href="{% url 'amatak_shop:account_logout' %}">
+              <span class="notification is-danger"> Logout </span>
+            </a>
+          </li>
+          {% else %}
+          <li class="navbar-item">
+            <a class="nav-link waves-effect" href="{% url 'amatak_shop:account_login' %}">
+              <span class="notification is-primary"> Login </span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link waves-effect" href="{% url 'amatak_shop:account_signup' %}">
+              <span class="notification is-success"> SignUp </span>
+            </a>
+          </li>
+          {% endif %}
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+{% amatak_static_scripts %}

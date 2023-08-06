@@ -1,0 +1,2 @@
+recursive-include amatak_shop/templates *.html
+recursive-include amatak_shop/static *

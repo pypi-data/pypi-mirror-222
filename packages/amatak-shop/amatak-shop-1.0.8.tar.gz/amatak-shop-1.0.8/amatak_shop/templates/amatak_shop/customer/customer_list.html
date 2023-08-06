@@ -1,0 +1,24 @@
+{% extends 'amatak_shop/store/base.html' %}
+{% load i18n %}
+{% load static %}
+{% load amatak_shop %}
+
+{% block view_content %}
+
+
+    <div class="box">
+        <div class="columns">
+            <div class="column">
+                <a class="button is-primary is-outlined is-small"
+                   href="{% url 'amatak_shop:customer-create' entity_slug=view.kwargs.entity_slug %}">
+                    <span class="icon is-large has-text-success">{% icon 'carbon:add-alt' 24 %}</span>
+                    <span>{% trans 'New Customer' %}</span>
+                </a>
+            </div>
+        </div>
+
+        {% customer_table %}
+
+    </div>
+    </div>
+{% endblock %}
