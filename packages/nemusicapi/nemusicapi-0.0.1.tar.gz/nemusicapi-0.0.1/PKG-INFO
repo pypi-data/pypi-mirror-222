@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nemusicapi
+Version: 0.0.1
+Summary: A Netsase music api
+License: Apache License
+Author: yuyi2439
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pycryptodome (>=3.18.0,<4.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# NeteaseMusicApi
+A netsase music api
+
