@@ -1,0 +1,9 @@
+ocr_agl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocr_agl/app.py,sha256=GrkjmDTKeHuzTbumZ5-XPfuVhDnj-0EOP8hvK7ittEY,3877
+ocr_agl/tests/request.py,sha256=eAujJtcvEsObpuw3RuwZ76JA1iGNxSt05ZeidP83PEg,551
+ocr_agl/tests/test.py,sha256=qBRw5e0-1Gl0sXy5GrWQJ-qdW6NSbl3LAyUEEpx1YuY,1861
+ocr_agl-1.0.0.dist-info/LICENSE,sha256=oj3QafkUIQEeCXhAN7OBuaiuOh4zIHIC_CJENOvfIn4,11542
+ocr_agl-1.0.0.dist-info/METADATA,sha256=bPhUktAeWrZM6InMAEy1no1c0SyrIVL6kSkbCXbxgT8,79
+ocr_agl-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ocr_agl-1.0.0.dist-info/top_level.txt,sha256=3i6q4amlJmOejgPMe09DJb8LNJkbHb6kX_XGbIeNrks,8
+ocr_agl-1.0.0.dist-info/RECORD,,
