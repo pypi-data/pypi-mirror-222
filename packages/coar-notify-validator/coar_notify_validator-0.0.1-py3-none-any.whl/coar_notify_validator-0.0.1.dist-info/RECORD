@@ -1,0 +1,11 @@
+coar_notify_validator/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+coar_notify_validator/exceptions.py,sha256=BbHRL9tkE5OrqtBRbgXmjvORE61C206grWZI9aE92Wk,45
+coar_notify_validator/results_parser.py,sha256=MhI4ziN9guApNPDCTyfUinE7-yIai8YW1mpna1FCLD0,1899
+coar_notify_validator/validate.py,sha256=onFk92Nl_0K6lfJHL7uMc6R-8b7dTb6AuDfCtxAE_vk,1951
+coar_notify_validator/shape_files/__init__.py,sha256=0FW68jaPekVeHtSDlqloeINtujBVzBnBJV9Z6LKN7RM,693
+coar_notify_validator/shape_files/read_shape_files.py,sha256=McgQYN3_V1xtwNnLtfTgGyexSs8f1xErexDGFuGFZ70,320
+coar_notify_validator-0.0.1.dist-info/LICENSE,sha256=pSSbDypLGMqlKNaXbnUq2Y9T1wjqTY151GT_QRDm35E,1069
+coar_notify_validator-0.0.1.dist-info/METADATA,sha256=GIEG79KQXEJRVX7jZ1vQCdyrpec8NdtvaT5r_3i3P94,3498
+coar_notify_validator-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+coar_notify_validator-0.0.1.dist-info/top_level.txt,sha256=1tzRFoAD5pPH9ogiGRGM5Se-pqH9Nm9Js6q2xP-dNu8,22
+coar_notify_validator-0.0.1.dist-info/RECORD,,
