@@ -1,0 +1,12 @@
+sbdata/FlipsideApi.py,sha256=ItP9Mt5T81UMfyqNVAsuo8y1vzzRKb3qGUsAOioJjIM,24342
+sbdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sblegos/TransactionAnalyser.py,sha256=pNJUVxa-4ZRI_BOlcJM-6_aDR4oPEJXrVcNswFsFwFI,29815
+sblegos/TransactionAnalyserTest.py,sha256=TGSeeN_2WOBkRdfE4hQmqZaftl-05qT-fBUHnXrV6pM,9373
+sblegos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbutils/LoadData.py,sha256=LXurQAOf9mDY3adBnKMMqbn8rtPfCjTM418twQDdois,5318
+sbutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sybil_scorer-0.2.2.dist-info/LICENSE,sha256=4b0zUWMs1akO19qKVslhHOf6fHVOxFahZKied0CNoxs,1084
+sybil_scorer-0.2.2.dist-info/METADATA,sha256=xy4NReA4qFwakl6kUCUqo_-r-dde1jZF3ZSa0Ego5gI,8188
+sybil_scorer-0.2.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+sybil_scorer-0.2.2.dist-info/top_level.txt,sha256=g_HjAaBa40BdrxxPphAUqx0I-fDE3HJlLfgyAJzl59I,23
+sybil_scorer-0.2.2.dist-info/RECORD,,
