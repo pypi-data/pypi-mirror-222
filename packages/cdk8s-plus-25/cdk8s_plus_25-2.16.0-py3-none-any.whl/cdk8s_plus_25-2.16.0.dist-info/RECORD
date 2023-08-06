@@ -1,0 +1,11 @@
+cdk8s_plus_25/__init__.py,sha256=VtKxzEgiwOuIkem5SAy_M6aiK9-T9GkH3Z1YYz5OGMU,1166210
+cdk8s_plus_25/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk8s_plus_25/_jsii/__init__.py,sha256=T8vC4TwF8w5tI4FaA_i9c2sX9r0r6b2T1KWPMV-zRng,393
+cdk8s_plus_25/_jsii/cdk8s-plus-25@2.16.0.jsii.tgz,sha256=qvvtDVU9_1ZoIpfQ0yoRxLAKoprKlg0IlO9DeDaCOpk,1256896
+cdk8s_plus_25/k8s/__init__.py,sha256=lbsWKEatiV6WBGCLAnPlZ-3T4iqEMPsEz7sX3FSFffs,2644402
+cdk8s_plus_25-2.16.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk8s_plus_25-2.16.0.dist-info/METADATA,sha256=IB_LPLtg9bpOzyiJ51dZW-SVFWWnYcXjERSf38Z7O4s,3437
+cdk8s_plus_25-2.16.0.dist-info/NOTICE,sha256=1CkO1kwu3Q_OHYTj-d-yiBJA_lNN73a4zSntavaD4oc,67
+cdk8s_plus_25-2.16.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+cdk8s_plus_25-2.16.0.dist-info/top_level.txt,sha256=49ALsuSJzrvNuZvdwTm3cwXLsWQJc1m17y-fSKKYLCk,14
+cdk8s_plus_25-2.16.0.dist-info/RECORD,,
