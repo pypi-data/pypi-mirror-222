@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: iluxaMod
+Version: 2.7
+Summary: Module for simplified work with libraries: TG, PostgreSQL, locations and more...
+Home-page: https://sbdt.pro
+Author: Illya Lazarev
+Author-email: lazarevillya031@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
