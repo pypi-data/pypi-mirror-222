@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: foxes-cool
+Version: 1.0.0
+Summary: An API for all your fox image needs
+Author: Arthur Melton
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
+
