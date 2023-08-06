@@ -1,0 +1,12 @@
+spatk/__init__.py,sha256=8q-Mj2yWVOZtl5g1MVRZT5mf2dH1l0gT3rwbPfUT2bM,840
+spatk/circuit.py,sha256=6onULzoapYhlJwaUUxvwiDY1fEYjrpwlnLfMR2dISEY,9645
+spatk/elements.py,sha256=RRq1WXr2EsIxsBSzYvkKaK3iYhIJv_vLwRUX50Q-TG4,2666
+spatk/genelems.py,sha256=Bl0INjfEx89cqaLYer28SYpytDyTUY5VOkVnUb0q_cY,6862
+spatk/helems.py,sha256=U6TVPoAKUs6mAdirrfIJ0yVUx3K5dULUs-Elr7wCiEE,13910
+spatk/helpers.py,sha256=FbPRJRp_100zij8NQslyarESGlIBY-MPOdo-2eeZH9o,9667
+spatk/ngelems.py,sha256=M2sP_M70N_6MNrns-icZrZVupiAwK7ml3wYuu1Luh-k,15433
+spatk-1.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spatk-1.2.1.dist-info/METADATA,sha256=atn0zSjuMyY9nC4qbtF0AIXBjndidCRgz29E0GfxlNM,41648
+spatk-1.2.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+spatk-1.2.1.dist-info/top_level.txt,sha256=cKaLo5svj-OB_CAFc-BcUjmIDSYx0aUKHOGknEGyACo,6
+spatk-1.2.1.dist-info/RECORD,,
