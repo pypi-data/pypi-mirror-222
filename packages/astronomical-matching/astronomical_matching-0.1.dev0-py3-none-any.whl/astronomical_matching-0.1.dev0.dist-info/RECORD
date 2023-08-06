@@ -1,0 +1,14 @@
+astronomical_matching/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+astronomical_matching/chainbreaker.py,sha256=y1teD-wnYm3m-bKcWJrzjiC5YWLO_JUvBpQ3JHsKOio,970
+astronomical_matching/constants.py,sha256=TOPipaezqNavy2hamOoYrCqcQZOqOX71zS3bONeAfp0,63
+astronomical_matching/cop_kmeans.py,sha256=DPQBjdtfnuDin-myhdkxEIk0Z9BkD6yFzllhjN3JuFg,10946
+astronomical_matching/dirilp.py,sha256=sOCGuSr47qEd86--4vTUF7E4fUwS8dRrB5LlZnN5HRA,13689
+astronomical_matching/kmeans.py,sha256=HDXA1AWchcm_s8kL0YGLttI4Tl65n6P4-msM5BdYGnQ,932
+astronomical_matching/miqcp.py,sha256=5zDFimkv9WOZtV_n-QMNnv0kH0jd5WAbUSicF32JzpA,9810
+astronomical_matching/simulate.py,sha256=NufLk162bW8LGtT87yVa6hN2jTLK0RdVn1E3luaSV2o,3302
+astronomical_matching/utils.py,sha256=jc9y4C_zqdGbGSp7EfGDkHBK1N4wc9hLzDFCHSMo6ms,2810
+astronomical_matching-0.1.dev0.dist-info/LICENSE,sha256=XUpmtyqYYYb9t0S-KV4UgBbProisdtzL6me_R9xzpSM,1511
+astronomical_matching-0.1.dev0.dist-info/METADATA,sha256=rELnFMvB5yuLN3O48z7x6vM9lUN-sj-HaarS3VIr6WM,3918
+astronomical_matching-0.1.dev0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+astronomical_matching-0.1.dev0.dist-info/top_level.txt,sha256=WSDMho7i4qkGwF1Fzt5T4zVMUmbkoCZ9v0vgxOPEcR8,22
+astronomical_matching-0.1.dev0.dist-info/RECORD,,
