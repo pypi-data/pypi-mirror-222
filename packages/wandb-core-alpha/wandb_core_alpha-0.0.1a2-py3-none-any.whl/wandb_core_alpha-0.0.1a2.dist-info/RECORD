@@ -1,0 +1,9 @@
+wandb_core/__init__.py,sha256=7mA1kO3VaRFd7pGkumMdOcSR6bZuzYG-TbfPfrF07iw,308
+wandb_core_alpha-0.0.1a2.data/platlib/wandb_core/bin-darwin-amd64/wandb-nexus,sha256=3FntSZsGIoylJ9--VtGx6ST6xNue4lt4GnZ0FONaacg,11011072
+wandb_core_alpha-0.0.1a2.data/platlib/wandb_core/bin-darwin-arm64/wandb-nexus,sha256=kwueRhxKFC3n-NgtD3ymoTJlWjaPliMh7URAyrhzGJc,10825666
+wandb_core_alpha-0.0.1a2.data/platlib/wandb_core/bin-linux-amd64/wandb-nexus,sha256=jrr56zDIqL91skfvrKd1WC2FMkF0NpZiANCsPfANEy0,10035200
+wandb_core_alpha-0.0.1a2.data/platlib/wandb_core/bin-windows-amd64/wandb-nexus,sha256=TShAr6bOl11QW5XdkIM0uJ1uSUVrRxj13viCx9J5wtE,10444800
+wandb_core_alpha-0.0.1a2.dist-info/METADATA,sha256=CzorcVwxStXOkySUYTW3p9l8YRHxnCV1J6a4UJ9cSrk,127
+wandb_core_alpha-0.0.1a2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wandb_core_alpha-0.0.1a2.dist-info/top_level.txt,sha256=qtcphwb2RSCwTlbiZGMgJQSl2kYRbdXOOcfcHlUyibQ,11
+wandb_core_alpha-0.0.1a2.dist-info/RECORD,,
