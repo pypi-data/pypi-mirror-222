@@ -1,0 +1,11 @@
+repo_loader/.gptignore,sha256=kZpeqa9AN0oxL1MQLfiTMnFSE9q3x0Nugrf-uDXULdw,219
+repo_loader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repo_loader/cli.py,sha256=OgnrEs33EHHVwO6qDH3orA9TwHirueJrS9RSVR7axzI,176
+repo_loader/repo_loader.py,sha256=4WbARVxFs7bQ8qu2xeBjjOR1oK2DwRtsJyJ-Ln4sQJw,11483
+repo_loader/utils.py,sha256=vDQUvEOlrU1evvddn_nlzdl7eDTDnt2wkFnWoKQhykU,506
+repo_loader-0.2.0.dist-info/LICENSE,sha256=k4q1FmtI_MNLTT3sSGozY0qz3sXuZPkUFqXbEnOv0pA,1063
+repo_loader-0.2.0.dist-info/METADATA,sha256=7bf0hpVDUEbZddYpr29nrnNz683Zgbt1CgGB0PeautI,4907
+repo_loader-0.2.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+repo_loader-0.2.0.dist-info/entry_points.txt,sha256=cIiL84WJ5FldfkbQg5-zYhPqKdDjltKzlZI_oYd-jPs,53
+repo_loader-0.2.0.dist-info/top_level.txt,sha256=kcO_UjWGWvTSF_8qAFGLWEGkcGm8HEPH4BDiZOLHwOE,12
+repo_loader-0.2.0.dist-info/RECORD,,
