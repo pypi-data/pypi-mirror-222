@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: irispie
+Version: 0.1.0
+Summary: Macroeocnomic modeling package
+Project-URL: Homepage, https://github.com/iris-solutions-team/irispie
+Project-URL: Bug Tracker, https://github.com/iris-solutions-team/irispie/issues
+Author-email: Jaromir Benes <jaromir.benes@gmail.com>
+License-File: LICENCE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Iris Pie
+
+A macroeconomic modeling package for Python
+
