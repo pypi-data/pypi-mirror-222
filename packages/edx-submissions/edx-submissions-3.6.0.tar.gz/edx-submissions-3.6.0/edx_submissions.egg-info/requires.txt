@@ -1,0 +1,5 @@
+Django
+jsonfield
+pytz
+djangorestframework<3.15.0
+django-model-utils>=2.3.1
