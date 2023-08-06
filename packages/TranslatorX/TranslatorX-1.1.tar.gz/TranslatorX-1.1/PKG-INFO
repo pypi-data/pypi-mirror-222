@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: TranslatorX
+Version: 1.1
+Summary: A Python package for translation that uses Google translator and also supports asynchronous programming!
+Home-page: https://github.com/shayanheidari01/rubika
+Author: Shayan Heidari
+Author-email: contact@shayanheidari.info
+Keywords: translator,translate,google,asyncio,googletrans
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+
+## TranslatorX
+
+> A Python package for translation that uses Google translator and also supports asynchronous programming!
+
+> Please star the GitHub repository to support me :)
+
+### Simpale Example
+```python
+import asyncio
+import TranslatorX
+
+trans = TranslatorX.Translator()
+
+async def main():
+    print(trans.translator(text='hi', to_lang='fa'))
+
+asyncio.run(main())
+```
+
+### Async Support
+```python
+import asyncio
+import TranslatorX
+
+trans = TranslatorX.AsyncTranslator()
+
+async def main():
+    print(await trans.translator(text='hi', to_lang='fa'))
+
+asyncio.run(main())
+```
+
+### Install Package
+```bash
+pip3 install -U TranslatorX
+```
