@@ -1,0 +1,13 @@
+smplkit/__init__.py,sha256=s-pwFKjJQbOUOpavY671VuAVqNdktlbshDRkuvn5Hlg,187
+smplkit/__version__.py,sha256=gACZc_Wul4QWG4RV0TpBmex_MGfqC40WtSus7P9kvis,62
+smplkit/constants.py,sha256=l9py229BJ49VFj0N6JGSEeYSbWU37_ShJAVhY6E2M28,26537
+smplkit/layers.py,sha256=Qv_wKeVI9j5hIyGszGJmDDHdCokS2nb9bECCBPKoCLU,29389
+smplkit/lbs.py,sha256=30h-Mci0wctQCVV_gG7tE2eJnwKP1gI4ulvf4BUUTJk,13836
+smplkit/misc.py,sha256=XCf-ddd5N04-79J2_6hA4yshKqO3rlSbHV5zUWfjkY4,4433
+smplkit/params.py,sha256=SzNSTprrS5H5AQkckVHXeZIehjisd9GSSKS3FHJPAJA,20282
+smplkit/utils.py,sha256=vy5wQdJl6Th6jnpjHdeJnrC1sZpTs3PvrxlZUxYhdrg,10040
+smplkit-0.0.3.dist-info/LICENSE,sha256=pAb1i4_-7OGx0lRFeo0SoZRLpNYFNKgUSDHxVIDAwC8,1065
+smplkit-0.0.3.dist-info/METADATA,sha256=vULV2mVdVdGg1Oh0sxj5P7fpixVVOr8hI-ij-JgExa0,6571
+smplkit-0.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+smplkit-0.0.3.dist-info/top_level.txt,sha256=s7BM9Kcmq5uz2EMNGeU0wMCsjmxOSVKa9PCzU_s58Bg,8
+smplkit-0.0.3.dist-info/RECORD,,
