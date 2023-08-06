@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: enveasy
+Version: 1.0.0
+Summary: Easy-to-use functionality for managing files in different environments
+Home-page: UNKNOWN
+Author: Antoine PINTO
+Author-email: antoine.pinto1@outlook.fr
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+Easy Environment is a Python tool that provides easy-to-use functionality for managing files and data in different environments. It offers a class called Environment that simplifies file operations on the local disk and cloud services such as Google Cloud (Google Cloud Storage and Big Query) or SharePoint.
+

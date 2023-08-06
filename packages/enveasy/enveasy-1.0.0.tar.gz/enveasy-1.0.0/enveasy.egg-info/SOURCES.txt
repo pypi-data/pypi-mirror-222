@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+enveasy/__init__.py
+enveasy/disk.py
+enveasy/file_manager.py
+enveasy/gcp.py
+enveasy/sharepoint.py
+enveasy.egg-info/PKG-INFO
+enveasy.egg-info/SOURCES.txt
+enveasy.egg-info/dependency_links.txt
+enveasy.egg-info/top_level.txt
