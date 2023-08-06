@@ -1,0 +1,7 @@
+pyarmor/cli/core/freebsd/__init__.py,sha256=CDPRinTnSD2xTY7mjTAtyXcMyIiRXVKcho3q-rEYva8,22
+pyarmor/cli/core/freebsd/x86_64/pyarmor_runtime.so,sha256=3o9rMDbXhqhRhoyDBTDntYRYlafYw2fHiXjJStZB0ZQ,676016
+pyarmor/cli/core/freebsd/x86_64/pytransform3.so,sha256=ujTCWYh7Xe6vXJ4oe7Yrj7vuTpRKLRMsSTyScW9yojA,461648
+pyarmor.cli.core.freebsd-4.3.0.dist-info/METADATA,sha256=fo2H2Z9VqGAoUjZADTh5RW0JLPjTheF9CvSmMk09hGI,808
+pyarmor.cli.core.freebsd-4.3.0.dist-info/WHEEL,sha256=B1xNSF-3cuB7fHdJVETQupXu4HfdTmSjLassywAtmRc,93
+pyarmor.cli.core.freebsd-4.3.0.dist-info/top_level.txt,sha256=UE1ovZ_90YzwF_lZ3LV7o8HKLe-RgzUaUUvdH5UTUus,8
+pyarmor.cli.core.freebsd-4.3.0.dist-info/RECORD,,
