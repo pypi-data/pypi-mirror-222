@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: bisum
+Version: 0.2.0
+Summary: binary sparse and dense tensor partial-tracing
+Author-email: Julio Candanedo <juliojcandanedo@gmail.com>
+Maintainer-email: Julio Candanedo <juliojcandanedo@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Julio Candanedo
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Source, https://github.com/jcandane/bisum
+Keywords: pytorch,torch,tensors,Sparse Tensor,Sparse,contraction,partial-tracing,einsum,tensordot,attention
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+
+# bisum --- PyTorch Sparse-Tensor Partial-Trace
+
+[![CI](https://github.com/jcandane/bisum/actions/workflows/gh-ci.yaml/badge.svg)](https://github.com/jcandane/bisum/actions/workflows/gh-ci.yaml)
+
+This program traces 2 sparse-tensor (torch.tensor objects) via 3 Tracing-Prescription:
+1. {einsum} string (like numpy, str, labelling each tensor axis)
+2. ncon (used in the tensor-network community, list of 1d int torch.tensor, labelling each tensor axis)
+3. adjacency-matrix (as in numpy.tensordot, (2,n) 2d int torch.tensor, with n being the number of indices idenified between the two tensors)
+
+## API
+
+Let's begin by initializing the 2 tensors, we can initialize random-sparse-tensors 
+```python
+import torch
+from bisum import bisum
+
+shape_A = torch.tensor([8,7,7,4,11,6])
+shape_B = torch.tensor([9,7,3,7,11,8])
+A = torch.rand(shape_A)
+B = torch.rand(shape_B)
+```
+
+Suppose we would like to compute the following partial-trace/tensor-contraction $C_{njwl} = A_{iksndj} B_{wklsdi}$:
+```python
+C_einsum = bisum("iksndj, wklsdi -> njwl", A, B)
+C_ncon   = bisum([[-1,-2,-3,4,-5,6],[1,-2,3,-3,-5,-1]], A, B)
+C_adjmat = bisum(torch.tensor([[0,1,2,4],[5,1,3,4]]), A, B)
+
+print(torch.allclose(C_einsum, C_ncon) and torch.allclose(C_ncon, C_adjmat))
+```
+while the pure tensor-product, $\otimes$ is:
+```python
+import numpy as np
+
+C_einsum = bisum("abcdef, ghijkl", A, B)
+C_ncon   = bisum([], A, B)
+C_adjmat = bisum(torch.tensor([]), A, B)
+
+print(np.allclose(C_einsum, C_ncon) and np.allclose(C_ncon, C_adjmat))
+```
+
+## Install
+
+```bash
+pip install bisum
+```
+
