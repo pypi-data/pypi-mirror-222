@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+sidbasiccalculator/__init__.py
+sidbasiccalculator.egg-info/PKG-INFO
+sidbasiccalculator.egg-info/SOURCES.txt
+sidbasiccalculator.egg-info/dependency_links.txt
+sidbasiccalculator.egg-info/top_level.txt
