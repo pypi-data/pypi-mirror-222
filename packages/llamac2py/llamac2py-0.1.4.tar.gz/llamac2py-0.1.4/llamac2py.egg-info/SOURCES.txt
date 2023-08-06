@@ -1,0 +1,12 @@
+LICENSE
+README.md
+run.c
+setup.py
+C:/Users/adars/OneDrive/Desktop/llamac2py/run.c
+llamac2py/__init__.py
+llamac2py/wrapper.py
+llamac2py.egg-info/PKG-INFO
+llamac2py.egg-info/SOURCES.txt
+llamac2py.egg-info/dependency_links.txt
+llamac2py.egg-info/not-zip-safe
+llamac2py.egg-info/top_level.txt
