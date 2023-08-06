@@ -1,0 +1,16 @@
+astropy
+corner
+emcee
+lmfit
+matplotlib
+mtcutils
+numpy
+pandas
+scipy
+tqdm
+your
+
+[develop]
+black
+Cython
+nose2
