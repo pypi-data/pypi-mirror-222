@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Agently/__init__.py
+Agently/test.py
+Agently.egg-info/PKG-INFO
+Agently.egg-info/SOURCES.txt
+Agently.egg-info/dependency_links.txt
+Agently.egg-info/top_level.txt
