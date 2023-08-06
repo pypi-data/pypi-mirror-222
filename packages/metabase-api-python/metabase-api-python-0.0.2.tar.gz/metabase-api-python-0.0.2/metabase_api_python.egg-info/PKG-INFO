@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: metabase-api-python
+Version: 0.0.2
+Summary: A Python wrapper for the Metabase REST API. This package provides easy-to-use functions to interact with Metabase programmatically, enabling operations like fetching data from saved questions, archiving or deleting cards, and more. Ideal for data engineers, data analysts, or anyone looking to integrate Metabase with their Python applications.
+Home-page: https://github.com/Cisco141632/metabase-api-python
+Author: Cisco141632
+Author-email: durgaprasad141632@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
