@@ -1,0 +1,18 @@
+/* teams table */
+
+.aeon-teams-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aeon-teams-container > div {
+  width: 80px;
+  margin: 5px;
+  font-size: 0.9rem;
+}
+
+img.avatar {
+  width: 100%;
+  border-radius: 10px;
+}
