@@ -1,0 +1,8 @@
+streamlit_chatbox/__init__.py,sha256=okS4bZ1sk5ma0Nawlw07pLxVR_INKIqCQQFqvzkzR4A,392
+streamlit_chatbox/elements.py,sha256=rC12Gv0WrZVKMPIh61KIBdw6fkuMM4I4V6FSKHV21Z8,4563
+streamlit_chatbox/flows.py,sha256=RvtStf1em9vGPp_sj8V7xHKbBiI5_p58RAFuvEMq2-c,323
+streamlit_chatbox/messages.py,sha256=wzfpzWie1V3wBAAddy4YaWlHmzmkPaO9qVZ8ALl3ut0,2793
+streamlit_chatbox-1.0.0.dist-info/METADATA,sha256=_gEQpq6HWkig_XHbSWSt6XP_1LjSsDwYRfCryN1Mi8s,4454
+streamlit_chatbox-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+streamlit_chatbox-1.0.0.dist-info/top_level.txt,sha256=YX62-ytEEAz8BjRqwDQAYXyMt85LDTHatfKhx178XKs,18
+streamlit_chatbox-1.0.0.dist-info/RECORD,,
