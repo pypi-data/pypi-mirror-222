@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ftswarm-py
+Version: 1.0.0
+Summary: A Python library for the ftSwarm Python API
+License: MIT
+Author: bergschneider
+Author-email: magiclake@gmx.de
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyserial (>=3.5,<4.0)
+Description-Content-Type: text/markdown
+
+# Client library for the ftSwarm Client API
+
