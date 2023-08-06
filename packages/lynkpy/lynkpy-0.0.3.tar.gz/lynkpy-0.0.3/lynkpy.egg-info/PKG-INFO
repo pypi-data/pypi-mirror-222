@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lynkpy
+Version: 0.0.3
+Summary: basic utilities
+Home-page: 
+Author: Siddharth
+Author-email: ssiddharth408@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+basic utilities
