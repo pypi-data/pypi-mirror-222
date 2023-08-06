@@ -1,0 +1,11 @@
+propertysync/__about__.py,sha256=r8rPf8ttuWyB5FFK6eUTsOfByLEOxWLe9xJqATjsB3U,127
+propertysync/__init__.py,sha256=dSDRGD9bnbjZIHS06EZHK77L3o_yJNPgvNUpOnJyMkY,262
+propertysync/api.py,sha256=fg10eJ0inBlINgzjaSVlsNWJ_-hXoIeh5RNjFhwtvv0,18746
+propertysync/batch.py,sha256=n9p18bTvHc_ndHPUPdIjOkxj7gRfL2X2rMWjXHYr46U,4496
+propertysync/document.py,sha256=Zcdj5L4ueUyAolM_ugSHkk0aQji9F9JHn88Okx2S2NI,6720
+propertysync/search.py,sha256=j-nWaZAwG_UJqTnbJW_oFauxMwz7xPOksGKdVpY69oE,5786
+propertysync/titlesearch_batch.py,sha256=fWg2Btmq2jiZy4A7EUSr9VGmuZ8lMGb1yvDb3_friWQ,15944
+propertysync-0.8.1.dist-info/METADATA,sha256=mvb61BHu2E3_E6h6zzkqojMDVXO-4zFZ0kV-HffpkQM,2029
+propertysync-0.8.1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+propertysync-0.8.1.dist-info/licenses/LICENSE,sha256=JDM0LnZA0eY6tPqHErQDCe3lC3SxMqKJ2g1_EreMtqY,1096
+propertysync-0.8.1.dist-info/RECORD,,
