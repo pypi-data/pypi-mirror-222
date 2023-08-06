@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: catalystai
+Version: 1.0.3
+Summary: Catalyst AI package
+Home-page: 
+Author: Catalyst AI
+Author-email: catalystlabs.ai@gmail.com
+License: Catalyst AI
+Keywords: python,first package
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Catalyst AI package to upload data to MinIO bucket
