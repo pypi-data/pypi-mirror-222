@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: passwordless-sdk
+Version: 0.0.1
+Summary: A placeholder for my future project.
+Home-page: https://github.com/yourusername/my_project
+Author: Matthew Fiallos
+Author-email: matthew.fiallos@randstadusa.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+
