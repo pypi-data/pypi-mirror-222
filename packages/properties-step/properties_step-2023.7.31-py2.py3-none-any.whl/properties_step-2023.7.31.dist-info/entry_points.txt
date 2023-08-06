@@ -1,0 +1,5 @@
+[org.molssi.seamm]
+DB Properties = properties_step:PropertiesStep
+
+[org.molssi.seamm.tk]
+DB Properties = properties_step:PropertiesStep
