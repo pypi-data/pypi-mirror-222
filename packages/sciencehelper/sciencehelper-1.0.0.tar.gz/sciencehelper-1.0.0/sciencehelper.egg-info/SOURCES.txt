@@ -1,0 +1,6 @@
+sciencehelper.py
+setup.py
+sciencehelper.egg-info/PKG-INFO
+sciencehelper.egg-info/SOURCES.txt
+sciencehelper.egg-info/dependency_links.txt
+sciencehelper.egg-info/top_level.txt
