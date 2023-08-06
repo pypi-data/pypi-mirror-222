@@ -1,0 +1,2 @@
+[console_scripts]
+list_packages = list_packages.main:command_line
