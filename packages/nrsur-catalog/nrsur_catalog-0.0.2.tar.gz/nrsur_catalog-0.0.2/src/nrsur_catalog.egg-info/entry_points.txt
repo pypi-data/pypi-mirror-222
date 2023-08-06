@@ -1,0 +1,4 @@
+[console_scripts]
+build_gwpage = nrsur_catalog.web_builder.build_website:gwpage_main
+build_nrsur_website = nrsur_catalog.web_builder.build_website:main
+get_nrsur_event = nrsur_catalog.api.download_event:main

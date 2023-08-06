@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nrsur-catalog
+Version: 0.0.2
+Summary: GW event posteriors obtained using numerical relativity surrogate models
+Home-page: https://github.com/sxs-collaboration/nrsur_catalog
+Author: NRSurrogate Catalog Team
+Author-email: tousifislam24@gmail.com
+Maintainer: NRSurrogate Catalog Team
+Maintainer-email: tousifislam24@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# [NRSurrogate catalog](https://cjhaster.github.io/NRSurrogateCatalog)
+    
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8115310.svg)](https://doi.org/10.5281/zenodo.8115310)
+
+GW event posteriors obtained using numerical relativity surrogate models.
+
+This package contains the code to use the NRSurrogate Catalog API to 
+download and plot the posteriors for GW events. 
