@@ -1,0 +1,5 @@
+numpy<1.22
+scipy
+ipykernel
+matplotlib
+mpoints==1.0.0
