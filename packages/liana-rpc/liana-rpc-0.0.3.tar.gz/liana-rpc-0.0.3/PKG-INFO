@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: liana-rpc
+Version: 0.0.3
+Summary: RPC client for connect to Liana daemon (lianad)
+Author-email: pythcoiner <pythcoiner@proton.me>, darosior <darosior@protonmail.com>
+Project-URL: Homepage, https://wizardsardine.com/liana
+Keywords: bitcoin,liana,lianad,rpc
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+License-File: LICENCE
