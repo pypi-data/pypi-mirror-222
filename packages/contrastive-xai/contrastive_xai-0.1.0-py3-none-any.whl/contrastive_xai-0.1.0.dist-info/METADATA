@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: contrastive-xai
+Version: 0.1.0
+Summary: Contrastive Explainable AI Algorithms
+Home-page: https://github.com/samsonq/contrastive-xai
+Author: Samson Qian
+Author-email: samsonqian@gmail.com
+License: MIT
+Keywords: xai explainable-ai contrastive-algorithms
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# contrastive-xai
+Contrastive XAI methods
