@@ -1,0 +1,15 @@
+click
+GitPython
+joblib
+pandas
+python-dateutil
+pytz
+pyyaml
+
+[pdf]
+reportlab
+pyPDF2
+
+[test]
+pytest
+pytest-mock
