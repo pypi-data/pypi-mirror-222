@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+spylizard/__init__.py
+spylizard.egg-info/PKG-INFO
+spylizard.egg-info/SOURCES.txt
+spylizard.egg-info/dependency_links.txt
+spylizard.egg-info/top_level.txt
