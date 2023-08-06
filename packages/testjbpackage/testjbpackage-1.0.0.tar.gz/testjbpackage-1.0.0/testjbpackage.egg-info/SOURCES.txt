@@ -1,0 +1,6 @@
+setup.py
+testjbpackage.egg-info/PKG-INFO
+testjbpackage.egg-info/SOURCES.txt
+testjbpackage.egg-info/dependency_links.txt
+testjbpackage.egg-info/requires.txt
+testjbpackage.egg-info/top_level.txt
