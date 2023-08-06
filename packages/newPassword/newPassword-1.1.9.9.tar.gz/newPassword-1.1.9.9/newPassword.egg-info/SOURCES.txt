@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+newPassword/__init__.py
+newPassword/passwordGenerator.py
+newPassword.egg-info/PKG-INFO
+newPassword.egg-info/SOURCES.txt
+newPassword.egg-info/dependency_links.txt
+newPassword.egg-info/top_level.txt
