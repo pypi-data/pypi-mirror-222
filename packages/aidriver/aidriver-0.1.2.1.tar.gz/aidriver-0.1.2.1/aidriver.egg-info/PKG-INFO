@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aidriver
+Version: 0.1.2.1
+Summary: AIDriver
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
