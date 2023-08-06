@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dungeondriver
+Version: 0.1
+Summary: Dungeon Driver : A companion for your dungeon diving applications
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: pandas (~=2.0.0)
+Requires-Dist: pyarrow (==12.0.0)
+Requires-Dist: debugpy
+Requires-Dist: loguru
+Requires-Dist: httpx
+Requires-Dist: anyio
+Requires-Dist: jsonlines
+Provides-Extra: dev
+Requires-Dist: ipykernel ; extra == 'dev'
+Requires-Dist: mypy (>=1.0.1) ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: trio ; extra == 'test'
+Requires-Dist: pytest-httpx ; extra == 'test'
+
