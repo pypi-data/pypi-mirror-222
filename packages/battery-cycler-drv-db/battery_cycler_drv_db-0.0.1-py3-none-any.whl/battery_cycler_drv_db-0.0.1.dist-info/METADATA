@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: battery-cycler-drv-db
+Version: 0.0.1
+Summary: A simple database connector for SQLAlchemy. It is used toconnect to specific databases and execute queries.
+Author-email: Marius Crisan <mariuscrsn@gmail.com>
+Project-URL: Homepage, https://github.com/WattRex/Battery-Cycler-Drivers
+Project-URL: Bug Tracker, https://github.com/WattRex/Battery-Cycler-Drivers/issues
+Keywords: sqlalchemy,database,connector,mysql,sqlite,ORM
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-can (>=4.0.0)
+
