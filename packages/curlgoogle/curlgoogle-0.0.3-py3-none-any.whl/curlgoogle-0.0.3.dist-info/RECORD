@@ -1,0 +1,11 @@
+curlgoogle/__init__.py,sha256=Ec1w9YBKcJZSgXZ0CNFtvVMthDrHTM_In6Gpa93rxIs,111
+curlgoogle/console.py,sha256=ajnKN56Z-VaI-QwVdQJlVmXRBywHlE7fc93mZQli9jk,1792
+curlgoogle/curlgoogledownload.py,sha256=_ioH66Ebk-oP6eRPdphRbvtEnp60SX8k0t4wkR2yXXA,2111
+curlgoogle/curlgoogleupload.py,sha256=ew1opP9NdXla_GNuFmTPvrbJVdhnUJPw7sWddv_r5iI,4756
+curlgoogle/info.py,sha256=-H7a3xQYRRZylwPU9_VgQXDF6nhAyj1qFP6auOWS9vc,1090
+curlgoogle-0.0.3.dist-info/LICENSE,sha256=x5AozMlQBGZh7oQAIoMBWe0ZoHEwow9nrVd5UyyZAX4,1074
+curlgoogle-0.0.3.dist-info/METADATA,sha256=WiniD_IauJ4QmpdpbHhtb90IGvgMwAexI-_fjZAAJzw,5480
+curlgoogle-0.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+curlgoogle-0.0.3.dist-info/entry_points.txt,sha256=WV9YXF_iw4EFQu5rSnwcsCmYDCXOMAPngnN3NzAcYm0,115
+curlgoogle-0.0.3.dist-info/top_level.txt,sha256=G2hOCaVdwyuQ602BFq1vCGReNkkUuwaOgnzAoOC9HVo,11
+curlgoogle-0.0.3.dist-info/RECORD,,
