@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: localstack-extension-outages
+Version: 0.0.0
+Summary: LocalStack extension that simulates region and service outages
+Home-page: https://localstack.cloud
+Author: LocalStack GmbH
+Author-email: support@localstack.cloud
+Provides-Extra: dev
+Provides-Extra: test
