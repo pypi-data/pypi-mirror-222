@@ -1,0 +1,7 @@
+fastcore
+pandas
+azure-storage-blob==12.17.0
+python-dotenv
+pyarrow
+
+[dev]

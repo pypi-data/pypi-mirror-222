@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+botorift/__init__.py
+botorift/_modidx.py
+botorift/azure_client.py
+botorift.egg-info/PKG-INFO
+botorift.egg-info/SOURCES.txt
+botorift.egg-info/dependency_links.txt
+botorift.egg-info/entry_points.txt
+botorift.egg-info/not-zip-safe
+botorift.egg-info/requires.txt
+botorift.egg-info/top_level.txt
