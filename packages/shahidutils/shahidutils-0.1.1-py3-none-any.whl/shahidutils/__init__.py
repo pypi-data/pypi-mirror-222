@@ -1,0 +1,1 @@
+print("WARNING: If you see this it means you tried installing shahidutils from pypi, if you know what's shahidutils supposed to be then install it from the private git repositary. This repo is published as a protections against 'PyPI package flood' attacks.")
