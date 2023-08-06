@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/Iodeum/__init__.py
+src/Iodeum/main.py
+src/pydeum.egg-info/PKG-INFO
+src/pydeum.egg-info/SOURCES.txt
+src/pydeum.egg-info/dependency_links.txt
+src/pydeum.egg-info/top_level.txt
