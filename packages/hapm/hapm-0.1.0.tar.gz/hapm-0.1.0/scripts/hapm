@@ -1,0 +1,73 @@
+#!/usr/bin/env python
+from argparse import BooleanOptionalAction
+from os import environ
+
+from arrrgs import arg, command, global_args, run
+
+from libhapm.cli import report_diff, report_list, report_no_token, report_summary
+from libhapm.manager import PackageManager
+from libhapm.manifest import Manifest
+
+TOKEN_VAR = 'GITHUB_PAT'
+if TOKEN_VAR not in environ:
+    report_no_token(TOKEN_VAR)
+    GITHUB_TOKEN = None
+else:
+    GITHUB_TOKEN = environ[TOKEN_VAR]
+
+STORAGE_DIR = ".hapm"
+MANIFEST_PATH = "hapm.yaml"
+
+global_args(
+    arg('--manifest', '-m', default=MANIFEST_PATH, help="Manifest path"),
+    arg('--storage', '-s', default=STORAGE_DIR, help="Storage location"),
+    arg('--dry', '-d',
+        action=BooleanOptionalAction,
+        help="Only write information. Do not make any changes to the files")
+)
+
+@command(root=True)
+def sync(args, store: PackageManager):
+    """Synchronizes local versions of components with the manifest."""
+    manifest = Manifest(args.manifest)
+    manifest.load()
+    diff = store.diff(manifest.values)
+    report_diff(diff)
+    if args.dry is True:
+        return
+    store.apply(diff)
+    report_summary(diff)
+
+
+@command(
+    arg('path', default=None, help="Output path")
+)
+def put(args, store: PackageManager):
+    """Synchronizes local versions of components with the manifest."""
+    store.export(args.path)
+
+
+# @command()
+# def updates(_, store: PackageManager):
+#     """Prints available packages updates."""
+#     diff = store.updates()
+#     if len(diff) == 0:
+#         print("All packages is up to date")
+#         return
+#     report_diff(diff)
+
+
+@command(name="list")
+def list_packages(_, store: PackageManager):
+    """Print current version of components."""
+    packages = store.descriptions()
+    report_list(packages)
+
+
+def prepare(args):
+    """Creates HAPM context"""
+    return args, PackageManager(args.storage, GITHUB_TOKEN)
+
+
+if __name__ == "__main__":
+    run(prepare=prepare)
