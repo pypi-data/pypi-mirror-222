@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: hatch-docstring-description
+Version: 1.0
+Project-URL: Issues, https://github.com/flying-sheep/hatch-docstring-description/issues
+Project-URL: Source, https://github.com/flying-sheep/hatch-docstring-description
+Author-email: "Philipp A." <flying-sheep@web.de>
+License-Expression: GPL-3.0-or-later
+License-File: LICENSE.md
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Hatch
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: hatchling
+Description-Content-Type: text/markdown
+
+# hatch-docstring-description
+
+[![PyPI - Version](https://img.shields.io/pypi/v/hatch-docstring-description.svg)](https://pypi.org/project/hatch-docstring-description)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hatch-docstring-description.svg)](https://pypi.org/project/hatch-docstring-description)
+[![Coverage](https://codecov.io/github/flying-sheep/hatch-docstring-description/branch/main/graph/badge.svg?token=FZCw1cXSTL)](https://codecov.io/github/flying-sheep/hatch-docstring-description)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install hatch-docstring-description
+```
+
+## License
+
+`hatch-docstring-description` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
