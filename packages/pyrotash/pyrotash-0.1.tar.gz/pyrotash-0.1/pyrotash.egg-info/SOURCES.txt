@@ -1,0 +1,7 @@
+setup.py
+pyrotash.egg-info/PKG-INFO
+pyrotash.egg-info/SOURCES.txt
+pyrotash.egg-info/dependency_links.txt
+pyrotash.egg-info/top_level.txt
+tpyconfig/__init__.py
+tpyconfig/tpyconfig.py
