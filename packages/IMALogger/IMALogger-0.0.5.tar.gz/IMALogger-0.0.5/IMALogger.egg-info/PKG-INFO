@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: IMALogger
+Version: 0.0.5
+Summary: Custom Logger Python Package
+Home-page: https://github.com/1mag1n33/1m33-Logger-Py
+Author: 1mag1n33dev
+Author-email: 1mag1n33dev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+A custom logger implementation for Python.
