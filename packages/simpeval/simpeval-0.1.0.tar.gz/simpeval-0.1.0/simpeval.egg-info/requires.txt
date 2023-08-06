@@ -1,0 +1,14 @@
+click
+matplotlib
+nltk==3.6.5
+numpy
+pandas
+requests>=2.21.0
+sacrebleu>=2.0.0
+sacremoses
+tqdm>=4.32.2
+plotly>=4.0.0
+bert_score
+simalign
+stanza>=1.5.0
+tupa

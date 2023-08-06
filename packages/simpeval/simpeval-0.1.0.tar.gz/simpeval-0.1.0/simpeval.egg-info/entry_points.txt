@@ -1,0 +1,2 @@
+[console_scripts]
+simpeval = simpeval.cli:cli

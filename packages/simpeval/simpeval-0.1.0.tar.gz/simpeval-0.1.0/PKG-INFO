@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: simpeval
+Version: 0.1.0
+Summary: Evaluation of text simplification with TUPA and SAMSA
+Home-page: https://github.com/jessy3ric/git_memoire/tree/main/annotation_tool
+Author: Fernando Alva-Manchego <feralvam@gmail.com>, Louis Martin <louismartincs@gmail.com>, Jessy Nierichlo <jessynchl@gmail.com>,
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+
+# Ressources et outils pour l'évaluation des systèmes de simplification automatique des textes
+ Espace GitHub dédié à l'outil reposant sur TUPA | SAMSA | EASSE pour annoter et évaluer automatiquement la simplification opérée sur un texte en français.
+
+## Structure : 
+* annexes : contient tous les fichiers considérés comme des annexes (ex. : mémoire en version PDF, résultats SAMSA ***(not yet)***, documentation code, etc.)
+* annotation_tool : contient tous les fichiers nécessaires pour faire fonctionner l'outil d'annotation et d'évaluation
+* corpus : contient le corpus annoté et le corpus vierge
