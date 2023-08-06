@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: matan
+Version: 0.1.5.2.12
+Summary: Material analysis package to plot or extract properties like tensile modulus etc.
+Author-email: Igor <igor@its.rel.pl>
+Requires-Dist: numpy
+Requires-Dist: matplotlib
