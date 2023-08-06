@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: dask-ngs
+Version: 0.1.0
+Summary: Scalable access to bioinformatics data with Dask.
+Project-URL: Homepage, https://github.com/abdenlab/dask-ngs
+Project-URL: Bug Tracker, https://github.com/abdenlab/dask-ngs/issues
+Project-URL: Discussions, https://github.com/abdenlab/dask-ngs/discussions
+Project-URL: Changelog, https://github.com/abdenlab/dask-ngs/releases
+Author-email: Oxbow Developers <nabdennur@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Requires-Dist: dask
+Requires-Dist: oxbow>=0.2.0
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: typing-extensions>=3.7; python_version < '3.8'
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: pytest-cov>=3; extra == 'dev'
+Requires-Dist: pytest>=6; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: furo; extra == 'docs'
+Requires-Dist: myst-parser>=0.13; extra == 'docs'
+Requires-Dist: sphinx-autobuild; extra == 'docs'
+Requires-Dist: sphinx-book-theme>=0.1.0; extra == 'docs'
+Requires-Dist: sphinx-copybutton; extra == 'docs'
+Requires-Dist: sphinx>=4.0; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest-cov>=3; extra == 'test'
+Requires-Dist: pytest>=6; extra == 'test'
+Description-Content-Type: text/markdown
+
+# dask-ngs
+
+[![Actions Status][actions-badge]][actions-link]
+[![Documentation Status][rtd-badge]][rtd-link]
+
+[![PyPI version][pypi-version]][pypi-link]
+<!-- [![Conda-Forge][conda-badge]][conda-link] -->
+[![PyPI platforms][pypi-platforms]][pypi-link]
+
+[![GitHub Discussion][github-discussions-badge]][github-discussions-link]
+
+<!-- prettier-ignore-start -->
+[actions-badge]:            https://github.com/abdenlab/dask-ngs/workflows/CI/badge.svg
+[actions-link]:             https://github.com/abdenlab/dask-ngs/actions
+[conda-badge]:              https://img.shields.io/conda/vn/conda-forge/dask-ngs
+[conda-link]:               https://github.com/conda-forge/dask-ngs-feedstock
+[github-discussions-badge]: https://img.shields.io/static/v1?label=Discussions&message=Ask&color=blue&logo=github
+[github-discussions-link]:  https://github.com/abdenlab/dask-ngs/discussions
+[pypi-link]:                https://pypi.org/project/dask-ngs/
+[pypi-platforms]:           https://img.shields.io/pypi/pyversions/dask-ngs
+[pypi-version]:             https://img.shields.io/pypi/v/dask-ngs
+[rtd-badge]:                https://readthedocs.org/projects/dask-ngs/badge/?version=latest
+[rtd-link]:                 https://dask-ngs.readthedocs.io/en/latest/?badge=latest
+<!-- prettier-ignore-end -->
