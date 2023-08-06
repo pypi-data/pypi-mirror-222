@@ -1,0 +1,15 @@
+defusedxml>=0.7.1
+packaging>=22.0
+requests>=2.28
+urllib3~=1.26.8
+tableauserverclient
+tableaudocumentapi
+
+[test]
+argparse
+black
+mock
+mypy
+pytest>=7.0
+pytest-subtests
+requests-mock<2.0,>=1.0
