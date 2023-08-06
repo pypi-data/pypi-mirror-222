@@ -1,0 +1,2 @@
+[nebari]
+nebari-plugin-label-studio-chart = nebari_plugin_label_studio_chart
