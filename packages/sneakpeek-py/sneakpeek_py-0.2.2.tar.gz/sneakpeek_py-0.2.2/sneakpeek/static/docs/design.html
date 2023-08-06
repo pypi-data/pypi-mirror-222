@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design &mdash; Sneakpeek 0.2.2 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Deployment options" href="deployment.html" />
+    <link rel="prev" title="Local handler debugging" href="local_debugging.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Sneakpeek
+          </a>
+              <div class="version">
+                0.2
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quick_start.html">Quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="local_debugging.html">Local handler debugging</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deployment.html">Deployment options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="middleware/index.html">Middleware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="middleware/rate_limiter_middleware.html">Rate limiter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="middleware/robots_txt_middleware.html">Robots.txt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="middleware/user_agent_injecter_middleware.html">User Agent injector</a></li>
+<li class="toctree-l2"><a class="reference internal" href="middleware/proxy_middleware.html">Proxy middleware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="middleware/requests_logging_middleware.html">Requests logging middleware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="middleware/new_middleware.html">Implementing your own middleware</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Sneakpeek</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Design</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/design.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="design">
+<h1><a class="toc-backref" href="#id1">Design</a><a class="headerlink" href="#design" title="Permalink to this headline"></a></h1>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title">Table of contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#design" id="id1">Design</a></p>
+<ul>
+<li><p><a class="reference internal" href="#scrapers-storage" id="id2">Scrapers Storage</a></p></li>
+<li><p><a class="reference internal" href="#tasks-queue" id="id3">Tasks queue</a></p></li>
+<li><p><a class="reference internal" href="#lease-storage" id="id4">Lease storage</a></p></li>
+<li><p><a class="reference internal" href="#scheduler" id="id5">Scheduler</a></p></li>
+<li><p><a class="reference internal" href="#queue-consumer" id="id6">Queue consumer</a></p></li>
+<li><p><a class="reference internal" href="#api" id="id7">API</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p><strong>Sneakpeek</strong> has 6 core components:</p>
+<ul class="simple">
+<li><p>Scrapers storage - stores list of scrapers and its metadata.</p></li>
+<li><p>Tasks queue - populated by the scheduler or user and is consumed by the queue consumers</p></li>
+<li><p>Lease storage - stores lease (global lock) for scheduler, to make sure there’s only 1 active scheduler at all times.</p></li>
+<li><p>Scheduler - schedules periodic tasks using scrapers in the storage</p></li>
+<li><p>Consumer - consumes tasks queue and executes tasks logic (e.g. scraper logic)</p></li>
+<li><p>API - provides JsonRPC API for interacting with the system</p></li>
+</ul>
+<p>All of the components are run by the <a class="reference internal" href="api.html#sneakpeek.server.SneakpeekServer" title="sneakpeek.server.SneakpeekServer"><code class="xref py py-class docutils literal notranslate"><span class="pre">SneakpeekServer</span></code></a>.</p>
+<section id="scrapers-storage">
+<h2><a class="toc-backref" href="#id2">Scrapers Storage</a><a class="headerlink" href="#scrapers-storage" title="Permalink to this headline"></a></h2>
+<p>Scraper storage interface is defined in <a class="reference internal" href="api.html#sneakpeek.scraper.model.ScraperStorageABC" title="sneakpeek.scraper.model.ScraperStorageABC"><code class="xref py py-class docutils literal notranslate"><span class="pre">sneakpeek.scraper.model.ScraperStorageABC</span></code></a>.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="api.html#sneakpeek.scraper.in_memory_storage.InMemoryScraperStorage" title="sneakpeek.scraper.in_memory_storage.InMemoryScraperStorage"><code class="xref py py-class docutils literal notranslate"><span class="pre">InMemoryScraperStorage</span></code></a> - in-memory storage. Should either be used in <strong>development</strong> environment or if the list of scrapers is static and wouldn’t be changed.</p></li>
+<li><p><code class="xref py py-class docutils literal notranslate"><span class="pre">RedisScraperStorage</span></code> - redis storage.</p></li>
+</ul>
+</section>
+<section id="tasks-queue">
+<h2><a class="toc-backref" href="#id3">Tasks queue</a><a class="headerlink" href="#tasks-queue" title="Permalink to this headline"></a></h2>
+<p>Tasks queue consists of three components:
+* <a class="reference internal" href="api.html#sneakpeek.queue.model.QueueStorageABC" title="sneakpeek.queue.model.QueueStorageABC"><code class="xref py py-class docutils literal notranslate"><span class="pre">Storage</span></code></a> - tasks storage
+* <a class="reference internal" href="api.html#sneakpeek.queue.model.QueueABC" title="sneakpeek.queue.model.QueueABC"><code class="xref py py-class docutils literal notranslate"><span class="pre">Storage</span></code></a> - queue implementation
+* <code class="xref py py-class docutils literal notranslate"><span class="pre">Storage</span></code> - queue consumer implementation</p>
+<p>Currently there 2 storage implementations:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="api.html#sneakpeek.queue.in_memory_storage.InMemoryQueueStorage" title="sneakpeek.queue.in_memory_storage.InMemoryQueueStorage"><code class="xref py py-class docutils literal notranslate"><span class="pre">InMemoryQueueStorage</span></code></a> - in-memory storage. Should only be used in <strong>development</strong> environment.</p></li>
+<li><p><a class="reference internal" href="api.html#sneakpeek.queue.redis_storage.RedisQueueStorage" title="sneakpeek.queue.redis_storage.RedisQueueStorage"><code class="xref py py-class docutils literal notranslate"><span class="pre">RedisQueueStorage</span></code></a> - redis storage.</p></li>
+</ul>
+</section>
+<section id="lease-storage">
+<h2><a class="toc-backref" href="#id4">Lease storage</a><a class="headerlink" href="#lease-storage" title="Permalink to this headline"></a></h2>
+<p>Lease storage is used by scheduler to ensure that at any point of time there’s no more
+than 1 active scheduler instance which can enqueue scraper jobs. This disallows concurrent
+execution of the scraper.</p>
+<p>Lease storage interface is defined in <a class="reference internal" href="api.html#sneakpeek.scheduler.model.LeaseStorageABC" title="sneakpeek.scheduler.model.LeaseStorageABC"><code class="xref py py-class docutils literal notranslate"><span class="pre">LeaseStorageABC</span></code></a>.</p>
+<p>Currently there 2 storage implementations:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="api.html#sneakpeek.scheduler.in_memory_lease_storage.InMemoryLeaseStorage" title="sneakpeek.scheduler.in_memory_lease_storage.InMemoryLeaseStorage"><code class="xref py py-class docutils literal notranslate"><span class="pre">InMemoryLeaseStorage</span></code></a> - in-memory storage. Should only be used in <strong>development</strong> environment.</p></li>
+<li><p><a class="reference internal" href="api.html#sneakpeek.scheduler.redis_lease_storage.RedisLeaseStorage" title="sneakpeek.scheduler.redis_lease_storage.RedisLeaseStorage"><code class="xref py py-class docutils literal notranslate"><span class="pre">RedisLeaseStorage</span></code></a> - redis storage.</p></li>
+</ul>
+</section>
+<section id="scheduler">
+<h2><a class="toc-backref" href="#id5">Scheduler</a><a class="headerlink" href="#scheduler" title="Permalink to this headline"></a></h2>
+<p><a class="reference internal" href="api.html#sneakpeek.scheduler.model.SchedulerABC" title="sneakpeek.scheduler.model.SchedulerABC"><code class="xref py py-class docutils literal notranslate"><span class="pre">Scheduler</span></code></a> is responsible for:</p>
+<ul class="simple">
+<li><p>scheduling scrapers based on their configuration.</p></li>
+<li><p>finding scraper jobs that haven’t sent a heartbeat for a while and mark them as dead</p></li>
+<li><p>cleaning up jobs queue from old historical scraper jobs</p></li>
+<li><p>exporting metrics on number of pending jobs in the queue</p></li>
+</ul>
+<p>As for now there’s only one implementation <a class="reference internal" href="api.html#sneakpeek.scheduler.scheduler.Scheduler" title="sneakpeek.scheduler.scheduler.Scheduler"><code class="xref py py-class docutils literal notranslate"><span class="pre">Scheduler</span></code></a>
+that uses <a class="reference external" href="https://apscheduler.readthedocs.io/en/3.x/">APScheduler</a>.</p>
+</section>
+<section id="queue-consumer">
+<h2><a class="toc-backref" href="#id6">Queue consumer</a><a class="headerlink" href="#queue-consumer" title="Permalink to this headline"></a></h2>
+<p>Consumer constantly tries to dequeue a job and executes dequeued jobs.
+As for now there’s only one implementation <code class="xref py py-class docutils literal notranslate"><span class="pre">Worker</span></code>.</p>
+</section>
+<section id="api">
+<h2><a class="toc-backref" href="#id7">API</a><a class="headerlink" href="#api" title="Permalink to this headline"></a></h2>
+<p>Sneakpeek implements:</p>
+<ul class="simple">
+<li><p>JsonRPC to programmatically interact with the system, it exposes following methods (available at <code class="docutils literal notranslate"><span class="pre">/api/v1/jsonrpc</span></code>):
+* CRUD methods to add, modify and delete scrapers
+* Get list of scraper’s jobs
+* Enqueue scraper jobs</p></li>
+<li><p>UI that allows you to interact with the system</p></li>
+<li><p>Swagger documentation (available at <code class="docutils literal notranslate"><span class="pre">/api</span></code>)</p></li>
+<li><p>Copy of this documentation (available at <code class="docutils literal notranslate"><span class="pre">/docs</span></code>)</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="local_debugging.html" class="btn btn-neutral float-left" title="Local handler debugging" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="deployment.html" class="btn btn-neutral float-right" title="Deployment options" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Dan Yazovsky.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3EW8JNTBHC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-3EW8JNTBHC', {
+          'anonymize_ip': false,
+      });
+    </script> 
+
+</body>
+</html>
