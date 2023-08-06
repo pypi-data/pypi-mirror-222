@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: DdlGeneric
+Version: 1.0.2
+Summary: DDL文件解析程序
+Home-page: https://gitee.com/visonforcoding/code-template-tools
+Author: visonforcoding
+Author-email: visonforcoding@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 代码生成工具
+
+## ddl2Pojo
+
+- 不支持有索引内容
+- 将ddl数据拷贝到sql文件
+- 编辑ddl2JavaPojo.py文件,主要是定义生成类的名字
+
+## es2Pojo
+
+## 更多
+
+仿照ddl2JavaPojo.py + 自定义模板文件可以生成任意代码
+
+## pojo generated
+
+0. 安装依赖 `pip install -r requirements.txt`
+1. 编写你要的模板 pojo.tpl
+2. 用python定义从数据来源定义字段
+3. 运行脚本生成代码文件
+
+模板语法 <https://jinja.palletsprojects.com/en/2.10.x/>
+
+
