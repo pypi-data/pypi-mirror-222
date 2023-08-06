@@ -1,0 +1,15 @@
+cohpy/__init__.py,sha256=FVPjnrpL1PjNPnVLbZqgm2FdNU1tApVmK5bi5w703v0,542
+cohpy/client.py,sha256=jdLgJqrYoe_8gOh-TT5xv6ZzGDNQFo5pQS6kYYTSXew,3759
+cohpy/constants.py,sha256=lMMpHLQsgzFepKHgXdo6Q7CqyzZQsACZs3mQdIipSvs,112
+cohpy/endpoint.py,sha256=V15NR9uuMH2yBlRTEs_0ltlA9lkuT-Shr0YSoEk40Js,5429
+cohpy/exceptions.py,sha256=Cl72XjTTPlE1GIKEphGd2sSvigrGtiTRMPaB75X26x8,1443
+cohpy/leaderboards.py,sha256=UdLZCFLFUyyl5vxQ9cKdk1HBXh1qiZCD8wQ0jS2ClX0,638
+cohpy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cohpy/tests/test_all_leaderboards.py,sha256=Ud2MX4eFZ917BcOGg7Y2AqheukZA7sZb8RXpoPqpgeY,856
+cohpy/tests/test_personal_stat.py,sha256=ywXN641UVIL99RvZFlkO2JKcmcxGlAoa_1gNxZJI3jw,3468
+cohpy/tests/test_player_match_history.py,sha256=i1J9xYyQrgjgqgpSQD2vWU-fbPoaQXUN0OhfK9Nid5A,3276
+cohpy/tests/test_specific_leaderboard.py,sha256=_-w9fCmM_wLHmNkY-pZfGYncNutp4ZOdUcehqhXdB_4,3076
+cohpy-1.1.4.dist-info/LICENSE,sha256=7C3csw79OaQAJjQysgS-d6NnfdAGGmjCsGV8_JSXvSo,1072
+cohpy-1.1.4.dist-info/METADATA,sha256=XAmwKYo4eCXNukkN1OmXEHh0-BIdTBil77QM-0M_3uQ,5252
+cohpy-1.1.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+cohpy-1.1.4.dist-info/RECORD,,
