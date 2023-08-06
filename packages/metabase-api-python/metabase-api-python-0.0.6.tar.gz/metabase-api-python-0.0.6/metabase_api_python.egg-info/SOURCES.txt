@@ -1,0 +1,10 @@
+README.md
+setup.py
+metabase_api_python/__init__.py
+metabase_api_python/exceptions.py
+metabase_api_python/metabase_api.py
+metabase_api_python.egg-info/PKG-INFO
+metabase_api_python.egg-info/SOURCES.txt
+metabase_api_python.egg-info/dependency_links.txt
+metabase_api_python.egg-info/requires.txt
+metabase_api_python.egg-info/top_level.txt
