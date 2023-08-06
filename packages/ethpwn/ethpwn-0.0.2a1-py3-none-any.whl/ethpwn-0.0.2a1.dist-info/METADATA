@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: ethpwn
+Version: 0.0.2a1
+Summary: A swiss army knife package to help with ethereum smart contract exploit interaction, designed with CTF challenges in mind. Some might call it a set of pwn tools for ethereum exploitation.
+Project-URL: Homepage, https://github.com/ethpwn/ethtools
+Project-URL: Bug Tracker, https://github.com/ethpwn/ethtools/issues
+Author-email: Lukas Dresel <Lukas-Dresel@noreply.github.com>, Fabio Gritti <degrigis@ucsb.edu>
+License: MIT License
+License-File: LICENSE
+Keywords: ctf,debugging,ethereum,exploits,ipdb,security,smart-contracts,testing
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7
+Requires-Dist: alive-progress
+Requires-Dist: ansi
+Requires-Dist: backoff
+Requires-Dist: bumpversion
+Requires-Dist: cachetools
+Requires-Dist: cbor
+Requires-Dist: coolname
+Requires-Dist: editdistance
+Requires-Dist: ethcx
+Requires-Dist: ethpwn-py-evm
+Requires-Dist: ethpwn-pyevmasm
+Requires-Dist: hexbytes
+Requires-Dist: hexdump
+Requires-Dist: ipdb
+Requires-Dist: mkdocs
+Requires-Dist: mkdocs-click
+Requires-Dist: mkdocs-material
+Requires-Dist: pydoc-markdown
+Requires-Dist: pysha3
+Requires-Dist: pysha3>=1.0.2
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: simanneal
+Requires-Dist: virtualenv
+Requires-Dist: web3>=6.0.0
+Description-Content-Type: text/markdown
+
+# ethtools
+ethdbg &amp; ethpwn
