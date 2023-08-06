@@ -1,0 +1,12 @@
+dfv/__init__.py,sha256=T_JgwFJn1RDeKY0m5HFoP3HrBlpFknUshF9xFbBqJxg,17876
+dfv/static/dfv.js,sha256=BMzxjKN6WPyLUiNMxj0xjNFRSriXDiahweZSVoPy-TM,3349
+dfv/templates/dfv/tests/TemplateResponse.html,sha256=3t9eCM37AD2Fp7XZZLQ3XYwsWFFOBib1NenJxdwlkQs,10
+dfv/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dfv/templatetags/dfv.py,sha256=CNGP0YnBO5yeoBtp69FG4O66vNFiuhqgkBltwP6uzEE,326
+dfv/test_element.py,sha256=8RWuzuqvjA5C4W14omY1SWoLsxqnVd-aVqpMUG7vsiI,4328
+dfv/test_form.py,sha256=k8WaS8Ajwv1bQAOIe0BYiOE7L0U7DzAyovPfbG1mgdw,3340
+dfv/test_params_to_args.py,sha256=wiFFReIh8vIJuPpNeD2vvCigEiE4HQDQskJpqTa2cvc,8657
+dfv/test_view.py,sha256=DlJGm7zRjTG66K-L0Tcgy2oFRDUxrtcmU5YEA6CqJYc,1646
+dfv-0.8.0.dist-info/METADATA,sha256=NqpbRO_aWTGpTx80At1j5cmQnZUGPrV2xTN_yybl6G0,543
+dfv-0.8.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+dfv-0.8.0.dist-info/RECORD,,
