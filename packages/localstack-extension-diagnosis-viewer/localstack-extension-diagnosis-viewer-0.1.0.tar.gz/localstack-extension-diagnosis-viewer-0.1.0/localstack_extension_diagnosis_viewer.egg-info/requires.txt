@@ -1,0 +1,2 @@
+localstack>=1.4
+diapretty
