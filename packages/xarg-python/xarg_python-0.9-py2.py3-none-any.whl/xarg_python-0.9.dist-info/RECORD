@@ -1,0 +1,12 @@
+xarg/__init__.py,sha256=InnI8b1xvUtdxGQuZQTpPpkYyF7nzPDcLNwYDEIAiXI,219
+xarg/checker.py,sha256=by-_S6NzojhRZVEdv1SDBd44i4qNon3Eqd9fqMK49-4,1570
+xarg/decorator.py,sha256=gWUWv2osGKng5qT1aN_cdPNZXTCK93oA_DUPVF9EdqE,8225
+xarg/logger.py,sha256=o571wpLBdVI5kdRttU8398tfBmtfgboHh4zXlJ3EaDQ,185
+xarg/parser.py,sha256=1ypmQgD6v2mUYitxEfVdxGa2TuVV2lBe6C-eUYT5i-g,3307
+xarg_python-0.9.dist-info/LICENSE,sha256=2gkiculHtN0ZN8WPMKCV0WD_yKCuaJn6xTySbafxUfM,1093
+xarg_python-0.9.dist-info/METADATA,sha256=-wavD9MVbP36CIcrYVrpZI4WVALJ5H3wYMgH6Bd2teE,815
+xarg_python-0.9.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+xarg_python-0.9.dist-info/entry_points.txt,sha256=xNzsls62KR1zknsng1MW2_GaheNmPSV9ia8oivJNSK8,44
+xarg_python-0.9.dist-info/top_level.txt,sha256=YJt4CH5jJWXdbYpJ6VwRWb9X2ylvDapvqVxsKKE4nlg,5
+xarg_python-0.9.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+xarg_python-0.9.dist-info/RECORD,,
