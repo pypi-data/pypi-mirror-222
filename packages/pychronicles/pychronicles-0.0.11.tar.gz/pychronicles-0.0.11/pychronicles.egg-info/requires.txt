@@ -1,0 +1,10 @@
+cython
+pandas
+numpy
+scipy
+lazr.restfulclient
+lazr.uri
+lark-parser
+metric-temporal-logic
+multiset
+pytest
