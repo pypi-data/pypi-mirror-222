@@ -1,0 +1,10 @@
+odoo/addons/ssi_account_move_py3o_report/README.rst,sha256=bAo1dZvLlFkc_BOtQulKb9Zen2ky90bT7IqbXhS0xVM,1250
+odoo/addons/ssi_account_move_py3o_report/__init__.py,sha256=FPxkxQ0GclD3ly8Q8r2TcT7nqdrUGQe-0ZPciIbVgLE,150
+odoo/addons/ssi_account_move_py3o_report/__manifest__.py,sha256=QJW9naJ_ySkgCr07V-c4Wop51BAusMAWOSHIAUljwzk,609
+odoo/addons/ssi_account_move_py3o_report/reports/account_move.odt,sha256=WMXSfmr0LzHa3UX16xvg_hMu-3HBSEpO4nwjXM0bVYk,18356
+odoo/addons/ssi_account_move_py3o_report/reports/account_move_report.xml,sha256=51smFw68GoaEOJPrEGkvTN8kG18jxyw9VQiZpGKo6dc,670
+odoo/addons/ssi_account_move_py3o_report/static/description/icon.png,sha256=CpId0qOmE_kOgOCnu0lg1bR8-JIABlXh2GlO0lmgcfI,19838
+odoo14_addon_ssi_account_move_py3o_report-14.0.1.1.2.dev1.dist-info/METADATA,sha256=AbsTMWM5fgH1E34Vu1NpozYR5srWbYrCCa_-UprdAWo,1905
+odoo14_addon_ssi_account_move_py3o_report-14.0.1.1.2.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_account_move_py3o_report-14.0.1.1.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_account_move_py3o_report-14.0.1.1.2.dev1.dist-info/RECORD,,
