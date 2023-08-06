@@ -1,0 +1,11 @@
+prometheus_kubernetes_cli/__init__.py,sha256=VOGNd32vi1U-HZpcLWHWFctfCl6cZBT_n5RR8dbxXoA,908
+prometheus_kubernetes_cli/auth.py,sha256=92n_sfKoJMe1V2HnbMN_u6HUet70Sy9tGwVX7Zu_7iA,2940
+prometheus_kubernetes_cli/connect/aws_connect.py,sha256=I-gQiDFkWh3n58EaZ7IhY5rPfyKiMoi7Y8_iGXYQO2U,4493
+prometheus_kubernetes_cli/connect/custom_connect.py,sha256=s9ImRNq-98_zmDrdR2eMU8D6EV3wcib5wymEGOwGpQ0,6217
+prometheus_kubernetes_cli/custom_connect.py,sha256=MBauHEvoGOpxO2-Yob3vyGheFw7HZoDw0bO3WmAo93c,10499
+prometheus_kubernetes_cli/exceptions.py,sha256=I4WLqal0gDIAHvI7sMD88j76V8YveZ1CjUL7Cm5FzCs,660
+prometheus_kubernetes_cli/models.py,sha256=szH2Ku5NYgnqYHWcH_0bfWd0UxoZUlPHojuaRpfsyJc,5863
+prometheus_kubernetes_cli/utils.py,sha256=uNG_d3GyINLGtF9f4caPiwwQtgP_5nqES0B8XG1R-rA,1782
+prometheus_kubernetes_cli-0.1.3.dist-info/METADATA,sha256=vxgxE28nvuM_NVMTRmQBpdCzkcwXHvIPNOaP2V9eAeA,632
+prometheus_kubernetes_cli-0.1.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+prometheus_kubernetes_cli-0.1.3.dist-info/RECORD,,
