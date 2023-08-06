@@ -1,0 +1,42 @@
+[project]
+name = "pdf2sb"
+version = "0.3.10"
+description = "Upload PDF file to Gyazo as images then convert Scrapbox format"
+license = {file = "LICENSE"}
+authors = [
+    { name = "Ryo Takahashi", email = "reiyw.setuve@gmail.com" }
+]
+dependencies = [
+    "pdf2image~=1.4",
+    "python-gyazo~=1.1",
+    "click~=8.0",
+    "pypdf2~=1.26",
+    "Pillow~=8.4.0",
+]
+readme = "README.md"
+requires-python = "~=3.8"
+
+[project.urls]
+Repository = "https://github.com/reiyw/pdf2sb"
+
+[project.scripts]
+pdf2sb = "pdf2sb:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "mypy~=0.991",
+    "pytest~=7.2.0",
+    "types-pillow~=9.3.0.2",
+    "types-click~=7.1.8",
+    "pytest-mock~=3.10.0",
+    "black~=22.10.0",
+    "ruff~=0.0.149",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
