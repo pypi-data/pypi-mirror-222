@@ -1,0 +1,5 @@
+app_store_scraper
+fpdf
+datetime
+llama_index
+openai
