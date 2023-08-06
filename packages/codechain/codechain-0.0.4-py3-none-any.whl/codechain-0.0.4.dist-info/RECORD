@@ -1,0 +1,7 @@
+codechain/__init__.py,sha256=DVQ2jDqwi4-NXKuJ4gOsWX8LL5e3Hr7F7kKEGuEeTG8,69
+codechain/evaluation.py,sha256=_g2wVPOayd_-ppHpQbtFH8_0zJTnViow7EWpx9BwSbo,948
+codechain/generation.py,sha256=d699r0kFZOdH5Zbu8IJWJZ0TFCIaWPNRtqoQKhdJeis,3416
+codechain-0.0.4.dist-info/METADATA,sha256=mXfgSHft6Y6D9LGMbc-Ojflf_rks6gCUrqNfgIRGjeE,1612
+codechain-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+codechain-0.0.4.dist-info/top_level.txt,sha256=ZMMfWvJyGx546cF46IjTDJnmYLsgKHGgbSaVayh-Feo,10
+codechain-0.0.4.dist-info/RECORD,,
