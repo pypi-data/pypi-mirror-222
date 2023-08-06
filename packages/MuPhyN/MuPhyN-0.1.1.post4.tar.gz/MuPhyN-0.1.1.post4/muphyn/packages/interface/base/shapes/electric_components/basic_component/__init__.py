@@ -1,0 +1,1 @@
+from muphyn.packages.interface.base.shapes.electric_components.basic_component.resistor import Resistor

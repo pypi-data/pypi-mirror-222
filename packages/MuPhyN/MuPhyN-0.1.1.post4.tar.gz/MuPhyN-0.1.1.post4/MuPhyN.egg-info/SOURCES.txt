@@ -1,0 +1,532 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+MuPhyN.egg-info/PKG-INFO
+MuPhyN.egg-info/SOURCES.txt
+MuPhyN.egg-info/dependency_links.txt
+MuPhyN.egg-info/requires.txt
+MuPhyN.egg-info/top_level.txt
+muphyn/__init__.py
+muphyn/__main__.py
+muphyn/runner.py
+muphyn/docs/1. Introduction.md
+muphyn/docs/2. Create a custom box.md
+muphyn/docs/Assets/MuPhyN.png
+muphyn/docs/Class Diagrams/BoxLibraryList.drawio
+muphyn/docs/Class Diagrams/BoxModel.drawio
+muphyn/docs/Class Diagrams/LinkModel.drawio
+muphyn/docs/Class Diagrams/ModelAnalyzing.drawio
+muphyn/docs/Class Diagrams/ModelFileParser.drawio
+muphyn/docs/Class Diagrams/WidgetStruc.drawio
+muphyn/docs/css/github-markdown.min.css
+muphyn/docs/js/marked.min.js
+muphyn/libraries/__init__.py
+muphyn/libraries/External Simulators/OpenModelica.py
+muphyn/libraries/External Simulators/OpenModelica.yaml
+muphyn/libraries/External Simulators/__pycache__/OpenModelica.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/__init__.py
+muphyn/libraries/External Simulators/simulation/__pycache__/__init__.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/__pycache__/abstract_simulation.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/__pycache__/om_sim.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/base/__init__.py
+muphyn/libraries/External Simulators/simulation/base/abstractsimulation.py
+muphyn/libraries/External Simulators/simulation/base/__pycache__/__init__.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/base/__pycache__/abstractsimulation.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/__init__.py
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsdiagrameditor.py
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodelpreviewer.py
+muphyn/libraries/External Simulators/simulation/interface/__pycache__/__init__.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/__pycache__/multiphysicsdiagrameditor.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/__pycache__/multiphysicsmodelpreviewer.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/__init__.py
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/abstractmultiphysicsmodel.py
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/connectionmodel.py
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/__pycache__/__init__.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/__pycache__/abstract_multiphysics_model.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/__pycache__/abstractmultiphysicsmodel.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/__pycache__/connection_model.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/__pycache__/connectionmodel.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/__pycache__/open_modelica_multiphysics_model.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/components/__init__.py
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/components/abstractcomponent.py
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/components/electricalcomponents.py
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/components/__pycache__/__init__.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/components/__pycache__/abstract_component.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/components/__pycache__/abstractcomponent.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/components/__pycache__/electrical_components.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/interface/multiphysicsmodel/components/__pycache__/electricalcomponents.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/openmodelica/__init__.py
+muphyn/libraries/External Simulators/simulation/openmodelica/modelparser.py
+muphyn/libraries/External Simulators/simulation/openmodelica/openmodelicamultiphysicsmodel.py
+muphyn/libraries/External Simulators/simulation/openmodelica/simulation.py
+muphyn/libraries/External Simulators/simulation/openmodelica/__pycache__/__init__.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/openmodelica/__pycache__/modelparser.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/openmodelica/__pycache__/openmodelicamultiphysicsmodel.cpython-310.pyc
+muphyn/libraries/External Simulators/simulation/openmodelica/__pycache__/simulation.cpython-310.pyc
+muphyn/libraries/box_library/__init__.py
+muphyn/libraries/box_library/addition_box.py
+muphyn/libraries/box_library/addition_box.yaml
+muphyn/libraries/box_library/amplifier_box.py
+muphyn/libraries/box_library/amplifier_box.yaml
+muphyn/libraries/box_library/constant_box.py
+muphyn/libraries/box_library/constant_box.yaml
+muphyn/libraries/box_library/csv_box.py
+muphyn/libraries/box_library/csv_box.yaml
+muphyn/libraries/box_library/derivator_box.py
+muphyn/libraries/box_library/derivator_box.yaml
+muphyn/libraries/box_library/filter_high_pass_box.py
+muphyn/libraries/box_library/filter_high_pass_box.yaml
+muphyn/libraries/box_library/filter_low_pass_box.py
+muphyn/libraries/box_library/filter_low_pass_box.yaml
+muphyn/libraries/box_library/formula_box.py
+muphyn/libraries/box_library/formula_box.yaml
+muphyn/libraries/box_library/graph_box.py
+muphyn/libraries/box_library/graph_box.yaml
+muphyn/libraries/box_library/integrator_box.py
+muphyn/libraries/box_library/integrator_box.yaml
+muphyn/libraries/box_library/multiplier_box.md
+muphyn/libraries/box_library/multiplier_box.py
+muphyn/libraries/box_library/multiplier_box.yaml
+muphyn/libraries/box_library/noise_box.py
+muphyn/libraries/box_library/noise_box.yaml
+muphyn/libraries/box_library/power_box.py
+muphyn/libraries/box_library/power_box.yaml
+muphyn/libraries/box_library/ramp_box.py
+muphyn/libraries/box_library/ramp_box.yaml
+muphyn/libraries/box_library/reccurence_box.py
+muphyn/libraries/box_library/reccurence_box.yaml
+muphyn/libraries/box_library/saw_tooth_box.py
+muphyn/libraries/box_library/saw_tooth_box.yaml
+muphyn/libraries/box_library/sine_box.py
+muphyn/libraries/box_library/sine_box.yaml
+muphyn/libraries/box_library/square_box_1.py
+muphyn/libraries/box_library/square_box_1.yaml
+muphyn/libraries/box_library/square_box_2.py
+muphyn/libraries/box_library/square_box_2.yaml
+muphyn/libraries/box_library/state-space_box.py
+muphyn/libraries/box_library/state-space_box.yaml
+muphyn/libraries/box_library/step_box.py
+muphyn/libraries/box_library/step_box.yaml
+muphyn/libraries/box_library/transfer_function_box.py
+muphyn/libraries/box_library/transfer_function_box.yaml
+muphyn/libraries/box_library/transfer_function_box_new.py
+muphyn/libraries/box_library/transfer_function_box_new.yaml
+muphyn/libraries/box_library/transfer_function_box_ode.py
+muphyn/libraries/box_library/transfer_function_box_ode.yaml
+muphyn/libraries/box_library/transfert_function_box.py
+muphyn/libraries/box_library/transfert_function_box.yaml
+muphyn/libraries/box_library/__pycache__/addition_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/amplifier_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/constant_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/csv_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/derivator_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/filter_high_pass_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/filter_low_pass_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/formula_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/graph_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/integrator_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/multiplier_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/noise_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/power_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/ramp_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/reccurence_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/saw_tooth_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/simulation_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/sine_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/square_box_1.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/square_box_2.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/state-space_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/step_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/transfer_function_box.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/transfer_function_box_new.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/transfer_function_box_ode.cpython-310.pyc
+muphyn/libraries/box_library/__pycache__/transfert_function_box.cpython-310.pyc
+muphyn/libraries/box_library/utils/TransferFunction.py
+muphyn/libraries/box_library/utils/__pycache__/TransferFunction.cpython-310.pyc
+muphyn/libraries/box_library/utils/__pycache__/TransferFunctionCopy.cpython-310.pyc
+muphyn/libraries/electrical_library/Basic Components/ec-Resistor_US.svg
+muphyn/libraries/electrical_library/Basic Components/resistor.py
+muphyn/libraries/electrical_library/Basic Components/resistor.yaml
+muphyn/libraries/scheduler_library/__init__.py
+muphyn/libraries/scheduler_library/debug_scheduler.py
+muphyn/libraries/scheduler_library/debug_scheduler.yaml
+muphyn/libraries/scheduler_library/default_scheduler.py
+muphyn/libraries/scheduler_library/default_scheduler.yaml
+muphyn/libraries/scheduler_library/staticscheduler.py
+muphyn/libraries/scheduler_library/staticscheduler.yaml
+muphyn/libraries/scheduler_library/__pycache__/debug_scheduler.cpython-310.pyc
+muphyn/libraries/scheduler_library/__pycache__/default_scheduler.cpython-310.pyc
+muphyn/libraries/scheduler_library/__pycache__/staticscheduler.cpython-310.pyc
+muphyn/libraries/scheduler_library/staticschedulerutils/__init__.py
+muphyn/libraries/scheduler_library/staticschedulerutils/abstractscheduler.py
+muphyn/libraries/scheduler_library/staticschedulerutils/basescheduler.py
+muphyn/libraries/scheduler_library/staticschedulerutils/__pycache__/__init__.cpython-310.pyc
+muphyn/libraries/scheduler_library/staticschedulerutils/__pycache__/abstractscheduler.cpython-310.pyc
+muphyn/libraries/scheduler_library/staticschedulerutils/__pycache__/basescheduler.cpython-310.pyc
+muphyn/libraries/test_box_library/BoxModelPropertiesTest.py
+muphyn/libraries/test_box_library/BoxModelPropertiesTest.yaml
+muphyn/libraries/test_box_library/InfiniteInputTest.py
+muphyn/libraries/test_box_library/InfiniteInputTest.yaml
+muphyn/libraries/test_box_library/InfiniteOutputTest.py
+muphyn/libraries/test_box_library/InfiniteOutputTest.yaml
+muphyn/libraries/test_box_library/MultipleOutputValues.py
+muphyn/libraries/test_box_library/MultipleOutputValues.yaml
+muphyn/libraries/test_box_library/OnValueChangedTest.py
+muphyn/libraries/test_box_library/OnValueChangedTest.yaml
+muphyn/libraries/test_box_library/__pycache__/BoxModelPropertiesTest.cpython-310.pyc
+muphyn/libraries/test_box_library/__pycache__/InfiniteInputTest.cpython-310.pyc
+muphyn/libraries/test_box_library/__pycache__/InfiniteOutputTest.cpython-310.pyc
+muphyn/libraries/test_box_library/__pycache__/MultipleOutputValues.cpython-310.pyc
+muphyn/libraries/test_box_library/__pycache__/OnValueChangedTest.cpython-310.pyc
+muphyn/libraries/user_box/__init__.py
+muphyn/libraries/user_box/first_test.yaml
+muphyn/libraries/user_box/test_plci_core_SIM_USR_0018.yaml
+muphyn/libraries/user_box/wrapper.yaml
+muphyn/packages/__init__.py
+muphyn/packages/core/application/__init__.py
+muphyn/packages/core/application/plci_core_box.py
+muphyn/packages/core/application/plci_core_data.py
+muphyn/packages/core/application/plci_core_data_type.py
+muphyn/packages/core/application/plci_core_diagram.py
+muphyn/packages/core/application/plci_core_io.py
+muphyn/packages/core/application/plci_core_parameter.py
+muphyn/packages/core/application/plci_core_scheduler.py
+muphyn/packages/core/application/plci_core_scheduler_event.py
+muphyn/packages/core/application/plci_core_scheduler_exception.py
+muphyn/packages/core/application/plci_core_scheduler_params.py
+muphyn/packages/core/application/plci_core_signal.py
+muphyn/packages/core/application/plci_core_signal_event.py
+muphyn/packages/core/application/box_library/__init__.py
+muphyn/packages/core/application/box_library/box_library_data.py
+muphyn/packages/core/application/box_library/plci_core_boxes_libraries.py
+muphyn/packages/core/application/box_library/importers/__init__.py
+muphyn/packages/core/application/box_library/importers/abstract_box_library_importer.py
+muphyn/packages/core/application/box_library/importers/box_library_importer_1_0_0.py
+muphyn/packages/core/application/box_library/importers/box_library_importer_1_1_0.py
+muphyn/packages/core/application/scheduler_library/__init__.py
+muphyn/packages/core/application/scheduler_library/plci_core_schedulers_libraries.py
+muphyn/packages/core/application/scheduler_library/scheduler_library_data.py
+muphyn/packages/core/application/scheduler_library/importers/__init__.py
+muphyn/packages/core/application/scheduler_library/importers/abstract_scheduler_library_importer.py
+muphyn/packages/core/application/scheduler_library/importers/scheduler_library_importer_1_0_0.py
+muphyn/packages/core/application/scheduler_library/importers/scheduler_library_importer_1_1_0.py
+muphyn/packages/core/base/__init__.py
+muphyn/packages/core/base/managers/__init__.py
+muphyn/packages/core/base/managers/directory_manager.py
+muphyn/packages/core/base/managers/global_env_variables_manager.py
+muphyn/packages/core/base/managers/log_manager.py
+muphyn/packages/core/base/managers/managermetaclass.py
+muphyn/packages/core/base/utils/__init__.py
+muphyn/packages/core/base/utils/code.py
+muphyn/packages/core/base/utils/enum.py
+muphyn/packages/core/base/utils/file.py
+muphyn/packages/core/base/utils/math.py
+muphyn/packages/core/base/utils/regexes.py
+muphyn/packages/interface/__init__.py
+muphyn/packages/interface/main_window.py
+muphyn/packages/interface/new_project_at_startup.py
+muphyn/packages/interface/project_tabs_holder.py
+muphyn/packages/interface/recent_file_menu.py
+muphyn/packages/interface/application/__init__.py
+muphyn/packages/interface/application/dialogs_holder.py
+muphyn/packages/interface/application/tools/painter_tools.py
+muphyn/packages/interface/application/widgets/__init__.py
+muphyn/packages/interface/application/widgets/tutorialhighlighter.py
+muphyn/packages/interface/application/widgets/data_property_widgets/__init__.py
+muphyn/packages/interface/application/widgets/data_property_widgets/abstract_property_widget.py
+muphyn/packages/interface/application/widgets/data_property_widgets/basic_type_property_widgets.py
+muphyn/packages/interface/application/widgets/data_property_widgets/choice_property_widget.py
+muphyn/packages/interface/application/widgets/data_property_widgets/path_property_widgets.py
+muphyn/packages/interface/application/widgets/data_property_widgets/typed_property_line_edit.py
+muphyn/packages/interface/application/widgets/dialogs/__init__.py
+muphyn/packages/interface/application/widgets/dialogs/abstract_dialog.py
+muphyn/packages/interface/application/widgets/dialogs/documentation_dialog.py
+muphyn/packages/interface/application/widgets/dialogs/errordialog.py
+muphyn/packages/interface/application/widgets/dialogs/graph_dialog.py
+muphyn/packages/interface/application/widgets/dialogs/library_dialog.py
+muphyn/packages/interface/application/widgets/dialogs/new_box_dialog.py
+muphyn/packages/interface/application/widgets/dialogs/new_scheduler_dialog.py
+muphyn/packages/interface/application/widgets/dialogs/new_simulation_dialog.py
+muphyn/packages/interface/application/widgets/dialogs/simulation_parameters_dialog.py
+muphyn/packages/interface/assets/MuPhyN.ico
+muphyn/packages/interface/assets/MuPhyN.svg
+muphyn/packages/interface/assets/MuPhyN_Logo_animation.css
+muphyn/packages/interface/assets/BoxIcons/addition.svg
+muphyn/packages/interface/assets/BoxIcons/band_pass_filter.svg
+muphyn/packages/interface/assets/BoxIcons/constant.svg
+muphyn/packages/interface/assets/BoxIcons/derivator.svg
+muphyn/packages/interface/assets/BoxIcons/graph.svg
+muphyn/packages/interface/assets/BoxIcons/high_pass_filter.svg
+muphyn/packages/interface/assets/BoxIcons/impulse.svg
+muphyn/packages/interface/assets/BoxIcons/integrator.svg
+muphyn/packages/interface/assets/BoxIcons/low_pass_filter.svg
+muphyn/packages/interface/assets/BoxIcons/multiplication.svg
+muphyn/packages/interface/assets/BoxIcons/noise.svg
+muphyn/packages/interface/assets/BoxIcons/notch_filter.svg
+muphyn/packages/interface/assets/BoxIcons/omlogosmall.svg
+muphyn/packages/interface/assets/BoxIcons/ramp.svg
+muphyn/packages/interface/assets/BoxIcons/saw_tooth.svg
+muphyn/packages/interface/assets/BoxIcons/sine.svg
+muphyn/packages/interface/assets/BoxIcons/square.svg
+muphyn/packages/interface/assets/BoxIcons/step.svg
+muphyn/packages/interface/assets/BoxIcons/TestBoxIcon/BoxParameterWidgetsTest.svg
+muphyn/packages/interface/assets/BoxIcons/TestBoxIcon/InfiniteInputTest.svg
+muphyn/packages/interface/assets/BoxIcons/TestBoxIcon/InfiniteOutputTest.svg
+muphyn/packages/interface/assets/Components/Electrics/capacitor.svg
+muphyn/packages/interface/assets/Components/Electrics/conductor.svg
+muphyn/packages/interface/assets/Components/Electrics/constant_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/constant_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/cosine_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/cosine_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/exp_cosine_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/exp_cosine_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/exp_sine_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/exp_sine_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/ground.svg
+muphyn/packages/interface/assets/Components/Electrics/gyrator.svg
+muphyn/packages/interface/assets/Components/Electrics/inductor.svg
+muphyn/packages/interface/assets/Components/Electrics/n_transformer.svg
+muphyn/packages/interface/assets/Components/Electrics/pulse_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/pulse_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/ramp_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/ramp_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/resistor.svg
+muphyn/packages/interface/assets/Components/Electrics/saturating_inductor.svg
+muphyn/packages/interface/assets/Components/Electrics/sawtooth_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/sawtooth_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/signal_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/signal_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/sine_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/sine_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/step_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/step_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/transformer.svg
+muphyn/packages/interface/assets/Components/Electrics/trapezoid_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/trapezoid_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/vairable_conductor.svg
+muphyn/packages/interface/assets/Components/Electrics/variable_amplitude_frequency_cosine_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/variable_amplitude_frequency_cosine_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/variable_amplitude_frequency_sine_current_source.svg
+muphyn/packages/interface/assets/Components/Electrics/variable_amplitude_frequency_sine_voltage_source.svg
+muphyn/packages/interface/assets/Components/Electrics/variable_capacitor.svg
+muphyn/packages/interface/assets/Components/Electrics/variable_inductor.svg
+muphyn/packages/interface/assets/Components/Electrics/variable_resistor.svg
+muphyn/packages/interface/assets/GeneralIcons/delete.svg
+muphyn/packages/interface/assets/GeneralIcons/down_arrow.svg
+muphyn/packages/interface/assets/GeneralIcons/error.svg
+muphyn/packages/interface/assets/GeneralIcons/left_arrow.svg
+muphyn/packages/interface/assets/GeneralIcons/redo.svg
+muphyn/packages/interface/assets/GeneralIcons/refresh.svg
+muphyn/packages/interface/assets/GeneralIcons/right_arrow.svg
+muphyn/packages/interface/assets/GeneralIcons/rotate_left.svg
+muphyn/packages/interface/assets/GeneralIcons/rotate_right.svg
+muphyn/packages/interface/assets/GeneralIcons/start.svg
+muphyn/packages/interface/assets/GeneralIcons/stop.svg
+muphyn/packages/interface/assets/GeneralIcons/undo.svg
+muphyn/packages/interface/assets/GeneralIcons/up_arrow.svg
+muphyn/packages/interface/assets/GeneralIcons/checkbox/checked.svg
+muphyn/packages/interface/assets/GeneralIcons/checkbox/checked2.svg
+muphyn/packages/interface/assets/GeneralIcons/checkbox/checked_hover.svg
+muphyn/packages/interface/assets/GeneralIcons/checkbox/checked_pressed.svg
+muphyn/packages/interface/assets/GeneralIcons/checkbox/unchecked.svg
+muphyn/packages/interface/assets/GeneralIcons/checkbox/unchecked_hover.svg
+muphyn/packages/interface/assets/GeneralIcons/checkbox/unchecked_pressed.svg
+muphyn/packages/interface/assets/old/MuPhyN_old.ico
+muphyn/packages/interface/base/__init__.py
+muphyn/packages/interface/base/math_expression_painter.py
+muphyn/packages/interface/base/shapes/__init__.py
+muphyn/packages/interface/base/shapes/basic_shape/__init__.py
+muphyn/packages/interface/base/shapes/basic_shape/abstract_shape.py
+muphyn/packages/interface/base/shapes/basic_shape/grouped_shapes.py
+muphyn/packages/interface/base/shapes/basic_shape/icon.py
+muphyn/packages/interface/base/shapes/basic_shape/image_shapes.py
+muphyn/packages/interface/base/shapes/basic_shape/layout_shapes.py
+muphyn/packages/interface/base/shapes/basic_shape/shapes.py
+muphyn/packages/interface/base/shapes/electric_components/__init__.py
+muphyn/packages/interface/base/shapes/electric_components/basic_component/__init__.py
+muphyn/packages/interface/base/shapes/electric_components/basic_component/resistor.py
+muphyn/packages/interface/base/shapes/electric_components/electric_scheme_part/__init__.py
+muphyn/packages/interface/base/shapes/electric_components/electric_scheme_part/electrical_connector.py
+muphyn/packages/interface/base/widgets/BoxDataPropertiesWidget.py
+muphyn/packages/interface/base/widgets/CodeEditor.py
+muphyn/packages/interface/base/widgets/CollapsibleGroupBox.py
+muphyn/packages/interface/base/widgets/DrawingWidget.py
+muphyn/packages/interface/base/widgets/IOGroupsWidget.py
+muphyn/packages/interface/base/widgets/IconSelector.py
+muphyn/packages/interface/base/widgets/SimulationControlToolbar.py
+muphyn/packages/interface/base/widgets/StandardActions.py
+muphyn/packages/interface/base/widgets/__init__.py
+muphyn/packages/interface/base/widgets/BaseWidgets/Button.py
+muphyn/packages/interface/base/widgets/BaseWidgets/Label.py
+muphyn/packages/interface/base/widgets/BaseWidgets/__init__.py
+muphyn/packages/interface/base/widgets/PopupWindows/YesNoPopup.py
+muphyn/packages/interface/base/widgets/PopupWindows/__init__.py
+muphyn/packages/interface/base/widgets/webviews/MarkdownView.py
+muphyn/packages/interface/base/widgets/webviews/WebEngineView.py
+muphyn/packages/interface/base/widgets/webviews/WebView.py
+muphyn/packages/interface/base/widgets/webviews/__init__.py
+muphyn/packages/interface/box_library/__init__.py
+muphyn/packages/interface/box_library/box_libraries_list.py
+muphyn/packages/interface/box_library/box_library_element.py
+muphyn/packages/interface/box_library/library_element.py
+muphyn/packages/interface/box_library/library_treeview.py
+muphyn/packages/interface/editors/__init__.py
+muphyn/packages/interface/editors/abstract_editor.py
+muphyn/packages/interface/editors/box_data_editor.py
+muphyn/packages/interface/editors/code_editor.py
+muphyn/packages/interface/editors/diagram_editor.py
+muphyn/packages/interface/editors/factory_editors.py
+muphyn/packages/interface/files/__init__.py
+muphyn/packages/interface/files/abstract_exporter.py
+muphyn/packages/interface/files/abstract_importer.py
+muphyn/packages/interface/files/files.py
+muphyn/packages/interface/files/scheduler_files/__init__.py
+muphyn/packages/interface/files/simulation_files/__init__.py
+muphyn/packages/interface/files/simulation_files/simulation_exporter.py
+muphyn/packages/interface/files/simulation_files/simulation_importer.py
+muphyn/packages/interface/files/user_box_files/__init__.py
+muphyn/packages/interface/graphical_actions/__init__.py
+muphyn/packages/interface/graphical_actions/abstract_diagram_action.py
+muphyn/packages/interface/graphical_actions/abstract_graphical_action.py
+muphyn/packages/interface/graphical_actions/abstract_unique_element_diagram_action.py
+muphyn/packages/interface/graphical_actions/actions_holder.py
+muphyn/packages/interface/graphical_actions/diagram_add_graphical_element_action.py
+muphyn/packages/interface/graphical_actions/diagram_add_input_to_box_action.py
+muphyn/packages/interface/graphical_actions/diagram_add_output_to_box_action.py
+muphyn/packages/interface/graphical_actions/diagram_change_element_params_action.py
+muphyn/packages/interface/graphical_actions/diagram_link_nodes_action.py
+muphyn/packages/interface/graphical_actions/diagram_move_graphical_element_action.py
+muphyn/packages/interface/graphical_actions/diagram_paste_graphical_element_action.py
+muphyn/packages/interface/graphical_actions/diagram_remove_graphical_element_action.py
+muphyn/packages/interface/graphical_actions/diagram_remove_inputs_from_box_action.py
+muphyn/packages/interface/graphical_actions/diagram_remove_outputs_from_box_action.py
+muphyn/packages/interface/graphical_actions/diagram_resize_graphical_element_action.py
+muphyn/packages/interface/graphical_actions/diagram_rotate_graphical_element_action.py
+muphyn/packages/interface/graphical_actions/diagram_unlink_nodes_action.py
+muphyn/packages/interface/graphical_actions/library_dialog_add_action.py
+muphyn/packages/interface/graphical_actions/library_dialog_remove_action.py
+muphyn/packages/interface/graphical_actions/new_box_dialog_add_action.py
+muphyn/packages/interface/graphical_actions/new_box_dialog_remove_action.py
+muphyn/packages/interface/graphical_actions/parser_decode.py
+muphyn/packages/interface/graphical_actions/parser_encode.py
+muphyn/packages/interface/graphical_actions/right_click_action.py
+muphyn/packages/interface/models/__init__.py
+muphyn/packages/interface/models/color.py
+muphyn/packages/interface/models/dbl_spin_box.py
+muphyn/packages/interface/models/event_signal_data.py
+muphyn/packages/interface/models/model_signal.py
+muphyn/packages/interface/models/models_event.py
+muphyn/packages/interface/models/editable_models/__init__.py
+muphyn/packages/interface/models/editable_models/abstract_box_model.py
+muphyn/packages/interface/models/editable_models/abstract_code_model.py
+muphyn/packages/interface/models/editable_models/abstract_diagram_model.py
+muphyn/packages/interface/models/editable_models/abstract_editable_model.py
+muphyn/packages/interface/models/editable_models/box_code_model.py
+muphyn/packages/interface/models/editable_models/box_composite_model.py
+muphyn/packages/interface/models/editable_models/box_data_model.py
+muphyn/packages/interface/models/editable_models/scheduler_model.py
+muphyn/packages/interface/models/editable_models/shceduler_editor_model.py
+muphyn/packages/interface/models/editable_models/simulation_model.py
+muphyn/packages/interface/models/graphical_models/__init__.py
+muphyn/packages/interface/models/graphical_models/abstract_box_IO_model.py
+muphyn/packages/interface/models/graphical_models/abstract_box_model.py
+muphyn/packages/interface/models/graphical_models/abstract_graphical_element.py
+muphyn/packages/interface/models/graphical_models/abstract_moveable_graphical_element.py
+muphyn/packages/interface/models/graphical_models/box_input_model.py
+muphyn/packages/interface/models/graphical_models/box_model.py
+muphyn/packages/interface/models/graphical_models/box_output_model.py
+muphyn/packages/interface/models/graphical_models/shape_model.py
+muphyn/packages/interface/models/graphical_models/text_model.py
+muphyn/packages/interface/models/graphical_models/physical_component_model/abstract_component_model.py
+muphyn/packages/interface/models/graphical_models/physical_component_model/physical_quantity.py
+muphyn/packages/interface/models/graphical_models/resizers/__init__.py
+muphyn/packages/interface/models/graphical_models/resizers/abstract_resizer.py
+muphyn/packages/interface/models/graphical_models/resizers/horizontal_resizer.py
+muphyn/packages/interface/models/graphical_models/resizers/oblique_resizer.py
+muphyn/packages/interface/models/graphical_models/resizers/vertical_resizer.py
+muphyn/packages/interface/models/links_model/__init__.py
+muphyn/packages/interface/models/links_model/abstract_link_model.py
+muphyn/packages/interface/models/links_model/abstract_node_model.py
+muphyn/packages/interface/models/links_model/link_model.py
+muphyn/packages/interface/models/links_model/link_type.py
+muphyn/packages/interface/models/links_model/node_model.py
+muphyn/packages/interface/models/links_model/temporary_link_model.py
+muphyn/packages/interface/models/signals_model/__init__.py
+muphyn/packages/interface/models/signals_model/abstract_connection_model.py
+muphyn/packages/interface/models/signals_model/abstract_signal_model.py
+muphyn/packages/interface/models/signals_model/input_connection_model.py
+muphyn/packages/interface/models/signals_model/output_connection_model.py
+muphyn/packages/interface/models/signals_model/signal_link_model.py
+muphyn/packages/interface/models/signals_model/signal_node_model.py
+muphyn/packages/interface/properties_pages/__init__.py
+muphyn/packages/interface/properties_pages/abstract_infinite_io_properties_editor.py
+muphyn/packages/interface/properties_pages/abstract_properties_editor.py
+muphyn/packages/interface/properties_pages/box_properties.py
+muphyn/packages/interface/properties_pages/infinite_input_properties_editor.py
+muphyn/packages/interface/properties_pages/infinite_io_properties_item.py
+muphyn/packages/interface/properties_pages/infinite_output_properties_editor.py
+muphyn/packages/interface/properties_pages/moveable_graphical_element_properties_editor.py
+muphyn/packages/interface/properties_pages/parameter_properties_editor.py
+muphyn/packages/interface/properties_pages/properties_page_builder.py
+muphyn/packages/interface/properties_pages/properties_widget.py
+muphyn/packages/interface/properties_pages/rotation_slider.py
+muphyn/packages/interface/properties_pages/signal_properties_editor.py
+muphyn/packages/interface/properties_pages/title_properties_element.py
+muphyn/packages/interface/properties_pages/unknown_properties_editor.py
+muphyn/packages/interface/user_data/__init__.py
+muphyn/packages/interface/user_data/old_user_data_loader.py
+muphyn/packages/interface/user_data/user_data.py
+muphyn/packages/interface/utils/interface_constants.py
+muphyn/packages/interface/utils/main_window.py
+muphyn/packages/interface/utils/graphical_items/__init__.py
+muphyn/packages/interface/utils/graphical_items/box_model_area.py
+muphyn/packages/interface/utils/graphical_items/file_selector_button.py
+muphyn/packages/interface/utils/graphical_items/section.py
+muphyn/packages/parser/__init__.py
+muphyn/packages/parser/parser.py
+muphyn/packages/unit_test/EDT_SFT_0022.py
+muphyn/packages/unit_test/EDT_SFT_0024.py
+muphyn/packages/unit_test/EDT_SFT_0029.py
+muphyn/packages/unit_test/EDT_SFT_0038.py
+muphyn/packages/unit_test/EDT_SFT_0041.py
+muphyn/packages/unit_test/EDT_SFT_0048_0.py
+muphyn/packages/unit_test/EDT_SFT_0048_1.py
+muphyn/packages/unit_test/EDT_SFT_0048_2.py
+muphyn/packages/unit_test/EDT_SFT_0048_3.py
+muphyn/packages/unit_test/EDT_SFT_0048_4.py
+muphyn/packages/unit_test/EDT_SFT_0048_5.py
+muphyn/packages/unit_test/EDT_SFT_0048_6.py
+muphyn/packages/unit_test/EDT_USR_0001.py
+muphyn/packages/unit_test/EDT_USR_0027.py
+muphyn/packages/unit_test/EDT_USR_0028.py
+muphyn/packages/unit_test/SIM_SFT_0003.py
+muphyn/packages/unit_test/SIM_SFT_0010.py
+muphyn/packages/unit_test/SIM_SFT_0012.py
+muphyn/packages/unit_test/SIM_SFT_0013.py
+muphyn/packages/unit_test/SIM_SFT_0014.py
+muphyn/packages/unit_test/SIM_SFT_0017.py
+muphyn/packages/unit_test/SIM_USR_0012.py
+muphyn/packages/unit_test/SIM_USR_0013.py
+muphyn/packages/unit_test/SIM_USR_0016.py
+muphyn/packages/unit_test/SIM_USR_0018.py
+muphyn/packages/unit_test/__init__.py
+muphyn/packages/unit_test/interface_0.py
+muphyn/packages/unit_test/interface_1.py
+muphyn/packages/unit_test/interface_2.py
+muphyn/packages/unit_test/interface_3.py
+muphyn/packages/unit_test/interface_4.py
+muphyn/packages/unit_test/interface_5.py
+muphyn/packages/unit_test/loading_at_runtime.py
+muphyn/packages/unit_test/matrices.py
+muphyn/packages/unit_test/test_personnel.py
+muphyn/packages/unit_test/test_plci_core_box.py
+muphyn/packages/unit_test/test_plci_core_derivative.py
+muphyn/packages/unit_test/test_plci_core_diagram.py
+muphyn/packages/unit_test/test_plci_core_scheduler_retroact.py
+muphyn/packages/unit_test/test_plci_core_scheduler_simple.py
+muphyn/packages/unit_test/unit_test.py
+muphyn/themes/dark.qss
+muphyn/themes/light.qss
+muphyn/utils/__init__.py
+muphyn/utils/paths.py
