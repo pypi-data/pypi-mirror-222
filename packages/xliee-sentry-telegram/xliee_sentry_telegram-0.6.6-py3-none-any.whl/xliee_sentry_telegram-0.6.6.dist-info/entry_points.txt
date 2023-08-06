@@ -1,0 +1,2 @@
+[sentry.plugins]
+xliee_sentry_telegram = xliee_sentry_telegram.plugin:TelegramNotificationsPlugin
