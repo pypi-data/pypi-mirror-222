@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: sentiment_analyser_tagit
+Version: 0.7
+Summary: A sentiment analysis tool for Tagit. Solely for internal use.
+Author: Adithya Narayanan
+Author-email: adithya.narayanan01@gmail.com
