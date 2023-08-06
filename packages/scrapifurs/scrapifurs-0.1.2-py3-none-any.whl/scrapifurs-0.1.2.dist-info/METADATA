@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: scrapifurs
+Version: 0.1.2
+License-File: LICENSE
+Requires-Dist: pandas (==1.0.1)
+Requires-Dist: numpy (==1.21.6)
+Requires-Dist: beautifulsoup4 (==4.12.2)
+Requires-Dist: openai (==0.27.8)
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: selenium (==4.11.2)
+
