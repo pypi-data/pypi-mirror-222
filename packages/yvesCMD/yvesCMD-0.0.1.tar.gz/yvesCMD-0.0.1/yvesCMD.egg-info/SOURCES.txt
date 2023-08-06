@@ -1,0 +1,6 @@
+README.md
+setup.py
+yvesCMD.egg-info/PKG-INFO
+yvesCMD.egg-info/SOURCES.txt
+yvesCMD.egg-info/dependency_links.txt
+yvesCMD.egg-info/top_level.txt
