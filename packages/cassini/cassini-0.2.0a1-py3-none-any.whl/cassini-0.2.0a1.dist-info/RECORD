@@ -1,0 +1,17 @@
+cassini/__init__.py,sha256=UlqlXy9nSKNopg5K9pz_T8S2kGISoEpmQ-AhYnOSEpI,255
+cassini/accessors.py,sha256=rYKuZl5xmptF8Jn9MQSlBEyqsnMSOE9oiFUYhNz8s-A,3905
+cassini/compat/__init__.py,sha256=iLKTQSHCB2BzagRXUjXO2E9p8I9ICTG2PsfxrYMPV1s,39
+cassini/compat/update.py,sha256=Ar3357_giK2cETiZeI5jVxDcWid6vHqdgJofSXZdq70,3132
+cassini/config.py,sha256=wHk4z2yE8QweZgENyWlcVD22hxGwpoZjJiTfYEzXmJA,406
+cassini/core.py,sha256=qtBUgTo_NyvZ8MWEt_CeEydNVVT5rm2yzxrAzFn_Wh0,24751
+cassini/defaults/__init__.py,sha256=PlE8XWDbIYgYrfXJL5ryDYA048d2kd4isn-o47KdEHA,82
+cassini/defaults/templates/Tier.tmplt.ipynb,sha256=zlcJeJdn-SsFzqEH9f3_iB_wYRYIJb6rFfkAZ7II1gI,798
+cassini/defaults/tiers.py,sha256=u1leAnMSqtsjzik4rw_Bt3hyjQNam5QcWohvJwwXLc8,9391
+cassini/environment.py,sha256=QZpWipoY5byYjlJqnJ1wispNmqlfhlN_EoAmmDwkcNs,10146
+cassini/ipygui.py,sha256=VMGdQM3fCGCVFNh9sWenpnNIcWTi4i5OE-fGyh8CAdU,13013
+cassini/magics.py,sha256=TOGCvveidIQulQPH9LMKQfzu7dj-Xl-iADaU6cbrVeY,2800
+cassini/utils.py,sha256=OTZEdKAY70_Nn_se72_W205cwwVR0NY0a-JaV0rRv2E,3631
+cassini-0.2.0a1.dist-info/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+cassini-0.2.0a1.dist-info/METADATA,sha256=2We-BKqBnzdStaUsRGyZ5KF0PluPYj5Gk9JnWIHMmjg,1677
+cassini-0.2.0a1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+cassini-0.2.0a1.dist-info/RECORD,,
