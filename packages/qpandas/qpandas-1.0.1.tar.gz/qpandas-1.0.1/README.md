@@ -1,0 +1,62 @@
+# qpandas
+
+
+---
+
+
+WORK IN PROGRESS
+
+
+---
+
+
+Query Panadas DataFrames with SQL
+
+
+## Install
+
+Currently available on [PyPI](https://pypi.org/project/qpandas/), to install:
+```
+pip install qpandas
+```
+
+## Example
+
+```py
+import pandas as pd
+
+import qpandas as qpd
+from qpandas import load_births
+
+births = load_births()
+assert type(births) == pd.DataFrame
+query = """
+SELECT b1.date d1
+    , b1.births b1
+    , b2.date d2
+    , b2.births b2
+FROM births b1, births b2
+"""
+df = qpd.mysql(query, locals())  # or .oracle, .spark, etc...
+assert type(df) == pd.DataFrame
+print(df)
+```
+```
+                                d1      b1                          d2      b2
+0       1975-01-01 00:00:00.000000  265775  1975-01-01 00:00:00.000000  265775
+1       1975-01-01 00:00:00.000000  265775  1975-02-01 00:00:00.000000  241045
+2       1975-01-01 00:00:00.000000  265775  1975-03-01 00:00:00.000000  268849
+3       1975-01-01 00:00:00.000000  265775  1975-04-01 00:00:00.000000  247455
+4       1975-01-01 00:00:00.000000  265775  1975-05-01 00:00:00.000000  254545
+...                            ...     ...                         ...     ...
+166459  2012-12-01 00:00:00.000000  340995  2012-08-01 00:00:00.000000  359554
+166460  2012-12-01 00:00:00.000000  340995  2012-09-01 00:00:00.000000  361922
+166461  2012-12-01 00:00:00.000000  340995  2012-10-01 00:00:00.000000  347625
+166462  2012-12-01 00:00:00.000000  340995  2012-11-01 00:00:00.000000  320195
+166463  2012-12-01 00:00:00.000000  340995  2012-12-01 00:00:00.000000  340995
+
+[166464 rows x 4 columns]
+```
+
+### Example explanation
+TODO
