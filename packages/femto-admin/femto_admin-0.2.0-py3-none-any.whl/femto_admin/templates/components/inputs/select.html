@@ -1,0 +1,11 @@
+<select class="form-select" name="{{ key }}" id="{{ 'form-select-'+key }}">
+    {% for val, name in field.options %}
+        <option value="{{ val }}" {% if val == value %}selected{% endif %}>{{ name }}</option>
+    {% endfor %}
+</select>
+{% if help_text %}
+    <div class="mt-2">
+        <small class="form-hint">{{ help_text }}</small>
+    </div>
+{% endif %}
+{#{% include "components/select.html" %}#}
