@@ -1,0 +1,63 @@
+#!/usr/bin/env python
+
+import os
+import scipy
+import click
+import numpy as np
+import librosa
+
+from midify.midify import midify
+
+@click.command(no_args_is_help=True, context_settings={'show_default': True})
+@click.argument('input')
+@click.option('--output', help='Output MIDI file', default='output.mid')
+@click.option('--sample-rate', help='Sample rate to make the analysis (not the sample rate of the input file!)', default=6000)
+@click.option('--normalize-input/--no-normalize-input', help='Normalize input before MIDI converting', default=True)
+@click.option('--peak-min-height', help='Minimum size of a peak to be considered a individual note', default=0.002)
+@click.option('--peak-threshold', help='Minimum distance from the neighbours to be considered a peak', default=0.00001)
+@click.option('--peak-min-distance', help='Minimum distance between peaks', default=600)
+@click.option('--note-sample-size', help='How many samples use to identify a note', default=1024)
+@click.option('--note-attack-shift', help='How many samples ignore from the start of a note (ignore attack)', default=20)
+@click.option('--note-frequency-peak-min-height', help='Minimum height of a peak in the frequency spectrum to be considered a note', default=0.20)
+@click.option('--note-frequency-threshold', help='Minimum distance between the neighbours of a frequency peak', default=0.01)
+@click.option('--midi-note-duration', help='The amount of time the MIDI notes generated should last', default=0.5)
+@click.option('--verbose/--no-verbose', help='Verbose', default=False)
+def midify_cli(input, output, normalize_input, sample_rate, peak_min_height, peak_threshold, peak_min_distance, note_sample_size, note_attack_shift, note_frequency_peak_min_height, note_frequency_threshold, midi_note_duration, verbose):
+    """
+    This command transform a input audio file in the MIDI format identifying notes positions and frequencies.
+    INPUT: Input file to convert to MIDI. Acceptable file formats: wav,mp3
+    """
+
+    _, format = os.path.splitext(input)
+
+    if format == '.wav':
+        rate, data = scipy.io.wavfile.read(input)
+    elif format == '.mp3':
+        data, rate = librosa.load(input)
+    else:
+        raise click.ClickException(f"Invalid file format: ({format}). Supported audio files: [mp3,wav]")
+
+    data = np.array(data)
+
+    mf = midify(data=data, rate=rate,
+                normalize_input=normalize_input,
+                sample_rate=sample_rate,
+                peak_min_height=peak_min_height,
+                peak_threshold=peak_threshold,
+                peak_min_distance=peak_min_distance,
+                note_sample_size=note_sample_size,
+                note_attack_shift=note_attack_shift,
+                note_frequency_peak_min_height=note_frequency_peak_min_height,
+                note_frequency_threshold=note_frequency_threshold,
+                midi_note_duration=midi_note_duration,
+                verbose=verbose)
+
+    if verbose:
+        click.echo("Saving MIDI file")
+    mf.write(output)
+
+    if verbose:
+        click.echo("Done!")
+
+if __name__ == "__main__":
+    midify_cli()
