@@ -1,0 +1,11 @@
+README.md
+setup.py
+Pygeun.egg-info/PKG-INFO
+Pygeun.egg-info/SOURCES.txt
+Pygeun.egg-info/dependency_links.txt
+Pygeun.egg-info/not-zip-safe
+Pygeun.egg-info/top_level.txt
+optimization/__init__.py
+optimization/gradient_descent.py
+optimization/levenberg_marquardt.py
+optimization/newton_raphson.py
