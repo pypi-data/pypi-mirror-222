@@ -1,0 +1,15 @@
+setup.py
+deepclient/__init__.py
+deepclient/deep_client.py
+deepclient/deep_client_options.py
+deepclient/query.py
+deepclient/generate_gql_operations/__init__.py
+deepclient/generate_gql_operations/mutation.py
+deepclient/generate_gql_operations/serial.py
+deepclient_test.egg-info/PKG-INFO
+deepclient_test.egg-info/SOURCES.txt
+deepclient_test.egg-info/dependency_links.txt
+deepclient_test.egg-info/requires.txt
+deepclient_test.egg-info/top_level.txt
+tests/__init__.py
+tests/test_deep_client.py
