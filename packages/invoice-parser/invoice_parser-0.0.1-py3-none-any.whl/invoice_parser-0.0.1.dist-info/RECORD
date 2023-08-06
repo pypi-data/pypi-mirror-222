@@ -1,0 +1,12 @@
+invoice_parser/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+invoice_parser/_modidx.py,sha256=11f2XU6Lds4BpZQe5IiYhkvV6FjPYeU9DNEXr5ne4S0,2448
+invoice_parser/app.py,sha256=6kWihnDCOjnMhoz-jO-nZaHglJZTEG7zvXwN6hxiO6U,3120
+invoice_parser/core.py,sha256=VepWoFtEJ6Znlyi64_9NEd4iK9wB1R74lLcLd-GDxzk,1042
+invoice_parser/imports.py,sha256=lFeo-x0I3vaj8wVisyqmvzqENPtchV7BkKeuLMtfLJ4,239
+invoice_parser/utils.py,sha256=GgwrwQmDooLTc3snoN31EkcE13VhfWbp_d5js3lU2eo,1338
+invoice_parser-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+invoice_parser-0.0.1.dist-info/METADATA,sha256=3YPqAQwOFNRY3Gigndp1azjxNvFu2MsqKqcUSp4owJk,1042
+invoice_parser-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+invoice_parser-0.0.1.dist-info/entry_points.txt,sha256=xvveb1cZXnBtqBLVbWOO_JFlBxJNjbd4qlV9Jw7SU5w,50
+invoice_parser-0.0.1.dist-info/top_level.txt,sha256=xiZd8LwMcqPMqf6Var2Nyj9EcNXg1SFQfd4rfwOnGpk,15
+invoice_parser-0.0.1.dist-info/RECORD,,
