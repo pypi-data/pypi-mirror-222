@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+entrust.egg-info/PKG-INFO
+entrust.egg-info/SOURCES.txt
+entrust.egg-info/dependency_links.txt
+entrust.egg-info/top_level.txt
