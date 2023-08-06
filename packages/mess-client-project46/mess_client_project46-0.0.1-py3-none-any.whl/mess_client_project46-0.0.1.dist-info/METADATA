@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mess-client-project46
+Version: 0.0.1
+Summary: mess_client_project46
+Home-page: UNKNOWN
+Author: dilbazi
+Author-email: dilbazi.mardaliyeva@bk.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
+UNKNOWN
+
+
