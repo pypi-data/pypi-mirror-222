@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+robocat/__init__.py
+robocat/model.py
+robocat/train.py
+robocat.egg-info/PKG-INFO
+robocat.egg-info/SOURCES.txt
+robocat.egg-info/dependency_links.txt
+robocat.egg-info/requires.txt
+robocat.egg-info/top_level.txt
+robocat/utils/__init__.py
+robocat/utils/stabe_adam.py
+robocat/utils/training.py
