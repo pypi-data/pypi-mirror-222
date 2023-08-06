@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: fastlogistic
+Version: 0.1
+Summary: Efficient logistic regression in Python with GPU support
+Author: Nechba Mohammed, Mouhajir Mohamed, and Sedjari Yassine
+Author-email: mohammednechba@gmail.com
+License-File: LICENSE
