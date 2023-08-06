@@ -1,0 +1,24 @@
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+name: Test
+jobs:
+  testWithTox:
+    name: Test with tox
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - run: pip install tox
+    - run: tox
+      env:
+        QIUWENBOT_TEST_USER: ${{ secrets.QIUWENBOT_TEST_USER }}
+        QIUWENBOT_TEST_PASSWORD: ${{ secrets.QIUWENBOT_TEST_PASSWORD }}
+        QIUWEN_DOMAIN: ${{ secrets.QIUWEN_DOMAIN }}
+    - uses: codecov/codecov-action@v3
