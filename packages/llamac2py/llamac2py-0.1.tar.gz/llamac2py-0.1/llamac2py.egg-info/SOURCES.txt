@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+llamac2py.egg-info/PKG-INFO
+llamac2py.egg-info/SOURCES.txt
+llamac2py.egg-info/dependency_links.txt
+llamac2py.egg-info/top_level.txt
