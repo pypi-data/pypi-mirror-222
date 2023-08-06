@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/Region_RNA/__init__.py
+src/Region_RNA/main.py
+src/Region_RNA.egg-info/PKG-INFO
+src/Region_RNA.egg-info/SOURCES.txt
+src/Region_RNA.egg-info/dependency_links.txt
+src/Region_RNA.egg-info/requires.txt
+src/Region_RNA.egg-info/top_level.txt
