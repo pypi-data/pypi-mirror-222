@@ -1,0 +1,16 @@
+boco/CorpusBuilder.py,sha256=SU6smOVofgsJjwWB2SCS7eGjhojNQNPq-KcmgCcrVnM,4471
+boco/__init__.py,sha256=a26Y-UwPh_5_ZL5rF69xJtULiukmLRte__SkTEwqwk4,140
+boco/filters/__init__.py,sha256=MK22ydfIXzIwGNFobNLI4iSKKjsv9tytkvIVUcGBVKs,87
+boco/filters/filter_by_pos.py,sha256=8Y-U5_cAQXUi-XRApAINR7KLqoz7pX2h9-zRLttfi90,779
+boco/filters/filter_by_unique.py,sha256=7u7neJqCDe7PeDagvcayK8CVR8zC3iJngVoxnayFf10,301
+boco/operations/__init__.py,sha256=KvrBbSwCzd5SGdy1wrJh2RYkaKNIou4tyHp8D2nwkEk,173
+boco/operations/counts_by_segment.py,sha256=xlgvn49lKk26wFn3ZXfGo0ZAyron59IefhW5xRpjr7I,560
+boco/operations/counts_by_token.py,sha256=1fZovUw6T1mecLmCtzU8wMzkLX3KDkPsUgCsVyIWF94,648
+boco/operations/search_string.py,sha256=XZ9wUX7q2FMudQhCkOzMxYfB_YTh5v_ZHvKBQU19nM0,988
+boco/operations/search_token.py,sha256=j0Lf-xEt8XVFCVG38y6V39vWnAkf0SraISZMr-81Nuw,666
+boco/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boco/utils/_add_pos.py,sha256=f4WZtXX95OY97mkYaZG0rvYGHH3cl-uv_r7NTWJJ-zk,741
+Boco-0.3.1.dist-info/METADATA,sha256=lEycZKIoLyt1VALZM3uA_iMEuoEsllJCkVb1M4Btkys,693
+Boco-0.3.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+Boco-0.3.1.dist-info/top_level.txt,sha256=3bn1I03PSt7337xXtFgQhknFHlYuayHHg3swyLDoDlE,5
+Boco-0.3.1.dist-info/RECORD,,
