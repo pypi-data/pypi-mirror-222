@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+emcstream/DataManager.py
+emcstream/__init__.py
+emcstream/emcstream.py
+emcstream.egg-info/PKG-INFO
+emcstream.egg-info/SOURCES.txt
+emcstream.egg-info/dependency_links.txt
+emcstream.egg-info/requires.txt
+emcstream.egg-info/top_level.txt
