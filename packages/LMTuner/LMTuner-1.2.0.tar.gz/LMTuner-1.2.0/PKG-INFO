@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: LMTuner
+Version: 1.2.0
+Summary: No More Complications, Effortless LLM Training with LMTuner
+Home-page: https://github.com/WENGSYX/LMTuner
+Author: Yixuan Weng
+Author-email: wengsyx@gmail.com
+License-File: LICENSE
