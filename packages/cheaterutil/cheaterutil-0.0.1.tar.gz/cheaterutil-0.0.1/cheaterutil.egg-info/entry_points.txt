@@ -1,0 +1,3 @@
+[console_scripts]
+cheaterutil = cheaterutil.cli:main
+
