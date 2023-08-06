@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pocode/__init__.py
+pocode.egg-info/PKG-INFO
+pocode.egg-info/SOURCES.txt
+pocode.egg-info/dependency_links.txt
+pocode.egg-info/not-zip-safe
+pocode.egg-info/top_level.txt
+pocode/api/__init__.py
+pocode/api/line.py
+pocode/lib/__init__.py
+tests/__init__.py
+tests/test_pip.py
