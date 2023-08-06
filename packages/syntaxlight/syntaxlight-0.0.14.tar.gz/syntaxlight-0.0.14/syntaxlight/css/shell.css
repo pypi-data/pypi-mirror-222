@@ -1,0 +1,68 @@
+pre[class*="language-shell"] {
+    background: --background;
+}
+
+.Token {
+    color: --punctuator;
+}
+
+.Token.brace-depth-0 {
+    color: --brace1;
+}
+
+.Token.brace-depth-1 {
+    color: --brace2;
+}
+
+.Token.brace-depth-2 {
+    color: --brace3;
+}
+
+
+.Token.PATH {
+    color: --variant;
+}
+
+.Token.Program,
+.Token.Function,
+.Token.BACK_SLASH {
+    color: --function;
+}
+
+
+.Token.STRING {
+    color: --string;
+}
+
+.Token.NUMBER {
+    color: --number;
+}
+
+.Token.COMMENT {
+    color: --comment;
+}
+
+.Token.Keyword {
+    color: --define;
+}
+
+/* .Token.OPTION {
+    color: --type;
+} */
+
+.Token.Variant,
+.Token.VARIANT {
+    color: --variant;
+}
+
+.Token.Format {
+    color: --format;
+}
+
+.Token.Control {
+    color: --control;
+}
+
+.Token.Url {
+    border-bottom: 1px solid --punctuator;
+}
