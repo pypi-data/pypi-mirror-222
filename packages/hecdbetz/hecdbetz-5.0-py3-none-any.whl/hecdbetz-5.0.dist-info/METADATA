@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hecdbetz
+Version: 5.0
+Summary: Dependence of megsdk autotest
+Author-email: zmw <baiyuchen@megvii.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Project-URL: Bug Tracker, https://pypi.megvii-inc.com/repository/pypi/
+Project-URL: Homepage, https://pypi.megvii-inc.com/repository/pypi/
+
+python install 测试
