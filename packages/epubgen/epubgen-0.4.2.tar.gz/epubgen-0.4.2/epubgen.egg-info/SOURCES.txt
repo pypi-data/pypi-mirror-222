@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+epubgen/__init__.py
+epubgen/epubgen.py
+epubgen.egg-info/PKG-INFO
+epubgen.egg-info/SOURCES.txt
+epubgen.egg-info/dependency_links.txt
+epubgen.egg-info/top_level.txt
