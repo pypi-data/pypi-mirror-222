@@ -1,0 +1,15 @@
+graphchem/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+graphchem/version.py,sha256=wCWo-5rNzQX3aHhWChJKzkqfDk_t1MnjtD5LYP0Z7xQ,88
+graphchem/data/__init__.py,sha256=4CBPZKIMc2MGh0kr9kY1mlJS8QdWBBU2sb_7rWORMgI,52
+graphchem/data/structs.py,sha256=jdKz3qHxo_r5PgDUu3mb7MY9OmYr-efMob9UFWrrwUQ,2296
+graphchem/datasets/__init__.py,sha256=e22Iu5LezLrIFedwMOkpyb2zmvKdUtvg0pmIKbcGucA,66
+graphchem/datasets/sets.py,sha256=Sc0Oz4FhwpizuVbDu7g69ofhnVQryNbKsBLbLGt5Ctc,1935
+graphchem/nn/__init__.py,sha256=iJkrxjuzHS9Ktyd71-zcZc_ceczvhxJZUt5rDx5Oxvk,29
+graphchem/nn/gcn.py,sha256=sqm-BmtfYSAwZp-akij_sSw42AQnd-ylxU-uc-j42As,4726
+graphchem/preprocessing/__init__.py,sha256=SsS2iCjbnfQr-XsHfy-kzpkgMfX8_jHOvLf0BO3WUt8,109
+graphchem/preprocessing/features.py,sha256=pTbmICZ8GJ5KaTGFaH_cvN9wiCfqZgtByDrRKtvv-7U,7874
+graphchem-2.1.2.dist-info/LICENSE,sha256=jx_XJ5XDgUd3b908HcVD1J9YDUnChDTpnbIo13VHzUw,1071
+graphchem-2.1.2.dist-info/METADATA,sha256=KzgofgXw8Za8hOPVB-zoBK-sy4m7G6mmf27K95EfCA8,3108
+graphchem-2.1.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+graphchem-2.1.2.dist-info/top_level.txt,sha256=2V0Qcu7wph8eFFS_Vfx_nuBg8tmt_c2BoICbA96dAf8,10
+graphchem-2.1.2.dist-info/RECORD,,
