@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+bump_anything.egg-info/PKG-INFO
+bump_anything.egg-info/SOURCES.txt
+bump_anything.egg-info/dependency_links.txt
+bump_anything.egg-info/entry_points.txt
+bump_anything.egg-info/requires.txt
+bump_anything.egg-info/top_level.txt
+bumpanything/__init__.py
+bumpanything/__main__.py
+bumpanything/file_result.py
+bumpanything/git.py
+tests/test_bump.py
+tests/test_edge.py
+tests/test_git.py

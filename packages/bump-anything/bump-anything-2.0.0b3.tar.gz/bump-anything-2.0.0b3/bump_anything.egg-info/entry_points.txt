@@ -1,0 +1,3 @@
+[console_scripts]
+bump = bumpanything.__main__:main
+bump-anything = bumpanything.__main__:main
