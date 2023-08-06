@@ -1,0 +1,12 @@
+wxbreads/__init__.py,sha256=t3JocW1CniBKPJlm4XwXbXLBTB1MMKvrtGKwLHekToQ,136
+wxbreads/base.py,sha256=qcVKlr2yamerOIkduXzpJ8DRnzd_b1xipNjr7scGivw,23301
+wxbreads/images.py,sha256=qDJIJTrmZkj_G7bD0tEWRyP-awoT2uULFHyQ6wPNGIk,220272
+wxbreads/login.py,sha256=yx47db1-tML0SHjbvCVPDEtrE9QvC_8NMKGlDOLGVMk,7952
+wxbreads/trayicon.py,sha256=nHvlnAygwb8egKj9BesTkY2oee8krh4-u5Tr9IOhJ3E,1893
+wxbreads/utils.py,sha256=TjcpLE9kntWY4pnzaRpT1aa_wMoZrxtIrjdXspth2ro,8908
+wxbreads/widgets.py,sha256=JyUkEBsU7Eyy1QjlCawrzHVADTGHQ2MTD8h_gxoYgtY,46862
+wxbreads-2023.7.26.dist-info/LICENSE,sha256=4lzePC1xiApdpN63JV3AsvXGmRtit_XS-j5pTA5eOjU,1312
+wxbreads-2023.7.26.dist-info/METADATA,sha256=fkS9whG4tRDF5Ku8HnFS4hrVutcrWWHn8vd3dlBmrY4,736
+wxbreads-2023.7.26.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+wxbreads-2023.7.26.dist-info/top_level.txt,sha256=Z7-MHkTcxZu2Jwv0bMpke8VIg-ZHNc1kG7AAkJamlKQ,9
+wxbreads-2023.7.26.dist-info/RECORD,,
