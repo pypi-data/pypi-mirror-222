@@ -1,0 +1,2 @@
+[console_scripts]
+fooder = fooder_cli.main:main
