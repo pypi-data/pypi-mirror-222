@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+langsa_system/__init__.py
+langsa_system/gg.py
+langsa_system/langsa.py
+langsa_system/浪飒.py
+langsa_system.egg-info/PKG-INFO
+langsa_system.egg-info/SOURCES.txt
+langsa_system.egg-info/dependency_links.txt
+langsa_system.egg-info/top_level.txt
