@@ -1,0 +1,9 @@
+anghamak/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anghamak/content/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anghamak/content/vibes_pb2.py,sha256=VqOt6ZsksZwAjrj_bSB1uAZvSw52CatJJJZFcqb2JoQ,2061
+anghamak/content/vibes_pb2_grpc.py,sha256=0XMGhvpQhCad_cR8xN8NDcXeqtBMfFAIdgCOOL2o9CU,2549
+anghamak-0.0.1.dist-info/LICENSE,sha256=b5Qhoej9leYOdidtAaXXOkNtQ1ZdxSSEbvxkkwyX9gM,1055
+anghamak-0.0.1.dist-info/METADATA,sha256=iVdB60cudQUmyVdNr9gsfDyvvfggh8ZjnvALQOFrXO0,384
+anghamak-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+anghamak-0.0.1.dist-info/top_level.txt,sha256=gm3I-2hv7GdgerjTsfCbgZO6IvGoB5j4Apfyf1hYUa4,9
+anghamak-0.0.1.dist-info/RECORD,,
