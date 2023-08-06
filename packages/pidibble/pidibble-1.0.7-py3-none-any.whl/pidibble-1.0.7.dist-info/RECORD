@@ -1,0 +1,11 @@
+pidibble/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pidibble/baseparsers.py,sha256=h9GnhugT_pSw7EoxSChJJr0WjpQt974HpqniG4HDQtE,1587
+pidibble/baserecord.py,sha256=UYHkSUJQ__fa0uj8yoeydJZMPpx6xX0Edp6xjK3opbY,1052
+pidibble/pdbparse.py,sha256=QTirhET8e_vxwr_b9wk9TiIEjVZdqq1Rrt2jvktBMD8,9225
+pidibble/pdbrecord.py,sha256=snPSlyYpFlHYSR_v2Slu0vtUY7OKuTCYbqj-g3hceKU,12036
+pidibble/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pidibble/resources/pdb_format.yaml,sha256=0lqN0B97yHCyg_58uxwpqAGLsqNQej_X1IL_o8sfuNc,23246
+pidibble-1.0.7.dist-info/METADATA,sha256=KPLHGe084AKNdErIOslJbj3j6UMw44YxCY1UNF_KdZQ,3657
+pidibble-1.0.7.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pidibble-1.0.7.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pidibble-1.0.7.dist-info/RECORD,,
