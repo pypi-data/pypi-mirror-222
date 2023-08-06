@@ -1,0 +1,5 @@
+intelhex
+numpy
+functools
+warnings
+struct

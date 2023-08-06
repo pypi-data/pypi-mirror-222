@@ -1,0 +1,17 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="assamer",
+    version="1.1.5",
+    author="Veysel KANTARCILAR",
+    author_email="kantrveysel@gmail.com",
+    description="ASAP2 (A2L) and ASSAM Library",
+    packages=find_packages(),
+    install_requires=[
+        "intelhex",
+        "numpy",
+        "functools",
+        "warnings",
+        "struct"
+    ],
+)
