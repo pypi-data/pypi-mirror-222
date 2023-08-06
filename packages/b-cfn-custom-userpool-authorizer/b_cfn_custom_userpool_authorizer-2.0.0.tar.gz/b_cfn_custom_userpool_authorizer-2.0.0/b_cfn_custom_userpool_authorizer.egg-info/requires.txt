@@ -1,0 +1,6 @@
+python-jose>=3.3.0
+b-lambda-layer-common<5.0.0,>=4.0.0
+b-cfn-lambda-layer<4.0.0,>=3.0.0
+b-cfn-lambda-integration<2.0.0,>=1.0.0
+aws-cdk-lib<3.0.0,>=2.0.0
+aws-cdk-constructs<3.0.0,>=2.0.0
