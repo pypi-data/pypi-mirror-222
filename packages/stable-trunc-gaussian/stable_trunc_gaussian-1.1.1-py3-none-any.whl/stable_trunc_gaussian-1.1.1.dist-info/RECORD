@@ -1,0 +1,9 @@
+stable_trunc_gaussian/__init__.py,sha256=HnqjFm0VD8FYnHFpi_Bf_Uk0GKyL3iD-V8q3uORdPJw,213
+stable_trunc_gaussian/parallel_trunc_gaussian.py,sha256=DexxU8CszIZ6o0Dv6KXWnzoN-EfOu-fwtJt4euhpqNI,10080
+stable_trunc_gaussian/sequential_trunc_gaussian.py,sha256=335SJVOttPDVrCqhA7Qwa06SFM0FPpPwOycB_o7qIP4,7429
+stable_trunc_gaussian/tests.py,sha256=ERnzDTIytqQ3tMcEY0-aWWfVlpf4jSVdbGMKCYE95FI,4095
+stable_trunc_gaussian-1.1.1.dist-info/LICENSE,sha256=aFwC6mH5o9c8f4rd3lwh0NCqQWyAM0r1MI7P3FQGEJ8,1078
+stable_trunc_gaussian-1.1.1.dist-info/METADATA,sha256=yDYhZHo5hWtveXNzA0e0d8PTs_njocTdgNHlpLs7w60,4902
+stable_trunc_gaussian-1.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+stable_trunc_gaussian-1.1.1.dist-info/top_level.txt,sha256=tqKko17sQD1ccD7GX3gifjujYt2hRtIFrA5x7EHIWZ8,22
+stable_trunc_gaussian-1.1.1.dist-info/RECORD,,
