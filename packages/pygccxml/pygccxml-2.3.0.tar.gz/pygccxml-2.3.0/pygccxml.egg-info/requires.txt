@@ -1,0 +1,12 @@
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[examples]
+notebook
+
+[test]
+coverage
+coveralls
+pycodestyle
