@@ -1,0 +1,8 @@
+setup.py
+invoicing/__init__.py
+invoicing/invoice.py
+myinvoicing_pdf.egg-info/PKG-INFO
+myinvoicing_pdf.egg-info/SOURCES.txt
+myinvoicing_pdf.egg-info/dependency_links.txt
+myinvoicing_pdf.egg-info/requires.txt
+myinvoicing_pdf.egg-info/top_level.txt
