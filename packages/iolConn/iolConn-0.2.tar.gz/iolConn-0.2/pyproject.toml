@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iolConn"
+version = "0.2"
+authors = [
+  { name="Pedro L. Diego", email="diegolpedro@gmail.com" },
+]
+description = "Conector python para API de InvertirOnline."
+readme = "README.md"
+
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3.7",
+]
+
+requires-python = ">=3.7"
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+"Homepage" = "https://github.com/diegolpedro/iolPy"
