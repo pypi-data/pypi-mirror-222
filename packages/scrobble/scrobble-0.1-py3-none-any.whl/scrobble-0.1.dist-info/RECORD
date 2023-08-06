@@ -1,0 +1,12 @@
+scrobble/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrobble/app.py,sha256=54htmiykS_ikS8b5ukimYB-rTEpLIJt2m1C71oZy22Q,1946
+scrobble/lastfm.py,sha256=VTdETKIzGnPmUhMKxEsg4qdfsIh93ylWG8oki34XPVM,1365
+scrobble/musicbrainz.py,sha256=ArLPPSLxpsMtojSqhwZA7QA6x42WwgxbUoPkTQOwe_Q,3900
+scrobble/pushover.py,sha256=epMl242QpPwTtY5RlmLNAEbnXpIFHgcO9Gc-VnnSM9g,755
+scrobble/utils.py,sha256=lV1YREfgV01-mIhj38XoLyanyp9rs7d4otp3L09pL6k,2689
+scrobble-0.1.dist-info/LICENSE.txt,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+scrobble-0.1.dist-info/METADATA,sha256=ikyyInHFjpX5g7-p46FqoRcgAVUrvy3AFl4Mr1ZbuOs,8049
+scrobble-0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+scrobble-0.1.dist-info/entry_points.txt,sha256=cC7FVlAk2BjPfj_NaLs7diMWL116JW72_bP3LwU3HKo,47
+scrobble-0.1.dist-info/top_level.txt,sha256=Uw4c7yV6aJT5CowSO7rKStIUXNYVKsxVKJl7km071EQ,9
+scrobble-0.1.dist-info/RECORD,,
