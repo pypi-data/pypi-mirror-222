@@ -1,0 +1,2 @@
+[console_scripts]
+deepcomp = deepcomp.main:main
