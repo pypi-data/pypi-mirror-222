@@ -1,0 +1,11 @@
+odoo/addons/ssi_account_type_active/README.rst,sha256=7Q6OJAXD78LlI8RhHR_XlCt3cFU2tzq64hXfz_HwUxw,1250
+odoo/addons/ssi_account_type_active/__init__.py,sha256=VAkFvJXefoz7CVUwbL97HBfpLAYmvQPYXfYs71LOpzU,181
+odoo/addons/ssi_account_type_active/__manifest__.py,sha256=DgJoyInb0dI_CIgd_eg6phxFzVLycQa3plQrOrJMqKw,546
+odoo/addons/ssi_account_type_active/models/__init__.py,sha256=P3uHJZutOCW6bDHI4wpU1GxfngSoobDlmFqKHhEfPWk,195
+odoo/addons/ssi_account_type_active/models/account_account_type.py,sha256=fpOGxTZDys7s8yhkbzzCTyNd848gTNL74woNBgeEVO4,1208
+odoo/addons/ssi_account_type_active/static/description/icon.png,sha256=CpId0qOmE_kOgOCnu0lg1bR8-JIABlXh2GlO0lmgcfI,19838
+odoo/addons/ssi_account_type_active/views/account_account_type_views.xml,sha256=fft56bQskqcG7s8sMEucSh0T6a76bFYfEmfhCHIAqHc,696
+odoo14_addon_ssi_account_type_active-14.0.1.0.2.dev1.dist-info/METADATA,sha256=fc8RJml-t05u87Glc9efwIRDEItnQV27MsX5GTemeHc,1762
+odoo14_addon_ssi_account_type_active-14.0.1.0.2.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_account_type_active-14.0.1.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_account_type_active-14.0.1.0.2.dev1.dist-info/RECORD,,
