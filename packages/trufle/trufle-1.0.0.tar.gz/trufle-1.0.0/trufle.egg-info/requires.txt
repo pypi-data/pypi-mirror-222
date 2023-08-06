@@ -1,0 +1,8 @@
+PyQt5
+random
+string
+os
+sys
+typing
+pathlib
+functools

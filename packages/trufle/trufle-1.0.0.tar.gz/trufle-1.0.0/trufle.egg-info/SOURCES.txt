@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+trufle/__init__.py
+trufle/setup.py
+trufle.egg-info/PKG-INFO
+trufle.egg-info/SOURCES.txt
+trufle.egg-info/dependency_links.txt
+trufle.egg-info/requires.txt
+trufle.egg-info/top_level.txt
