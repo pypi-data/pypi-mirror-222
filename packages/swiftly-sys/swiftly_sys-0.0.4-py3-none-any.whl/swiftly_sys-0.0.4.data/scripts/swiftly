@@ -1,0 +1,27 @@
+!/bin/bash
+
+#!/bin/bash
+
+# Function to get the installation path of a Python package and append the provided location
+getLocation() {
+    local package_name="swiftly-sys"
+    local package_path=$(pip show "$package_name" | awk '/^Location:/{print $2}')
+    
+    if [ -z "$package_path" ]; then
+        echo "Error: Package '$package_name' not found. Make sure it's installed using pip."
+        return 1
+    fi
+
+    local location=$1
+    echo "${package_path}/${location}"
+}
+
+# Example usage:
+packagepath=$(getLocation 'swiftly/runtime/python/run.sh')
+echo "Result: $packagepath"
+
+source $(getLocation 'swiftly/runtime/python/run.sh')
+
+read -p "Enter a number: " $input_number
+result=$(factorial $input_number)
+echo "The factorial of $input_number is $result."
