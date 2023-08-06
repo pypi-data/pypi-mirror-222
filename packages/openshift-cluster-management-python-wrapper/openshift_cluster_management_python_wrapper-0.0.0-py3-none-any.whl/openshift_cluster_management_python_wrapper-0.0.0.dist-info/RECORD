@@ -1,0 +1,9 @@
+ocm_python_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocm_python_wrapper/cluster.py,sha256=u0F337-0s8t7lhEXFF31Zhoc_eiZbDIayjaG6c1ZNqU,23490
+ocm_python_wrapper/exceptions.py,sha256=5OTEI4TZLlp8pTWs51bCrUPjsnExx9X9xg7gAAFt73k,554
+ocm_python_wrapper/manifests/managed-api-service-policy.json,sha256=j7o3XVheS0fCH5MhnNLFJ1eqxI0w3OO8N5T-MKesZg8,882
+ocm_python_wrapper/ocm_client.py,sha256=XCxDvGvbSD2l9KnbQNSmjQiiJ3FM3WIK1JRJBYaVlGA,2786
+openshift_cluster_management_python_wrapper-0.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openshift_cluster_management_python_wrapper-0.0.0.dist-info/METADATA,sha256=zFTZeigD1bP32GQwK8jVEYhQLsJHPgvrkqLfisMa834,2865
+openshift_cluster_management_python_wrapper-0.0.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+openshift_cluster_management_python_wrapper-0.0.0.dist-info/RECORD,,
