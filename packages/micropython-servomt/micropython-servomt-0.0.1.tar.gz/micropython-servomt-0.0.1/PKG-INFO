@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: micropython-servomt
+Version: 0.0.1
+Summary: uma biblioteca para controle de servo motor com micropython
+Home-page: UNKNOWN
+Author: Issei momonge
+Author-email: mggyggf@gmail.com
+License: MIT License
+Keywords: micropython servo motor
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# comu
+
+init
+
+    from se.serve import Serve
+    
+    s = Serve(27)
+    s.angulo(180)
+
+loop
+
+    while True:
+        s.angulo(s.reangulo()+1)
+
+end
+    
+    s.exit()
+
