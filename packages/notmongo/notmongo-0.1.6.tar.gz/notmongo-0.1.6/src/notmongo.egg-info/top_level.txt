@@ -1,0 +1,3 @@
+notmongo
+notmongo-rs
+notmongo_meta

@@ -1,0 +1,8 @@
+pymongo
+
+[dev]
+black
+isort
+pre_commit
+pytest
+pytest-asyncio
