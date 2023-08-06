@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+giant_dipper/OrderManager.py
+giant_dipper/OrderServices.py
+giant_dipper/OrderSides.py
+giant_dipper/OrderStatuses.py
+giant_dipper/RobinHoodAuth.py
+giant_dipper/StateManagers.py
+giant_dipper/__init__.py
+giant_dipper.egg-info/PKG-INFO
+giant_dipper.egg-info/SOURCES.txt
+giant_dipper.egg-info/dependency_links.txt
+giant_dipper.egg-info/requires.txt
+giant_dipper.egg-info/top_level.txt
