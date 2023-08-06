@@ -1,0 +1,23 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "starlette_logger"
+authors = [{name = "Proficloud.io", email = "inbox@phoenixcontact-sb.io"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["version", "description"]
+dependencies = [
+  "starlette >=0.27.0",
+  "structlog >=23.1.0"
+]
+
+[project.urls]
+Home = "https://proficloud.io"
+
+[tool.mypy]
+python_version = "3.11"
+
+[[tool.mypy.overrides]]
+ignore_missing_imports = true

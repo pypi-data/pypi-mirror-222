@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: starlette_logger
+Version: 0.0.2
+Summary: starlette_logger provides two http scoped middlewares to a starlette (or FastAPI) based application that concern
+Author-email: "Proficloud.io" <inbox@phoenixcontact-sb.io>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: starlette >=0.27.0
+Requires-Dist: structlog >=23.1.0
+Project-URL: Home, https://proficloud.io
+
+# starlette_logger
+Request logging middleware for Starlette and Prometheus
+
