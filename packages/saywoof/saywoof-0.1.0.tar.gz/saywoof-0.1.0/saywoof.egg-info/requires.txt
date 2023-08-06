@@ -1,0 +1,7 @@
+pyaudio
+numpy
+soundfile
+transformers
+saywoof
+colr
+argparse

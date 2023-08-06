@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: saywoof
+Version: 0.1.0
+Summary: An easy to use wrapper for the BARK text-to-speech engine
+Author: Connor Etherington
+Author-email: connor@concise.cc

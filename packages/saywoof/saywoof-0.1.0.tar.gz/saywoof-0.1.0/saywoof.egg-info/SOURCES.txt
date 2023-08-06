@@ -1,0 +1,9 @@
+setup.py
+saywoof/__init__.py
+saywoof/main.py
+saywoof.egg-info/PKG-INFO
+saywoof.egg-info/SOURCES.txt
+saywoof.egg-info/dependency_links.txt
+saywoof.egg-info/entry_points.txt
+saywoof.egg-info/requires.txt
+saywoof.egg-info/top_level.txt
