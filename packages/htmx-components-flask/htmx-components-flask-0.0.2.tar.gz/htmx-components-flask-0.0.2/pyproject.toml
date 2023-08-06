@@ -1,0 +1,15 @@
+[project]
+name = "htmx-components-flask"
+authors = [{ name = "Neil McGuigan" }]
+version = "0.0.2"
+description = "HTMX Components for Flask"
+readme = "README.md"
+classifiers = []
+dependencies = ["flask>=2.0", "lxml==4.9.3", "htmx-components-python"]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/neilmcguigan/htmx-components-flask"
