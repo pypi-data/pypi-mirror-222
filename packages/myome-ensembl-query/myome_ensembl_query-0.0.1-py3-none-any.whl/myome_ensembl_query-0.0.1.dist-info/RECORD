@@ -1,0 +1,8 @@
+myome_ensembl_query/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myome_ensembl_query/api_calls.py,sha256=Ni7DOWqT57FmpVJDmR4nczIMY3lsY0KTDMzwSxQziU4,5737
+myome_ensembl_query/test_api_calls.py,sha256=ROl_YhjIJD-KUMDWDEqFSxkLZl-rZQ9MEK8c2_KX2is,1438
+myome_ensembl_query-0.0.1.dist-info/METADATA,sha256=r_4YdfhHDw58DXur85HkSjZmyeP1AkeFLTWdgpeI3zI,137
+myome_ensembl_query-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+myome_ensembl_query-0.0.1.dist-info/entry_points.txt,sha256=UN4A9o9LFNPhRwyClO7NVLAN2W-kahiA2EyxWiQZa-4,69
+myome_ensembl_query-0.0.1.dist-info/top_level.txt,sha256=sH611-Somn5uTYZYo8f-hiXvlz_kxwQqLRPotNGdMPI,20
+myome_ensembl_query-0.0.1.dist-info/RECORD,,
