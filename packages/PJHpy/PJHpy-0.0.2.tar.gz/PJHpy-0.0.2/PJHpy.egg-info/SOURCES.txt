@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+PJHpy.egg-info/PKG-INFO
+PJHpy.egg-info/SOURCES.txt
+PJHpy.egg-info/dependency_links.txt
+PJHpy.egg-info/top_level.txt
