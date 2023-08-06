@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/MiniFL/__init__.py
+src/MiniFL/compressor.py
+src/MiniFL.egg-info/PKG-INFO
+src/MiniFL.egg-info/SOURCES.txt
+src/MiniFL.egg-info/dependency_links.txt
+src/MiniFL.egg-info/requires.txt
+src/MiniFL.egg-info/top_level.txt
