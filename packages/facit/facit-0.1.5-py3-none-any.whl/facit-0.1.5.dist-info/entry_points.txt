@@ -1,0 +1,2 @@
+[pyinstaller40]
+hook-dirs = pangolin._pyinstaller_hooks:get_hook_dirs

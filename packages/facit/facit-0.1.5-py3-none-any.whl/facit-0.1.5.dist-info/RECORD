@@ -1,0 +1,11 @@
+src/pangolin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/pangolin/_pyinstaller_hooks/__init__.py,sha256=DNLKRcdU3l_DFNi8GWlv9vs3Djn89L8AVFJvWT4wGjY,217
+src/pangolin/_pyinstaller_hooks/stdhooks/hook-OCP.py,sha256=P39ihZMiVqc9WLbW6X_H96GppuJWqjMBW1QiaLAW-Lg,80
+src/pangolin/_pyinstaller_hooks/stdhooks/hook-cadquery.py,sha256=eQUwZdz2z-9TPuIG6W22dwp3mxaWgL3NDdymSyRz_QM,24
+src/pangolin/_pyinstaller_hooks/stdhooks/hook-openmdao.py,sha256=B5TUrhVYX3OugeQkHqxY4P6yyRbjSYfWhmDd_UwhMHs,325
+src/pangolin/_pyinstaller_hooks/stdhooks/hook-vtk.py,sha256=rHMjLIApdBQ_rrr8-6vDn3zED6syriR8o5oCiQje11M,50
+facit-0.1.5.dist-info/METADATA,sha256=wa2zb60zMEju9eNkG20CEf8V-Ix-d3ipZfLtunYalEQ,357
+facit-0.1.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+facit-0.1.5.dist-info/entry_points.txt,sha256=mPsr9H2A-Leq1ckypYFqgcCMp86Or0MkNHQ8-Jd3pvY,70
+facit-0.1.5.dist-info/licenses/LICENSE,sha256=mek_ls-MH3wxwOiuPkg3Op2lehFWXim5q6RX6kR8h0k,1067
+facit-0.1.5.dist-info/RECORD,,
