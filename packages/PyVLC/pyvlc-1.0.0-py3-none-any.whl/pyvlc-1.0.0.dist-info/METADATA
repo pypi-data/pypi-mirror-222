@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: PyVLC
+Version: 1.0.0
+Summary: A python package that utilizes telnetlib3 and asyncio to communicate with VLC Media Player
+Project-URL: Homepage, https://github.com/DoofenCorp/PyVLC/
+Project-URL: Bug Tracker, https://github.com/DoofenCorp/PyVLC/issues
+Author-email: Harshit Bhardwaj <htg4920@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# API under development
+
+Current API functions:
+
+* `connect()`: Starts the connection to VLC on specified host and port 
+* `send(command)`: Sends command to VLC
+* `disconnect()`: Disconnects from VLC
+* `shutdown()`: Ends the connection and shuts down VLC
+* `is_alive()`: Returns True if the connection is alive else False
+
+# LICENSING:
+
+This project is distributed under the MIT License. See [LICENSE](/LICENSE) for details.
