@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pyfdbg/__init__.py
+src/pyfdbg/__main__.py
+src/pyfdbg/data.py
+src/pyfdbg/stdlib.py
+src/pyfdbg.egg-info/PKG-INFO
+src/pyfdbg.egg-info/SOURCES.txt
+src/pyfdbg.egg-info/dependency_links.txt
+src/pyfdbg.egg-info/entry_points.txt
+src/pyfdbg.egg-info/requires.txt
+src/pyfdbg.egg-info/top_level.txt
