@@ -1,0 +1,14 @@
+casbin_adapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+casbin_adapter/adapter.py,sha256=RvoMIXRiWA-edMPsMZyqwBuxtt8ipToe9-ns5tCkMlk,3010
+casbin_adapter/apps.py,sha256=EmGLIsKw6KA9fRA8i7I1j8X79eewFm7KjJMGTV3iqjU,205
+casbin_adapter/enforcer.py,sha256=Mkl93ezU4QvNzsYdw3z2QvTTo5FlA25FGg5zIbbdLtg,3046
+casbin_adapter/models.py,sha256=t0BL-jgZZ3WyANyNjfddExSl5RnFOnK3MU366vG8gUI,1034
+casbin_adapter/utils.py,sha256=8CiC3JGo6-JE2B5SqZZ-WyKol0NNmVJw796s9iBwZb8,369
+casbin_adapter/migrations/0001_initial.py,sha256=t1CazekTxoIXf8iVexdohQZSYV_uBfbrzOUtp5Na--A,914
+casbin_adapter/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+casbin_django_orm_adapter-1.1.0.data/data/README.md,sha256=-zp6gqV70jjVeHDCJECBq9S_2JIe-MbT5wTXDypLpvo,3475
+casbin_django_orm_adapter-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+casbin_django_orm_adapter-1.1.0.dist-info/METADATA,sha256=fElQ3puOmh1VV1-DiraZ-lNgQjJAL2vCfnjqXxCI5vA,4294
+casbin_django_orm_adapter-1.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+casbin_django_orm_adapter-1.1.0.dist-info/top_level.txt,sha256=6XJF6FXgqbvVvd9R0s5x_RiTT9swxYmop9CzG1RtxKo,15
+casbin_django_orm_adapter-1.1.0.dist-info/RECORD,,
