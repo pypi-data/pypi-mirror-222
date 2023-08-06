@@ -1,0 +1,2 @@
+[console_scripts]
+ctf-dump = CTFDump:main
