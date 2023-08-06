@@ -1,0 +1,9 @@
+boum/api_client/constants.py,sha256=YqCKqajCivQEFFBJ5rFGsAQlhqPCp_pPOKbe6wptjGg,121
+boum/api_client/v1/client.py,sha256=1t15mKM-HrtChKpgVgF-QUAAy7crhtiZF-XVN_hjbT4,11200
+boum/api_client/v1/endpoint.py,sha256=DtUM32RIAUVJgVuUHcswYNhOh2UjSR2cesxasERx_RA,7853
+boum/api_client/v1/models.py,sha256=Cyqa-kWLkvx7YiPdRXHUOFT0Ofzv625usQemF7xi8RQ,13847
+boum/resources/device.py,sha256=UH7UTbjMBiA6cRZPbw7uBSCTodEvanfZMF9UZAomzZI,9431
+boum-1.2.3.dist-info/LICENSE,sha256=1ftRj-o7zyFqb0dXI1_uz1DZVcHEoyEj4LoISjW8NJ4,1061
+boum-1.2.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+boum-1.2.3.dist-info/METADATA,sha256=dZxQjQ1Gdg2WhzIm1JSqXmkqzi2LoUTxAn6ebY0Sb3Y,6276
+boum-1.2.3.dist-info/RECORD,,
