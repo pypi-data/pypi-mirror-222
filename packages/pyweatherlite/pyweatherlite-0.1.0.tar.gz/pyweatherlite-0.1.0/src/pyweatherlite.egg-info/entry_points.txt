@@ -1,0 +1,3 @@
+[console_scripts]
+pyweatherlite = pyweatherlite.index:Scaffold
+
