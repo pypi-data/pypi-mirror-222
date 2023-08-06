@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: etlwrench
+Version: 0.0.4.1
+Summary: a small toolchain for interacting with the etlwrench framework
+Author-email: Gabriel Cordovado <gabriel.cordovado@icloud.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.1.1
+Project-URL: Homepage, https://github.com/GabeCordo/etl-python
+
+# manakin
+
