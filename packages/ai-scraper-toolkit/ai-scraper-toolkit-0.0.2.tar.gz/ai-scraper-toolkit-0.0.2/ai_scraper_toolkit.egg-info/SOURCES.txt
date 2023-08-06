@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+ai_scraper_toolkit.egg-info/PKG-INFO
+ai_scraper_toolkit.egg-info/SOURCES.txt
+ai_scraper_toolkit.egg-info/dependency_links.txt
+ai_scraper_toolkit.egg-info/top_level.txt
+aiscraper/__init__.py
