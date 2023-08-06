@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dbxslackmessage
+Version: 0.1.3
+Summary: Package to send slack messages via databricks notebooks
+Author: Vaishali
+Author-email: vkhairnar@ripple.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
