@@ -1,0 +1,8 @@
+setup.py
+SparkleWeb/SparkleWeb.py
+SparkleWeb/__init__.py
+SparkleWeb.egg-info/PKG-INFO
+SparkleWeb.egg-info/SOURCES.txt
+SparkleWeb.egg-info/dependency_links.txt
+SparkleWeb.egg-info/requires.txt
+SparkleWeb.egg-info/top_level.txt
