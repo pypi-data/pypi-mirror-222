@@ -1,0 +1,20 @@
+[project]
+name = "promptworkflows"
+version = "0.0.1"
+authors = [
+  { name="Aaron Casanova", email="aaronccasanova@gmail.com" },
+]
+description = "Prompt Workflows"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/promptworkflows/promptworkflows"
+"Bug Tracker" = "https://github.com/promptworkflows/promptworkflows/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
