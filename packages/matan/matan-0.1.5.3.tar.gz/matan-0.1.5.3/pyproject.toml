@@ -1,0 +1,15 @@
+[project]
+name = "matan"
+description = "Material analysis package to plot or extract properties like tensile modulus etc."
+version = "0.1.5.3"
+readme = "README.md"
+authors = [
+    { name = "Igor", email = "igor@its.rel.pl" }
+]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
