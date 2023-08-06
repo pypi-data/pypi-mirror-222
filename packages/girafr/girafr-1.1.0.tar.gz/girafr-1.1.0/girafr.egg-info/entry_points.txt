@@ -1,0 +1,2 @@
+[console_scripts]
+girafr = girafr.__main__:main
