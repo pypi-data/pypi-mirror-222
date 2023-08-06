@@ -1,0 +1,17 @@
+django_datacite/__init__.py,sha256=8wv7AxDikm1w7IH28Rv2ClWmgw9cVSI2s6PvYqRzofY,92
+django_datacite/admin.py,sha256=eJI18Aqcz3ln_WfqAOZlJxHZMrpyedFKZQpRSzDZYEI,14844
+django_datacite/apps.py,sha256=RYEyiy1TYa5HE9P79jzAxiGzak8xsoKPtgwxT72KYc4,151
+django_datacite/exports.py,sha256=5sPvGWv5KHe_HCrAx2TAA0SnXacp6m8tkoTv_mFOqAE,11404
+django_datacite/imports.py,sha256=qXARjofoWC590DzRPjI5IG1wOPlg7vP2ZVhEKYQePS0,23166
+django_datacite/models.py,sha256=FutMwuFnxWEfELJMsELnEaxKqPXWnBaaLUPG8yHLOPg,24048
+django_datacite/renderers.py,sha256=DVyLEU3LMS5TPm_1oF7Ng31a_LeiYHPjGigGCoIMW2c,11800
+django_datacite/settings.py,sha256=XVDeZGgivldqMgLXCbTFunbOCPC4g2ROhVlgVl2XbSg,7243
+django_datacite/urls.py,sha256=IODjv3v_sKGo0GHI30Zb7NIWaZV1Ix-uvOB6JNWTyNs,586
+django_datacite/utils.py,sha256=C1TvsLuvw_VWv1XUSUrc5ZM3jIljptxUWvnXzdVrNeo,837
+django_datacite/validators.py,sha256=MghXppI06hID7gXC4EOvIcMdkgzbZs43XPP3PpNkXyg,1068
+django_datacite/views.py,sha256=vFzP_g85ehAHDE33JpGrweNTHgQ-vnyxGn76VuLWxL4,2473
+django_datacite-1.0.0.dist-info/LICENSE,sha256=NgdUWzbJOWLx4VXMtxEKoQbRn0KJa2S7SGdQ094DbCk,1102
+django_datacite-1.0.0.dist-info/METADATA,sha256=5I4IJdMqi0yuEsVCLVJWXGUtu-M4so2MD6Hvb-trFn8,4377
+django_datacite-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+django_datacite-1.0.0.dist-info/top_level.txt,sha256=2bieAMCeRnKNGgkpelzxJ3B9XohgfBBp9_iFAVT_Yj0,16
+django_datacite-1.0.0.dist-info/RECORD,,
