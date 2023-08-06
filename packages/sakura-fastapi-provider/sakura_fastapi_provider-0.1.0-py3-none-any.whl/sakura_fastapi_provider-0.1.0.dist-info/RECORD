@@ -1,0 +1,8 @@
+sakura/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sakura/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sakura/providers/fastapi_provider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sakura/providers/fastapi_provider/provider.py,sha256=P8VQ-bMAyq_dqbMb00fxngHoOZh-SSJhTlK8yTPnvo0,2197
+sakura/providers/fastapi_provider/test_provider.py,sha256=l00I1cuF9VVV2VOil6dzIhpwVys64NmCwea2GgWeslU,37
+sakura_fastapi_provider-0.1.0.dist-info/METADATA,sha256=J8NbtW2MmTFo_gAYtOaRdkPLRFcTAsPdsn2qfZ_bVYk,425
+sakura_fastapi_provider-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+sakura_fastapi_provider-0.1.0.dist-info/RECORD,,
