@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: diff-llm
+Version: 0.0.0a0
+Summary: LLM that predicts text diffs.
+Home-page: https://github.com/hai-labs/diff-llm
+Author: Niels Bantilan
+Author-email: niels.bantilan@gmail.com
+License: Apache
+Project-URL: Source Code, https://github.com/hai-labs/diff-llm
+Project-URL: Issue Tracker, https://github.com/hai-labs/diff-llm/issues
+Keywords: machine-learning,artificial-intelligence
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: transformers
+Requires-Dist: wikiwho-wrapper
+
+# DiffLLM
+
+Extending the next token prediction setting into "diff prediction".
+
+## Setup
+
+Create virtual environment:
+
+```
+conda create -n diff-llm python=3.9
+conda activate diff-llm
+pip install -r requirements.txt
+```
+
+Export secrets:
+
+```
+export $(grep -v '^#' secrets.txt | xargs)
+```
+
+Export env vars:
+
+```
+export PYTHONPATH=.
+```
+
+## Usage
+
+### Create dataset
+
+```
+python src/create_dataset.py \
+    --output-dir ./dataset \
+    --page-names '["Deep learning", "Ancient Greece", "Ted Chiang"]' \
+    --n-revisions 10
+```
