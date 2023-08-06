@@ -1,0 +1,26 @@
+open_source_llm.tools.open_source_llm.OpenSourceLLM.call:
+  inputs:
+    connection:
+      type:
+        - CustomConnection
+    api:
+      enum:
+        - chat
+        - completion
+      type:
+        - string
+    prompt:
+      type:
+        - string
+    model_kwargs:
+      default: "{}"
+      type:
+        - object
+  name: Open Source LLM
+  description: Tool to use Azure Foundation Models
+  module: open_source_llm.tools.open_source_llm
+  class_name: OpenSourceLLM
+  function: call
+  stage: test
+  type: python
+  is_builtin: true

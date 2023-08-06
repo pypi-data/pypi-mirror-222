@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+open_source_llm/__init__.py
+open_source_llm/tools/__init__.py
+open_source_llm/tools/open_source_llm.py
+open_source_llm/tools/utils.py
+open_source_llm/yamls/foundation_model.yaml
+open_source_llm_tool.egg-info/PKG-INFO
+open_source_llm_tool.egg-info/SOURCES.txt
+open_source_llm_tool.egg-info/dependency_links.txt
+open_source_llm_tool.egg-info/entry_points.txt
+open_source_llm_tool.egg-info/top_level.txt
+tests/__init__.py
+tests/test_my_tool_1.py
