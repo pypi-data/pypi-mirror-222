@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: uszipstats
+Version: 0.3
+Summary: This package will provide the ability to access IRS data
+Home-page: https://github.com/vrathi101/uszipstats.git
+Download-URL: https://github.com/vrathi101/uszipstats/archive/refs/tags/v_03.tar.gz
+Author: VEDANT RATHI
+Author-email: vedrathi10@gmail.com
+License: MIT
+Keywords: DATA,FUNCTIONS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This package provides a variety of functions to process the IRS tax stats by zipcode provided here: https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi
+
+To upgrade the package version run `pip install uszipstats --upgrade`.
