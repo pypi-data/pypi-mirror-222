@@ -1,0 +1,6 @@
+slurm_gpustat/slurm_gpustat.py,sha256=BF5VtFKhgIk3Y_32AwbFoIm6x5fubCSf_zWjlyL0VtI,30643
+slurm_gpustat-0.0.15.dist-info/METADATA,sha256=mIqhDrDPp8_olV-FSQjYZMJ8LAzRPhel8VptCtXjfns,3658
+slurm_gpustat-0.0.15.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+slurm_gpustat-0.0.15.dist-info/entry_points.txt,sha256=lqIGg8d0IawR1BBikb8DMda14WQ2WSdSER9pQmv4bvE,67
+slurm_gpustat-0.0.15.dist-info/top_level.txt,sha256=XEjqkBiUnG9gDowXnR4tfnrso3KQpWZM24mWhF5P8tA,14
+slurm_gpustat-0.0.15.dist-info/RECORD,,
