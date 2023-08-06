@@ -1,0 +1,6 @@
+iamsb.py
+setup.py
+iamsb.egg-info/PKG-INFO
+iamsb.egg-info/SOURCES.txt
+iamsb.egg-info/dependency_links.txt
+iamsb.egg-info/top_level.txt
