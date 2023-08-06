@@ -1,0 +1,2 @@
+[hatch]
+aws = hatch_docstring_description.hooks
