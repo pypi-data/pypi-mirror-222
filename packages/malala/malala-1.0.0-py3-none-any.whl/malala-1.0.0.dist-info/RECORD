@@ -1,0 +1,17 @@
+malala/__init__.py,sha256=PARek-I2V-u9GHJOEH2YjTyoHSxIPYtww50SPg-g63M,69
+malala/constants/__init__.py,sha256=SKi-vPr8KNbcK9EMyRBy9p6ZcZmxGVW0CYTAA6Svg2o,43
+malala/constants/sockets.py,sha256=wouSJSTz6LrVWQbo_mvqqDv0hgB4EnHFcSTLR5W71QA,75
+malala/constants/time.py,sha256=v-cqXFNrILUr-zvYcmTxDgc-MzGZN6Xfu6zQXs_d1cU,42
+malala/logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+malala/logger/logging.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+malala/sockets/__init__.py,sha256=dsRph-YPRDNm3VLjNEMlQc22iK9wHUBDtd54nvR68-s,102
+malala/sockets/tcp_socket.py,sha256=OxW3Nh4DmgH4LxRB5E4EK_yFVZ1tjqA-SkK0bVE5ZFo,562
+malala/sockets/transport.py,sha256=UPSw-_CWkieMG35L9rozZwsdWifxY593CkvNjoUcgqU,1189
+malala/sockets/unix_socket.py,sha256=PS_sBk2MxQo9ce5HY25bN-u70gaGOxwRiNt0JdwNxVU,735
+malala/sockets/websocket.py,sha256=Hn_4D-S4e4EVN8oH6d_7LRsRJDkJFyfQfYq-bThhEbc,1835
+malala/tasks/__init__.py,sha256=n-QQLrRU3k9quyYZjVXyC_xJl0dRgh9ymS8IpaOfD4M,31
+malala/tasks/tasks.py,sha256=Z0egxPqgK2M78Iw6eynYuReG2yuzijl2FyGgNoRrdkU,665
+malala-1.0.0.dist-info/METADATA,sha256=cgBPOb3TtxFxOOf_cL9ndvza9r_sZHYKXI_M5cn8AkQ,208
+malala-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+malala-1.0.0.dist-info/top_level.txt,sha256=Vtxn8pGXSe-gqdtoTye0SjEmuefHea-28yK27YvZGCI,7
+malala-1.0.0.dist-info/RECORD,,
