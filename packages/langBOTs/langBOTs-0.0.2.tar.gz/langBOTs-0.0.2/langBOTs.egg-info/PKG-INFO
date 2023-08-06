@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: langBOTs
+Version: 0.0.2
+Summary: Scrape, Langchain, Deploy !
+Home-page: https://github.com/gapirajat/langBOTs
+Author: Rajat S
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
