@@ -1,0 +1,16 @@
+tests/algorithm_module.py,sha256=0qSpw96RXLpPqw0zxf2qTA2Xw0yxgXsXCA7vb_E7cx0,75
+tests/test_deserialization.py,sha256=PJoqLdFrPjEFnLi8KENkfW4u33GEP9wGxFarxQj0BQ0,393
+tests/test_docker_wrapper.py,sha256=Jprzi-Dz3Jnl2QDTfGsY4beLRtbNE2bRLXz5D3y4LME,4294
+tests/test_serialization.py,sha256=FPbcrQmIdFa_rE7SdjxV5wuapyKdDiYdih7dQo001qU,585
+vantage6/algorithm/client/__init__.py,sha256=GmQaz3GUdX_BStfWfMyPdhnUL0xBxcn6xy-iO_QrYtY,17800
+vantage6/algorithm/client/_version.py,sha256=-NWktr5x6waYo1sujJAfzZ79lXpv3OyolMN-CtvKwkA,686
+vantage6/algorithm/tools/decorators.py,sha256=fIHDTQzU58dLZY2Tds47JK_hs_90zDCn2RFcKYqNbzc,6279
+vantage6/algorithm/tools/exceptions.py,sha256=Mc85dIftklIJEEDgp1EiWDWQKsc6BNO8_dq5SZ41MkY,106
+vantage6/algorithm/tools/mock_client.py,sha256=MX92xPZ_4M9lwVL9GW9AyREB7viDQyYD2rCToVP5eu8,22053
+vantage6/algorithm/tools/util.py,sha256=bruO1DvP5sGIVlz4kehiG7DNucMfxSegILQzNPzbHwU,624
+vantage6/algorithm/tools/wrap.py,sha256=yo_rRUHiD7XrJDfmrTISUGtKgJ-1Tu1wXhMyB4JrIbU,5027
+vantage6/algorithm/tools/wrappers.py,sha256=fiOZCPLnsx-U8tF_Mq579eAvDRWmbxqz8uiSLPOE6hQ,6947
+vantage6_algorithm_tools-4.0.0a5.dist-info/METADATA,sha256=WsRn_xn3WL5OqpTKXYDwYlA_I-qyvwi9xppyGiHZPF4,5497
+vantage6_algorithm_tools-4.0.0a5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+vantage6_algorithm_tools-4.0.0a5.dist-info/top_level.txt,sha256=2wuu77IKLbZNxdsVk3tOTCGhB_43-1qGrpI05snTd0I,15
+vantage6_algorithm_tools-4.0.0a5.dist-info/RECORD,,
