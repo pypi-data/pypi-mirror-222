@@ -1,0 +1,24 @@
+cherrypy
+grpcio==1.44.0
+ipython
+jinja2
+kaleido
+minknow_api@ git+https://github.com/neuropathbasel/minknow_api
+nbformat
+numpy
+openpyxl
+pandas
+pdf2image
+plotly
+psutil
+pysam
+reportlab==3.6.1
+scikit_learn
+scipy
+statsmodels
+tqdm
+umap-learn
+xhtml2pdf==0.2.5
+
+[cupy]
+cupy

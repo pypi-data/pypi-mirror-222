@@ -1,0 +1,2 @@
+[console_scripts]
+nanodip = nanodip.main:start_nanodip
