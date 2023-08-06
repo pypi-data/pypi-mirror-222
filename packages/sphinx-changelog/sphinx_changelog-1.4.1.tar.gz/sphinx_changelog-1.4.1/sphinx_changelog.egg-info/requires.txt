@@ -1,0 +1,15 @@
+sphinx
+towncrier==23.6.0
+
+[:python_version < "3.10"]
+importlib-resources>=5
+
+[all]
+
+[docs]
+sphinx
+sphinx-automodapi
+
+[test]
+pytest
+pytest-cov
