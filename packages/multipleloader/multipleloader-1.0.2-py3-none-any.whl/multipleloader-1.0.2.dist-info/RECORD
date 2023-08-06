@@ -1,0 +1,16 @@
+multipleloader/LoaderError.py,sha256=sPEZf9OnuWbHhJUF-W8gONTrznfB8CWlB9mH-40HU6Q,1153
+multipleloader/__init__.py,sha256=mtgEtx2Si_7DD1JzuSTgJjrEsD60HQjhauEzwZsN4eg,380
+multipleloader/extension_settings.py,sha256=pqfoEQG5cHEyad4DXeq7p2619ITYCpM4G6IN1rC2uF8,2879
+multipleloader/multipleloader.py,sha256=yDgxIoQ8VbX6PPmsMIbMnw7wluNDq2cd8x37UW82a_E,2550
+multipleloader/loader/csv_loader.py,sha256=m-Fx-D7QjjZC6CQflXNeU7sPaAI4Ow33UtPktIQ5YEY,877
+multipleloader/loader/joblib_loader.py,sha256=3CfWaMDFvR-ggPxWjnqXsBUdYuZiinYMDIwXvSuZJYU,479
+multipleloader/loader/json_loader.py,sha256=DjS-4zKATxYkfTbjWibyaw6Zy3mr8SnIhzntOHU1ZZU,558
+multipleloader/loader/numpy_loader.py,sha256=x6uxVPgOieoHvZXo1Ah1uaNR2v5bnU8E2NBn4ISSGd4,1130
+multipleloader/loader/pandas_loader.py,sha256=ikOCspP5kVorLoZy1hNDAIJA6S1YOP6pIAAn2uQ_LY4,1713
+multipleloader/loader/pickle_loader.py,sha256=C_IztprELfRYS13QTBVluj-qc3puBJjhIbAdXOuxqhk,535
+multipleloader/loader/loading_src/file_main_loader_class.py,sha256=dNTnH14_el604JjEyTLP-BTC_7MwoolPQAJrnvnSwj8,4503
+multipleloader-1.0.2.dist-info/LICENSE,sha256=ccVxTQd9quPcgh6nGlL1z7GKk9XmA7HENxohQKpYS0s,1092
+multipleloader-1.0.2.dist-info/METADATA,sha256=ynYUnYSZh_F3GSkMvftTjTbrDrAdEIFnIW43erF-ODw,5942
+multipleloader-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+multipleloader-1.0.2.dist-info/top_level.txt,sha256=GqCT1c_NdjtRJIPfvLVNpMoJzNoPvncee0z_BQHKfEs,15
+multipleloader-1.0.2.dist-info/RECORD,,
