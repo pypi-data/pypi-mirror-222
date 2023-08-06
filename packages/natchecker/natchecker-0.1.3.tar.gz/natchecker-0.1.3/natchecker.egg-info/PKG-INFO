@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: natchecker
+Version: 0.1.3
+Summary: check nat type by stun server.
+Home-page: https://github.com/onewesong/natchecker
+Author: onewesong
+Author-email: onewesong@gmail.com
+License: UNKNOWN
+Description: # natchecker
+        check nat type by stun server.
+        ## usage
+        ```
+        natchecker -i ppp0
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
