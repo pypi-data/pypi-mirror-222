@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: promptworkflows
+Version: 0.0.1
+Summary: Prompt Workflows
+Project-URL: Homepage, https://github.com/promptworkflows/promptworkflows
+Project-URL: Bug Tracker, https://github.com/promptworkflows/promptworkflows/issues
+Author-email: Aaron Casanova <aaronccasanova@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# promptworkflows
+
+## Installation
+
+```bash
+pip install promptworkflows
+```
+
+## Usage
+
+```python
+from promptworkflows import PromptWorkflows
+
+app = PromptWorkflows()
+
+app.run()
+```
