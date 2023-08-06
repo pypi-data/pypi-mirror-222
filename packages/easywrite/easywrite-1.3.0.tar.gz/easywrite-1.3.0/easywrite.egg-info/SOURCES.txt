@@ -1,0 +1,7 @@
+README.md
+easywrite.py
+setup.py
+easywrite.egg-info/PKG-INFO
+easywrite.egg-info/SOURCES.txt
+easywrite.egg-info/dependency_links.txt
+easywrite.egg-info/top_level.txt
