@@ -1,0 +1,5 @@
+requests
+tabulate
+plotly
+kaleido
+pandas
