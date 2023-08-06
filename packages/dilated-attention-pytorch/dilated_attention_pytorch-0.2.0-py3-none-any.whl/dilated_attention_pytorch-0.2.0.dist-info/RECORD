@@ -1,0 +1,9 @@
+dilated_attention_pytorch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dilated_attention_pytorch/dilated_attention.py,sha256=gz2broKOhz3dFnciNA-SOQk9OuKYpoi7mMGtcUYFjG0,9920
+dilated_attention_pytorch/long_net.py,sha256=Qj1IVHMmeh5J2G1QxOZyxntFbYdgsPbzCBvHHIAbkNI,5970
+dilated_attention_pytorch/transformer.py,sha256=Q0COKzMIFx5vy-ZhpyMdeg4j7nJZQ5noTz_dacE7orc,7882
+dilated_attention_pytorch-0.2.0.dist-info/LICENSE,sha256=hRXuyjlIpCesw-fD9ONCbyH2AZxw9AKL2IMx3EcCOEs,1067
+dilated_attention_pytorch-0.2.0.dist-info/METADATA,sha256=TV4BraMNMRmYOjsYuvtcNYaJYb1KrejzNTjNPVBhvTc,8896
+dilated_attention_pytorch-0.2.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+dilated_attention_pytorch-0.2.0.dist-info/top_level.txt,sha256=XdTDWpK7E_TIS-_sJJ5_mvHwyvQVjyaw5Robptm-sHE,26
+dilated_attention_pytorch-0.2.0.dist-info/RECORD,,
