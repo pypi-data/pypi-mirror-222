@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+coar_notify_validator/__init__.py
+coar_notify_validator/exceptions.py
+coar_notify_validator/results_parser.py
+coar_notify_validator/validate.py
+coar_notify_validator.egg-info/PKG-INFO
+coar_notify_validator.egg-info/SOURCES.txt
+coar_notify_validator.egg-info/dependency_links.txt
+coar_notify_validator.egg-info/requires.txt
+coar_notify_validator.egg-info/top_level.txt
+coar_notify_validator/shape_files/__init__.py
+coar_notify_validator/shape_files/read_shape_files.py
