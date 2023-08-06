@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+palettepal/__init__.py
+palettepal/__main__.py
+palettepal/colorapp.py
+palettepal/palette.py
+palettepal/slider.py
+palettepal.egg-info/PKG-INFO
+palettepal.egg-info/SOURCES.txt
+palettepal.egg-info/dependency_links.txt
+palettepal.egg-info/entry_points.txt
+palettepal.egg-info/requires.txt
+palettepal.egg-info/top_level.txt
+palettepal.egg-info/zip-safe
