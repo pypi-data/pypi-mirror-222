@@ -1,0 +1,11 @@
+rebelai/__init__.py,sha256=Al109MNaVxrTeBejblx2BpEtvtnF1fMbPahCAPf2qfM,129
+rebelai/const.py,sha256=Hb06cmLY_zdHrSI-yQOZPSXvZuYvBZZpAegDLqbWVYc,2002
+rebelai/enums.py,sha256=ehaDobrl6JrhUrX4hd6RPl17UphiMMpBy8WFIeaG72w,3555
+rebelai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rebelai/ai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rebelai-1.0.0.dist-info/LICENSE,sha256=Rgc3Ns1SKdwsPGFZc5xrgE6-VV8DXkUUgP5FRclaUvk,35115
+rebelai-1.0.0.dist-info/METADATA,sha256=XUqz6YhWhr-8TnH0fIpRq5EiKcf4MJY6QdIkxNi4cAA,1541
+rebelai-1.0.0.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+rebelai-1.0.0.dist-info/top_level.txt,sha256=rgLyT5avUbh1GgLMKFze_THimdNRD3ht3aiMAF8ysA0,8
+rebelai-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rebelai-1.0.0.dist-info/RECORD,,

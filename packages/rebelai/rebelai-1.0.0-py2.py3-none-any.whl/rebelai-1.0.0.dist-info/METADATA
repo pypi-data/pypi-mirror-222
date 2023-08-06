@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: rebelai
+Version: 1.0.0
+Summary: providing free access to proprietary ai models
+Home-page: https://ari-web.xyz/gh/rebelai
+Author: Ari Archer
+Author-email: ari.web.xyz@gmail.com
+License: GPLv3+
+Keywords: http,http-client,api,https,ai,machine learning,openai
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: types-requests
+Requires-Dist: tls-client
+
+# rebelai
+
+> free access to multiple proprietary ai models in python
+
+# mission
+
+exploit freely available apis to gain access to ai models
+
+# tips
+
+-   use proxies ( for example gimmeproxy api,, https://gimmeproxy.com/api/getProxy?post=true&get=true&user-agent=true&supportsHttps=true&protocol=http&minSpeed=20&curl=true )
+    -   dont forget to test if theyre responsive by making a proxies request to for example https://example.com/
