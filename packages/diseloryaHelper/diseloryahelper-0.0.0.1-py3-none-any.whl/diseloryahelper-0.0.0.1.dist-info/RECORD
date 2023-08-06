@@ -1,0 +1,12 @@
+setup.py,sha256=JcjD0qvJuDbd-tab39z0f01Ho5HRwn6cuP_ID-c-xAg,1334
+src/lc-base-helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/lc-base-helper/chineseLanguageHelper.py,sha256=GBb3J_cdkRPCORhjM8DAbWlsU6lk2ULyvmMitVyFFcY,1117
+src/lc-base-helper/ocrHelper.py,sha256=2eHHSxGbyf459WxErf-UORy6kJUr1tLYNnmFsGJX7SM,1639
+src/lc-base-helper/pathHelper.py,sha256=TC6-yyxCmIXMSzuAObSLGv-jDV9XPa4XLuMNm9uQ-uI,590
+src/lc-base-helper/pdfHelper.py,sha256=ZGYaWnhDpHA6davRG-d_leh4GpnkrafjE6bXUWPmPo0,10594
+src/lc-base-helper/stringHelper.py,sha256=icDnC-oqiw5TFrs43zRTZWqcUVCRVhYZd4UwSPBp9Kw,3230
+src/lc-base-helper/terminalHelper.py,sha256=Os3g88rnNP-02AUR100JH2uWIQxqIq_QX8cUX9Bkv4I,220
+diseloryahelper-0.0.0.1.dist-info/METADATA,sha256=NcETQNfe5IhJupy7ag2QepE_jp2iJD6ESSo006r9K8E,1965
+diseloryahelper-0.0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+diseloryahelper-0.0.0.1.dist-info/licenses/LICENSE,sha256=KHtX82J7JvdiJtXdBrzQdxFR2fWUAJjl8tF5Z_YqlPA,1115
+diseloryahelper-0.0.0.1.dist-info/RECORD,,
