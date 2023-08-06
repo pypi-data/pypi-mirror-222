@@ -1,0 +1,7 @@
+README
+setup.py
+instadl.egg-info/PKG-INFO
+instadl.egg-info/SOURCES.txt
+instadl.egg-info/dependency_links.txt
+instadl.egg-info/requires.txt
+instadl.egg-info/top_level.txt
