@@ -1,0 +1,10 @@
+graphic/__init__.py,sha256=onnjg4AKFz41LT0_T_yGKi51aPc_5r_v1nTSnfn10AM,20
+graphic/screen.py,sha256=lPUGJdDXYJ4ZdZM-4C2dJxDgX_PZlUk_dZxcScqtpl8,191
+play/__init__.py,sha256=x4FpUFOy8HPnSV7kR-4nQSlMQOgnnueGhKAyg2YixBY,17
+play/run.py,sha256=g2Jpy2ufNRIszCqJTOdJmkWutuierAe0LWRfsSIXlHQ,459
+sound/__init__.py,sha256=g9o9VcoWJflpjRgFNsy3JlWTdL0HlOvWGt8cZsXUzx8,18
+sound/echo.py,sha256=DvykX3-m1tsrbSSmA6Qa0Zx3CrY62h0G_oZKdOTACgw,170
+zakimyn-0.1.dist-info/METADATA,sha256=yJ5f3VmCCEUtZNxWrAp-aQGPuT5mQ5eYM_tC5hbZ8xs,208
+zakimyn-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zakimyn-0.1.dist-info/top_level.txt,sha256=EXOVVHVi5iRmK0ynFErn_pt7b6tZkqh1t-p-DHCNb30,19
+zakimyn-0.1.dist-info/RECORD,,

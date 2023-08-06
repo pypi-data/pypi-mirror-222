@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: zakimyn
+Version: 0.1
+Summary: test package
+Author: intong
+Author-email: intong@kakao.re.kr
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+description of this pypi
