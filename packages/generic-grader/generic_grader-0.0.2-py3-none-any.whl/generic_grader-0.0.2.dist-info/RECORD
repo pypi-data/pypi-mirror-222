@@ -1,0 +1,7 @@
+generic_grader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generic_grader/file/file_presence.py,sha256=kHQPqfUXLCpd28c118ATLaJfYA0EZB9gn0DLeOoTQwg,4020
+generic_grader/utils/options.py,sha256=h_ixXHkdtABM9E87dNQuaKyAqMdtxuiUocqJq71ICak,1379
+generic_grader-0.0.2.dist-info/METADATA,sha256=aWRTyANBL1SEGrxs14N1Vf6mH6K9RRd1c8lBa5CPVYg,2627
+generic_grader-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+generic_grader-0.0.2.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+generic_grader-0.0.2.dist-info/RECORD,,
