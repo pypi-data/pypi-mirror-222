@@ -1,0 +1,19 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+
+[project]
+name = "HQ_Test_Data"
+version = "0.0.5"
+description = "A Python package to fetch and print data."
+readme = "README.md"
+authors = [
+    {name = "Hossam Ibrahim", email = "hossam.ibrahim@hlag.com"},
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "requests",
+    "pandas",
+]
