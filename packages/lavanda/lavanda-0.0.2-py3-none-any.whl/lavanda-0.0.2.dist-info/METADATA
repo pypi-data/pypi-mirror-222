@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: lavanda
+Version: 0.0.2
+Summary: 1001 things and more
+Author-email: mtchdlr <datomtchedluri@gmail.com>
+Project-URL: Homepage, https://github.com/mtchdlr/1k1
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
