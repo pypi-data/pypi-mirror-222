@@ -1,0 +1,6 @@
+include README.md
+include LICENSE.txt
+include isyatirimhisse/__init__.py
+include isyatirimhisse/VeriCek.py
+include isyatirimhisse/VeriGorsel.py
+recursive-include imgs *
