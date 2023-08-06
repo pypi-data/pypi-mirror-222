@@ -1,0 +1,56 @@
+# File-Share
+
+File-Share is a Python 3 package that simplifies file sharing over a local network. It provides an easy-to-use interface for users to share files with other devices connected to the same network. Whether you want to transfer documents, images, videos, or any other files, File-Share has got you covered!
+
+## Installation
+
+To use File-Share, you need to have Flask installed. If you don't have Flask, you can install it using pip:
+
+    pip install flask
+
+Next, you can install File-Share using pip as well:
+
+    pip install fshare
+
+## Usage
+
+Using File-Share is straightforward. Once you have installed the package and its dependencies, you can start sharing files with just a few lines of code. Here's an example of how to use File-Share in your Python script:
+
+
+    from fshare import FileShare
+
+    # Initialize the FileShare object
+    file_share = FileShare()
+
+    # Set the path to the directory containing files to be shared
+    file_share.set_directory("/path/to/shared/files")
+
+    # Start the file sharing server
+    file_share.start_server()
+
+    # Once the server is running, you can access it from other devices on the local network
+    # Open a web browser and navigate to: http://your_server_ip:5000
+
+    # To stop the server (when you're done sharing files), use:
+    # file_share.stop_server()
+
+## Security
+
+File-Share is intended for use within local networks and is not designed for production environments or public internet access. As such, it does not provide advanced security features. Please ensure that you only use File-Share on trusted networks to avoid potential security risks.
+
+## Contributing
+
+We welcome contributions from the community! If you find any issues, have suggestions for improvements, or want to add new features, please feel free to open an issue or submit a pull request on our GitHub repository.
+License
+
+File-Share is released under the MIT License.
+
+## Disclaimer
+
+File-Share is provided "as is" without warranty of any kind, express or implied. Use it at your own risk. The authors of File-Share are not responsible for any damages or liabilities resulting from the use of this package.
+
+## Contact
+
+If you have any questions or need further assistance, you can reach out to me stevomitric2000@gmail.com.
+
+Happy file sharing!
