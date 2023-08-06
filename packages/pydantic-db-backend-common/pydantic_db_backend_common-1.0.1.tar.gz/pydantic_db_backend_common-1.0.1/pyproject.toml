@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pydantic-db-backend-common"
+version = "1.0.1"
+description = ""
+authors = ["mba <bartel@electronic-shop.lu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+webexception = "^1.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
