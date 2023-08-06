@@ -1,0 +1,12 @@
+sincfold/__init__.py,sha256=CcTQeX5AU57m5hoTvcQddhSuTH0gQhwXcqYrfhEi7lg,5774
+sincfold/dataset.py,sha256=ZXS5FLuIBzNaRlx0s4EZijJ68SzbDAynTX4FqQbajJQ,4301
+sincfold/embeddings.py,sha256=TJLi8aNeORp0LKE4J6jSZiTHhf4-TgxQEC0ELb1NQCI,1633
+sincfold/metrics.py,sha256=EMTExxobcFNfXiKyjcdO0FvQBbSaCsm2PTOfM9-saE4,2520
+sincfold/model.py,sha256=TJiCTvxReC3zgXZN9wVyLWx37iC3YS_iz4QOVekyq8A,10803
+sincfold/parser.py,sha256=4hbTTQ5t37Ms7WHOhJd7uIKakve4aQsQuamv9JghY_8,3191
+sincfold/utils.py,sha256=CDjoj2YrdsxaeBg2fhFtpSedCDKhRC51Ty2ifUrh8wI,9463
+sincfold-0.3.dist-info/METADATA,sha256=Oi0KVAvOJYDgOWAPfzTQY5Cd_meHA4YDvKJJic_Svak,4792
+sincfold-0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+sincfold-0.3.dist-info/entry_points.txt,sha256=Ua0xGejpa2rBrg5u3I_wWrl515oUtyYX-HeyW2vS8Ls,43
+sincfold-0.3.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sincfold-0.3.dist-info/RECORD,,
