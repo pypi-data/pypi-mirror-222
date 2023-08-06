@@ -1,0 +1,11 @@
+app_toggles/__init__.py,sha256=J50T8ytzzNptiKQLxbPPdZUKRphtuOTiVe59qbAwNSM,160
+app_toggles/_exceptions.py,sha256=oLaYJDU0iq0F3B2oKMbnNPiFisOLTkgMDotctZBXfGw,242
+app_toggles/_toggle_providers/__init__.py,sha256=_Dg7vaUfKWSqdmopytopyS1BnNoqaUI-ZZugtmWml4M,84
+app_toggles/_toggle_providers/json_toggle_provider.py,sha256=7Zi9kgFaKhRlpRn9a1ubKQi1OsCsxK4haRz3VmyaYf4,829
+app_toggles/_toggle_providers/provider.py,sha256=erEHEMatZX5DjZ_Rfgdj2Th4hzeoN3l94M8qG5j1bzM,191
+app_toggles/_toggles.py,sha256=TaEmgM68iN_mTcsS6LJWFJy_0YTglunr-tlDpoLVzsk,1205
+app_toggles/_types.py,sha256=pHmFur0yQoiH7V5X4LtHY_l6B4f716AYEqiXOSXoD8A,237
+app_toggles-0.1.1.dist-info/LICENSE,sha256=UR4446A0Dr0R41Snt3vMViCOPpS9gseMistaD1ckXQw,1069
+app_toggles-0.1.1.dist-info/METADATA,sha256=nqPdJ-fDyasG65JApC3Jc5Yt7m7lLYgA4QR1HWQqWg4,3212
+app_toggles-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+app_toggles-0.1.1.dist-info/RECORD,,
