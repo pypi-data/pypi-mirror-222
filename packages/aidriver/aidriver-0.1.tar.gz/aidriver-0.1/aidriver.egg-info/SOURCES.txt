@@ -1,0 +1,13 @@
+.envtemplate
+Dockerfile
+pyproject.toml
+ai_driver/main.py
+ai_driver/tests/test_main.py
+ai_driver/tests/test_data/PlayerDnDBasicRules_v0.2_PrintFriendly.pdf
+aidriver.egg-info/PKG-INFO
+aidriver.egg-info/SOURCES.txt
+aidriver.egg-info/dependency_links.txt
+aidriver.egg-info/requires.txt
+aidriver.egg-info/top_level.txt
+data/PlayerDnDBasicRules_v0.2_PrintFriendly.pdf
+data/README.md
