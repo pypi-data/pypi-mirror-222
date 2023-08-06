@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: padic
+Version: 0.2.1
+Summary: Package implementing p-adic numbers
+Project-URL: Homepage, https://github.com/MRaczuk/padic
+Author-email: MRaczuk <mraczuk@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# padic
+
+This is a package implementing p-adic numbers. Will add more info here one day.
