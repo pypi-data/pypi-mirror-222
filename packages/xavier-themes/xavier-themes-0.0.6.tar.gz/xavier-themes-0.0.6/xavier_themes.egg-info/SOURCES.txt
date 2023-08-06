@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xavier_themes/__init__.py
+xavier_themes/emoji.py
+xavier_themes/panel.py
+xavier_themes.egg-info/PKG-INFO
+xavier_themes.egg-info/SOURCES.txt
+xavier_themes.egg-info/dependency_links.txt
+xavier_themes.egg-info/top_level.txt
