@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: microboxlabs-auth-manager
+Version: 0.1.2
+Summary: 
+Author: Michel David
+Author-email: mdavid.cu@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyjwt (>=2.8.0,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Microboxlabs Auth Manager SDK for Python 3
+
+This SDK provides a set of tools to interact and manage authentication with Microboxlabs services using Python 3.
+
+## Installation
+
+### Using pip:
+
+You can install the SDK from PyPI using `pip`:
+
+```bash
+pip install microboxlabs-auth-manager
+```
+
+### Using Poetry:
+
+If you're using Poetry for your project, you can add it as a dependency:
+
+```bash
+poetry add microboxlabs-auth-manager
+```
+
+## Usage
+
+To use the SDK in your Python projects:
+
+```python
+from microboxlabs_auth_manager import AuthToken
+
+# Initialization with your client details
+auth = AuthToken(client_id="YOUR_CLIENT_ID", 
+                           client_secret="YOUR_CLIENT_SECRET", 
+                           audience="https://api.microboxlabs.com/v1", 
+                           grant_type="client_credentials")
+
+# Get a new access token
+access_token = auth.get_token()
+```
+
+## Development
+
+For development purposes, you'll want to clone the repository and set up using Poetry:
+
+```bash
+# Clone the repository
+git clone https://github.com/microboxlabs/auth-manager.git
+cd auth-manager
+
+# Install the SDK dependencies for development
+poetry install
+```
+
+### Running Tests
+
+Ensure you have the development dependencies installed:
+
+```bash
+# Run tests using unittest (or your preferred testing tool)
+poetry run python -m unittest discover tests
+
+# OR if you're using pytest
+poetry run pytest
+```
+
+## Features
+
+- Seamless authentication with Microboxlabs services.
+- Token management: acquire, refresh, and validate tokens.
+
+## Documentation
+
+Refer to the [official documentation](https://github.com/microboxlabs/auth-manager#readme) for detailed usage and API references.
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
