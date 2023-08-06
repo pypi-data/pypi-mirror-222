@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: artigraph
+Version: 0.0.2
+Summary: A library for interrelated graphs of artifacts and the runs that produce them.
+Project-URL: Documentation, https://github.com/unknown/artigraph#readme
+Project-URL: Issues, https://github.com/unknown/artigraph/issues
+Project-URL: Source, https://github.com/unknown/artigraph
+Author-email: "U.N. Owen" <void@some.where>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Requires-Dist: anyio<4,>=3
+Requires-Dist: sqlalchemy<3,>=2
+Requires-Dist: typing-extensions
+Provides-Extra: aws
+Requires-Dist: boto3<2,>=1; extra == 'aws'
+Provides-Extra: numpy
+Requires-Dist: numpy<2,>=1; extra == 'numpy'
+Requires-Dist: pandas<3,>=2; extra == 'numpy'
+Requires-Dist: pyarrow<13,>=12; extra == 'numpy'
+Provides-Extra: pandas
+Requires-Dist: pandas<3,>=2; extra == 'pandas'
+Requires-Dist: pyarrow<13,>=12; extra == 'pandas'
+Provides-Extra: polars
+Requires-Dist: polars<1; extra == 'polars'
+Requires-Dist: pyarrow<13,>=12; extra == 'polars'
+Description-Content-Type: text/markdown
+
+# Artigraph
+
+[![PyPI - Version](https://img.shields.io/pypi/v/artigraph.svg)](https://pypi.org/project/artigraph)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/artigraph.svg)](https://pypi.org/project/artigraph)
+
+A library for interrelated graphs of artifacts and the runs that produce them.
+
+---
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install artigraph
+```
+
+## License
+
+`artigraph` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
