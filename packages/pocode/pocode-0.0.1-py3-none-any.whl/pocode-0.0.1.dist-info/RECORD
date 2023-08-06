@@ -1,0 +1,11 @@
+pocode/__init__.py,sha256=oiU0joduYSnoet9YfjgOFgfi56qfP3GkqerlbzFGaCk,29
+pocode/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pocode/api/line.py,sha256=KkvufOBJlZOtsUwsPhvyJiYkzak_0vkDOYvfEvoqFPg,1385
+pocode/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=S2yxzeBEMG3_Z64lrRA2dbAwMnVcCxb0sBRPnL0hyZ4,182
+tests/test_pip.py,sha256=scZ5J2U3rO7_20ExjmgX-54QJeAaIffrlrv4v3_bD4E,572
+pocode-0.0.1.dist-info/LICENSE,sha256=GQ6XaGbsxl2OlUBlk1jLBtkHC8U1p6Bw9E1P1XqYAlU,1093
+pocode-0.0.1.dist-info/METADATA,sha256=51690eRboL-4Y8s8jajanx2mk0S9HihcNKrqXIEj8WI,2425
+pocode-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pocode-0.0.1.dist-info/top_level.txt,sha256=cv6MPhZWs2uEnlehE0R28vsdFqU1XtTIHpxzSUQ0BQg,13
+pocode-0.0.1.dist-info/RECORD,,
