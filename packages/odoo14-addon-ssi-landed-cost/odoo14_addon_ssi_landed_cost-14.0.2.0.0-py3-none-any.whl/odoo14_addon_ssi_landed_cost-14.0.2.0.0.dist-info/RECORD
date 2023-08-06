@@ -1,0 +1,16 @@
+odoo/addons/ssi_landed_cost/README.rst,sha256=JAWMF2b6zV_h2Jh4QA55_VRlU67lQv3A8FwrvWpEsi8,1169
+odoo/addons/ssi_landed_cost/__init__.py,sha256=M7twq1SJz2cc98CkgeiDiDg05QWWFb09lt5oh03-axA,181
+odoo/addons/ssi_landed_cost/__manifest__.py,sha256=t1syCS-sj4GLvxZYhcB3fHmGin3bXWnfLQLI4EQFdNI,707
+odoo/addons/ssi_landed_cost/models/__init__.py,sha256=0DDlqakHK5rrSBcUTF9XMt3dnfpKgWO3H-7uBk8UDqs,241
+odoo/addons/ssi_landed_cost/models/landed_cost_type.py,sha256=-pQVwl57SLkl3tK6dTdePH4uQJhnwLSuWmMY3DOKVDg,469
+odoo/addons/ssi_landed_cost/models/landed_cost_type_cost.py,sha256=4SSQjjI65CKVmNhAlV5G7nTCTfHQLZb6Q4_J6cPTjyw,627
+odoo/addons/ssi_landed_cost/models/stock_landed_cost.py,sha256=T6KUBs-kLEuzvAizhEdSijtEb8X7B0S95ELgOPpJ_eA,1568
+odoo/addons/ssi_landed_cost/security/ir.model.access.csv,sha256=A-_xysov6YkzsxJJMarb8nC3oH3qL-zL8bzKy0G40Lw,529
+odoo/addons/ssi_landed_cost/security/res_group_data.xml,sha256=78FFzBpNGFO9fm1Nr-c-yWMV-KP7Lfv9fLIvc5ByPP4,568
+odoo/addons/ssi_landed_cost/static/description/icon.png,sha256=ilrOdaZsQ9IGvXoiOd_f-k_WPa0qzAB3rOWgUSGKNtM,20342
+odoo/addons/ssi_landed_cost/views/landed_cost_type_views.xml,sha256=sele5L3L077G161Vmfz6BfFPzf5z403KdPeYFHcZo10,2842
+odoo/addons/ssi_landed_cost/views/stock_landed_cost_views.xml,sha256=TwiEYK9VxtPb4Ztq20y5nFp6HkZs2cVtUNwIJBVUOuQ,1101
+odoo14_addon_ssi_landed_cost-14.0.2.0.0.dist-info/METADATA,sha256=PECFuX_xSEqbJlVBGE75zGapsCjeaUkhCwMeW-af7IY,1759
+odoo14_addon_ssi_landed_cost-14.0.2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_landed_cost-14.0.2.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_landed_cost-14.0.2.0.0.dist-info/RECORD,,
