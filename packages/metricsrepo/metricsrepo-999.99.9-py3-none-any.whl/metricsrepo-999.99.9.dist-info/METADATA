@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: metricsrepo
+Version: 999.99.9
+Summary: A dummy package to check some security vectors
+Author: Tushar Pokle
+Author-email: tushar.pokle@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# A security test package
+
+Do not use this.
+
