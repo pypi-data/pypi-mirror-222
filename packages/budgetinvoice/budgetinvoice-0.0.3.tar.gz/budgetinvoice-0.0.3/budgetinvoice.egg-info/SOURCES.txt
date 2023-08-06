@@ -1,0 +1,5 @@
+setup.py
+budgetinvoice.egg-info/PKG-INFO
+budgetinvoice.egg-info/SOURCES.txt
+budgetinvoice.egg-info/dependency_links.txt
+budgetinvoice.egg-info/top_level.txt
