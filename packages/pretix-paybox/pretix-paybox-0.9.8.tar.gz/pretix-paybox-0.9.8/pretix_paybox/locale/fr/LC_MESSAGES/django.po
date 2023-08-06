@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-07 19:01+0100\n"
+"PO-Revision-Date: 2023-07-31 17:58+0000\n"
+"Last-Translator: admin <ronan@highcanfly.club>\n"
+"Language-Team: French <http://oci.sctg.eu.org/projects/pretix-paybox/plugin/"
+"fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "Paybox for Pretix"
+msgstr "Paybox pour Pretix"
+
+msgid "Paybox Payment"
+msgstr "Paiement Paybox"
+
+msgid "Paybox payment plugin for Pretix 4"
+msgstr "Plugin de paiement Paybox pour Pretix 4"
+
+msgid "Paybox production HMAC"
+msgstr "Paybox HMAC de production"
+
+msgid "The production HMAC key"
+msgstr "La clé HMAC de production"
+
+msgid "The sandbox HMAC key"
+msgstr "La clé HMAC pour le bac à sable"
+
+msgid "This is the Paybox site ID"
+msgstr "Il s’agit de l’ID de site Paybox"
+
+msgid "Paybox rank"
+msgstr "Rang Paybox"
+
+msgid "This is the two characters rank ID"
+msgstr "Il s’agit de l’ID de rang (deux caractères)"
+
+msgid "Endpoint"
+msgstr "Point de terminaison"
+
+msgid "Live"
+msgstr "Live"
+
+msgid "Sandbox"
+msgstr "Bac à sable"
+
+msgid "This is the main Paybox ID"
+msgstr "C'est l'ID Paybox principal"
+
+msgid "Production server"
+msgstr "Serveur de production"
+
+msgid "Sandbox server"
+msgstr "Serveur bac à sable"
+
+msgid "Application path"
+msgstr "Chemin d'application"
+
+msgid "The path part of the complete URL (server+path)"
+msgstr "La partie chemin de l’URL complète (serveur+chemin)"
+
+msgid "Card Holder Last Name"
+msgstr "Nom du titulaire de la carte"
+
+msgid "Card Holder First Name"
+msgstr "Prénom du titulaire de la carte"
+
+msgid "Card Holder Street"
+msgstr "Rue du titulaire de la carte"
+
+msgid "Card Holder Address Complement"
+msgstr "Complément d’adresse du titulaire de la carte"
+
+msgid "Card Holder Postal Code"
+msgstr "Code postal du titulaire de la carte"
+
+msgid "Card Holder City"
+msgstr "Ville du titulaire de la carte"
+
+msgid "Card Holder Country"
+msgstr "Pays du titulaire de la carte"
+
+msgid "The production server base URL"
+msgstr "URL de base du serveur de production"
+
+msgid "The sandbox server base URL"
+msgstr "URL de base du serveur bac à sable"
+
+msgid "Paybox identifier"
+msgstr "Identifiant Paybox"
+
+msgid "Server Error"
+msgstr "Erreur de serveur"
+
+msgid "Go to Paybox/Up2Pay secured website"
+msgstr "Aller sur le site sécurisé Paybox/Up2Pay"
+
+msgid "refused"
+msgstr "refusé"
+
+msgid "answer to"
+msgstr "réponse à"
+
+msgid "unkown error"
+msgstr "Erreur inconnue"
+
+msgid "canceled"
+msgstr "Annulé"
+
+msgid "pending"
+msgstr "en instance"
+
+#~ msgid "Paybox plugin"
+#~ msgstr "Plugin Paybox"
+
+#~ msgid ""
+#~ "In test mode, you can just manually mark this order as paid in the "
+#~ "backend after it has been created."
+#~ msgstr ""
+#~ "En mode test, vous pouvez simplement marquer manuellement cette commande "
+#~ "comme payée dans le backend après sa création."
+
+#~ msgid "Paybox sandbox HMAC"
+#~ msgstr "HMAC bac à sable Paybox"
+
+#, fuzzy
+#~| msgid "Paybox Payment"
+#~ msgid "Paybox site"
+#~ msgstr "Paiement Paybox"

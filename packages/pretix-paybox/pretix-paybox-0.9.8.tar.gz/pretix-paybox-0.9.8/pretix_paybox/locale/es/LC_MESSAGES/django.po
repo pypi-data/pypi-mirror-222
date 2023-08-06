@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-07 19:01+0100\n"
+"PO-Revision-Date: 2023-07-31 17:58+0000\n"
+"Last-Translator: admin <ronan@highcanfly.club>\n"
+"Language-Team: Spanish <http://oci.sctg.eu.org/projects/pretix-paybox/plugin/"
+"es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "Paybox for Pretix"
+msgstr "Paybox para Pretix"
+
+msgid "Paybox Payment"
+msgstr "Pago de caja de pago"
+
+msgid "Paybox payment plugin for Pretix 4"
+msgstr "Plugin de pago Paybox para Pretix 4"
+
+msgid "Paybox production HMAC"
+msgstr "Producción de cajas de pago HMAC"
+
+msgid "The production HMAC key"
+msgstr "La clave HMAC de producción"
+
+msgid "The sandbox HMAC key"
+msgstr "La clave HMAC del espacio aislado"
+
+msgid "This is the Paybox site ID"
+msgstr "Este es el ID del sitio de Paybox"
+
+msgid "Paybox rank"
+msgstr "Rango de la caja de pago"
+
+msgid "This is the two characters rank ID"
+msgstr "Este es el ID de rango de dos caracteres"
+
+msgid "Endpoint"
+msgstr "Extremo"
+
+msgid "Live"
+msgstr "Live"
+
+msgid "Sandbox"
+msgstr "Arenero"
+
+msgid "This is the main Paybox ID"
+msgstr "Este es el ID principal de Paybox"
+
+msgid "Production server"
+msgstr "Servidor de producción"
+
+msgid "Sandbox server"
+msgstr "Servidor Sandbox"
+
+msgid "Application path"
+msgstr "Ruta de acceso de la aplicación"
+
+msgid "The path part of the complete URL (server+path)"
+msgstr "La parte de ruta de acceso de la URL completa (servidor + ruta)"
+
+msgid "Card Holder Last Name"
+msgstr "Apellido del titular de la tarjeta"
+
+msgid "Card Holder First Name"
+msgstr "Nombre del titular de la tarjeta"
+
+msgid "Card Holder Street"
+msgstr "Titular de la tarjeta Calle"
+
+msgid "Card Holder Address Complement"
+msgstr "Complemento de la dirección del titular de la tarjeta"
+
+msgid "Card Holder Postal Code"
+msgstr "Código postal del titular de la tarjeta"
+
+msgid "Card Holder City"
+msgstr "Ciudad titular de la tarjeta"
+
+msgid "Card Holder Country"
+msgstr "País del titular de la tarjeta"
+
+msgid "The production server base URL"
+msgstr "La dirección URL base del servidor de producción"
+
+msgid "The sandbox server base URL"
+msgstr "La dirección URL base del servidor de espacio aislado"
+
+msgid "Paybox identifier"
+msgstr "Identificador de caja de pago"
+
+msgid "Server Error"
+msgstr "Error del servidor"
+
+msgid "Go to Paybox/Up2Pay secured website"
+msgstr "Ir al sitio web seguro de Paybox/Up2Pay"
+
+msgid "refused"
+msgstr "Negado"
+
+msgid "answer to"
+msgstr "Respuesta a"
+
+msgid "unkown error"
+msgstr "Error desconocido"
+
+msgid "canceled"
+msgstr "cancelado"
+
+msgid "pending"
+msgstr "pendiente"
