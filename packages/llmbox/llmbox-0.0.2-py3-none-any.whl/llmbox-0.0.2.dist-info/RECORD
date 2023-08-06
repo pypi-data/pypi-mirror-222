@@ -1,0 +1,11 @@
+llmbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llmbox/chat/__init__.py,sha256=Xz90qwhnn6N3O_cLRoSSjsNuIUxuPT_cV6aMHHTC4Kg,49
+llmbox/chat/chat.py,sha256=Ro-k6ImsvwBfkGy-BctaKZsNbcHh2FHY0ljzEsTgrIA,497
+llmbox/llms/__init__.py,sha256=vtdnvj5m-4g1KT-Lb2ZneovRuIJ_GPWcQWfY_MRcTeA,40
+llmbox/llms/base.py,sha256=ei9tCPU2VOmP7FylMLdNENJ_5kBM2lI0bRR7t5GyDe0,249
+llmbox/llms/claude2.py,sha256=aIS2jFqgNr4ORwYKTEHiik4pvCzIgBIm2V94qYP32h8,563
+llmbox-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+llmbox-0.0.2.dist-info/METADATA,sha256=JABUcbDeFuKKuCu55wl4aEdOM3JYzPDfA8p1-necLL0,2841
+llmbox-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+llmbox-0.0.2.dist-info/top_level.txt,sha256=pAq9W29DfCXw-gJMlDJb-Hfvqd0FK7tAjMzwjxHjLXU,7
+llmbox-0.0.2.dist-info/RECORD,,
