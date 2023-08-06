@@ -1,0 +1,7 @@
+README.md
+setup.py
+BloxPy.egg-info/PKG-INFO
+BloxPy.egg-info/SOURCES.txt
+BloxPy.egg-info/dependency_links.txt
+BloxPy.egg-info/requires.txt
+BloxPy.egg-info/top_level.txt
