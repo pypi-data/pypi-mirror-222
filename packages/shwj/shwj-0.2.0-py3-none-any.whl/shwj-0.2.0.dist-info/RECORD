@@ -1,0 +1,11 @@
+package1/__init__.py,sha256=v45LGk-CiRKxFh9LPZ1OAK5UXwPY-sa4Jgzh425yUpE,70
+package1/activation_functions.py,sha256=xUIl91YM95tv-L9OSwWKhJJMlbjL0oUpW2KpGNeQmPk,72
+package1/module1.py,sha256=6ITNKtGAD3wcvZIbUDB7A1XhM-rEmj9r-s2_tporA-I,39
+shwj/__init__.py,sha256=v45LGk-CiRKxFh9LPZ1OAK5UXwPY-sa4Jgzh425yUpE,70
+shwj/activation_functions.py,sha256=xUIl91YM95tv-L9OSwWKhJJMlbjL0oUpW2KpGNeQmPk,72
+shwj/module1.py,sha256=6ITNKtGAD3wcvZIbUDB7A1XhM-rEmj9r-s2_tporA-I,39
+shwj-0.2.0.dist-info/LICENSE,sha256=87FGShau9eHgKTdBLn2_rj8QqeCs5vXbIpyEQB8eW30,1106
+shwj-0.2.0.dist-info/METADATA,sha256=DEq1yqicVIGQYO5VTIel7H-bsZw5uzaixL4ibrMivlc,689
+shwj-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shwj-0.2.0.dist-info/top_level.txt,sha256=8mHiGW8OG3Q3Yf6S6i4s3uruY1osZS8s9GW-ZuUXiVM,5
+shwj-0.2.0.dist-info/RECORD,,
