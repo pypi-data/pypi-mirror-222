@@ -1,0 +1,4 @@
+[console_scripts]
+blockwork=blockwork:__main__.main
+bw=blockwork:__main__.main
+
