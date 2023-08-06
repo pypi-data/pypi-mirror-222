@@ -1,0 +1,2 @@
+[sourmash.cli_script]
+venn = sourmash_plugin_venn:Command_Venn
