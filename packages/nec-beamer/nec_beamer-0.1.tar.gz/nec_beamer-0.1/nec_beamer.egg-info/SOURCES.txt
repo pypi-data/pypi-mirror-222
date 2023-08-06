@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+nec_beamer.egg-info/PKG-INFO
+nec_beamer.egg-info/SOURCES.txt
+nec_beamer.egg-info/dependency_links.txt
+nec_beamer.egg-info/not-zip-safe
+nec_beamer.egg-info/top_level.txt
+nec_beamer_heinrich_foto/__init__.py
+nec_beamer_heinrich_foto/cli.py
+nec_beamer_heinrich_foto/nec_beamer.py

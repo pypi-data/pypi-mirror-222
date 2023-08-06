@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nec_beamer
+Version: 0.1
+Summary: NEC Beamer Web Interface Wrapper
+Home-page: http://github.com/heinrich-foto/nec_beamer
+Author: Heinrich-Foto
+Author-email: nec_beamer@heinrich-foto.de
+License: MIT
+License-File: LICENSE
