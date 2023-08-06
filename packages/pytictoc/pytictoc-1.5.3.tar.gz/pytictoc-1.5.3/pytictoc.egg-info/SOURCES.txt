@@ -1,0 +1,8 @@
+LICENSE.txt
+README.rst
+pytictoc.py
+setup.py
+pytictoc.egg-info/PKG-INFO
+pytictoc.egg-info/SOURCES.txt
+pytictoc.egg-info/dependency_links.txt
+pytictoc.egg-info/top_level.txt
