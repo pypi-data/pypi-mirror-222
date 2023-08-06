@@ -1,0 +1,16 @@
+.editorconfig
+.gitignore
+Ånnóying 𝚏Ⅰlęnąme by Łukasz
+LICENSE
+README.rst
+pyproject.toml
+bin/bitrot
+src/bitrot.py
+src/bitrot.egg-info/PKG-INFO
+src/bitrot.egg-info/SOURCES.txt
+src/bitrot.egg-info/dependency_links.txt
+src/bitrot.egg-info/entry_points.txt
+src/bitrot.egg-info/requires.txt
+src/bitrot.egg-info/top_level.txt
+tests/test_bitrot.py
+tests/test_requirements.txt
