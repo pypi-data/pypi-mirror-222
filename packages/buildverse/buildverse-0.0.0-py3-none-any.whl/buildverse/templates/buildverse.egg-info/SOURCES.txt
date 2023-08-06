@@ -1,0 +1,5 @@
+pyproject.toml
+templates/buildverse.egg-info/PKG-INFO
+templates/buildverse.egg-info/SOURCES.txt
+templates/buildverse.egg-info/dependency_links.txt
+templates/buildverse.egg-info/top_level.txt
