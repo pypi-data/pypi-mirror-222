@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ceda-elasticsearch-client
+Version: 0.0.1
+Summary: CEDA elasticsearch client
+Author: Sam Pepler
+Author-email: sam.pepler@stfc.ac.uk
+License: BSD
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: elasticsearch
+
+
+# A CEDA elastic search client
+
+Just a layer over the elasticsearch lib with the CEDA elastic search config baked in.
+
+```
+>>> from ceda_es_client import CEDAElasticsearchClient
+>>> es = CEDAElasticsearchClient()
+>>> es.search(index="fbi-2022", ...
+```
+
+If you need to add an API key 
+
+```
+>>> from ceda_es_client import CEDAElasticsearchClient
+>>> es = CEDAElasticsearchClient(api_key=MYAPIKEY)
+>>> es.index(index="myindex", id=10, document=...
+```
