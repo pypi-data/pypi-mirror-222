@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+DdlGeneric.egg-info/PKG-INFO
+DdlGeneric.egg-info/SOURCES.txt
+DdlGeneric.egg-info/dependency_links.txt
+DdlGeneric.egg-info/entry_points.txt
+DdlGeneric.egg-info/requires.txt
+DdlGeneric.egg-info/top_level.txt
+ddl2pojo/__init__.py
+ddl2pojo/ddl2pojo.tpl
+ddl2pojo/main.py
