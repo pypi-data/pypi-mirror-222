@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: gender-definer
+Version: 0.0.3
+Summary: Python packege for define a gender by cyrillic and latin names
+License: MIT
+Author: yeghorkikhai
+Author-email: yeghorkikhai@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cyrtranslit (>=1.1.1,<2.0.0)
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+### Gender Definer
+
+Python package for detect a gender from cyrillic names and latin names
+
+###### Github
+```
+https://gihub.com/yeghorkikhai/gender-definer
+```
+
+###### Installation pip
+```
+pip install gender-definer
+```
+
+###### Installation poetry
+```
+poetry gender-definer
+```
+
+### Example
+
+```python
+from genderdefiner import GenderDefiner
+
+gd = GenderDefiner()
+
+print(gd.define('Юля'))
+
+# output:
+#
+# SubjectGender(gender='female', probability=0.7646426652337452)
+#
+```
