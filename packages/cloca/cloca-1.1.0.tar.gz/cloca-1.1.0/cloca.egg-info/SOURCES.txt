@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cloca/__init__.py
+cloca/cloca.py
+cloca.egg-info/PKG-INFO
+cloca.egg-info/SOURCES.txt
+cloca.egg-info/dependency_links.txt
+cloca.egg-info/top_level.txt
