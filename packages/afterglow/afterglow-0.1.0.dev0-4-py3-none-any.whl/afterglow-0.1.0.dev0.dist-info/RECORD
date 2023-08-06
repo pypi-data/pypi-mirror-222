@@ -1,0 +1,12 @@
+afterglow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afterglow/__main__.py,sha256=eJgA87MUiz94_Dy6GpeUWgf_stwjTdE9pR8zWC8m2jI,507
+afterglow/argparser.py,sha256=c5iVRM230MTzPlXaA7-Hf4DEeIt2FPgrjssOc72ok2M,620
+afterglow/child.py,sha256=bh0tbUpIJSuPfVeoDCDSuhan6MSWqDIYue5mewJ3obk,8334
+afterglow/files.py,sha256=xHA6eTgmHWfDyAdSf732vyqukoVbP83zNVrRSGHs5pk,212
+afterglow/message.py,sha256=giUPMGS2j4GOGDt2TPlrUahWcWqk8YR0M5xFPbg19Cg,5683
+afterglow/parent.py,sha256=jaSRVT36B3uDump4JdSnKUZXQigGCTiaZEZhiitpAFY,5287
+afterglow/public_key.py,sha256=pfFvveEblWnxfcxgoVPTASi7V7328g9ye7qyeYV1l6g,554
+afterglow-0.1.0.dev0.dist-info/LICENSE,sha256=L8vFn9ZHT3RRpTtzuzhkgDTutx_NNhMzCw_9YpbZR4Q,35129
+afterglow-0.1.0.dev0.dist-info/METADATA,sha256=Dcuhl4DsbgSPoqEcjkULnbRPbwJ3uHFhhG1feKngPdg,6433
+afterglow-0.1.0.dev0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+afterglow-0.1.0.dev0.dist-info/RECORD,,
