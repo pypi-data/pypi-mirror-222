@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example_package_sreesh2411"
+version = "0.0.1"
+authors = [
+  { name="sreesh2411", email="ksreesh@tamu.edu" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/srimenon/SAFE-Py"
+"Bug Tracker" = "https://github.com/srimenon/SAFE-Py/issues"
