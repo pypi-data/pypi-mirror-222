@@ -1,0 +1,8 @@
+wxai_langchain/__init__.py,sha256=pW0JMJ3jBcSfXzVlDFnDjUzY1_IWHjHALkT0soPV5Nk,157
+wxai_langchain/credentials.py,sha256=RTWSqhRcAPdDYbMsd8Fywj4aWvLF0N-Fy6rzaVpIOwc,1150
+wxai_langchain/llm.py,sha256=lNR2A5IJGWkw6oAdPDB3_kGLEC31jm4DSfs7LvK4SNs,2646
+wxai_langchain-0.0.3.dist-info/LICENSE,sha256=7MkKRe9r4abPhUiou5NGqme0KPdrBoBzw51OYV_Vans,11325
+wxai_langchain-0.0.3.dist-info/METADATA,sha256=T6m6BBw4rS5TxloJkWlzoRj_-9JhdAVYkKWH8eEGhww,1643
+wxai_langchain-0.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+wxai_langchain-0.0.3.dist-info/top_level.txt,sha256=i_kLHkxc9MRy4z9F0qjrRG4kRdgDAHsOPLpJmZwe8p4,15
+wxai_langchain-0.0.3.dist-info/RECORD,,
