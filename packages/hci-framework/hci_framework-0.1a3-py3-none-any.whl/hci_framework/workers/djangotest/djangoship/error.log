@@ -1,0 +1,1 @@
+[Thu Jul 27 00:36:06.928538 2023] [wsgi:error] [pid 19:tid 140049902315200] [client 10.0.0.2:34484] Not Found: /favicon.ico, referer: http://127.0.0.1:50531/

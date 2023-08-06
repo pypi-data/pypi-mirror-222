@@ -1,0 +1,2 @@
+10.0.0.2 - - [27/Jul/2023:00:36:06 +0000] "GET / HTTP/1.1" 200 3340 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+10.0.0.2 - - [27/Jul/2023:00:36:06 +0000] "GET /favicon.ico HTTP/1.1" 404 973 "http://127.0.0.1:50531/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
