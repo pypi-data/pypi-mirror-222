@@ -1,0 +1,6 @@
+physicshelper.py
+setup.py
+physicshelper.egg-info/PKG-INFO
+physicshelper.egg-info/SOURCES.txt
+physicshelper.egg-info/dependency_links.txt
+physicshelper.egg-info/top_level.txt
