@@ -1,0 +1,11 @@
+moranpycess/CustomExceptions.py,sha256=PibNShw5QfDOyCFfymgKwX9ySaKyZ6UbOB5ik5uA-Ow,1402
+moranpycess/Individual.py,sha256=HpFhEPtxQ5CVUhynm0N_Y3uyVPMxHCRcLOvqxkB5wL4,2780
+moranpycess/MoranProcess.py,sha256=EncWmrhR0izHLUsbAOci5J45IgsZ4SMi4vgEBoi7e7s,23686
+moranpycess/MoranProcess2D.py,sha256=vJAgis73ew2XCPWLR6Xgy-esBnT4Gq_fND6lhtnK9kI,24465
+moranpycess/MoranProcess3D.py,sha256=SXv3sYIPP3tykqTw5dmP-7Dmx1Rw-OuY-DjlJRw6keA,32400
+moranpycess/__init__.py,sha256=08YnyUXTdMgnmnPxdUbzdf1z_fOEISpFSqVcCGYlZLo,600
+moranpycess-1.1.0.dist-info/LICENSE,sha256=uxKkIffIaT0y-B_rANAAtBmrwKcd0akBNqXJMhfnHCs,1063
+moranpycess-1.1.0.dist-info/METADATA,sha256=lAruEFbz7Nhum_zxHljheCW2BYRsJOOAPxkZzaH76xQ,1197
+moranpycess-1.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+moranpycess-1.1.0.dist-info/top_level.txt,sha256=dNydM5D9vIXhNnZjCTfIEly-AvfS2_3vJvs6yD3d_qU,12
+moranpycess-1.1.0.dist-info/RECORD,,
