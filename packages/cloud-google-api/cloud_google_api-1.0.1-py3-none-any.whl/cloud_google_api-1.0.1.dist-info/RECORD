@@ -1,0 +1,6 @@
+src/google_api_xpandapaws/Google.py,sha256=KIOA54Kh4BRjlTeIdN8LpzIgmtC-HoC44GI3jdgqxlw,4562
+src/google_api_xpandapaws/__init__.py,sha256=lpDfSrEYXlekYUGTYRSMhAlwbHC6eQJ7pIFYMF_yg_U,1214
+cloud_google_api-1.0.1.dist-info/METADATA,sha256=Sny6VBYi5K22jyduH_ILrMpAAFP5QLIkZTsrVRfyG4I,677
+cloud_google_api-1.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+cloud_google_api-1.0.1.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cloud_google_api-1.0.1.dist-info/RECORD,,
