@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: avirtech-spraying-jiyi-wp-lib
+Version: 0.0.4
+Summary: Avirtech Python Library to Generate JIYI Drone Spraying Track Using Waypoint Data From Avirplaner
+Home-page: 
+Author: Mohammad ILham R
+Author-email: ilhamr.mohammad@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Script ini untuk membuat jalurterbang Spraying untuk drone spraying FC JIYI, "memanfaatkan hasil waypoint dari avirplaner".
+Data yang dihasilkan adalah berupa garis(.shp).
+
+Data yang dibutuhkan adalah (.waypoint) hasil dari avirplaner. 
+Bila menggunakan data DSM(.tif) boleh menggunakan koordinat WGS_1984, maupun koordinat UTM.
+
+Data tersebut dilanjutkan di software Qgis, untuk diconvert menjadi (.kml), lalu di "dissolve".
+Data hasil dissolve dapat digunakan dalam aplikasi "AgriAsistant"
+
+Install
+pip install avirtech_spraying_jiyi_wp_lib
+
+Usage
+from avirtech_spraying_jiyi_wp_lib.avirtech_spraying_jiyi_wp import autocorrect
+
