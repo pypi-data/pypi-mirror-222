@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: tap-mixpanel
+Version: 1.5.1
+Summary: Singer.io tap for extracting data from the mixpanel API
+Author: jeff.huth@bytecode.io
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
