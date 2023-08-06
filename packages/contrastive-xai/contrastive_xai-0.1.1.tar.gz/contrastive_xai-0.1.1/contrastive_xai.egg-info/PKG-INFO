@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: contrastive-xai
+Version: 0.1.1
+Summary: Contrastive Explainable AI Algorithms
+Home-page: https://github.com/samsonq/contrastive-xai
+Author: Samson Qian
+Author-email: samsonqian@gmail.com
+License: MIT
+Keywords: xai explainable-ai contrastive-algorithms
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Contrastive XAI
+Contrastive XAI methods
+
+## Algorithms
+
+- Lime, Contrastive LIME
+- Grad-CAM, Contrastive Grrad-CAM
+- SHAP, Contrastive SHAP
+
+## Usage Instructions
+* This project is published on [PyPI](https://pypi.org/project/contrastive-xai/). To install package, run:
+
+  ```
+  pip install contrastive-xai
+  ```
