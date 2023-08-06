@@ -1,0 +1,40 @@
+# https://peps.python.org/pep-0517/
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+
+# https://peps.python.org/pep-0621/
+[project]
+name = "napari-guitils"
+description = "Utils to create napari guis"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "BSD 3-Clause License" }
+authors = [
+    { email = "guillaume.witz@unibe.ch", name = "Guillaume Witz" },
+]
+dynamic = ["version"]
+dependencies = [
+    "natsort",
+    "qtpy",
+]
+
+[tool.hatch.version]
+source = "vcs"
+
+# extras
+# https://peps.python.org/pep-0621/#dependencies-optional-dependencies
+[project.optional-dependencies]
+test = [
+    "tox", 
+    "pytest", 
+    "pytest-cov", 
+    "pytest-qt", 
+    "napari",
+    "pyqt5"
+]
+
+[project.urls]
+homepage = "https://github.com/guiwitz/napari-guitils"
+repository = "https://github.com/guiwitz/napari-guitils"
