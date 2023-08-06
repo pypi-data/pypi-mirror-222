@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+loveread/__init__.py
+loveread/__main__.py
+loveread/lib.py
+loveread.egg-info/PKG-INFO
+loveread.egg-info/SOURCES.txt
+loveread.egg-info/dependency_links.txt
+loveread.egg-info/top_level.txt
