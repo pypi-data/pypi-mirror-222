@@ -1,0 +1,14 @@
+autodistill_seggpt/__init__.py,sha256=ehXG4HzwBsgVem9vF7jLWb7E8gi2OktfeLs9FDXSPdo,231
+autodistill_seggpt/colors.py,sha256=qoZ6-BLfMrpKcFiuhizKY3fjbaA-pt2ybVvDbNZ2n9M,666
+autodistill_seggpt/dataset_utils.py,sha256=N0rGUcIPZenohIBUNwcdfTyyns7agbnN7nlzsBT1b9k,3264
+autodistill_seggpt/few_shot_ontology.py,sha256=brBARjPbPT0z47mgfUvOd4G82boLlcPQv5-fw9hMJbk,5130
+autodistill_seggpt/find_best_examples.py,sha256=poVAPybD4gyRRqLwf47c4ex7GTdl5LGGTgQh7f8ekfc,4616
+autodistill_seggpt/metrics.py,sha256=uBHWKnpwVmazX7JYzc3BB7rEfYHcf5w8_jcPCSFXbX0,2911
+autodistill_seggpt/postprocessing.py,sha256=ggOvEEWxOZB-eocsUgpMTENdKBLPAVWwEtXuSUK3tnQ,1866
+autodistill_seggpt/sam_refine.py,sha256=_mKc-oOaFBWZcll6ckO1kbX114r7-r0ZGvq10w6m-Ys,4214
+autodistill_seggpt/seggpt.py,sha256=EwW21JlC308SuWubl-ZyDKSJopLAMuW8zU4dhHF5meM,8939
+autodistill_seggpt-0.0.1.dist-info/METADATA,sha256=hayVPS35hRq9cOB1NEYxpqvo_emvbToeQxxKO_DWjek,4162
+autodistill_seggpt-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+autodistill_seggpt-0.0.1.dist-info/dependency_links.txt,sha256=mwxtrnBLVIpj1b_biJ-2njpzmDote6MGQe0cjwaM7MU,55
+autodistill_seggpt-0.0.1.dist-info/top_level.txt,sha256=ykjdZiqKyKBbSULNUFEtLXqblTu77T_b8-fI2OOmhLw,19
+autodistill_seggpt-0.0.1.dist-info/RECORD,,
