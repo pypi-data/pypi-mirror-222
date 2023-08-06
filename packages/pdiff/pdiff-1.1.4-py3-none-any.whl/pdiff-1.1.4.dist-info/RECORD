@@ -1,0 +1,13 @@
+pdiff/__init__.py,sha256=e3S0EcDGJlWIp2hddSFjvt633jfeZ4W7VyAeLpfTWVM,37
+pdiff/__main__.py,sha256=066zSMR-dj-v4fI7RcqjHZbrB77fVwwH4Qt3hn-lqP8,815
+pdiff/__version__.py,sha256=PjrAut5wUOgcQz79krZcrxCW7JYdU9nfMwMc8EdCaFo,22
+pdiff/argument_parser.py,sha256=BMulpVw9gV8jeTgBEHyoGgKNmlIHiaLZIfGLPE7ObXw,1762
+pdiff/colors.py,sha256=Tc6_2L81qGRCSSQEgDdx5BV4m5MdpCXEpMXSqxnETFo,639
+pdiff/diff_formatter.py,sha256=qj--4stIkMOH-oxCk1ksZ7qLpsYovGHhE7CwiqkTkNI,6689
+pdiff/terminal_util.py,sha256=GeMAIWIkqh_NKMsW0umjUyamCWdRaB2dvRYVceDp67M,814
+pdiff-1.1.4.dist-info/LICENSE.txt,sha256=lFd79n_KtjPiGL0Qpbs6JBYNLL7tXbhVyidzWA-0bs8,1058
+pdiff-1.1.4.dist-info/METADATA,sha256=NbaJ4JzlhcHIRdd09FzRSVF-H_q3WfBZN2fZmz4gQwc,1698
+pdiff-1.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pdiff-1.1.4.dist-info/entry_points.txt,sha256=gKcBB6pP-glFH66atTHyu5U0iiXBFECQc3Exaj018GA,46
+pdiff-1.1.4.dist-info/top_level.txt,sha256=O0_6rZ9mKGHnou4ehf1BY_VVbFyAM8ixPsKbnylx2_k,6
+pdiff-1.1.4.dist-info/RECORD,,
