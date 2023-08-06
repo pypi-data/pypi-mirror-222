@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: open_source_sdk
+Version: 0.0.3
+Summary: Template for the Python Civil Engineering library.
+Author: Open Civil Engineering
+Maintainer-email: Enrique García Méndez <enriquegarcia@live.nl>
+License: LGPL-2.1
+Project-URL: homepage, https://github.com/opencivilengineering
+Project-URL: documentation, http://opencivilengineering.readthedocs.io
+Keywords: Civil engineering,Material properties,Structural engineering,Structural analysis,Eurocodes,Dutch building codes
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: plot
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+![Logo Dark](data/images/placeholder.png#gh-dark-mode-only)
+![Logo Light](data/images/placeholder_light.png#gh-light-mode-only)
+
+[![Run Tests](https://github.com/opencivilengineering/opensourcesdk/actions/workflows/test.yaml/badge.svg)](https://github.com/opencivilengineering/opensourcesdk/actions/workflows/test.yaml)
+[![Documentation Status](https://readthedocs.org/projects/opensourcesdk/badge/?version=latest)](https://opensourcesdk.readthedocs.io/en/latest/?badge=latest) 
+[![codecov](https://codecov.io/gh/opencivilengineering/opensourcesdk/branch/main/graph/badge.svg?token=9Q9GOAMKNF)](https://codecov.io/gh/opencivilengineering/opensourcesdk)
+[![PyPI](https://img.shields.io/pypi/v/open-source-sdk?color=green)](https://pypi.org/project/open-source-sdk/)
+[![GitHub](https://img.shields.io/github/license/opencivilengineering/opensourcesdk?color=green)](https://github.com/opencivilengineering/opensourcesdk/blob/main/LICENSE)
+[![Python versions](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue?style=flat&logo=python)](https://badge.fury.io/py/open-source-sdk)
+
+# Open Source SDK
+
+
+Template for the Python Civil Engineering library.
+

@@ -1,0 +1,100 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open_source_sdk"
+authors = [
+    {name = "Open Civil Engineering"},
+]
+maintainers= [
+    {name = "Enrique García Méndez", email = "enriquegarcia@live.nl"},
+    # {name = "Johan Tuls", email = "johan.tuls@bam.com"},
+    # {name = "Wichard Bron", email = "wichard.bron@wsp.com"},
+    # {name = "Sina Zel taat", email = "sina.zeltaat@wsp.com"},
+]
+description = "Template for the Python Civil Engineering library."
+requires-python = ">=3.10"
+keywords = ["Civil engineering", "Material properties", "Structural engineering", "Structural analysis", "Eurocodes", "Dutch building codes"]
+license = {text = "LGPL-2.1"}
+classifiers = [
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+]
+dynamic = ["version", "readme", "dependencies", "optional-dependencies"]
+
+[tool.setuptools.dynamic]
+version = {attr = "open_source_sdk._version.__version__"}
+readme = {file = "README.md", content-type = "text/markdown"}
+dependencies = {file = "requirements.txt"}
+
+[tool.setuptools.dynamic.optional-dependencies]
+plot = {file = "requirements_plot.txt"}
+test = {file = "requirements_test.txt"}
+dev = {file = "requirements_dev.txt"}
+docs = {file = "docs/requirements_docs.txt"}
+
+[project.urls]
+homepage = "https://github.com/opencivilengineering"
+documentation = "http://opencivilengineering.readthedocs.io"
+
+[tool.setuptools]
+packages = [
+    "open_source_sdk",
+]
+
+[tool.mypy]
+packages = "open_source_sdk"
+python_version = "3.11"
+strict = true
+allow_any_generics = true
+implicit_reexport = true
+strict_optional = false
+
+[[tool.mypy.overrides]]
+module = [
+    "matplotlib.*",
+]
+ignore_missing_imports = true
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = [
+    # "too-many-arguments",
+     "missing-docstring",
+    # "duplicate-code",
+    # "invalid-name",
+    # "too-few-public-methods",
+    # "too-many-statements",
+    # "too-many-locals",
+    # "fixme",
+    # "too-many-branches",
+    # "c-extension-no-member",
+    # "too-many-instance-attributes",
+    # "unused-argument",
+    # "no-name-in-module",
+    # "too-many-lines",
+]
+
+[tool.black]
+py36 = true
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+
+  # The following are specific to Black, you probably don't want those.
+  | blib2to3
+  | tests/data
+)/
+'''

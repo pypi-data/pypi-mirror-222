@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+requirements_dev.txt
+requirements_plot.txt
+requirements_test.txt
+docs/requirements_docs.txt
+open_source_sdk/__init__.py
+open_source_sdk/_version.py
+open_source_sdk/main.py
+open_source_sdk.egg-info/PKG-INFO
+open_source_sdk.egg-info/SOURCES.txt
+open_source_sdk.egg-info/dependency_links.txt
+open_source_sdk.egg-info/requires.txt
+open_source_sdk.egg-info/top_level.txt
+tests/test_demo.py
