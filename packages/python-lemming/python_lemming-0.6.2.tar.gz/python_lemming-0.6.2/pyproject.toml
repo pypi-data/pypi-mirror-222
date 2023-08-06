@@ -1,0 +1,125 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_lemming"
+description = "Lemming is a tool for formatting and linting code."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Koviubi56", email = "koviubi56@duck.com" }]
+keywords = ["lemming", "format", "formatter", "lint", "linting", "linter"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Typing :: Typed",
+]
+dynamic = ["version", "dependencies"]
+
+[tool.setuptools.dynamic]
+version = { attr = "lemming.__version__" }
+dependencies = { file = "requirements.txt" }
+
+[tool.setuptools.package-data]
+lemming = ["py.typed"]
+
+[project.urls]
+Homepage = "https://github.com/koviubi56/lemming"
+
+[project.scripts]
+lemming = "lemming.__main__:main"
+
+[tool.isort]
+profile = "black"
+
+
+[tool.ruff]
+select = ["ALL"]
+ignore = [
+    "ANN101",
+    "ANN102",
+    "ANN401",
+    "COM",
+    "D",
+    "EM102",
+    "FA",
+    "FBT",
+    "T",
+    "TRY003",
+    "PLR0913",
+]
+line-length = 79
+target-version = "py38"
+
+fixable = [
+    "F632",
+    "E711",
+    "F901",
+    "E703",
+    "E712",
+    "E713",
+    "E714",
+    "W291",
+    "W292",
+    "W293",
+    "I001",
+    "PT001",
+    "PT003",
+    "PT006",
+    "PT009",
+    "PT023",
+    "Q",
+    "RSE102",
+    "SIM101",
+    "SIM103",
+    "SIM109",
+    "SIM112",
+    "SIM117",
+    "SIM118",
+    "SIM201",
+    "SIM202",
+    "SIM208",
+    "SIM210",
+    "SIM211",
+    "SIM212",
+]
+
+[tool.ruff.flake8-quotes]
+inline-quotes = "double"
+
+[[tool.lemming.formatters]]
+packages = ["black"]
+format_command = "{pyexe} -m black -l 79 {path}"
+check_command = "{pyexe} -m black -l 79 --check --extend-exclude .*venv.* {path}"
+
+[[tool.lemming.formatters]]
+packages = ["setup_cfg_fmt"]
+format_command = "{pyexe} -m setup_cfg_fmt --include-version-classifiers"
+# no check
+
+[[tool.lemming.formatters]]
+packages = ["ruff"]
+format_command = "{pyexe} -m ruff check --show-source --fix -n {path}"
+check_command = "{pyexe} -m ruff check --show-source --show-fixes -n {path}"
+
+[[tool.lemming.linters]]
+packages = ["pyroma"]
+command = "{pyexe} -m pyroma {path}"
+
+[[tool.lemming.linters]]
+packages = ["vermin"]
+command = "vermin --target=3.7 --eval-annotations --backport typing -vv src"
