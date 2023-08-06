@@ -1,0 +1,28 @@
+{
+    "entity": {
+        "sensor": {
+            "upload_speed": {
+                "name": "Upload speed"
+            }
+        }
+    },
+    "services": {
+        "start_torrent": {
+            "fields": {
+                "id": {
+                    "name": "ID"
+                }
+            },
+            "name": "Start torrent"
+        },
+        "stop_torrent": {
+            "description": "Stops a torrent.",
+            "fields": {
+                "id": {
+                    "name": "ID"
+                }
+            },
+            "name": "Stop torrent"
+        }
+    }
+}

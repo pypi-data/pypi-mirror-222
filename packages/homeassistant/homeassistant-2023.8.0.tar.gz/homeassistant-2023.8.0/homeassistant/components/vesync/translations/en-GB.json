@@ -1,0 +1,8 @@
+{
+    "services": {
+        "update_devices": {
+            "description": "Adds new VeSync devices to Home Assistant.",
+            "name": "Update devices"
+        }
+    }
+}
