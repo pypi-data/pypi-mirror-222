@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: airbyte-source-faker
+Version: 4.0.0
+Summary: Source implementation for fake but realistic looking data.
+Author: Airbyte
+Author-email: contact@airbyte.io
+Provides-Extra: tests
