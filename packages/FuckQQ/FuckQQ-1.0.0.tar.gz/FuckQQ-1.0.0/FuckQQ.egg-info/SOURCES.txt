@@ -1,0 +1,6 @@
+FuckQQ.py
+setup.py
+FuckQQ.egg-info/PKG-INFO
+FuckQQ.egg-info/SOURCES.txt
+FuckQQ.egg-info/dependency_links.txt
+FuckQQ.egg-info/top_level.txt
