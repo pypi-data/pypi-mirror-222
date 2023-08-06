@@ -1,0 +1,9 @@
+flytekitplugins_bacalhau-0.0.0-py3.8-nspkg.pth,sha256=lkJ-eVJsxHcpr3YkJBzWrgSFWPWyG3DLhUSGmTcjxhg,584
+flytekitplugins/bacalhau/__init__.py,sha256=39_m7ZON6aXO_LbSTcuEMSytv2ydf4pS5Qn-fZl9nH8,170
+flytekitplugins/bacalhau/agent.py,sha256=w5si5KKG03Gb-mEokDPPsAXh4rgnYdF272fZcnhv70I,4496
+flytekitplugins/bacalhau/task.py,sha256=S4Y_IEJaLxIq9Oo_EjRNq2yeqzGIB0pJKwQa7eBR-90,1254
+flytekitplugins_bacalhau-0.0.0.dist-info/METADATA,sha256=9JasHBQGyaaIYg0nnx5dV9c-9l2Imn3q59UBrZsV_9E,1787
+flytekitplugins_bacalhau-0.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+flytekitplugins_bacalhau-0.0.0.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_bacalhau-0.0.0.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_bacalhau-0.0.0.dist-info/RECORD,,
