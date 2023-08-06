@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: malala
+Version: 1.0.1
+Description-Content-Type: text/markdown
+
+# Malala Labs
+
+This library provides a way to standardize functionality commonly used in our trading infrastructure.
