@@ -1,0 +1,12 @@
+SRLR/__init__.py,sha256=7x-J4xjQXIMwJQ35vi_jkCKOevgFh9VocT7ScXu019Y,148
+SRLR/asymptotics.py,sha256=7WWYdP1U_H4ovJRrXavheR7_-Llc3VrF5hlL3G_l5fU,7269
+SRLR/datasets.py,sha256=WzSLehhCVyBP3TfQ5yCptkxcv9JBKrkwnY5JPcA5cgk,2649
+SRLR/estimators.py,sha256=oRN400_fSkNpYCj34rbjZGbUMH83YQZWGjwl09IdV4g,2527
+SRLR/optimal_m.py,sha256=TPN1tpdd4bFanKklAKwcA_qeWa9U-m9DYO2P6BS-Y9s,854
+SRLR/simulation.py,sha256=ONQfBPub9Fg_etPES2OGvjaj5_a40U0t14e3_EBE4z8,6093
+SRLR/utils.py,sha256=z4uh-IvsZNO_gVtlYy9SlrOf6pf2oH_471QjDXQKYYk,12510
+SRLR-0.1.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SRLR-0.1.4.dist-info/METADATA,sha256=5--ESMRN2j2GF9WQxGCT--LAAo_7AthLG3fdARSk1qI,2560
+SRLR-0.1.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+SRLR-0.1.4.dist-info/top_level.txt,sha256=KNyyek5cuJnClkF1ZqIOulk-yfoz_T-etvBO6mMGPjM,5
+SRLR-0.1.4.dist-info/RECORD,,
