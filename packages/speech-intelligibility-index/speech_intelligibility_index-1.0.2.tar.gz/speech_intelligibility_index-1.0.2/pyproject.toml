@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "speech-intelligibility-index"
+dynamic = ["version"]
+description = "Speech Intelligibility Index"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.6"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "absl-py",
+    "jax", 
+    "jaxlib", 
+    "numpy",
+    "matplotlib",
+]
+
+[[project.authors]]
+name = "Malcolm Slaney"
+email = "speech-intelligibility-index-maintainers@googlegroups.com"
+
+[tool.hatch.version]
+path = "speech_intelligibility_index/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/speech_intelligibility_index",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/google/speech_intelligibility_index"
+"Bug Tracker" = "https://github.com/google/speech_intelligibility_index/issues"
