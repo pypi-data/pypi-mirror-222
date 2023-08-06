@@ -1,0 +1,7 @@
+numba_inspector/__init__.py,sha256=z1WrrsOMHd55TN-eHX796c6L05XWz3Las4DgGK9THvs,265
+numba_inspector/frontend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numba_inspector/frontend/annotate.py,sha256=LgPFtoO2KltwgOi1HGeWxFYqgpH5YYdjmxtD5p6GyYk,36003
+numba_inspector/ipython_magic.py,sha256=5LuemkL1cQIyzozJGGIfKSKHT91KRQlF35305QYQRrc,8969
+numba_inspector-0.0.2.dist-info/METADATA,sha256=Q80ovp3mnWNVpC4g1lFi4tXViq2P7BnSAIf3LvCZ7JQ,1871
+numba_inspector-0.0.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+numba_inspector-0.0.2.dist-info/RECORD,,
