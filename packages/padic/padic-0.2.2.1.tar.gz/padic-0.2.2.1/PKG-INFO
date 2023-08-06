@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: padic
+Version: 0.2.2.1
+Summary: Package implementing p-adic numbers
+Project-URL: Homepage, https://github.com/MRaczuk/padic
+Author-email: MRaczuk <mraczuk@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# padic
+
+This is a package implementing p-adic numbers.
+Includes Padic class for p-adic numbers representation as
+well as method of finding roots of nupy.polynomial.Polynomial roots
+in Z_p via Hensel Lemma and some common functions: log, exp, sin, cos, binomial.
+
+ Will add more info here one day.
+ 
