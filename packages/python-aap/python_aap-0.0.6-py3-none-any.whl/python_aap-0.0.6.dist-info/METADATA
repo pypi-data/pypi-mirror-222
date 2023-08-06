@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: python-aap
+Version: 0.0.6
+Summary: Unofficial python wrapper over Ansible Automation Platform REST API
+Author-email: Ivan Mitruk <imitruk@redhat.com>
+Project-URL: Homepage, https://gitlab.corp.redhat.com/network/python-aap/
+Project-URL: Bug Tracker, https://gitlab.corp.redhat.com/network/python-aap/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: datetime
+
+# Ansible Automation Platform Python Module
+
+This is unofficial wrapper for Ansible Automation Platform (AAP) API.
+
+To see an example how this module can be used please view [__main__.py](./src/aap/__main__.py)
+
+## Executing jobs from CLI
+
+Python module can be invoked directly to execute job in aap and report status to terminal.
+
+```
+python3 -m aap run-job --id <job-id> -f
+```
+
+Example run
+```
+$ python3 -m aap --id 7848 -l sw01-dist.itdev --insecure run-job -f
+Searching job 7848
+Job: Juniper - gather facts
+        limit: ['sw01-dist.itdev']
+        extra variables: {}
+        job id: 2161058
+----------------------------------------
+Job is running
+[DEPRECATION WARNING]: COMMAND_WARNINGS option, the command warnings feature is
+ being removed. This feature will be removed from ansible-core in version 2.14.
+ Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+[DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names 
+to new standard, use callbacks_enabled instead. This feature will be removed 
+from ansible-core in version 2.15. Deprecation warnings can be disabled by 
+setting deprecation_warnings=False in ansible.cfg.
+
+PLAY [all] *********************************************************************
+
+TASK [Set tower run variable] **************************************************
+ok: [sw01-dist.itdev]
+
+TASK [Set manip if oob] ********************************************************
+skipping: [sw01-dist.itdev]
+
+TASK [Check inbound management IP] *********************************************
+skipping: [sw01-dist.itdev]
+
+TASK [Check inbound management IP] *********************************************
+ok: [sw01-dist.itdev]
+
+TASK [Set username] ************************************************************
+skipping: [sw01-dist.itdev]
+
+TASK [set_fact] ****************************************************************
+skipping: [sw01-dist.itdev]
+
+TASK [set_fact] ****************************************************************
+skipping: [sw01-dist.itdev]
+
+TASK [set_fact] ****************************************************************
+ok: [sw01-dist.itdev]
+
+TASK [Check management IP] *****************************************************
+skipping: [sw01-dist.itdev]
+
+TASK [Check management IP] *****************************************************
+skipping: [sw01-dist.itdev]
+
+TASK [set_fact] ****************************************************************
+skipping: [sw01-dist.itdev]
+
+TASK [set_fact] ****************************************************************
+skipping: [sw01-dist.itdev]
+
+TASK [set_fact] ****************************************************************
+skipping: [sw01-dist.itdev]
+
+TASK [set_fact] ****************************************************************
+skipping: [sw01-dist.itdev]
+
+TASK [Set connection variables] ************************************************
+ok: [sw01-dist.itdev]
+
+TASK [Get Facts] ***************************************************************
+ok: [sw01-dist.itdev]
+Playbook run took 0 days, 0 hours, 0 minutes, 12 seconds
+PLAY RECAP *********************************************************************
+sw01-dist.itdev            : ok=5    changed=0    unreachable=0    failed=0    skipped=11   rescued=0    ignored=0   
+Playbook run took 0 days, 0 hours, 0 minutes, 12 seconds
+```
