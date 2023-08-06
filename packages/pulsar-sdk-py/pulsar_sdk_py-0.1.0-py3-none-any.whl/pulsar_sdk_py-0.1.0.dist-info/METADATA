@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pulsar-sdk-py
+Version: 0.1.0
+Summary: 
+Author: Pulsar
+Author-email: admin@pulsar.finance
+Requires-Python: >=3.11.0,<3.12.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: dacite (>=1.8.1,<2.0.0)
+Requires-Dist: python-dotenv (==0.21.0)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: websockets (>=10.0,<11.0)
+Description-Content-Type: text/markdown
+
+![alt text](https://i.imgur.com/jVdp3yy.png)
+
+<div id="top"></div>
+
+## Pull Request Naming Conventions 👮
+
+These are our pull request conventions:
+
+* ✨ - `(:sparkle:)` - New features.
+* 🔨 - `(:hammer:)` - Protocol maintenance.
+* 🐛 - `(:bug:)` - Fixed a bug.
+* ⚡️ - `(:zap:)` - Improve performance
+* 🔥 - `(:fire:)` - Removed code or files.
+* 🎉 - `(:tada:)` - Initial commit.
+* ✅ - `(:white_check_mark:)` - Fixed tests.
+
+## How To Install (From Git Clone) 🏛
+
+1. Clone the repository.
+2. Install Poetry.
+
+## How To Install (External Lib) 🏰
+
+Follow these steps to install Pulsar Python SDK as a package from PyPi:
+
+1. Open your terminal.
+2. Run the command `pip install pulsar-sdk-py`.
+3. Use as normal.
+
