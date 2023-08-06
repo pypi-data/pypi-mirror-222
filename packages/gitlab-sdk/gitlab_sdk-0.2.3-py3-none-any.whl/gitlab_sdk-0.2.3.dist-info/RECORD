@@ -1,0 +1,9 @@
+gitlab_sdk/__init__.py,sha256=ejdcgDzwW7ws7SjLnMaR5g9KANFMY3dM3NXPjNy-EYs,160
+gitlab_sdk/_version.py,sha256=0Xn9irvPE_xezMRVSAH8uizB53R1K82wHaxp2U7tr0o,196
+gitlab_sdk/client.py,sha256=LBvEkvQEyeFHzw0Ru2ALjt1PXvN0JSgf_k2aQLi0_7Q,2445
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=pivOffPee9fxhIF2pXoHzDQ8s24Xkeeh64JAJGFejik,2753
+gitlab_sdk-0.2.3.dist-info/METADATA,sha256=rvg2GP0d1d4Jjg9tXgz6WujA4YRX_9D5QtCOszdjuag,364
+gitlab_sdk-0.2.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+gitlab_sdk-0.2.3.dist-info/top_level.txt,sha256=JHtM-EO2Z0aWTQFzfWx_S-aT1-_sJZFXe4IEY-FTP_E,17
+gitlab_sdk-0.2.3.dist-info/RECORD,,
