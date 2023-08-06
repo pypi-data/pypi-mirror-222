@@ -1,0 +1,7 @@
+numpy
+graphviz
+
+[test]
+pytest
+coverage
+pytest-cov

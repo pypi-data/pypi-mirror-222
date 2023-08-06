@@ -1,0 +1,30 @@
+[project]
+name = "crcf"
+version = "1.0.0"
+authors = [
+    { name="J. Marcus Hughes", email="hughes.jmb@gmail.com"}
+]
+description = "Combination Robust Cut Forests"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "graphviz",
+]
+
+[project.optional-dependencies]
+test = [
+    'pytest',
+    'coverage',
+    'pytest-cov'
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
