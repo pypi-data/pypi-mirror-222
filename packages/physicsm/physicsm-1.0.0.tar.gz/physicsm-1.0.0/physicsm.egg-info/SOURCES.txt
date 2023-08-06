@@ -1,0 +1,6 @@
+physicsm.py
+setup.py
+physicsm.egg-info/PKG-INFO
+physicsm.egg-info/SOURCES.txt
+physicsm.egg-info/dependency_links.txt
+physicsm.egg-info/top_level.txt
