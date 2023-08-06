@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: flota-app
+Version: 0.1.0
+Summary: 
+Author: Smolke
+Author-email: d.smolczynski1@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dbm-database-service (>=0.2.5,<0.3.0)
+Requires-Dist: easy-crud-repo-service (>=0.1.6,<0.2.0)
+Requires-Dist: easyquery-query-builder (>=2.0.1,<3.0.0)
+Requires-Dist: easyvalid-data-validator (>=2.0.1,<3.0.0)
+Requires-Dist: jsonlines (>=3.1.0,<4.0.0)
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: pytest (>=7.3.1,<8.0.0)
+Requires-Dist: pytest-mock (>=3.11.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+
