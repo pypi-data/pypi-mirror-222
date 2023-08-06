@@ -1,0 +1,16 @@
+surrealdb/VERSION.txt,sha256=9EEPRXrpgxHQ1Y2cyUYhx3OsGNCOy-Rxlenu5GXZCfQ,15
+surrealdb/__init__.py,sha256=Filcx3JjyDqGX0dz45KOjd_MtRGhFB_iW-hgWJQuKxI,54
+surrealdb/connection_interface.py,sha256=tntQNDmxDqbPRLM_mmo7QWlW4qpfBPciMnlfTbaB4DI,5090
+surrealdb/errors.py,sha256=Ial3BfNixY8omD6EzCgGJD88RoxVOxWGE1MMhrIcE6Y,101
+surrealdb/rust_surrealdb.cp310-win32.pyd,sha256=Gp8aFV-m34xBlrz6OwqOVpFON_SRtS8KNfx9iV2bROA,17592320
+surrealdb/execution_mixins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+surrealdb/execution_mixins/auth.py,sha256=GFSyMMaKGNQaxlk1yg8p-zrmM-CJivrE-gCxHSgNhaQ,2177
+surrealdb/execution_mixins/create.py,sha256=8cvvUWiP-w_V8Vzf3Se81cNR67cqnq4SY2KTO4ckZfc,1311
+surrealdb/execution_mixins/query.py,sha256=iX4KoPKFkpcINgln1wEZNYmicOFaPAIcUY9cVE8HB0o,1282
+surrealdb/execution_mixins/set.py,sha256=QA48JPQEpLYS_OjuBrSUfu1hpERah4Yyr1iLiThvclM,1072
+surrealdb/execution_mixins/update.py,sha256=AdkujIchdCz1lCilKDM-gL-4Qvttv-BSHLzO-J2Qf4s,2113
+surrealdb_beta-0.0.2.dist-info/LICENSE,sha256=zEh1GVqxxe1__kB6PGBDjTiJHf56EJ6Btxf6ZPw9Azk,11542
+surrealdb_beta-0.0.2.dist-info/METADATA,sha256=6pro4kyYvUwYJLgm_X5WCME2NPZlGitzEUKKar12ARA,8847
+surrealdb_beta-0.0.2.dist-info/WHEEL,sha256=jwKJpzUFQGoNrCOlSBKs5WXB_gCH4Yyq6NeOcrk2WIs,98
+surrealdb_beta-0.0.2.dist-info/top_level.txt,sha256=ZzGQyU7W38T2lidyksTgE8A7gIUFkoVCYn8JpvcVSAo,10
+surrealdb_beta-0.0.2.dist-info/RECORD,,
