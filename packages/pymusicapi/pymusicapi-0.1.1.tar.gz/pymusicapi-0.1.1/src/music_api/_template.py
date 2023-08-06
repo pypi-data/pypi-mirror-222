@@ -1,0 +1,140 @@
+import asyncio
+import pickle
+from abc import ABC, abstractmethod
+from dataclasses import dataclass
+from enum import IntEnum
+from pathlib import Path
+from random import choice
+from typing import Any, Awaitable, Callable, Optional, Union, Coroutine
+
+import aiofiles
+import aiohttp
+
+user_agents: Optional[list[str]] = None
+
+
+class Template(ABC):
+    """ api template."""
+
+    @dataclass(order=False, eq=False, repr=False)
+    class Song:
+        """ song."""
+
+        class Status(IntEnum):
+            """ status."""
+
+            Success = 0
+            NeedLogin = 1
+            NeedVIP = 2
+
+        desc: str = ""
+        img_url: str = ""
+        url: str = ""
+        fetch: Callable[[], Coroutine[Any, Any, tuple[Status, str]]] = None # pyright: ignore
+        owner: "Template" = None # pyright: ignore
+
+        def __post_init__(self) -> None:
+            async def fetch():
+                status, url = await _fetch()
+                if status is self.Status.Success:
+                    self.url = url
+                return status, url
+
+            _fetch = self.fetch
+            self.fetch = fetch
+
+    @dataclass(order=False, eq=False, repr=False)
+    class LoginHandleT:
+        """ handle for log in."""
+
+        QR: Optional[
+            Callable[
+                [Callable[[bytes], Coroutine[Any, Any, None]]],
+                Coroutine[Any, Any, None]
+            ]
+        ] = None
+        PWD: Optional[
+            tuple[
+                Optional[Callable[[], Coroutine[Any, Any, bytes]]],
+                Callable[[str, str, str], Coroutine[Any, Any, None]]
+            ]
+        ] = None
+        SMS: Optional[
+            tuple[
+                Optional[Callable[[], Coroutine[Any, Any, bytes]]],
+                Callable[[str, str], Coroutine[Any, Any, None]],
+                Callable[[str, str, str], Coroutine[Any, Any, None]]
+            ]
+        ] = None
+    login = LoginHandleT()
+
+    def __init__(
+        self,
+        loop: Optional[asyncio.base_events.BaseEventLoop] = None
+    ) -> None:
+        """ initialize.
+
+        :param loop: the event loop, optional.
+        """
+
+        self._loop = asyncio.get_event_loop() if loop is None else loop
+        self._sess: Awaitable[aiohttp.ClientSession]  = \
+            self._loop.create_task(self._init_sess())
+
+    @staticmethod
+    async def load_agents() -> str:
+        """ load user agents.
+
+        :return: user agent
+        """
+
+        global user_agents
+        if user_agents is None:
+            async with aiofiles.open(
+                Path(__file__).parent / "user_agents.txt", "r"
+            ) as f:
+                user_agents = [line.strip() for line in await f.readlines()]
+        return choice(user_agents)
+
+    async def _init_sess(self) -> aiohttp.ClientSession:
+        """ initialize session.
+
+        :return: ClientSession
+        """
+
+        return aiohttp.ClientSession(
+            loop=self._loop,
+            headers={"user-agent": await self.load_agents()}
+        )
+
+    async def deinit(self) -> None:
+        """ destruct."""
+
+        # close the ClientSession
+        sess = await self._sess
+        if not sess.closed:
+            await sess.close()
+
+    @abstractmethod
+    async def search(self, keyword: str) -> list[Song]:
+        """ search song by keyword.
+
+        :param name: keyword to search
+        :return: list of search result
+        """
+
+        raise NotImplementedError
+
+    async def save_cookies(self, path: Union[str, Path]) -> None:
+        """ save cookies."""
+
+        sess = await self._sess
+        with open(path, "wb") as f:
+            pickle.dump(sess.cookie_jar._cookies, f) # pyright: ignore
+
+    async def load_cookies(self, path: Union[str, Path]) -> None:
+        """ load cookies."""
+
+        sess = await self._sess
+        with open(path, "rb") as f:
+            sess.cookie_jar._cookies = pickle.load(f) # pyright: ignore

@@ -1,0 +1,6 @@
+aiohttp
+aiofiles
+rsa
+pycryptodome
+lxml
+qrcode
