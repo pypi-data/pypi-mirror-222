@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: scanpro
+Version: 0.1.0
+Summary: Single-Cell Analysis of Proportions
+Author: Loosolab
+Author-email: yousef.alayoubi@mpi-bn.mpg.de
+License: MIT
+License-File: LICENSE
