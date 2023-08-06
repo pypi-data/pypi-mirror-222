@@ -1,0 +1,4 @@
+pyTermTk>=0.31.0a
+appdirs
+pyyaml
+pygments
