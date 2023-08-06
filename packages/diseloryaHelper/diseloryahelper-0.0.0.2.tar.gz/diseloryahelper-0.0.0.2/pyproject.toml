@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "diseloryaHelper"
+version = "0.0.0.2"
+description = "Lc's python helper."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Diselorya"},
+]
+keywords=['python', 'lc-base-helper', 'diselorya']
+dependencies = [
+    'PyPDF2',
+    'pytesseract', 
+    'pangu', 
+    'opencv-python'
+]
+classifiers= [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows"
+]
+
+[project.urls]
+Homepage = "https://github.com/Diselorya/LCsPythonHelper/"
