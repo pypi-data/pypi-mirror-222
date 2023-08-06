@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hotel_manage_soumya
+Version: 0.0.3
+Summary: Hotel-Manage-Soumya is a lightweight Python library designed to simplify and streamline the management of bookings, rooms, and users within Flask web applications. With its easy-to-use classes and methods, it provides a set of essential functionalities for handling booking management, room management, and user management.
+Project-URL: Homepage, https://github.com/soumyak96/hotel_manage_soumya
+Project-URL: Bug Tracker, https://github.com/soumyak96/hotel_manage_soumya/issues
+Author-email: Soumya Ksoochik <soumyaksoochik96@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
