@@ -1,0 +1,10 @@
+tabpymigrate/__init__.py,sha256=mAIDRJRpbdTbJKYx2PXYMC-orV3qWnxvaKVMfPKf2U0,39
+tabpymigrate/config.py,sha256=EZrCZio1SXp2kWDUS8YgO2R-D7oBbTs_5JK8_gSB4Oc,953
+tabpymigrate/mapping.py,sha256=ZMZOQe3_h_8INKQSqiabM1xR2mx7jnL9FsxmyKkRZzM,3897
+tabpymigrate/tabpymigrate.py,sha256=SlpK1SVbGjlKK3SQmNhOt8BX9DpubS_qSlQAxKw49xI,6775
+tabpymigrate/tabpymigrate_download.py,sha256=pxmZsHnyu-FmUZVOgSGCigh4crAdt09CPxze7oFPLo8,11508
+tabpymigrate/tabpymigrate_publish.py,sha256=qkDlkr4nxOBtLd-1K9ryrtQ4BdJv4Nb_5y4WgtMkoo8,14365
+tabpymigrate-1.0.0.dist-info/METADATA,sha256=Pv5ADlBexqoeukvDVBTFF5MgHCgCUkFClpgV_sqKpIw,2244
+tabpymigrate-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+tabpymigrate-1.0.0.dist-info/top_level.txt,sha256=DsNfQe7vWJ8vvpfMJkY--novams9qf-ZP-6SW_KO1aY,13
+tabpymigrate-1.0.0.dist-info/RECORD,,
