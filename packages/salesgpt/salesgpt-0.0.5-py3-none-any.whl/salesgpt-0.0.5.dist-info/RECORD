@@ -1,0 +1,15 @@
+salesgpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+salesgpt/agents.py,sha256=7Z5bwOZD4G-cOucss2AFUn8IEWQ_p4fugbDMdh_vjiE,11380
+salesgpt/chains.py,sha256=L091Gml8K1pdbVBAUqTc8nvUF-lwfeaaCrdq08j2xTM,6447
+salesgpt/logger.py,sha256=0xTCAU4-jA6m-6P_Gjrm2iL9Sf1w8lOmVukuNZUEOWI,1119
+salesgpt/parsers.py,sha256=CcfPmKo6mrxbxi2nYjiJJtdrON64uoB_U4vXTBGV3D8,1544
+salesgpt/prompts.py,sha256=hID_jjAvlIeeik08QjFh7EXHuDpgPQW_rRW1B2Kf77A,3399
+salesgpt/stages.py,sha256=cuDd078jgbV_fw8ez6aO38-ATEcHdfzakE5ZCqWX2gw,1606
+salesgpt/templates.py,sha256=CzwJtrCJ2Xeg82_G6UzEac88zqtO9kX2kSHjwTtRrmM,1254
+salesgpt/tools.py,sha256=NqrZugbPZi-Vd5Pp4AJ35WPj3dGPpiUifUANQbFK9fA,1300
+salesgpt/version.py,sha256=Q7IrHG31r3HhCA8-ixPRfDwVip6tRxy4t3ApLdJPFJs,50
+salesgpt-0.0.5.dist-info/LICENSE,sha256=j4wL18FxN6y15wa3btW-Wf-7dNXCYb-GA4NjtdD4cOc,1071
+salesgpt-0.0.5.dist-info/METADATA,sha256=1nifh4ysHNnwkmrLPepmplg_tcdNoLrc4VhwG0f7sRg,9395
+salesgpt-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+salesgpt-0.0.5.dist-info/top_level.txt,sha256=fj2ZcQJXKxAQV9AjayWvxOo32FsQHOs5zwv4va7lGCI,9
+salesgpt-0.0.5.dist-info/RECORD,,
