@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ g.lang_code }}">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{ g.admin_context.pad.env.project.name }} - {{ _('Admin Panel') }}</title>
+  <link rel="stylesheet" href="{{ url_for('tekir_admin.static', filename='tekir-admin.css') }}"/>
+  <script src="{{ url_for('tekir_admin.static', filename='htmx.min.js') }}"></script>
+  <script src="{{ url_for('tekir_admin.static', filename='tekir-admin.js') }}"></script>
+</head>
+<body>
+  <header id="main-header">
+    <p class="heading">{{ _('Admin Panel') }}</p>
+
+    <nav id="language-panel" aria-label="{{ _('Language selection') }}">
+      <ul role="list">
+        {% for locale in translations() %}
+        <li>
+          {% set alt_url = url_for(request.endpoint, lang_code=locale, **request.args) %}
+          <a class="button" href="{{ alt_url }}">{{ locale }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+
+  <nav id="main-tabs" aria-label="{{ _('main navigation') }}">
+    <ul role="list">
+      <li>
+        <a class="button" href="{{ url_for('tekir_admin.overview') }}">
+          {% include 'icons/user-home.svg' %} <span>{{ _('Overview') }}</span>
+        </a>
+      </li>
+      <li>
+        <a class="button" href="{{ url_for('tekir_admin.contents', path='/') }}">
+          {% include 'icons/contents.svg' %} <span>{{ _('Content') }}</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="{{ self._TemplateReference__context.name.split('.')[0] }}">
+    {% block body %}{% endblock %}
+  </main>
+</body>
+</html>
