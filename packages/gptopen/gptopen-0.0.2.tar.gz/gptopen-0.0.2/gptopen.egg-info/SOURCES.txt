@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+gptopen/__init__.py
+gptopen.egg-info/PKG-INFO
+gptopen.egg-info/SOURCES.txt
+gptopen.egg-info/dependency_links.txt
+gptopen.egg-info/requires.txt
+gptopen.egg-info/top_level.txt
