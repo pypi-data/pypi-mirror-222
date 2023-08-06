@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dbxslackmessage
+Version: 0.1.6
+Summary: Package to send slack messages via databricks notebooks
+Author: Vaishali Khairnar
+Author-email: vkhairnar@ripple.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+Package to send slack messages via databricks notebooks.
+
+## Usage
+
+Here is a simple usage example:
+
+```python
+from dbxslackmessage import SlackMessage
+
+webhook_url = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX'
+channel = '#your-channel'
+messages = ['Hello, World!', 'This is a test message from dbxslackmessage package']
+
+slack_message = SlackMessage(webhook_url, channel)
+slack_message.send_messages(messages)
+```
+### Installing  dbxslackmessage
+
+``` python -m pip install dbxslackmessage ```
+
