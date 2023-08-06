@@ -1,0 +1,11 @@
+pypolyclip/version.py,sha256=8IUPTKHRbqW12xNJrZvqj2ms0nM6JMCm9H06g1lYOEc,157
+pypolyclip/polyclip.cpython-311-x86_64-linux-gnu.so,sha256=otmeJZVJwgPR-fK3GLfYwzo9J5tyZLZUdYCQWcP29PM,70856
+pypolyclip/pypolyclip.py,sha256=WUTBHrcuDbPLRRYLUlRxegoun0QTc3x2l80JKZQYcBg,7112
+pypolyclip/__init__.py,sha256=Xgd7Md5JObqKcjepvnwUGz5taJc7S_Ut29A2woxRphM,147
+pypolyclip/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypolyclip/tests/test_pypolyclip.py,sha256=_8KHeRhaFySrmlO7TPpahGfEapBUQ_7OsIF2VvIuSG4,14623
+pypolyclip-0.1a0.dist-info/top_level.txt,sha256=FdUJuGiC2ebjPOnVOhouC1wTq0gM0HVajdvhMoFb7O4,11
+pypolyclip-0.1a0.dist-info/LICENSE.rst,sha256=xMqb25XZPU6if6vHk1-Y6tFynmRVmDfAusgJTThtalU,2970
+pypolyclip-0.1a0.dist-info/RECORD,,
+pypolyclip-0.1a0.dist-info/WHEEL,sha256=VRSF0Lv11AVn-NmNHiDtoqwbtSIV1iT5jFF85M84Jwc,225
+pypolyclip-0.1a0.dist-info/METADATA,sha256=A1kPLUe2fJ_Fq0oqXm4OAERZq9yyIE1s4Bw-US9_iPA,4832
