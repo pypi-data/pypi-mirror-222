@@ -1,0 +1,103 @@
+import allure
+
+from service.app_a.asserts.goods.asserts_goods_ordermain import AssertsGoodsOrdermain
+from service.app_a.apis.goods import apis_goods_ordermain
+
+
+class FunsGoodsOrdermain(AssertsGoodsOrdermain):
+    @allure.step(title="已提车按钮接口-Y")
+    def goods_ordermain_pay(self, orderMainId="$None$", _assert=True, _all_is_None=False,  **kwargs):
+        """
+            url=/goods/orderMain/pay
+                params: orderMainId : text : 订单id
+                params: headers : 请求头
+        """
+        orderMainId = self.get_value_choice(orderMainId, list_or_dict=None, key=None, _all_is_None=_all_is_None)
+
+        _kwargs = self.get_kwargs(locals())
+        self.res = apis_goods_ordermain.goods_ordermain_pay(**_kwargs)
+
+        self.assert_goods_ordermain_pay(_assert, **_kwargs)
+        self.set_value(_kwargs)
+
+
+    @allure.step(title="订单列表文件导出接口-Y")
+    def goods_ordermain_orderexports(self, userMobile="$None$", billStatus="$None$", modelName="$None$", startTime="$None$", endTime="$None$", userName="$None$", shopName="$None$", testDriveIdStr="$None$", exportType="$None$", _assert=True,  **kwargs):
+        """
+            url=/goods/orderMain/orderExports
+                params: userMobile :  : 手机号
+                params: userName :  : 用户名
+                params: shopName :  : 店名
+                params: modelName :  : 车型
+                params: billStatus	 :  : 支付状态
+                params: startTime :  : 开始时间
+                params: endTime :  : 结束时间
+                params: exportType :  : 导出类型
+                params: testDriveIdStr :  : 订单集合字符串
+                params: headers : 请求头
+        """
+        userMobile = self.get_list_choice(userMobile, list_or_dict=None, key="userMobile")
+        billStatus = self.get_list_choice(billStatus, list_or_dict=None, key="billStatus")
+        modelName = self.get_list_choice(modelName, list_or_dict=None, key="modelName")
+        startTime = self.get_list_choice(startTime, list_or_dict=None, key="startTime")
+        endTime = self.get_list_choice(endTime, list_or_dict=None, key="endTime")
+        userName = self.get_list_choice(userName, list_or_dict=None, key="userName")
+        shopName = self.get_list_choice(shopName, list_or_dict=None, key="shopName")
+        testDriveIdStr = self.get_list_choice(testDriveIdStr, list_or_dict=None, key="testDriveIdStr")
+        exportType = self.get_list_choice(exportType, list_or_dict=None, key="exportType")
+
+        _kwargs = self.get_kwargs(locals())
+        self.res = apis_goods_ordermain.goods_ordermain_orderexports(**_kwargs)
+
+        self.assert_goods_ordermain_orderexports(_assert, **_kwargs)
+        self.set_output_value(_kwargs)
+        self.set_value(_kwargs)
+
+
+    @allure.step(title="订单查询接口-Y")
+    def goods_ordermain_getordermainpage(self, userMobile="$None$", modelName="$None$", startTime="$None$", endTime="$None$", userName="$None$", shopName="$None$", orderStatus="$None$", _assert=True,  **kwargs):
+        """
+            url=/goods/orderMain/getOrderMainPage
+                params: userMobile :  : 手机号
+                params: userName :  : 用户名
+                params: modelName :  : 车型
+                params: orderStatus	 :  : 支付状态 1001待支付 1002已支付 1003已完成 1004待退款
+                1005已取消 1006已退款 1007已驳回
+                params: startTime :  : 开始时间
+                params: endTime :  : 结束时间
+                params: shopName :  : 门店名称
+                params: headers : 请求头
+        """
+        userMobile = self.get_list_choice(userMobile, list_or_dict=None, key="userMobile")
+        modelName = self.get_list_choice(modelName, list_or_dict=None, key="modelName")
+        startTime = self.get_list_choice(startTime, list_or_dict=None, key="startTime")
+        endTime = self.get_list_choice(endTime, list_or_dict=None, key="endTime")
+        userName = self.get_list_choice(userName, list_or_dict=None, key="userName")
+        shopName = self.get_list_choice(shopName, list_or_dict=None, key="shopName")
+        orderStatus = self.get_list_choice(orderStatus, list_or_dict=None, key="orderStatus")
+
+        _kwargs = self.get_kwargs(locals())
+        self.res = apis_goods_ordermain.goods_ordermain_getordermainpage(**_kwargs)
+
+        self.assert_goods_ordermain_getordermainpage(_assert, **_kwargs)
+        self.set_output_value(_kwargs)
+        self.set_value(_kwargs)
+
+
+    @allure.step(title="订单详情查询-Y")
+    def goods_ordermain_getordermainbyid(self, orderMainId="$None$", _assert=True,  **kwargs):
+        """
+            url=/goods/orderMain/getOrderMainById
+                params: orderMainId :  : 订单id
+                params: headers : 请求头
+        """
+        orderMainId = self.get_list_choice(orderMainId, list_or_dict=None, key="orderMainId")
+
+        _kwargs = self.get_kwargs(locals())
+        self.res = apis_goods_ordermain.goods_ordermain_getordermainbyid(**_kwargs)
+
+        self.assert_goods_ordermain_getordermainbyid(_assert, **_kwargs)
+        self.set_output_value(_kwargs)
+        self.set_value(_kwargs)
+
+
