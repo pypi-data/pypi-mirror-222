@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pycur
+Version: 2023.7.29.0
+Summary: Modifying cursors is now easier than ever!
+Author: RixTheTyrunt
+Author-email: rixthetyrunt@gmail.com
+Requires-Python: >=3
+Description-Content-Type: text/markdown
