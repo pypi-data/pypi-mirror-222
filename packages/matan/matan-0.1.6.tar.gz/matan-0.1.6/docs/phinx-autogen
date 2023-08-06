@@ -1,0 +1,80 @@
+SPHINX-AUTOGEN(1)                                            Sphinx                                            SPHINX-AUTOGEN(1)
+
+NNAAMMEE
+       sphinx-autogen - Generate autodoc stub pages
+
+SSYYNNOOPPSSIISS
+       sspphhiinnxx--aauuttooggeenn [_o_p_t_i_o_n_s] <sourcefile> ...
+
+DDEESSCCRRIIPPTTIIOONN
+       sspphhiinnxx--aauuttooggeenn is a tool for automatic generation of Sphinx sources that, using the aauuttooddoocc extension, document items in‐
+       cluded in _a_u_t_o_s_u_m_m_a_r_y listing(s).
+
+       _s_o_u_r_c_e_f_i_l_e is the path to one or more reStructuredText documents containing _a_u_t_o_s_u_m_m_a_r_y entries with the  ::ttooccttrreeee::::  op‐
+       tion set. _s_o_u_r_c_e_f_i_l_e can be an _f_n_m_a_t_c_h-style pattern.
+
+OOPPTTIIOONNSS
+       --oo <<oouuttppuuttddiirr>>
+              Directory  to  place  the  output  file. If it does not exist, it is created.  Defaults to the value passed to the
+              ::ttooccttrreeee:: option.
+
+       --ss <<ssuuffffiixx>>,, ----ssuuffffiixx <<ssuuffffiixx>>
+              Default suffix to use for generated files. Defaults to rrsstt.
+
+       --tt <<tteemmppllaatteess>>,, ----tteemmppllaatteess <<tteemmppllaatteess>>
+              Custom template directory. Defaults to NNoonnee.
+
+       --ii,, ----iimmppoorrtteedd--mmeemmbbeerrss
+              Document imported members.
+
+       --aa,, ----rreessppeecctt--mmoodduullee--aallll
+              Document exactly the members in a module's ____aallll____ attribute.
+
+EEXXAAMMPPLLEE
+       Given the following directory structure:
+
+          docs
+          ├── index.rst
+          └── ...
+          foobar
+          ├── foo
+          │   └── __init__.py
+          └── bar
+              ├── __init__.py
+              └── baz
+                  └── __init__.py
+
+       and assuming ddooccss//iinnddeexx..rrsstt contained the following:
+
+          Modules
+          =======
+
+          .. autosummary::
+             :toctree: modules
+
+             foobar.foo
+             foobar.bar
+             foobar.bar.baz
+
+       If you run the following:
+
+          $ PYTHONPATH=. sphinx-autogen docs/index.rst
+
+       then the following stub files will be created in ddooccss:
+
+          docs
+          ├── index.rst
+          └── modules
+              ├── foobar.bar.rst
+              ├── foobar.bar.baz.rst
+              └── foobar.foo.rst
+
+       and each of those files will contain a aauuttooddoocc directive and some other information.
+
+SSEEEE AALLSSOO
+       sspphhiinnxx--bbuuiilldd((11)), sspphhiinnxx--aappiiddoocc((11))
+
+CCOOPPYYRRIIGGHHTT
+       2007-2023, the Sphinx developers
+
+5.3.0                                                     Mar 29, 2023                                         SPHINX-AUTOGEN(1)

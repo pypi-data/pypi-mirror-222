@@ -1,0 +1,127 @@
+* Why it was created?
+
+** My problem
+
+I had to rewrite and analyse  the data from PDFs exported by our tensile-test software - as I had 20 samples with 2 different methods and thermomodification of these samples it could take up to  8 hours -not really  efficient.
+
+I have decided to spent 3 months to write a package to make it automatically - real efficient
+
+- 20 tensile tests
+- 2 different methods
+- whole pack of samples w and w/out  modification
+
+  Approx time: 8hrs
+
+** Solution
+
+- Search for similar packages in PyPI - failes
+- Create my own
+
+  Time: 3 months already
+
+** Real problems
+
+ - I have not found good enough (well described) package for describing mechanical properties
+ - I have not found a package which allows to export mechanical properties to FEM analysis
+
+** Objective:
+
+Create package that is :
+- simple,
+- well documented
+- describe material parameters - not only mechanical, but I'd like to implement optical, magnetic, electrical etc.
+- allow  to create a FEM mateial model,  easy to import into any of FEM solvers.
+
+* What's inside for now?
+
+Not much yet:
+- tensile test, with recalculation to real values
+- not-well written file management part
+
+** File management
+
+This part was written to ensure better menagement while there are many composition of our material - let's say we do have:
+
+*** Composition
+5 samples of
+- 10%PET 90%rPET
+- 20%PET 80%rPET
+- ...
+- 50%PET 50%rPET
+
+We do want to compare their properties :
+1. in such case we can name the folder "Tensile",
+2. and the files:
+   - INJ-10pPET-90prPET,
+   - INJ-20pPET-80prPET 
+   - ...
+   - INJ-50pPET-50prPET etc.
+
+It will allow us to create a class sample with its composition as class parameters, so we can pass it to another further packages like MDPython, Pandas etc.
+
+*** Modifications
+We can add for example Annealing as thermal modification, so we would add A in the begining of the filename like:
+
+AINJ-20pPET-80prPet
+
+*** Comments
+Also in square brackets we can put comments like:
+
+AINJ[our comment]-20pPET-80prPet
+
+*** Problems
+
+That part is really bad written:
+
+Most parts are hardcoded, so we cant really modify the style.
+
+For example first letters before "-" sign have to define the manufacturing method of the material - it is not necessary if you all the time use the same material.
+
+*** Sum-up
+
+In general for now scheme looks like:
+
+ModificationMETHOD[comment]-XXp1stMaterialXXp2ndMaterial_no.ext
+
+Where XX is percent of the composition ingridient, and no on the end the number of the test.
+
+
+** Tensile test
+
+It is the best part of the package - it should work (I hope it is). I have spent most of the time trying to write a code which will allow us to use different norms and different materials like metals or polymers - whole package should be written like this. For now it is allowing us to define tensile test, and calculate real values, and contains only polymers ISO572 norm.
+
+** Non-instrumented Charpy's methods
+
+Implemented but not really working yet.
+
+* What have to be done:
+
+1. Finish the tensile test as it is the way how the other test and parameters should be defined
+2. Implement the module to create FEM Materials mode, with possibility to export these into many formats like CalculiX, OpenRadioss, ANSYS etc. (partially done)
+3. CI and tests to ensure integration fo the documentation as well as well written code
+4. Create the documentation how to implement another modules for smarter than me
+
+* What it should look like?
+
+- First of all: create new norm/test/property as simple as possible
+
+To ensure that whole package is divided into folders with materials:
+>insert the filetree<  
+
+and inside these folders properties like tensile, charpy etc. are defined.
+
+  
+ It was done as for example metals will not have any optical parameters, but it may be changed and properties might be over the materials folders.
+
+The __init__ file inside initialize the class with usual FEM parameters like in case of tensile: with Young's modulus, yield strength etc. Inside each folder of test - for now *tensile* there are different norms, for example ISO572, and __init__ file inside contains classes with parameters like tensile, strength etc.calculated according to the norm.
+
+* How it is licensed and why copyleft?
+
+I want to ensure every contributor as they will gain somethings back, and their contributions will never become close-sourced.
+
+FEM analysis is usually used by big companies to reduce the costs and improve the gains, then if it will not be strong copyleft, they could just close the source, and that's it.
+
+The GPL-like licences are protecting us from that - for now it is GPL, but in the future I think it should be LGPL, as it will give companies more courage to implement that module as their library rather than write their own.
+
+In Portuguese  "tempo é dinheiro"
+Or French  "le temps c'est de l'argent"

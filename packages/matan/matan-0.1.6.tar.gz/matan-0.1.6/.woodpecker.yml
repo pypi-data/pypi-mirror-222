@@ -1,0 +1,48 @@
+when:
+- event: pull_request
+- event: push
+  branch: main
+
+steps:
+  lint:
+    image: python:3.10
+    when:
+    - event: pull_request
+    - event: push
+      branch: main
+    commands:
+    - pip install black
+    - black --check matan
+
+  build:
+    image: python:3.10
+    when:
+    - event: pull_request
+    - event: push
+      branch: main
+    commands:
+    - pip install flit
+    - flit build
+
+  test:
+    image: python:3.10
+    when:
+    - event: pull_request
+    - event: push
+      branch: main
+    commands:
+    - pip install dist/matan-*.whl
+    - python tests/sample_project/
+
+  deploy:
+    image: python:3.10
+    when:
+    - event: pull_request
+    - event: push
+      branch: main
+    secrets:
+    - flit_username
+    - flit_password
+    commands:
+    - pip install flit
+    - flit publish
