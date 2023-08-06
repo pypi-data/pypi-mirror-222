@@ -1,0 +1,13 @@
+midiutil
+matplotlib
+pygame
+sklearn
+requests
+gdown
+pillow
+mido
+ttkthemes
+h5py
+scipy
+scikit-learn
+numpy
