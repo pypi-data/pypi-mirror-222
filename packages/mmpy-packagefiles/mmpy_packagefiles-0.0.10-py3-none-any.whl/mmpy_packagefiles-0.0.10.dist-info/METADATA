@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mmpy-packagefiles
+Version: 0.0.10
+Summary: Package for mmpy
+Author-email: Garrett E Katz <gkatz01@syr.edu>, Chad Smith <csmit112@syr.edu>
+Project-URL: Homepage, https://github.com/garrettkatz/mmpy
+Project-URL: Bug Tracker, https://github.com/garrettkatz/mmpy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mmpy
