@@ -1,0 +1,8 @@
+README.md
+setup.py
+dumb_menu/__init__.py
+dy_menu.egg-info/PKG-INFO
+dy_menu.egg-info/SOURCES.txt
+dy_menu.egg-info/dependency_links.txt
+dy_menu.egg-info/requires.txt
+dy_menu.egg-info/top_level.txt
