@@ -1,0 +1,13 @@
+[http]
+host = "0.0.0.0"
+port = 8080
+
+[meshtastic.server]
+host = "meshtastic.server.example"
+port = 6667
+
+[meshtastic.bot]
+nickname = "alertmanagermeshtastic"
+
+[[meshtastic.channels]]
+name = "#party"
