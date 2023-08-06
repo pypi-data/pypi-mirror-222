@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: barcodes-uc
+Version: 0.6.1
+Summary: A library to generate barcodes
+Author: Pedro Juan Royo
+Author-email: pedro.juan.royo@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.25.1,<2.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pillow (>=10.0.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+# Barcodes python module
+
+In progress...
+
+Thanks to Melisa for her precious help.
