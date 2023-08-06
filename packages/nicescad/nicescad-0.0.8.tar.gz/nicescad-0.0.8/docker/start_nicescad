@@ -1,0 +1,116 @@
+#!/bin/bash
+
+# Prompts used to guide the creation of this script:
+# - Convert python code to OpenSCAD code
+# - Provide a RESTful service for the conversion
+# - Dockerize the service
+# - Handle user-provided python code securely
+# - Provide an interface for providing python code
+# - Provide testing for the conversion function
+# - Allow conversion of python code from a file
+# - Handle expected OpenSCAD code formatting
+# - Handle interaction of multiple services using Docker Compose
+# - Bash option to interact with services
+
+# This script was created to resolve https://github.com/WolfgangFahl/nicescad/issues/28
+# Author: ChatGPT-4 by OpenAI
+# Date: 2023-07-30
+
+function usage {
+    echo "Usage: $0 start|stop|restart|rebuild|bash [OPTIONS]"
+    echo "   start|stop|restart|rebuild|bash: Start, stop, restart, rebuild and start the services, or start a bash shell in a service container"
+    echo "   OPTIONS:"
+    echo "     --nicescad-port : Port for the nicescad service (default 9858)"
+    echo "     --p2scad-port   : Port for the p2scad service (default 8093)"
+    echo "     --service       : Specify the service for the bash command (nicescad or p2scad)"
+}
+nicescad_port=9858
+p2scad_port=8093
+log_file="/var/log/nicescad/nicescad.log"
+
+function usage {
+  echo "Usage: $0 {start|stop|restart|bash|rebuild} [--nicescad-port <port number>] [--p2scad-port <port number>] [--log-file <log file path>]"
+  exit 1
+}
+
+function start_services {
+  echo "Starting services..."
+  sudo mkdir -p $(dirname "${log_file}")
+  sudo touch ${log_file}
+  sudo rm ${log_file}
+  sudo touch ${log_file}
+  sudo chown ${USER}:$(id -gn) ${log_file}
+  nohup docker-compose up > ${log_file} 2>&1 &
+  sleep 5
+  check_services
+}
+
+function stop_services {
+  echo "Stopping services..."
+  docker-compose down
+}
+
+function rebuild_services {
+  echo "Rebuilding services..."
+  docker-compose down
+  docker-compose build
+  start_services
+}
+
+function bash_into {
+  service=$1
+  docker exec -it ${service}_service bash
+}
+
+function check_services {
+  echo "Checking if services have started..."
+  if ! docker ps | grep -q nicescad_service; then
+    echo "nicescad service failed to start. Check ${log_file} for more details."
+  else
+    echo "nicescad service started successfully."
+  fi
+
+  if ! docker ps | grep -q p2scad_service; then
+    echo "p2scad service failed to start. Check ${log_file} for more details."
+  else
+    echo "p2scad service started successfully."
+  fi
+}
+
+if [ $# -lt 1 ]
+then
+  usage
+else
+  while [ "$1" != "" ]
+  do
+    option="$1"
+    case ${option} in
+      start) start_services ;;
+      stop) stop_services ;;
+      restart) stop_services ; start_services ;;
+      bash)
+        if [ $# -lt 2 ]
+        then
+          echo "You need to specify a service name (nicescad or p2scad)"
+          exit 1
+        fi
+        bash_into $2
+        ;;
+      rebuild) rebuild_services ;;
+      --nicescad-port)
+        shift
+        nicescad_port=$1
+        ;;
+      --p2scad-port)
+        shift
+        p2scad_port=$1
+        ;;
+      --log-file)
+        shift
+        log_file=$1
+        ;;
+      *) usage ;;
+    esac
+    shift
+  done
+fi
