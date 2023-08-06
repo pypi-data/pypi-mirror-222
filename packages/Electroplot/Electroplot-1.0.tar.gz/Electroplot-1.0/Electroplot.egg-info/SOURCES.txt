@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+Electroplot/Electroplot.py
+Electroplot/__init__.py
+Electroplot/example.py
+Electroplot.egg-info/PKG-INFO
+Electroplot.egg-info/SOURCES.txt
+Electroplot.egg-info/dependency_links.txt
+Electroplot.egg-info/requires.txt
+Electroplot.egg-info/top_level.txt
+Electroplot/Functions/Arranger.py
+Electroplot/Functions/Graphical.py
+Electroplot/Functions/__init__.py
+Electroplot/Functions/dataGrabber.py
+Electroplot/Functions/masks.py
+Electroplot/Functions/models.py
