@@ -1,0 +1,11 @@
+pyuul_kmeans/VolumeMaker.py,sha256=Vq9B-HUIDWxhERo_-L-SrGa-97evdH0GnELVKv0mbs8,23729
+pyuul_kmeans/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyuul_kmeans/utils.py,sha256=c0swM-kM2ocnPLzz0dmq3R6O4frV4y5hz_6OR-IHnlU,13083
+pyuul_kmeans/sources/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyuul_kmeans/sources/globalVariables.py,sha256=ApP1_9Fk8qg7G7bGUL81XknyPDx3vvbSV67WXP22tKU,805
+pyuul_kmeans/sources/hashings.py,sha256=x05mWSwCLNaAoo8Mm8jXlehgOX-tQrtWBtY1FTNMWCs,13128
+pyuul_kmeans-0.0.2.dist-info/LICENSE,sha256=WI5JtXXhjcqnIcPllDA1ZtuxNnZ515xjElcILo7z28o,1073
+pyuul_kmeans-0.0.2.dist-info/METADATA,sha256=I8rX-bX5kYeVo37adzToUrMT2RluXgalKYNj4Ea45Vk,891
+pyuul_kmeans-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyuul_kmeans-0.0.2.dist-info/top_level.txt,sha256=XgDEDAccCmPndZGcN7cpFWZ8Ju0W3sO6ltFNTt4MP1w,13
+pyuul_kmeans-0.0.2.dist-info/RECORD,,
