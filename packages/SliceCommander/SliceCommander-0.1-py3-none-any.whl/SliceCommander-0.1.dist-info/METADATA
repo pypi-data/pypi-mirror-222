@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: SliceCommander
+Version: 0.1
+Summary: FABRIC Slice Commander
+Home-page: https://github.com/fabric-testbed/slice-commander
+Author: Ezra Kissel
+Keywords: fabric slice command
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: ptyprocess
+Requires-Dist: libtmux
+Requires-Dist: pygments
+Requires-Dist: docopt
+
