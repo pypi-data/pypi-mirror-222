@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cheemthon
+Version: 0.0.1
+Summary: A Programming language for cheems written by himself
+Home-page: 
+Author: Rex Script
+Author-email: kiplinkenterprises@gmail.com
+License: MIT
+Keywords: Language
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a programming language based on python i made it cause i was bored 
+
+Change Log
+==========
+
+0.0.1 (01/08/2023)
+-------------------
+- First Release
