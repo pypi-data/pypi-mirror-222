@@ -1,0 +1,8 @@
+LICENSE
+PicoAirQuality.py
+README.md
+WheelSetup.py
+KitronikPicoSmartAirQuality.egg-info/PKG-INFO
+KitronikPicoSmartAirQuality.egg-info/SOURCES.txt
+KitronikPicoSmartAirQuality.egg-info/dependency_links.txt
+KitronikPicoSmartAirQuality.egg-info/top_level.txt
