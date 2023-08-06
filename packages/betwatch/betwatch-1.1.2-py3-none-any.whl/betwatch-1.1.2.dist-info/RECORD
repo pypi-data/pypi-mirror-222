@@ -1,0 +1,16 @@
+betwatch/__about__.py,sha256=XRDWeb6-4FvthuLFb__Zja858sP3DE1fUJoTrowUhXg,127
+betwatch/__init__.py,sha256=t8AW_t_sczCvG8PTUlcCZZvmOtBsa6zz42ADM0u9xew,1000
+betwatch/client.py,sha256=Bct6l1fbpGl_MDUCarEPbgeTe6-8Vt0LRIpBv-FaZ_8,8765
+betwatch/client_async.py,sha256=L4HW6CGKsDCXSH48Da_jhK-4XSWdMKpgbUKkDLnbAyA,28031
+betwatch/queries.py,sha256=hitNs283BIuhYZBKdRiU8F5H1sDctuwKmT1xcDELAAI,5038
+betwatch/types/__init__.py,sha256=8Yda6crk1XDVpmLihGqnUeF5r_gWMfVA1EPyX8jaypY,368
+betwatch/types/bookmakers.py,sha256=qj6qcmKMdK0DpBrjHVzmpFDJbDWQa7sJKdL1LHl0iqI,2668
+betwatch/types/exceptions.py,sha256=dpEvhprCkKkO5wBfu80sntw_UWfiRscAiTz5aU3kGWk,104
+betwatch/types/filters.py,sha256=_8tAunAaz7hgM0Njapa_Tm3H60TewTaTgMlGKKfodDo,4456
+betwatch/types/markets.py,sha256=FHFX3YB6lN9JxPUDJjVn_lqqmei3G2t-6tQ_v5MNXUA,5012
+betwatch/types/race.py,sha256=WTDVekGL77QBw0mokgJXb74HDMeMgCbv_XzKTjtlUFo,12569
+betwatch/types/updates.py,sha256=QQILWmQTeaXpUOJxnJzRhJPByMwt62VjMUZ6zpR3QEg,126
+betwatch-1.1.2.dist-info/METADATA,sha256=S7UyaMmfO411uaC6h0xWUgLFcw7DphY3nzBzRShbHgY,2098
+betwatch-1.1.2.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+betwatch-1.1.2.dist-info/licenses/LICENSE.txt,sha256=DuISfSYfnTZlrVBZgzztgwVRlBhcHL6UrBkqYgNvsVo,1097
+betwatch-1.1.2.dist-info/RECORD,,
