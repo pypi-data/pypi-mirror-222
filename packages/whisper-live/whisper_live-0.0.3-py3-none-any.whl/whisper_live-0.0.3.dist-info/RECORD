@@ -1,0 +1,9 @@
+whisper_live/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whisper_live/client.py,sha256=Vt9hxKqi0USJ3OTtKb7EBtJ7oBmf8ttuKn5icp_L2tw,9412
+whisper_live/server.py,sha256=2Z8KG_8ocNo6dVd-OGWY-mLo-GsA-AUdipVZozWORfU,11926
+whisper_live/transcriber.py,sha256=iCQUbu3td2EiaxEXVNV2a8-ruYuVhPcNQQseODNfsXI,32804
+whisper_live-0.0.3.dist-info/LICENSE,sha256=_6BjBo-xp5aUpAgOXvO2XeRhTzQtK9mrSAC5ot0Yjq0,1085
+whisper_live-0.0.3.dist-info/METADATA,sha256=0LmPIE8bVaMZ9wliuPfIzrVW9nWizaB4hhCmZ_ScMr4,4551
+whisper_live-0.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+whisper_live-0.0.3.dist-info/top_level.txt,sha256=VWK-mjNjeDA02SkWYHOo3yvCuYFQ8AiIj6RdLtDl_cI,13
+whisper_live-0.0.3.dist-info/RECORD,,
