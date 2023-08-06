@@ -1,0 +1,57 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pfse_starterkit"
+authors = [{name = "Connor Ferster", email = "connor@structuralpython.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dynamic = ["version", "description"]
+
+dependencies = [
+    "streamlit",
+    "numpy",
+    "pandas",
+    "openpyxl",
+    "lxml",
+    "sympy",
+    "shapely>=2.0.0",
+    "vtk",
+    "matplotlib",
+    "plotly",
+    "kaleido",
+    "sectionproperties",
+    "concreteproperties",
+    "pycba>=0.2.0",
+    "PyNiteFEA>=0.0.78",
+    "anastruct",
+    "scipy",
+    "handcalcs",
+    "forallpeople",
+    "pytest",
+    "ipytest",
+    "rich",
+    "tqdm",
+    "papermodels",
+    "xlwings",
+    "black",
+    "jupyterlab",
+    "IPython",
+    "ipywidgets",
+    "ipykernel",
+    "jupyterlab-katex",
+    "jupyterlab-mathjax3",
+    "nbconvert",
+    "pyperclip",
+    "typer",
+    "magicgui[pyside2]",
+    "flit"
+]
+
+[project.urls]
+Home = "https://github.com/connorferster/pfse_starterkit"
+
+[project.scripts]
+pfse_verify = "pfse_starterkit.__main__:check_installs"
