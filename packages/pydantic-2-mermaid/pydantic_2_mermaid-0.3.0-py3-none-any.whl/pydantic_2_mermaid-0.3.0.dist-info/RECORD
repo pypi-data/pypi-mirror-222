@@ -1,0 +1,15 @@
+pydantic_2_mermaid/__init__.py,sha256=JHF3Elgj5jArLPgYkGfIEt44D2J2W77Kqet1SgCgL4w,133
+pydantic_2_mermaid/__main__.py,sha256=2U8fwZkPsf_6p4MFmCMpEIUO2ovvvY2vNCaW55qOxgs,2278
+pydantic_2_mermaid/mermaid_generator.py,sha256=C6XIPFgLUKGJ5Q40sNIAJ-6Iv5bEmPvoo-9s0oXpAxk,6418
+pydantic_2_mermaid/models.py,sha256=zzrPruiR-2BwIVqaTZlkz2XMoXqoLYKZsfsi_Tt2uLg,1383
+pydantic_2_mermaid/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_mermaid/__init__.py,sha256=q77uvDmHMjtM9PGWoX10L6tAcZojm3JfUYeIgTEy5q4,83
+pydantic_mermaid/__main__.py,sha256=HFA-LkvQjhsciEcWJIFpo78RYLD0f-8JqOUUuO-hXCg,2276
+pydantic_mermaid/mermaid_generator.py,sha256=6tUTGyCgyVbe4H9r4wI09IcdZSPbfZUfFJO2tIIUwPE,6434
+pydantic_mermaid/models.py,sha256=xogWuaz4yVyB8OWaxDfHWxTi6_k_W55aC5qEVvEOzrk,1329
+pydantic_mermaid/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_2_mermaid-0.3.0.dist-info/METADATA,sha256=PPlp8OheYmQXM3X-0M2aEHBEqjJ5MwoaPs8yc9N9xaA,3127
+pydantic_2_mermaid-0.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pydantic_2_mermaid-0.3.0.dist-info/entry_points.txt,sha256=ZJKJ5iVG92BdkpZBZQ9xg3ppv2aOvhzBTRkNxT3RfzE,72
+pydantic_2_mermaid-0.3.0.dist-info/top_level.txt,sha256=Hfc_tly38pXFvwGu1Qrz_UZVhsWU94M2ZMrZbYU1N_c,19
+pydantic_2_mermaid-0.3.0.dist-info/RECORD,,
