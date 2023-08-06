@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+KindaTools.egg-info/PKG-INFO
+KindaTools.egg-info/SOURCES.txt
+KindaTools.egg-info/dependency_links.txt
+KindaTools.egg-info/top_level.txt
