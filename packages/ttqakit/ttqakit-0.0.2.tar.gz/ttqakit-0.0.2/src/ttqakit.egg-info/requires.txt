@@ -1,0 +1,9 @@
+torch
+transformers
+datasets
+peft
+openai
+matplotlib
+matplotlib
+wandb
+rouge_chinese
