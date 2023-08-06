@@ -1,0 +1,7 @@
+setup.py
+githup/__init__.py
+githup/githup.py
+githup.egg-info/PKG-INFO
+githup.egg-info/SOURCES.txt
+githup.egg-info/dependency_links.txt
+githup.egg-info/top_level.txt

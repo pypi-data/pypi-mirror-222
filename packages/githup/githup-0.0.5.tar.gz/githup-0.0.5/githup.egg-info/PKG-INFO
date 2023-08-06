@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: githup
+Version: 0.0.5
+Summary: Upload files on GitHub using Python
+Home-page: UNKNOWN
+Author: Cyril Frébel
+Author-email: cyril.frebel@proton.me
+License: UNKNOWN
+Keywords: python,upload,github,files
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+download/initiate/commit new repositories and create files to upload them on GitHub using Python
+
