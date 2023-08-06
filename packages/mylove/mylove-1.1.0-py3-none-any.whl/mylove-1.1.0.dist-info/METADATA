@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mylove
+Version: 1.1.0
+Summary: Drawing picture for loves
+Home-page: 
+Author: Umidyor
+Author-email: umidyor007@gmail.com
+License: MIT
+Keywords: drawing love,love picture
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+Requires-Dist: pillow
+Requires-Dist: requests
+
+First, check out the documentation on how this package works:
+
+https://medium.com/@umidyor007/my-drawing-picture-8d425bb2bdd8
+
+Change Log
+============
+
+0.0.1(26.07.2023)
+-----------------
+- Fourth Release
