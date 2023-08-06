@@ -1,0 +1,91 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_mylog"
+description = "My logger library."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Koviubi56", email = "koviubi56@duck.com" }]
+keywords = ["logger", "log", "logging"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    # TODO: check these vvvvvvvvvvvvvvvvvvvvv
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: System :: Logging",
+    "Typing :: Typed",
+]
+dynamic = ["version", "dependencies"]
+
+[tool.setuptools.dynamic]
+version = { attr = "mylog.__version__" }
+dependencies = { file = "requirements.txt" }
+
+[tool.setuptools.package-data]
+mylog = ["py.typed"]
+
+[project.urls]
+"Release notes" = "https://github.com/koviubi56/mylog/blob/main/CHANGELOG.md"
+Source = "https://github.com/koviubi56/mylog"
+"Bug Tracker" = "https://github.com/koviubi56/mylog/issues"
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+select = ["ALL"]
+ignore = [
+    "ANN101",
+    "ANN102",
+    "COM812",
+    "D100",
+    "D105",
+    "D212",
+    "D205",
+    "D415",
+    "EM",
+    "FA",
+    "FBT",
+    "SLF001",
+    "TRY003",
+]
+per-file-ignores = { "tests/*" = ["D", "S101"], "noxfile.py" = ["D103"] }
+line-length = 79
+target-version = "py38"
+
+[tool.ruff.pydocstyle]
+convention = "google"
+ignore-decorators = ["typing.overload"]
+
+[[tool.lemming.linters]]
+packages = ["ruff"]
+command = "{pyexe} -m ruff check . --show-source"
+run_first = true
+
+[[tool.lemming.formatters]]
+packages = ["black"]
+format_command = "{pyexe} -m black -l 79 {path}"
+check_command = "{pyexe} -m black -l 79 --check --extend-exclude .*venv.* {path}"
+
+[[tool.lemming.formatters]]
+packages = ["setup_cfg_fmt"]
+format_command = "{pyexe} -m setup_cfg_fmt --include-version-classifiers"
+# no check
+
+[[tool.lemming.linters]]
+packages = ["pyroma"]
+command = "{pyexe} -m pyroma {path}"
