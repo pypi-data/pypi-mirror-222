@@ -1,0 +1,13 @@
+README.rst
+setup.py
+scrapy_custom_proxy_pool/__init__.py
+scrapy_custom_proxy_pool/middlewares.py
+scrapy_custom_proxy_pool/policy.py
+scrapy_custom_proxy_pool.egg-info/PKG-INFO
+scrapy_custom_proxy_pool.egg-info/SOURCES.txt
+scrapy_custom_proxy_pool.egg-info/dependency_links.txt
+scrapy_custom_proxy_pool.egg-info/requires.txt
+scrapy_custom_proxy_pool.egg-info/top_level.txt
+scrapy_custom_proxy_pool/collector/__init__.py
+scrapy_custom_proxy_pool/collector/base.py
+scrapy_custom_proxy_pool/collector/qg.py
