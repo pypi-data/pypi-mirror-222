@@ -1,0 +1,13 @@
+dal/__init__.py,sha256=-0ppAN-dYVUfZoxToyFg_p6eCI2qwnYJl7sZU7Shp2Q,183
+dal/_dal.cp39-win_amd64.pyd,sha256=Ar7KMjc5rk299B6zezlprPqUPlM5i9HUOii3_UCLsOo,4711424
+dal/api.py,sha256=fNlmbOmtx7fHDrINpdOU52RauHvfjUMXz6xnZn0mGpc,367
+dal/dal.py,sha256=gzWOuLhm_9o3p49JxrOh5lvrRpVUEoeupzM1qRGYqRo,64341
+dal/dal_wrap.cpp,sha256=a7Aca6A7Vbx88ePeecEMD0i7FC3J5bGa-fmNboIxAR0,746005
+dal/examples/001.european.py,sha256=IcywjyXDC4JV2iNET8Kt7CyzE-nFoS5WaWfQ59_p2cM,564
+dal/examples/002.uoc.py,sha256=OylflKk1phHEQ3u0TyEwqhy9jij4XdbUZxUCugHAp1w,1442
+dal/examples/003.snowball.py,sha256=CyUTaLImfpYT0Ys0HCi_lHzS4GLXbncU3ePbWYqwFrM,2399
+dal/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dal_python-0.3.5.dist-info/METADATA,sha256=dkJ8J_mBaP8DtQQ_7U8LVoPwrlyKQN-pEfv_J7sndYQ,821
+dal_python-0.3.5.dist-info/WHEEL,sha256=J_4V_gB-O6Y7Pn6lk91K27JaIhI-q07YM5J8Ufzqla4,100
+dal_python-0.3.5.dist-info/top_level.txt,sha256=0NCtz794zxjwhJcMbphMLr-IHz_8WAyZFNMqTPXtulw,4
+dal_python-0.3.5.dist-info/RECORD,,
