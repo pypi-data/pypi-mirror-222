@@ -1,0 +1,3 @@
+[console_scripts]
+tflcli=tube.tube:app
+
