@@ -1,0 +1,70 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = [
+  "hatchling >= 1.11.0",
+  "pip >= 22.0.0"
+]
+
+[project]
+name            = "envkeeper"
+version         = "0.0.1"
+description     = "Use environmental variables to store global data. Like localStorage, but for python!"
+readme          = "README.md"
+license         = "MIT"
+requires-python = ">=3.9"
+
+authors = [
+  { name = "Christopher Woodall", email = "woodall.christopher@gmail.com" },
+]
+
+keywords = []
+
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Environment :: Console",
+  "Framework :: Hatch",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+]
+
+dependencies = [
+  "pre-commit",
+  "pytest",
+]
+
+
+[project.urls]
+GitHub = "https://github.com/christopherwoodall/blobstorage"
+
+
+[project.optional-dependencies]
+developer = [
+  "hatch",            # Build tool
+  "mypy",             # Type checking
+  "pydantic",         # Type checking
+  "types-PyYAML",     # Type checking
+]
+
+
+[tool.hatch.build]
+ignore-vcs   = false
+reproducible = true
+directory    = "dist"
+include = [
+  "envkeeper/",
+  ".git",
+  ".gitignore",
+  "LICENSE",
+  "pyproject.toml",
+  "README.md",
+]
+exclude = [ ]
+
+[tool.hatch.metadata]
+allow-direct-references = true
