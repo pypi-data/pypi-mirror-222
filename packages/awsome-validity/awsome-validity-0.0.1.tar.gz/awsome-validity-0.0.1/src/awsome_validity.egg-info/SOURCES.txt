@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/awsome_validity.egg-info/PKG-INFO
+src/awsome_validity.egg-info/SOURCES.txt
+src/awsome_validity.egg-info/dependency_links.txt
+src/awsome_validity.egg-info/top_level.txt
+src/validity/__init__.py
+src/validity/validate.py
