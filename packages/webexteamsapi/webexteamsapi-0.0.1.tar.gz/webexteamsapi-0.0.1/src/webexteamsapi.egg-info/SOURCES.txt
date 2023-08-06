@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/webexteamsapi.egg-info/PKG-INFO
+src/webexteamsapi.egg-info/SOURCES.txt
+src/webexteamsapi.egg-info/dependency_links.txt
+src/webexteamsapi.egg-info/entry_points.txt
+src/webexteamsapi.egg-info/requires.txt
+src/webexteamsapi.egg-info/top_level.txt
