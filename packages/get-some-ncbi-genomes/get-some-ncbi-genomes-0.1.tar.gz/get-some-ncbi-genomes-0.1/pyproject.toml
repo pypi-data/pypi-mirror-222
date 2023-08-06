@@ -1,0 +1,17 @@
+[project]
+name = "get-some-ncbi-genomes"
+description = "download one or more NCBI genomes by accession"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.1"
+
+dependencies = ["sourmash>=4.8.0,<5", "lxml==4.9.3"]
+
+[metadata]
+license = { text = "BSD 3-Clause License" }
+
+[project.scripts]
+"get-some-ncbi-genomes" = "get_some_ncbi_genomes:main"
+
+[project.entry-points."sourmash.cli_script"]
+xyz_command = "get_some_ncbi_genomes:Command_DownloadNCBI"

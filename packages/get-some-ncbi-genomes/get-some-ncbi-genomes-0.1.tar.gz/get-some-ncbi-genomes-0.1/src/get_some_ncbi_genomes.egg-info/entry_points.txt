@@ -1,0 +1,5 @@
+[console_scripts]
+get-some-ncbi-genomes = get_some_ncbi_genomes:main
+
+[sourmash.cli_script]
+xyz_command = get_some_ncbi_genomes:Command_DownloadNCBI
