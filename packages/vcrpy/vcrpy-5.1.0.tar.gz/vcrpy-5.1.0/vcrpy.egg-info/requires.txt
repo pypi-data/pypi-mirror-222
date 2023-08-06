@@ -1,0 +1,6 @@
+PyYAML
+wrapt
+yarl
+
+[:python_version < "3.10"]
+urllib3<2
