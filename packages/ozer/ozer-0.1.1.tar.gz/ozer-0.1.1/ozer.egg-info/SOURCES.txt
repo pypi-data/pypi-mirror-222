@@ -1,0 +1,7 @@
+README.md
+setup.py
+ozer.egg-info/PKG-INFO
+ozer.egg-info/SOURCES.txt
+ozer.egg-info/dependency_links.txt
+ozer.egg-info/requires.txt
+ozer.egg-info/top_level.txt
