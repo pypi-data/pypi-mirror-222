@@ -1,0 +1,9 @@
+matplotlib
+numpy
+pandas
+paxutils
+poutyne
+scikit-learn
+seaborn
+torch
+torchtext

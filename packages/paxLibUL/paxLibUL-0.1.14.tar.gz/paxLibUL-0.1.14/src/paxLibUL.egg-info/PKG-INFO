@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: paxLibUL
+Version: 0.1.14
+Summary: Miscellaneous utilities for PAX notebooks
+Home-page: https://github.com/PAX-ULaval/pax-libraries
+Author: PAX-UL
+Project-URL: Bug Tracker, https://github.com/PAX-ULaval/pax-libraries/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# A library for internal formation tools used in PaX ULaval formations
+Most of the content is to reduce code duplication into our formation and to ease the release of those tools among 
+the formations in the platform.
