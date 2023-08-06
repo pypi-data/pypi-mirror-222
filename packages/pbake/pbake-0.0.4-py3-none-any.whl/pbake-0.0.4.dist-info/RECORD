@@ -1,0 +1,11 @@
+Bakefile.py,sha256=In3JyswZCkO3Gi0pZPA5VvwYv575V3xeEgXjW_Cxg3Y,364
+setup.py,sha256=0rGHaCwxoQipsY3qIt49b0ejgO8ZYMZZklQxnoDdRFA,152
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/bake.py,sha256=VAWe2SmITotD5XzB39902sMxO8dyixx3Bw8dAPi4_6w,712
+src/cookbook.py,sha256=8muGGFJdh9GjBFJPXl5kCwbbqth-XDmBenWzkAr11m4,1577
+src/shell.py,sha256=53Q1Lbh6nj6OGWCI3NmYaburGC6jjz-IukiBopnvkCg,95
+pbake-0.0.4.dist-info/METADATA,sha256=OSKEc_ksnRQQF-Fv5TsSuKgJdd8uvSQnY7eoCguJOVo,573
+pbake-0.0.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pbake-0.0.4.dist-info/entry_points.txt,sha256=zCO3XXddfgQKAYNNKTE4mooL0Ug29_Jqj0RjdyOthFY,39
+pbake-0.0.4.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pbake-0.0.4.dist-info/RECORD,,
