@@ -1,0 +1,2 @@
+[console_scripts]
+pycbsdk_print_rates = pycbsdk.examples.print_rates:main
