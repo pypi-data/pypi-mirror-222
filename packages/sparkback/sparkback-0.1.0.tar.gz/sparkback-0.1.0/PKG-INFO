@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sparkback
+Version: 0.1.0
+Summary: Sparklines Library
+Home-page: https://github.com/mmichie/sparkback
+Author: Matt Michie
+Author-email: mmichie@gmail.com
+Requires-Python: >=3.8.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
