@@ -1,0 +1,14 @@
+osuExchange/__init__.py,sha256=iWQzqbSxY86Mort4MWJE5bjPwQAiz34Wbe2wYEELBeg,166
+osuExchange/api.py,sha256=VjTQyN9O-QP4V5ggL-VS_Lun5sKFrpJsu4l4cLNdceo,1320
+osuExchange/auth.py,sha256=ul6BZ6pB0D3WshfIxobFKGxSD8TSYz2UQ_OVgXH8_VI,4353
+osuExchange/beatmaps.py,sha256=P5be3PO-kYYZScv3Hjl5jVLdfYLMCN0FlMKRZWTyynk,7836
+osuExchange/client.py,sha256=fMmFmMP99ckd-S2HgjeiHc4PagS3Cp23Y3nyra6nFv4,749
+osuExchange/scores.py,sha256=dj0J3YsmcU4xgAmBLV_NJvVkmgCYw9NqDzZ_x01x4mI,3399
+osuExchange/seasonalbg.py,sha256=gC3FiEC45mwnW5tYP6iClPZnGq0GhRm4LXcrXF3h87k,753
+osuExchange/typing.py,sha256=yYw1vL0hxEX9_op4vVoXKoMFSjYxSDbt6bFrbeWtQEU,221
+osuExchange/users.py,sha256=drMqivS_IMpjFyw7_qOtxxqGtDEdJQ_7uL_w73pZfI4,6833
+osuExchange/util.py,sha256=dXVH7K_iWYmmfTZgQsVRqPKP5VWyX5zasBx6rvLufOw,671
+osuExchange-0.0.1.dist-info/METADATA,sha256=VlvQSqTgG1xSCWXSEBEDOm4-0AKOlSTs07gyC94S1VA,855
+osuExchange-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+osuExchange-0.0.1.dist-info/top_level.txt,sha256=ClnLynOXjvSBfzxrLanRJyB81dpAJ-vc6voIH3UrV_8,12
+osuExchange-0.0.1.dist-info/RECORD,,
