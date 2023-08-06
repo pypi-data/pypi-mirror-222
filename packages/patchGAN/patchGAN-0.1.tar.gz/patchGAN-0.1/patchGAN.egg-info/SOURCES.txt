@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+patchGAN.egg-info/PKG-INFO
+patchGAN.egg-info/SOURCES.txt
+patchGAN.egg-info/dependency_links.txt
+patchGAN.egg-info/requires.txt
+patchGAN.egg-info/top_level.txt
+patchgan/__init__.py
+patchgan/disc.py
+patchgan/io.py
+patchgan/losses.py
+patchgan/trainer.py
+patchgan/transfer.py
+patchgan/unet.py
