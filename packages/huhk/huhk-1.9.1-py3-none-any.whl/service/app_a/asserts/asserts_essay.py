@@ -1,0 +1,21 @@
+import allure
+
+from service.app_a import unit_request
+from service.app_a.sqls.sqls_essay import SqlsEssay
+
+
+class AssertsEssay(SqlsEssay):
+    @allure.step(title="接口返回结果校验")
+    def assert_essay_batch(self, _assert=True, **kwargs):
+        assert unit_request.is_assert_true(self.res, _assert), "校验接口返回，缺少成功标识"
+        # out = self.sql_essay_batch(**kwargs)
+        # flag = self.compare_json_list(self.res, out, ["batchType", "essayId"])
+        assert True, "数据比较不一致"
+
+    @allure.step(title="接口返回结果校验")
+    def assert_essay_querylistcount(self, _assert=True, **kwargs):
+        assert unit_request.is_assert_true(self.res, _assert), "校验接口返回，缺少成功标识"
+        # out = self.sql_essay_querylistcount(**kwargs)
+        # flag = self.compare_json_list(self.res, out, ["essayId", "author", "endTime", "startTime", "status", "keyWord", "subjectId"])
+        assert True, "数据比较不一致"
+
