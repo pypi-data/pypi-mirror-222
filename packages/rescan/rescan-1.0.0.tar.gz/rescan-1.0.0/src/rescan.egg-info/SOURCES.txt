@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/rescan.egg-info/PKG-INFO
+src/rescan.egg-info/SOURCES.txt
+src/rescan.egg-info/dependency_links.txt
+src/rescan.egg-info/requires.txt
+src/rescan.egg-info/top_level.txt
+tests/test.py
