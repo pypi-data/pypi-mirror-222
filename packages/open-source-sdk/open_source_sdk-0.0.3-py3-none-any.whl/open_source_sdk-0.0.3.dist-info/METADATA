@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: open-source-sdk
+Version: 0.0.3
+Summary: Template for the Python Civil Engineering library.
+Author: Open Civil Engineering
+Maintainer-email: Enrique García Méndez <enriquegarcia@live.nl>
+License: LGPL-2.1
+Project-URL: homepage, https://github.com/opencivilengineering
+Project-URL: documentation, http://opencivilengineering.readthedocs.io
+Keywords: Civil engineering,Material properties,Structural engineering,Structural analysis,Eurocodes,Dutch building codes
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Provides-Extra: docs
+Requires-Dist: matplotlib ; extra == 'docs'
+Requires-Dist: Sphinx (<6.0,>=5.3) ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: sphinx-autorun ; extra == 'docs'
+Requires-Dist: ipykernel ; extra == 'docs'
+Requires-Dist: ipywidgets ; extra == 'docs'
+Requires-Dist: nbconvert ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: pandoc ; extra == 'docs'
+Requires-Dist: IPython ; extra == 'docs'
+Provides-Extra: plot
+Requires-Dist: matplotlib (>=3.7.2) ; extra == 'plot'
+Requires-Dist: plotly (>=5.15.0) ; extra == 'plot'
+Provides-Extra: test
+Requires-Dist: black (==23.7.0) ; extra == 'test'
+Requires-Dist: mypy (==1.4.1) ; extra == 'test'
+Requires-Dist: pylint (==2.17.5) ; extra == 'test'
+Requires-Dist: pytest (==7.4.0) ; extra == 'test'
+Requires-Dist: pytest-describe (==2.1.0) ; extra == 'test'
+Requires-Dist: pytest-pspec (==0.0.4) ; extra == 'test'
+Requires-Dist: pytest-raises (==0.11) ; extra == 'test'
+
+![Logo Dark](data/images/placeholder.png#gh-dark-mode-only)
+![Logo Light](data/images/placeholder_light.png#gh-light-mode-only)
+
+[![Run Tests](https://github.com/opencivilengineering/opensourcesdk/actions/workflows/test.yaml/badge.svg)](https://github.com/opencivilengineering/opensourcesdk/actions/workflows/test.yaml)
+[![Documentation Status](https://readthedocs.org/projects/opensourcesdk/badge/?version=latest)](https://opensourcesdk.readthedocs.io/en/latest/?badge=latest) 
+[![codecov](https://codecov.io/gh/opencivilengineering/opensourcesdk/branch/main/graph/badge.svg?token=9Q9GOAMKNF)](https://codecov.io/gh/opencivilengineering/opensourcesdk)
+[![PyPI](https://img.shields.io/pypi/v/open-source-sdk?color=green)](https://pypi.org/project/open-source-sdk/)
+[![GitHub](https://img.shields.io/github/license/opencivilengineering/opensourcesdk?color=green)](https://github.com/opencivilengineering/opensourcesdk/blob/main/LICENSE)
+[![Python versions](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue?style=flat&logo=python)](https://badge.fury.io/py/open-source-sdk)
+
+# Open Source SDK
+
+
+Template for the Python Civil Engineering library.
+
