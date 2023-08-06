@@ -1,0 +1,12 @@
+cfxplorer/__init__.py,sha256=gf0RaqWXWJ-yykO4ZSc5bociuPxGwmkFuPPTR21OkZM,46
+cfxplorer/focus.py,sha256=7hoCWT4ySZdxfWkUKf8_tn-ADFP3L25yIxoL5yAai6U,18439
+cfxplorer/utils.py,sha256=slQ65JUMFzrOyFSkL3nwl3FPgDOE7c7lgP0Y3p6UMgs,4633
+cfxplorer/version.py,sha256=dxonhQR4bSj7oDtBV1xysknpTntau2ESv6xbh9WGcu4,577
+cfxplorer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfxplorer/tests/test_focus.py,sha256=UfmARpKhnZgZpS3XXGMcC496a2WXEFLek1aDk_0ZB0Q,3887
+cfxplorer/tests/test_utils.py,sha256=5apWcrs0CLgtWwJ6Z3xNSm5w2tlA4hed9Xr-CWOpCYU,4156
+CFXplorer-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+CFXplorer-0.1.0.dist-info/METADATA,sha256=JF7eqmudmHlvDvrf4teQttYiwewdCS69mHnNszP8Lws,5158
+CFXplorer-0.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+CFXplorer-0.1.0.dist-info/top_level.txt,sha256=CcY9r401BrXM-2XcYHfnujvh0q0MDwDY-2fvWeBjeDs,10
+CFXplorer-0.1.0.dist-info/RECORD,,
