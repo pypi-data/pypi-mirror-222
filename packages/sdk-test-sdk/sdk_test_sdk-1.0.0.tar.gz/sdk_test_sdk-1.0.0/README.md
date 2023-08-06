@@ -1,0 +1,1 @@
+# 添加关于SDK的说明和用法等信息，文件主要是用来对此次发行的包的详细说明，包括用法和注意事项等# 使用import sdk_test_sdksdk_test_sdk.test_numpy()sdk_test_sdk.test_hello()# 安装pip install my_sdk
