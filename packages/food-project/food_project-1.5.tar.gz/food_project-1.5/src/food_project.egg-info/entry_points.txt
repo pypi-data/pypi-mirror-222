@@ -1,0 +1,3 @@
+[console_scripts]
+food_project = food_project.cli:main
+
