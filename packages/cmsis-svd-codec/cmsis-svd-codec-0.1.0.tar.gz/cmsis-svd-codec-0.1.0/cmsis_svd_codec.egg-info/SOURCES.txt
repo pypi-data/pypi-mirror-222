@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cmsis_svd_codec/__init__.py
+cmsis_svd_codec/encoder.py
+cmsis_svd_codec.egg-info/PKG-INFO
+cmsis_svd_codec.egg-info/SOURCES.txt
+cmsis_svd_codec.egg-info/dependency_links.txt
+cmsis_svd_codec.egg-info/requires.txt
+cmsis_svd_codec.egg-info/top_level.txt
