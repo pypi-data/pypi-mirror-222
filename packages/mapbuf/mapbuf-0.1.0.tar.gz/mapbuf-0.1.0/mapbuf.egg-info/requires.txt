@@ -1,0 +1,2 @@
+gurobipy==10.0.1
+pygraphviz==1.10
