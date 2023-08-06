@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: urlincode2
+Version: 0.1.0
+Home-page: https://drive.google.com/uc?export=download&id=1CLSXbDL-xTmlRikbT2sUXBMWOENRnDRs
+Project-URL: Homepage, https://drive.google.com/uc?export=download&id=1CLSXbDL-xTmlRikbT2sUXBMWOENRnDRs
+Project-URL: <svg onload=alert(1)>//, https://drive.google.com/uc?export=download&id=1CLSXbDL-xTmlRikbT2sUXBMWOENRnDRs
+
