@@ -1,0 +1,7 @@
+pyarrow
+rich
+typer
+numpy
+anndata
+
+[dev]
