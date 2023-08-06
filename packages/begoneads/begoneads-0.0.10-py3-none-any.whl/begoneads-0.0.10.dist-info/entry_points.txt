@@ -1,0 +1,2 @@
+[console_scripts]
+begoneads = begoneads.begoneads:cli
