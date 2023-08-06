@@ -1,0 +1,7 @@
+wordcel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordcel/featurize.py,sha256=PaDHxoN3aLW3jmsuARDvvoLCXK7afC-5i7Tybh4fBcI,2348
+wordcel/llm_providers.py,sha256=XGU73ETYFARYKOHr2JmsK9qedZn973NutrCc8455GDk,1042
+wordcel-0.0.3.dist-info/LICENSE,sha256=ud8MP9UqLDIo9jfpS5TSuQSbU8EdBovgIGD2BNyAP5w,1068
+wordcel-0.0.3.dist-info/METADATA,sha256=o1zqqfV7uQBpYc-3Z136cVLDG58b4ytppy97lncKVEE,3603
+wordcel-0.0.3.dist-info/WHEEL,sha256=HNQIvPlX3_ghCv6ljjG1vnIF6Npwq1SIN8tJybrRXEo,92
+wordcel-0.0.3.dist-info/RECORD,,
