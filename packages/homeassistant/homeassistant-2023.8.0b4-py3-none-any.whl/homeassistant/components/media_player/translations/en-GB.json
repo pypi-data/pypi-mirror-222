@@ -1,0 +1,56 @@
+{
+    "entity_component": {
+        "_": {
+            "state_attributes": {
+                "media_content_type": {
+                    "state": {
+                        "movie": "Film"
+                    }
+                }
+            }
+        }
+    },
+    "selector": {
+        "enqueue": {
+            "options": {
+                "add": "Add to queue",
+                "next": "Play next",
+                "play": "Play",
+                "replace": "Play now and clear queue"
+            }
+        },
+        "repeat": {
+            "options": {
+                "all": "Repeat all",
+                "off": "Off",
+                "one": "Repeat one"
+            }
+        }
+    },
+    "services": {
+        "clear_playlist": {
+            "description": "Clears the playlist.",
+            "name": "Clear playlist"
+        },
+        "join": {
+            "description": "Groups media players together for synchronous playback. Only works on supported multiroom audio systems.",
+            "fields": {
+                "group_members": {
+                    "description": "The players which will be synced with the playback specified in `target`.",
+                    "name": "Group members"
+                }
+            },
+            "name": "Join"
+        },
+        "media_next_track": {
+            "description": "Selects the next track."
+        },
+        "volume_set": {
+            "name": "Set volume"
+        },
+        "volume_up": {
+            "description": "Turns up the volume.",
+            "name": "Turn up volume"
+        }
+    }
+}

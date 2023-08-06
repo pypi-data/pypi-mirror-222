@@ -1,0 +1,11 @@
+{
+    "entity": {
+        "sensor": {
+            "ventilation_level": {
+                "state": {
+                    "off": "D\u00e9sactiv\u00e9"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "services": {
+        "submit_movie_request": {
+            "fields": {
+                "name": {
+                    "name": "Nome"
+                }
+            },
+            "name": "Invia richiesta di film"
+        },
+        "submit_music_request": {
+            "description": "Cerca un album musicale e richiede il primo risultato.",
+            "fields": {
+                "name": {
+                    "name": "Nome"
+                }
+            },
+            "name": "Invia una richiesta di musica"
+        },
+        "submit_tv_request": {
+            "description": "Cerca un programma TV e richiede il primo risultato.",
+            "fields": {
+                "name": {
+                    "name": "Nome"
+                },
+                "season": {
+                    "description": "Quale/i stagione/i richiedere.",
+                    "name": "Stagione"
+                }
+            },
+            "name": "Invia richiesta TV"
+        }
+    }
+}

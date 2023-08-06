@@ -1,0 +1,20 @@
+{
+    "services": {
+        "new_task": {
+            "fields": {
+                "content": {
+                    "description": "Naam van de taak.",
+                    "name": "Inhoud"
+                },
+                "labels": {
+                    "name": "Labels"
+                },
+                "priority": {
+                    "description": "De prioriteit van de taak, van 1 (normaal) tot 4 (urgent)",
+                    "name": "Prioriteit"
+                }
+            },
+            "name": "Nieuwe taak"
+        }
+    }
+}

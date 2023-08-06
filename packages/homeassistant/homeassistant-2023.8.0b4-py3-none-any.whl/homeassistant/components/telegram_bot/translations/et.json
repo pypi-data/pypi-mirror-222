@@ -1,0 +1,208 @@
+{
+    "services": {
+        "edit_replymarkup": {
+            "name": "Redigeeri vastuse m\u00e4rgistust"
+        },
+        "send_animation": {
+            "description": "Saadab animatsiooni.",
+            "fields": {
+                "authentication": {
+                    "description": "M\u00e4\u00e4ra millist tuvastamismeetodit kasutada. M\u00e4\u00e4ra `digest`, et kasutada HTTP digesti autentimist, v\u00f5i `bearer_token` OAuth 2.0 kandjatunnuse autentimiseks. Vaikimisi on vaikimisi `basic`.",
+                    "name": "Tuvastusmeetod"
+                },
+                "caption": {
+                    "description": "Animatsiooni pealkiri."
+                },
+                "verify_ssl": {
+                    "name": "SSL-i kinnitamine"
+                }
+            },
+            "name": "Saada animatsioon"
+        },
+        "send_document": {
+            "description": "Saadab dokumendi.",
+            "fields": {
+                "authentication": {
+                    "description": "M\u00e4\u00e4ra millist tuvastamismeetodit kasutada. M\u00e4\u00e4ra `digest`, et kasutada HTTP digesti autentimist, v\u00f5i `bearer_token` OAuth 2.0 kandjatunnuse autentimiseks. Vaikimisi on vaikimisi `basic`.",
+                    "name": "Tuvastusmeetod"
+                },
+                "caption": {
+                    "description": "Dokumendi pealkiri.",
+                    "name": "Pealkiri"
+                },
+                "file": {
+                    "description": "Kohalik tee dokumendini.",
+                    "name": "Fail"
+                },
+                "keyboard": {
+                    "description": "Komadega eraldatud k\u00e4suridade loend kohandatud klaviatuuri loomiseks."
+                },
+                "password": {
+                    "description": "Salas\u00f5na (v\u00f5i esitaja luba) URL-i jaoks, mis n\u00f5uab HTTP-autentimist.",
+                    "name": "Salas\u00f5na"
+                },
+                "target": {
+                    "description": "Eelautoriseeritud chat_ids'ide massiiv, millele dokument saadetakse. Kui seda ei ole, on vaikimisi esimene lubatud chat_id.",
+                    "name": "Saaja"
+                },
+                "timeout": {
+                    "description": "Dokumendi saatmise ajal\u00f5pp. Aitab ajal\u00f5pu vigade korral (kehv Interneti-\u00fchendus jne).",
+                    "name": "Ajal\u00f5pp"
+                },
+                "url": {
+                    "description": "Kaugtee dokumendini.",
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "HTTP-autentimist n\u00f5udva URL-i kasutajanimi.",
+                    "name": "Kasutajanimi"
+                },
+                "verify_ssl": {
+                    "description": "SSL-sertifikaadi kontrollimise lubamine v\u00f5i keelamine. Sea v\u00e4\u00e4rtuseks false, kui laadid faili alla URL-ilt ja ei soovi serveri SSL-sertifikaati kinnitada."
+                }
+            }
+        },
+        "send_message": {
+            "fields": {
+                "timeout": {
+                    "name": "Ajal\u00f5pp"
+                },
+                "title": {
+                    "description": "Teatise valikuline pealkiri. Koostatakse kui '%pealkiri\n %'s\u00f5num'.",
+                    "name": "Pealkiri"
+                }
+            },
+            "name": "Saada s\u00f5num"
+        },
+        "send_photo": {
+            "description": "Saadab foto.",
+            "fields": {
+                "authentication": {
+                    "description": "M\u00e4\u00e4ra millist tuvastamismeetodit kasutada. M\u00e4\u00e4ra `digest`, et kasutada HTTP digesti autentimist, v\u00f5i `bearer_token` OAuth 2.0 kandjatunnuse autentimiseks. Vaikimisi on vaikimisi `basic`.",
+                    "name": "Tuvastusmeetod"
+                },
+                "caption": {
+                    "description": "Pildi pealkiri.",
+                    "name": "Pealkiri"
+                },
+                "file": {
+                    "description": "Kohalik tee pildi juurde.",
+                    "name": "Fail"
+                },
+                "keyboard": {
+                    "description": "Komadega eraldatud k\u00e4suridade loend kohandatud klaviatuuri loomiseks."
+                },
+                "password": {
+                    "description": "Salas\u00f5na (v\u00f5i esitaja luba) URL-i jaoks, mis n\u00f5uab HTTP-autentimist.",
+                    "name": "Salas\u00f5na"
+                },
+                "target": {
+                    "description": "Eelautoriseeritud chat_ids'ide massiiv, millele dokument saadetakse. Kui seda ei ole, on vaikimisi esimene lubatud chat_id.",
+                    "name": "Saaja"
+                },
+                "timeout": {
+                    "description": "Foto saatmise ajal\u00f5pp. Aitab ajal\u00f5pu vigade korral (kehv Interneti-\u00fchendus jne).",
+                    "name": "Ajal\u00f5pp"
+                },
+                "url": {
+                    "description": "Kaugtee pildini.",
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "HTTP-autentimist n\u00f5udva URL-i kasutajanimi."
+                },
+                "verify_ssl": {
+                    "description": "SSL-sertifikaadi kontrollimise lubamine v\u00f5i keelamine. Sea v\u00e4\u00e4rtuseks false, kui laadid faili alla URL-ilt ja ei soovi serveri SSL-sertifikaati kinnitada.",
+                    "name": "SSL-i kinnitamine"
+                }
+            },
+            "name": "Saada foto"
+        },
+        "send_poll": {
+            "description": "Saadab k\u00fcsitluse.",
+            "fields": {
+                "allows_multiple_answers": {
+                    "description": "Kui k\u00fcsitlus lubab mitu vastust, on vaikimisi False.",
+                    "name": "Luba mitu vastust"
+                },
+                "is_anonymous": {
+                    "description": "Kui k\u00fcsitlus peab olema anon\u00fc\u00fcmne, on vaikimisi True.",
+                    "name": "On anon\u00fc\u00fcmne"
+                },
+                "open_period": {
+                    "description": "Aeg sekundites, mille jooksul k\u00fcsitlus on p\u00e4rast loomist aktiivne, 5-600.",
+                    "name": "Saadaval oleku aeg"
+                },
+                "options": {
+                    "description": "Vastusevariantide loetelu, 2-10 rida 1-100 t\u00e4hem\u00e4rki iga\u00fchele.",
+                    "name": "Valikud"
+                },
+                "question": {
+                    "description": "K\u00fcsitluse k\u00fcsimus, 1-300 t\u00e4hem\u00e4rki.",
+                    "name": "K\u00fcsimus"
+                },
+                "target": {
+                    "name": "Saaja"
+                },
+                "timeout": {
+                    "description": "K\u00fcsitluse saatmise ajal\u00f5pp. Aitab ajal\u00f5pu vigade korral (kehv Interneti-\u00fchendus jne).",
+                    "name": "Ajal\u00f5pp"
+                }
+            },
+            "name": "Saada k\u00fcsitlus"
+        },
+        "send_sticker": {
+            "description": "Saadab kleebise.",
+            "fields": {
+                "file": {
+                    "description": "Kohalik tee staatilise .webp- v\u00f5i animeeritud .tgs-kleebiseni."
+                },
+                "sticker_id": {
+                    "description": "Telegrammiserverites oleva kleebise ID.",
+                    "name": "Kleebise ID"
+                },
+                "target": {
+                    "name": "Saaja"
+                },
+                "timeout": {
+                    "description": "Kleebise saatmise ajal\u00f5pp. Aitab ajal\u00f5pu vigade korral (kehv Interneti-\u00fchendus jne).",
+                    "name": "Ajal\u00f5pp"
+                },
+                "url": {
+                    "description": "Kaugtee staatilise .webp- v\u00f5i animeeritud .tgs-kleebiseni."
+                },
+                "verify_ssl": {
+                    "name": "SSL-i kinnitamine"
+                }
+            },
+            "name": "Saada kleepm\u00e4rge"
+        },
+        "send_video": {
+            "description": "Saadab video.",
+            "fields": {
+                "caption": {
+                    "description": "Video pealkiri."
+                },
+                "file": {
+                    "description": "Kohalik rada video juurde."
+                }
+            }
+        },
+        "send_voice": {
+            "fields": {
+                "target": {
+                    "name": "Eesm\u00e4rk"
+                },
+                "timeout": {
+                    "description": "H\u00e4\u00e4lteavituse saatmise ajal\u00f5pp. Aitab ajal\u00f5pu vigade korral (kehv Interneti-\u00fchendus jne).",
+                    "name": "Ajal\u00f5pp"
+                },
+                "verify_ssl": {
+                    "description": "SSL-sertifikaadi kontrollimise lubamine v\u00f5i keelamine. Sea v\u00e4\u00e4rtuseks false, kui laadid faili alla URL-ilt ja ei soovi serveri SSL-sertifikaati kinnitada.",
+                    "name": "SSL-i kinnitamine"
+                }
+            },
+            "name": "Saada h\u00e4\u00e4ls\u00f5num"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "services": {
+        "push_alarm_state": {
+            "description": "Updates the alarm state to the specified value."
+        }
+    }
+}

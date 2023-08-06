@@ -1,0 +1,16 @@
+{
+    "services": {
+        "set_all_zones": {
+            "fields": {
+                "entity_id": {
+                    "name": "Entit\u00e0"
+                },
+                "source": {
+                    "description": "Nome della sorgente a cui passare.",
+                    "name": "Fonte"
+                }
+            },
+            "name": "Imposta tutte le zone"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "entity": {
+        "sensor": {
+            "upload_speed": {
+                "name": "Upload speed"
+            }
+        }
+    }
+}

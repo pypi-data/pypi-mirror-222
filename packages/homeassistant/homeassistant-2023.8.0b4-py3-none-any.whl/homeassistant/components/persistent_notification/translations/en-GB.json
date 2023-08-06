@@ -1,0 +1,11 @@
+{
+    "services": {
+        "dismiss": {
+            "name": "Dismiss"
+        },
+        "dismiss_all": {
+            "description": "Removes all notifications from the **Notifications** panel.",
+            "name": "Dismiss all"
+        }
+    }
+}

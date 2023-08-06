@@ -1,0 +1,35 @@
+{
+    "services": {
+        "add_all_link": {
+            "description": "Tells the Insteom Modem (IM) start All-Linking mode. Once the IM is in All-Linking mode, press the link button on the device to complete All-Linking.",
+            "fields": {
+                "group": {
+                    "description": "All-Link group number.",
+                    "name": "Group"
+                },
+                "mode": {
+                    "description": "Linking mode   controller - IM is controller   responder - IM is responder."
+                }
+            },
+            "name": "Add all link"
+        },
+        "add_default_links": {
+            "description": "Adds the default links between the device and the Insteon Modem (IM).",
+            "fields": {
+                "entity_id": {
+                    "name": "Entity"
+                }
+            },
+            "name": "Add default links"
+        },
+        "delete_all_link": {
+            "description": "Tells the Insteon Modem (IM) to remove an All-Link record from the All-Link Database of the IM and a device. Once the IM is set to delete the link, press the link button on the corresponding device to complete the process.",
+            "fields": {
+                "group": {
+                    "description": "All-Link group number.",
+                    "name": "Group"
+                }
+            }
+        }
+    }
+}

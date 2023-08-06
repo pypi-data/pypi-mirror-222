@@ -1,0 +1,35 @@
+{
+    "entity": {
+        "sensor": {
+            "errors": {
+                "name": "OBD errors"
+            },
+            "fuel": {
+                "name": "Fuel volume"
+            },
+            "gsm_signal": {
+                "name": "GSM signal"
+            },
+            "interior_temperature": {
+                "name": "Interior temperature"
+            },
+            "mileage": {
+                "name": "Mileage"
+            }
+        },
+        "switch": {
+            "additional_channel": {
+                "name": "Additional channel"
+            },
+            "engine": {
+                "name": "Engine"
+            },
+            "horn": {
+                "name": "Horn"
+            },
+            "webasto": {
+                "name": "Webasto"
+            }
+        }
+    }
+}

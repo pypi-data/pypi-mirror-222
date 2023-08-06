@@ -1,0 +1,34 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Layanan sudah dikonfigurasi"
+        },
+        "error": {
+            "cannot_connect": "Gagal terhubung",
+            "no_stations": "Tidak dapat menemukan stasiun dalam jangkauan."
+        },
+        "step": {
+            "select_station": {
+                "data": {
+                    "station": "Stasiun"
+                },
+                "description": "Ditemukan {stations_count} stasiun dalam radius",
+                "title": "Pilih stasiun pengukur untuk ditambahkan"
+            },
+            "user": {
+                "data": {
+                    "location": "Lokasi",
+                    "radius": "Radius pencarian (dalam km)"
+                },
+                "description": "Pilih area tempat Anda ingin mencari stasiun pengukur air"
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "current_measurement": {
+                "name": "Ketinggian air"
+            }
+        }
+    }
+}

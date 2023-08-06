@@ -1,0 +1,8 @@
+{
+    "services": {
+        "reload": {
+            "description": "Reloads helpers from the YAML-configuration.",
+            "name": "Reload"
+        }
+    }
+}

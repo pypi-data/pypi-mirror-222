@@ -1,0 +1,218 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Akun sudah dikonfigurasi",
+            "reauth_successful": "Autentikasi ulang berhasil"
+        },
+        "error": {
+            "cannot_connect": "Gagal terhubung",
+            "incorrect_api_key": "Kunci API tidak valid untuk akun yang dipilih",
+            "invalid_auth": "Autentikasi tidak valid",
+            "no_devices": "Tidak ada perangkat yang ditemukan",
+            "no_username": "Tidak bisa mendapatkan nama pengguna"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "api_key": "Kunci API"
+                },
+                "data_description": {
+                    "api_key": "Ikuti petunjuk dalam dokumentasi untuk mendapatkan kunci API"
+                }
+            },
+            "user": {
+                "data": {
+                    "api_key": "Kunci API"
+                },
+                "data_description": {
+                    "api_key": "Ikuti petunjuk dalam dokumentasi untuk mendapatkan kunci API"
+                }
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "horizontalswing": {
+                "state": {
+                    "fixedcenter": "Tetap tengah",
+                    "fixedcenterleft": "Tetap kiri tengah",
+                    "fixedcenterright": "Tetap kanan tengah",
+                    "fixedleft": "Tetap kiri",
+                    "fixedleftright": "Tetap kiri kanan",
+                    "fixedright": "Tetap kanan",
+                    "rangecenter": "Kisaran tengah",
+                    "rangefull": "Kisaran penuh",
+                    "stopped": "Mati"
+                }
+            },
+            "light": {
+                "name": "Lampu",
+                "state": {
+                    "dim": "Redup",
+                    "off": "Mati",
+                    "on": "Nyala"
+                }
+            }
+        },
+        "sensor": {
+            "climate_react_high": {
+                "state_attributes": {
+                    "fanlevel": {
+                        "name": "Mode kipas",
+                        "state": {
+                            "auto": "Otomatis",
+                            "high": "Tinggi",
+                            "low": "Rendah",
+                            "medium": "Sedang"
+                        }
+                    },
+                    "horizontalswing": {
+                        "state": {
+                            "fixedcenter": "Tetap tengah",
+                            "fixedcenterleft": "Tetap kiri tengah",
+                            "fixedcenterright": "Tetap kanan tengah",
+                            "fixedleft": "Tetap kiri",
+                            "fixedleftright": "Tetap kiri kanan",
+                            "fixedright": "Tetap kanan",
+                            "rangecenter": "Kisaran tengah",
+                            "rangefull": "Kisaran penuh",
+                            "stopped": "Mati"
+                        }
+                    },
+                    "light": {
+                        "name": "Lampu",
+                        "state": {
+                            "dim": "Redup",
+                            "off": "Mati",
+                            "on": "Nyala"
+                        }
+                    },
+                    "mode": {
+                        "state": {
+                            "auto": "Otomatis",
+                            "cool": "Dingin",
+                            "dry": "Kering",
+                            "fan_only": "Hanya kipas",
+                            "heat": "Panas",
+                            "heat_cool": "Panas/Dingin",
+                            "off": "Mati"
+                        }
+                    },
+                    "on": {
+                        "name": "Nyala",
+                        "state": {
+                            "false": "Mati",
+                            "true": "Nyala"
+                        }
+                    },
+                    "swing": {
+                        "name": "Mode ayunan",
+                        "state": {
+                            "both": "Keduanya",
+                            "stopped": "Mati"
+                        }
+                    },
+                    "targettemperature": {
+                        "name": "Target suhu"
+                    }
+                }
+            },
+            "climate_react_low": {
+                "state_attributes": {
+                    "fanlevel": {
+                        "name": "Mode kipas",
+                        "state": {
+                            "auto": "Otomatis",
+                            "high": "Tinggi",
+                            "low": "Rendah",
+                            "medium": "Sedang"
+                        }
+                    },
+                    "horizontalswing": {
+                        "state": {
+                            "fixedcenter": "Tetap tengah",
+                            "fixedcenterleft": "Tetap kiri tengah",
+                            "fixedcenterright": "Tetap kanan tengah",
+                            "fixedleft": "Tetap kiri",
+                            "fixedleftright": "Tetap kiri kanan",
+                            "fixedright": "Tetap kanan",
+                            "rangecenter": "Kisaran tengah",
+                            "rangefull": "Kisaran penuh",
+                            "stopped": "Mati"
+                        }
+                    },
+                    "light": {
+                        "name": "Lampu",
+                        "state": {
+                            "dim": "Redup",
+                            "off": "Mati",
+                            "on": "Nyala"
+                        }
+                    },
+                    "mode": {
+                        "state": {
+                            "auto": "Otomatis",
+                            "cool": "Dingin",
+                            "dry": "Kering",
+                            "fan_only": "Hanya kipas",
+                            "heat": "Panas",
+                            "heat_cool": "Panas/Dingin",
+                            "off": "Mati"
+                        }
+                    },
+                    "on": {
+                        "name": "Nyala",
+                        "state": {
+                            "false": "Mati",
+                            "true": "Nyala"
+                        }
+                    },
+                    "swing": {
+                        "name": "Mode ayunan",
+                        "state": {
+                            "both": "Keduanya",
+                            "stopped": "Mati"
+                        }
+                    },
+                    "targettemperature": {
+                        "name": "Target suhu"
+                    }
+                }
+            },
+            "sensitivity": {
+                "state": {
+                    "n": "Normal",
+                    "s": "Sensitif"
+                }
+            },
+            "smart_type": {
+                "state": {
+                    "humidity": "Kelembaban",
+                    "temperature": "Suhu"
+                }
+            }
+        },
+        "switch": {
+            "climate_react_switch": {
+                "state_attributes": {
+                    "type": {
+                        "state": {
+                            "humidity": "Kelembaban",
+                            "temperature": "Suhu"
+                        }
+                    }
+                }
+            },
+            "timer_on_switch": {
+                "state_attributes": {
+                    "turn_on": {
+                        "state": {
+                            "false": "Mati",
+                            "true": "Nyala"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
