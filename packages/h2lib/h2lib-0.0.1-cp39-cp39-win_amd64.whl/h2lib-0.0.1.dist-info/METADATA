@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: h2lib
+Version: 0.0.1
+Summary: Python interface to HAWC2
+Author: S.G.Horcas, N.G.Ramos, Jaime Liew
+Author-email: "Mads M. Pedersen" <mmpe@dtu.dk>
+Maintainer-email: "Mads M. Pedersen" <mmpe@dtu.dk>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pytest
+
+Python interface to HAWC2Lib
