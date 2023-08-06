@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tairHaystack
+Version: 0.0.3
+Summary: Tair vector database with Haystack
+Author: Zhidong Tan
+Author-email: <2741986499@email.com>
+Keywords: tair,haystack
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: haystack
+Requires-Dist: tair
+
+An new integration of Tair vector database TairVector with Haystack by deepset.

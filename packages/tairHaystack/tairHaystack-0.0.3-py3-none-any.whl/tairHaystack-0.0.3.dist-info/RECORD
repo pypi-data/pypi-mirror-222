@@ -1,0 +1,9 @@
+tairHaystack/__init__.py,sha256=uuy2VT76gTYhbQxU1dIbsf2IX9B1-VA6qnuUksOk1B4,92
+tairHaystack/document_stores/__init__.py,sha256=9aXURtGhaSxUchnl80MK4GgPwCyT36CSt5Po62Bb56g,103
+tairHaystack/document_stores/errors.py,sha256=Dui9q4jcQetj1qEVWlfLW_a2iZQax_N2fkWZh3OYPQ4,9925
+tairHaystack/document_stores/filter_utils.py,sha256=f9gXOqZRZ9l8_A8WWSfnS8BGEz-4laNo0skEzsfm7j4,36615
+tairHaystack/document_stores/tairvector.py,sha256=crHFs2acNLAHp5onHC8wD4BKeoKn2vk9IYNmQAq1K6Q,59708
+tairHaystack-0.0.3.dist-info/METADATA,sha256=knZYFDn8cLkcewddIqul5uIQVYRGy5Gpl-4a-zVXpMo,592
+tairHaystack-0.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+tairHaystack-0.0.3.dist-info/top_level.txt,sha256=WSDX6r76x0LwSdCUoGYy_aV1MmzrAr_Chbi5SkF41vo,13
+tairHaystack-0.0.3.dist-info/RECORD,,
