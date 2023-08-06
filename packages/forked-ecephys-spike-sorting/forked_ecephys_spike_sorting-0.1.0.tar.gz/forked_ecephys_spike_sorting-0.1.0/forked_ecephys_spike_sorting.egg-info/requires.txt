@@ -1,0 +1,11 @@
+matplotlib
+scipy
+numpy
+pandas
+GitPython
+pillow
+argschema
+xmljson
+xarray
+scikit-learn
+joblib

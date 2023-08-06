@@ -1,0 +1,11 @@
+matplotlib
+scipy
+numpy
+pandas
+xmljson
+xarray
+scikit-learn
+h5py
+requests
+marshmallow==2.19.2
+joblib

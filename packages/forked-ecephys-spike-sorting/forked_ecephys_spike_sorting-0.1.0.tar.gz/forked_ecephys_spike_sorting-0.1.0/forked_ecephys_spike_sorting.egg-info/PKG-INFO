@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: forked-ecephys-spike-sorting
+Version: 0.1.0
+Summary: Tools for spike-sorting Allen Institute Neuropixels data
+Home-page: https://github.com/AllenInstitute/ecephys_spike_sorting
+Author: Josh Siegle, Nile Graddis, Xiaoxuan Jia, Gregg Heller, Chris Mochizuki, Dan Denman
+Author-email: joshs@alleninstitute.org
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+
+UNKNOWN
+
