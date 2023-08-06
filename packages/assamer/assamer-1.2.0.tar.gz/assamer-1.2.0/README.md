@@ -1,0 +1,75 @@
+# Assamer: ASAP2 (A2L) and ASSAM Library
+
+Assamer is a Python library for reading ASAP2 (A2L) files, parsing HEX files, and performing analysis using the ASAP2 Signal and Software Analysis and Monitoring (ASSAM) framework.
+
+## Installation
+
+You can install Assamer using the pip package manager. Run the following command to install Assamer:
+
+```
+pip install assamer
+```
+
+## Usage
+
+Assamer library provides classes and functions for reading ASAP2 files, parsing HEX files, and performing ASSAM analysis.
+
+### Reading ASAP2 Files
+
+To read an ASAP2 file, you can use the `A2L` class. For example:
+
+```python
+from assamer import A2L
+
+a2l = A2L("path/to/a2l_file.a2l")
+data = a2l.data
+compu_methods = a2l.getArea(COMPU_METHOD)
+characteristics = a2l.getArea(CHARACTERISTIC)
+# Other operations
+```
+
+### Parsing HEX Files
+
+To parse a HEX file, you can use the `A2LHex` class. For example:
+
+```python
+from assamer import A2LHex
+
+hexa2l = A2LHex("path/to/hex_file.hex")
+hex_data = hexa2l.data
+value = hexa2l.readValue(0x8040CD34, FLOAT32_IEEE, 5)
+# Other operations
+```
+
+### ASSAM Analysis
+
+To perform ASSAM analysis, you can use the `ASSAM` class. For example:
+
+```python
+from assamer import ASSAM, TrackA2L
+
+a2l = A2L("path/to/a2l_file.a2l")
+hexa2l = A2LHex("path/to/hex_file.hex")
+assam = ASSAM(A2L_Object=a2l, HEX_Object=hexa2l)
+# Other operations
+```
+
+In the above examples, only some basic functions and classes are used. The Assamer library provides more functionality for ASAP2 file handling and ASSAM analysis. For detailed usage examples and functions, please refer to the documentation.
+
+## Contributing
+
+If you would like to contribute to the Assamer library, please visit the GitHub repository: [https://github.com/kantrveysel/assamer](https://github.com/kantrveysel/assamer)
+
+## License
+
+This project is licensed under the MIT License. For more information, please see the `LICENSE` file.
+
+---
+
+The above documentation provides an overview of how to use the Assamer library for reading ASAP2 files, parsing HEX files, and performing ASSAM analysis. By including Assamer in your project, you can effectively analyze your A2L and HEX files and perform various operations related to ASSAM.
+
+The documentation covers only some basic functions and classes that can be used with the Assamer library. The Assamer library offers more advanced features and capabilities. For more details, please refer to the source code and documentation of Assamer.
+
+---
+
+This documentation outlines how to use the Assamer library for reading ASAP2 files, parsing HEX files, and performing ASSAM analysis. By including Assamer in your project, you can effectively utilize your A2L and HEX files while extending your tools with the capabilities of the ASSAM framework.
