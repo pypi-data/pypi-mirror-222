@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: timy-cli
+Version: 2.0.0
+Summary: Analog Clock and Timer
+Author-email: espehon <espehon@gmail.com>
+Project-URL: Homepage, https://github.com/espehon/timy-cli
+Project-URL: Bug Tracker, https://github.com/espehon/timy-cli/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# timy
+Simple console clock/timer

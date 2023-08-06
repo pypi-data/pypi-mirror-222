@@ -1,0 +1,2 @@
+[console_scripts]
+timy = timy_cli.timy:cli
