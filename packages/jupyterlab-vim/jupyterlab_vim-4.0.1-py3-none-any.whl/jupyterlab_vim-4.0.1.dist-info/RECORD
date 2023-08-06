@@ -1,0 +1,16 @@
+jupyterlab_vim/__init__.py,sha256=uuhFR9Tz6k1gb8INVcdczn6q6fM8pr1IuXNGPIbw6M8,332
+jupyterlab_vim/_version.py,sha256=JeGliRD4D5iT8e2Ol2TB3cqTySs_ow9Auaw5n-ApWPY,171
+jupyterlab_vim-4.0.1.data/data/share/jupyter/labextensions/@axlair/jupyterlab_vim/package.json,sha256=eyWq92im2dHa9XSdDGbX_2wIefDz36m4oGb22AzmVhc,5921
+jupyterlab_vim-4.0.1.data/data/share/jupyter/labextensions/@axlair/jupyterlab_vim/schemas/@axlair/jupyterlab_vim/package.json.orig,sha256=GEF_tK1MtCl8gsZDoyBY3oZf0F5b9hoHXqR7RI1cXWg,6647
+jupyterlab_vim-4.0.1.data/data/share/jupyter/labextensions/@axlair/jupyterlab_vim/schemas/@axlair/jupyterlab_vim/plugin.json,sha256=YP2tLAcCYHwpX2m_f51897gEKVWr93aLAfxMjP5CWBk,10856
+jupyterlab_vim-4.0.1.data/data/share/jupyter/labextensions/@axlair/jupyterlab_vim/static/252.e0500116419ca3a355d1.js,sha256=4FABFkGco6NV0Wa17zPkeb8Kj7Apbi2XAEI8EcQRZNA,130333
+jupyterlab_vim-4.0.1.data/data/share/jupyter/labextensions/@axlair/jupyterlab_vim/static/353.9c6b79c5ee878d215a0a.js,sha256=nGt5xe6HjSFaCrnVMYrSVv66GQhaVvU9TzRabQo1LNY,10218
+jupyterlab_vim-4.0.1.data/data/share/jupyter/labextensions/@axlair/jupyterlab_vim/static/747.a573445024188eae7034.js,sha256=pXNEUCQYjq5wNLLwOPTcENjqa0LP1OnPR74lyaqjHh8,4399
+jupyterlab_vim-4.0.1.data/data/share/jupyter/labextensions/@axlair/jupyterlab_vim/static/remoteEntry.ddb05f98b2e0f61dea44.js,sha256=3bBfmLLg9h3qRHEAxzsSBsfhn0V0e5qVal3RhD5Ls5s,7577
+jupyterlab_vim-4.0.1.data/data/share/jupyter/labextensions/@axlair/jupyterlab_vim/static/style.js,sha256=K5Fo3z5nxRORv7sHts1OHArXgUiR9JEcSSA2FgDDEGs,165
+jupyterlab_vim-4.0.1.data/data/share/jupyter/labextensions/@axlair/jupyterlab_vim/static/third-party-licenses.json,sha256=txsfhdWTP2pgjAMKA8m7DR4XV1Ha-a487TvU-9nNbhc,7505
+jupyterlab_vim-4.0.1.data/data/share/jupyter/labextensions/@axlair/jupyterlab_vim/install.json,sha256=-0mcjX9ZVTdvGcNJWDwN8h79GCdidZJOe-8IykavLZU,189
+jupyterlab_vim-4.0.1.dist-info/METADATA,sha256=K0R5nZpEYBYUM3DSiz4fDQ7qs9eKPaG1v1xS_N72cfw,8705
+jupyterlab_vim-4.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_vim-4.0.1.dist-info/licenses/LICENSE,sha256=5Z35WKn9oIxzj_DNGCHw-_KDgJTR5dSe41j8rVPMmTI,1069
+jupyterlab_vim-4.0.1.dist-info/RECORD,,
