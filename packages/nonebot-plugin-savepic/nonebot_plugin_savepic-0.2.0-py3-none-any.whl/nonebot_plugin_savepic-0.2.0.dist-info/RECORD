@@ -1,0 +1,12 @@
+nonebot_plugin_savepic/__init__.py,sha256=22AxM3mnCO6UfO73SvSi7F5_T6Nt4GPdF7xlQVy5Psg,6304
+nonebot_plugin_savepic/config.py,sha256=3xWYUAmDo1LJ_Wr8r2HnFUl0Ckb2WylwmQRwt83xif0,206
+nonebot_plugin_savepic/ext_listener.py,sha256=hqWsXUYSvRVTnSwMaXq7Apz1S61eTPDEb74j_0UWdM4,1052
+nonebot_plugin_savepic/migrations/1a654e02179b_.py,sha256=nWIiMugccNNBHH8rG6-LdD9v28XMMphSzOxyRFbsogo,846
+nonebot_plugin_savepic/model.py,sha256=qi8ALgxGU0rJhkuXGzXwEU20mFyYlBnHMG_xzJVh9c4,744
+nonebot_plugin_savepic/pic_sql.py,sha256=vqma3kY9AR5oFcC92WwewQTtvOYNXMoFwq1EKBLJGTo,6653
+nonebot_plugin_savepic/picture.py,sha256=kt-2_hf17BPtVVRxLyTa58TDKI2ugPu03-Vx-jRobgM,1548
+nonebot_plugin_savepic/rule.py,sha256=jlSJfbVQrk8waelccuCt8XytPepqBYyMoFvINt5loZk,920
+nonebot_plugin_savepic-0.2.0.dist-info/LICENSE,sha256=jjq5VKSxft1q5KDLS4C0YPtUVDdkH293o09Du8bI4Rs,1060
+nonebot_plugin_savepic-0.2.0.dist-info/METADATA,sha256=MfJIBt3AoiV8lHosDuIadUunCdCzFQlz1Tm7rzf3cl4,2856
+nonebot_plugin_savepic-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+nonebot_plugin_savepic-0.2.0.dist-info/RECORD,,
