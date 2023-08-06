@@ -1,0 +1,15 @@
+{
+    "apis": [
+        "https://shows.cf/",
+        "https://movies-api.gq/",
+        "https://movies-api.tk/"
+    ],
+    "cam_keywords": [
+        "CAM",
+        "HDCAM",
+        "TS",
+        "TC",
+        "TELESYNC",
+        "HDTS"
+    ]
+}
