@@ -1,0 +1,1 @@
+from .avirtech_spraying_jiyi_wp import autocorrect
