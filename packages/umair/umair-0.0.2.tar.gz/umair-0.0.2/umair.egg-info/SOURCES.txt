@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+umair/__init__.py
+umair/details.py
+umair.egg-info/PKG-INFO
+umair.egg-info/SOURCES.txt
+umair.egg-info/dependency_links.txt
+umair.egg-info/top_level.txt

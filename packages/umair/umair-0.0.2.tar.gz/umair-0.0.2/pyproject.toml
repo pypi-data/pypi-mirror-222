@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "umair"
+version = "0.0.2"
+authors = [{ name="Umair Thakur", email="umairthakurwork@gmail.com" },]
+description = "A simple package to show projects developed by Umair Thakur. "
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["Umair Thakur", "UmairThakur", "umairthakur", "Umair", "umair",  "Thakur", "thakur", "UPT", "upt", "GPT", "ChatGPT", "OpenAI", "DALL.E", "Whisper", "Python", "AI", "ML", "Machine Learning", "Artificial Intelligence"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+    "Programming Language :: Python"
+]
+
+[project.urls]
+"GitHub Profile" = "https://github.com/UmairThakur"
+"LinkedIn Profile" = "https://www.linkedin.com/in/umairthakur/"
