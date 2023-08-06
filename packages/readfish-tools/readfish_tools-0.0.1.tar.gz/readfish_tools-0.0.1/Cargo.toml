@@ -1,0 +1,51 @@
+[package]
+name = "readfish-tools"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/adoni5/readfish-tools/"
+keywords = ["genomics", "analysis", "nanopore", "adaptive_sampling"]
+authors = ["Rory Munro <roryjmunro1@gmail.com>"]
+license = "MPL-2.0 OR GPL-3.0-only"
+description = "Tools for analysing adaptive sampling data"
+exclude = ["resources/*"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "readfish_tools"
+
+[dependencies]
+csv = "1.2.2"
+flate2 = { version = "1.0.26", features = ["zlib-ng-compat"] }
+gzp = { version = "0.11.3", features = ["deflate_zlib_ng", "libdeflate"] }
+itertools = "0.11.0"
+lazy_static = "1.4.0"
+linked-hash-map = "0.5.6"
+maplit = "1.0.2"
+natord = "1.0.9"
+ndarray = "0.15.6"
+num-format = "0.4.4"
+prettytable = "0.10.0"
+pyo3 = "0.19.1"
+rayon = "1.7.0"
+regex = "1.9.1"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.7.6"
+
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
+
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units  = 1
+
+[profile.dev]
+debug = true
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[target.'cfg(target_arch = "aarch64")']
+rustflags = ["-C", "link-arg=-Wl,-dead_strip"]
