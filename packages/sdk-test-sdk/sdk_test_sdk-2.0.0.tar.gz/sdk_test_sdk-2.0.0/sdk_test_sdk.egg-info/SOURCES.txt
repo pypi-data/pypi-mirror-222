@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+sdk_test_sdk/__init__.py
+sdk_test_sdk/core.py
+sdk_test_sdk.egg-info/PKG-INFO
+sdk_test_sdk.egg-info/SOURCES.txt
+sdk_test_sdk.egg-info/dependency_links.txt
+sdk_test_sdk.egg-info/requires.txt
+sdk_test_sdk.egg-info/top_level.txt

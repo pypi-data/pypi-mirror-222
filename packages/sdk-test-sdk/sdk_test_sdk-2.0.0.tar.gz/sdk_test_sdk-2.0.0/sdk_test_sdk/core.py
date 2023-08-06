@@ -1,0 +1,1 @@
+# 编写核心功能代码import numpy as npdef test_numpy():    a = np.array([1, 2, 3])    print(a, type(a), a.dtype)def test_hello():    print("hello world")def test_hello2():    print("hello world2")
