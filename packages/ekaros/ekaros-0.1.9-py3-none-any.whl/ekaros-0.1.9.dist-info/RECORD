@@ -1,0 +1,12 @@
+ekaros/__cli__.py,sha256=jH6hwTyionNMCvBiTggR9vWTJ6HkEHmQxGlJDlLanSg,181
+ekaros/__init__.py,sha256=fzsuZeVPXR5f5KDMpkzgdJwBEBZAyVlJlRMZctxfLXE,473
+ekaros/_version.py,sha256=XIaxbMbyiP-L3kguR1GhxirFblTXiHR1lMfDVITvHUI,22
+ekaros/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ekaros/conf/about/ekaros.yaml,sha256=tayd5k0Wf6dH-wj5zzrWSMZAUlgDjfypgelVO6fGmiQ,178
+ekaros/project.toml,sha256=kx3VjlKEfQkqjg6HH9CmaaY75fLg6nJkC49vqOIlRHE,196
+ekaros/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ekaros-0.1.9.dist-info/LICENSE,sha256=6_-z_j5TJ7bQ5RlPwAJZ0Eqo3qWC6pMDjlLjz0R4wkE,1071
+ekaros-0.1.9.dist-info/METADATA,sha256=fffZoo--7plhwgtFj2XBcORqRh-8J-tB1geVXoz4Kqk,2636
+ekaros-0.1.9.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+ekaros-0.1.9.dist-info/entry_points.txt,sha256=Omhta_x4eDFvlNwAGB3_GdB59KLhWP0pI2A1eA28o6Y,46
+ekaros-0.1.9.dist-info/RECORD,,
