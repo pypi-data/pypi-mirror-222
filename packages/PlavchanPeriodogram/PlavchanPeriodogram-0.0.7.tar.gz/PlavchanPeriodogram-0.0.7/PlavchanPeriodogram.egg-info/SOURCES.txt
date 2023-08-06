@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+PlavchanPeriodogram/Plavchan_Periodogram.py
+PlavchanPeriodogram/__init__.py
+PlavchanPeriodogram.egg-info/PKG-INFO
+PlavchanPeriodogram.egg-info/SOURCES.txt
+PlavchanPeriodogram.egg-info/dependency_links.txt
+PlavchanPeriodogram.egg-info/requires.txt
+PlavchanPeriodogram.egg-info/top_level.txt
