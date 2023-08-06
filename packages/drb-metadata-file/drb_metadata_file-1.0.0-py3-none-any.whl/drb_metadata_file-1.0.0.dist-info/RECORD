@@ -1,0 +1,8 @@
+drb/addons/metadata/file/__init__.py,sha256=i1OTn1AdngdvNxFCdH3rIUEtMcHkWARFlEpONKBbGMI,73
+drb/addons/metadata/file/_version.py,sha256=L0XcoZTerqrxDqgfs4LHf9SJxDDHVYaIllgLV5eLa6Q,497
+drb/addons/metadata/file/cortex.yml,sha256=DZ3iTgvCHZnXQA-A-yzk2KxGBDuHeaKFl85i8bGXRkY,630
+drb_metadata_file-1.0.0.dist-info/METADATA,sha256=jIiP98nd1P8mTEHMU3WI82bIFGjQW7dWDtxGs-CBVLM,1539
+drb_metadata_file-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+drb_metadata_file-1.0.0.dist-info/entry_points.txt,sha256=YbR9WZ0E8IOUvX0K3KwOVGwxhqIr6NOqW6GC5QMotgc,47
+drb_metadata_file-1.0.0.dist-info/top_level.txt,sha256=tp7x0jo6KHy7P4LzX36tRyB2qZR7OiCZCAQGzrq25E0,4
+drb_metadata_file-1.0.0.dist-info/RECORD,,

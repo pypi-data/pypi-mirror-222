@@ -1,0 +1,2 @@
+[drb.metadata]
+file = drb.addons.metadata.file
