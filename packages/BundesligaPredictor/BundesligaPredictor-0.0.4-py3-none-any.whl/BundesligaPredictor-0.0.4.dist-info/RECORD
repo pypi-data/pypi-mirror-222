@@ -1,0 +1,17 @@
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/load.py,sha256=yqsF37Ksrs5V8hFugjlsuZwXWT7eFPeHh3UX5BJX40U,101
+scripts/pre_process.py,sha256=XHm0uXqKUS5-fZG2MB69M2H0M6kTa2kqW1cD5kjW25Q,1993
+scripts/preprocess.py,sha256=nwBs-CALFWAiHCTN6u3KV_47QO52uV--ShaCO9zzt7s,1987
+scripts/scraper.py,sha256=Mg7EjI9sfwS7vZCxVOOcFpDW_L80X5PuVMln_0LAHkA,1858
+scripts/serve.py,sha256=3ANxKryIkK09dR1wiH_ulmv4slEgNWOfbEMPLCpRDCc,719
+scripts/test.py,sha256=dBQ_jzFfD7hS8co1lc4-rWgY3wJ3vNAOdmjD3bhBowM,261
+scripts/train.py,sha256=sxN_RjhPlYjJ5fRFDIxoLVhIovAd_cvqg63ax4QW-Cs,2335
+scripts/data/germany_all.csv,sha256=F8rZSmUY4LcOCQx6jXJV-eNJQMBKa2yNNmCNUC4MJ4g,2545843
+scripts/data/preprocessed_data.csv,sha256=QnbqDXPTyizxFt1MFVZPfZJQNHQAXGZNmjFebbOUkOs,167237
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/preprocess_test.py,sha256=bNCEFB8Cv5ntVfDZSafgxHUhocBr-p6bV-dy1tQoPRA,1471
+tests/scraper_test.py,sha256=qAzuiz2TUkvreiVYPW3FhAXwpyi8n7NX_8FXCjobhR4,427
+BundesligaPredictor-0.0.4.dist-info/METADATA,sha256=6jy4z48ghdgFFcPbHdohcNdLvh47b7WBRwZt5qXrKiw,223
+BundesligaPredictor-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+BundesligaPredictor-0.0.4.dist-info/top_level.txt,sha256=edMH_90ea15tX5SNKyrowc7LCDIQ21YDb6fIb57vre8,14
+BundesligaPredictor-0.0.4.dist-info/RECORD,,
