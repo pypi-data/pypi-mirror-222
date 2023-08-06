@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: etlwrench
+Version: 0.0.1
+Summary: an API for the manakin etl framework
+Home-page: UNKNOWN
+Author: Gabriel Cordovado
+License: MIT
+Keywords: etl
+Platform: UNKNOWN
+Requires-Python: >=3.10
+License-File: LICENSE
+
+UNKNOWN
+
