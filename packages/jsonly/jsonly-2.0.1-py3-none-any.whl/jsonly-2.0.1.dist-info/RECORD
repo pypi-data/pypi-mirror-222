@@ -1,0 +1,10 @@
+jsonly/__init__.py,sha256=Q38odPH0FVf1HgAQB7YkZPihnPPjlYPJaoi9Xje2mCU,1120
+jsonly/client.py,sha256=16CzRXYstsfWjqkDVJsXeTHrpFB9VYoRUQiDGBH3Rdg,4394
+jsonly/connect.py,sha256=Hs6Ghr6E4T7CtB3WfmnOlJ7NXucSf6ZAlvg14oZ1KEM,1432
+jsonly/convert.py,sha256=pf-vLwrW0QN5smopmIJcRvQAwLJKCRPvok68CrMgCN8,4492
+jsonly/error.py,sha256=L0tz225f8Sjsl5yEoNmWpFWWzbBrzBKAxt8y9PjQ_kc,285
+jsonly-2.0.1.dist-info/LICENSE,sha256=4LOsXqyc5gQcPddusrvPdj_gOkYMPPipi7hzHIhcWqM,1087
+jsonly-2.0.1.dist-info/METADATA,sha256=YBRkZILTKPOtz2mvvzd7x5q6kzBggU69pKcFubcgdvM,2882
+jsonly-2.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+jsonly-2.0.1.dist-info/top_level.txt,sha256=y5yUGpTO5dpAIN8vUw8GBnUA2Ue8yTYjJvLtOhawieA,7
+jsonly-2.0.1.dist-info/RECORD,,
