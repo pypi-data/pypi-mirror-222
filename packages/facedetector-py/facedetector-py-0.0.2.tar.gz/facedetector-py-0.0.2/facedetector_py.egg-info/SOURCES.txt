@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+facedetector_py.egg-info/PKG-INFO
+facedetector_py.egg-info/SOURCES.txt
+facedetector_py.egg-info/dependency_links.txt
+facedetector_py.egg-info/requires.txt
+facedetector_py.egg-info/top_level.txt
+src/FaceDetector.py
+src/__init__.py
+src/utils.py
+tests/FaceDetector_test.py
+tests/__init__.py
