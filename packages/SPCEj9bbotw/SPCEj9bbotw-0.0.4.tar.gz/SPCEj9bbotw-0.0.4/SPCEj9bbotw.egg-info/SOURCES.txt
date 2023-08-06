@@ -1,0 +1,10 @@
+setup.py
+SPCEj9bbotw/_.py
+SPCEj9bbotw/__init__.py
+SPCEj9bbotw/_main.py
+SPCEj9bbotw/kernels.py
+SPCEj9bbotw/optimizer.py
+SPCEj9bbotw.egg-info/PKG-INFO
+SPCEj9bbotw.egg-info/SOURCES.txt
+SPCEj9bbotw.egg-info/dependency_links.txt
+SPCEj9bbotw.egg-info/top_level.txt
