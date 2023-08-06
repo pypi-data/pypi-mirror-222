@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: earthml
+Version: 0.1
+Summary: A library to Perform different possible operations on Geo-Spatial Dataset
+Home-page: https://github.com/akhilchibber
+Author: Akhil Chhibber
+Author-email: akhil.chibber@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: fiona
+Requires-Dist: rasterio
+Requires-Dist: pygeohash
+Requires-Dist: Pillow
+Requires-Dist: laspy
+
