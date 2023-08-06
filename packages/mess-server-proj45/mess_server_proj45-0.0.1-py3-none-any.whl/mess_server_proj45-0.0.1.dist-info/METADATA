@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mess-server-proj45
+Version: 0.0.1
+Summary: mess_server_proj45
+Home-page: UNKNOWN
+Author: ivan
+Author-email: dilbazi.mardaliyeva@bk.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy (==1.4.49)
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
+UNKNOWN
+
+
