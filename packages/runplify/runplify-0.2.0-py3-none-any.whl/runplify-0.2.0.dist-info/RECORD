@@ -1,0 +1,14 @@
+runplify/__init__.py,sha256=9b3uohr5iZ1l2r8Jp6iJ_lZ9Q4ZjvMniA4cUNiR_anQ,312
+runplify/_version.py,sha256=oPewB-WRQrVhQiuYC0pleRUJn2P-f9bber4ODSdId4U,175
+runplify/handlers.py,sha256=Rno-yREWRsVQakTF3Yz23FPDYNtNvv-KOxlEJqqJQc4,3462
+runplify-0.2.0.data/data/share/jupyter/labextensions/runplify/package.json,sha256=_IEyJTMM1CprswImk3X26wgAPFGz_VeXWct0Qu-BMYY,5358
+runplify-0.2.0.data/data/share/jupyter/labextensions/runplify/static/568.e38683257ebdb098c0c6.js,sha256=44aDJX69sJjAxu_z80x9z6GDmlx7DMBQsuWWpY7K7L0,786
+runplify-0.2.0.data/data/share/jupyter/labextensions/runplify/static/747.60ed6a99ed82bdaa9fc3.js,sha256=YO1qme2Cvaqfw514fpGstNop1v2MhQw2HKPv4Amt1V4,3996
+runplify-0.2.0.data/data/share/jupyter/labextensions/runplify/static/remoteEntry.8dd3e6868ae901451388.js,sha256=jdPmhorpAUUTiFeraKaroAr9UWTd99Aa7w67cS-EiP0,6568
+runplify-0.2.0.data/data/share/jupyter/labextensions/runplify/static/style.js,sha256=M4tA9Fl05Yk_hHU9-RvA2yXfTmZYjpxAYd0OE00kTfo,151
+runplify-0.2.0.data/data/share/jupyter/labextensions/runplify/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+runplify-0.2.0.data/data/share/jupyter/labextensions/runplify/install.json,sha256=1iKQkZqlfFFKenotv1EZ-hPFHpyRDqGleCat6LBu838,177
+runplify-0.2.0.dist-info/METADATA,sha256=sGtXtdFBhlud2Jk2BnAKFZE3ghiaAdHAKCZclR8a0DU,5615
+runplify-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+runplify-0.2.0.dist-info/licenses/LICENSE,sha256=0QY5NqBCuH-k2LzbnyNKTUxTW836OPA2mHemrtYdlTo,1520
+runplify-0.2.0.dist-info/RECORD,,
