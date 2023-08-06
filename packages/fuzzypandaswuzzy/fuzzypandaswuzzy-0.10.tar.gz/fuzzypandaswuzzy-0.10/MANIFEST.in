@@ -1,0 +1,3 @@
+include fuzzypandaswuzzy/requirements.txt
+include fuzzypandaswuzzy/thirdparty.json
+include fuzzypandaswuzzy/README.MD
