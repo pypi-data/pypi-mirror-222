@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+ibis_badge/__init__.py
+ibis_badge/_modidx.py
+ibis_badge/badge.py
+ibis_badge.egg-info/PKG-INFO
+ibis_badge.egg-info/SOURCES.txt
+ibis_badge.egg-info/dependency_links.txt
+ibis_badge.egg-info/entry_points.txt
+ibis_badge.egg-info/not-zip-safe
+ibis_badge.egg-info/requires.txt
+ibis_badge.egg-info/top_level.txt
