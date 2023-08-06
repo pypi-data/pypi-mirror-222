@@ -1,0 +1,7 @@
+README.md
+setup.py
+websrpy/__init__.py
+websrpy.egg-info/PKG-INFO
+websrpy.egg-info/SOURCES.txt
+websrpy.egg-info/dependency_links.txt
+websrpy.egg-info/top_level.txt
