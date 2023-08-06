@@ -1,0 +1,11 @@
+aprilgrid/__about__.py,sha256=wnkp9BW_2QAgjSMZbwiZkse4-iFwgCoLKMu-Ytyyc9o,53
+aprilgrid/__init__.py,sha256=UTxh_xUBjvh5Z9RSf2OYvgA3ut1L3l6F9bdPOt3UH78,55
+aprilgrid/common.py,sha256=WC_wW4GfuQZ-EtvvsEYDVQPVcdr4ulVQyvSxCjnU85o,888
+aprilgrid/detection.py,sha256=Is453ya2Io4b3byNySeRbVPNP9zQuDU_stA6sfWTmLc,153
+aprilgrid/detector.py,sha256=nVB4EAmHz5rI6wwci9X0jdoBTVaVF7QTz2-IsSiUJ78,4437
+aprilgrid/tag_codes.py,sha256=3RQrQ-dD4aZ_qhTL_HRkZVxXwFpMFkZVwWvROgzjZF4,14678
+aprilgrid/tag_family.py,sha256=AhjICYHUBHvEX8pe8-dWGgKCjcUJeGO86qhqnK1n4dI,3180
+aprilgrid-0.3.0.dist-info/METADATA,sha256=sOuAK75j3JuIXEc5JdcI1CQg4jYe7c6VuCspc4THvCA,2291
+aprilgrid-0.3.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+aprilgrid-0.3.0.dist-info/licenses/LICENSE,sha256=_wna9jLFykdEVDxNC9pEJxbUg3Ru27rLhW0MVWZIdkg,1496
+aprilgrid-0.3.0.dist-info/RECORD,,
