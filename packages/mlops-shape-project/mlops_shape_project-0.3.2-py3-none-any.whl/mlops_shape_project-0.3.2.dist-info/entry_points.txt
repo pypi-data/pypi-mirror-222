@@ -1,0 +1,3 @@
+[console_scripts]
+run-app=mlops_shape_project.app:app
+
