@@ -1,0 +1,5 @@
+libsql_experimental-0.0.2.dist-info/METADATA,sha256=Zzd3e7FYEfxilEbtUu-DNTx7ZSyD_MCDJTuFyyPz004,1215
+libsql_experimental-0.0.2.dist-info/WHEEL,sha256=3eF7E69w5Xxpb7h1qHVNi_Fl69_A4_K7f97KXlpXIAU,104
+libsql_experimental/__init__.py,sha256=iEWxUuIZP95DAznUX_12JQroMx2vVDBCw00hD7PTD0g,159
+libsql_experimental/libsql_experimental.cpython-311-darwin.so,sha256=OD3ZYK0zHXc4FBwt4OugarFLSws8SIV2aNlDHk0dvhQ,2604086
+libsql_experimental-0.0.2.dist-info/RECORD,,
