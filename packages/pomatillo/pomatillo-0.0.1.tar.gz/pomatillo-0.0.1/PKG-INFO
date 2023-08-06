@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: pomatillo
+Version: 0.0.1
+Summary: A simple pomodoro timer that can be used in a terminal.
+Home-page: https://github.com/AdityaGudimella/pomatillo
+License: MIT
+Keywords: pomodoro,timer,terminal,tui,cli
+Author: Aditya Gudimella
+Author-email: aditya.gudimella@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Requires-Dist: typing-extensions (>=4.7.1,<5.0.0)
+Project-URL: Repository, https://github.com/AdityaGudimella/pomatillo
+Description-Content-Type: text/markdown
+
+# Pomatillo
+
+## Introduction
+
+Pomatillo is a simple Pomodoro timer for the command line. It is meant to be used in the
+following modes:
+
+- As a library for other programs
+- As a command line tool (CLI)
+- As a Textual User Interface (TUI)
+
+Other modes may be added upon request.
+
+## Installation
+
+Pomatillo supports Python 3.10 and above. To install Pomatillo, run the following command:
+
+```bash
+pip install pomatillo
+```
+
+## Development
+
+Pomatillo uses [Poetry](https://python-poetry.org/) for dependency management and packaging.
+If you want to contribute to Pomatillo, here are the steps to get started:
+
+```bash
+# Clone the repo
+git clone https://github.com/AdityaGudimella/pomatillo
+# Go into the repo
+cd pomatillo
+# Install dependencies using Poetry
+poetry install
+```
+
+## Running tests
+
+Pomatillo uses [pytest](https://docs.pytest.org/en/stable/) for testing. To run the
+tests, run the following command:
+
+### Using a Poetry managed virtual environment
+
+```bash
+poetry run pytest
+```
+
+### If you installed it in a custom managed virtual environment
+
+Activate the virtual environment and run the following command:
+
+```bash
+python -m pytest
+```
+
+## Building docs
+
+Pomatillo uses [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) for
+documentation. To help with various documentation tasks, Pomatillo provides a cli:
+
+- Using a Poetry managed virtual environment
+
+```bash
+poetry run pomatillo docs --help
+```
+
+- If you installed it in a custom managed virtual environment, activate the virtual
+  environment first
+
+```bash
+python -m pomatillo docs --help
+```
+
