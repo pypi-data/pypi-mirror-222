@@ -1,0 +1,10 @@
+flutter_driver/__init__.py,sha256=riv-P8vQAkMlO2DwTrPTxDlfzrqVBHjlV4Ehi38FT_4,107
+flutter_driver/command.py,sha256=RD7i7_9BEJUEe0IBb_PQsxwUngizeVmDeKBCTX8fxdU,5935
+flutter_driver/driver.py,sha256=GXzZ3ZKCTorXbw3mpG9akuUtIuieCCMQcaY2LINaJ70,9570
+flutter_driver/jsonrpc.py,sha256=-8KsttdRMFFCCDIcBgJ2oRRbtV5vAL_NYcdIfF0nk6w,5988
+flutter_driver/runner.py,sha256=QayRcgHph_qXpUFwgM8ME909u920s_P5_wHC4nKMsi8,4423
+flutter_driver-1.0.5.dist-info/LICENSE.txt,sha256=ZUYoVLa0Yg5oPwGJQZGjTpkfKdgDIvF0fNWPwfechvg,1087
+flutter_driver-1.0.5.dist-info/METADATA,sha256=MKnumIB5j5xQ6scyFRpHqdmB8D46J6od48lW-Sq6VBc,5762
+flutter_driver-1.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+flutter_driver-1.0.5.dist-info/top_level.txt,sha256=JPv_cQHpj83YZA_RGUL0HKTpQbeTLJpzTKgB1_VmqAs,15
+flutter_driver-1.0.5.dist-info/RECORD,,
