@@ -1,0 +1,5 @@
+#!python
+from pyblue import engine
+
+# Run the server.
+engine.run()
