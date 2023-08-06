@@ -1,0 +1,12 @@
+pycoingecko
+pandas
+bs4
+lxml
+html5lib
+attrs
+pyrepresent
+
+[dev]
+pdoc3
+twine
+pytest
