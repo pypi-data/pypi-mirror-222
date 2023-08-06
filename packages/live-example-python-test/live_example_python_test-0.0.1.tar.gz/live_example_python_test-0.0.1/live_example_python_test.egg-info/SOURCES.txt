@@ -1,0 +1,9 @@
+README.md
+setup.py
+live_example_python_test/__init__.py
+live_example_python_test/__main__.py
+live_example_python_test/decorators.py
+live_example_python_test.egg-info/PKG-INFO
+live_example_python_test.egg-info/SOURCES.txt
+live_example_python_test.egg-info/dependency_links.txt
+live_example_python_test.egg-info/top_level.txt
