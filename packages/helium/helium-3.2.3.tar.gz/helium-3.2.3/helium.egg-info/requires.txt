@@ -1,0 +1,3 @@
+selenium==3.141.0
+urllib3<2
+webdriver-manager@ git+https://github.com/mherrmann/webdriver_manager@615a6f8589bbb902664d409de566da173b2260ae
