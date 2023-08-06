@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hypymedia"
+version = "0.1.0"
+description = "HTML creation via Python for HATEOAS applications. #hypermediaFTW"
+authors = ["Tel Stupple <telstupple@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+twine = "^4.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
