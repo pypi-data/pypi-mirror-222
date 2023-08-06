@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+siamtik.egg-info/PKG-INFO
+siamtik.egg-info/SOURCES.txt
+siamtik.egg-info/dependency_links.txt
+siamtik.egg-info/entry_points.txt
+siamtik.egg-info/requires.txt
+siamtik.egg-info/top_level.txt

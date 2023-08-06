@@ -1,0 +1,2 @@
+[console_scripts]
+siamphisher = siam.siam:siam
