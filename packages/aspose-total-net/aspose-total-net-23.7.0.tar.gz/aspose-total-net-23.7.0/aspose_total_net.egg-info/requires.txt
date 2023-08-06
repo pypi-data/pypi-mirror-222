@@ -1,0 +1,12 @@
+aspose-words==23.7.0
+aspose-pdf==23.7.0
+aspose-cells-python==23.7.0
+aspose-tasks==23.7.0
+aspose-zip==23.7.0
+aspose-ocr-python-net==23.7.1
+aspose-imaging-python-net==23.6.0
+Aspose.Slides==23.7.0
+aspose-cad==23.6
+aspose-3d==23.7.0
+aspose-barcode-for-python-via-net==23.7
+Aspose.Email-for-Python-via-NET==23.6
