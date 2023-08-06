@@ -1,0 +1,9 @@
+matplotlib
+numpy
+pandas
+plotly
+pysmithplot@ git+https://github.com/schlatterbeck/pySmithPlot.git
+
+[test]
+pytest
+kaleido
