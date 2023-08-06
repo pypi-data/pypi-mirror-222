@@ -1,0 +1,12 @@
+erdio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+erdio/__main__.py,sha256=OhwGVqPYjhBejV8McNyTbX8AlVIz5IINS14Djd3aRQI,90
+erdio/cli.py,sha256=-ZXSjhdeN2Jba9KFHBH9abn3Uz90_YYfQfiWX_FsN4c,1952
+erdio/drawio.py,sha256=odBU8GaIiOmO1zd5RLnlrfoWDCYYfnbjXrt19DvCZho,7835
+erdio/main.py,sha256=yv0NisgEe4Jx-Yz9jVBuCzGn-emYpfuEDEfochl00oE,77
+erdio/styles.py,sha256=Yxz7y8WwXD89JZ9qMpkMiU_qxrfeN-jA6-21AW1Csxo,2008
+erdio-0.0.1.dist-info/LICENSE,sha256=asGbPel_WbHqPvSWbS9Ui4IHZIcVcPNHvtB6kpjKxGQ,13661
+erdio-0.0.1.dist-info/METADATA,sha256=J62bxriUuqpeAMfEP_b4LoJrV5gYohJLMK8KqTukqIg,1782
+erdio-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+erdio-0.0.1.dist-info/entry_points.txt,sha256=mkMwsl2Ww2Eh19jhG8C2Axk6FO97hZDtL6CWcDjwHs8,42
+erdio-0.0.1.dist-info/top_level.txt,sha256=i4gXlRzOKagPJbo6Jcp3VSJyDC2hm62ntDwHryhLqzY,6
+erdio-0.0.1.dist-info/RECORD,,
