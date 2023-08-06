@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: Logbook
+Version: 1.6.0
+Summary: A logging replacement for Python
+Author: Georg Brandl
+Author-email: Armin Ronacher <armin.ronacher@active-4.com>
+Maintainer-email: Frazer McLean <frazer@frazermclean.co.uk>
+License: BSD-3-Clause
+Project-URL: Documentation, https://logbook.readthedocs.io
+Project-URL: Source Code, https://github.com/getlogbook/logbook
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: execnet
+Provides-Extra: sqlalchemy
+Provides-Extra: redis
+Provides-Extra: zmq
+Provides-Extra: jinja
+Provides-Extra: compression
+Provides-Extra: all
+Provides-Extra: nteventlog
+Provides-Extra: docs
+License-File: LICENSE
+License-File: AUTHORS
+
+# Welcome to Logbook
+
+<img src="https://raw.githubusercontent.com/getlogbook/logbook/master/docs/_static/logbook-logo.png" width="300">
+
+[![Latest Version][version-img]][pypi]
+![Supported Python Versions][pyver-img]
+[![GitHub Actions][gha-img]][gha]
+[![PyPI Downloads][downloads-img]][pypi]
+
+Logbook is a nice logging replacement.
+
+It should be easy to setup, use and configure and support web applications :)
+
+For more information: https://logbook.readthedocs.org
+
+[version-img]: https://img.shields.io/pypi/v/logbook.svg
+[pypi]: https://pypi.org/pypi/Logbook
+[gha-img]: https://img.shields.io/github/actions/workflow/status/getlogbook/logbook/main.yml
+[gha]: https://github.com/getlogbook/logbook/actions
+[downloads-img]: https://img.shields.io/pypi/dm/logbook
+[pyver-img]: https://img.shields.io/pypi/pyversions/logbook
