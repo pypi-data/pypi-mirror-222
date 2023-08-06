@@ -1,0 +1,13 @@
+{
+    "services": {
+        "call_method": {
+            "fields": {
+                "method": {
+                    "description": "Name of the Kodi JSONRPC API method to be called.",
+                    "name": "Method"
+                }
+            },
+            "name": "Call method"
+        }
+    }
+}

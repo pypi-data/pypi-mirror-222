@@ -1,0 +1,81 @@
+{
+    "entity": {
+        "sensor": {
+            "nextcloud_shares_num_shares_user": {
+                "name": "Amount of user shares"
+            },
+            "nextcloud_shares_permissions_3_1": {
+                "name": "Permissions 3.1"
+            },
+            "nextcloud_storage_num_files": {
+                "name": "Amount of files"
+            },
+            "nextcloud_storage_num_storages": {
+                "name": "Amount of storages"
+            },
+            "nextcloud_storage_num_storages_home": {
+                "name": "Amount of storages at home"
+            },
+            "nextcloud_storage_num_storages_local": {
+                "name": "Amount of local storages"
+            },
+            "nextcloud_storage_num_storages_other": {
+                "name": "Amount of other storages"
+            },
+            "nextcloud_storage_num_users": {
+                "name": "Amount of user"
+            },
+            "nextcloud_system_apps_app_updates_calendar": {
+                "name": "Calendar updates"
+            },
+            "nextcloud_system_apps_app_updates_contacts": {
+                "name": "Contact updates"
+            },
+            "nextcloud_system_apps_app_updates_tasks": {
+                "name": "Task updates"
+            },
+            "nextcloud_system_apps_app_updates_twofactor_totp": {
+                "name": "Two factor authentication updates"
+            },
+            "nextcloud_system_apps_num_installed": {
+                "name": "Apps installed"
+            },
+            "nextcloud_system_apps_num_updates_available": {
+                "name": "Updates available"
+            },
+            "nextcloud_system_cpuload": {
+                "name": "CPU Load"
+            },
+            "nextcloud_system_freespace": {
+                "name": "Free space"
+            },
+            "nextcloud_system_mem_free": {
+                "name": "Free memory"
+            },
+            "nextcloud_system_mem_total": {
+                "name": "Total memory"
+            },
+            "nextcloud_system_memcache_distributed": {
+                "name": "System memcache distributed"
+            },
+            "nextcloud_system_memcache_local": {
+                "name": "System memcache local"
+            },
+            "nextcloud_system_memcache_locking": {
+                "name": "System memcache locking"
+            },
+            "nextcloud_system_swap_free": {
+                "name": "Free swap memory"
+            },
+            "nextcloud_system_swap_total": {
+                "name": "Total swap memory"
+            },
+            "nextcloud_system_theme": {
+                "name": "System theme"
+            },
+            "nextcloud_system_version": {
+                "name": "System version"
+            }
+        }
+    }
+}

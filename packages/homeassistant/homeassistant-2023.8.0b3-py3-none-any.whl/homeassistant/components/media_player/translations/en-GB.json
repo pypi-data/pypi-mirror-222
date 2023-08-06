@@ -1,0 +1,13 @@
+{
+    "entity_component": {
+        "_": {
+            "state_attributes": {
+                "media_content_type": {
+                    "state": {
+                        "movie": "Film"
+                    }
+                }
+            }
+        }
+    }
+}

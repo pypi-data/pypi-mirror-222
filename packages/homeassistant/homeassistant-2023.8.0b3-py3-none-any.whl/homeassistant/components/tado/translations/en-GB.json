@@ -1,0 +1,41 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "connection_state": {
+                "name": "Connection state"
+            },
+            "early_start": {
+                "name": "Early start"
+            },
+            "overlay": {
+                "name": "Overlay"
+            }
+        },
+        "sensor": {
+            "ac": {
+                "name": "AC"
+            },
+            "automatic_geofencing": {
+                "name": "Automatic geofencing"
+            },
+            "geofencing_mode": {
+                "name": "Geofencing mode"
+            },
+            "heating": {
+                "name": "Heating"
+            },
+            "outdoor_temperature": {
+                "name": "Outdoor temperature"
+            },
+            "solar_percentage": {
+                "name": "Solar percentage"
+            },
+            "tado_mode": {
+                "name": "Tado mode"
+            },
+            "weather_condition": {
+                "name": "Weather condition"
+            }
+        }
+    }
+}

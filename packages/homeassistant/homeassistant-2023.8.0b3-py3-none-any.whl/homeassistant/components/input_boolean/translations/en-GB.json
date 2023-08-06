@@ -1,0 +1,10 @@
+{
+    "services": {
+        "turn_off": {
+            "description": "Turns off the helper."
+        },
+        "turn_on": {
+            "description": "Turns on the helper."
+        }
+    }
+}

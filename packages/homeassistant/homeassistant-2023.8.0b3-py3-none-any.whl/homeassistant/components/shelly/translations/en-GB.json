@@ -1,0 +1,8 @@
+{
+    "issues": {
+        "device_not_calibrated": {
+            "description": "Shelly device {device_name} with IP address {ip_address} requires calibration. To calibrate the device, it must be rebooted after proper installation on the valve. You can reboot the device in its web panel, go to 'Settings' > 'Device Reboot'.",
+            "title": "Shelly device {device_name} is not calibrated"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "services": {
+        "turn_on": {
+            "description": "Turns the humidifier on."
+        }
+    }
+}
