@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: creepypasta
+Version: 0.0.4
+Summary: A small package to crawl CreepyPasta and parse into structured data.
+Home-page: https://jellomoat.github.io/pasta/
+Author: Stephanie Andrews
+Author-email: Stephanie Andrews <jellomoat@gmail.com>
+Project-URL: Homepage, https://github.com/jellomoat/pasta
+Project-URL: Bug Tracker, https://github.com/jellomoat/pasta/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (>=61.0)
+Requires-Dist: beautifulsoup4 (>=4.12.2)
+Requires-Dist: lxml (==4.9.3)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: pandas (==2.0.3)
+Requires-Dist: pathlib (==1.0.1)
+Requires-Dist: chromedriver-binary-auto (==0.2.6)
+Requires-Dist: selenium (==4.10.0)
+Requires-Dist: selenium-wire (==5.1.0)
+Requires-Dist: tqdm (==4.65.0)
+
+# 🕯️ creepypasta
+
+Docs => https://jellomoat.github.io/pasta/
