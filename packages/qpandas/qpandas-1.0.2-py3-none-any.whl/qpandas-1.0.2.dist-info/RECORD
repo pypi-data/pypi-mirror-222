@@ -1,0 +1,9 @@
+qpandas/__init__.py,sha256=JQNzsGqhxIn-tJTnwXIxSU0OjGrBqVGkL2Ae1uJT8sA,2626
+qpandas/qpandas.py,sha256=VhPuSAEYpzq27tV7V-eB0ePbggK_FHBoYfds1FRapMc,7339
+qpandas/data/births.csv,sha256=Hrdtbf8Um3cQEy0bp76xcWv30bN8NHYGpWla0IyURCw,1141
+qpandas/data/births_by_month.csv,sha256=P---jKcuWe6Nvbag9WNUWjEl1essQZzFNYeL_bKb8mQ,11028
+qpandas/data/meat.csv,sha256=HCKDtcCk6D6x8LcNFem2zQTpPYqtch5TY9Ir8q4fJ_Q,62608
+qpandas-1.0.2.dist-info/METADATA,sha256=XAGy2NeQymLP9PH7BZL-_x3icwGmx8W63P6cBjkQBZI,2175
+qpandas-1.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+qpandas-1.0.2.dist-info/licenses/LICENSE,sha256=c0TISl7aQUH1NdL5Ll9cVcYwm9-2E5O8sJNlOo4Ic7I,1079
+qpandas-1.0.2.dist-info/RECORD,,
