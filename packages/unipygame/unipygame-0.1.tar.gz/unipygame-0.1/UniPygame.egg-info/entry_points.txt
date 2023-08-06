@@ -1,0 +1,2 @@
+[gui_scripts]
+realpython = unipygame.__main__:main

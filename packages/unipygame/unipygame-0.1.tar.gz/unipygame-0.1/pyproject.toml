@@ -1,0 +1,30 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unipygame"
+version = "0.1"
+description = "Pygame Unity style Entity system"
+readme = "README.md"
+authors = [{ name = "The_Herowither"}]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["pygame", "unity", "addon", "enhancement"]
+dependencies = [
+    "pygame"
+]
+requires-python = ">=3.9"
+
+
+[project.urls]
+Homepage = "https://github.com/TheHerowither/UniPygame/"
+
+[project.gui-scripts]
+realpython = "unipygame.__main__:main"
