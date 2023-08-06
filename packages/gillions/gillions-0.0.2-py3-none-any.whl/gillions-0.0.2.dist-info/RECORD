@@ -1,0 +1,10 @@
+gillions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gillions/__main__.py,sha256=Wxm8stq3Uf6T0s9FwerMAwvc4IyNJWedirYHwmTq9g4,101
+gillions/handler.py,sha256=dcZmnrsJeAcJy87z508_zqg1VzXWq_2qKrViCi0ZaHg,275
+gillions/command/__init__.py,sha256=doOOntYQyEWOlRuKooHBSse8fhntfhNoZdANNCCm0iE,234
+gillions/command/null_command.py,sha256=nFdrannyaTJRUltsvrXl1Ae7OKog9rZsj7qAIgDJcpY,162
+gillions-0.0.2.dist-info/METADATA,sha256=U9NxH9HlaWCs6rPLQ0TWDLB8SqGmTB9cpmWHFmmK5hY,275
+gillions-0.0.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+gillions-0.0.2.dist-info/entry_points.txt,sha256=LBXhv8OP7vkxI0sR5RxWdSR9OTtUckxojfB9yfQlWoE,68
+gillions-0.0.2.dist-info/top_level.txt,sha256=d2lLCzL4wG4DJILz6N6n4d3aGeARwWptnITzKxlTXUs,9
+gillions-0.0.2.dist-info/RECORD,,
