@@ -1,0 +1,10 @@
+censoredzz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+censoredzz/censor.py,sha256=l1NAq25UpZt9o-rYW0qgWd5-So8RrvRpa26HWKh3BJs,1422
+censoredzz/profanity.py,sha256=NvAdcHawx7EE5NYVW_538Gpt_oFXSE8BpAB9rV5TSQE,1186
+censoredzz/util.py,sha256=XctJ8VuzZtgnSxrmcmfvaFpl_T5RqYHKavGHcZCvVTY,299
+censoredzz/models/rf_model.pkl,sha256=GNDfHpHGePVMVsdAwr3vCSmlBYyd0nONEgaFFn4zWhs,21320521
+censoredzz/models/vocabulary.pkl,sha256=VfsFWImuB-1rML9pBCcH3JCWOQxmvr7MIKpXMI9LiKM,116314
+censoredzz-1.0.1.dist-info/METADATA,sha256=pR3SPTGFzBiKlwYRC2tRKDjemBnYwoor1A55_Cgb5KI,293
+censoredzz-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+censoredzz-1.0.1.dist-info/top_level.txt,sha256=sfNqpKVGpAQBNZn6xHS6FYlSv0EMvFXpnFunu4Lwd6s,11
+censoredzz-1.0.1.dist-info/RECORD,,
