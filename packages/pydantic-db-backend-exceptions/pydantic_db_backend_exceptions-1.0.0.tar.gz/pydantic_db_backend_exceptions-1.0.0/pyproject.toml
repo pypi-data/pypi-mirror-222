@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pydantic-db-backend-exceptions"
+version = "1.0.0"
+description = ""
+authors = ["mba <bartel@electronic-shop.lu>"]
+readme = "README.md"
+packages = [{ include = "pydantic_db_backend_exceptions" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+webexception = "^1.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
