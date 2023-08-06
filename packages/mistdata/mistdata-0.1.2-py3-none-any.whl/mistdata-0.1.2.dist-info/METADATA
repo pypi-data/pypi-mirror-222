@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mistdata
+Version: 0.1.2
+Summary: A code for reading, writing, plotting and basic processing of the MIST data
+Author: Vadym Bidula
+Author-email: vadym.bidula@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: astropy (>=5.2.2,<6.0.0)
+Requires-Dist: h5py (>=3.8.0,<4.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.20,<2.0)
+Requires-Dist: pytz (>=2023.3,<2024.0)
+Requires-Dist: scipy (>=1.11.1,<2.0.0)
+Requires-Dist: skyfield (>=1.46,<2.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
