@@ -1,0 +1,11 @@
+umpyutl/__about__.py,sha256=Xybt2skBZamGMNlLuOX1IG-h4uIxqUDGAO8MIGWrJac,22
+umpyutl/__init__.py,sha256=fXG9zF-6I8AqHq695ZhN5Fx05bTAJhP08Rjaou6IjN8,128
+umpyutl/convert.py,sha256=O0m2jsrJif9BkfGJFpFC8fQOvbLATB0IbYBPmdiCzjw,2304
+umpyutl/http.py,sha256=Wt5TZCxQHfq-K0XM7MAqn9Wk2Pn1U6KlXDb7eyYQI8c,1096
+umpyutl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+umpyutl/read.py,sha256=2alWZIRThiBUT8Bl1VgUeEy0Zw4Mthp6vc0eDvzgVNQ,8387
+umpyutl/write.py,sha256=pgaurfeNq5kCCnihEZ1FHtB_gUVFvu2ATv7Sc5NdGVo,10838
+umpyutl-2.1.0.dist-info/METADATA,sha256=VRrW2zttzQGksVE5ycb4JDydKXQAn5mnYncRjmE49xU,754
+umpyutl-2.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+umpyutl-2.1.0.dist-info/licenses/LICENSE,sha256=gJe40ZOyfkVReHYSmDbZaZp5sCnUfINcWu2Id_uRekQ,1521
+umpyutl-2.1.0.dist-info/RECORD,,
