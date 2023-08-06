@@ -1,0 +1,12 @@
+pyrtlsdrlib/__init__.py,sha256=7Io2ojeR3JJjLn3SIK9RPtPe-weJt2q6UMzwTeeZ-rc,75
+pyrtlsdrlib/common.py,sha256=fN0o42-CGJ4JMBWZnpdugU4N2eTWuH-W4OIqIDCaH9Y,5601
+pyrtlsdrlib/platform.py,sha256=ZM3cvaOX-EMqGgAXyAV2TOc6rPcRSkESwSA8nN94Rg0,563
+pyrtlsdrlib/lib/__init__.py,sha256=m_kNxOGvIFYd9pdSR0nUkaEiKMM-gD1UbqLP8GG4q0E,1979
+pyrtlsdrlib/lib/build-meta.json,sha256=p9Blo00o4dWgzvRJNahkED_NTpd61xpWAbTu2Hqgv-Q,6099
+pyrtlsdrlib/lib/librtlsdr_w32_static.dll,sha256=OA100lv3RlqUKOXpaIspysYI5nI3DZ-murXxqxhjukc,1363983
+pyrtlsdrlib/lib/custom_build/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrtlsdrlib-0.0.1.dist-info/LICENSE,sha256=rokK9MzNphPhDF32vEpRjAE06Ya13MgiSF0FepMYdgQ,1094
+pyrtlsdrlib-0.0.1.dist-info/METADATA,sha256=NdHBmONOkvJNz8O66t956CSNNRZgdU5f_iBf60N0F9o,1330
+pyrtlsdrlib-0.0.1.dist-info/WHEEL,sha256=-zZdDehx5Pp1C8AnsF_mkmV9cVKPUrgVKUBf8kGRkqo,94
+pyrtlsdrlib-0.0.1.dist-info/top_level.txt,sha256=KDXZZPmlo70kBlp2BSUoSdthpLfNGYn_8Klffz-WLzA,12
+pyrtlsdrlib-0.0.1.dist-info/RECORD,,
