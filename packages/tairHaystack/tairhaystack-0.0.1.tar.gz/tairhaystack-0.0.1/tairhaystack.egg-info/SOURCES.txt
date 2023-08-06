@@ -1,0 +1,10 @@
+setup.py
+document_stores/__init__.py
+document_stores/errors.py
+document_stores/filter_utils.py
+document_stores/tairvector.py
+tairhaystack.egg-info/PKG-INFO
+tairhaystack.egg-info/SOURCES.txt
+tairhaystack.egg-info/dependency_links.txt
+tairhaystack.egg-info/requires.txt
+tairhaystack.egg-info/top_level.txt
