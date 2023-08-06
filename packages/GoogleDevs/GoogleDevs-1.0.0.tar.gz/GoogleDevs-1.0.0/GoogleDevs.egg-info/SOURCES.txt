@@ -1,0 +1,6 @@
+GoogleDevs.py
+setup.py
+GoogleDevs.egg-info/PKG-INFO
+GoogleDevs.egg-info/SOURCES.txt
+GoogleDevs.egg-info/dependency_links.txt
+GoogleDevs.egg-info/top_level.txt
