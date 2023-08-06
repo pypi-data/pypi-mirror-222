@@ -1,0 +1,4 @@
+PyQt5
+sqlalchemy==1.4.49
+pycryptodome
+pycryptodomex
