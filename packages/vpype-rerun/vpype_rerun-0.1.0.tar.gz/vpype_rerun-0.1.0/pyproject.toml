@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "vpype-rerun"
+version = "0.1.0"
+description = "Rerun viewer integration for vpype"
+authors = ["Antoine Beyeler <abeyeler@ab-ware.com>"]
+license = "MIT"
+readme = "README.md"
+classifiers=[
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Multimedia :: Graphics",
+    "Environment :: Plugins",
+]
+packages = [{include = "vpype_rerun"}]
+
+[tool.poetry.plugins."vpype.plugins"]
+rerun = "vpype_rerun.rerun:rerun"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+vpype = { version = ">=1.13", extras = ["all"] }
+click = ">=8.1.6"
+rerun-sdk = ">=0.8.0"
+
+[tool.poetry.group.dev.dependencies]
+black = ">=23.7.0"
+ruff = ">=0.0.280"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 95
+target-version = ["py39", "py310", "py311"]

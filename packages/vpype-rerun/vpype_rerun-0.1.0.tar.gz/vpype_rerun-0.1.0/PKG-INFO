@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: vpype-rerun
+Version: 0.1.0
+Summary: Rerun viewer integration for vpype
+License: MIT
+Author: Antoine Beyeler
+Author-email: abeyeler@ab-ware.com
+Requires-Python: >=3.9,<3.12
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Dist: click (>=8.1.6)
+Requires-Dist: rerun-sdk (>=0.8.0)
+Requires-Dist: vpype[all] (>=1.13)
+Description-Content-Type: text/markdown
+
+# vpype-rerun
+
+This plug-in integrates the [Rerun viewer](https://github.com/rerun-io/rerun) in [*vpype*](https://github.com/abey79/vpype).
+
+## Example
+
+```
+vpype random -n 500 -a 20cm 20cm rerun
+```
+
+<img width="1106" alt="image" src="https://github.com/abey79/vpype-rerun/assets/49431240/4bcadf27-3058-4c16-aaab-5ba5fe3e9252">
+
+
+## Why?
+
+This plug-in makes it easy to log large quantities of [2D line strips](https://www.rerun.io/docs/reference/data_types/linestrip2d) to the Rerun viewer, which is useful for stress-testing, etc.
+
+
+## Installation
+
+See the [installation instructions](https://vpype.readthedocs.io/en/latest/install.html) for information on how
+to install `vpype` (TL;DR: `pipx install "vpype[all]"`).
+
+If *vpype* was installed using pipx, use the following command:
+
+```bash
+$ pipx inject vpype vpype-rerun
+```
+
+If *vpype* was installed using pip in a virtual environment, activate the virtual environment and use the following command:
+
+```bash
+$ pip install vpype-rerun
+```
+
+## Documentation
+
+The complete plug-in documentation is available directly in the CLI help:
+
+```bash
+$ vpype rerun --help
+```
+
+
+## License
+
+See the [LICENSE](LICENSE) file for details.
+
