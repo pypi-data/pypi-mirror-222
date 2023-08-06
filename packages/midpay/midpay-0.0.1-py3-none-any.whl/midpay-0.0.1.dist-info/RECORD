@@ -1,0 +1,10 @@
+midpay/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+midpay/crawlers.py,sha256=izVa_1GumuXhZcciG1X_OTH-YokZDbf0lfM6qpW4Bdc,2043
+midpay/scripts.py,sha256=Wf6zmj8QKpxPhlMP77JybgjACBUqJ32_ncuJhgXWiU8,367
+midpay/settings.py,sha256=XtdIlAV7ZY3FyBxueZLCp5O1J5YmUqBEJjjZbhlqkOo,680
+midpay-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+midpay-0.0.1.dist-info/METADATA,sha256=cE7hOvWnogZb89nfhUBbH_hRVilyeT0XHApZn9eYiE4,1130
+midpay-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+midpay-0.0.1.dist-info/entry_points.txt,sha256=hgQ965yalq8i7Zs5D0iOtr2p6Oi3BL1hj-wrewxiQZg,46
+midpay-0.0.1.dist-info/top_level.txt,sha256=4u8XOE8NxkBwDHw4cXihw60Z3Y6mODWavkGkMRumqfQ,7
+midpay-0.0.1.dist-info/RECORD,,
