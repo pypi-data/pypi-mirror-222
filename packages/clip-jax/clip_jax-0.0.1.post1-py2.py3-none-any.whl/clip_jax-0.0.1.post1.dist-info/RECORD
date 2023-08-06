@@ -1,0 +1,11 @@
+clip_jax/__init__.py,sha256=5ugc4Xl4FxS1VnFQG8TNFN0kpq09Vd8f6-RiBpceuYY,151
+clip_jax/configuration_clip.py,sha256=H7ronUAUqtYVK8XzcJjADbmA1rxXtezFM1sCebGJoaQ,16816
+clip_jax/data.py,sha256=lQhqHUtJs1bmkVq8GVvywTgsAoPcPklP_1lf2b23wxw,9659
+clip_jax/modeling.py,sha256=rH2xdMaQGQ4qRxVltrazB2hJFG1dC-TZyzjH0cPNq8Y,55532
+clip_jax/partitions.py,sha256=p4-W0Ff97SAdGjaow4XVlu4ChYVTKy6MTXatSJfedzI,8314
+clip_jax/test.ipynb,sha256=k7IlIGhL_W1Gj2bj6gJjqGmA7MjK2Zt4vRO-Hdqf8yg,7431
+clip_jax/utils.py,sha256=fzzvXH2vlHOHCBLFfRoZmlwB-He-YXNdIme0ktOLoXI,1767
+clip_jax-0.0.1.post1.dist-info/METADATA,sha256=LwUcy-3ikC45n5Y-hBXFlQSReqhr_RBG6fZbuQ04atg,1056
+clip_jax-0.0.1.post1.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+clip_jax-0.0.1.post1.dist-info/licenses/LICENSE.md,sha256=NHdnngp-AU4ebNqmqwtQC4hcLpamPC1iCwav_fYK46Y,11354
+clip_jax-0.0.1.post1.dist-info/RECORD,,
