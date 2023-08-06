@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: ofdlib
+Version: 0.0.1
+Summary: 
+Author: hbh112233abc
+Author-email: hbh112233abc@163.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: lxml (>=4.9.2,<5.0.0)
+Requires-Dist: numpy (>=1.17.0,<2.0.0)
+Requires-Dist: pydantic (>=1.10.8,<2.0.0)
+Requires-Dist: rich (>=13.4.2,<14.0.0)
+Description-Content-Type: text/markdown
+
+# OFD
+
+OFD 文档解析库,开发中...
+
+- [x] Reader
+- [ ] Writer
+- [ ] Convertor
+
+## OFD 解析
+
+```python
+from ofdlib import Reader
+
+file = "your_path_of_ofd_document.ofd"
+ofd = Reader(file)
+
+print(ofd.OFD)
+print(ofd.documents)
+
+for page in ofd.documents[0].pages():
+    print(page)
+    page.show()
+
+```
+
+## 参考资料
+
+[jyh2012/ofd-parser](https://github.com/jyh2012/ofd-parser)
+[DLTech21/ofd.js](https://github.com/DLTech21/ofd.js)
+[ofdrw/ofdrw](https://github.com/ofdrw/ofdrw)
+
