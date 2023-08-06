@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+src/go.py
+src/stuff.py
+src/Python_Wars_Solo.egg-info/PKG-INFO
+src/Python_Wars_Solo.egg-info/SOURCES.txt
+src/Python_Wars_Solo.egg-info/dependency_links.txt
+src/Python_Wars_Solo.egg-info/entry_points.txt
+src/Python_Wars_Solo.egg-info/top_level.txt
