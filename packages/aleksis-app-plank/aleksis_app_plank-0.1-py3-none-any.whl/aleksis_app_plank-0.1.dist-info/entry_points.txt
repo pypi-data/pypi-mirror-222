@@ -1,0 +1,3 @@
+[aleksis.app]
+chronos=aleksis.apps.plank.apps:PlankConfig
+
