@@ -1,0 +1,17 @@
+tuicord/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tuicord/components/__init__.py,sha256=-EfnKOwN1M2k2WP6dWpv-8rrbOxMsr8KNqPjtIOkLok,127
+tuicord/components/channel_message.py,sha256=8bbMOyRrgzfKAc-HQtwzzT1Vu0LG5wX2bJH6KlLtMeo,290
+tuicord/components/channels_tree.py,sha256=6na-zxCV5bZ6rh56RvTGOKZ2fesKubXjrpYBqnC0WTk,2613
+tuicord/components/input_box.py,sha256=zZ_jpU_nX__uUvZmkLJV031sLQtsfV47BQ6bgiFSdTI,492
+tuicord/components/server_button.py,sha256=HNVWeaPLAWfjCnGZZ04mwcMCCIk8UzfBO0xMjfpKeVo,2319
+tuicord/core/__init__.py,sha256=sbeqeYoekwzyDUC0xVtKHAE5VG1VdrLNX-Tfc3w0QZQ,81
+tuicord/core/discord_client.py,sha256=wJiWTaAayXePsWTVQIBt2uAAlr8U6XDZ1pgbBi8l7ME,1566
+tuicord/core/styles/style.css,sha256=w3ASaiznfF45mwf9hJnSgY3mWz9_VVISLEpOILS1WWg,471
+tuicord/core/tui_interface.py,sha256=qGXDsoAFwzjC27jNhaF8_1W3Km6ZlPyy61U0VLKselI,2628
+tuicord/main.py,sha256=reRhixr8pqH-9Vl8ZV_qqer_OjjqbVoL66I-HQUhuIE,1386
+tuicord/utils.py,sha256=HpFU2bJ8a6m0thUaw4IlJ4ajTrMkojeqgrxP9uXiFJw,573
+tuicord-0.1.0.dist-info/entry_points.txt,sha256=zlpLxMWcgDUdCg5vQwuVhk9lH7yLYfZ_QqCoHZmHPU8,44
+tuicord-0.1.0.dist-info/LICENSE,sha256=68E6wY9gzZc7RyC6kgD9Is0f3Nqm77l6d1keQQW1_0M,2569
+tuicord-0.1.0.dist-info/METADATA,sha256=HnyNSIIE4zY8iuRIRjDWdUU43LoAxKT0NJ53glojiNc,3717
+tuicord-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+tuicord-0.1.0.dist-info/RECORD,,

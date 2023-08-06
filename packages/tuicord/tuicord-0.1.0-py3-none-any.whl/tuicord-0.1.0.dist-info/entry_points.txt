@@ -1,0 +1,3 @@
+[console_scripts]
+tuicord=tuicord.main:cli
+
