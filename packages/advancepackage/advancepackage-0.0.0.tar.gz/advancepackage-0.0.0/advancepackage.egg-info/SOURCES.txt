@@ -1,0 +1,7 @@
+license.txt
+setup.py
+advancepackage/__init__.py
+advancepackage.egg-info/PKG-INFO
+advancepackage.egg-info/SOURCES.txt
+advancepackage.egg-info/dependency_links.txt
+advancepackage.egg-info/top_level.txt
