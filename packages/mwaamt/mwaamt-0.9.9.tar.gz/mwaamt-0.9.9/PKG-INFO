@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mwaamt
+Version: 0.9.9
+Summary: mwaamt - MWAA Model ToolKit - Perform source and component apportionment of optical absorption data, based on the upgraded MWAA model.
+Author-email: Tommaso Isolabella <tisolabella@ge.infn.it>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: openpyxl
+Requires-Dist: xlrd
+
+MMT - Mwaa Model Toolkit
+A Python toolkit for optical and mass apportionment of wavelength-resolved absorption data.
+

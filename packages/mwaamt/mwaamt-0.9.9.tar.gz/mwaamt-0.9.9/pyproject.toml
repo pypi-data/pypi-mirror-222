@@ -1,0 +1,29 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.8.0,<4"]
+
+[project]
+name = "mwaamt"
+version = "0.9.9"
+authors = [
+	{name = "Tommaso Isolabella", email = "tisolabella@ge.infn.it"},
+]
+description = "mwaamt - MWAA Model ToolKit - Perform source and component apportionment of optical absorption data, based on the upgraded MWAA model."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+	"Natural Language :: English",
+	"Programming Language :: Python",
+]
+dependencies = [
+	"pandas",
+	"numpy",
+	"scipy",
+	"matplotlib",
+	"openpyxl",
+	"xlrd",
+] 
+
+[project.scripts]
+mwaamt = "mwaamt.flow:cli_script"
+mmt = "mwaamt.flow:cli_script"
