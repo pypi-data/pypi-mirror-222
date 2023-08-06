@@ -1,0 +1,7 @@
+numpy
+torch>=0.4.1
+scikit-image
+SimpleITK
+
+[dev]
+pytest
