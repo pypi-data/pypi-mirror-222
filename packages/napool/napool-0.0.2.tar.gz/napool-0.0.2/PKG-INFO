@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: napool
+Version: 0.0.2
+Summary: A thin wrapper of asyncio
+Author: bnkr
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# NanoAsyncPool - A Thin Wrapper of Asyncio
+Readme here.
