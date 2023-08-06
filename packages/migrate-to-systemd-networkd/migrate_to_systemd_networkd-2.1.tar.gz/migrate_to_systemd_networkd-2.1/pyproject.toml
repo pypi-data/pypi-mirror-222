@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "migrate-to-systemd-networkd"
+version = "2.1"
+description = "Migrate network configuration to systemd networkd"
+authors = ["Jiajie Chen <c@jia.je>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^8.0.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ifupdown-to-systemd-networkd = 'migrate_to_systemd_networkd.ifupdown:run'
