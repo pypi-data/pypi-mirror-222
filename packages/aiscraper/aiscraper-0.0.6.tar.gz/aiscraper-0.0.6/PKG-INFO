@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: aiscraper
+Version: 0.0.6
+Summary: Scrpers ,crawls and cleans the data it finds
+Author: Harsh Avinash
+Author-email: harsh.avinash.official@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+License-File: LICENSE
