@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+tm_config_server_client_python/Binomialdistribution.py
+tm_config_server_client_python/Gaussiandistribution.py
+tm_config_server_client_python/Generaldistribution.py
+tm_config_server_client_python/Pythonclient.py
+tm_config_server_client_python/__init__.py
+tm_config_server_client_python.egg-info/PKG-INFO
+tm_config_server_client_python.egg-info/SOURCES.txt
+tm_config_server_client_python.egg-info/dependency_links.txt
+tm_config_server_client_python.egg-info/not-zip-safe
+tm_config_server_client_python.egg-info/top_level.txt
