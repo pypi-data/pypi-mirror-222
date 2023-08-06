@@ -1,0 +1,14 @@
+magentic/__init__.py,sha256=FQZg5W3vvQAibvBouQ5FomMef6F2NoD3CiSPzs_DPkE,208
+magentic/chat.py,sha256=sKpITebpKtysNcU_tB03e5aLaBwf7GJ2ljvSU5u0nJo,2100
+magentic/chat_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magentic/chat_model/base.py,sha256=xqzvkXrqy7qd6VefK4nm3IqN2dAK0UUmoo6fsN6jq48,1517
+magentic/chat_model/openai_chat_model.py,sha256=SJWqlkn_XTyW15-WLnr3IoD7ZHgSs7XO76PapZ_m56Y,11940
+magentic/function_call.py,sha256=-we_Vu-KpSdiFJQKA7ADzii1AuvsC_-IIfsA2MTzijs,1348
+magentic/prompt_chain.py,sha256=eJDL2xkZs8sPwnBzGHxDkx8IJLbeSrMvDUwswirqxxE,1696
+magentic/prompt_function.py,sha256=2nibEPPFa5JdAs2i45hNC2zqnIK1bX7aV3uVyMQG82w,5233
+magentic/py.typed,sha256=SbhdbflyokeJX2qXuwe8jOesMV4feURU_e6wkrTQUmQ,61
+magentic/typing.py,sha256=N-ZjMJXOu54BiJuNoGI7G3whHur5S4YjZvci63mQE14,1584
+magentic-0.1.3.dist-info/LICENSE,sha256=Q6FfPh6wDkMH92Rnl_q9cyO1OkxFfhfXeXgoq64IgJw,1069
+magentic-0.1.3.dist-info/METADATA,sha256=47HeP-GcManM07H5XhsxhhngO-ZKdpQNNT5J-CSQXIQ,5827
+magentic-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+magentic-0.1.3.dist-info/RECORD,,
