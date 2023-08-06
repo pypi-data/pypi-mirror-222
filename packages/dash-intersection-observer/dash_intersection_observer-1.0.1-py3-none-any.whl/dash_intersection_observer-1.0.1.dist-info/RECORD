@@ -1,0 +1,11 @@
+dash_intersection_observer/DashIntersectionObserver.py,sha256=Ffo9Iv-7QLlWyi6uaPqq4D-9fj5tCYCIDYoaUSr-Jiw,2541
+dash_intersection_observer/__init__.py,sha256=vrGl2keY0ARWG3WoAzVDPHLGuRwjPv5841mRdx4Hrcw,1590
+dash_intersection_observer/_imports_.py,sha256=4vuXoWHKEWDHILYsoPIV2eWloAgPJHgRbyMCmA5zNNo,108
+dash_intersection_observer/dash_intersection_observer.js,sha256=Oao0x-Tk-22hU-QQXxn4Nigux7utr7xpVaUYuB8iYmw,6072
+dash_intersection_observer/metadata.json,sha256=sSI-plZ-SWvRVzz4M8X8ZYmGnteHHUrA2XO5dNJlNRg,2755
+dash_intersection_observer/package-info.json,sha256=VNHo4W5tqdr_cJk8c0fBR74ePOAvN0-GR1FQ7ZTAtZ4,1387
+dash_intersection_observer-1.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_intersection_observer-1.0.1.dist-info/METADATA,sha256=LmcgQ2aKZSnCR3v1TZBvA2neA5dBfE8-YDXFPWy4dew,236
+dash_intersection_observer-1.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+dash_intersection_observer-1.0.1.dist-info/top_level.txt,sha256=tq9zTvtvvfFwMS33DuJoI7ZCmdGOEsAyM9shtfQaXwk,27
+dash_intersection_observer-1.0.1.dist-info/RECORD,,
