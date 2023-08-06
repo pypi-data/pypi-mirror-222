@@ -1,0 +1,17 @@
+pyonlinesvr/__init__.py,sha256=gyNZePohQKjnIjCZlsAaCx6x_f47XWzwAUeE5_HAWwk,899
+pyonlinesvr/_version.py,sha256=fkcT187T-OtlVo8xMM_a8O_B_nKGM4romkV5gWtSvjg,821
+pyonlinesvr/osvr.py,sha256=fNWDJqdR3k05ArDEGEzuyBuRcL6-UHWd9sWXyYRWOik,15229
+pyonlinesvr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyonlinesvr/lib/__init__.py,sha256=0J1UBLAAWvWdgmjoRjH20m9gyqxBwd6RV9gebtfSY7o,791
+pyonlinesvr/lib/_onlinesvr.cp38-win_amd64.pyd,sha256=AWAeVFND1jZ_0vLYsCrEkR9tx7kiXJaN-stKGoRILms,451072
+pyonlinesvr/lib/compat.py,sha256=1khrn_NTVPnX9QK0jnQ8w6l9jxtYfl6_qfm4YeQLPMc,3492
+pyonlinesvr/lib/onlinesvr.py,sha256=juSpDVVSnvaFgdmdXeFoky44P-EXyQ0b94ooGAFFObk,24310
+tests/__init__.py,sha256=0J1UBLAAWvWdgmjoRjH20m9gyqxBwd6RV9gebtfSY7o,791
+tests/test_osvr.py,sha256=qc5t8BW0fOzRmvKD_LnLulSfvM5QS_i2qL4U7rKMSSs,5581
+tests/lib/__init__.py,sha256=0J1UBLAAWvWdgmjoRjH20m9gyqxBwd6RV9gebtfSY7o,791
+tests/lib/test_compat.py,sha256=aqM5_EL2rT3IiVZnezEFtduzStp700gCRf_TaK_EkKE,2234
+PyOnlineSVR-0.0.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+PyOnlineSVR-0.0.4.dist-info/METADATA,sha256=6vZ-X2aC13K9yvRGgbU-ZSYUhlXSAMuWbdYcLcULefU,5649
+PyOnlineSVR-0.0.4.dist-info/WHEEL,sha256=F2aDWtWrilNM3-px1vBtJOEd7aRVTetQfFuDYmYbAUQ,100
+PyOnlineSVR-0.0.4.dist-info/top_level.txt,sha256=KMH3vWT2jpz15QJCLt8N9uze6mbclMO128Oi2vyDXk4,18
+PyOnlineSVR-0.0.4.dist-info/RECORD,,
