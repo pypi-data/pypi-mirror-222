@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: APKMirror-Search
+Version: 1.0.1
+Summary: Add the ability to search and grab download links from APKMirror
+License: GPL3
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: bs4
+Requires-Dist: html5lib
+
