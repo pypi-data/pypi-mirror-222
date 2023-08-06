@@ -1,0 +1,8 @@
+arrayqueues/__init__.py,sha256=8w21h1BXvo4FWnmJb2SbUk5svMAg228IEVC2xp2T8Bk,242
+arrayqueues/portable_queue.py,sha256=lKkadkhaw6-ea5uZdMYOiHOqkl-O2e5ip7CLUK_re8Q,3153
+arrayqueues/shared_arrays.py,sha256=RqBC6zikqnxWOROtpdhr3pPf6DeNs93gQSNmHKfgYQU,5681
+arrayqueues-1.4.1.dist-info/LICENSE.txt,sha256=DGX8jy0T_Du2S4gINc_lZryqQ4jNhDRlbXh0WZuYp6E,1054
+arrayqueues-1.4.1.dist-info/METADATA,sha256=--LJN4OacK5F16NAXEcdj6zobpJGdbqTSox2bLltANw,3354
+arrayqueues-1.4.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+arrayqueues-1.4.1.dist-info/top_level.txt,sha256=1XeQuft5bxLmzqGzbMduNDphsYYDbdhzakHVGdvvl-4,12
+arrayqueues-1.4.1.dist-info/RECORD,,
