@@ -1,0 +1,6 @@
+mathhelper.py
+setup.py
+mathhelper.egg-info/PKG-INFO
+mathhelper.egg-info/SOURCES.txt
+mathhelper.egg-info/dependency_links.txt
+mathhelper.egg-info/top_level.txt
