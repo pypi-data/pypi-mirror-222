@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+arcu.egg-info/PKG-INFO
+arcu.egg-info/SOURCES.txt
+arcu.egg-info/dependency_links.txt
+arcu.egg-info/requires.txt
+arcu.egg-info/top_level.txt
