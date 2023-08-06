@@ -1,0 +1,3 @@
+[console_scripts]
+tcafe-attending-bot=tcafe_attending_bot:main
+
