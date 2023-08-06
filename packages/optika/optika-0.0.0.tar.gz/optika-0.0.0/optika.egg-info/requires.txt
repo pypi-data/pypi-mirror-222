@@ -1,0 +1,14 @@
+astropy
+named-arrays
+
+[doc]
+pytest
+matplotlib
+graphviz
+sphinx-autodoc-typehints
+pydata-sphinx-theme
+jupyter-sphinx
+sphinx-favicon
+
+[test]
+pytest

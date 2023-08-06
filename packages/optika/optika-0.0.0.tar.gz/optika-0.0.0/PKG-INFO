@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: optika
+Version: 0.0.0
+Summary: A Python library for simulating optical systems, similar to Zemax
+Author-email: "Roy T. Smart" <roytsmart@gmail.com>
+Project-URL: Homepage, https://github.com/byrdie/optika
+Project-URL: Documentation, https://optika.readthedocs.io/en/latest
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: doc
+
+# optika
+
+[![Documentation Status](https://readthedocs.org/projects/optika/badge/?version=latest)](https://optika.readthedocs.io/en/latest/?badge=latest)
+
+A Python library for simulating optical systems, similar to Zemax

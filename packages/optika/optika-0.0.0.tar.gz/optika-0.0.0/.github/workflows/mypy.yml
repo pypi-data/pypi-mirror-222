@@ -1,0 +1,18 @@
+name: Mypy
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Mypy
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python
+      uses: actions/setup-python@v2
+    - name: Install Dependencies
+      run: |
+        pip install mypy
+    - name: Run mypy
+      run: |
+        mypy optika/
