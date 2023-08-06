@@ -1,0 +1,7 @@
+{
+ "tests": {
+  "tests_per_app": 2,
+  "test_timeout": 1000,
+  "test_fail_retries": 2
+ }
+}
