@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ttqakit
+Version: 0.0.2
+Summary: ttqakit
+Home-page: https://github.com/lfy79001/TableQAKit
+Author: lfy
+Author-email: 2591091196@email.com
+License: UNKNOWN
+Keywords: A Comprehensive and Practical Toolkit for Table-based Question Answering
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: datasets
+Requires-Dist: peft
+Requires-Dist: openai
+Requires-Dist: matplotlib
+Requires-Dist: wandb
+Requires-Dist: rouge-chinese
+
+# ttqakit
+A Comprehensive and Practical Toolkit for Table-based Question Answering
+
