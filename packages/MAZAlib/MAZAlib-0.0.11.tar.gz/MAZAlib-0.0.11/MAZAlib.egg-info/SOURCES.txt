@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+./maza_cwrapper/pythoninterface.cpp
+MAZAlib.egg-info/PKG-INFO
+MAZAlib.egg-info/SOURCES.txt
+MAZAlib.egg-info/dependency_links.txt
+MAZAlib.egg-info/top_level.txt
+maza_cwrapper/__init__.py
+mydist/build/libmydist.so
+mydist/include/mydist.h
