@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/OpenGeodeWeb-Back/__init__.py
+src/OpenGeodeWeb-Back/geode_functions.py
+src/OpenGeodeWeb-Back/geode_objects.py
+src/OpenGeodeWeb_Back.egg-info/PKG-INFO
+src/OpenGeodeWeb_Back.egg-info/SOURCES.txt
+src/OpenGeodeWeb_Back.egg-info/dependency_links.txt
+src/OpenGeodeWeb_Back.egg-info/top_level.txt
