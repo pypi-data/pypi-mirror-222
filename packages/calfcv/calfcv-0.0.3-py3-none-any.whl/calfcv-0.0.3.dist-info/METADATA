@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: calfcv
+Version: 0.0.3
+Summary: Coarse approximation linear function with cross validation
+Home-page: 
+Download-URL: https://github.com/scikit-learn-contrib/project-template
+Maintainer: Carlson Research, LLC
+Maintainer-email: hrolfrc@gmail.com
+License: new BSD
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+
+.. -*- mode: rst -*-
+
+|Travis|_ |AppVeyor|_ |Codecov|_ |CircleCI|_ |ReadTheDocs|_
+
+.. |Travis| image:: https://travis-ci.org/scikit-learn-contrib/project-template.svg?branch=master
+.. _Travis: https://travis-ci.org/scikit-learn-contrib/project-template
+
+.. |AppVeyor| image:: https://ci.appveyor.com/api/projects/status/coy2qqaqr1rnnt5y/branch/master?svg=true
+.. _AppVeyor: https://ci.appveyor.com/project/glemaitre/project-template
+
+.. |Codecov| image:: https://codecov.io/gh/scikit-learn-contrib/project-template/branch/master/graph/badge.svg
+.. _Codecov: https://codecov.io/gh/scikit-learn-contrib/project-template
+
+.. |CircleCI| image:: https://circleci.com/gh/scikit-learn-contrib/project-template.svg?style=shield&circle-token=:circle-token
+.. _CircleCI: https://circleci.com/gh/scikit-learn-contrib/project-template/tree/master
+
+.. |ReadTheDocs| image:: https://readthedocs.org/projects/sklearn-template/badge/?version=latest
+.. _ReadTheDocs: https://sklearn-template.readthedocs.io/en/latest/?badge=latest
+
+CalfCV
+============================================================
+
+.. _scikit-learn: https://scikit-learn.org
+
+This is a Python implementation of the Coarse Approximation Linear Function (CALF) used in the R package, calf_. The calfcv package follows the conventions of Scikit-Learn and is compatible with that ecosystem.
+
+.. _calf: https://cran.r-project.org/web/packages/CALF/index.html
+
+Jeffries, C.D., Ford, J.R., Tilson, J.L. et al. A greedy regression algorithm with coarse weights offers novel advantages. Sci Rep 12, 5440 (2022). https://doi.org/10.1038/s41598-022-09415-2
+
+
+
