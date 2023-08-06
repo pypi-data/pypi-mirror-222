@@ -1,0 +1,5 @@
+setup.py
+saludarjn.egg-info/PKG-INFO
+saludarjn.egg-info/SOURCES.txt
+saludarjn.egg-info/dependency_links.txt
+saludarjn.egg-info/top_level.txt
