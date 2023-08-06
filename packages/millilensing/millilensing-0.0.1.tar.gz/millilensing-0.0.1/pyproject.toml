@@ -1,0 +1,8 @@
+[build-system]
+requires = [
+	"bilby", 
+	"lalsuite", 
+	"numpy>=1.9",
+	"setuptools>=42"
+]
+build-backend = "setuptools.build_meta"
