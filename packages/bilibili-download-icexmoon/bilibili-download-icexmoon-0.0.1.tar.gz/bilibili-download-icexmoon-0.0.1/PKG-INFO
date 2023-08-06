@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bilibili-download-icexmoon
+Version: 0.0.1
+Summary: Help download lot vedio from bilibili
+Home-page: https://github.com/icexmoon/bilibili-download
+Author: icexmoon
+Author-email: icexmoon@qq.com
+Project-URL: Bug Tracker, https://github.com/icexmoon/bilibili-download/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.5
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# bilibili-download
