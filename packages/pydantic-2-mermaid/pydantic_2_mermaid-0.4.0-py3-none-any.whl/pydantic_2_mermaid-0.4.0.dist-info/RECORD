@@ -1,0 +1,11 @@
+pydantic_mermaid/__init__.py,sha256=_Sr_tdl_l0yJ3ha-z0fVH2gN50VvhZyo2EV7US25qt4,270
+pydantic_mermaid/__main__.py,sha256=u8jUc3JrVGkTQstjsd42la7l4sL0IG4I7RbhYtsI64o,2973
+pydantic_mermaid/mermaid_generator.py,sha256=LFtgtChxuaiB3eAroLnyeH2u8Kym1TRlBcH4kwb1nZo,3433
+pydantic_mermaid/models.py,sha256=SpgMgMFyy3GA9ynEoSBy58EVAY5RSAo9QJWUu-II7gU,1688
+pydantic_mermaid/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_mermaid/pydantic_2_parser.py,sha256=msrNuUM7IARFE4gOOTFi2wQhe4cJC0uMt3rXdtsa6TE,2829
+pydantic_mermaid/pydantic_parser.py,sha256=jCNtz0oW8CYXGwZ73jYYaJJ-POfxwOQ_2VyhugwecwM,89
+pydantic_2_mermaid-0.4.0.dist-info/METADATA,sha256=FF77H142QxJTeq0nQ0IsT-Vl1b0VE9wjeeJgttuGx28,3178
+pydantic_2_mermaid-0.4.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+pydantic_2_mermaid-0.4.0.dist-info/entry_points.txt,sha256=Ri3vFe50LxAJmpr_Q69Z7KX3RgzxVhyKnohWKn8A5Ik,67
+pydantic_2_mermaid-0.4.0.dist-info/RECORD,,
