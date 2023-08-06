@@ -1,0 +1,6 @@
+click==8.1.6
+inquirer==2.9.2
+psutil==5.9.0
+colorama==0.4.5
+Flask==2.3.2
+dispenser==0.3.0
