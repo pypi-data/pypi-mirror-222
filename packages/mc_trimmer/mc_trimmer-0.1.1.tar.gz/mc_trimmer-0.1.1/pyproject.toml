@@ -1,0 +1,48 @@
+[project]
+name = "mc_trimmer"
+dynamic = ["version"]
+description = ""
+authors = [
+    {name = "Thaodan"},
+]
+dependencies = [
+    "NBT>=1.5.1",
+    "multiprocess>=0.70.15",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[project.scripts]
+mctrimmer = "mc_trimmer.__main__:run"
+
+
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.7.0",
+    "pytest>=7.4.0",
+    "snakeviz>=2.2.0",
+    "pyprof2calltree>=1.4.5",
+    "gprof2dot>=2022.7.29",
+    "line-profiler>=4.0.3",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--rootdir=. --capture=tee-sys -v -o console_output_style=classic"
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "[%(levelname)s] (%(filename)s:%(lineno)s): %(message)s "
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+
+[tool.setuptools.dynamic]
+version = {attr = "mc_trimmer.__version__.__version__"}
+
+[tool.black]
+line-length = 120
