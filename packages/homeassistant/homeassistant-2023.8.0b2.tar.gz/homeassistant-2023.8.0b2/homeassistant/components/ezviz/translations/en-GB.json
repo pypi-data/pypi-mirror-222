@@ -1,0 +1,31 @@
+{
+    "entity": {
+        "button": {
+            "ptz_down": {
+                "name": "PTZ down"
+            },
+            "ptz_left": {
+                "name": "PTZ left"
+            },
+            "ptz_right": {
+                "name": "PTZ right"
+            },
+            "ptz_up": {
+                "name": "PTZ up"
+            }
+        }
+    },
+    "issues": {
+        "service_depreciation_ptz": {
+            "fix_flow": {
+                "step": {
+                    "confirm": {
+                        "description": "EZVIZ PTZ service is deprecated and will be removed.\nTo move the camera, you can instead use the `button.press` service targetting the PTZ* entities.\n\nPlease remove the use of this service from your automations and scripts and select **submit** to close this issue.",
+                        "title": "EZVIZ PTZ service is being removed"
+                    }
+                }
+            },
+            "title": "EZVIZ PTZ service is being removed"
+        }
+    }
+}

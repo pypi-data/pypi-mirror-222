@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "time": {
+            "dnd_end_time": {
+                "name": "Do not disturb end"
+            },
+            "dnd_start_time": {
+                "name": "Do not disturb begin"
+            }
+        }
+    }
+}

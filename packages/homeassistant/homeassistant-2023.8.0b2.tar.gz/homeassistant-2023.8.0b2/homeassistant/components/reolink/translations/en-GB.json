@@ -1,0 +1,7 @@
+{
+    "config": {
+        "error": {
+            "webhook_exception": "Home Assistant URL is not available, go to Settings > System > Network > Home Assistant URL and correct the URLs, see {more_info}"
+        }
+    }
+}
