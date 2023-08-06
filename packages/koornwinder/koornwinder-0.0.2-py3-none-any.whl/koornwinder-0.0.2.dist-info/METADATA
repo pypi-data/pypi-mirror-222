@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: koornwinder
+Version: 0.0.2
+Author-email: Haiyang Wang <hw1927@nyu.edu>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# koornwinder
+
+
+-----
+
+<!-- **Table of Contents**
+
+- [koornwinder](#koornwinder)
+  - [Installation](#installation)
+  - [License](#license) -->
+
+## Installation
+
+```console
+git clone ...
+cd koornwinder
+pip install .
+```
