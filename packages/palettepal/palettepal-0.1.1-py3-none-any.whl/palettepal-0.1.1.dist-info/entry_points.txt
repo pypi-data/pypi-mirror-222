@@ -1,0 +1,2 @@
+[console_scripts]
+palettepal = palettepal.colorapp:main
