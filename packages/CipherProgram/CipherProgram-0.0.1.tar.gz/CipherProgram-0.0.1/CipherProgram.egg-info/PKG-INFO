@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CipherProgram
+Version: 0.0.1
+Home-page: https://github.com/Cipher58/
+Download-URL: https://github.com/Cipher58/Cipher.git
+Author: Cipher58
+Author-email: cipher58public@gmail.com
+License: The Unlicense
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simple Cipher Program
+
+This program encrypts any input text into machine code. That's it lol
