@@ -1,0 +1,3 @@
+[console_scripts]
+pshu=prog_shojin_util.__main__:main
+
