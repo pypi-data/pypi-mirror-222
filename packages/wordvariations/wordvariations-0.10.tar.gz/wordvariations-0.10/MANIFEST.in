@@ -1,0 +1,3 @@
+include wordvariations/requirements.txt
+include wordvariations/thirdparty.json
+include wordvariations/README.MD

@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+wordvariations/README.MD
+wordvariations/__init__.py
+wordvariations/requirements.txt
+wordvariations/thirdparty.json
+wordvariations.egg-info/PKG-INFO
+wordvariations.egg-info/SOURCES.txt
+wordvariations.egg-info/dependency_links.txt
+wordvariations.egg-info/requires.txt
+wordvariations.egg-info/top_level.txt
