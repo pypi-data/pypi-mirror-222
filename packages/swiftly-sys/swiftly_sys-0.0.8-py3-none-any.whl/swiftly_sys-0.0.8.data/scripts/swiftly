@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "i am swiftly"
+
+source ./swiftly-python.sh
+source ./swiftly-python-django.sh
