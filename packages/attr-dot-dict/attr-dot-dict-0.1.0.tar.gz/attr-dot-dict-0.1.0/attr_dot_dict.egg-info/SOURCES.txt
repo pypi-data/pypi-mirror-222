@@ -1,0 +1,10 @@
+LICENSE
+README.md
+dotdict.py
+pyproject.toml
+setup.py
+.github/workflows/python-publish.yml
+attr_dot_dict.egg-info/PKG-INFO
+attr_dot_dict.egg-info/SOURCES.txt
+attr_dot_dict.egg-info/dependency_links.txt
+attr_dot_dict.egg-info/top_level.txt
