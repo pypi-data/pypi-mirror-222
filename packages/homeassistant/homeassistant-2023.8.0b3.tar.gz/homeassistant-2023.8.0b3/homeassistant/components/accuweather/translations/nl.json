@@ -1,0 +1,209 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Al geconfigureerd. Slechts \u00e9\u00e9n configuratie mogelijk."
+        },
+        "create_entry": {
+            "default": "Sommige sensoren zijn standaard niet ingeschakeld. U kunt ze inschakelen in het entiteitenregister na de integratieconfiguratie.\nWeersvoorspelling is niet standaard ingeschakeld. U kunt deze inschakelen in de integratieopties."
+        },
+        "error": {
+            "cannot_connect": "Kan geen verbinding maken",
+            "invalid_api_key": "Ongeldige API-sleutel",
+            "requests_exceeded": "Het toegestane aantal verzoeken aan de Accuweather API is overschreden. U moet wachten of de API-sleutel wijzigen."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "API-sleutel",
+                    "latitude": "Breedtegraad",
+                    "longitude": "Lengtegraad",
+                    "name": "Naam"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "air_quality": {
+                "state": {
+                    "good": "Goed",
+                    "hazardous": "Gevaarlijk",
+                    "high": "Hoog",
+                    "low": "Laag",
+                    "moderate": "Gematigd",
+                    "unhealthy": "Ongezond"
+                }
+            },
+            "grass_pollen": {
+                "state_attributes": {
+                    "level": {
+                        "name": "Niveau",
+                        "state": {
+                            "good": "Goed",
+                            "hazardous": "Gevaarlijk",
+                            "high": "Hoog",
+                            "low": "Laag",
+                            "moderate": "Gematigd",
+                            "unhealthy": "Ongezond"
+                        }
+                    }
+                }
+            },
+            "mold_pollen": {
+                "state_attributes": {
+                    "level": {
+                        "name": "Niveau",
+                        "state": {
+                            "good": "Goed",
+                            "hazardous": "Gevaarlijk",
+                            "high": "Hoog",
+                            "low": "Laag",
+                            "moderate": "Gematigd",
+                            "unhealthy": "Ongezond"
+                        }
+                    }
+                }
+            },
+            "pressure_tendency": {
+                "state": {
+                    "falling": "Dalende",
+                    "rising": "Stijgende",
+                    "steady": "Stabiel"
+                }
+            },
+            "ragweed_pollen": {
+                "state_attributes": {
+                    "level": {
+                        "name": "Niveau",
+                        "state": {
+                            "good": "Goed",
+                            "hazardous": "Gevaarlijk",
+                            "high": "Hoog",
+                            "low": "Laag",
+                            "moderate": "Gematigd",
+                            "unhealthy": "Ongezond"
+                        }
+                    }
+                }
+            },
+            "tree_pollen": {
+                "state_attributes": {
+                    "level": {
+                        "name": "Niveau",
+                        "state": {
+                            "good": "Goed",
+                            "hazardous": "Gevaarlijk",
+                            "high": "Hoog",
+                            "low": "Laag",
+                            "moderate": "Gematigd",
+                            "unhealthy": "Ongezond"
+                        }
+                    }
+                }
+            },
+            "uv_index": {
+                "state_attributes": {
+                    "level": {
+                        "name": "Niveau",
+                        "state": {
+                            "good": "Goed",
+                            "hazardous": "Gevaarlijk",
+                            "high": "Hoog",
+                            "low": "Laag",
+                            "moderate": "Gematigd",
+                            "unhealthy": "Ongezond"
+                        }
+                    }
+                }
+            },
+            "wet_bulb_temperature": {
+                "name": "Natte bol temperatuur"
+            },
+            "wind_chill_temperature": {
+                "name": "Gevoelstemperatuur"
+            },
+            "wind_gust_speed": {
+                "name": "Windvlaag snelheid"
+            },
+            "wind_gust_speed_day_0d": {
+                "name": "Snelheid windstoot vandaag"
+            },
+            "wind_gust_speed_day_1d": {
+                "name": "Windvlaag snelheid dag 1"
+            },
+            "wind_gust_speed_day_2d": {
+                "name": "Windvlaagsnelheid dag 2"
+            },
+            "wind_gust_speed_day_3d": {
+                "name": "Windvlaagsnelheid dag 3"
+            },
+            "wind_gust_speed_day_4d": {
+                "name": "Windvlaagsnelheid dag 4"
+            },
+            "wind_gust_speed_night_0d": {
+                "name": "Snelheid windvlaag vanavond"
+            },
+            "wind_gust_speed_night_1d": {
+                "name": "Windstootsnelheid nacht 1"
+            },
+            "wind_gust_speed_night_2d": {
+                "name": "Windstootsnelheid nacht 2"
+            },
+            "wind_gust_speed_night_3d": {
+                "name": "Windstootsnelheid nacht 3"
+            },
+            "wind_gust_speed_night_4d": {
+                "name": "Windstootsnelheid nacht 4"
+            },
+            "wind_speed": {
+                "name": "Windsnelheid"
+            },
+            "wind_speed_day_0d": {
+                "name": "Windsnelheid vandaag"
+            },
+            "wind_speed_day_1d": {
+                "name": "Windsnelheid dag 1"
+            },
+            "wind_speed_day_2d": {
+                "name": "Windsnelheid dag 2"
+            },
+            "wind_speed_day_3d": {
+                "name": "Windsnelheid dag 3"
+            },
+            "wind_speed_day_4d": {
+                "name": "Windsnelheid dag 4"
+            },
+            "wind_speed_night_0d": {
+                "name": "Windsnelheid vanavond"
+            },
+            "wind_speed_night_1d": {
+                "name": "Windsnelheid vannacht 1"
+            },
+            "wind_speed_night_2d": {
+                "name": "Windsnelheid vannacht 2"
+            },
+            "wind_speed_night_3d": {
+                "name": "Windsnelheid vannacht 3"
+            },
+            "wind_speed_night_4d": {
+                "name": "Windsnelheid vannacht 4"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "forecast": "Weersvoorspelling"
+                },
+                "description": "Wanneer je de weersverwachting ingeschakeld zullen updates elke 80 minuten plaatsvinden i.p.v. elke 40 minuten, dit komt door de beperkingen van de gratis versie van de AccuWeather API sleutel."
+            }
+        }
+    },
+    "system_health": {
+        "info": {
+            "can_reach_server": "Kan AccuWeather server bereiken",
+            "remaining_requests": "Resterende toegestane verzoeken"
+        }
+    }
+}

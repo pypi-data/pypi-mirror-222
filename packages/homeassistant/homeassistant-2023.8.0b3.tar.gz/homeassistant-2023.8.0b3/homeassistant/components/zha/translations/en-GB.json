@@ -1,0 +1,61 @@
+{
+    "config_panel": {
+        "zha_options": {
+            "always_prefer_xy_color_mode": "Always prefer XY colour mode",
+            "enhanced_light_transition": "Enable enhanced light colour/temperature transition from an off-state"
+        }
+    },
+    "services": {
+        "issue_zigbee_cluster_command": {
+            "fields": {
+                "command": {
+                    "description": "ID of the command to execute.",
+                    "name": "Command"
+                },
+                "command_type": {
+                    "description": "Type of the command to execute.",
+                    "name": "Command Type"
+                },
+                "params": {
+                    "description": "Parameters to pass to the command.",
+                    "name": "Params"
+                }
+            },
+            "name": "Issue Zigbee cluster command"
+        },
+        "issue_zigbee_group_command": {
+            "description": "Issue command on the specified cluster on the specified group.",
+            "fields": {
+                "args": {
+                    "name": "Args"
+                },
+                "cluster_id": {
+                    "description": "ZCL cluster to send command to."
+                },
+                "cluster_type": {
+                    "name": "Cluster type"
+                },
+                "command": {
+                    "description": "ID of the command to execute.",
+                    "name": "Command"
+                },
+                "group": {
+                    "description": "Hexadecimal address of the group.",
+                    "name": "Group"
+                }
+            },
+            "name": "Issue Zigbee group command"
+        },
+        "permit": {
+            "description": "Allows nodes to join the Zigbee network."
+        },
+        "warning_device_warn": {
+            "fields": {
+                "mode": {
+                    "description": "The Warning Mode field is used as a 4-bit enumeration, can have one of the values 0-6 defined below in table 8-20 of the ZCL spec. The exact behaviour of the warning device in each mode is according to the relevant security standards."
+                }
+            },
+            "name": "Warning device starts alert"
+        }
+    }
+}

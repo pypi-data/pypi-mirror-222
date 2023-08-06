@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "fan_sleep_timer_active": {
+                "name": "Fan sleep timer active"
+            },
+            "light_sleep_timer_active": {
+                "name": "Light sleep timer active"
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "water_in_valve": {
+                "name": "Water in valve"
+            },
+            "water_out_valve": {
+                "name": "Water out valve"
+            }
+        },
+        "button": {
+            "next_color": {
+                "name": "Next colour"
+            }
+        },
+        "number": {
+            "fan_timer": {
+                "name": "Fan timer"
+            },
+            "power_timer": {
+                "name": "Power timer"
+            },
+            "salt_bath_timer": {
+                "name": "Salt bath timer"
+            }
+        }
+    }
+}

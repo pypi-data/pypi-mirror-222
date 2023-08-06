@@ -1,0 +1,11 @@
+{
+    "services": {
+        "purge": {
+            "fields": {
+                "repack": {
+                    "description": "Attempt to save disk space by rewriting the entire database file."
+                }
+            }
+        }
+    }
+}

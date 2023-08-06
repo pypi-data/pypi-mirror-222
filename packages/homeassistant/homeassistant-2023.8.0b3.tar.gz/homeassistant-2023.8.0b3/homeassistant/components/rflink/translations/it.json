@@ -1,0 +1,12 @@
+{
+    "services": {
+        "send_command": {
+            "fields": {
+                "device_id": {
+                    "name": "ID dispositivo"
+                }
+            },
+            "name": "Invia comando"
+        }
+    }
+}

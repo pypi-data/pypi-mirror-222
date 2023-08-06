@@ -1,0 +1,14 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "microphone": {
+                "name": "Microphone"
+            }
+        },
+        "number": {
+            "audio_delay": {
+                "name": "Audio delay"
+            }
+        }
+    }
+}

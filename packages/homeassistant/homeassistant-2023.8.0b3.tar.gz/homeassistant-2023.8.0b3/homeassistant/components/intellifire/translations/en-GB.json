@@ -1,0 +1,41 @@
+{
+    "entity": {
+        "sensor": {
+            "connection_quality": {
+                "name": "Connection quality"
+            },
+            "downtime": {
+                "name": "Downtime"
+            },
+            "ecm_latency": {
+                "name": "ECM latency"
+            },
+            "fan_speed": {
+                "name": "Fan Speed"
+            },
+            "flame_height": {
+                "name": "Flame height"
+            },
+            "ipv4_address": {
+                "name": "IP address"
+            },
+            "target_temp": {
+                "name": "Target temperature"
+            },
+            "timer_end_timestamp": {
+                "name": "Timer end"
+            },
+            "uptime": {
+                "name": "Uptime"
+            }
+        },
+        "switch": {
+            "flame": {
+                "name": "Flame"
+            },
+            "pilot_light": {
+                "name": "Pilot light"
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "entity": {
+        "select": {
+            "airpurifier_mode": {
+                "state": {
+                    "favorite": "Favourite"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "entity": {
+        "button": {
+            "ptz_down": {
+                "name": "PTZ down"
+            },
+            "ptz_left": {
+                "name": "PTZ left"
+            },
+            "ptz_right": {
+                "name": "PTZ right"
+            },
+            "ptz_up": {
+                "name": "PTZ up"
+            }
+        },
+        "image": {
+            "last_motion_image": {
+                "name": "Last motion image"
+            }
+        },
+        "switch": {
+            "all_day_video_recording": {
+                "name": "All day video recording"
+            },
+            "audio": {
+                "name": "Audio"
+            },
+            "auto_sleep": {
+                "name": "Auto sleep"
+            },
+            "flicker_light_on_movement": {
+                "name": "Flicker light on movement"
+            },
+            "follow_movement": {
+                "name": "Follow movement"
+            },
+            "infrared_light": {
+                "name": "Infrared light"
+            },
+            "motion_tracking": {
+                "name": "Motion tracking"
+            },
+            "pir_motion_activated_light": {
+                "name": "PIR motion activated light"
+            },
+            "privacy": {
+                "name": "Privacy"
+            },
+            "sleep": {
+                "name": "Sleep"
+            },
+            "status_light": {
+                "name": "Status light"
+            },
+            "tamper_alarm": {
+                "name": "Tamper alarm"
+            }
+        }
+    },
+    "issues": {
+        "service_depreciation_ptz": {
+            "fix_flow": {
+                "step": {
+                    "confirm": {
+                        "description": "EZVIZ PTZ service is deprecated and will be removed.\nTo move the camera, you can instead use the `button.press` service targetting the PTZ* entities.\n\nPlease remove the use of this service from your automations and scripts and select **submit** to close this issue.",
+                        "title": "EZVIZ PTZ service is being removed"
+                    }
+                }
+            },
+            "title": "EZVIZ PTZ service is being removed"
+        }
+    }
+}

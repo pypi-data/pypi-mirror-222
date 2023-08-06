@@ -1,0 +1,17 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "post_heater": {
+                "name": "Post heater"
+            }
+        },
+        "number": {
+            "supply_air_target_away": {
+                "name": "Supply air temperature (Away)"
+            },
+            "supply_air_target_boost": {
+                "name": "Supply air temperature (Boost)"
+            }
+        }
+    }
+}

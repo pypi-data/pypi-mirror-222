@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "sensor": {
+            "static_target_distance": {
+                "name": "Static target distance"
+            },
+            "static_target_energy": {
+                "name": "Static target energy"
+            }
+        }
+    }
+}
