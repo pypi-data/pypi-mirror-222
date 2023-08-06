@@ -1,0 +1,17 @@
+lektor
+python-slugify
+flask-babel
+
+[dev]
+lektor-tekir[style,types]
+babel
+build
+twine
+tox
+
+[style]
+ruff
+
+[types]
+mypy
+types-python-slugify

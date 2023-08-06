@@ -1,0 +1,104 @@
+{% macro render_breadcrumbs(record, ancestors) %}
+<div class="breadcrumbs">
+  <p>{{ _('You are here:') }}</p>
+  <ul role="list">
+    {% for item in ancestors %}
+    <li><a href="{{ url_for('tekir_admin.contents', path=item.path) }}">{{ item._slug or _('home') }}</a></li>
+    {% endfor %}
+    <li>{{ record._slug or _('home') }}</li>
+  </ul>
+</div>
+{% endmacro %}
+
+{% macro render_field(item, field, prefix) %}
+  {% set record = item.record or item %}
+  {% set field_name = prefix + field.name %}
+  {% set field_id = 'field-' + field_name %}
+  {% set field_value = item[field.name] %}
+  <div class="field">
+    <label for="{{ field_id }}">{{ field.label_i18n.get(g.lang_code, field.label) }}</label>
+
+    {% set widget = field.label_i18n.get('widget') %}
+
+    {% if field.type.name == 'datetime' %}
+    <input type="datetime-local" id="{{ field_id }}" name="{{ field_name }}" value="{{ field_value }}"/>
+    {% elif field.type.name == 'date' %}
+    <input type="date" id="{{ field_id }}" name="{{ field_name }}" value="{{ field_value }}"/>
+    {% elif field.type.name == 'boolean' %}
+    <input type="checkbox" id="{{ field_id }}" name="{{ field_name }}"{{ ' checked' if field_value else '' }}/>
+    {% elif field.type.name == 'select' %}
+    <select id="{{ field_id }}" name="{{ field_name }}">
+      <option value="">----</option>
+      {% for choice, label in field.type.source.iter_choices(pad, record) %}
+      <option value="{{ choice }}"{{ ' selected' if choice == field_value else '' }}>{{ label.get(g.lang_code, label.get('en')) }}</option>
+      {% endfor %}
+    </select>
+    {% elif field.type.name == 'url' %}
+    <input type="url" id="{{ field_id }}" name="{{ field_name }}" value="{{ field_value }}"/>
+    {% elif field.type.name  == 'string' %}
+      {% if widget == 'time' %}
+    <input type="time" id="{{ field_id }}" name="{{ field_name }}" value="{{ field_value }}"/>
+      {% elif widget == 'navigate' %}
+    <input type="text" class="tekir-navigate" id="{{ field_id }}" name="{{ field_name }}" value="{{ field_value }}"
+        hx-get="{{ url_for('tekir_admin.api.start_navigate', field_id=field_id) }}"
+        hx-vals='js:{path: event.target.value ?? "{{ record.path }}"}'
+        hx-trigger="click"
+        hx-target="#navigate-dialog"/>
+      {% else %}
+    <input type="text" id="{{ field_id }}" name="{{ field_name }}" value="{{ field_value }}"/>
+      {% endif %}
+    {% elif field.type.name in ('integer', 'sort_key') %}
+    <input type="number" id="{{ field_id }}" name="{{ field_name }}" value="{{ field_value }}"/>
+    {% elif field.type.name == 'float' %}
+    <input type="text" id="{{ field_id }}" name="{{ field_name }}" value="{{ field_value }}"/>
+    {% elif field.type.name in ('text', 'strings') %}
+    <textarea id="{{ field_id }}" name="{{ field_name }}" rows="10">{{ field_value }}</textarea>
+    {% elif field.type.name in ('markdown', 'html') %}
+    <textarea id="{{ field_id }}" name="{{ field_name }}" rows="10" class="code"
+        data-content-type="{{ field.type.name }}">{{ field_value }}</textarea>
+    {% elif field.type.name == 'rst' %}
+    <textarea id="{{ field_id }}" name="{{ field_name }}" rows="10" class="code">{{ field_value.source if field_value else '' }}</textarea>
+
+    {% elif field.type.name == 'flow' %}
+    <fieldset>
+      {% if field_value %}
+        {% for block in field_value.blocks %}
+        {{ render_flowblock(block, field_name, '%d' % loop.index) }}
+        {% endfor %}
+      {% endif %}
+
+      <div class="add-block" id="{{ field_name }}-add-block">
+        <span class="add-button">{{ _('Add') }}</span>
+        {% set block_models = record.pad.db.flowblocks %}
+        {% for flow_type in (field.type.flow_blocks or block_models) %}
+        <button
+            hx-get="{{ url_for('tekir_admin.api.new_flowblock', flow_type=flow_type, field_name=field_name, path=record.path) }}"
+            hx-target="#{{ field_name }}-add-block"
+            hx-swap="beforebegin">{{ block_models[flow_type].name_i18n.get(g.lang_code, block_models[flow_type].name) }}</button>
+        {% endfor %}
+      </div>
+    </fieldset>
+    {% endif %}
+  </div>
+{% endmacro %}
+
+{% macro render_flowblock(block, field_name, block_index) %}
+{% set new_block = block_index.startswith('uuid_') %}
+<details id="{{ '%s-%s' % (field_name, block_index) }}"{{ ' class=new-block' if new_block else '' }}{{ ' open' if new_block else '' }}>
+  <summary>
+    {{ block.flowblockmodel.name_i18n.get(g.lang_code) }}
+    <button class="flowblock delete-block" title="{{ _('Delete') }}">
+      {% include 'icons/delete.svg' %}
+    </button>
+    <button class="flowblock up-block" title="{{ _('Move up') }}">
+      {% include 'icons/go-up.svg' %}
+    </button>
+    <button class="flowblock down-block" title="{{ _('Move down') }}">
+      {% include 'icons/go-down.svg' %}
+    </button>
+  </summary>
+  {% for block_field in block.flowblockmodel.fields %}
+    {{ render_field(block, block_field, prefix='%s-%s-%s-' % (field_name, block_index, block.flowblockmodel.id)) }}
+  {% endfor %}
+</details>
+{% endmacro %}
