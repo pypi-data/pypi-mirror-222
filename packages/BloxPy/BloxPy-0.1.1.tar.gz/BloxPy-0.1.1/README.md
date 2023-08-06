@@ -1,0 +1,56 @@
+# BloxPy: Your All-in-One Python Library for Roblox Development
+
+![BloxPy Logo](https://example.com/BloxPy_logo.png)
+
+BloxPy is the ultimate Python library for Roblox developers, offering an all-in-one solution to interact with Roblox Public APIs effortlessly. Whether you want to retrieve player data, manage groups, or create dynamic game interactions, BloxPy empowers you to build amazing Roblox experiences with ease.
+
+[![License](https://img.shields.io/github/license/Developer-X-0001/BloxPy)](https://github.com/Developer-X-0001/BloxPy/blob/main/LICENSE)
+[![PyPI Version](https://img.shields.io/pypi/v/BloxPy)](https://pypi.org/project/BloxPy/)
+[![Python Version](https://img.shields.io/pypi/pyversions/BloxPy)](https://pypi.org/project/BloxPy/)
+
+## Features
+
+- Effortlessly interact with Roblox Public APIs.
+- Retrieve player data, game information, and group details.
+- Simplify group management tasks, such as handling members and roles.
+- Create dynamic game interactions and enhance in-game experiences.
+
+## Installation
+
+You can install BloxPy using pip:
+
+```bash
+pip install BloxPy
+```
+
+## Usage
+
+```py
+import BloxPy
+
+# Fetch player data
+player_id = 1234567890
+player_data = BloxPy.get_player_data(player_id)
+print(player_data)
+
+# Manage groups
+group_id = 9876543210
+group_members = BloxPy.get_group_members(group_id)
+print(group_members)
+```
+
+## Documentation
+
+For detailed documentation and usage examples, check out the [BloxPy Documentation](https://Developer-X-0001.github.io/BloxPy-docs).
+
+## Contributing
+
+We welcome contributions from the community! If you find a bug or have an enhancement in mind, please open an issue or submit a pull request.
+
+## License
+
+BloxPy is licensed under the MIT License. See the [LICENSE](https://github.com/Developer-X-0001/BloxPy/blob/main/LICENSE) file for details.
+
+## Contact
+
+For questions or support, you can reach out to us at [developer.x.business@gmail.com](mailto:developer.x.business@gmail.com).
