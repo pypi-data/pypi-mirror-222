@@ -1,0 +1,11 @@
+swag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swag/autoblog.py,sha256=VJf7dmsmEaikaWEGJu92XQGeS0IxwfGtSdCbA0NjVLE,2680
+swag/builder.py,sha256=Lv7D3l8Q-uj1NxMRmVFMps0Fftj6SVRmYFaRchfNABk,5786
+swag/cli.py,sha256=Zrj7FZzhMoghuB7sXqBUm_5LaQg9oVizOfRYKrDTZN8,2774
+swag/lorem.py,sha256=ZkoahGdW1Oc_YABvcdF4lJoY9-FRL1uiPCwPzlhOx1I,1093
+swag/resources.py,sha256=j0ZNlKhKu8yIgZ3nGcBK2h4nHUlZqYSX_nMR7e03suE,4689
+simple_swag-0.1.4.dist-info/METADATA,sha256=OfSM9EkFQg462BHpivM7XOeYTP1qjydhlp8cMWvmyck,1051
+simple_swag-0.1.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+simple_swag-0.1.4.dist-info/entry_points.txt,sha256=6WQt_zXaRte6O7v7PreXiUqOCaz81NYZZYZ1XSRRLZ4,39
+simple_swag-0.1.4.dist-info/top_level.txt,sha256=SIj6ruFwgW_UlQ-Q9JTwpJq-W19hjZAD9G79msu9iyc,5
+simple_swag-0.1.4.dist-info/RECORD,,
