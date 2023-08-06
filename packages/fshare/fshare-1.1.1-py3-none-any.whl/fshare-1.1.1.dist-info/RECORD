@@ -1,0 +1,11 @@
+fshare/__init__.py,sha256=-QNjYjvXF5gWUzu1RPIKjjUEpN22kzi83eFBOCjCaZA,30
+fshare/__main__.py,sha256=0g3iknXOS9gZUcpL_trgAcuCJnZZKjdsT_xt61WOVb4,60
+fshare/cli.py,sha256=WN7w0FTVd_yqK7BN_S_trONNiTfpVFCTex6LQQfq5p4,740
+fshare/filemanager.py,sha256=4QMcGFPisD8UnjnTveNyXEs-GJ-0MACkS5jUxAI7OoA,1636
+fshare/index.html,sha256=A6z0O2SGiY7FljQNST1twdQ-dNgLE_zoAxys-rLDEQI,3205
+fshare/index.js,sha256=iGmVMiNqg_Wj5EDtANq9UzPH_lIOPfuKaIykXXDNApI,715
+fshare/main.py,sha256=dwFx2nh4omaxa5eFk7VS2BNsZ52s5agatPGoI1nQ-ow,1707
+fshare-1.1.1.dist-info/METADATA,sha256=o_EaosXGG1pkNz4NdnYk59g1HLgFqa7MIp0hv6vMpKY,3967
+fshare-1.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+fshare-1.1.1.dist-info/top_level.txt,sha256=DJMX5D5grbKbjWGnbQaqjMQkNZMbkXRR351pSi19lLw,7
+fshare-1.1.1.dist-info/RECORD,,
