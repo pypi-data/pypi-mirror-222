@@ -1,0 +1,7 @@
+README.md
+setup.py
+zipepy/__init__.py
+zipepy.egg-info/PKG-INFO
+zipepy.egg-info/SOURCES.txt
+zipepy.egg-info/dependency_links.txt
+zipepy.egg-info/top_level.txt
