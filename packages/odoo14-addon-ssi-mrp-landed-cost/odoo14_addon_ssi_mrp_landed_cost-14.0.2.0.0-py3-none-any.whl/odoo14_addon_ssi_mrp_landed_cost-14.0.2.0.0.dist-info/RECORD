@@ -1,0 +1,10 @@
+odoo/addons/ssi_mrp_landed_cost/README.rst,sha256=LTPyAlXxcmzDnO8T650RLPVgilIpnlVE1GZ6lqXeMEg,1193
+odoo/addons/ssi_mrp_landed_cost/__init__.py,sha256=M7twq1SJz2cc98CkgeiDiDg05QWWFb09lt5oh03-axA,181
+odoo/addons/ssi_mrp_landed_cost/__manifest__.py,sha256=K6NmXgSf4-S92vlL9jZbzfGmaycfZd2FExRXvwdUTK0,502
+odoo/addons/ssi_mrp_landed_cost/models/__init__.py,sha256=cim8woZLetv35tAc4NvAgV-LeO45s-jIz_MPmhvu8SU,192
+odoo/addons/ssi_mrp_landed_cost/models/stock_landed_cost.py,sha256=ilmGCM95r2ylnG1cqJ_LuY6VaVLl65t9ff17OXX9Q5s,1132
+odoo/addons/ssi_mrp_landed_cost/static/description/icon.png,sha256=ilrOdaZsQ9IGvXoiOd_f-k_WPa0qzAB3rOWgUSGKNtM,20342
+odoo14_addon_ssi_mrp_landed_cost-14.0.2.0.0.dist-info/METADATA,sha256=wZWvle6XwYku0eOrXcWrGyN8vLZUocuEuXlRsktL3d4,1740
+odoo14_addon_ssi_mrp_landed_cost-14.0.2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_mrp_landed_cost-14.0.2.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_mrp_landed_cost-14.0.2.0.0.dist-info/RECORD,,
