@@ -1,0 +1,2 @@
+[aioworkers]
+consul = aioworkers_consul
