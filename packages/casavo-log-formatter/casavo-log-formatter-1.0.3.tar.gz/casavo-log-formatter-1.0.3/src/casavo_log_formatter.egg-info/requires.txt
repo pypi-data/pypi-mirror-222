@@ -1,0 +1,14 @@
+
+[dev]
+pip-tools
+black
+ruff
+orjson
+pre-commit
+isort
+nox
+build
+twine
+
+[orjson]
+orjson
