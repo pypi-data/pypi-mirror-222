@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cougar
+Version: 0.2.0
+Author: Yunchong Gan
+Author-email: yunchong@pku.edu.cn
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires: numpy
+License-File: LICENSE
