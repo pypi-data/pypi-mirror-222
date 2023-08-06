@@ -1,0 +1,14 @@
+pyordstat/__init__.py,sha256=h2HAzSFEe0zdRB2B0j_oa1Kgw-VpL9nj4XFUdWUTItg,506
+pyordstat/base.py,sha256=ka4tcxEoS8iYHy870A2S0cL1IHf3E0LvZBfCaZZF24k,1252
+pyordstat/continuous.py,sha256=EzDxbcDi5oV-jadVVv-jvPC7UhLjA5MAHV11B8iv9vw,3690
+pyordstat/core.py,sha256=mCUPqaB7L7ZcacFjaNUfYEYykR92pQNjvHdFYpROSDI,1739
+pyordstat/discrete.py,sha256=39fugfxSFkf0UhQC0mQeYoJyBjgD_ZHw8ah3DzJ1crE,3160
+pyordstat/finite.py,sha256=fVGNMABxnylMbv6tiCYDNrEMkCoJ2SsiK6eXbjkAc80,2789
+pyordstat/functions/__init__.py,sha256=pCP4ULIGbbmqNH00gH5vAdy4ZcSWIRaJONPgTAkGvps,505
+pyordstat/functions/rv_continuous.py,sha256=vVcecKkVBVCSBkwpTQga1Hu4ooMgmuvOSrhmcQrNrDE,1477
+pyordstat/functions/rv_discrete.py,sha256=VtsXofL_5aa2fb5h7BR3thpXocsep5BaASdBXUrdKo4,1210
+pyordstat/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyordstat-1.0.0.dist-info/LICENSE,sha256=l-JgCPX0_m1TCJK5gsS32DLQdcAWeSpIcoLKl3qs5A8,1084
+pyordstat-1.0.0.dist-info/METADATA,sha256=E1OqwSU4Zznj4LbYTrkdGqCbh7APOj35wYMzSAATLOE,4672
+pyordstat-1.0.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pyordstat-1.0.0.dist-info/RECORD,,
