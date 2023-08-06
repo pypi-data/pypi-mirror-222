@@ -1,0 +1,9 @@
+convert_jupyter/__init__.py,sha256=zvktZnXFLsxmYb2gu0cpU_GsyeS2iFudw1R47wQabRs,158
+convert_jupyter/__main__.py,sha256=cKz0dtt5nLLBnIqNZt8Xb7mtWehqq9YDPA2SFHECVvo,3538
+convert_jupyter/clean.py,sha256=5Jhu7LcoB5tMdsr3bpu6O8FWCZsUZWEHfckw6Uk5Gq8,1723
+convert_jupyter/code.py,sha256=UEnzBdinicd7rHqbDbBmUvRaTZTZWBbyw0PjbOsXB-4,4804
+convert_jupyter/constans.py,sha256=b5WVqKRkY8MmoNoe9eW1IK0rHAdsIFt5mth79JwvCzo,82
+convert_jupyter-1.0.1.dist-info/METADATA,sha256=HESXGWMJeMGE8DvLW7eaOeGW-cIW_eRmwOxIfEZzrZk,1148
+convert_jupyter-1.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+convert_jupyter-1.0.1.dist-info/licenses/LICENSE.md,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+convert_jupyter-1.0.1.dist-info/RECORD,,
