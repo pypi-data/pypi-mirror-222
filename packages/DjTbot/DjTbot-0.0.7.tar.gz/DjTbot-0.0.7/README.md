@@ -1,0 +1,163 @@
+# [What is a Telegram Bot]
+
+## Get a Telegram Bot API TOKEN:
+* Open Telegram and search for ```@BotFather```
+* Create a new bot by following the steps from the image:
+![Telegram Bot API Token Creation](assets/TelegramBotCredentialsCreation.png)
+
+
+## Setup
+```bash
+pip install DjTbot
+python manage.py makemigrations
+python manage.py migrate
+```
+
+## Run Bot
+```bash
+python manage.py runbot
+```
+
+## Create users & groups
+```bash
+python manage.py createsuperuser
+python manage.py runserver
+```
+Create T bot groups and users:  
+browse to http://127.0.0.1:8000/tbot/  
+Users in group Admins can also manage groups and users via bot commands
+
+# Create your own commands
+1.- Start a new django app ```django-admin startapp myapp```  
+2.- Add your app to settings.INSTALLED_APPS  (ProjectName/ProjectName/settings/base.py)  
+3.- Create a commands.py file inside your app  
+
+commands.py example:
+```python
+from DjTbot.commands import Command
+
+
+class Example1Command(Command):
+    command = ['example', 'e']  # One command can be call with many names
+    help_text = 'Example command'
+    usage = '/example'
+    allowed_groups = ['mygroup']
+
+    def run(self, update, context):
+        context.bot.sendMessage(chat_id=update.message.chat_id, text='message')
+        self.send_ussage(context.bot, update)
+        self.admin_broadcast(context.bot, "Example command called")
+```
+*** Arguments sent to commands can be accessible through ```context.args``` or you can use the following code snippet:
+#### Parsing arguments with TelegramArgumentParser
+##### arguments.py
+```python
+from abc import ABCMeta, abstractmethod
+from DjTbot.arguments import TelegramArgumentParser
+
+
+class TBotArgumentParser(TelegramArgumentParser, metaclass=ABCMeta):
+    @abstractmethod
+    def add_arguments(self):
+        pass
+
+    @staticmethod
+    def factory(command_class_name):
+        parsers = {
+            'AddGroupCommand': TelegramIDGroupArgumentParser,
+            # Add here as many parsers as you need, key values must be the same as the command class name
+        }
+        return parsers[command_class_name]()
+
+
+# All your Argument parsers must inherit form the one created above 
+class TelegramIDGroupArgumentParser(TBotArgumentParser):
+    def add_arguments(self):
+        # add_argument syntaxis from argparse https://docs.python.org/3/library/argparse.html
+        self.add_argument('telegram_id', type=int)
+        self.add_argument('group')
+```
+
+##### comands.py
+
+```python
+from DjTbot.utils import addgroup
+from DjTbot.commands import CommandWithArgumentsMixin, Command
+from DjTbot.arguments import TBotArgumentParser
+
+
+class TBotCommandWithArgumentsMixin(CommandWithArgumentsMixin):
+    argument_parser_factory_class = TBotArgumentParser
+
+
+class AddGroupCommand(TBotCommandWithArgumentsMixin, Command):  # You must follow this order on inherited classes
+    command = ['addgroup']
+    help_text = 'Add user to group'
+    usage = '/addgroup telegram_id group_name'
+    allowed_groups = ['Admins']
+
+    def command_call(self, arguments, update, context):
+        try:
+            addgroup(arguments.telegram_id,
+                     arguments.group)  # Access your arguments with the given name in add_argument
+        except Exception as e:
+            self.admin_broadcast(context.bot, str(e))
+            self.send_ussage(context.bot, update)
+```
+
+4.- (optional) Create a listeners.py file inside your app if you wish to process messages. Example:
+```python
+import logging
+from DjTbot.core.listeners import Listener, Filters
+
+
+logger = logging.getLogger("DjTbot")
+
+
+class LocationProcess(Listener):
+    allowed_groups = ['Admins']
+    filters = Filters.location
+
+    def run(self, update, context):
+        logger.debug(update)
+        a = update.message.location
+        context.bot.sendMessage(chat_id=update.message.chat_id, text="Hola {}\n Estas en\n Latitud {}\nLongitud: {}"
+                                .format(update.message.from_user['first_name'], a['latitude'], a['longitude']))
+
+
+class RepeatListener(Listener):
+    filters = Filters.text
+
+    def run(self, update, context):
+        context.bot.sendMessage(chat_id=update.message.chat_id, text=update.message.text)
+```
+
+# Management commands
+There are also some management commands
+
+    addgroup
+    adduser
+    addusertogroup
+    clear_api_key
+    createbotadmin
+    lsgroups
+    lsusers
+    removeuserfromgroup
+    rmgroup
+    rmuser
+    runbot
+    sendmessage
+
+
+## sendmessage
+```bash
+usage: manage.py sendmessage [-h]
+                             (--user USER | --user-id USER_ID | --group GROUP | --all)
+                             [--version] [-v {0,1,2,3}] [--settings SETTINGS]
+                             [--pythonpath PYTHONPATH] [--traceback]
+                             [--no-color] [--force-color]
+                             message
+```
+[PythonTelegram Bot Documentation](https://python-telegram-bot.readthedocs.io/en/stable/telegram.bot.html)  
+
+[What is a Telegram Bot]:https://www.nobbot.com/redes/los-bots-telegram-conseguir-infinidad-funcionalidades-nuestras-conversaciones/
