@@ -1,0 +1,3 @@
+recursive-include amatak_shop/templates *
+recursive-include amatak_shop/static *
+recursive-include amatak_shop *.py
