@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mentat-ai
+Version: 0.1.5
+Summary: AI Coding Assistant
+License: Apache-2.0
+Requires-Python: >=3.10
+License-File: LICENSE
