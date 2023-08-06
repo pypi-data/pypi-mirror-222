@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: enquire
+Version: 0.0.2
+Summary: PyInquirer-inspired prompt library
+Author-email: Pavel Vorobyev <viert.ru@gmail.com>
+License: MIT
+Keywords: click,PyInquirer,prompt-toolkit,cli,command-line,commandline,command-line-interface,python-inquiry,inquirer
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
