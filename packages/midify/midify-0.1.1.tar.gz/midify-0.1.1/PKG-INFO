@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: midify
+Version: 0.1.1
+Summary: Command line tool for converting Audio to MIDI.
+Home-page: https://github.com/DanielSanRocha/midify
+Author: Daniel Santana
+Author-email: danielsantanarocha@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
