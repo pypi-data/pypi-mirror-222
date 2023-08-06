@@ -1,0 +1,13 @@
+tcod/ecs/__init__.py,sha256=gD787jREbmmoZPUhy1xDaVLQ1d-MVfBM2u3NvegBhn4,1394
+tcod/ecs/_converter.py,sha256=g3Xc7XbtkwmB5f_zPPhQyh3iXfkE4XfanBiDim2phPE,1512
+tcod/ecs/_version.py,sha256=lc5zIam4CqFLhcfrR26IHOjU1JSlQ_rx-ufrPRlUADg,160
+tcod/ecs/callbacks.py,sha256=bwvuJSryIO1cM8U3n17KpeunWjQyhBvGKFEDhuB1wSM,2377
+tcod/ecs/entity.py,sha256=tkfpvd-Xaw6_RKCsDMXE9_pomxzGTmZ5mOj7UXCnCNg,29965
+tcod/ecs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tcod/ecs/query.py,sha256=jZCWeGeMQ7ZxwtzdzbEZiXaYVVm3KdlN3qVUn2iV-pw,14802
+tcod/ecs/typing.py,sha256=gHHVEg8-P6vVYoF-XGqnVWdS8yZ4dhPPsG-E9jQ1Cp4,1116
+tcod/ecs/world.py,sha256=wzYsinwNHJGcs9hGoXn4OktsOGWtn5XnL4DzKwHXyJ8,11638
+tcod_ecs-4.3.1.dist-info/LICENSE,sha256=SgfsbvnFJN5QIgO3dF3K8Lo47dgS6pKODhREnUab31E,1079
+tcod_ecs-4.3.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+tcod_ecs-4.3.1.dist-info/METADATA,sha256=Y2vNoGxtERT3KF6_OVqLkvaDsLa4Jz3FJXvFk6oI1w8,12159
+tcod_ecs-4.3.1.dist-info/RECORD,,
