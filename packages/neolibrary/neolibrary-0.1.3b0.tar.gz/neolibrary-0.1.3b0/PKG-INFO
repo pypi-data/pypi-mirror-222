@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: neolibrary
+Version: 0.1.3b0
+Summary: The general utils library for neomedsys development
+License: Apache-2.0 license
+Author: Martin Soria Røvang
+Author-email: martinrovang@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: colorlog (>=6.7.0,<7.0.0)
+Description-Content-Type: text/markdown
+
+# neolib
+
+
+![Python 3.10](https://img.shields.io/badge/python-3.10.0-blue.svg)
+![PyPI status](https://img.shields.io/pypi/status/ansicolortags.svg)[![Publish to PyPI](https://github.com/NeoMedSys/neolibrary/actions/workflows/pippackaging.yml/badge.svg?branch=main&event=push)](https://github.com/NeoMedSys/neolibrary/actions/workflows/pippackaging.yml)
+
+
+The neolib is a library for the common functions that is used in the NeoMedSystem projects.
+
+
