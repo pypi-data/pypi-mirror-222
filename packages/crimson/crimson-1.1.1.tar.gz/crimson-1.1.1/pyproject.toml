@@ -1,0 +1,97 @@
+[tool.poetry]
+name = "crimson"
+version = "1.1.1"
+description = "Bioinformatics tool outputs converter to JSON or YAML"
+authors = ["Wibowo Arindrarto <contact@arindrarto.dev>"]
+repository = "https://github.com/bow/crimson"
+readme = "README.md"
+packages = [{ include = "crimson" }]
+include = ["CHANGELOG.rst"]
+license = "BSD-3-Clause"
+keywords = ["bioinformatics", "json", "yaml"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: POSIX",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Utilities",
+    "Topic :: Software Development :: Libraries",
+
+]
+
+[tool.poetry.scripts]
+crimson = "crimson.cli:main"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
+pattern = "^v?(?P<base>\\d+\\.\\d+\\.\\d+)(-?((?P<stage>[a-zA-Z]+)\\.?(?P<revision>\\d+)?))?(\\+(?P<tagged_metadata>.+))?$"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0"
+PyYAML = "^6.0"
+single-source = "^0.2.0"
+urllib3 = "^1.26.16"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-sugar = "^0.9.7"
+bandit = "^1.7.0"
+flake8 = "^5.0.4"
+flake8-polyfill = "^1.0.2"
+mypy = "^1.4.1"
+mypy-extensions = "^1.0.0"
+radon = "^5.0.1"
+pytest-flake8 = "^1.0.7"
+types-PyYAML = "^6.0.12"
+twine = "^4.0.1"
+safety = "^2.0.0"
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+show_error_context = true
+show_column_numbers = true
+show_error_codes = true
+pretty = true
+warn_redundant_casts = true
+
+[[tool.mypy.overrides]]
+module = "crimson.*"
+disallow_untyped_calls = true
+disallow_incomplete_defs = true
+disallow_untyped_defs = true
+warn_unused_ignores = true
+warn_return_any = true
+warn_unreachable = true
+allow_untyped_globals = false
+strict_equality = true
+
+[tool.coverage.run]
+branch = true
+source = ["crimson"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
+omit = ["tests/*"]
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry.core.masonry.api"
