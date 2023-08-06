@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=3.4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pytest_selenium_screenshot"
+version = "0.0.1"
+authors = [{name = "Harmin Parra Rueda", email="harmin.rueda@gmail.com"}]
+description = "Selenium report generator with screenshots"
+readme = "README.md"
+requires-pyhon = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Home = "https://github.com/harmin-parra/pytest-selenium-screenshot"
