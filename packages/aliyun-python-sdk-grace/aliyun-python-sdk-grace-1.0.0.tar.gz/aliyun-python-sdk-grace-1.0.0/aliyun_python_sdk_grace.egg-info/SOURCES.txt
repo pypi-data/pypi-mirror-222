@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+aliyun_python_sdk_grace.egg-info/PKG-INFO
+aliyun_python_sdk_grace.egg-info/SOURCES.txt
+aliyun_python_sdk_grace.egg-info/dependency_links.txt
+aliyun_python_sdk_grace.egg-info/requires.txt
+aliyun_python_sdk_grace.egg-info/top_level.txt
+aliyunsdkgrace/__init__.py
+aliyunsdkgrace/request/__init__.py
+aliyunsdkgrace/request/v20220606/AnalyzeFileRequest.py
+aliyunsdkgrace/request/v20220606/GetFileRequest.py
+aliyunsdkgrace/request/v20220606/UploadFileByOSSRequest.py
+aliyunsdkgrace/request/v20220606/UploadFileByURLRequest.py
+aliyunsdkgrace/request/v20220606/__init__.py
