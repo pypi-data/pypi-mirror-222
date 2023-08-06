@@ -1,0 +1,9 @@
+dingodb/__init__.py,sha256=MkAwQKC3BGXAwyY5aJVvIY5BbqZKXnBzg9S-kbUXyC8,60
+dingodb/__version__,sha256=JCIwim3P1gbg59GPCBNH9LY9Hup9eDLCuGqSgTsJaVU,9
+dingodb/config.py,sha256=UeYedc-e40M8b9NabuaPbzcDDhs0Kh4DrV7x31Bwd8A,1636
+dingodb/db.py,sha256=Rp0Rg7WhyKhBBxUvX-OiMtBS8cru_MEJpAfQ4JpDq48,14268
+dingodb/dingo_param.py,sha256=QaywOBuqmetRFFZawOs--49UWVBXR02tyBX1fGjg5ZQ,7379
+dingodb-0.0.3rc2.dist-info/METADATA,sha256=hRI7mHIXR8EHFKmvcHTBQ8GhqQiC70GB0q5qP8neYnc,5858
+dingodb-0.0.3rc2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dingodb-0.0.3rc2.dist-info/top_level.txt,sha256=LtzSFSPm_5lSKywxGVttzQtYEbG2H7fztsHgXLJnAGw,8
+dingodb-0.0.3rc2.dist-info/RECORD,,
