@@ -1,0 +1,13 @@
+localstripe/__init__.py,sha256=MjHVg9Hjw72e_7a2vl0G36mlHuTwCB2XD2XUNCPfQgs,850
+localstripe/__main__.py,sha256=48hugjaucb55IWNB9et3Prg8--5RBLRQs_sSlKnPhR4,761
+localstripe/errors.py,sha256=mR87cXVXA6KtSf2q3YRi_wX-z8NF0MbX6HkvPLbT8aE,1326
+localstripe/localstripe-v3.js,sha256=3eOQZuw2l4bmSIi7STA7n0v4ciu8HEZEzr7VWkH8FnI,14115
+localstripe/resources.py,sha256=VPT5VIUOvf4RLMYbIrK069IJwGRRyS68JJ7QYiY-47k,125736
+localstripe/server.py,sha256=AeilxjMiE81il6q3QsMsHSSu-RwppN5Mu-6kER64zdo,11274
+localstripe/webhooks.py,sha256=RjnLgrrZQfkmenHk45IswbCE-HbV1rg5dk7ZS8x39qo,2516
+localstack_localstripe-1.13.8.post1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+localstack_localstripe-1.13.8.post1.dist-info/METADATA,sha256=078s3YPY1R_RDgZMA_17par5Ubdwd9vB_VOhEOjyg0o,371
+localstack_localstripe-1.13.8.post1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+localstack_localstripe-1.13.8.post1.dist-info/entry_points.txt,sha256=GyQ5GE2FGJq4pvnLzuvAy3FePVqLdWGE8yv7f4QFVns,57
+localstack_localstripe-1.13.8.post1.dist-info/top_level.txt,sha256=QzO4XFCCwTV1p2BcOGBGTkTloWfoI8ebmJxJoxcRvDg,12
+localstack_localstripe-1.13.8.post1.dist-info/RECORD,,
