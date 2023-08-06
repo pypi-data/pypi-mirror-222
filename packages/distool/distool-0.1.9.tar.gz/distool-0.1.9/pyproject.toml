@@ -1,0 +1,16 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "scikit-learn",
+    "beautifulsoup4",
+    "negspacy",
+    "numpy",
+    "spacy",
+    "negspacy",
+    "attrs",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distool"
+version = "0.1.9"
