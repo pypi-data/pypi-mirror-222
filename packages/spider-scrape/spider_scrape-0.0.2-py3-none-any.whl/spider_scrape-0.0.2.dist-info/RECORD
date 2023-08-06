@@ -1,0 +1,9 @@
+spider_scrape/__init__.py,sha256=lj38LbOAwFr29bwDInprlPxOMVZGcCIyoKJlXnsZt9g,190
+spider_scrape/arango_db.py,sha256=6P8WXOoR-JmvsabT5RyO-GNyv2IQhc8ZOREz_lJsSPo,1853
+spider_scrape/bs.py,sha256=S_deUyDVZ1gO9pEWRmqni1tR5e6F2lMOIV70DcqFpmU,1735
+spider_scrape/db.py,sha256=1RY11LpVarLgIILZJfSQDiIKCqWKKJaXbW4bDJ1cP9U,455
+spider_scrape/scraper.py,sha256=zIxxTqBfRaISVaWPL6Z5DQIDmq339lrIb_6fKFkJ4Hc,746
+spider_scrape-0.0.2.dist-info/LICENSE,sha256=jYNN6XsJX79L9gdXQ4J4Yr4sbEBFlK4EYG2cVtjxAXs,1118
+spider_scrape-0.0.2.dist-info/METADATA,sha256=UsiWdm5o9JzVFKQ3nUYBjPqXOX-VR5RyNz7qqw_utiU,1070
+spider_scrape-0.0.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+spider_scrape-0.0.2.dist-info/RECORD,,
