@@ -1,0 +1,6 @@
+setup.py
+xinglan.py
+xinglan.egg-info/PKG-INFO
+xinglan.egg-info/SOURCES.txt
+xinglan.egg-info/dependency_links.txt
+xinglan.egg-info/top_level.txt
