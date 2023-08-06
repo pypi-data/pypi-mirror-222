@@ -1,0 +1,10 @@
+metabase_api/__init__.py,sha256=L9oaOutvfAMSVBdMRTnKglQyGLkxp7pt8RrKHU5YOFo,38
+metabase_api/exceptions.py,sha256=P2oZc_aQ7MhGtmsTEEUfmTKqmInrZ5EpPMp7sDT85gw,312
+metabase_api/metabase_api.py,sha256=Mn9WZlIrPvlCqx7ndC_SNzwU3syybngC9U_HiIeRRzA,2700
+metabase_api_python/__init__.py,sha256=L9oaOutvfAMSVBdMRTnKglQyGLkxp7pt8RrKHU5YOFo,38
+metabase_api_python/exceptions.py,sha256=P2oZc_aQ7MhGtmsTEEUfmTKqmInrZ5EpPMp7sDT85gw,312
+metabase_api_python/metabase_api.py,sha256=Mn9WZlIrPvlCqx7ndC_SNzwU3syybngC9U_HiIeRRzA,2700
+metabase_api_python-0.0.6.dist-info/METADATA,sha256=5XAl4YMDZ92u_MprK9ZtqhZx_KWfVQmczo7Nc1vXiQw,621
+metabase_api_python-0.0.6.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+metabase_api_python-0.0.6.dist-info/top_level.txt,sha256=D-ZGu4lUXFIA5rk8FG3Jgsuqqwc-k66obDAi1STy0ew,20
+metabase_api_python-0.0.6.dist-info/RECORD,,
