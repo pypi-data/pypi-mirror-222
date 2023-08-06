@@ -1,0 +1,13 @@
+deepclient/__init__.py,sha256=7SphgsN1GNRAfAsQrMpQxlXzNobWEoxgOhx1RzzJG5E,134
+deepclient/deep_client.py,sha256=-TOYWGT0W-_rfPo_EdlgNApS-sZa2HQ87hkBvOn9XvY,27126
+deepclient/deep_client_options.py,sha256=n-YDiHUJp_MjoSwhA6ssgR6zmjUNh2NBAD-LopCzdto,933
+deepclient/query.py,sha256=TI0n6_virFLofpuCaOwZt5PWWPRcym1yyqsPEZVWQCw,2759
+deepclient/generate_gql_operations/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+deepclient/generate_gql_operations/mutation.py,sha256=GV_iE2T8vyOQva7PtLSRXmwGwISP5XhBFpCbYsq315s,3803
+deepclient/generate_gql_operations/serial.py,sha256=UZPL1SL6Od73MaUIWt_vz9XVkqjeGp344kZGIeDr41A,1663
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_deep_client.py,sha256=jPTMGMGLPitgidUYkfZ8CEcidcaSGP2S8t5h2b5T67g,16021
+deepclient_test-1.0.5.dist-info/METADATA,sha256=EOBg1HU1rlsrkTuUGytHmzF8T9ZKkBAz5K2ad3NUeh4,1137
+deepclient_test-1.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+deepclient_test-1.0.5.dist-info/top_level.txt,sha256=3iqb4DroGDET2vTBite0bIVhcZCqqnEByW9YjWNOUYM,17
+deepclient_test-1.0.5.dist-info/RECORD,,
