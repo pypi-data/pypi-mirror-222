@@ -1,0 +1,404 @@
+{
+    "services": {
+        "answer_callback_query": {
+            "fields": {
+                "callback_query_id": {
+                    "name": "ID query di richiamata"
+                },
+                "message": {
+                    "description": "Corpo del messaggio di testo non formattato della notifica.",
+                    "name": "Messaggio"
+                },
+                "show_alert": {
+                    "description": "Mostra una notifica permanente.",
+                    "name": "Mostra avviso"
+                },
+                "timeout": {
+                    "description": "Timeout per l'invio della risposta. Aiuter\u00e0 con errori di timeout (scarsa connessione a Internet, ecc.).",
+                    "name": "Tempo scaduto"
+                }
+            },
+            "name": "Rispondi alla richiesta di richiamata"
+        },
+        "delete_message": {
+            "description": "Elimina un messaggio inviato in precedenza.",
+            "fields": {
+                "chat_id": {
+                    "description": "Il chat_id dove eliminare il messaggio.",
+                    "name": "ID chat"
+                },
+                "message_id": {
+                    "description": "ID del messaggio da eliminare.",
+                    "name": "ID messaggio"
+                }
+            },
+            "name": "Cancella il messaggio"
+        },
+        "edit_caption": {
+            "description": "Modifica la didascalia di un messaggio inviato in precedenza.",
+            "fields": {
+                "caption": {
+                    "description": "Corpo del messaggio della notifica.",
+                    "name": "Didascalia"
+                },
+                "chat_id": {
+                    "description": "Il chat_id dove modificare la didascalia.",
+                    "name": "ID chat"
+                },
+                "message_id": {
+                    "description": "ID del messaggio da modificare.",
+                    "name": "ID messaggio"
+                }
+            },
+            "name": "Modifica didascalia"
+        },
+        "edit_message": {
+            "description": "Modifica un messaggio inviato in precedenza.",
+            "fields": {
+                "chat_id": {
+                    "description": "Il chat_id dove modificare il messaggio.",
+                    "name": "ID chat"
+                },
+                "message": {
+                    "description": "Corpo del messaggio della notifica.",
+                    "name": "Messaggio"
+                },
+                "message_id": {
+                    "description": "ID del messaggio da modificare.",
+                    "name": "ID messaggio"
+                },
+                "parse_mode": {
+                    "description": "Parser per il testo del messaggio.",
+                    "name": "Modalit\u00e0 di transito"
+                },
+                "title": {
+                    "description": "Titolo facoltativo per la notifica. Sar\u00e0 composto come '%title\n %Messaggio'.",
+                    "name": "Titolo"
+                }
+            },
+            "name": "Modifica messaggio"
+        },
+        "edit_replymarkup": {
+            "description": "Modifica la tastiera in linea di un messaggio inviato in precedenza.",
+            "fields": {
+                "chat_id": {
+                    "description": "Il chat_id dove modificare il reply_markup.",
+                    "name": "ID chat"
+                },
+                "message_id": {
+                    "description": "ID del messaggio da modificare.",
+                    "name": "ID messaggio"
+                }
+            },
+            "name": "Modifica il markup della risposta"
+        },
+        "send_animation": {
+            "description": "Invia un'animazione.",
+            "fields": {
+                "authentication": {
+                    "description": "Definire il metodo di autenticazione da utilizzare. Impostare su \"digest\" per utilizzare l'autenticazione digest HTTP o su \"bearer_token\" per l'autenticazione del token di connessione OAuth 2.0. L'impostazione predefinita \u00e8 \"basic\".",
+                    "name": "Metodo di autenticazione"
+                },
+                "caption": {
+                    "description": "Il titolo dell'animazione.",
+                    "name": "Didascalia"
+                },
+                "file": {
+                    "name": "File"
+                },
+                "keyboard": {
+                    "description": "Elenco di righe di comandi, separate da virgole, per creare una tastiera personalizzata."
+                },
+                "parse_mode": {
+                    "description": "Parser per il testo del messaggio."
+                },
+                "password": {
+                    "description": "Password (o token di connessione) per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Nome utente per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Nome utente"
+                },
+                "verify_ssl": {
+                    "description": "Abilita o disabilita la verifica del certificato SSL. Impostare false se si sta scaricando il file da un URL e non si vuole convalidare il certificato SSL del server."
+                }
+            }
+        },
+        "send_document": {
+            "fields": {
+                "authentication": {
+                    "description": "Definire il metodo di autenticazione da utilizzare. Impostare su \"digest\" per utilizzare l'autenticazione digest HTTP o su \"bearer_token\" per l'autenticazione del token di connessione OAuth 2.0. L'impostazione predefinita \u00e8 \"basic\".",
+                    "name": "Metodo di autenticazione"
+                },
+                "caption": {
+                    "name": "Didascalia"
+                },
+                "file": {
+                    "name": "File"
+                },
+                "keyboard": {
+                    "description": "Elenco di righe di comandi, separate da virgole, per creare una tastiera personalizzata."
+                },
+                "parse_mode": {
+                    "description": "Parser per il testo del messaggio.",
+                    "name": "Modalit\u00e0 di transito"
+                },
+                "password": {
+                    "description": "Password (o token di connessione) per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Nome utente per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Nome utente"
+                },
+                "verify_ssl": {
+                    "description": "Abilita o disabilita la verifica del certificato SSL. Impostare false se si sta scaricando il file da un URL e non si vuole convalidare il certificato SSL del server."
+                }
+            }
+        },
+        "send_location": {
+            "fields": {
+                "keyboard": {
+                    "description": "Elenco di righe di comandi, separate da virgole, per creare una tastiera personalizzata."
+                },
+                "latitude": {
+                    "name": "Latitudine"
+                },
+                "longitude": {
+                    "name": "Logitudine"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare la posizione. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "timeout": {
+                    "description": "Timeout per l'invio di foto. Aiuter\u00e0 con gli errori di timeout (scarsa connessione Internet, ecc.)."
+                }
+            }
+        },
+        "send_message": {
+            "fields": {
+                "parse_mode": {
+                    "description": "Parser per il testo del messaggio.",
+                    "name": "Modalit\u00e0 di transito"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare la notifica. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "timeout": {
+                    "description": "Timeout per l'invio del messaggio. Aiuter\u00e0 con errori di timeout (scarsa connessione a Internet, ecc.).",
+                    "name": "Tempo scaduto"
+                },
+                "title": {
+                    "description": "Titolo facoltativo per la notifica. Sar\u00e0 composto come '%title\n %Messaggio'.",
+                    "name": "Titolo"
+                }
+            },
+            "name": "Invia messaggio"
+        },
+        "send_photo": {
+            "description": "Invia una foto.",
+            "fields": {
+                "authentication": {
+                    "description": "Definire il metodo di autenticazione da utilizzare. Impostare su \"digest\" per utilizzare l'autenticazione digest HTTP o su \"bearer_token\" per l'autenticazione del token di connessione OAuth 2.0. L'impostazione predefinita \u00e8 \"basic\".",
+                    "name": "Metodo di autenticazione"
+                },
+                "caption": {
+                    "description": "Il titolo dell'immagine.",
+                    "name": "Didascalia"
+                },
+                "file": {
+                    "description": "Percorso locale di un'immagine.",
+                    "name": "File"
+                },
+                "keyboard": {
+                    "description": "Elenco di righe di comandi, separate da virgole, per creare una tastiera personalizzata."
+                },
+                "parse_mode": {
+                    "description": "Parser per il testo del messaggio.",
+                    "name": "Modalit\u00e0 di transito"
+                },
+                "password": {
+                    "description": "Password (o token di connessione) per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "timeout": {
+                    "description": "Timeout per l'invio di foto. Aiuter\u00e0 con gli errori di timeout (scarsa connessione Internet, ecc.).",
+                    "name": "Tempo scaduto"
+                },
+                "url": {
+                    "description": "Percorso remoto di un'immagine.",
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Nome utente per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Nome utente"
+                },
+                "verify_ssl": {
+                    "description": "Abilita o disabilita la verifica del certificato SSL. Impostare false se si sta scaricando il file da un URL e non si vuole convalidare il certificato SSL del server.",
+                    "name": "Verifica SSL"
+                }
+            },
+            "name": "Invia una foto"
+        },
+        "send_poll": {
+            "description": "Invia un sondaggio.",
+            "fields": {
+                "allows_multiple_answers": {
+                    "description": "Se il sondaggio consente pi\u00f9 risposte, il valore predefinito \u00e8 False.",
+                    "name": "Consenti pi\u00f9 risposte"
+                },
+                "is_anonymous": {
+                    "description": "Se il sondaggio deve essere anonimo, il valore predefinito \u00e8 True.",
+                    "name": "\u00c8 anonimo"
+                },
+                "open_period": {
+                    "description": "Periodo di tempo in secondi in cui il sondaggio sar\u00e0 attivo dopo la creazione, 5-600.",
+                    "name": "Periodo aperto"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare la posizione. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                }
+            }
+        },
+        "send_sticker": {
+            "fields": {
+                "authentication": {
+                    "description": "Definire il metodo di autenticazione da utilizzare. Impostare su \"digest\" per utilizzare l'autenticazione digest HTTP o su \"bearer_token\" per l'autenticazione del token di connessione OAuth 2.0. L'impostazione predefinita \u00e8 \"basic\".",
+                    "name": "Metodo di autenticazione"
+                },
+                "file": {
+                    "name": "File"
+                },
+                "keyboard": {
+                    "description": "Elenco di righe di comandi, separate da virgole, per creare una tastiera personalizzata."
+                },
+                "password": {
+                    "description": "Password (o token di connessione) per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Nome utente per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Nome utente"
+                },
+                "verify_ssl": {
+                    "description": "Abilita o disabilita la verifica del certificato SSL. Impostare false se si sta scaricando il file da un URL e non si vuole convalidare il certificato SSL del server."
+                }
+            }
+        },
+        "send_video": {
+            "fields": {
+                "authentication": {
+                    "description": "Definire il metodo di autenticazione da utilizzare. Impostare su \"digest\" per utilizzare l'autenticazione digest HTTP o su \"bearer_token\" per l'autenticazione del token di connessione OAuth 2.0. L'impostazione predefinita \u00e8 \"basic\".",
+                    "name": "Metodo di autenticazione"
+                },
+                "caption": {
+                    "name": "Didascalia"
+                },
+                "file": {
+                    "name": "File"
+                },
+                "keyboard": {
+                    "description": "Elenco di righe di comandi, separate da virgole, per creare una tastiera personalizzata."
+                },
+                "parse_mode": {
+                    "description": "Parser per il testo del messaggio.",
+                    "name": "Modalit\u00e0 di transito"
+                },
+                "password": {
+                    "description": "Password (o token di connessione) per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "url": {
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Nome utente per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Nome utente"
+                },
+                "verify_ssl": {
+                    "description": "Abilita o disabilita la verifica del certificato SSL. Impostare false se si sta scaricando il file da un URL e non si vuole convalidare il certificato SSL del server.",
+                    "name": "Verifica SSL"
+                }
+            },
+            "name": "Invia video"
+        },
+        "send_voice": {
+            "description": "Invia un messaggio vocale.",
+            "fields": {
+                "authentication": {
+                    "description": "Definire il metodo di autenticazione da utilizzare. Impostare su \"digest\" per utilizzare l'autenticazione digest HTTP o su \"bearer_token\" per l'autenticazione del token di connessione OAuth 2.0. L'impostazione predefinita \u00e8 \"basic\".",
+                    "name": "Metodo di autenticazione"
+                },
+                "caption": {
+                    "description": "Il titolo del messaggio vocale.",
+                    "name": "Didascalia"
+                },
+                "file": {
+                    "description": "Percorso locale di un messaggio vocale.",
+                    "name": "File"
+                },
+                "keyboard": {
+                    "description": "Elenco di righe di comandi, separate da virgole, per creare una tastiera personalizzata."
+                },
+                "password": {
+                    "description": "Password (o token di connessione) per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Password"
+                },
+                "target": {
+                    "description": "Un array di chat_id pre-autorizzati a cui inviare il documento. Se non \u00e8 presente, il primo chat_id consentito \u00e8 quello predefinito.",
+                    "name": "Destinazione"
+                },
+                "timeout": {
+                    "description": "Timeout per l'invio della voce. Aiuter\u00e0 a risolvere gli errori di timeout (connessione Internet scadente, ecc.).",
+                    "name": "Tempo scaduto"
+                },
+                "url": {
+                    "description": "Percorso remoto di un messaggio vocale.",
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Nome utente per un URL che richiede l'autenticazione HTTP.",
+                    "name": "Nome utente"
+                },
+                "verify_ssl": {
+                    "description": "Abilita o disabilita la verifica del certificato SSL. Impostare false se si sta scaricando il file da un URL e non si vuole convalidare il certificato SSL del server.",
+                    "name": "Verifica SSL"
+                }
+            },
+            "name": "Invia voce"
+        }
+    }
+}

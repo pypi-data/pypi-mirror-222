@@ -1,0 +1,12 @@
+{
+    "services": {
+        "set_away_mode": {
+            "fields": {
+                "away_mode": {
+                    "name": "Modalit\u00e0 assente"
+                }
+            },
+            "name": "Imposta la modalit\u00e0 assente"
+        }
+    }
+}

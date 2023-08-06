@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "sensor": {
+            "activity_time": {
+                "name": "Activity time"
+            },
+            "rest_time": {
+                "name": "Rest time"
+            }
+        }
+    }
+}

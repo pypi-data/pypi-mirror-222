@@ -1,0 +1,32 @@
+{
+    "config": {
+        "error": {
+            "no_stations": "Could not find any stations in range."
+        },
+        "step": {
+            "select_station": {
+                "data": {
+                    "station": "Station"
+                },
+                "description": "Found {stations_count} stations in radius",
+                "title": "Select the measuring station to add"
+            },
+            "user": {
+                "data": {
+                    "radius": "Search radius (in km)"
+                },
+                "description": "Select the area, where you want to search for water measuring stations"
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "current_measurement": {
+                "name": "Water level"
+            },
+            "water_level": {
+                "name": "Water level"
+            }
+        }
+    }
+}

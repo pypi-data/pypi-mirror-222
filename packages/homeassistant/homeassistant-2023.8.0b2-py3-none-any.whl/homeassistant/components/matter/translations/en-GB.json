@@ -1,0 +1,21 @@
+{
+    "entity": {
+        "event": {
+            "push": {
+                "state_attributes": {
+                    "event_type": {
+                        "state": {
+                            "initial_press": "Initial press",
+                            "long_press": "Long press",
+                            "long_release": "Long release",
+                            "multi_press_complete": "Multi press complete",
+                            "multi_press_ongoing": "Multi press ongoing",
+                            "short_release": "Short release",
+                            "switch_latched": "Switch latched"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
