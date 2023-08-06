@@ -1,0 +1,86 @@
+Screen {
+    background: $surface-darken-1;
+}
+
+#lists-view {
+    display: none;
+    scrollbar-gutter: stable;
+    width: auto;
+}
+
+ArchiveApp.-show-tree #lists-view {
+    display: block;
+    dock: left;
+    height: 100%;
+    max-width: 17%;
+    background: #212b37;
+}
+
+#lists-view {
+    overflow: auto scroll;
+    min-width: 100%;
+}
+#threads {
+    width: auto;
+}
+
+Screen {
+    layout: vertical;
+}
+
+.box {
+    height: 1fr;
+    border: solid green;
+}
+
+.selected {
+    border: solid pink;
+}
+
+#threads-vertical {
+    width: 100%;
+    height: 100%;
+    background: blue;
+}
+
+
+.main {
+    layout: grid;
+    grid-size: 2;
+    grid-columns: 9fr 1fr;
+}
+.sender {
+    padding: 0 1;
+}
+
+ThreadItem {
+    height: 3;
+    width: 1fr;
+    layout: grid;
+    grid-size: 3;
+    grid-columns: 14fr 1fr 2fr;
+    content-align: left middle;
+    padding: 1 1;
+}
+
+.read {
+    background: gray;
+}
+
+EmailItem {
+    width: 1fr;
+    margin: 1 1;
+    height: auto;
+    padding: 2;
+}
+Label {
+    padding: 1 2;
+}
+
+ListView > ListItem.--highlight {
+    background: $secondary-background-lighten-3 20%;
+}
+
+ListView:focus > ListItem.--highlight {
+    background: $secondary-background-lighten-3 50%;
+}

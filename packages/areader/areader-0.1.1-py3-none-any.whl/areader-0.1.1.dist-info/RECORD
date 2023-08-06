@@ -1,0 +1,14 @@
+archive_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+archive_reader/__main__.py,sha256=oNDBOSvKkIrQry6Ofbvo0M5VWjggUfUWZz3RBazmE9w,61
+archive_reader/app.py,sha256=9awkYj7LGUsVJGiQBjnPNW-eKa2jCivimndgNdiruVg,7537
+archive_reader/archiver.css,sha256=evf0VDC-Pi0Wn_SwQKCCVFMKFmLXYMe0kLC7dZZQRg4,1165
+archive_reader/core.py,sha256=OrmW0nglqUnoCtzyKcPjHWeTVQUYB0yLIi5hpXrLeR4,4469
+archive_reader/hyperkitty.py,sha256=vvB3pYw7ddamOiU94tw1mkizPi35uBp-JYpg1G_CpxY,1833
+archive_reader/models.py,sha256=OrctxRO4muKWggYQP0GiOVq_sOZq5uIZCVDkxbaDPhI,4210
+archive_reader/schemas.py,sha256=p7MZbdamMD_rQL3pgLPezGocmKmHHtQTdumMykuwxGs,1880
+archive_reader/screens.py,sha256=pT1K-1rPNlc6VsHEfC2_qWkK4qDItFs_5ifWT_fmWU0,6469
+archive_reader/widgets.py,sha256=WA3cUvukuFURoZQY2zMO5SCSBfdw5JDo89fVX9O9QZM,6806
+areader-0.1.1.dist-info/METADATA,sha256=_K9cnpHxddtpTS-Yif74IbnmI58I9ujcEX34VzoE91c,1486
+areader-0.1.1.dist-info/WHEEL,sha256=0QD4Fi8spmPDA9YIWsctxI6ukFf44Zgk0L9495lbqs0,90
+areader-0.1.1.dist-info/entry_points.txt,sha256=gSnevSTrmeNZI8QDJD8zZ0H0TRxTDkmTiYwS9jN-kzU,53
+areader-0.1.1.dist-info/RECORD,,
