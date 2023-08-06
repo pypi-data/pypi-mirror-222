@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swagd"
+version = "5.2.1"
+authors = [
+  { name="Gerhard Tan", email="gwohau.tan@gmail.com" },
+]
+description = "Swagger UI Server"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.5"
+dependencies = [
+    "PyYAML >= 5.1",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/koho/swagd"
+"Bug Tracker" = "https://github.com/koho/swagd/issues"
+
+[project.scripts]
+swagd = "swagd.__main__:main"
+
+[tool.setuptools.package-data]
+"swagd.ui" = ["*"]
