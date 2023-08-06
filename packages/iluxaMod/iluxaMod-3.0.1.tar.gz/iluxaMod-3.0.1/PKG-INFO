@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: iluxaMod
+Version: 3.0.1
+Summary: Module for simplified work with libraries: TG, PostgreSQL, locations and more...
+Home-page: https://sbdt.pro
+Author: Illya Lazarev
+Author-email: lazarevillya031@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+
+# iluxaMod Documentation
+ This module contains several Python classes that provide functionality for file manipulation, database operations, image format conversions, automation tasks, and utility tools.
+ 
+## Pickle Class
+ The Pickle class provides methods for pickling (serializing) and unpickling (deserializing) Python objects.
+
+``` 
+pickle_obj = Pickle('filename.pkl')
+
+data = {'key': 'value'}
+
+pickle_obj.pick(data)  # Serialize and save data to file
+
+unpickled_data = pickle_obj.unpick()  # Load data from file
+
+pickle_obj.remove()  # Remove the file
+```
+
+# Python PostgreSQL Module
+ This python module is designed to interact with PostgreSQL databases. It provides an interface to create, read, update and delete records in various tables. The module is designed with a class  `postgreSQL`  that has various methods to interact with the database.
+ ## Installation
+ This module requires  `psycopg2`  package. Install it using pip:
+
+```
+pip install iluxaMod
+```
+## Usage
+ First, import the module:
+```
+from iluxaMod import postgreSQL
+```
+Then, create an instance of the  `postgreSQL`  class:
+```
+db = postgreSQL(user="username", password="password", database="database_name", host="localhost")
+```
+### Methods
+ Here are the methods provided by the  `postgreSQL`  class:
+ -  `init_DB(stages=False, sub=False, settings=False, staff=False, balance=False, stdout=True)` : This method initializes the database with the specified tables.
+ -  `stages(user_id, stage=None)` : This method is used to insert or update a record in the 'stages' table.
+ -  `settings(setting, new=None)` : This method is used to insert or update a record in the 'settings' table.
+ -  `staff(user_id, status=None, remove=False)` : This method is used to insert, update or remove a record in the 'staff' table.
+ -  `balance(user_id, new_balance=None)` : This method is used to insert or update a record in the 'balance' table.
+ -  `sub_update(user_id)` : This method is used to insert or update a record in the 'subs' table.
+ -  `sub_view(user_id)` : This method is used to view a record in the 'subs' table.
+ -  `drop_table(table, stdout=False)` : This method is used to drop a specified table.
+ ### Connector and CRM Classes
+ The module also includes a  `Connector`  class for connecting to a PostgreSQL database and a  `CRM`  class for managing a CRM database.
+ ## Examples
+ Creating a new instance of the  `postgreSQL`  class:
+```
+db = postgreSQL(user="username", password="password", database="database_name", host="localhost")
+```
+Initializing the database with the 'stages', 'settings', 'staff', 'balance', and 'subs' tables:
+```
+db.init_DB(stages=True, settings=True, staff=True, balance=True, subs=True)
+```
+Inserting a new record into the 'stages' table:
+```
+db.stages(user_id="123", stage="Stage 1")
+```
+Updating a record in the 'settings' table:
+```
+db.settings(setting="Setting 1", new="New Value")
+```
+Removing a record from the 'staff' table:
+```
+db.staff(user_id="123", remove=True)
+```
+Dropping the 'balance' table:
+```
+db.drop_table(table="balance")
+```
+# Convertors Class
+ The Convertors class provides methods for converting between different image formats.
+```
+from iluxaMod import Convertors
+
+convertor = Convertors('input.webp')
+convertor.webp2png('output.png')  # Convert a .webp file to .png
+convertor.webp2jpeg('output.jpeg')  # Convert a .webp file to .jpeg
+convertor.png2jpeg('output.jpeg')  # Convert a .png file to .jpeg
+convertor.jpeg2png('output.png')  # Convert a .jpeg file to .png
+convertor.png2ico('output.ico')  # Convert a .png file to .ico
+convertor.jpeg2ico('output.ico')  # Convert a .jpeg file to .ico
+```
+## Automation Ce Automation class provides methods for automating tasks.
+```
+from iluxaMod import Automation
+
+no_ip = Automation.NoIp()
+no_ip.update('username', 'password')  # Update No-IP
+request = Automation.Requests()
+response = request.post('http://example.com', {'key': 'value'})  # Send a POST request
+```
+## Termux Class
+ The Termux class provides methods for executing commands in Termux.
+```
+from iluxaMod import Termux
+
+output = Termux.execute('ls')  # Execute a command
+battery_percentage = Termux.buttery_check()  # Check the battery status
+```
+## Tools Class
+ The Tools class provides utility methods.
+```
+from iluxaMod import Tools
+
+date = Tools.str2date('2022-01-01 00:00:00.000000')  # Convert a string to a datetime object
+Please note that all these classes and methods are provided as-is and may need to be adapted to suit your specific needs.
+```
