@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/aosp/__init__.py
+src/aosp/aosp.py
+src/aosp/env.py
+src/aosp.egg-info/PKG-INFO
+src/aosp.egg-info/SOURCES.txt
+src/aosp.egg-info/dependency_links.txt
+src/aosp.egg-info/requires.txt
+src/aosp.egg-info/top_level.txt
