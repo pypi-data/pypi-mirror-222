@@ -1,0 +1,13 @@
+attrs
+
+[build]
+setuptools
+build
+wheel
+twine
+
+[save]
+tomlkit<1.0,>=0.12.1
+
+[test]
+pytest

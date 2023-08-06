@@ -1,0 +1,17 @@
+.gitignore
+.version
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/build-publish.yml
+demo/example.py
+demo/settings.toml
+src/quickconf/__init__.py
+src/quickconf/_version.py
+src/quickconf/core.py
+src/quickconf.egg-info/PKG-INFO
+src/quickconf.egg-info/SOURCES.txt
+src/quickconf.egg-info/dependency_links.txt
+src/quickconf.egg-info/requires.txt
+src/quickconf.egg-info/top_level.txt
+tests/test_conf.py
