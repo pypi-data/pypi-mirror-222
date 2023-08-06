@@ -1,0 +1,6 @@
+setup.py
+mcptbr.egg-info/PKG-INFO
+mcptbr.egg-info/SOURCES.txt
+mcptbr.egg-info/dependency_links.txt
+mcptbr.egg-info/requires.txt
+mcptbr.egg-info/top_level.txt
