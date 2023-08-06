@@ -1,0 +1,8 @@
+fastlogistic/__init__.py,sha256=QNIsLawXVVDS1wz2T-5DpHTX7jZfNqNI_el1qxJiy60,95
+fastlogistic/logistic_cpu.py,sha256=31sS9abdVQDpYIwgc0K9Ov-DP39GNUXuCR4RVZC4Jyk,1296
+fastlogistic/logistic_gpu.py,sha256=EznVcde3IXEF3vk9Xoqcnr8LJTDYYYcNls-FsHGFsy0,6582
+fastlogistic-0.1.dist-info/LICENSE,sha256=XWnh_zT2WPRI0ilNSGoAX-kQN5KFVU-MQqjYx8jqDaE,1132
+fastlogistic-0.1.dist-info/METADATA,sha256=-D5v03LXHgHUlDQWvUDRgtRf1LSKyRJB81h91GphmyQ,12457
+fastlogistic-0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+fastlogistic-0.1.dist-info/top_level.txt,sha256=R5EdPsQ7evzn_hVpvuBDy_B8E4PZICJZ7fj9AHbFb-Q,13
+fastlogistic-0.1.dist-info/RECORD,,
