@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+
+import sys
+import os
+import argparse
+
+PACKAGE_PARENT = '..'
+SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.expanduser(__file__))))
+sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
+
+import pdf2md
+
+
+def main(args):
+    filename = args.pdf
+    title = os.path.splitext(os.path.basename(filename))[0]
+    print('Parsing', filename)
+
+    parser = pdf2md.Parser(filename, args.line_overlap, args.char_margin, args.word_margin, args.line_margin)
+    parser.extract()
+    piles = parser.parse()
+
+    syntax = pdf2md.UrbanSyntax()
+
+    writer = pdf2md.Writer(args.output)
+    writer.set_syntax(syntax)
+    writer.set_mode(args.format)
+    writer.set_title(title)
+    writer.write(piles)
+
+    print('Your markdown is at', writer.get_location())
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.description = "PDF转Markdown"
+    parser.add_argument("--pdf", help="需要转换的PDF文件", dest="pdf", type=str, default="", required=True)
+    parser.add_argument("--output", help="markdown文件的输出目录", dest="output", type=str, default="",
+                        required=True)
+    parser.add_argument("--format", help="转换模式：[simple]常规模式,默认为此值；[gitbook] gitbook模式",
+                        dest="format",
+                        type=str, default="simple", required=False)
+    parser.add_argument("--line_overlap",
+                        help="LAParams参数，浮点型，默认值0.5。如果两个字符有更多的重叠，他们被认为是在同一行。重叠是相对于两个字符的最小高度指定的",
+                        dest="line_overlap", type=float, default=0.5, required=False)
+    parser.add_argument("--char_margin",
+                        help="LAParams参数，浮点型，默认值2.0。如果两个字符之间的距离比这个距离更近，它们就被认为是同一行的一部分。边距是根据字符的宽度指定的。",
+                        dest="char_margin", type=float, default=2.0, required=False)
+    parser.add_argument("--word_margin",
+                        help="LAParams参数，浮点型，默认值0.1。"
+                             "如果同一行上的两个字符之间的距离超过这个边距，那么它们将被视为两个独立的单词，并且将添加一个中间空格以提高可读性。边距是根据字符的宽度指定的。",
+                        dest="word_margin", type=float, default=0.1, required=False)
+    parser.add_argument("--line_margin",
+                        help="LAParams参数，浮点型，默认值0.5。如果两行靠得很近，它们被认为是同一段的一部分。边距是相对于行高指定的。",
+                        dest="line_margin", type=float, default=0.5, required=False)
+
+    args = parser.parse_args()
+    main(args)
