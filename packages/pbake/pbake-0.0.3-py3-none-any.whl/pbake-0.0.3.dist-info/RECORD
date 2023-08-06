@@ -1,0 +1,9 @@
+setup.py,sha256=0rGHaCwxoQipsY3qIt49b0ejgO8ZYMZZklQxnoDdRFA,152
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/bake.py,sha256=VAWe2SmITotD5XzB39902sMxO8dyixx3Bw8dAPi4_6w,712
+src/cookbook.py,sha256=8muGGFJdh9GjBFJPXl5kCwbbqth-XDmBenWzkAr11m4,1577
+pbake-0.0.3.dist-info/METADATA,sha256=oqA6LJZr_J8FrvFFv9xBZY16IIK6vtPl5y3s_wvblrI,573
+pbake-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pbake-0.0.3.dist-info/entry_points.txt,sha256=zCO3XXddfgQKAYNNKTE4mooL0Ug29_Jqj0RjdyOthFY,39
+pbake-0.0.3.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pbake-0.0.3.dist-info/RECORD,,
