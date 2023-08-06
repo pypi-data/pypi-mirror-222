@@ -1,0 +1,14 @@
+qufit
+numpy
+pandas
+scikit-learn
+scipy
+sympy
+matplotlib
+imp
+math
+bayesian-optimization
+nest_asyncio
+scikit-optimizer
+pickle
+plotly
