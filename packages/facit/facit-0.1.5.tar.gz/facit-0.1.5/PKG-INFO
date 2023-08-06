@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: facit
+Version: 0.1.5
+Project-URL: Homepage, https://github.com/ovidner/pangolin
+Author: Camilla Wehlin, Anton Wiberg
+Author-email: Olle Vidner <olle@vidner.se>
+Maintainer-email: Olle Vidner <olle@vidner.se>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Pangolin
+
