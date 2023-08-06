@@ -1,0 +1,5 @@
+setup.py
+SUSconvert.egg-info/PKG-INFO
+SUSconvert.egg-info/SOURCES.txt
+SUSconvert.egg-info/dependency_links.txt
+SUSconvert.egg-info/top_level.txt
