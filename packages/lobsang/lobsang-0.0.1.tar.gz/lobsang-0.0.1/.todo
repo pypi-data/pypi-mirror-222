@@ -1,0 +1,16 @@
+- [ ] Support async
+- [ ] Read about restructured docstring format
+- [ ] maybe format parameter names and types in docstring
+- [ ] maybe write TreeChat which supportes branching from a message to change messages afterwards
+- [ ] when reworking and adding other llms or a llm interface class, dont forget to update the docstrings
+- [ ] write readme
+- [ ] write tests
+- [ ] checkout guidance repo for streaming / batch or stuff
+- [ ] add tests for directive and llms
+- [ ] implement __eq__ for messages
+- [ ] open source CI/CD pipeline
+- [ ] open source code quality checks
+- [ ] slicing / modifying chat should return a new chat, also copy
+- [ ] add badges to README
+- [ ] add formatter and linter
+- [ ] requirements.txt, setup.py
