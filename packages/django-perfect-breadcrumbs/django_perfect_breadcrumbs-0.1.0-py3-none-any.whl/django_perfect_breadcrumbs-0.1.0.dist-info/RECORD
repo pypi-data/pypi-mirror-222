@@ -1,0 +1,10 @@
+django_perfect_breadcrumbs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_perfect_breadcrumbs/apps.py,sha256=vxqZUY0YQ_ILFJsQuhQR6XxLYbQaE8v9zFEAPo4vjQU,176
+django_perfect_breadcrumbs/builder.py,sha256=edjUMdZAarBCjc6evH4yRWY9uiddp4lu19rqFfKDc_Q,1890
+django_perfect_breadcrumbs/context_processors.py,sha256=IZkLmNO_QWIjHNvIs0aOa-wTCUmzhknvsLssXlI6mkw,132
+django_perfect_breadcrumbs/middleware.py,sha256=XGGywqRk3KRLCELnIyzMjjuYWWc-sydWLFuqvdqHWO0,608
+django_perfect_breadcrumbs/settings.py,sha256=mbjhbF6l9X3wS2h_WnQgdBmDz-gLP-wCw2Q8-DmQ3p0,253
+django_perfect_breadcrumbs-0.1.0.dist-info/LICENSE,sha256=sT4r140jlcVOSDzx6n9tIDE6FXgbj5zQiNnW2QLdPR0,1086
+django_perfect_breadcrumbs-0.1.0.dist-info/METADATA,sha256=xhfYnzwJYxsMFpOZEeq6a7GLAAswdYGFO5nJY8QtFGQ,2282
+django_perfect_breadcrumbs-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+django_perfect_breadcrumbs-0.1.0.dist-info/RECORD,,
