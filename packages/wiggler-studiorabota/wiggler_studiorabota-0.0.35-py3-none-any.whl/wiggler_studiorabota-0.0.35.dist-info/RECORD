@@ -1,0 +1,12 @@
+wiggler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wiggler/cli.py,sha256=bUF0OmzuEmKj1K5VuRUNVGJGI-tVErBOS84CAsIhzo0,2210
+wiggler/main.py,sha256=UA49V8tAjDpQe-m_kM1QCbJXFhR32WXz5uKx3pS7Vm8,4547
+wiggler/light/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wiggler/light/pixels.py,sha256=yfnhS9z9F1ClGdxf7HGrTtndkLpQ-Wkv7oZkjSq3NfU,229
+wiggler/service/wiggler.service,sha256=cRebbVhDYAOadA9wvh6k6mcIjLzm8KlkkYKTlolB1TE,145
+wiggler/service/wiggler_boot.sh,sha256=ZxIg_9e2iclsZGxC_Z3u14hESRodPYsYfYA1iljXrmA,44
+wiggler_studiorabota-0.0.35.dist-info/METADATA,sha256=Xpw1JtSKlZyzMa4Q7Y14Kbvii8hccRVIe5wYbeYOwbc,651
+wiggler_studiorabota-0.0.35.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+wiggler_studiorabota-0.0.35.dist-info/entry_points.txt,sha256=9wsFvlZdSdfUvfONFWJyBY9q6LbfgzsIvGu-wI90KfI,45
+wiggler_studiorabota-0.0.35.dist-info/top_level.txt,sha256=AabA0LICJSSBHQCm1It3DwIMwCWOZhvASgYz8SLRs0M,8
+wiggler_studiorabota-0.0.35.dist-info/RECORD,,
