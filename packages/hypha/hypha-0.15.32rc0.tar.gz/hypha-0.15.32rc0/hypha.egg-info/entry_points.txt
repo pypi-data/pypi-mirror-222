@@ -1,0 +1,3 @@
+[console_scripts]
+hypha = hypha.__main__:main
+
