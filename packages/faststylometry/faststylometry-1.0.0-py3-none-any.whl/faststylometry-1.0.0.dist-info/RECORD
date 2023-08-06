@@ -1,0 +1,11 @@
+faststylometry/__init__.py,sha256=_I9o_TDmIkmzhZIijXup9sYiVYwnOdEzakT7anmAcsE,1546
+faststylometry/burrows_delta.py,sha256=Cq_h4DpLI7OL4xNiw6txhqQO3Bin9riGm-Sa2CErQO8,8486
+faststylometry/corpus.py,sha256=htdP-HakLcMvvRBI-fKnrGDlyIy28oTbYdABecavgOQ,4135
+faststylometry/en.py,sha256=0yYqltTGbGhmrcx9SsD8mnw52YZMUp8F6OCA79PAlxU,2386
+faststylometry/probability.py,sha256=1ADlllydpFIgWqhp3UlUFMcZ-2Lkbjck-kUxwuV7qSs,4196
+faststylometry/util.py,sha256=i9EhoVLqYEToGvmVNujlH-T8B6FzYzjPlJBkXXLL7gQ,2214
+faststylometry-1.0.0.dist-info/LICENSE,sha256=40b3xo4pLCE8QaoYrFWVN5zzAng02C0rIAiQQmwl9U8,1205
+faststylometry-1.0.0.dist-info/METADATA,sha256=hVS5tXwt1nHn6CLUcDMCxsg-cJl0wb3j1frMC7HRvAI,8155
+faststylometry-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+faststylometry-1.0.0.dist-info/top_level.txt,sha256=CLezhNjQ6NAbtjmS4_IaB6n7mGN7_-iDQFmHJ8q0vkc,15
+faststylometry-1.0.0.dist-info/RECORD,,
