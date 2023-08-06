@@ -1,0 +1,9 @@
+pylibgen/__init__.py,sha256=S6zZislQrPKZeXWB3_jYPpmK3ke5tevm0PovfGt8shk,88
+pylibgen/create_library_template.py,sha256=iKXRO9_LRIqDL7AWSxbpJWdcpiLsObJUPt5AbU2rfwc,3014
+pylibgen/templates/setup_template.py,sha256=40o8DijcfTvW3f-dqK6jv4AABIjubX6bvprClDqymmM,528
+pylibgen/templates/updater_template.py,sha256=l7ktUSh5AUi5Z6_t7oYoHPJnnmCnZs3xQBg9DrhlGZI,2827
+pygenlib-0.0.3.dist-info/METADATA,sha256=spgnm2NaVjYC0n_GxYMo4YmHIJT2Iwn2PpMHjkDYjdQ,1333
+pygenlib-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pygenlib-0.0.3.dist-info/entry_points.txt,sha256=lxRSvty2YiZ3bQmpheTpsVZpf6moCL9O-VfiYM1jx_o,67
+pygenlib-0.0.3.dist-info/top_level.txt,sha256=eKzUUa7vlXmISjQtQXJSvmr6-nbMpojDVZERxONjzzg,9
+pygenlib-0.0.3.dist-info/RECORD,,
