@@ -1,0 +1,2 @@
+[console_scripts]
+ciberc-l3vpn = ciberc_l3vpn_notify.main:main

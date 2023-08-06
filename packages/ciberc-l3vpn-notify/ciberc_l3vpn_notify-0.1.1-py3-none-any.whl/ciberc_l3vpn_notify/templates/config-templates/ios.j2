@@ -1,0 +1,23 @@
+vrf definition {{ vpn_name }}
+ rd {{ vpn_rd }}
+ !
+ address-family ipv4
+  route-target export {{ vpn_rt }}
+  route-target import {{ vpn_rt }}
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+interface {{ interface_connect_CE}}
+ vrf forwarding {{ vpn_name }}
+ ip address {{ vpn_int_ip }} {{ vpn_int_mask }}
+!
+router bgp {{ local_bgp_as }}
+ address-family ipv4 vrf {{ vpn_name }}
+  redistribute connected
+  neighbor {{ vpn_bpg_ce_neighbor_ip }} remote-as {{ neighbor_remote_as }}
+  neighbor {{ vpn_bpg_ce_neighbor_ip }} activate
+  neighbor {{ vpn_bpg_ce_neighbor_ip }} as-override
+  no synchronization
+!

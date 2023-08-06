@@ -1,0 +1,20 @@
+ip vpn-instance {{ vpn_name }}
+ ipv4-family
+  route-distinguisher {{ vpn_rd }}
+  vpn-target {{ vpn_rt }} both
+  quit
+quit
+#
+interface {{ interface_connect_CE }}           
+ ip binding vpn-instance {{ vpn_name }}
+ ip address {{ vpn_int_ip }} {{ vpn_int_mask }}
+ quit
+#
+bgp {{ local_bgp_as }}
+ ipv4-family vpn-instance {{ vpn_name }}
+ import-route direct
+ peer {{ vpn_bpg_ce_neighbor_ip }} as-number {{ neighbor_remote_as}}
+ peer {{ vpn_bpg_ce_neighbor_ip }} substitute-as
+ commit
+ quit
+#
