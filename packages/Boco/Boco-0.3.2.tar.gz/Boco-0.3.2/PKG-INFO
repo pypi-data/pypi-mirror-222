@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Boco
+Version: 0.3.2
+Summary: A corpus manager for Tibetan Language
+Home-page: https://github.com/lopenling/boco
+Author: Mikko Kotila
+Author-email: mailme@mikkokotila.com
+License: MIT
+Keywords: language corpus linguistics tibetan
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+Boco corpus manager is used for building, maintaining, and using corpora. The motivation is to make it as straightforward as possible to manage multiple corpora per project, as well as perform cross-corpus operations between those corpora.
