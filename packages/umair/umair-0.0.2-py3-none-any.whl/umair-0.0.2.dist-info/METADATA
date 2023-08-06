@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: umair
+Version: 0.0.2
+Summary: A simple package to show projects developed by Umair Thakur. 
+Author-email: Umair Thakur <umairthakurwork@gmail.com>
+Project-URL: GitHub Profile, https://github.com/UmairThakur
+Project-URL: LinkedIn Profile, https://www.linkedin.com/in/umairthakur/
+Keywords: Umair Thakur,UmairThakur,umairthakur,Umair,umair,Thakur,thakur,UPT,upt,GPT,ChatGPT,OpenAI,DALL.E,Whisper,Python,AI,ML,Machine Learning,Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Will be adding modules that can be used for specific applications.
+
+# You can also follow my work on [GitHub](https://github.com/UmairThakur)
