@@ -1,0 +1,14 @@
+soccerxcomm/__init__.py,sha256=ATgDlt7YLH0JqEB44wrTjs1jlwXmZfcUTyf2DQzOf7c,490
+soccerxcomm/client.py,sha256=E_wxrShySDaDqwulld8tIpeagnh4euNhLJdNFNxmYU4,6159
+soccerxcomm/game_stage_kind.py,sha256=_SSN1-G6EOmrSJsNTg4E75KtejKgcz8QfGnrTRUt_Ls,451
+soccerxcomm/http_client.py,sha256=4xJ-liRZPelyJDrNUcb3Y6ioutXcXdBHAzM7uTZfg40,3293
+soccerxcomm/http_server.py,sha256=Um4-qfdVJr0AVHFoPKiWLJF-4hyBWVpJGMUMYliaun8,4875
+soccerxcomm/logger.py,sha256=DhKnAEMoCbmGZ0wNPf785cdvChtdNgnrwt8RT5KHsOM,1950
+soccerxcomm/message.py,sha256=wpCWShH1DxuX5ubphyNNyPvjnvXau7xegefO9Hv6kWM,2418
+soccerxcomm/network_client.py,sha256=_msMRUkHmN9IjHGXxJvDdS3wlKU96ef7vHmKYly5Ahs,1038
+soccerxcomm/network_server.py,sha256=2dkad5m1yChi0zxRGnBlIaCWDXFGfYdmDRt2phP1p5o,1393
+soccerxcomm/server.py,sha256=9dndEY3T7ZX9sQA5UHr_zuX0FWIBWBhxZ6XAJdbRpgs,7337
+soccerxcomm-0.0.1.dist-info/LICENSE,sha256=UHqTjA-kyvJbnlr7ZluVUNOqtDa3zutMkzc865Cpv9I,1113
+soccerxcomm-0.0.1.dist-info/METADATA,sha256=EmhOvmZMn5py6w1NGNw6ovkuvdgORKelf48iEjnEZ3I,1372
+soccerxcomm-0.0.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+soccerxcomm-0.0.1.dist-info/RECORD,,
