@@ -1,0 +1,10 @@
+setup.py
+ok_distri/Binomialdistribution.py
+ok_distri/Gaussiandistribution.py
+ok_distri/Generaldistribution.py
+ok_distri/__init__.py
+ok_distri.egg-info/PKG-INFO
+ok_distri.egg-info/SOURCES.txt
+ok_distri.egg-info/dependency_links.txt
+ok_distri.egg-info/not-zip-safe
+ok_distri.egg-info/top_level.txt
