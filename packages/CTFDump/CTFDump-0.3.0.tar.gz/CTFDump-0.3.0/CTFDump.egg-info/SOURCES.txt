@@ -1,0 +1,10 @@
+CTFDump.py
+LICENSE
+README.md
+setup.py
+CTFDump.egg-info/PKG-INFO
+CTFDump.egg-info/SOURCES.txt
+CTFDump.egg-info/dependency_links.txt
+CTFDump.egg-info/entry_points.txt
+CTFDump.egg-info/requires.txt
+CTFDump.egg-info/top_level.txt
