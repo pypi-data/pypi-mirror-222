@@ -1,0 +1,10 @@
+README.md
+setup.py
+pygenlib.egg-info/PKG-INFO
+pygenlib.egg-info/SOURCES.txt
+pygenlib.egg-info/dependency_links.txt
+pygenlib.egg-info/top_level.txt
+pylibgen/__init__.py
+pylibgen/create_library_template.py
+pylibgen/templates/setup_template.py
+pylibgen/templates/updater_template.py
