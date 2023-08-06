@@ -1,0 +1,10 @@
+setup.py
+distributions_Erfham/Binomialdistribution.py
+distributions_Erfham/Gaussiandistribution.py
+distributions_Erfham/Generaldistribution.py
+distributions_Erfham/__init__.py
+distributions_Erfham.egg-info/PKG-INFO
+distributions_Erfham.egg-info/SOURCES.txt
+distributions_Erfham.egg-info/dependency_links.txt
+distributions_Erfham.egg-info/not-zip-safe
+distributions_Erfham.egg-info/top_level.txt
