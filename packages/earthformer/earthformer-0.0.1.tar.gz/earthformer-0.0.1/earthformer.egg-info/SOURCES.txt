@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+earthformer/__init__.py
+earthformer/common.py
+earthformer/earthformer.py
+earthformer.egg-info/PKG-INFO
+earthformer.egg-info/SOURCES.txt
+earthformer.egg-info/dependency_links.txt
+earthformer.egg-info/not-zip-safe
+earthformer.egg-info/top_level.txt
