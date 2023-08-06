@@ -1,0 +1,20 @@
+[project]
+name = "promptcreatives"
+version = "0.0.1"
+authors = [
+  { name="Aaron Casanova", email="aaronccasanova@gmail.com" },
+]
+description = "Prompt Creatives"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/promptcreatives/promptcreatives"
+"Bug Tracker" = "https://github.com/promptcreatives/promptcreatives/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
