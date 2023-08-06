@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: aws-step-functions-pydantic
+Version: 0.0.1
+Summary: Pydantic models for AWS step functions
+Home-page: https://github.com/lmmx/aws-step-functions-pydantic
+Author: Louis Maddox
+Author-email: louismmx@gmail.com
+Maintainer: Louis Maddox
+Maintainer-email: louismmx@gmail.com
+License: MIT
+Project-URL: Documentation, https://aws-step-functions-pydantic.readthedocs.io/
+Project-URL: Bug Tracker, https://github.com/lmmx/aws-step-functions-pydantic/issues
+Project-URL: Source Code, https://github.com/lmmx/aws-step-functions-pydantic
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic (>=2)
+Provides-Extra: dev
+Requires-Dist: coverage[toml] (>=5.5) ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx (>=4) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (>=4) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: coverage[toml] (>=5.5) ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+
+# aws-step-functions-pydantic
+
+[![Documentation](https://readthedocs.org/projects/aws-step-functions-pydantic/badge/?version=latest)](https://aws-step-functions-pydantic.readthedocs.io/en/latest/)
+[![CI Status](https://github.com/lmmx/aws-step-functions-pydantic/actions/workflows/master.yml/badge.svg)](https://github.com/lmmx/aws-step-functions-pydantic/actions/workflows/master.yml)
+[![Coverage](https://codecov.io/gh/lmmx/aws-step-functions-pydantic/branch/master/graph/badge.svg)](https://codecov.io/github/lmmx/aws-step-functions-pydantic)
+[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Pydantic models for AWS step functions
+
+[Read The Docs](https://aws-step-functions-pydantic.readthedocs.io/en/latest/)
+
+## Usage
+
+```py
+from aws_sfn_pydantic import StateMachine
+import yaml
+
+model = StateMachine.model_validate_json('...')
+print(yaml.dump(m.model_dump(exclude_unset=True), sort_keys=False))
+```
+
+## Requires
+
+- Python 3.10+
+
+## Installation
+
+```sh
+pip install aws-step-functions-pydantic
+```
+
+> _aws-step-functions-pydantic_ is available from [PyPI](https://pypi.org/project/aws-step-functions-pydantic), and
+> the code is on [GitHub](https://github.com/lmmx/aws-step-functions-pydantic)
