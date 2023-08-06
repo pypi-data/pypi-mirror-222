@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pycur
+Version: 2023.7.30.3
+Summary: Modifying cursors is now easier than ever!
+Home-page: UNKNOWN
+Author: RixTheTyrunt
+Author-email: rixthetyrunt@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# pycur
+*Modifying cursors is now easier than ever!*
+## [Check out the pycur community](https://pycur.glitch.me)!
+
+## Install
+Installing `pycur` is easy! Just the usual `pip install` command as shown here:
+```sh
+pip install pycur
+```
+You can adjust this command to fit your environment. :)
+## Version check
+```py
+import pycur
+
+print(pycur.__version__) # Outputs the installed version of `pycur`
+```
+
