@@ -1,0 +1,5 @@
+setup.py
+salud2.egg-info/PKG-INFO
+salud2.egg-info/SOURCES.txt
+salud2.egg-info/dependency_links.txt
+salud2.egg-info/top_level.txt
