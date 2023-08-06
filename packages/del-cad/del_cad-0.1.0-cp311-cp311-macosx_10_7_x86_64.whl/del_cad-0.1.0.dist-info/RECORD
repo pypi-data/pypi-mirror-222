@@ -1,0 +1,5 @@
+del_cad-0.1.0.dist-info/METADATA,sha256=L2pkBKW6W5dikBGvo8mbgU8eqg6KLBYGY4HITG46f6U,376
+del_cad-0.1.0.dist-info/WHEEL,sha256=Ol7g7aCD2RQHrNQ-NbNY0v5rRx-HRj8uktUhEd7cFBo,106
+del_cad/__init__.py,sha256=OUAw85J0y5P3_inO4cqCHrNdDr8FeXz6Dc0TNrvK-y0,34
+del_cad/del_cad.cpython-311-darwin.so,sha256=wPjeS7EqjawoUUDNzoh44Djtx1T9NmpTk_8YDJ2PPRE,485336
+del_cad-0.1.0.dist-info/RECORD,,
