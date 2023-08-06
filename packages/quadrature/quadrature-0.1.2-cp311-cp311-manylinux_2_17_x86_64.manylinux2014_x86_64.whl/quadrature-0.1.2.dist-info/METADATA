@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: quadrature
+Version: 0.1.2
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: numpy ~=1.23
+Requires-Dist: pytest ~=7.3 ; extra == 'test'
+Requires-Dist: scipy ~=1.10 ; extra == 'test'
+Provides-Extra: test
+Summary: Quad python bindings
+Keywords: high-energy-physics,physics
+Author: Alessandro Candido <candido.ale@gmail.com>, Alex Raiteri <alex.raiteri@studenti.unimi.it>
+Author-email: Alessandro Candido <candido.ale@gmail.com>, Alex Raiteri <alex.raiteri@studenti.unimi.it>
+License: GPL-3.0-or-later
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: homepage, https://github.com/AleCandido/quad
+Project-URL: documentation, https://github.com/AleCandido/quad
+
+# Quadrature
+
