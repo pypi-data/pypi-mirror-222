@@ -1,0 +1,11 @@
+alias_gen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alias_gen/aliaser.py,sha256=2ovQVuB50w5HYLEzlTg1T0O4Sy1wIQ02P8Is4yeP4EE,8677
+alias_gen/arg_parser.py,sha256=Nc3SEmYzjC79du9bimS99lxAN1ik35kNLlqAf9WrMlo,3642
+alias_gen/constants.py,sha256=HzAHsxF1aXDDrrmpnX3vy42zwdDACf_BEzQL7794eXM,560
+alias_gen/file_utils.py,sha256=haRH5PONDooFugzdYjYW5fVjfhmxKmcpCCpYnHQZyDc,2077
+alias_gen/logger.py,sha256=RIEPU9kjtZy-MvZYkTcno0K6JXZa8EYyuxGtGNQb_c0,293
+alias_gen-0.6.5.dist-info/LICENSE.md,sha256=dMBuh1lHZJxq2dfrC7kCjBkuV1oETzQ_bbV4eDxxQ1Q,1083
+alias_gen-0.6.5.dist-info/METADATA,sha256=4VfKVuHEnXu2bAjeItG1U0R3ZkRpQSpJaeL5-wrKXxo,4040
+alias_gen-0.6.5.dist-info/WHEEL,sha256=HNQIvPlX3_ghCv6ljjG1vnIF6Npwq1SIN8tJybrRXEo,92
+alias_gen-0.6.5.dist-info/entry_points.txt,sha256=qwwVaasRowvcyyyB5vdxPffdU-BR5KGssTcjmf-PmAY,50
+alias_gen-0.6.5.dist-info/RECORD,,
