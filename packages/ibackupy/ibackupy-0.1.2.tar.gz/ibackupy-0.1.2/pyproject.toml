@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ibackupy"
+version = "0.1.2"
+description = "A Python package to parse iTunes backups"
+authors = ["xleven <xleven@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/xleven/ibackupy"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
