@@ -1,0 +1,18 @@
+[package]
+name = "rusty_chrono"
+version = "0.1.2"
+edition = "2021"
+
+[lib]
+name = "rusty_chrono"
+crate-type = [ "cdylib",]
+
+[dependencies]
+chrono = "0.4.24"
+
+[dev-dependencies]
+test-case = "*"
+
+[dependencies.pyo3]
+version = "0.19.1"
+features = [ "extension-module",]
