@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: testjbpackage
+Version: 1.0.0
+Summary: A config_server_client package for python framework
+Home-page: UNKNOWN
+Author: Jayant
+Author-email: jayantreddybodkurwar@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
