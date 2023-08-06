@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+putupy/__init__.py
+putupy/base.py
+putupy.egg-info/PKG-INFO
+putupy.egg-info/SOURCES.txt
+putupy.egg-info/dependency_links.txt
+putupy.egg-info/top_level.txt
+putupy/firstmodule/__init__.py
+putupy/firstmodule/fmodule.py
+tests/test_number.py
