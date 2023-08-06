@@ -1,0 +1,3 @@
+abinitostudio
+appMain
+install
