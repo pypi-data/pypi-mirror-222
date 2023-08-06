@@ -1,0 +1,7 @@
+polylog/__init__.py,sha256=AapJq1HNlPnSAQA6mAbXcIDHl0t3r0ATP7UinyZARuM,138
+polylog/logger.py,sha256=ZarqPj0VX_CoC6d9gcpJynQbeXLsax9vfwJRQaLMQdM,4683
+tests/logger_test.py,sha256=1-CUBAPMDKJ000WgdGSlmJXZ-zxF14ZdfffWpeYSsZc,3737
+polylog-0.1.2.dist-info/METADATA,sha256=Th9w6au-_l9M8zkvNQHyJbV5vSjLGOLFV7dJ9vCCAh4,2429
+polylog-0.1.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+polylog-0.1.2.dist-info/top_level.txt,sha256=RE43K6v3bGbDX7B9ShnQQA5Auxsm1Z30SCh5AONdV8E,14
+polylog-0.1.2.dist-info/RECORD,,
