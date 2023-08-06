@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sql_constructor
+Version: 1.0.1
+Summary: Let you build SQL requests in pythonic way. SQL blocks could be nested as you want it to be, constracted dynamically and looks pretty. You could also build request once and cache it (but still use variables to replace dinamically). Solid solution!
+Author-email: Andrey Smirnov <abc-sm@yandex.ru>
+Project-URL: Homepage, https://github.com/akvilary/sql_constractor
+Project-URL: Bug Tracker, https://github.com/akvilary/sql_constractor/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+How it works in short:
+    Firstly you initialize query by creating SqlQuery instance. 
+    After you register as many SqlSection instances as you like in SqlQuery.
+    SqlSection do only job to process data and do not store it.
+    SqlContainer store processed data.
+    Each SqlSection keep SqlContainer in attribute self.container as a result.
