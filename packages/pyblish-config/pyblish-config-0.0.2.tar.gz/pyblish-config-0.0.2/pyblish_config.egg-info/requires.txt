@@ -1,0 +1,4 @@
+pyblish-base
+
+[:python_version < "3.7"]
+importlib-metadata
