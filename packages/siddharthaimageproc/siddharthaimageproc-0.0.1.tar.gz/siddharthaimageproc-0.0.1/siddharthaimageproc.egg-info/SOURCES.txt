@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+siddharthaimageproc/__init__.py
+siddharthaimageproc.egg-info/PKG-INFO
+siddharthaimageproc.egg-info/SOURCES.txt
+siddharthaimageproc.egg-info/dependency_links.txt
+siddharthaimageproc.egg-info/requires.txt
+siddharthaimageproc.egg-info/top_level.txt
