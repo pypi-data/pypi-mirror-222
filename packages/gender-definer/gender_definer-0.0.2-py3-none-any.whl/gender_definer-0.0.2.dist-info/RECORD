@@ -1,0 +1,7 @@
+genderdefiner/__init__.py,sha256=TgCV9ln0PfUVp4e5lf08J_S6Ak9fl0eIVBKH7ZPndN4,58
+genderdefiner/enums.py,sha256=W4jx5GApl3a-Dg9eYqRO3qWKRfEsG3iW8vWggzd4Udw,106
+genderdefiner/genderdefiner.py,sha256=L-joV_XTo0Dil4_r59yqh8YhIqH7X-9suDEMDtec2E0,1574
+genderdefiner/types.py,sha256=de_LeqBOk1Sy8KX7bMbCt1EykX3rfieYs170-7HnlKY,149
+gender_definer-0.0.2.dist-info/METADATA,sha256=22sNK-fhgOxGDlD-p-XSJHIxzklEaeW92P644C8RJn4,983
+gender_definer-0.0.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+gender_definer-0.0.2.dist-info/RECORD,,
