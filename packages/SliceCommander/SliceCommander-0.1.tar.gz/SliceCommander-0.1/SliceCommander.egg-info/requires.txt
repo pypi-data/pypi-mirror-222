@@ -1,0 +1,4 @@
+ptyprocess
+libtmux
+pygments
+docopt
