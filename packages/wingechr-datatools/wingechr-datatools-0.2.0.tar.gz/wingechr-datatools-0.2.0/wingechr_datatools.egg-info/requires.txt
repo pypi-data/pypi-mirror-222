@@ -1,0 +1,11 @@
+appdirs
+click
+coloredlogs
+jsonpath-ng>=1.5
+requests
+tzlocal
+unidecode
+sqlalchemy>=2.0
+sqlparse
+pyodbc
+pandas
