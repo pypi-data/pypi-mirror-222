@@ -1,0 +1,8 @@
+setup.py
+tamqp/__init__.py
+tamqp/testing.py
+tamqp.egg-info/PKG-INFO
+tamqp.egg-info/SOURCES.txt
+tamqp.egg-info/dependency_links.txt
+tamqp.egg-info/requires.txt
+tamqp.egg-info/top_level.txt
