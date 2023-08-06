@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+mindstorm/__init__.py
+mindstorm/_modidx.py
+mindstorm/core.py
+mindstorm_llm.egg-info/PKG-INFO
+mindstorm_llm.egg-info/SOURCES.txt
+mindstorm_llm.egg-info/dependency_links.txt
+mindstorm_llm.egg-info/entry_points.txt
+mindstorm_llm.egg-info/not-zip-safe
+mindstorm_llm.egg-info/requires.txt
+mindstorm_llm.egg-info/top_level.txt
