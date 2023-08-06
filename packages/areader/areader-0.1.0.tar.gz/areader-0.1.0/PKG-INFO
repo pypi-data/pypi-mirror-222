@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: areader
+Version: 0.1.0
+Summary: Terminal based archives reader for Hyperkitty, GNU Mailman's archiver
+Author-Email: Abhilash Raj <raj.abhilash1@gmail.com>
+License: Apache-2.0
+Requires-Python: >=3.10
+Requires-Dist: textual>=0.30.0
+Requires-Dist: httpx
+Requires-Dist: marshmallow
+Requires-Dist: timeago
+Requires-Dist: orm[sqlite]>=0.3.1
+Requires-Dist: greenlet>=2.0.2
+Description-Content-Type: text/markdown
+
+Archive Reader
+==============
+
+A terminal based archive reader for Hyperkitty, GNU Mailman's official archiver.
+
+Screenshots
+-----------
+
+![Page Add Mailinglist](screenshots/page_subscribe_mailinglist.svg)
+
+![Page View threads](screenshots/page_threads_list.svg)
+
+![Page Read Thread](screenshots/page_read_thread.svg)
+
+
+Hyperkitty Configuration
+------------------------
+
+In order to use this app, the Pagination on the Hyperkitty's API needs to be set correctly.
+
+
+
+Running
+-------
+To run the app, first you need to create a virtualenv and then finally install dependencies.
+
+```bash
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -e .
+$ pdm run start
+```
