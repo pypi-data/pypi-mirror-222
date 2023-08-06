@@ -1,0 +1,3 @@
+[console_scripts]
+ifupdown-to-systemd-networkd=migrate_to_systemd_networkd.ifupdown:run
+

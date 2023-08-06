@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: migrate-to-systemd-networkd
+Version: 2.1
+Summary: Migrate network configuration to systemd networkd
+Author: Jiajie Chen
+Author-email: c@jia.je
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.0.4,<9.0.0)
