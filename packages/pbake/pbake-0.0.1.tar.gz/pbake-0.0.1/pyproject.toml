@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "click"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pbake"
+version = "0.0.1"
+authors = [
+  { name="Braden Little", email="bml7569@rit.edu" },
+]
+description = "A lightweight make-like tool for Python"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Madrugaur/bakepy"
+"Bug Tracker" = "https://github.com/Madrugaur/bakepy/issues"
