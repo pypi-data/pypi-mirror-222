@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Copyright (c) Arnon Moscona 2023. under Apache2 license
+#
+pip install -e .[test,dev]
