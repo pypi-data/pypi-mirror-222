@@ -1,0 +1,17 @@
+clip_inference/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+clip_inference/dataset.py,sha256=huAJuHi9G518RtcFzkCMwYUqepV9qb-m1a38OdbjIX0,2949
+clip_inference/load_clip.py,sha256=3CUlxSzTrkfcKh6PFUyqlCKrqgRKBXgkB5Lz0Wnuz44,5593
+clip_inference/inference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clip_inference/inference/distributor.py,sha256=AHEBtb2fUciJTNlcMQ7Vpk4lRzaaC17k797ADgAAHJM,448
+clip_inference/inference/inference.py,sha256=Rwt0kQlYUHA3Wnv-wPEeFA4YOzP91cETgMm8-V5Ftf8,4738
+clip_inference/inference/logger.py,sha256=ZL_YkJF9-3K1MELz3DntO39-kX-NkdYrYKZteOcf-wU,8147
+clip_inference/inference/mapper.py,sha256=n9xkFweWVCfchkDC-j75UyzcDF22P3eowPblTH0ojw4,3181
+clip_inference/inference/reader.py,sha256=iBiG2OkQ0DuWy0UVEd33S6kfltGF6UywH1Xxfy2nQCY,8539
+clip_inference/inference/runner.py,sha256=HM1RpOTZSslk7J04SnsIsvnatLnkGIxGCfwzzpS8CKc,2355
+clip_inference/inference/worker.py,sha256=pIO1qveKwdyIN0EN4-eu7bNWcLDfPo0uVoLAxqfj7b8,4440
+clip_inference/inference/writer.py,sha256=XNvk3FkKGQ5pkgUK8mwLmzsGAOBS9bfXgoiZpcsRiHY,4659
+clip_inference-0.0.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+clip_inference-0.0.1.dist-info/METADATA,sha256=x72iIuMd_QtDrIDLED4QKi8R1sXQt_azFuuU_SspqAs,707
+clip_inference-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+clip_inference-0.0.1.dist-info/top_level.txt,sha256=pCu_q2jTtszFCsdEIxuGIh8V_SvNie_tpYxcVpus4WA,15
+clip_inference-0.0.1.dist-info/RECORD,,

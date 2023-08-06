@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: clip-inference
+Version: 0.0.1
+Summary: clip 数据推理
+Home-page: https://github.com/xqk/clip_inference
+Author: xqk
+Author-email: xiaqiankun@outlook.com
+License: Apache License 2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: braceexpand (==0.1.7)
+Requires-Dist: fsspec (==2022.11.0)
+Requires-Dist: numpy (<2,>=1.19.5)
+Requires-Dist: torch (<2,>=1.7.1)
+Requires-Dist: Pillow
+Requires-Dist: clip
+Requires-Dist: open-clip-torch (<3.0.0,>=2.0.0)
+Requires-Dist: pandas (<2,>=1.1.5)
+Requires-Dist: pyarrow (<8,>=6.0.1)
+Requires-Dist: cn-clip (==1.5.1)
+Requires-Dist: wandb (<0.13,>=0.12.10)
+Requires-Dist: img2dataset (<2,>=1.25.5)
+
+# clip_inference
