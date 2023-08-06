@@ -1,0 +1,28 @@
+[build-system]
+requires = ["flit_core"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "ihs29x"
+dynamic = ["version"]
+description = "Spec-driven minimalist parser for IHS 297 and 298 formats"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Derrick W. Turk", email = "dwt@terminusdatascience.com" }]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+dependencies = ["importlib-resources"]
+
+[project.optional-dependencies]
+dev = ["build", "mypy", "twine", "vulture"]
+docs = ["pdoc"]
+
+[project.urls]
+Homepage = "https://github.com/derrickturk/ihs29x-python"
+Repository = "https://github.com/derrickturk/ihs29x-python"
+Documentation = "https://derrickturk.github.io/ihs29x-python/docs/ihs29x.html"
+
+[tool.vulture]
+min_confidence = 80
