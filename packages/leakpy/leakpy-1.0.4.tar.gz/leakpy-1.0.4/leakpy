@@ -1,0 +1,149 @@
+#!/usr/bin/python3
+
+import sys
+import json
+import time
+import requests
+import argparse
+from bs4 import BeautifulSoup
+from rich.console import Console
+from os.path import exists, expanduser
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-s", "--scope", choices=["service", "leak"], help="Type Of Informations", type=str
+    )
+    parser.add_argument("-p", "--pages", help="Number Of Pages", default=2, type=int)
+    parser.add_argument("-q", "--query", help="Specify The Query", default="", type=str)
+    parser.add_argument("-P", "--plugin", help="Specify The Plugin", type=str)
+    parser.add_argument("-o", "--output", help="Output File", type=str)
+    return parser.parse_args()
+
+
+console = Console()
+api_key_file = expanduser('~') + "/.local/.api.txt"
+
+
+def get_plugins():
+    """Fetches the plugin names by scraping the plugin page."""
+    plugins_url = 'https://leakix.net/plugins'
+    response = requests.get(plugins_url)
+
+    soup = BeautifulSoup(response.text, 'html.parser')
+    row_elements = soup.find_all('div', {'class': 'row'})
+
+    plugins = []
+    for row in row_elements:
+        plugin_elements = row.find_all('div', {'class': 'col-sm-3'})
+        for plugin in plugin_elements:
+            plugin_link = plugin.find('a')
+            if plugin_link is not None:
+                plugin_name = plugin_link.text.strip()
+                plugins.append(plugin_name)
+
+    plugins = list(set(plugins))
+
+    return plugins
+
+
+
+def write_output(result, file_name):
+    """Writes the result to the output file."""
+    with open(file_name, "w") as f:
+        result = list(dict.fromkeys(result))
+        for line in result:
+            f.write(f"{line}\n")
+    console.print(
+        f"\n[bold green][+] File written successfully to {file_name} with {len(result)} lines\n"
+    )
+
+
+def read_api_key(file_name):
+    """Reads the API key from the given file."""
+    if not exists(file_name):
+        return None
+
+    with open(file_name, "r") as f:
+        return f.read().strip()
+
+
+def save_api_key(api_key, file_name):
+    """Saves the API key to the given file."""
+    with open(file_name, "w") as f:
+        f.write(api_key)
+
+
+def main():
+    args = parse_arguments()
+
+    plugins = get_plugins()
+
+    if args.plugin and args.plugin not in plugins:
+        console.print("\n[bold red][X] Plugin is not valid")
+        console.print(f"[bold yellow][!] Plugins available : {len(plugins)}\n")
+        for plugin in plugins:
+            console.print(f"[bold cyan][+] {plugin}")
+        print()
+        sys.exit(1)
+
+    if args.plugin:
+        args.query += f" +plugin:{args.plugin}"
+
+    api_key = read_api_key(api_key_file)
+    if not api_key or len(api_key) != 48:
+        api_key = input("Please Specify your API Key (leave blank if you don't have) : ")
+        save_api_key(api_key, api_key_file)
+
+    if not api_key:
+        console.print(f"\n[bold yellow][!] Querying without API Key...\n (remove or edit {api_key_file} to add API Key if you have)")
+    else:
+        console.print("\n[bold green][+] Using API Key for queries...\n")
+
+    result = list()
+    for page in range(0, args.pages):
+        response = requests.get(
+            "https://leakix.net/search",
+            params={"page": str(page), "q": args.query, "scope": args.scope},
+            headers={"api-key": api_key, "Accept": "application/json"},
+        )
+
+        if response.text == "null":
+            console.print("[bold yellow][!] No results available (Please check your query or scope)")
+            break
+        elif response.text == '{"Error":"Page limit"}':
+            console.print(f"[bold red][X] Error : Page Limit for free users and non users ({page})")
+            break
+
+        console.print(f"[bold green] Query {page + 1} : \n")
+        
+        try:
+            data = json.loads(response.text)
+            _ = data[1]["protocol"]
+        except KeyError:
+            console.print(f"[bold red][X] Error : You're not allowed to use this plugin ({args.plugin})\n")
+            break
+        except:
+            pass
+        try:
+            for json_data in data[1:]:
+                protocol = f"{json_data['protocol']}://"
+                protocol = protocol if protocol in {"http://", "https://"} else ""
+                target = f"{protocol}{json_data['ip']}:{json_data['port']}"
+                if target not in result:
+                    console.print(f"[bold blue][+] {target}")
+                    result.append(target)
+        except Exception as e:
+            console.print(f"[bold red][X] Error : {str(e)}\n")
+
+        time.sleep(1.9)
+
+    if args.output and result:
+        write_output(result, args.output)
+    else:
+        sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
