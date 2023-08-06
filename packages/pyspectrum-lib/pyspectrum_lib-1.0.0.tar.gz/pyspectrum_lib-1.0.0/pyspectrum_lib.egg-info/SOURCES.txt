@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyspectrum_lib.egg-info/PKG-INFO
+pyspectrum_lib.egg-info/SOURCES.txt
+pyspectrum_lib.egg-info/dependency_links.txt
+pyspectrum_lib.egg-info/top_level.txt
+spectrum_lib/__init__.py
+spectrum_lib/sample.py
+spectrum_lib/spectrum_lib.py
+spectrum_lib/libs/spectrumlib-x64.dll
+spectrum_lib/libs/spectrumlib-x86.dll
