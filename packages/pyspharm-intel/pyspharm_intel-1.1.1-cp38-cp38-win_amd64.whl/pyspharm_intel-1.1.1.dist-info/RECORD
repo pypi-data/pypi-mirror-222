@@ -1,0 +1,8 @@
+_spherepack.cp38-win_amd64.pyd,sha256=qDOz8n2ens-H0jEAIRaedmQo6apJHC4HwgGWNh8HWnI,535040
+spharm/__init__.py,sha256=feqMFI7c_e1rl9v8UM4xpyQpEai4T6lX5pGJJrjwTZs,82
+spharm/spharm.py,sha256=p-7aROWvGz59xMGr9q1NR4ukxJEJsFWN-K13S0dAV_s,42937
+pyspharm_intel-1.1.1.dist-info/LICENSE.spherepack,sha256=tp_4LwpqBLLNvdl9ktwlZFjxG89movTvwvAQt_0Zn7s,1732
+pyspharm_intel-1.1.1.dist-info/METADATA,sha256=ZcS1Zu1B55ojnVJ8qIBim8z2pMqwa35aLql1E895uhM,328
+pyspharm_intel-1.1.1.dist-info/WHEEL,sha256=b_PH-i_F2xFYDXcROE5vpDbWUcY020I0eLFvEIYA9Pc,100
+pyspharm_intel-1.1.1.dist-info/top_level.txt,sha256=6YOUirbST4f0nYiRJyWMp4ceYfstxRwiZnKZShHV1cc,19
+pyspharm_intel-1.1.1.dist-info/RECORD,,
