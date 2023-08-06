@@ -1,0 +1,6 @@
+README.md
+setup.py
+dmppred.egg-info/PKG-INFO
+dmppred.egg-info/SOURCES.txt
+dmppred.egg-info/dependency_links.txt
+dmppred.egg-info/top_level.txt
