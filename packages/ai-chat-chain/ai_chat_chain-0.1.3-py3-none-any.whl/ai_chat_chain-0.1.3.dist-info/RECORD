@@ -1,0 +1,13 @@
+ai_chat/__init__.py,sha256=rApFfWxMI1GNAGQuckKfkNWebXj16Q2NaMzKrzKJmAY,86
+ai_chat/chat.py,sha256=nXRsJIa_i06nguaiLo6kQxTKKgs4WslaM_jkVh5zYF4,5503
+ai_chat/defaults.py,sha256=d46Bcf_tjjvXY5KSulq4AyqlICvd5H4AUUtmjCmATSM,136
+ai_chat/openai.py,sha256=IlKInYZX54NDszBFXtslhz77-nVZ3WPegCnHk_MdL3Q,1124
+ai_chat/store/__init__.py,sha256=OzWqxtXsUd4hE0DJkQsP5Z6tKHjrV7XsMJJD6skgjmI,115
+ai_chat/store/base.py,sha256=Ijpc5KUMO31_JyC579FAKvnxFjIQnU1AtAzgrgNPfZU,1043
+ai_chat/store/sqlite.py,sha256=lZTqVpNDuHZuKniqrF8FBEH0pgzltEs6Gbx33Blg3XM,5127
+ai_chat/store/supabase.py,sha256=0aGg_RdEojpfCyclb9UwSCYw3dzEofpDe1sThxLt1pA,3682
+ai_chat/types.py,sha256=fA-y4Aw6ZI2uylsptUuxiyjTOHVBIHq779cO27lnYio,1498
+ai_chat/util.py,sha256=LjJOpt_xlVtkyKk4VVWwKWHU4fAySVUjxdzKsGGAL_o,1060
+ai_chat_chain-0.1.3.dist-info/METADATA,sha256=KwP2jTwyTnGq-wk1kv3W-lU1zW-DdsgokCUYn6syWm0,1662
+ai_chat_chain-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+ai_chat_chain-0.1.3.dist-info/RECORD,,
