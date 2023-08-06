@@ -1,0 +1,22 @@
+[package]
+name = "bluerobotics-navigator"
+version = "0.0.0"
+edition = "2021"
+build = "src/build.rs"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+cpy-binder = { version = "0.3.0" }
+libc = "0.2"
+pyo3 = { version = "0.18", features = ["extension-module", "abi3-py39"], optional = true }
+navigator-rs = { version = "0.2.0" }
+rand = "0.8"
+lazy_static = "1.4.0"
+
+[build-dependencies]
+cbindgen = "0.21"
+
+[features]
+python = ["pyo3"]

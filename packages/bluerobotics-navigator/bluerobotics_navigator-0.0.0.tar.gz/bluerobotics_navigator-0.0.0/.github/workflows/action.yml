@@ -1,0 +1,163 @@
+name: Test all targets
+
+on: [push, pull_request]
+
+permissions:
+  contents: write
+
+jobs:
+  quick-tests:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v3
+    - name: Rust setup
+      uses: actions-rs/toolchain@v1.0.6
+      with:
+        toolchain: nightly
+        override: true
+        components: rustfmt, clippy
+    - name: Rust | Cache
+      uses: Swatinem/rust-cache@v2
+      with:
+        prefix-key: "rust-cache"
+        shared-key: "quick-tests"
+    - name: Check Rust formatting
+      run: cargo fmt -- --check
+    - name: Check Rust code with Clippy
+      run: cargo clippy -- -Dwarnings -A clippy::not_unsafe_ptr_arg_deref
+    - name: Run internal tests
+      run: cargo test --verbose -- --nocapture
+    - name: Build Rust project
+      run: cargo build
+    - name: Build Python module
+      run: |
+        pip install --user maturin
+        pip install . --user
+    - name: Check Python integration
+      run: python examples/python/main.py
+    - name: Check C++ integration
+      run: |
+        cd examples/cpp
+        cmake -B build -DCMAKE_BUILD_TYPE=Debug
+        cmake --build build --config Debug --parallel
+        ./build/example
+    - name: Run clang-format style check for C++ example.
+      uses: jidicula/clang-format-action@v4.11.0
+      with:
+        clang-format-version: '16'
+        check-path: 'examples/cpp/'
+        exclude-regex: 'examples/cpp/build'
+
+  build-cpp:
+    needs: [quick-tests]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+        - TARGET: armv7-unknown-linux-gnueabihf
+        - TARGET: aarch64-unknown-linux-gnu
+        - TARGET: armv7-unknown-linux-musleabihf
+        - TARGET: aarch64-unknown-linux-musl
+    steps:
+    - name: Building ${{ matrix.TARGET }}
+      run: echo "${{ matrix.TARGET }}"
+    - uses: actions/checkout@master
+    - name: Rust Setup
+      uses: actions-rs/toolchain@v1.0.1
+      with:
+        toolchain: nightly
+        target: ${{ matrix.TARGET }}
+        override: true
+    - name: Rust Cache
+      uses: Swatinem/rust-cache@v2
+      with:
+        prefix-key: "rust-cache"
+        shared-key: "build-cpp-${{ matrix.TARGET }}"
+    - name: Rust Cross Build Cpp
+      uses: actions-rs/cargo@v1
+      with:
+        use-cross: true
+        command: build
+        args: --verbose --release --target=${{ matrix.TARGET }} -Z unstable-options --out-dir output/
+    - name: Move to it's target
+      run: |
+        mkdir dist
+        mkdir "dist/${{ matrix.TARGET }}"
+        mv output/* "dist/${{ matrix.TARGET }}"
+        mv target/release/bindings.h dist/
+    - name: Upload bin
+      uses: actions/upload-artifact@v3
+      with:
+        name: cpp
+        path: dist
+
+  build-python:
+    needs: [quick-tests]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [aarch64, armv7]
+        libc: [auto, musllinux_1_1]
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: "3.9"
+    - name: Build wheels
+      uses: PyO3/maturin-action@v1
+      with:
+        target: ${{ matrix.target }}
+        args: --release --out dist
+        manylinux: ${{ matrix.libc }}
+    - uses: uraimo/run-on-arch-action@master
+      if: matrix.libc == 'auto'
+      name: Install built wheel manylinux
+      with:
+        arch: ${{ matrix.target }}
+        distro: bullseye
+        githubToken: ${{ github.token }}
+        install: |
+          apt-get update
+          apt-get install -y --no-install-recommends python3 python3-pip
+          pip3 install -U pip
+        run: |
+          pip3 install navigator --no-index --find-links dist/ --force-reinstall
+    - uses: uraimo/run-on-arch-action@master
+      if: matrix.libc == 'musllinux_1_1'
+      name: Install built wheel musl
+      with:
+        arch: ${{ matrix.target}}
+        distro: alpine_latest
+        githubToken: ${{ github.token }}
+        install: |
+          apk add py3-pip
+          pip3 install -U pip
+        run: |
+          pip3 install navigator --no-index --find-links dist/ --force-reinstall
+    - name: Upload wheels
+      uses: actions/upload-artifact@v3
+      with:
+        name: python
+        path: dist
+
+  deploy-doc:
+    needs: quick-tests
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions-rs/toolchain@v1.0.6
+      with:
+        toolchain: nightly
+        override: true
+        components: rust-docs
+    - name: Build docs
+      run: cargo doc
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      if: ${{ github.ref == 'refs/heads/master' }}
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./target/doc
