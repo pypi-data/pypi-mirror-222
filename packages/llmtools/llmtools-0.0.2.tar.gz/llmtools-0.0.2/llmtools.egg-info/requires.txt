@@ -1,0 +1,9 @@
+llama_index
+langchain
+transformers
+torch
+arxiv
+accelerate
+sentence_transformers
+
+[dev]
