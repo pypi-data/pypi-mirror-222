@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: vioneta
+Version: 2023.7.3
+Summary: Smart agriculture platform running on Python 3.
+Author-email: The Vioneta Agro Authors <admin@vioneta.com>
+License: Apache-2.0
+Project-URL: Homepage, https://www.vioneta.io/
+Project-URL: Source Code, https://github.com/Vioneta/core
+Project-URL: Bug Reports, https://github.com/Vioneta/core/issues
+Project-URL: Docs: Dev, https://developers.vioneta.io/
+Project-URL: Discord, https://www.vioneta.io/join-chat/
+Project-URL: Forum, https://community.vioneta.io/
+Keywords: home,automation
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Home Automation
+Requires-Python: >=3.10.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE.md
+
+##Vioneta Agro Core 2023.7.3
+
+##This version is build from Home Assistant  2023.7.3 release
