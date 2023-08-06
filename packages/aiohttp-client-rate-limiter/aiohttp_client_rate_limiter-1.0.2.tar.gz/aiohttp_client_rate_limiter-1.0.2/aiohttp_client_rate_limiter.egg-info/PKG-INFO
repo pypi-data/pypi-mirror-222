@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aiohttp-client-rate-limiter
+Version: 1.0.2
+Summary: This is a mini tool that overwrite aiohttp session to provide rate limit function within a same session.
+Home-page: https://github.com/peteropensource/aiohttp_rate_limiter
+Author: Peter Lee
+Author-email: info@peterlee.space
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+This is a mini tool that overwrite aiohttp session to provide rate limit function within a same session.
