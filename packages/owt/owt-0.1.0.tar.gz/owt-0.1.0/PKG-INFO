@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: owt
+Version: 0.1.0
+Summary: A python client for Intel OWT server
+Author: vipcxj
+Author-email: vipcxj@126.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: aioquic (>=0.9.21,<0.10.0)
+Requires-Dist: aiortc (>=1.5.0,<2.0.0)
+Requires-Dist: python-socketio[asyncio-client] (>=5.8.0,<6.0.0)
+Requires-Dist: six (>=1.16.0,<2.0.0)
+Requires-Dist: windows-capture-device-list (>=1.1.0,<2.0.0) ; sys_platform == "windows"
+Description-Content-Type: text/markdown
+
+
