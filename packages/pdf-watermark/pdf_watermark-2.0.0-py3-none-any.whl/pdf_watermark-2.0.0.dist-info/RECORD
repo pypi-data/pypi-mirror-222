@@ -1,0 +1,13 @@
+watermark.py,sha256=cVe5_0WkcGtMQnUpt_P7tE0AXcFjMNndvc1jHGMqf78,4999
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/draw.py,sha256=FYIV0bmcZvYyLBbjhVHTUKZBZ2JD9UDoppz_y5UTLqY,6030
+app/handler.py,sha256=C6q0XEM6Hy2eV10ZWn4RP9svwmXjbC-UUwiYfKkVXgg,1421
+app/objects.py,sha256=9j0txXCSoymB7lgEZgH5Kuqk_c0xfgggxTnwxknn8MY,5613
+app/options.py,sha256=-VCGkwoUC7-u1ss_FpXXLzkZ-ivLMXx_8aoeHjE0VpA,4127
+app/utils.py,sha256=hHc_I6V4ltgFm6Ox7EnhtAzEk0ecLyqpd_QUxp8r5Rw,1404
+pdf_watermark-2.0.0.dist-info/LICENSE,sha256=hdPg4ZV3LMUJuvXltqodgqduWv-AA94p_tVfmi1kTdw,1079
+pdf_watermark-2.0.0.dist-info/METADATA,sha256=sbAMEfzNBN9_O-Ioaa4I-YEtFPpiKNSbHG6aGA8mmu4,7496
+pdf_watermark-2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pdf_watermark-2.0.0.dist-info/entry_points.txt,sha256=vsEihcAfWM0mxd-9UYlyL8MltHEqGSb8O7dDGB6Jx1E,44
+pdf_watermark-2.0.0.dist-info/top_level.txt,sha256=_jyJCc4JKiKvRvniPGcmkCRFlCjGKV7Vjo-u1SBSOHw,14
+pdf_watermark-2.0.0.dist-info/RECORD,,
