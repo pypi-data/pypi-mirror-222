@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gen/python/anghamak/__init__.py
+gen/python/anghamak.egg-info/PKG-INFO
+gen/python/anghamak.egg-info/SOURCES.txt
+gen/python/anghamak.egg-info/dependency_links.txt
+gen/python/anghamak.egg-info/top_level.txt
+gen/python/anghamak/content/__init__.py
+gen/python/anghamak/content/vibes_pb2.py
+gen/python/anghamak/content/vibes_pb2_grpc.py

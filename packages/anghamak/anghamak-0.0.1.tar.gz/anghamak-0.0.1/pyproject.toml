@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anghamak"
+version = "0.0.1"
+authors = [
+  { name="Diaa Zaiter", email="diaa.zaiter@anghami.com" },
+]
+description = "koussa grpc project"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
