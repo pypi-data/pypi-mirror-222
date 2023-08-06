@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: autoflake8
+Version: 0.4.1
+Summary: Tool to automatically fix some issues reported by flake8 (forked from autoflake).
+Home-page: https://github.com/fsouza/autoflake8
+License: MIT
+Keywords: flake8,automatic,fixer
+Author: Francisco Souza
+Author-email: fsouza@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Dist: pyflakes (>=2.3.0)
+Project-URL: Repository, https://github.com/fsouza/autoflake8
+Description-Content-Type: text/markdown
+
+# Please move back to autoflake
+
+autoflake is maintained now, check it out: https://github.com/PyCQA/autoflake
+
