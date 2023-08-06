@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: VizTyping
+Version: 0.0.0.2
+Summary: A typing tool for Vizor and VizNrn 
+Home-page: https://git.baijiashilian.com/innovation/aiprojects/ai_group/viztyping
+Author: zrTalker
+Author-email: gy.song@aliyun.com
+License: MIT
+Keywords: Vizor VizNrn
+License-File: LICENCE
+Requires-Dist: docarray
+
