@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ir-support
+Version: 1.0.0
+Summary: Python package including some classes & functions supporting the subject 41013 Industrial Robotics at UTS, along with the Robotics Toolbox for Python
+Author: Quang Ngo
+Author-email: quang.ngohominh@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: keyboard (>=0.13.5,<0.14.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: plyfile (>=1.0.1,<2.0.0)
+Requires-Dist: trimesh (>=3.22.5,<4.0.0)
+Description-Content-Type: text/markdown
+
+# 41013 Industrial Robotics Support
+
+This project is part of the subject 41013 Industrial Robotics at University of Technology Sydney (UTS), for <a href="https://github.com/petercorke/robotics-toolbox-python">Robotics Toolbox for Python<sup>&reg;</sup></a>
+It is developed to provide equivalent support for the Python option of the subject, along with the Modified Robotics Toolbox in MATLAB.
+
+# Contact
+ - quang.ngohominh@gmail.com
