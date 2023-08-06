@@ -1,0 +1,4 @@
+[console_scripts]
+fr-geo-stats=frgeostat.cli:app
+frgeo=frgeostat.cli:app
+
