@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: integral_python_sdk_shreypjain
+Version: 0.1.0
+Summary: Integral's Generated API Package
+Project-URL: Homepage, https://integralapi.co
+Project-URL: Bug Tracker, https://github.com/Integralapp/integral-python-sdk
+Author-email: Shrey Jain <shrey@integralapi.co>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# integral-python-sdk
