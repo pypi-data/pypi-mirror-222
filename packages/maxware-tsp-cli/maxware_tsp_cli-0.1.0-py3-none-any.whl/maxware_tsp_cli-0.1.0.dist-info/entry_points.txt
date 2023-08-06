@@ -1,0 +1,3 @@
+[console_scripts]
+maxware-tsp-cli=maxware_tsp_cli:launch_cli
+
