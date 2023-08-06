@@ -1,0 +1,10 @@
+pysmartdatamodels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysmartdatamodels/model-assets/official_list_data_models.json,sha256=FL2Qb062khGuSCtfe11gH6eab9I2qd9B1O-dtEp7tIA,38970
+pysmartdatamodels/model-assets/smartdatamodels.json,sha256=uGPwwYW9CViSugmBswyNR4Nyb2OS4cVfFCZI2uNsMpU,9071253
+pysmartdatamodels/pysmartdatamodels.py,sha256=l5TOfuiSBt3r9HsFnjmIVM7oQ5tvMXdeJkYRn7p7WqE,46721
+pysmartdatamodels/utils/__init__.py,sha256=CKp1ZbwohXrNHOenGcX1eo_fjL5YD8jLOI3vCNtS1Zk,27
+pysmartdatamodels/utils/common_utils.py,sha256=8TybKD6ODT7G5KTDRpPtkm0_bHEz2Gf22HLk_ZrWdQw,16542
+pysmartdatamodels-0.6.0.dist-info/LICENSE.txt,sha256=-UP19pUMV7211YSajwSgYxJn1h1FFWfS7ZophXzykXI,1229
+pysmartdatamodels-0.6.0.dist-info/METADATA,sha256=-DQV0iFGbPRKiDY4TWITwJUKJqotkfg4cXulGnDeli4,20762
+pysmartdatamodels-0.6.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pysmartdatamodels-0.6.0.dist-info/RECORD,,
