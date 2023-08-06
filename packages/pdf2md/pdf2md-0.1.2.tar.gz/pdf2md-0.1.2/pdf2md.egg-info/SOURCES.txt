@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+bin/pdf2md
+pdf2md/__init__.py
+pdf2md/parser.py
+pdf2md/pile.py
+pdf2md/syntax.py
+pdf2md/writer.py
+pdf2md.egg-info/PKG-INFO
+pdf2md.egg-info/SOURCES.txt
+pdf2md.egg-info/dependency_links.txt
+pdf2md.egg-info/requires.txt
+pdf2md.egg-info/top_level.txt

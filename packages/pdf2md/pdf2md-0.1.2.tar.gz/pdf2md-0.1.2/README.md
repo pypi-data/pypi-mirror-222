@@ -1,0 +1,47 @@
+# PDF 转 Markdown
+
+基于github [pdf-to-markdown](https://github.com/johnlinp/pdf-to-markdown) 工程开发，合并了支持python3的pr，
+修正了将pdf转为markdown时表格若出现合并单元格的情况，markdown表现和pdf不一致问题。
+
+修改后的工程任然存在的问题：
+1. 对于图片的支持未经测试。
+2. 对于单元格内内嵌表格会提取成为单独的表格。内嵌表格内的文字会直接成为外层单元格的文本。
+3. pdf转为markdown时因识别文字段落不准确，会出现有序列表重新从1开始编号的情况。
+
+[pdf-to-markdown](https://github.com/johnlinp/pdf-to-markdown) 工程支持两种转换模式：1、gitbook；2、simple。本工程并未做修改，故也支持两种转换模式。 
+
+
+# 安装
+
+    pip install pdf2md
+
+
+# 使用
+
+    usage: pdf2md [-h] --pdf PDF --output OUTPUT [--format FORMAT]
+              [--line_overlap LINE_OVERLAP] [--char_margin CHAR_MARGIN]
+              [--word_margin WORD_MARGIN] [--line_margin LINE_MARGIN]
+
+
+    optional arguments:
+        -h, --help            show this help message and exit
+        --pdf PDF             需要转换的PDF文件
+        --output OUTPUT       markdown文件的输出目录
+        --format FORMAT       转换模式：[simple]常规模式,默认为此值；[gitbook] gitbook模式
+        --line_overlap LINE_OVERLAP
+                              LAParams参数，浮点型，默认值0.5。如果两个字符有更多的重叠，他们被认为是在同一行。重叠是相对于两个
+                              字符的最小高度指定的
+        --char_margin CHAR_MARGIN
+                              LAParams参数，浮点型，默认值2.0。如果两个字符之间的距离比这个距离更近，它们就被认为是同一行的一部
+                              分。边距是根据字符的宽度指定的。
+        --word_margin WORD_MARGIN
+                              LAParams参数，浮点型，默认值0.1。如果同一行上的两个字符之间的距离超过这个边距，那么它们将被视为两
+                              个独立的单词，并且将添加一个中间空格以提高可读性。边距是根据字符的宽度指定的。
+        --line_margin LINE_MARGIN
+                              LAParams参数，浮点型，默认值0.5。如果两行靠得很近，它们被认为是同一段的一部分。边距是相对于行高指
+                              定的。
+
+# 示例
+
+    pdf2md --pdf=E:\tmp\pdf3\test.pdf --output=E:\tmp\text --format=simple --char_margin=0.5 --word_margin=0.6
+
