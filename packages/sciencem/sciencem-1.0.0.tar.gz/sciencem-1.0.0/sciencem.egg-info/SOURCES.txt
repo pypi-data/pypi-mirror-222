@@ -1,0 +1,6 @@
+sciencem.py
+setup.py
+sciencem.egg-info/PKG-INFO
+sciencem.egg-info/SOURCES.txt
+sciencem.egg-info/dependency_links.txt
+sciencem.egg-info/top_level.txt
