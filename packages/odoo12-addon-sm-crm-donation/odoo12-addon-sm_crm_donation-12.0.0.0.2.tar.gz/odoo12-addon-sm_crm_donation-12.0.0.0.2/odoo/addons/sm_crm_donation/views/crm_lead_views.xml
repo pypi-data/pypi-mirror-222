@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="sm_crm_donation_menu_action" model="ir.actions.act_window">
+        <field name="name">Donation</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">crm.lead</field>
+        <field name="domain" eval="[('source_id','=', ref('utm_source_donation_main_web_page'))]"/>
+        <field name="view_mode">kanban,tree,form</field>
+    </record>
+
+    <menuitem name="Donation"  id="sm_crm_donation_donation_menu" action="sm_crm_donation_menu_action"
+              parent="vertical_carsharing.menu_root"/>
+
+</odoo>
