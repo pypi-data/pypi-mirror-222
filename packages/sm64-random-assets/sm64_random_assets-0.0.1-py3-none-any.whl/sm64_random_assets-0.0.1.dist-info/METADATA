@@ -1,0 +1,384 @@
+Metadata-Version: 2.1
+Name: sm64-random-assets
+Version: 0.0.1
+Summary: The sm64-random-assets module
+Home-page: https://github.com/Erotemic/sm64-random-assets
+Author: Jon Crall
+Author-email: erotemic@gmail.com
+License: Apache 2
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: kwimage (>=0.9.19)
+Requires-Dist: ruamel.yaml (>=0.17.21)
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: ubelt (>=1.3.0)
+Requires-Dist: scriptconfig (>=0.7.9)
+Requires-Dist: rich (>=12.3.0)
+Requires-Dist: parse (>=1.19.0)
+Requires-Dist: numpy (>=1.19.3) ; python_version < "3.10" and python_version >= "3.9"
+Requires-Dist: numpy (>=1.21.6) ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: numpy (>=1.19.2) ; python_version < "3.7" and python_version >= "3.6"
+Requires-Dist: numpy (>=1.19.2) ; python_version < "3.8" and python_version >= "3.7"
+Requires-Dist: numpy (>=1.19.2) ; python_version < "3.9" and python_version >= "3.8"
+Requires-Dist: numpy (>=1.23.2) ; python_version < "4.0" and python_version >= "3.11"
+Provides-Extra: all
+Requires-Dist: kwimage (>=0.9.19) ; extra == 'all'
+Requires-Dist: ruamel.yaml (>=0.17.21) ; extra == 'all'
+Requires-Dist: PyYAML (>=6.0) ; extra == 'all'
+Requires-Dist: ubelt (>=1.3.0) ; extra == 'all'
+Requires-Dist: scriptconfig (>=0.7.9) ; extra == 'all'
+Requires-Dist: rich (>=12.3.0) ; extra == 'all'
+Requires-Dist: parse (>=1.19.0) ; extra == 'all'
+Requires-Dist: xdoctest (>=1.1.1) ; extra == 'all'
+Requires-Dist: pytest-timeout (>=1.4.2) ; extra == 'all'
+Provides-Extra: all-strict
+Requires-Dist: kwimage (==0.9.19) ; extra == 'all-strict'
+Requires-Dist: ruamel.yaml (==0.17.21) ; extra == 'all-strict'
+Requires-Dist: PyYAML (==6.0) ; extra == 'all-strict'
+Requires-Dist: ubelt (==1.3.0) ; extra == 'all-strict'
+Requires-Dist: scriptconfig (==0.7.9) ; extra == 'all-strict'
+Requires-Dist: rich (==12.3.0) ; extra == 'all-strict'
+Requires-Dist: parse (==1.19.0) ; extra == 'all-strict'
+Requires-Dist: xdoctest (==1.1.1) ; extra == 'all-strict'
+Requires-Dist: pytest-timeout (==1.4.2) ; extra == 'all-strict'
+Requires-Dist: coverage (==4.5) ; (python_version < "2.7" and python_version >= "2.6") and extra == 'all-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all-strict'
+Requires-Dist: numpy (==1.19.3) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'all-strict'
+Requires-Dist: numpy (==1.21.6) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'all-strict'
+Requires-Dist: coverage (==4.3.4) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'all-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all-strict'
+Requires-Dist: pytest (<=6.1.2,==4.6.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==2.9.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all-strict'
+Requires-Dist: numpy (==1.19.2) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'all-strict'
+Requires-Dist: numpy (==1.19.2) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: numpy (==1.19.2) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: numpy (==1.23.2) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: pytest (==6.2.5) ; (python_version >= "3.10.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov (==3.0.0) ; (python_version >= "3.6.0") and extra == 'all-strict'
+Requires-Dist: coverage (>=4.5) ; (python_version < "2.7" and python_version >= "2.6") and extra == 'all'
+Requires-Dist: pytest (<=4.6.11,>=4.6.0) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all'
+Requires-Dist: pytest-cov (>=2.8.1) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all'
+Requires-Dist: numpy (>=1.19.3) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: coverage (>=5.3.1) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: pytest (>=4.6.0) ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'all'
+Requires-Dist: numpy (>=1.21.6) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: coverage (>=5.3.1) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'all'
+Requires-Dist: coverage (>=4.3.4) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'all'
+Requires-Dist: pytest (<=4.6.11,>=4.6.0) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all'
+Requires-Dist: pytest-cov (>=2.8.1) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all'
+Requires-Dist: coverage (>=5.3.1) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all'
+Requires-Dist: pytest (<=6.1.2,>=4.6.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all'
+Requires-Dist: pytest-cov (>=2.9.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all'
+Requires-Dist: numpy (>=1.19.2) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: coverage (>=6.1.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: pytest (>=4.6.0) ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'all'
+Requires-Dist: numpy (>=1.19.2) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: coverage (>=6.1.1) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: numpy (>=1.19.2) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: coverage (>=6.1.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: numpy (>=1.23.2) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: coverage (>=6.1.1) ; (python_version >= "3.10") and extra == 'all'
+Requires-Dist: pytest (>=6.2.5) ; (python_version >= "3.10.0") and extra == 'all'
+Requires-Dist: pytest-cov (>=3.0.0) ; (python_version >= "3.6.0") and extra == 'all'
+Provides-Extra: graphics
+Provides-Extra: graphics-strict
+Requires-Dist: opencv-python (==3.4.15.55) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==4.5.4.58) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.1.0.0) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.1.0.5) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.1.0.2) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.4.13.47) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.4.15.55) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==3.4.15.55) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (==4.5.5.64) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'graphics-strict'
+Requires-Dist: opencv-python (>=3.4.15.55) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'graphics'
+Requires-Dist: opencv-python (>=4.5.4.58) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.1.0.0) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.1.0.5) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.1.0.2) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.4.13.47) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.4.15.55) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'graphics'
+Requires-Dist: opencv-python (>=3.4.15.55) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'graphics'
+Requires-Dist: opencv-python (>=4.5.5.64) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'graphics'
+Provides-Extra: headless
+Provides-Extra: headless-strict
+Requires-Dist: opencv-python-headless (==3.4.15.55) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==4.5.4.58) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.2.16) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.2.16) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.2.16) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.13.47) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.15.55) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==3.4.15.55) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (==4.5.5.64) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'headless-strict'
+Requires-Dist: opencv-python-headless (>=3.4.15.55) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=4.5.4.58) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.2.16) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.2.16) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.2.16) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.13.47) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.15.55) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=3.4.15.55) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'headless'
+Requires-Dist: opencv-python-headless (>=4.5.5.64) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'headless'
+Provides-Extra: optional
+Provides-Extra: optional-strict
+Provides-Extra: runtime-strict
+Requires-Dist: kwimage (==0.9.19) ; extra == 'runtime-strict'
+Requires-Dist: ruamel.yaml (==0.17.21) ; extra == 'runtime-strict'
+Requires-Dist: PyYAML (==6.0) ; extra == 'runtime-strict'
+Requires-Dist: ubelt (==1.3.0) ; extra == 'runtime-strict'
+Requires-Dist: scriptconfig (==0.7.9) ; extra == 'runtime-strict'
+Requires-Dist: rich (==12.3.0) ; extra == 'runtime-strict'
+Requires-Dist: parse (==1.19.0) ; extra == 'runtime-strict'
+Requires-Dist: numpy (==1.19.3) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'runtime-strict'
+Requires-Dist: numpy (==1.21.6) ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: numpy (==1.19.2) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'runtime-strict'
+Requires-Dist: numpy (==1.19.2) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'runtime-strict'
+Requires-Dist: numpy (==1.19.2) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'runtime-strict'
+Requires-Dist: numpy (==1.23.2) ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Provides-Extra: tests
+Requires-Dist: xdoctest (>=1.1.1) ; extra == 'tests'
+Requires-Dist: pytest-timeout (>=1.4.2) ; extra == 'tests'
+Provides-Extra: tests-strict
+Requires-Dist: xdoctest (==1.1.1) ; extra == 'tests-strict'
+Requires-Dist: pytest-timeout (==1.4.2) ; extra == 'tests-strict'
+Requires-Dist: coverage (==4.5) ; (python_version < "2.7" and python_version >= "2.6") and extra == 'tests-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'tests-strict'
+Requires-Dist: coverage (==4.3.4) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'tests-strict'
+Requires-Dist: pytest (<=4.6.11,==4.6.0) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.8.1) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==5.3.1) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'tests-strict'
+Requires-Dist: pytest (<=6.1.2,==4.6.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==2.9.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'tests-strict'
+Requires-Dist: pytest (==4.6.0) ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests-strict'
+Requires-Dist: coverage (==6.1.1) ; (python_version >= "3.10") and extra == 'tests-strict'
+Requires-Dist: pytest (==6.2.5) ; (python_version >= "3.10.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov (==3.0.0) ; (python_version >= "3.6.0") and extra == 'tests-strict'
+Requires-Dist: coverage (>=4.5) ; (python_version < "2.7" and python_version >= "2.6") and extra == 'tests'
+Requires-Dist: pytest (<=4.6.11,>=4.6.0) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests'
+Requires-Dist: pytest-cov (>=2.8.1) ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests'
+Requires-Dist: coverage (>=5.3.1) ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests'
+Requires-Dist: pytest (>=4.6.0) ; (python_version < "3.10.0" and python_version >= "3.7.0") and extra == 'tests'
+Requires-Dist: coverage (>=5.3.1) ; (python_version < "3.4" and python_version >= "2.7") and extra == 'tests'
+Requires-Dist: coverage (>=4.3.4) ; (python_version < "3.5" and python_version >= "3.4") and extra == 'tests'
+Requires-Dist: pytest (<=4.6.11,>=4.6.0) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests'
+Requires-Dist: pytest-cov (>=2.8.1) ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests'
+Requires-Dist: coverage (>=5.3.1) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'tests'
+Requires-Dist: pytest (<=6.1.2,>=4.6.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests'
+Requires-Dist: pytest-cov (>=2.9.0) ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests'
+Requires-Dist: coverage (>=6.1.1) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'tests'
+Requires-Dist: pytest (>=4.6.0) ; (python_version < "3.7.0" and python_version >= "3.6.0") and extra == 'tests'
+Requires-Dist: coverage (>=6.1.1) ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests'
+Requires-Dist: coverage (>=6.1.1) ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests'
+Requires-Dist: coverage (>=6.1.1) ; (python_version >= "3.10") and extra == 'tests'
+Requires-Dist: pytest (>=6.2.5) ; (python_version >= "3.10.0") and extra == 'tests'
+Requires-Dist: pytest-cov (>=3.0.0) ; (python_version >= "3.6.0") and extra == 'tests'
+
+SM64 Randomized Asset Generator
+===============================
+
+Generates non-copyrighted randomized assets so sm64 and sm64-port can be used
+for educational purposes.
+
+This has only been tested for building the US variant, and only on Linux.
+
+For each asset it generates a random texture, except in special cases like text
+where it was possible to generate reasonable textures with open source tools.
+The result is surprisingly playable.
+
+Future work will support configurable and procedural generation of assets.
+
+
+.. image:: https://i.imgur.com/iiMPSTZ.png
+
+.. image:: https://i.imgur.com/5OsOH1F.png
+
+.. image:: https://i.imgur.com/yFI8WV2.png
+
+.. image:: https://i.imgur.com/jlXDyMJ.png
+
+
+Python Requirements
+-------------------
+
+To run the asset generation script, the following requirements are needed.
+
+.. code:: bash
+
+   pip install kwimage opencv-python-headless ubelt numpy ruamel.yaml PyYAML scriptconfig rich parse
+
+
+PC Port Example Usage
+---------------------
+
+The following instructions were written on an Ubuntu 22.04 PC
+
+.. code:: bash
+
+    # PC Port Dependencies
+    sudo apt install -y git build-essential pkg-config libusb-1.0-0-dev libsdl2-dev
+
+    # You can set your "code" directory path - the place where you will clone
+    # this repo - to be somewhere convenient for you
+    CODE_DPATH=$HOME/code
+
+    # Ensure your code directory exists
+    mkdir -p $CODE_DPATH
+
+    # Clone this repo
+    git clone https://github.com/Erotemic/sm64-random-assets.git $CODE_DPATH/sm64-random-assets
+
+    # Move into the root of this repo and initialize the sm64-port submodule,
+    # which will clone the official PC port repo.
+    cd $CODE_DPATH/sm64-random-assets
+    git submodule update --init tpl/sm64-port
+
+    # Run the asset generator
+    python $CODE_DPATH/sm64-random-assets/generate_assets.py --dst $CODE_DPATH/sm64-random-assets/tpl/sm64-port
+
+    # Move into the PC port directory
+    cd $CODE_DPATH/sm64-random-assets/tpl/sm64-port
+
+    # Compile
+    make NOEXTRACT=1 VERSION=us -j16
+
+
+The compiled executable can now be run directly:
+
+.. code:: bash
+
+    # Run the executable
+    build/us_pc/sm64.us
+
+
+Headless ROM Usage
+------------------
+
+.. code:: bash
+
+    # ROM-only dependencies
+    sudo apt install -y binutils-mips-linux-gnu build-essential git libcapstone-dev pkgconf python3
+
+    # You can set your "code" directory path - the place where you will clone
+    # this repo - to be somewhere convenient for you
+    CODE_DPATH=$HOME/code
+
+    # Ensure your code directory exists
+    mkdir -p $CODE_DPATH
+
+    # Clone this repo
+    git clone https://github.com/Erotemic/sm64-random-assets.git $CODE_DPATH/sm64-random-assets
+
+    # Move into the root of this repo and initialize the sm64 submodule,
+    # which will clone the official ROM-only sm64 repo.
+    cd $CODE_DPATH/sm64-random-assets
+    git submodule update --init tpl/sm64
+
+    # Run the asset generator
+    python $CODE_DPATH/sm64-random-assets/generate_assets.py --dst $CODE_DPATH/sm64-random-assets/tpl/sm64
+
+    # Move into the ROM-only sm64 directory
+    cd $CODE_DPATH/sm64-random-assets/tpl/sm64
+
+    # Compile
+    NUM_CPUS=$(nproc --all)
+    NOEXTRACT=1 COMPARE=0 NON_MATCHING=0 VERSION=us make -j$NUM_CPUS
+
+    # The compiled ROM is: build/us/sm64.us.z64
+
+This ROM can now be flashed on an N64 cartage, copied onto an Everdrive, or run
+using an N64 emulator (like Mupen64Plus). For instance, if you have Mupen64Plus
+installed (e.g. ``sudo apt install mupen64plus-qt``) you can run:
+
+.. code:: bash
+
+   mupen64plus build/us/sm64.us.z64
+
+
+N64 Limitations
+---------------
+
+On real N64 hardware truly randomizing all textures will cause the system to
+lock up. This is because the N64 has 4 megabytes of RAM, and many of the
+original PNG textures are optimized to reduce their memory usage by having
+large continuous sections of the same color. Naively randomizing every pixel
+does not generate data well suited for PNG compression.
+
+I have verified that I cen enter every major stage and complete every bowser
+fight, so I think all of the crashes have been resolved by reducing texture
+sizes. I have completed a 16 star run on real N64 hardware with this.
+
+
+Development
+-----------
+
+While I'll try to keep the above instructions working / maintained, the
+``build.sh`` script is the end-to-end entry point for developers. Starting from
+a fresh repo, the ``build.sh`` script will take care of the entire process from
+initializing submodules, generating assets, compiling the binaries, and even
+running them with the pc-port, in an emulator, or copying ROMs to an EverDrive.
+Environment variables can be used to control the build.sh behavior.
+
+The following are several common examples:
+
+.. code::
+
+   # Build and run the PC port
+   TEST_LOCALLY=1 TARGET=pc ./build.sh
+
+   # Build and run the ROM in an emulator (m64py)
+   TEST_LOCALLY=1 TARGET=rom EMULATOR=m64py ./build.sh
+
+Resources
+---------
+
+* Mupen64Plus Emulator: https://wiki.debian.org/Mupen64Plus
+
+* Python Frontend for Mupen64Plus: https://github.com/mupen64plus/mupen64plus-ui-python
+
+* Everdrive 64 X7: https://krikzz.com/our-products/cartridges/ed64x7.html
+
+* The SM64 Port: https://github.com/sm64-port/sm64-port
+
+* The SM64 Decomp: https://github.com/n64decomp/sm64
+
+* The SM64 Decomp Discord: https://discord.gg/DuYH3Fh
+
+* Kaze Emanuar ROM Hacks: https://www.notabug.org/anomie/kaze-emanuar-romhacks
+
+* High resolution redrawn textures: https://github.com/TechieAndroid/sm64redrawn
+
+* SM64 Randomizer: https://github.com/andrelikesdogs/sm64-randomizer
+
+* List of SM64 Hacks and Ports: https://en.wikipedia.org/wiki/List_of_Super_Mario_64_ROM_hacks,_mods_and_ports
+
+* SM64 plus: https://github.com/MorsGames/sm64plus
+
+* SM64 ex: https://github.com/sm64pc/sm64ex
