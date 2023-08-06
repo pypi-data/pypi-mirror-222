@@ -1,0 +1,7 @@
+README.md
+setup.py
+nlp_pos_tagger.egg-info/PKG-INFO
+nlp_pos_tagger.egg-info/SOURCES.txt
+nlp_pos_tagger.egg-info/dependency_links.txt
+nlp_pos_tagger.egg-info/requires.txt
+nlp_pos_tagger.egg-info/top_level.txt

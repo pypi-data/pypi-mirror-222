@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: nlp-pos-tagger
+Version: 0.1
+Summary: A simple NLP library for POS tagging
+Home-page: https://github.com/your_username/nlp_pos_tagger
+Author: Your Name
+Author-email: your@email.com
+Description-Content-Type: text/markdown
