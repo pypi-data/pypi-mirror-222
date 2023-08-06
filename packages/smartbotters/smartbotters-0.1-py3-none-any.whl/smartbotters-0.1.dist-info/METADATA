@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: smartbotters
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://gitub.com/ozhoffer/smartbotters
+Author: ozhoffer
+Author-email: ozhoffer@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy (==1.19.3)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: scipy (==1.7.1)
+
+UNKNOWN
+
+
