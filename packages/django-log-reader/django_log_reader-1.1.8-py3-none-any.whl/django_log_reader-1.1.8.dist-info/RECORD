@@ -1,0 +1,17 @@
+log_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+log_reader/admin.py,sha256=fIH5-3lqtyW8fIPxKIB8CiVOEkatbXUVSMWtWRhsRMs,1408
+log_reader/apps.py,sha256=H7N7nmqfWzwzw8BTSAuil5rs87rcPlaI4CL6NPML8Uw,183
+log_reader/models.py,sha256=KBhaalqXuk1DfiyYXyPuFu6UHn55EJonjEKjh5fLt3w,530
+log_reader/settings.py,sha256=3DJ8oE_yeFRzYBsVb50FnveGbl0kyBFqrPXmUTEyWQ0,954
+log_reader/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+log_reader/utils.py,sha256=RBQxLkk0vc9VZWUJiMhl_xFZKCPIgx1HykIzgOLT5Cg,1965
+log_reader/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+log_reader/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+log_reader/static/log_reader/css/log_reader.css,sha256=oTilYlFdOp291Yg2ei-jvvq216nH4p5vmsecKIaO__0,220
+log_reader/static/log_reader/js/log_reader.js,sha256=AvYy0YoTJ8fFPmH9LTIOQQ4AmBj16VDNpZtF2_lVe3w,367
+log_reader/templates/log_reader/admin/change_list.html,sha256=2e6I1myUckVTuZsv8Sv2GfA6baQy-kfADnHYb6Tl8uc,4723
+django_log_reader-1.1.8.dist-info/LICENSE,sha256=EigFBe3LS93drnkhfjj-qxiOV27-Yquyu3enkM595J0,1068
+django_log_reader-1.1.8.dist-info/METADATA,sha256=vmFACFLEWmpqzLg6hRLOSslsB04ck0VW0AXWbUBCDik,3324
+django_log_reader-1.1.8.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_log_reader-1.1.8.dist-info/top_level.txt,sha256=5BhxktHI-4XStLXu33wxX3en-rIWyAEU-1AntdGGeWw,11
+django_log_reader-1.1.8.dist-info/RECORD,,
