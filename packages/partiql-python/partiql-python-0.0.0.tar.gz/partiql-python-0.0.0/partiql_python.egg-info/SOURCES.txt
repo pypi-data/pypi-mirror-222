@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+partiql-python/__init__.py
+partiql_python.egg-info/PKG-INFO
+partiql_python.egg-info/SOURCES.txt
+partiql_python.egg-info/dependency_links.txt
+partiql_python.egg-info/top_level.txt

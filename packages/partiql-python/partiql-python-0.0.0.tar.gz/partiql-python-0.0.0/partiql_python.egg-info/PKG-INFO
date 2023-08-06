@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: partiql-python
+Version: 0.0.0
+Summary: Python implementation of PartiQL Query Language (partiql.org)
+Author: Amazon PartiQL Team
+Author-email: partiql-team@amazon.com
+License: Apache License 2.0
+Keywords: partiql-python PartiQL SQL Query Databases
+License-File: LICENSE.txt
+
+This is the README.md file for `partiql-python`.
