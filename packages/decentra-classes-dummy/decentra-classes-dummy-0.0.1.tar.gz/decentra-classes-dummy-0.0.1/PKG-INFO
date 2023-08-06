@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: decentra-classes-dummy
+Version: 0.0.1
+Summary: All Source code of the Python Course from DecentrCalasses.
+Author: Atharva Akshat (Decentraclasses)
+Author-email: <helloatharvaakshat@gmail.com>
+Keywords: python,video,tutorial,learn,code,experiment
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+This module will help you to access all the codes done in the tutorials of the Python Course from DecentrCalasses.

@@ -1,0 +1,7 @@
+setup.py
+DecentraClasses-dummy/__init__.py
+DecentraClasses-dummy/hello.py
+decentra_classes_dummy.egg-info/PKG-INFO
+decentra_classes_dummy.egg-info/SOURCES.txt
+decentra_classes_dummy.egg-info/dependency_links.txt
+decentra_classes_dummy.egg-info/top_level.txt
