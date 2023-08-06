@@ -1,0 +1,1 @@
+from muphyn.packages.interface.base.shapes.electric_components.electric_scheme_part.electrical_connector import ElectricalConnector
