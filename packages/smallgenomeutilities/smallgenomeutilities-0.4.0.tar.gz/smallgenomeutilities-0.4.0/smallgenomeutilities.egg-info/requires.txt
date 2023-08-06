@@ -1,0 +1,14 @@
+biopython
+bcbio-gff
+pysam>=0.16
+pysamstats
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+progress
+pyyaml
+
+[test]
+pytest
