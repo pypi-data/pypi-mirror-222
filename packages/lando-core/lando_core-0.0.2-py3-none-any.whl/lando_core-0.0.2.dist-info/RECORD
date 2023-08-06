@@ -1,0 +1,16 @@
+lando_core/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lando_core/__init__.py,sha256=3Mm5kzjkJhyGu9OKVUnWU6ZToW2U1kiRdTYtTmnQ-xQ,186
+lando_core/main.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+lando_core/requirements.txt,sha256=ZYO1Cj78KT6wvaqGoVLGvQutPi87vjPGDcKjEkKPi4k,96
+lando_core/chat/__init__.py,sha256=eXsLSLZSTkJ5YSiskQqOrkqPouVuOSek_L4YwEz1UAs,86
+lando_core/chat/chatGPT.py,sha256=A6fn9P_WYb5UtzDriCeIjMkVNE6kqi5iA8cAIpXUk-A,1364
+lando_core/util/__init__.py,sha256=26lyaYTwAlYI3cw6GjGDEFGR3HZD06ed2OLmiSNgxyc,153
+lando_core/util/cache.py,sha256=RNOvKUwpy4NkWULuWW-aui_PeG3C42q06dO-6ayGnxw,3167
+lando_core/util/cos.py,sha256=1vvT5qAtDknvCvwdMl6CUNUCzcLF6nmubWM9ZFMfMr4,6287
+lando_core/util/email.py,sha256=MLy2OLrJKzrO3gRpS9Gjre74-F9sBSgxgVsP4P_3RMY,1476
+lando_core/util/tts.py,sha256=mVHIjkGc1x68ilndNYs_ExL47mjl1pya3_qcP0fHiks,374
+lando_core-0.0.2.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+lando_core-0.0.2.dist-info/METADATA,sha256=OsY4KuJHSispa2ml3t0z55nQ-g-nd60DluWVcMXbNkQ,391
+lando_core-0.0.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+lando_core-0.0.2.dist-info/top_level.txt,sha256=Ezgkrreqqo818SzmPbHt8C_FEmhihwfLZ8jOKqQoRDw,11
+lando_core-0.0.2.dist-info/RECORD,,

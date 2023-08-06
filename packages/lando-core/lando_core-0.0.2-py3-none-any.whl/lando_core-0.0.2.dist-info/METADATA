@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lando-core
+Version: 0.0.2
+Summary: A small example package
+Author: lando
+Author-email: lando@gmail.com
+Requires-Python: ==3.10.*
+License-File: LICENSE
+Requires-Dist: edge-tts
+Requires-Dist: tenacity
+Requires-Dist: redis (==4.5.5)
+Requires-Dist: openai (==0.27.0)
+Requires-Dist: qcloud-python-sts
+Requires-Dist: cos-python-sdk-v5 (==1.9.11)
+Requires-Dist: peewee
+
