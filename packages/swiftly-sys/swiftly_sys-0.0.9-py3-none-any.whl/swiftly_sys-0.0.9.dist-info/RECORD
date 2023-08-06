@@ -1,0 +1,14 @@
+swiftly/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swiftly/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swiftly/runtime/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swiftly/runtime/node/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swiftly/runtime/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swiftly_sys-0.0.9.data/scripts/swiftly,sha256=Wb_nix0SvaBvFoz4z7dbTC9VcmVOJGAoszL8YMfsXyM,90
+swiftly_sys-0.0.9.data/scripts/swiftly-python-django.sh,sha256=K5Xxm56RFWmJAYTCahbXu8W4-H-1girgnT5p6fQ3_9o,40
+swiftly_sys-0.0.9.data/scripts/swiftly-python.sh,sha256=_wr3sWp_9R8VQDJ9MjjhE9yRsIdfYor_Ms45I7iuTW8,38
+swiftly_sys-0.0.9.data/scripts/swiftly.bat,sha256=TXJopB4tXt0F5uOv6wlyUuPIFWtLSHdIuVOkd2u7Q-A,8
+swiftly_sys-0.0.9.dist-info/LICENCE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+swiftly_sys-0.0.9.dist-info/METADATA,sha256=-9U-gkMrzniU02Vq420OuCj_6Sd69KY9EmLFwgjcb3I,623
+swiftly_sys-0.0.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+swiftly_sys-0.0.9.dist-info/top_level.txt,sha256=LO-QBPc7SBadR-PPaPph9NDF7wQPCBhhYVJB8Y9ydVM,8
+swiftly_sys-0.0.9.dist-info/RECORD,,
