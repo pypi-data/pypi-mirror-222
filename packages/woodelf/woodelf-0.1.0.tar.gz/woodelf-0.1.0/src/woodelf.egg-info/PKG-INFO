@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: woodelf
+Version: 0.1.0
+Summary: Pure Python ELF file parser
+Author: Donghwi Kim
+Author-email: dhkim09@kaist.ac.kr
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: test
