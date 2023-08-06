@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "sanicargs"
+version = "3.0.1"
+description = "Parses query args or body parameters in sanic using type annotations"
+readme = "README.md"
+keywords = ["sanicargs", "sanic", "query", "args", "type annotations"]
+authors = [
+    "John Sutherland <johns@trustpilot.com>",
+]
+repository = "https://github.com/trustpilot/python-sanicargs"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[tool.poetry.dependencies]
+ciso8601 = "^2.3.0"
+python = "^3.8"
+sanic = "^23.6.0"
+
+[tool.poetry.dev-dependencies]
+black = "^23.7"
+isort = "^5.12.0"
+pytest = "^7.4.0"
+pytest-asyncio = "^0.21.1"
+sanic-testing = "^23.6.0"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry>=1.1.4"]
+build-backend = "poetry.masonry.api"
