@@ -1,0 +1,4 @@
+pyprimes
+numpy
+matplotlib
+scikit-commpy
