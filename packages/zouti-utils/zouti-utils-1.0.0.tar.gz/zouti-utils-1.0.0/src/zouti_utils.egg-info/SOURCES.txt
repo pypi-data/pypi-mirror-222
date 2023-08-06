@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/database.py
+src/model.py
+src/zouti_utils.egg-info/PKG-INFO
+src/zouti_utils.egg-info/SOURCES.txt
+src/zouti_utils.egg-info/dependency_links.txt
+src/zouti_utils.egg-info/requires.txt
+src/zouti_utils.egg-info/top_level.txt
