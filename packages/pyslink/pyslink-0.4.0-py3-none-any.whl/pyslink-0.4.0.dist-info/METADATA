@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyslink
+Version: 0.4.0
+Summary: Soft link a file/directory with python site-packages directory
+License: BSD-3-Clause
+Author: Quantmind
+Author-email: message@quantmind.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# pyslink
+
+[![PyPI version](https://badge.fury.io/py/pyslink.svg)](https://badge.fury.io/py/pyslink)
+[![Python versions](https://img.shields.io/pypi/pyversions/pyslink.svg)](https://pypi.org/project/pyslink)
+[![release](https://github.com/quantmind/pyslink/actions/workflows/release.yml/badge.svg)](https://github.com/quantmind/pyslink/actions/workflows/release.yml)
+[![Downloads](https://img.shields.io/pypi/dd/pyslink.svg)](https://pypi.org/project/pyslink/)
+
+
+Soft link a file/directory with python site-packages directory.
+Useful during development.
+
+Installation via pip:
+```bash
+pip install pyslink
+```
+Soft link a package:
+```bash
+pyslink path/to/main/module
+```
+
