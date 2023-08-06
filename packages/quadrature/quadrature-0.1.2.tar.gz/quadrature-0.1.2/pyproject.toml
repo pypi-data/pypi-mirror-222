@@ -1,0 +1,38 @@
+[build-system]
+requires = ["maturin>=1.1.0"]
+build-backend = "maturin"
+
+[project]
+name = "quadrature"
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Natural Language :: English",
+  "Operating System :: MacOS",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: POSIX",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Rust",
+  "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+dependencies = ["numpy~=1.23"]
+
+[project.optional-dependencies]
+test = ["pytest~=7.3", "scipy~=1.10"]
+
+[project.urls]
+homepage = "https://github.com/AleCandido/quad"
+documentation = "https://github.com/AleCandido/quad"
+
+[tool.maturin]
+bindings = "pyo3"
+strip = true
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py", "bench_*.py"]
+python_functions = ["test_*", "bench_*"]
+testpaths = ["tests", "benches"]

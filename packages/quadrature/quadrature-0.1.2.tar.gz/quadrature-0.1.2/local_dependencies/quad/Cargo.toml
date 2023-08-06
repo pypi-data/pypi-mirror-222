@@ -1,0 +1,25 @@
+[package]
+name = "quad"
+description = "Quadrature integration"
+authors = [
+  "Alessandro Candido <candido.ale@gmail.com>",
+  "Alex Raiteri <alex.raiteri@studenti.unimi.it>",
+]
+readme = "../README.md"
+
+categories= ["science"]
+edition= "2021"
+keywords= ["high-energy-physics", "physics"]
+license= "GPL-3.0-or-later"
+repository= "https://github.com/AleCandido/quad"
+version= "0.1.2"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
+
+[lib]
+bench = false
+
+[dependencies]
+rayon = "1.6"
