@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: putupy
+Version: 0.0.2
+Summary: A small example package
+Author-email: Putu Widyantara <putuwaw973@gmail.com>
+Project-URL: Homepage, https://github.com/putuwaw/putupy
+Project-URL: Bug Tracker, https://github.com/putuwaw/putupy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+this is readme
+
+TOKEN=pypi-AgEIcHlwaS5vcmcCJDg1ZWVjMmFiLWM4MDMtNGIzNS04YmFkLTE1MWRiMTFjOGYwZgACKlszLCI5NzRmZGI2Ny03ZjIwLTQ3NjUtOGI2My1iYWEwNjgyZjg5OWIiXQAABiAUhRHtaDLaH5HyGWxlMYM2eK_KEBtV-qzfN-cEvD4h6A
+
+pypi-AgEIcHlwaS5vcmcCJDg1ZWVjMmFiLWM4MDMtNGIzNS04YmFkLTE1MWRiMTFjOGYwZgACKlszLCI5NzRmZGI2Ny03ZjIwLTQ3NjUtOGI2My1iYWEwNjgyZjg5OWIiXQAABiAUhRHtaDLaH5HyGWxlMYM2eK_KEBtV-qzfN-cEvD4h6A
