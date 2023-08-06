@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+list_packages/__init__.py
+list_packages/main.py
+list_packages.egg-info/PKG-INFO
+list_packages.egg-info/SOURCES.txt
+list_packages.egg-info/dependency_links.txt
+list_packages.egg-info/entry_points.txt
+list_packages.egg-info/top_level.txt
+tests/test_list_packages.py
