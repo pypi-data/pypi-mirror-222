@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/EDAeasy/__init__.py
+src/EDAeasy/config.toml
+src/EDAeasy/functions.py
+src/EDAeasy.egg-info/PKG-INFO
+src/EDAeasy.egg-info/SOURCES.txt
+src/EDAeasy.egg-info/dependency_links.txt
+src/EDAeasy.egg-info/requires.txt
+src/EDAeasy.egg-info/top_level.txt
+test/test_functions.py
