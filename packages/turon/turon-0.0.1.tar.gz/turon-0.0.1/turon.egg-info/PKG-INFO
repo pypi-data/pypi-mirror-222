@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: turon
+Version: 0.0.1
+Summary: Python iterface for turon.io
+Home-page: https://ww.github.com/tryturon/turon-py
+Author: Scott Cruwys
+Author-email: scott@turon.io
+License-File: LICENSE
