@@ -1,0 +1,5 @@
+canopen
+flask
+loguru
+natsort
+psutil
