@@ -1,0 +1,10 @@
+scrapy_custom_proxy_pool/__init__.py,sha256=9ZWWPAap4gEzsIFbgcdPppCmKMx9Je9uus8lLgWiKZU,46
+scrapy_custom_proxy_pool/middlewares.py,sha256=iKXfDMfIdFUsOr0ltUR52RF8uA8O41WgGuIicIpKjyA,11633
+scrapy_custom_proxy_pool/policy.py,sha256=Q-UmQhDbiM7_6zaYxu6RpsXTukoIazyZYI-diXrn7eA,595
+scrapy_custom_proxy_pool/collector/__init__.py,sha256=Q_D2qahk4BOLHWVztY4tsLtvbIbMuN7Lr09LXOFXa5E,63
+scrapy_custom_proxy_pool/collector/base.py,sha256=b3D2X-pYIEX8i4ZGjcYnLXLqPSpEu5378Fx5BUf49SE,4062
+scrapy_custom_proxy_pool/collector/qg.py,sha256=CUADEC96xfrGFos0gtM5BGx6QFGMIJ5DVoTspM3-lo4,2409
+scrapy_custom_proxy_pool-0.1.0.dist-info/METADATA,sha256=eMH3MIzlwiEICph-tXbr-mKgUu84xfXAKFiSYcCu_6E,2953
+scrapy_custom_proxy_pool-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scrapy_custom_proxy_pool-0.1.0.dist-info/top_level.txt,sha256=9kr95z6OxHQUVR9R3CPC9yKtcbOPaJgvaGRzinBR9ic,25
+scrapy_custom_proxy_pool-0.1.0.dist-info/RECORD,,
