@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling", "firebase_admin"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simplebase"
+version = "0.0.1"
+authors = [
+   { name="sneaky", email="24535asssci@gmail.com" },
+]
+description = "A simple package for usage of Firebase for novice Python users"
+readme = "README.md"
+requires-python = ">=3.1"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+     
