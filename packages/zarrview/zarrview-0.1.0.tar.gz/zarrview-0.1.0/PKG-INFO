@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: zarrview
+Version: 0.1.0
+Summary: PySide or PyQt tree model/view for a Zarr hierarchy.
+Home-page: https://github.com/marcel-goldschen-ohm/zarr-view
+Download-URL: 
+Author: Marcel Goldschen-Ohm
+Author-email: goldschen-ohm@utexas.edu
+Maintainer: Marcel Goldschen-Ohm
+Maintainer-email: goldschen-ohm@utexas.edu
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# zarr-view
+PySide or PyQt tree model-view for a Zarr hierarchy
