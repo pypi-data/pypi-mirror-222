@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+edgefxn/__init__.py
+edgefxn/version.py
+edgefxn.egg-info/PKG-INFO
+edgefxn.egg-info/SOURCES.txt
+edgefxn.egg-info/dependency_links.txt
+edgefxn.egg-info/requires.txt
+edgefxn.egg-info/top_level.txt
