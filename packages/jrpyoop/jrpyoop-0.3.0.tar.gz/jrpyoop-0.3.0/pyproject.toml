@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jrpyoop"
+version = "0.3.0"
+description = "Jumping Rivers: Object-Oriented Programming in Python"
+authors = ["Russ <russ@jumpingrivers.com>", "Myles <myles@jumpingrivers.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pandas = "^1.4"
+matplotlib = "^3.5"
+measurement = "^3.2"
+scikit-learn = "^1.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
