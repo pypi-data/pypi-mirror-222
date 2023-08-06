@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+aad_token_verify_kbr/__init__.py
+aad_token_verify_kbr/exceptions.py
+aad_token_verify_kbr/token_verifier.py
+aad_token_verify_kbr.egg-info/PKG-INFO
+aad_token_verify_kbr.egg-info/SOURCES.txt
+aad_token_verify_kbr.egg-info/dependency_links.txt
+aad_token_verify_kbr.egg-info/requires.txt
+aad_token_verify_kbr.egg-info/top_level.txt
