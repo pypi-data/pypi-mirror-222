@@ -1,0 +1,6 @@
+setuptools-scm
+ebs-signagenode>=3.0.8
+ebs-linuxnode-modapi>=3.1.0
+ebs-linuxnode-exim>=2.0.0
+sw-faces-connector
+sw-faces
