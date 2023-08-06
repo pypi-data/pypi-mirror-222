@@ -1,0 +1,11 @@
+map_with_stats/__init__.py,sha256=6T4Smae-H6Sa3ND-QqRaxq506ZhMn6QKxfQDE-ggbgM,60
+map_with_stats/_version.py,sha256=aDfNBQh0vsVL7CSgYEMdMUbrxVw92raLxMivH20w2A4,160
+map_with_stats/data.py,sha256=nXjoxf8PMr6TK5ALb1nG4YlBDZSlbcUN_bv01hWq8UM,2362
+map_with_stats/map.py,sha256=yViFPCjjX0vP2WOxQqYYZ35k3v--FnkEoJIcdgqFdA0,5295
+map_with_stats/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+map_with_stats/utils.py,sha256=GaQR63c2HhH7W6vYnj7_z2fnNR7map__u4xYtKXiDu0,2364
+map_with_stats-0.1.1.dist-info/LICENSE,sha256=VTxMfTihcqMK9C7bBPDj_EM4K8mioHSfXUCdixGZIaw,1071
+map_with_stats-0.1.1.dist-info/METADATA,sha256=vUx7wqAjeaPWphxQVBmymvyDzelW6ET_R7CEx0irurQ,4607
+map_with_stats-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+map_with_stats-0.1.1.dist-info/top_level.txt,sha256=_URzPrRa1xahVK6yzWyaNTrLT1L2se3muCETAoOfx0I,15
+map_with_stats-0.1.1.dist-info/RECORD,,
