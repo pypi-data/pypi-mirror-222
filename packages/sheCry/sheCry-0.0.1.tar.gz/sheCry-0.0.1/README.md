@@ -1,0 +1,42 @@
+**SHE Cryptography**
+========================
+The expansion of SHE is Symmetric Hybrid Encryption. It is a hybrid and lightweight cryptographic system that transforms plaintext into ciphertext so that secret communication is to be ensured.
+
+<a href="https://pypi.org/project/sheCry/" rel="nofollow"><img alt="Latest Version" src="https://img.shields.io/pypi/v/sheCry.svg"></a>
+<a href="https://opensource.org/licenses/" rel="nofollow"><img alt="Latest Version" src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg"></a>
+
+--------------------
+**Preface**
+--------------------
+SHE is a symmetrical cryptographic concept that ensures faster processing speed along with better security. Theoretically, a hacker needs to go for 2^256 = 1.16e+77 possible ways in terms of finding the correct key to decrypt the ciphertext if the secret key is 256 bits long and secure with a hashing function. It is by far impossible for a regular user device to solve the math. It will be needed a supercomputer to do the computation. However, a low computational powered device (e.g. IOT device) can easily handle it because of its symmetric and stream cipher architecture. Thus, it makes the algorithm faster. Also, SHE is a software and hardware-independent cryptography. Last but not least, as technology is getting revolutionized day by day, it is embracing lightweight and low-powered systems. As a matter of fact, today's cryptography also needs to be lightweight and ensure better security and performance. This is why this new innovation, SHE Cryptography can make a fruitful impact in today’s security epidemic.
+
+--------------------------------
+**Project Scenario Problem**
+--------------------------------
+Nowadays, security has become one of the most burning and sensitive issues. Confidential data is being stolen by malicious attackers rapidly. To prevent this kind of act, many security measures have been established. But “Cryptography” plays the most crucial part when we call for security. This is so because cryptography is used to protect enterprise information and communication from cyber threats through the use of codes. For example, AES and RSA are the gold standards. They are very popular and still vastly used in many renowned organizations as well as in the government. But the drawback is, AES is hardware and software dependent. So, we need to design it according to hardware and software systems. As a result, this implementation increases time and cost. Also, the attacker uses a “Side Channel Attack” to break AES. As a result, it becomes vulnerable. AES performs great in 256 bits keys and is faster in powerful devices. But if it is used in a low computational powered device then we have to use fewer bits (e.g. 64 bits), or the device could not handle the calculation of larger numbers. Thus, AES performs badly in this criterion. If we use fewer bits in AES, then a “Correlation Power Analysis Attack” is possible. So, it is not worth using AES in low computational powered devices. Whereas, RSA is slow due to its large mathematical calculation with large numbers and asymmetric mechanism. As a result, RSA fails to perform in terms of speed and low computational power. Also, the world is switching to lightweight technology day by day. IOT is the best example of it. But to secure those less powerful electronics, there is no such effective cryptographic system yet. Also, breaching the confidential data of the government and the corporate world is a very old topic and it still remains a rapid concern. So, we really need to innovate a new cryptographic algorithm that gives better results in low-power electronics and performs faster, and gives better security in sharing data. This is where lightweight cryptography SHE comes to play.
+
+----------------------------
+**Program Utilization**
+----------------------------
+* A user inputs the length of private keys and generated shared keys.
+* A user inputs message.
+* Generates prime number according to Fermat Prime Number Theorem.
+* Generates private key.
+* Generates public key according to private key.
+* Diffie-Hellman key exchange protocol is used for authenticity checking, where a sender locks the message with a receiver's public key and the receiver unlocks it with his private key.
+* The message is encrypted and decrypted by ChaCha20 algorithm.
+* Poly1305 algorithm has been used for integrity checking.
+
+--------------------------------
+**Caution**
+--------------------------------
+* SHE is absolutely not for unethical motives.
+* The message will be deleted automatically if anyone tries to alter the key.
+* Anyone can use this cryptography for free only for education, research, and further development purpose.
+
+--------------------------------
+**Do You Want To Know Me?**
+--------------------------------
+* **Call**: +8801818832925
+* **Email**: tahsin.ahmed@g.bracu.ac.bd
+* **Social Media**: <a href="https://www.facebook.com/ahmedinsider" rel="nofollow"><img alt="Facebook" src="https://img.shields.io/badge/facebook-0A66C2?style=for-the-badge&logo=facebook&logoColor=white"></a> <a href="https://www.instagram.com/ahmedinsider/" rel="nofollow"><img alt="Instagram" src="https://img.shields.io/badge/instagram-ba0ac2?style=for-the-badge&logo=instagram&logoColor=white"></a> <a href="https://twitter.com/ahmedinsiders" rel="nofollow"><img alt="Twitter" src="https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a> <a href="https://www.linkedin.com/in/ahmedinsider/" rel="nofollow"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
