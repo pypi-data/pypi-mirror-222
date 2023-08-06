@@ -1,0 +1,15 @@
+babip/__init__.py,sha256=iH_NEAvpOuxVRsTJXCy8xRPjS72E3K9TNIv7r1uhZaw,240
+babip/hyperopt/__init__.py,sha256=JSPo-AKvP3405GtqELe_L2YGOlj_7HhyG0REUX6ZscE,23
+babip/hyperopt/hyperopt.py,sha256=MQ3m5YnEApLeW6SGifoYPofYOkrUiLL1bDel2oCE7zA,640
+babip/koda/__init__.py,sha256=rnB41o5dh9-EATLz3q4oYCu6sb8MfyLNg6F2oxzKqL4,19
+babip/koda/koda.py,sha256=Vauw3ERZmG4zBGgSOCUSZf_D6uMVw7VairUoxcPpYQQ,7432
+babip/koda/wordnet.pickle,sha256=XfxhdKn0CTh2FSACfequ0q-BXxueo4mSu-NpyhbNEWU,236584
+babip/overfit/__init__.py,sha256=UqoDSmCM28VyxzSXMZroOIO4FR025Yt1zVBpl3RGV2Y,22
+babip/overfit/overfit.py,sha256=vpI6v2R7lfhFa-wpRJ9ENGSftXrc6Kv6fcf0_oEGjLs,462
+babip/rec/__init__.py,sha256=du0whoIk9dSvOiuq-LT70fkhyiCevG57A20URJOzYBk,18
+babip/rec/rec.py,sha256=KDMRrRY9htlJDP5HM_PiB8JTW8nzEX40fyUaYDjxFcA,1450
+babip/rec/stopwords.txt,sha256=UMI2Hv81IXNYYBgbfeg8cBje7tQOnxW9z9mGYscdnhY,15445
+BABIP-0.0.1.dist-info/METADATA,sha256=Ajf86Znw_2LQY1ELKFcWkJGSg1dKCKjynDjYQl4VWEI,663
+BABIP-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+BABIP-0.0.1.dist-info/top_level.txt,sha256=w04mbllwHrzyZbH7SkdpjBJNkALbTjUIZBr2L-K68YQ,6
+BABIP-0.0.1.dist-info/RECORD,,
