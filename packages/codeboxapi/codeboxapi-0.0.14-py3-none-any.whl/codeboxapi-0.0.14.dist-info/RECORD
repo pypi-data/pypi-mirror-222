@@ -1,0 +1,13 @@
+codeboxapi/__init__.py,sha256=LQT6NOco6tQHhaakvEibpidS1oNXn-bnWXrK0ciBmlY,468
+codeboxapi/box/__init__.py,sha256=eFDjj59eVzrM1gfQxGEsMt3gmBdgBIooaT5t7bYb88o,457
+codeboxapi/box/basebox.py,sha256=-MT9GO8mHMVygdNzi9g17dRN3YVsN2PfQbXO1Jgdwpk,3725
+codeboxapi/box/codebox.py,sha256=n8_g9tdBXEC95j1Tt8vfcDL2lNQWAAD-jwZYLziKYqc,7916
+codeboxapi/box/localbox.py,sha256=haB9vgNbUt-Heq6zxHU8yi3FhiarPA81z_qvwp75ddw,18541
+codeboxapi/config.py,sha256=yv2FGudP9mKV7XBoMVbOqfZh56IojZ5uDQTNNE5QZqU,511
+codeboxapi/errors.py,sha256=ORSGH2Yoz8rmWO48NAyBdgaj0b1THQUOsQDLOWUgKq0,1733
+codeboxapi/schema.py,sha256=p9JAY1XZ6kyc7I5g2h1-oRI_r9G40IfkOry6VEng104,1191
+codeboxapi/utils.py,sha256=53H06h7OUDjhCXEKxO4lKo4Dv7iOdh3e1jWfANtFw0M,4268
+codeboxapi-0.0.14.dist-info/LICENSE,sha256=aPUxKLGmbFVrSyywgg9nqFFW66E6uuRCkCuokngQPrw,1074
+codeboxapi-0.0.14.dist-info/METADATA,sha256=9PBTZz_9G-SI7ch3qXoUZnDWA027C0SloJU6lNzc_TA,2306
+codeboxapi-0.0.14.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+codeboxapi-0.0.14.dist-info/RECORD,,
