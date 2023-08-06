@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: napari-guitils
+Version: 0.1.0
+Summary: Utils to create napari guis
+Project-URL: homepage, https://github.com/guiwitz/napari-guitils
+Project-URL: repository, https://github.com/guiwitz/napari-guitils
+Author-email: Guillaume Witz <guillaume.witz@unibe.ch>
+License: BSD 3-Clause License
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: natsort
+Requires-Dist: qtpy
+Provides-Extra: test
+Requires-Dist: napari; extra == 'test'
+Requires-Dist: pyqt5; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-qt; extra == 'test'
+Requires-Dist: tox; extra == 'test'
+Description-Content-Type: text/markdown
+
+# napari-guitils
+
+[![License](https://img.shields.io/pypi/l/napari-guitils.svg?color=green)](https://github.com/guiwitz/napari-guitils/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/napari-guitils.svg?color=green)](https://pypi.org/project/napari-guitils)
+[![Python Version](https://img.shields.io/pypi/pyversions/napari-guitils.svg?color=green)](https://python.org)
+[![CI](https://github.com/guiwitz/napari-guitils/actions/workflows/ci.yml/badge.svg)](https://github.com/guiwitz/napari-guitils/actions/workflows/ci.yml)
+
+A collection of custom widgets for the development of napari plugins. Currently the collection contains:
+- ```FolderList```: a file browser to display files inside a folder and select them
+- ```TabSet```: a widget to create multiple named tabs
+- ```VHGroup```: a widget to create a sub-group of widgets with a certain layout
