@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: diseloryaPdf2md
+Version: 0.0.1
+Summary: Diselorya's PDF to Markdown tool especially for Obsidian.
+Project-URL: Homepage, https://github.com/Diselorya/pdf2md/
+Author: Diselorya
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        
+        of this software and associated documentation files (the "Software"), to deal
+        
+        in the Software without restriction, including without limitation the rights
+        
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        
+        copies of the Software, and to permit persons to whom the Software is
+        
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        
+        SOFTWARE.
+License-File: LICENSE
+Keywords: diselorya,md,obsidian,pdf,python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: diseloryahelper>=0.0.0.3
+Description-Content-Type: text/markdown
+
+# pdf2md
+
+Convert PDF to Markdown and TXT, especially for obsidian.
+
+- [x] Get content:
+    - [x] Convert text pdf.
+    - [x] Convert picture pdf by ocr.
+        - [ ] Higher OCR recognition accuracy.
+    - [x] Save pictures and insert to markdown by obsidian way.
+- [x] Fix broken sentences. (most but not 100%)
+    - [ ] Need to optimize based on more samples.
+    - [ ] AI assisted recognition of sentence breaks.
+- [x] Add headings:
+    - [x] Convert pdf bookmarks to headings.
+    - [x] Use page number as headings for picture pdf.
+        - [x] Fetch first sentence for page number headings.
+        - [ ] Compare the headers, catalog, and page numbers to identify the levels of headings.
+- [x] Filename handling:
+    - [x] Fix unsupported characters in filename.
+    - [x] Replace characters conflicting with obsidian in filename.
+- [x] Character encoding problem handling:
+    - [x] Normalise the same character but different unicode, which can't read by TTS.
+- [x] Batch convert.
+- [ ] Catalog: Replace catalog to obsidian way. (little significance)
