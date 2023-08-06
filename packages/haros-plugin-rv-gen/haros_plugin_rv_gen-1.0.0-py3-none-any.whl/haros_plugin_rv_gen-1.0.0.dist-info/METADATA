@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: haros-plugin-rv-gen
+Version: 1.0.0
+Summary: HAROS plugin to enable Runtime Verification from HPL properties
+Home-page: https://github.com/git-afsantos/haros-plugin-rv-gen
+Author: André Santos
+Author-email: haros.framework@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/git-afsantos/haros-plugin-rv-gen/
+Project-URL: Tracker, https://github.com/git-afsantos/haros-plugin-rv-gen/issues
+Keywords: haros,ros,runtime verification,runtime monitoring,code generation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: hpl-rv-ros (>=1.0.0)
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+
+# HAROS RV Generation Plugin
+
+This package provides a [HAROS](https://github.com/git-afsantos/haros) plugin to generate runtime monitors based on [HPL](https://github.com/git-afsantos/hpl-specs) specifications.
+In essence, this plugin is just a wrapper for the [HPL RV ROS](https://github.com/HAROS-framework/hpl-rv-ros) library.
+
+## Installing
+
+Installing a pre-packaged release:
+
+```bash
+pip install haros-plugin-rv-gen
+```
+
+Installing from source:
+
+```bash
+git clone https://github.com/git-afsantos/haros-plugin-rv-gen.git
+cd haros-plugin-rv-gen
+pip install -e .
+```
+
+## Usage
+
+Annotate systems and nodes with HPL properties in HAROS files to have runtime monitor generation take place.
+
+Generated monitors can be found in the `export` directory of the HAROS home directory (e.g., `~/.haros/export/haros_plugin_rv_gen`).
+
+## Bugs, Questions and Support
+
+Please use the [issue tracker](https://github.com/git-afsantos/haros-plugin-rv-gen/issues).
+
+## Contributing
+
+See [CONTRIBUTING](./CONTRIBUTING.md).
