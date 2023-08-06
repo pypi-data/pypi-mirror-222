@@ -1,0 +1,2 @@
+[nbdev]
+ibis_badge = ibis_badge._modidx:d
