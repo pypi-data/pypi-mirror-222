@@ -1,0 +1,2 @@
+[console_scripts]
+kdpeak = kdpeak.core:main
