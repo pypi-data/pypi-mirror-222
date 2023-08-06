@@ -1,0 +1,12 @@
+dispenser/__init__.py,sha256=mmeAFF8UgpPyTNY3VlhDOUcKZ_jh5utbHhcbsTeXwLk,97
+dispenser/create.py,sha256=n_3MNhOe_0Mi4IzgOp8pXcq7gHzYjQZVJfcvpkj5H5c,637
+dispenser/update.py,sha256=bdHYSp5m6AzHw321kWj8Qex-0e8divWZPDu5jax5f1I,582
+dispenser/version_base.py,sha256=5vEOeL9DwBS3hZ2R0La3UnbwyM7KrM-FUZH9MvY6ZdI,4497
+dispenser/impl/__init__.py,sha256=f6SOhgn7XvfTA-G3uakVopL4mUIoiygC-wlZrp0h6nA,362
+dispenser/impl/forge.py,sha256=Ngs868H1aQRM1ekvcFa3QQjqA_7qEI9RSUQG7cjSNHU,1856
+dispenser/impl/paper.py,sha256=97TJsdpDogyRlAPpkXhp6EpJwX7PxiSoN8D4Q8C7ZQI,1846
+dispenser/impl/vanilla.py,sha256=jqjKwHK7BlnV6fTpM00ParGMTNJ5wIOeo1SME3tYFEA,1337
+dispenser-0.3.0.dist-info/METADATA,sha256=2n50bhoIXPTpY4PFM3GepGA2DXAJIrx0lS4yJJ8y6cY,627
+dispenser-0.3.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+dispenser-0.3.0.dist-info/top_level.txt,sha256=rANN0ilpjSFRqMgABSlqWyfumQzIBoLbkkyMNK_hexc,10
+dispenser-0.3.0.dist-info/RECORD,,
