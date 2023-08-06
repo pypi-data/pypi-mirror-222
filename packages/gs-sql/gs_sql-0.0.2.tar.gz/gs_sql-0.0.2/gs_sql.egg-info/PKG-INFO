@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gs-sql
+Version: 0.0.2
+Summary: Ability to use SQL when working with GoogleSheetAPI
+Home-page: https://github.com/EvgeniBondarev/PyGoogleSheetAPI
+Download-URL: https://github.com/EvgeniBondarev/PyGoogleSheetAPI/archive/refs/heads/main.zip
+Author: EvgeniBondarev
+Author-email: bondareff7@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+
+Ability to use SQL when working with GoogleSheetAPI
