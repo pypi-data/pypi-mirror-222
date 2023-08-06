@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Python-Wars-Solo"
+version = "3.0.5"
+description = "A retro-style Apple ][ Basic game cooked up in 45 minutes."
+readme = "README.rst"
+requires-python = ">=3.8"
+authors = [
+    { name = "Daniel Roy Greenfeld", email = "pydanny@gmail.com" },
+]
+classifiers = [
+    'Development Status :: 6 - Mature',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: GNU General Public License (GPL)',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python'
+]
+
+[project.license]
+file = 'LICENSE.txt'
+
+[project.urls]
+Homepage = "https://github.com/pydanny/Python-Wars-Solo"
+Documentation = "https://github.com/pydanny/Python-Wars-Solo#readme"
+Changelog = "https://github.com/pydanny/Python-Wars-Solo/blob/main/changelog.md"
+Sponsors = "https://github.com/sponsors/pydanny"
+Issues = "https://github.com/pydanny/Python-Wars-Solo/issues"
+
+[project.scripts]
+pythonwarsolo = "go:main"
