@@ -1,0 +1,11 @@
+fairaudit/__init__.py,sha256=hLJ-nX6m4OoAR5BHx1xt9XBO1_0hFw052dzm8Azst3U,56
+fairaudit/auditor.py,sha256=oF4sN5eezJWh7eD0sY_jruVTAD8eH_rH0wf3YFtfOiQ,18142
+fairaudit/bootstrap.py,sha256=3VT5Wn2NRFVtCqFFah73epFw35KEsSGk81wq2w3a7rQ,8681
+fairaudit/flag.py,sha256=VeU3uucci5ixMaK1ThpbC34P2q1D02qQgVK5cQWszWw,730
+fairaudit/groups.py,sha256=2IeRaF16TKq9q5vI0pq_eIIvkTNDeuN3Fizuf_cv4sk,4867
+fairaudit/metrics.py,sha256=0ngrXYFr37mEdZ8Jv7EVtNKchn5fpNJZTBA-1MKT6dY,6251
+fairaudit/shifts.py,sha256=26bkacA0wZ6sib4QdTUTt6_1wlaK0lxpW7ZTUkaGQ40,3055
+fairaudit-0.0.1.dist-info/METADATA,sha256=nimdvbDdzO9yuIUYHWf-2ZratC8VaYu8H4F0r5sUdIw,11160
+fairaudit-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+fairaudit-0.0.1.dist-info/top_level.txt,sha256=u0BLIvMjxSgYs4PeMk_HS9U2qPSwtDOQg1aVuqLkiTo,10
+fairaudit-0.0.1.dist-info/RECORD,,
