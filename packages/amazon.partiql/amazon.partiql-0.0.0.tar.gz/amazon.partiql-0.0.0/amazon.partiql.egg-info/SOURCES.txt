@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+amazon.partiql.egg-info/PKG-INFO
+amazon.partiql.egg-info/SOURCES.txt
+amazon.partiql.egg-info/dependency_links.txt
+amazon.partiql.egg-info/top_level.txt
+partiql-python/__init__.py
