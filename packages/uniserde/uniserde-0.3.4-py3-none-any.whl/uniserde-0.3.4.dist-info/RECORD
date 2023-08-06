@@ -1,0 +1,17 @@
+uniserde/__init__.py,sha256=E4vPUX67OkBLINc9_mzdUbRsErtSwn5UAWtDSvqbCZI,328
+uniserde/bson_deserialize.py,sha256=5JjzO5Tf6S8xPBQdX2A3x563l_xMJWpqPBGueU_owAM,2098
+uniserde/caching_serdeserializer.py,sha256=O9phLZZSVyxoLlu5t6sD7t9sgK6ZNQJFtYGgdyYYUBk,9416
+uniserde/case_convert.py,sha256=d_eWfLaFzW2Us8JlMTDINQCdxgo-ZE9VgHJ_UG6oyfQ,1210
+uniserde/common.py,sha256=-zOoReP8_zjYdORUkppLppeS1faAlj1yxBQ7wmWC1TQ,4051
+uniserde/json_deserialize.py,sha256=oWIzqfX1tMdXOGUqRS1Wo_0ZGrVQe1oUH_h7-bvwglA,6022
+uniserde/lazy_wrapped.py,sha256=k73ekWYKtqdyjQqXgRUi4TxOgOdXj8CGWKQqpKrXXhg,600
+uniserde/objectid_proxy.py,sha256=SYwzlNbl-qYV1IpjZTXnxmnmlx1E7I61KQ_jSl7b4nc,1974
+uniserde/schema_mongodb.py,sha256=03Jx0KBNwvRkbgznHtDznj7H8Q-zwKkIln0G8EpktbA,9065
+uniserde/serde_bson.py,sha256=tk5zUZL5VPOgms19oXI9kTALk65PxE0pAn-uRDa2Y9M,2150
+uniserde/serde_class.py,sha256=t6AuMdlsl6X2thdtvKwAnKUmBkbIj4fwWLPKIvvKV2o,2670
+uniserde/serde_json.py,sha256=ksTK7DlTIhdT3gqLCOnvuVG3AM83I4N7Hm4hx6NIxXs,5688
+uniserde/typedefs.py,sha256=FLBIWQfeaAzG5PungfcjHO-MDGBrwD29iUTBfH8fjzs,487
+uniserde-0.3.4.dist-info/LICENSE,sha256=Mj7l41o1Nf7VlX7zmfV3ou8KpviRy1GJFwICfG_c5bY,1059
+uniserde-0.3.4.dist-info/METADATA,sha256=VoUWCBziz6k9yVwMbzN_yUIdWtw37O77oMcFdVUqhWA,9124
+uniserde-0.3.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+uniserde-0.3.4.dist-info/RECORD,,
