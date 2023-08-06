@@ -1,0 +1,12 @@
+seismic2dreem/__init__.py,sha256=-5nujM293A5Sxr1eCqQ2hrAPLplKDKBuCdlPZWjRpns,21
+seismic2dreem/cli.py,sha256=s4Ss5HPkaEg6tB1tgDEi517v6MAWUerb7yvy_IBNm6k,666
+seismic2dreem/dump.py,sha256=jnYDlPGLC7c1wr_EJ1AqhPVuz7IZA5nGdE-VnrWYC7U,1846
+seismic2dreem/main.py,sha256=WCqbM45phiLnerhuPqlZAY13tZOBds4LQoniJQmeF-I,2799
+seismic2dreem/path.py,sha256=moe-8MvFQQfeoGmriwKCLtjISbGimDL8KLVpXfGTnJM,2151
+seismic2dreem/translation.py,sha256=4Sp9N0nz8QTyazuQ4LWLADcL3p7nCX38D3uw2N28BUg,1421
+seismic2dreem-0.0.1.dist-info/LICENSE,sha256=Hz4DD3Xt3SbrwY1GC2KCsLREW4LXe8JkfIXft78PXDM,1068
+seismic2dreem-0.0.1.dist-info/METADATA,sha256=XzGvlM63X35E4kC_pyd7mSGYl392NZ6AbT5weQa6NT8,352
+seismic2dreem-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+seismic2dreem-0.0.1.dist-info/entry_points.txt,sha256=eQxDMaFRs7wK9MU14ZcUgEe4X27nmCxvY-a2wq_7itc,56
+seismic2dreem-0.0.1.dist-info/top_level.txt,sha256=pXhAX5jvAkNRVI3TJ8Ajr43x43QiyEM4B7y6qKODAZU,14
+seismic2dreem-0.0.1.dist-info/RECORD,,
