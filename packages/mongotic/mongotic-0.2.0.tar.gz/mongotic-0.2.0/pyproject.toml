@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "mongotic"
+version = "0.2.0"
+description = "The concept of MongoDB, SQLAlchemy and Pydantic."
+authors = ["Allen Chou <f1470891079@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["mongodb", "sqlalchemy", "pydantic"]
+homepage = "https://github.com/dockhardman/mongotic"
+repository = "https://github.com/dockhardman/mongotic"
+documentation = "https://github.com/dockhardman/mongotic"
+
+[tool.poetry.dependencies]
+python = ">=3.7.0,<4.0.0"
+pydantic = "^2"
+pymongo = "^4"
+pyassorted = "^0.7.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
+pytest = "*"
+pytest-dotenv = "*"
+
+[tool.pytest.ini_options]
+env_files = ".env"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
