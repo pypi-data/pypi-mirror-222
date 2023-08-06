@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: saywoof
+Version: 0.1.0
+Summary: An easy to use wrapper for the BARK text-to-speech engine
+Author: Connor Etherington
+Author-email: connor@concise.cc
+Requires-Dist: pyaudio
+Requires-Dist: numpy
+Requires-Dist: soundfile
+Requires-Dist: transformers
+Requires-Dist: saywoof
+Requires-Dist: colr
+Requires-Dist: argparse
+
