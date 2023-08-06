@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+alfonsopdf/__init__.py
+alfonsopdf/pdf2image.py
+alfonsopdf/pdf2text.py
+alfonsopdf.egg-info/PKG-INFO
+alfonsopdf.egg-info/SOURCES.txt
+alfonsopdf.egg-info/dependency_links.txt
+alfonsopdf.egg-info/top_level.txt
