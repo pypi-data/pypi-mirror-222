@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pfb-clean
+Version: 0.0.1
+Summary: Pre-conditioned forward-backward CLEAN algorithm
+Home-page: https://github.com/ratt-ru/pfb-clean
+Author: Landman Bester
+Author-email: lbester@sarao.ac.za
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: ipython
+Requires-Dist: scikit-image
+Requires-Dist: dask[distributed]
+Requires-Dist: PyWavelets
+Requires-Dist: katbeam
+Requires-Dist: pytest (>=6.2.2)
+Requires-Dist: numexpr
+Requires-Dist: pyscilog (>=0.1.2)
+Requires-Dist: Click
+Requires-Dist: omegaconf
+Requires-Dist: codex-africanus[astropy,dask,ducc0,python-casacore,scipy]
+Requires-Dist: dask-ms[s3,xarray,zarr]
+Requires-Dist: stimela (==2.0rc6)
+Requires-Dist: QuartiCal
+Requires-Dist: sympy
+
+pfb-clean
+=========
+Preconditioned forward-backward clean algorithm.
+
+Install the package by cloning and running
+
+:code:`$ pip install -e pfb-clean/`
+
+Note casacore needs to be installed on the system for this to work.
+
+You may also need to update pip eg.
+
+:code:`$ pip install -U pip setuptools wheel`
+
+It is strongly recommended to install ducc in no binary mode eg
+
+:code:`$ git clone https://gitlab.mpcdf.mpg.de/mtr/ducc.git`
+:code:`$ pip install -e ducc`
+
+If you find any of this useful please cite (for now)
+
+https://arxiv.org/abs/2101.08072
