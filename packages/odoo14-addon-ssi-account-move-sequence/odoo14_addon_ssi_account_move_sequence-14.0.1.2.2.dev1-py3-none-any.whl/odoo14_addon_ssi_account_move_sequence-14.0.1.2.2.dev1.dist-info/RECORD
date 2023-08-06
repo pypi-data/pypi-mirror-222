@@ -1,0 +1,14 @@
+odoo/addons/ssi_account_move_sequence/README.rst,sha256=yNhV-8A7LiTuvh-RR8BD25Vtf8iZCKNKgxYMwXcB10U,1322
+odoo/addons/ssi_account_move_sequence/__init__.py,sha256=VAkFvJXefoz7CVUwbL97HBfpLAYmvQPYXfYs71LOpzU,181
+odoo/addons/ssi_account_move_sequence/__manifest__.py,sha256=LJnUSQtwYieNK0Woj4R-5DR_67d-gSnC9EshIm9fpfI,669
+odoo/addons/ssi_account_move_sequence/data/ir_sequence_data.xml,sha256=LqYm-eNRFWsaF35OwjChO3q38cqib2O62e6ev1FGf1I,654
+odoo/addons/ssi_account_move_sequence/data/sequence_template_data.xml,sha256=OWrqw3742VXQdoN1iaIPngnn_wInn0-MC4NXzLZ7vvc,1156
+odoo/addons/ssi_account_move_sequence/models/__init__.py,sha256=Lud4w9sdc0VyIaUuB4MmcXiXi06oQqViRIIm8Rm-tkc,208
+odoo/addons/ssi_account_move_sequence/models/account_journal.py,sha256=d2ilOe64aPsbRRePwMB7tF9-i1Ym9KZmXVuC_qd6YdU,435
+odoo/addons/ssi_account_move_sequence/models/account_move.py,sha256=j2lW4_5z8C6AdIi8cyqWWCRV-Tr7-HMnUbe54GdgVaY,1457
+odoo/addons/ssi_account_move_sequence/static/description/icon.png,sha256=CpId0qOmE_kOgOCnu0lg1bR8-JIABlXh2GlO0lmgcfI,19838
+odoo/addons/ssi_account_move_sequence/views/account_journal_views.xml,sha256=AhkSi3BxI7OBL6kP7Dv_5hDm9Qt_bSCktCdCSpY-N9U,602
+odoo14_addon_ssi_account_move_sequence-14.0.1.2.2.dev1.dist-info/METADATA,sha256=NZ_hyT9nzAe5NeVeKW6Rz19KeLS0uxiXKiu8zeHcsR0,1901
+odoo14_addon_ssi_account_move_sequence-14.0.1.2.2.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_account_move_sequence-14.0.1.2.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_account_move_sequence-14.0.1.2.2.dev1.dist-info/RECORD,,
