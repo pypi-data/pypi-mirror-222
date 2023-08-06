@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: edgefxn
+Version: 0.0.1
+Summary: AI prediction functions at the edge.
+Home-page: https://fxn.ai
+Author: NatML Inc.
+Author-email: hi@fxn.ai
+License: Apache License 2.0
+Project-URL: Documentation, https://docs.fxn.ai
+Project-URL: Source, https://github.com/fxnai/edgefxn
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fxn
+
+# Edge Function
+🤫
+
