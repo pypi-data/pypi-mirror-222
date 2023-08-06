@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: newbee
+Version: 0.0.1b0
+Summary: newbee
+Project-URL: Source, https://github.com/wh1isper/newbee
+Author-email: wh1isper <9573586@qq.com>
+License: BSD license
+License-File: LICENSE
+Keywords: newbee
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+![](https://github.com/Wh1isper/newbee/actions/workflows/python-package.yml/badge.svg)
+![](https://img.shields.io/pypi/dm/newbee)
+![](https://img.shields.io/github/last-commit/wh1isper/newbee)
+![](https://img.shields.io/pypi/pyversions/newbee)
+![](https://img.shields.io/github/license/wh1isper/newbee)
+![](https://img.shields.io/github/v/release/wh1isper/newbee?logo=github)
+![](https://img.shields.io/github/v/release/wh1isper/newbee?include_prereleases&label=pre-release&logo=github)
+
+
+# newbee
+
+## Install
+
+`pip install newbee`
+
+## Usage
+
+
+## Develop
+
+Install pre-commit before commit
+
+```
+pip install pre-commit
+pre-commit install
+```
+
+Install package locally
+
+```
+pip install -e .[test]
+```
+
+Run unit-test before PR, **ensure that new features are covered by unit tests**
+
+```
+pytest -v
+```
