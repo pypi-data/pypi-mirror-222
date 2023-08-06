@@ -1,0 +1,12 @@
+cwtune/__init__.py,sha256=Qo4uIuMYr2lN4s934_D7rdBBHIhUPqErLg672O5v8HY,123
+cwtune/analyze.py,sha256=qLANFGcrsW5_q5SIfm4pIFFc7Gp1x6m_-wc6hIImFBU,9129
+cwtune/aws.py,sha256=G-eyzAen9FrkIi-uzjgReQI_EduK4sdS5M5KE6Qfwcc,5600
+cwtune/cli.py,sha256=tOAN2rs13f8wKlORMRjBzWOe8QWPMKtUEjSPnTlhMG0,1067
+cwtune/timeseries.py,sha256=-o6X_ueieYQXPzQXvp7zYgoKQq9sEmgFPhAGUnzM8Ks,2400
+cwtune/utils.py,sha256=SIL-Um0HjG6oQ9aSznQUrdmbNyhJqju_rLbWS50aje8,2760
+cwtune-0.1.16.dist-info/LICENSE,sha256=o7ZdmW12DCe7fMPoBl9nlvDGWrRhubk6hyZPeGpX_LY,1070
+cwtune-0.1.16.dist-info/METADATA,sha256=_UymnKeQuV_rqTkPvIVcHUn5cZBEOsp3qD6gNFji1IU,1669
+cwtune-0.1.16.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+cwtune-0.1.16.dist-info/entry_points.txt,sha256=3nR7OMelA0L9huc5-RrvS76HHYp_HbXZtNEMaQU4QwU,43
+cwtune-0.1.16.dist-info/top_level.txt,sha256=5VUydBPwEQQbpTxueRrPq6lnbTpwXmv1vPOGt9fZFHQ,7
+cwtune-0.1.16.dist-info/RECORD,,
