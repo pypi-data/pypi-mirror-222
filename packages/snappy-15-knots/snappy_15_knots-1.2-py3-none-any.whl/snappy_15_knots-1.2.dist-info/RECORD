@@ -1,0 +1,10 @@
+snappy_15_knots/__init__.py,sha256=2TBIUo5vNda5pDtTUuJU6Zg2FToBYDx-a5fWt_ZUlxI,124
+snappy_15_knots/database.py,sha256=GYjToOIovrGbmdTqkczAPdSA2Oku6V26LXAmzGmbMwo,7611
+snappy_15_knots/test.py,sha256=TT2mcfpLDqcgfCRMTAqyLr7XCqlIdny2Sfkz_QcPoXo,574
+snappy_15_knots/sqlite_files/15_knots.sqlite,sha256=C9phCNnxUSjSbrWggXjSNk7i7YhDemwbyV8gb-5VKCM,115863552
+snappy_15_knots/sqlite_files/__init__.py,sha256=uhR3ruY60qzxIs72xF6Vb7IefCsWR6iQc6len_zwqmI,65
+snappy_15_knots/sqlite_files/make_sqlite_db.py,sha256=mSLRZVJ5viuG7GhDp5-MtQaXEGLHv7kXdZRzyIauhgo,3817
+snappy_15_knots-1.2.dist-info/METADATA,sha256=v80ErXRr-8mK5QBKV1XbAW9Ig1cRFOGA0xUQb6e5AJE,873
+snappy_15_knots-1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+snappy_15_knots-1.2.dist-info/top_level.txt,sha256=92RF5qQ5aK6K53rkXnEpr1sHU-MpBS-ROsswUiG8Wb8,45
+snappy_15_knots-1.2.dist-info/RECORD,,
