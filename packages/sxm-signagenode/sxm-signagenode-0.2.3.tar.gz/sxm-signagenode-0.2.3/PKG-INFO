@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sxm-signagenode
+Version: 0.2.3
+Summary: Generic StarXMedia Signage Node
+Home-page: https://github.com/starxmedia/sxm-signagenode
+Author: Chintalagiri Shashank
+Author-email: shashank.chintalagiri@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: POSIX :: Linux

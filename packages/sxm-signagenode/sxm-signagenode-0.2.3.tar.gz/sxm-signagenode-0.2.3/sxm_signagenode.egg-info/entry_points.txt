@@ -1,0 +1,2 @@
+[console_scripts]
+sxm-signagenode = sxm.runnode:run_node
