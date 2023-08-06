@@ -1,0 +1,16 @@
+seagoat/__init__.py,sha256=S5bBAK8bL7bybaXGJQuNE98fa3H65zGjTASMiyKGJGw,22
+seagoat/cache.py,sha256=cf0LEVI_1j-15heKj7ur1_H7TplCtZX9q_xI-JN1_P8,1601
+seagoat/cli.py,sha256=JgyRP4YWJ8q8ZQGYMjWI7yUR3uSG56V-Qd2qbou6Hno,2901
+seagoat/common.py,sha256=li24BagVcM3UuIc0YCVIulP5989ZFs0CMOIZcdufmts,196
+seagoat/engine.py,sha256=dW2KUJslXr4rUiTz4i7CIekezKZCPvn5X1dlZeKzEyc,4424
+seagoat/file.py,sha256=9O3rxf4VEaOK0ljoqNjvCh2BS5uYD5Z2wr6q46Sbr48,3492
+seagoat/repository.py,sha256=TbIbBYw1vIoVVAPYO11V3u89wtmqZqutQnQUZe4RFMU,2689
+seagoat/result.py,sha256=COxn45WjXnl9IYxsfhyjobWzzkxg4NOVui2pNtC1NlE,2021
+seagoat/server.py,sha256=LydSOh3YkmpPdRgwnUdtVlfqq1-txhpVF0nauQzRWuo,5766
+seagoat/sources/chroma.py,sha256=RvdSybSW7QqFCBYt-IF1gKUy01jEkzER8kuIh3V8bgM,1692
+seagoat/sources/ripgrep.py,sha256=LZyAouZOEKetvRGCyIrIuWZ-FGxTqCoHWghWqXZ6aE4,1105
+seagoat-0.8.8.dist-info/LICENSE,sha256=MvSRkeXpQHURAZ1odfBt_Bjc29A_V_r4OohwGuVLWPk,1070
+seagoat-0.8.8.dist-info/METADATA,sha256=-8M4_o4K9W0i-bHd88Pn6lLaS8uYSd8Wnt5rOoJvbEc,2861
+seagoat-0.8.8.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+seagoat-0.8.8.dist-info/entry_points.txt,sha256=b89Kx23752GQdbGo_fBuwIgqc2s5RZ_xF0HJfSj2b_Y,107
+seagoat-0.8.8.dist-info/RECORD,,
