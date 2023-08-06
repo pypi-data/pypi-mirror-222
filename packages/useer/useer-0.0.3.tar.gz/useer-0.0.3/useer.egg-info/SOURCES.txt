@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+useer/__init__.py
+useer.egg-info/PKG-INFO
+useer.egg-info/SOURCES.txt
+useer.egg-info/dependency_links.txt
+useer.egg-info/not-zip-safe
+useer.egg-info/top_level.txt
+useer/pysparklib/__init__.py
+useer/pysparklib/exceptions.py
+useer/pysparklib/ml/__init__.py
+useer/pysparklib/pmml/__init__.py
+useer/utils/__init__.py
+useer/utils/demo.py
+useer/utils/seer_util.py
