@@ -1,0 +1,3 @@
+requests<3,>=2.19.0
+semantic_version<3,>=2.8.1
+virtualenv
