@@ -1,0 +1,4 @@
+[console_scripts]
+mmt=mwaamt.flow:cli_script
+mwaamt=mwaamt.flow:cli_script
+

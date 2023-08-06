@@ -1,0 +1,15 @@
+mwaamt/.gitignore,sha256=rRKHp-1unciWR4i1J7tGQ9s4qsNw3SN96uhCr8UKzOs,25
+mwaamt/LICENSE.txt,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+mwaamt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mwaamt/datahandle.py,sha256=xJL8AF2mN0z8xPi0QBYGPudDJyvzf-TtgTU5EGaJX_I,6224
+mwaamt/flow.py,sha256=NeQ8f3K9GXdFV-RF78Tay0RFRHIrHciVQTXOWSrpbIc,42978
+mwaamt/funk.py,sha256=E4_ZJNYKa4WLx2QUMYQ36sPr7aJw-SwCrM2mnwBsvWQ,2088
+mwaamt/files/config.json,sha256=xqRWIHWfb3v048MgHmiEEt2IdoSkA6e4WSEM8TWLqWg,651
+mwaamt/files/m_paper_config.json,sha256=gBuPuYOTonFjRBbs8fAcCurhdNlf8ZzFwt8dUC7Wqh4,755
+mwaamt/files/p_paper_config.json,sha256=0UGWrtIq3yudgheo7Tbdjcf9HkOSrJTSC8a1EG3FOzM,747
+mwaamt/files/.ipynb_checkpoints/fitres-checkpoint.csv,sha256=KN15WslgiPkrXV267TLdGeXyCTgHbuS8ZcLbH0vipzM,8233
+mwaamt/files/.ipynb_checkpoints/plot_alphabrc-checkpoint.ipynb,sha256=SmK2imM9ecU6b9iJPo6kLc8rmoo-kHsbmGFmHwTyFRc,72
+mwaamt-0.9.9.dist-info/entry_points.txt,sha256=C3qR6W3cWWI-cD9VlREb-6RjnjaQuYkKTk17UoIOT3Q,76
+mwaamt-0.9.9.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+mwaamt-0.9.9.dist-info/METADATA,sha256=KtrW9XpfC6DBWw9e54YFnyuH8ChZ5LAk6_bEcU-lAtQ,651
+mwaamt-0.9.9.dist-info/RECORD,,
