@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+scrapifurs/GPTinstructions.py
+scrapifurs/__init__.py
+scrapifurs/tempCodeRunnerFile.py
+scrapifurs/utils.py
+scrapifurs/working_example.py
+scrapifurs.egg-info/PKG-INFO
+scrapifurs.egg-info/SOURCES.txt
+scrapifurs.egg-info/dependency_links.txt
+scrapifurs.egg-info/top_level.txt
+tests/__init__.py
