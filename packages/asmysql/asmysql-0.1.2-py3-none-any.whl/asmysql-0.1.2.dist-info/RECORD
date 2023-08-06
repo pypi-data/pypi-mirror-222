@@ -1,0 +1,10 @@
+CHANGELOG.md,sha256=jfwQBiSj54dxTqxYwI6Z74GgqMKE_ziU4QZ-ekKMCwQ,510
+README_zh.md,sha256=E_CLhPbA6WVfui-HB505LUpSpHjaQrthrVj6holA0jk,1698
+asmysql/__cursor_client.py,sha256=13UXFmeV72T1N8tFAIsmTI3RqfmSjZdGL93TiDYzWTA,1530
+asmysql/__init__.py,sha256=pDAmbtlXoH4na5CsRVjS_IxOZAvB7a7Hdw0RS3O2IiU,58
+asmysql/_asmysql.py,sha256=5ZBNVoJZSQs9U7051MUDuNw0xi3YhZ72zW-nhPFvrnQ,3614
+asmysql/_result.py,sha256=5N3hN8MdiQkWQlY5hCcuHwCI_2q2_L6mji9Id-0zU7Q,1685
+asmysql-0.1.2.dist-info/LICENSE,sha256=njZTgwUiN7G5eaBJJw1sIIgDjdXu6fh_8Q1ZIFMm68o,1063
+asmysql-0.1.2.dist-info/METADATA,sha256=qbsLtUSJDs0z5amYgT0qXcMXsSmoWPmwKmS27Foz1LA,2529
+asmysql-0.1.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+asmysql-0.1.2.dist-info/RECORD,,
