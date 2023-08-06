@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+silhouette2wireframe/__init__.py
+silhouette2wireframe/silhouette2wireframe.py
+silhouette2wireframe.egg-info/PKG-INFO
+silhouette2wireframe.egg-info/SOURCES.txt
+silhouette2wireframe.egg-info/dependency_links.txt
+silhouette2wireframe.egg-info/requires.txt
+silhouette2wireframe.egg-info/top_level.txt
