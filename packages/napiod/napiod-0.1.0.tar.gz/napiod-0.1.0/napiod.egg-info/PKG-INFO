@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: napiod
+Version: 0.1.0
+Summary: Non-average price impact in order driven markets
+Author-email: Claudio Bellani <claudio.bellani01@gmail.com>
+License-File: LICENSE
