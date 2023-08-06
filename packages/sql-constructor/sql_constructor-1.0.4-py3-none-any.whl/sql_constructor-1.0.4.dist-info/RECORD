@@ -1,0 +1,12 @@
+sql_constructor/__init__.py,sha256=37yJPMhS35Eui-yZQggyadKuPmuBbC-Qfblsba3XYZk,252
+sql_constructor/constants.py,sha256=I1E95Oh7V1GmN07POtXUGG4ePSgO56-_fXE61O8mK44,2404
+sql_constructor/helpers.py,sha256=YhPgMMtgGyPkwrvy7rwvMm1mgvJeXFsBTOjk6YnanXI,744
+sql_constructor/sql_container.py,sha256=JHz6Tq7p-H2_sk9xXtOm4VRkpRJsf1tN5jsuMtmDstE,5124
+sql_constructor/sql_cte.py,sha256=jJJISwHgeiVknAJb7ATOCKCPUyV5v9dg4MEp9isEVxc,1925
+sql_constructor/sql_query.py,sha256=qXQc4WPdbby-QZGx3aW8cv6w0nw_G9wnz1J3u3hbhQE,5458
+sql_constructor/sql_section.py,sha256=LBtPH54PRJJAc2l2RUI7m98-r4P26Qt2y-1b8c2Qcts,3893
+sql_constructor-1.0.4.dist-info/LICENSE,sha256=zK2_hGwSYJKI9C3DS-0F_jnaJMrPQaOTK1mvyAZyQ1I,1071
+sql_constructor-1.0.4.dist-info/METADATA,sha256=X7I0BlVqtJPiv3pU0hLL3lWGqfYAoA-WbfAdnbHPgPE,4740
+sql_constructor-1.0.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+sql_constructor-1.0.4.dist-info/top_level.txt,sha256=tDhbnFF9cpkUuYZc5ReYHkqbMJkuyv7zZJaLSXFZ58E,16
+sql_constructor-1.0.4.dist-info/RECORD,,
