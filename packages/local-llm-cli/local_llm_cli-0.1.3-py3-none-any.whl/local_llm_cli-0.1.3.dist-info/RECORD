@@ -1,0 +1,7 @@
+local_llm_cli/__init__.py,sha256=sZCI8Yy8T4FtPkdVWh-f5-eTzJKzjl8Tk0ppekrZwQI,41
+local_llm_cli/converse/__init__.py,sha256=yRDER-HDicyy_CV2EgWNVGHuDb7W_Y5mqQ5GrIU1G-M,35
+local_llm_cli/converse/chat.py,sha256=AYKYZGCkWCL2mG2wrwDLFI9R2qDR-3wFk-3uH-L3A0M,742
+local_llm_cli-0.1.3.dist-info/METADATA,sha256=IPSyy_L43-tdzuDQ5lVHYQRHxhM_C4ng6zgPdk71b0U,2122
+local_llm_cli-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+local_llm_cli-0.1.3.dist-info/top_level.txt,sha256=su0ZFSbWCSLlLjBvS2i6VclLb4AkH0o2mFgYrEgI5TA,14
+local_llm_cli-0.1.3.dist-info/RECORD,,
