@@ -1,0 +1,7 @@
+README
+setup.py
+pygpt4.egg-info/PKG-INFO
+pygpt4.egg-info/SOURCES.txt
+pygpt4.egg-info/dependency_links.txt
+pygpt4.egg-info/requires.txt
+pygpt4.egg-info/top_level.txt
