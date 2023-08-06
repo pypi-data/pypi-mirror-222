@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-buff
+Version: 0.2.1
+Summary: 实时爬取BUFF饰品价格
+License: MIT
+Author: Sydrr0
+Author-email: 2562312527@qq.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: nonebot2 (>=2.0.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# 欢迎使用 nonebot_plugin_buff
+![image](https://usercontent.githubfast.com/avatars/u/129657153?v=4)
+![tip](https://badgen.net/badge/python/3.8+/orange?i)  ![tip](https://badgen.net/badge/windows/10+/green?i)  ![tip](https://badgen.net/badge/ubuntu/20.04+/pink?i) 
+
+## 使用方法
+
+ 1. 先安装**nonebot_plugin_buff**
+ 2. 启用此插件，具体请看**nonebot**官网文档
+ 3. 在入口文件下面的**search_data**目录下添加最新的**data.txt**
+ 4. 发送 **查询/查 xxx** ，然后跟随bot指令即可查询价格
+
+ ## 附件
+data.txt下载地址：[Release最新版本下载地址](https://github.com/Sydrr0/nonebot-plugin-buff/releases/tag/v0.2.0)
+
+联系QQ：**2562312527**
+
