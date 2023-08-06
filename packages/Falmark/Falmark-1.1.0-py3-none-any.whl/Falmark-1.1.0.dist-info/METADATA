@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: Falmark
+Version: 1.1.0
+Requires-Dist: psycopg2-binary (>=2.8)
+
