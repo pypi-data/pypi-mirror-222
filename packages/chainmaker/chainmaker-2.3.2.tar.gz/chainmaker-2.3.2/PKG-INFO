@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: chainmaker
+Version: 2.3.2
+Summary: ChainMaker Python SDK
+Home-page: https://git.chainmaker.org.cn/chainmaker/chainmaker-sdk-python.git
+Author: The THL chainmaker developers
+Author-email: operation@chainmaker.org
+License: Apache-2.0
+License-File: LICENSE
+License-File: NOTICE
