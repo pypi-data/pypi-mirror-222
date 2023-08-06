@@ -1,0 +1,7 @@
+README.md
+setup.py
+passwordless_client.egg-info/PKG-INFO
+passwordless_client.egg-info/SOURCES.txt
+passwordless_client.egg-info/dependency_links.txt
+passwordless_client.egg-info/requires.txt
+passwordless_client.egg-info/top_level.txt
