@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: open-api-maker-kamaalio
+Version: 0.0.2
+Summary: A package that transforms Swagger to OpenAPI.
+Author-email: Kamaal Farah <kamaal.f1@gmail.com>
+Project-URL: Homepage, https://github.com/kamaal111/open-api-maker
+Project-URL: Bug Tracker, https://github.com/kamaal111/open-api-maker/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Open API Maker
