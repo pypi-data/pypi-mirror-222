@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=67.8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymasep"
+version = "0.0.1"
+authors = [
+  { name="Julien Laumonier", email="laumonierjulien@gmail.com" },
+]
+description = "Multiagent system engine plateform library in python"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/jlaumonier/pymasep"
+"Bug Tracker" = "https://gitlab.com/jlaumonier/pymasep/-/issues"
+"Documentation" = "https://pymasep.readthedocs.io/en/latest/"
