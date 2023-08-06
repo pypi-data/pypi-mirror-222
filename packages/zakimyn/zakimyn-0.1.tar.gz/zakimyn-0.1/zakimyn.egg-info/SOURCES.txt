@@ -1,0 +1,11 @@
+setup.py
+graphic/__init__.py
+graphic/screen.py
+play/__init__.py
+play/run.py
+sound/__init__.py
+sound/echo.py
+zakimyn.egg-info/PKG-INFO
+zakimyn.egg-info/SOURCES.txt
+zakimyn.egg-info/dependency_links.txt
+zakimyn.egg-info/top_level.txt
