@@ -1,0 +1,19 @@
+# testing
+sympy
+pytest
+coverage
+tox>=4.2
+ipython
+qiskit-qasm3-import
+qiskit-braket-provider
+
+# docs
+sphinx
+sphinx-autodoc-typehints
+sphinx-rtd-theme
+docutils<0.17
+
+# linters
+isort
+pylint
+black
