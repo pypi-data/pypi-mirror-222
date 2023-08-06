@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: anakin
+Version: 1.0.1
+Summary: Anakin Command Line Utility
+Home-page: https://github.com/z10mx7/anakin
+Author: z10mx7
+Author-email: z10mx7@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+Add a long description here if you want.

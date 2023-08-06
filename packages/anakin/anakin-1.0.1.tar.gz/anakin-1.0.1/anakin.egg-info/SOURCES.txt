@@ -1,0 +1,7 @@
+setup.py
+anakin.egg-info/PKG-INFO
+anakin.egg-info/SOURCES.txt
+anakin.egg-info/dependency_links.txt
+anakin.egg-info/entry_points.txt
+anakin.egg-info/requires.txt
+anakin.egg-info/top_level.txt
