@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Metadata Management</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      .instructions {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+
+      .back-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ccc;
+        color: #333;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="instructions">
+      <h2>Download Metadata</h2>
+      <p>Enter the schema id and click the "Download" button to download a metadata file.</p>
+      <p>
+        Please ensure the file follows the specified format and contains
+        accurate metadata information.
+      </p>
+      <div>
+        <input id="schema_id" type="text" value="106788">
+        <p>
+          <a
+          id="download_link"
+          href="{{ url_for('alation_metadata_excel_file_download', schema_id=0) }}"
+          class="button"
+          target="_blank"
+          onclick="updateDownloadLink()"
+          >Download</a>
+      </p>
+    </div>
+    <div>
+      <p>
+        <button class="back-button" onclick="goBack()">Back</button>
+      </p>
+    </div>
+    <script>
+      // Set textbox value from URL parameter or default to '106788'
+      document.getElementById('schema_id').value = new URLSearchParams(window.location.search).get('schema_id') || '106788';
+
+      function updateDownloadLink() {
+        var schema_id = document.getElementById('schema_id').value;
+        var base_url = "{{ url_for('alation_metadata_excel_file_download', schema_id=0) }}";
+        var download_link = document.getElementById('download_link');
+        download_link.href = base_url.slice(0, base_url.lastIndexOf('/') + 1) + schema_id;
+      }
+
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>
+
