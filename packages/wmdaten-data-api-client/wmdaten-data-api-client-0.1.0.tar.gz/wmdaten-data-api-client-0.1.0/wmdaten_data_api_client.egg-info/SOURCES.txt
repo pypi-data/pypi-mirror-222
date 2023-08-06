@@ -1,0 +1,5 @@
+pyproject.toml
+wmdaten_data_api_client.egg-info/PKG-INFO
+wmdaten_data_api_client.egg-info/SOURCES.txt
+wmdaten_data_api_client.egg-info/dependency_links.txt
+wmdaten_data_api_client.egg-info/top_level.txt
