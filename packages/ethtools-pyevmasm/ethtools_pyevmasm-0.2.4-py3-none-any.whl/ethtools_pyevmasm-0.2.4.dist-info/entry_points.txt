@@ -1,0 +1,2 @@
+[console_scripts]
+evmasm = pyevmasm.__main__:main
