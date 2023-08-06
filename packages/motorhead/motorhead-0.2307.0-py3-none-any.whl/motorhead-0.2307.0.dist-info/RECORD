@@ -1,0 +1,16 @@
+motorhead/__init__.py,sha256=eYj43S_rP3HiqvCAnAOCWte3x68IVj9pLJgJ1FIYkkU,1657
+motorhead/bound_method_wrapper.py,sha256=kPkry4sJiUUo6iDjcfoGIOpPWQcNopJIASMkZfIV5Wo,3145
+motorhead/delete_rule.py,sha256=f8IRJjrJEOtyxZRFpH_v5QEuVFBp-mL1ZMJQPbY4bQQ,2631
+motorhead/model/__init__.py,sha256=X6w46PQBjUL7p4QfhBNv0NREjSbgvuyk21d9nrp8CEs,259
+motorhead/model/deleteresultmodel.py,sha256=lCITpMawTcCOaBWS3YvEX0Pfz7Ex4hT3G16cgUKGicE,133
+motorhead/model/document.py,sha256=WRyS2b0mFmf8SuhLpaJsIcAz8DCBZASjrOMOXvwxj3E,716
+motorhead/model/objectid.py,sha256=FFXY6AUYhdujnoxRsUbxM5Ka4pN8PI9wE-6LU_1YvX8,1677
+motorhead/model/utcdatetime.py,sha256=Lz2PYoSoBr0azUTDT9NAnSyd7HcFELJX9BuCCEadYuw,877
+motorhead/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+motorhead/service.py,sha256=3pcjixZKPy4uWAeXZ-UVVhzaqSV2A7hiD3PMJvxPZys,28158
+motorhead/typing.py,sha256=uOugh-ZMQdVVfUwXOqU4j1g2lcJlP0qP1-uJILn_As8,5705
+motorhead/validator.py,sha256=DHwcTQBd4vP_0w3skCMy8tdmhXscyiJmsRHnR8xuzu8,1631
+motorhead-0.2307.0.dist-info/LICENSE,sha256=XmPJkcsIJURqMKLYoaTkXp-WvaLXZ9e1nsHmQoP6Gqw,1067
+motorhead-0.2307.0.dist-info/METADATA,sha256=9QXIbJDCt5118Cjpqu2mpwJ2Q36q9Zg8advk5YPfHGc,2558
+motorhead-0.2307.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+motorhead-0.2307.0.dist-info/RECORD,,
