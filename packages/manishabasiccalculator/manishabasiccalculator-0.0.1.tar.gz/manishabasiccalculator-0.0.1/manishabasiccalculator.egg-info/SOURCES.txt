@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+manishabasiccalculator/__init__.py
+manishabasiccalculator.egg-info/PKG-INFO
+manishabasiccalculator.egg-info/SOURCES.txt
+manishabasiccalculator.egg-info/dependency_links.txt
+manishabasiccalculator.egg-info/top_level.txt
