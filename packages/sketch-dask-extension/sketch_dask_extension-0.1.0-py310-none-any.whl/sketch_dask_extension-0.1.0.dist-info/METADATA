@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: sketch-dask-extension
+Version: 0.1.0
+Summary: Extension to support Dask Dataframes on Sketch
+Author-email: YData <opensource@ydata.ai>
+License: MIT License
+        
+        Copyright (c) 2019 YData, Lda.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Home, https://github.com/ydataai/sketch-dask-extension
+Keywords: data,sketch,model,etl,automatic,join,ai,embedding,profiling,dask,dataframe
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dask (>=2023.5.0)
+Requires-Dist: sketch (>=0.4.2)
+Provides-Extra: dev
+Requires-Dist: pylint (==2.15.10) ; extra == 'dev'
+Requires-Dist: black (==22.8.0) ; extra == 'dev'
+Requires-Dist: flake8 (==6.0.0) ; extra == 'dev'
+Requires-Dist: isort (==5.11.3) ; extra == 'dev'
+Requires-Dist: pre-commit (==2.20.0) ; extra == 'dev'
+Provides-Extra: packaging
+Requires-Dist: twine ; extra == 'packaging'
+Requires-Dist: build ; extra == 'packaging'
+Requires-Dist: pyc-wheel ; extra == 'packaging'
+Requires-Dist: mypy ; extra == 'packaging'
+
+[![YData.ai](https://img.shields.io/badge/ydata.ai-12100E?style=for-the-badge&logoColor=white)](https://ydata.ai)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/mw7xjJ7b7s)
+
+[![pypi](https://img.shields.io/pypi/v/sketch-dask-extension)](https://pypi.org/project/sketch-dask-extension)
+![Pythonversion](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue)
+[![downloads](https://pepy.tech/badge/sketch-dask-extension/month)](https://pepy.tech/project/sketch-dask-extension)
+
+
+# Sketch Dask Extension
+
+This is a very simple extension to extend the support of [Sketch](https://github.com/approximatelabs/sketch) to Dask Dataframes instead of only Pandas.
+This is **experimental** and not meant to be used in critical environments.
+
+## How to install
+
+```bash
+python -m pip install sketch-dask-extension
+```
+
+## How to use
+
+```python
+from dask.dataframe import read_csv
+import sketch-dask-extension
+
+dataframe = read_csv('...')
+
+dataframe.sketch.ask('tell me something interesting')
+```
+
+# Contributing
+We are open to collaboration! If you want to start contributing you can in different ways:
+- Search for an issue in which you would like to work and open a PR with the resolution.
+- Create an issue with something that you would like to see and work on it opening a PR with the resolution if you feel confident for.
+- Create a PR with something that you would like to see
+
+In any case we will only provide our feedback and either approve it or ask for some change/revision.
+
+# Support
+For support in using this library, please join the #help Slack channel. The Discord community is very friendly and great about quickly answering questions about the use and development of the extension. [Click here to join our Discord community!](https://discord.gg/mw7xjJ7b7s)
+
+## About 👯‍♂️
+
+With ❤️ from [YData](https://ydata.ai) [Development team](mailto://developers@ydata.ai)
+
+# License
+[MIT License](https://github.com/ydataai/sketch-dask-extension/blob/master/LICENSE)
