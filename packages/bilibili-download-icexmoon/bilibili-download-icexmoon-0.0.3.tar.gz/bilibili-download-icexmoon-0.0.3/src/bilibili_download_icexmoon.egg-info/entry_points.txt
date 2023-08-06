@@ -1,0 +1,2 @@
+[console_scripts]
+bb-download = bilibili_download.__main__:main
