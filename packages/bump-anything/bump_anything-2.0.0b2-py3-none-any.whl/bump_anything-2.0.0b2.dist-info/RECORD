@@ -1,0 +1,10 @@
+bump_anything/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+bump_anything/__main__.py,sha256=PdEiWRvO74auobSwnCtOFVn3i2GY0SXBCbpE3N7CtJM,6629
+bump_anything/file_result.py,sha256=-o4DzcCiRyIO1KsQIHzEhpfkowtZNtQms6G_YmrWke4,290
+bump_anything/git.py,sha256=mkCKX1wxEB87K42-PUEweYIq_MdIGyHw3QtLitwmxas,512
+bump_anything-2.0.0b2.dist-info/LICENSE.txt,sha256=fJEOEEoEKe6M5hwy1LKIJEJhKHLd4CAjWGcTSIAroqo,1083
+bump_anything-2.0.0b2.dist-info/METADATA,sha256=6thg9WZS9NNq7oHAisv-FtYYqyLp-UBPmYCQtjXUJl4,3632
+bump_anything-2.0.0b2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+bump_anything-2.0.0b2.dist-info/entry_points.txt,sha256=D-WIv3eaPP8qJpuCb13yCaKvof7mrAsvOpDLDO34D38,97
+bump_anything-2.0.0b2.dist-info/top_level.txt,sha256=pFC2dseyrLnpEIvcjgdPYc48LDL1Xs_9KQQZ481csjE,14
+bump_anything-2.0.0b2.dist-info/RECORD,,
