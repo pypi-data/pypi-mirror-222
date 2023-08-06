@@ -1,0 +1,5 @@
+nanopyx
+
+[testing]
+pytest
+pytest-cov
