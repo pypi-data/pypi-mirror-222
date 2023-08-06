@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: awsome-validity
+Version: 0.0.1
+Summary: awsome-validity is a package for Python that check if an email/phone/password... is valid
+Author-email: rayzh <kribugzzz@outlook.com>
+Project-URL: Homepage, https://github.com/Lorryrui/awsome-validity
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# awsome-validity  
+The validity of the email,phone number,password ...
+
+# usage  
+> pip install awsome-validity  
+```python
+from validity import validate
+check = validate.Validation()
+# check what you want.  
+check.validate_email('1111@qq.com') # True
+check.validate_password('1111@qq.com') # True
+check.validate_password('12345678899') # False
+```
+
+# todo
+Further features will be added in the future.
+
+# reference
+> https://packaging.python.org/en/latest/tutorials/packaging-projects/
