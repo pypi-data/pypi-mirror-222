@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.py
+fc2/__init__.py
+fc2/auth.py
+fc2/client.py
+fc2/fc_exceptions.py
+fc2/util.py
+xl_aliyun_fc2.egg-info/PKG-INFO
+xl_aliyun_fc2.egg-info/SOURCES.txt
+xl_aliyun_fc2.egg-info/dependency_links.txt
+xl_aliyun_fc2.egg-info/requires.txt
+xl_aliyun_fc2.egg-info/top_level.txt
