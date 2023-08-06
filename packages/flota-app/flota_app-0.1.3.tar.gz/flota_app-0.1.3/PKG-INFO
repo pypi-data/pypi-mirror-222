@@ -1,0 +1,507 @@
+Metadata-Version: 2.1
+Name: flota-app
+Version: 0.1.3
+Summary: 
+Author: Smolke
+Author-email: d.smolczynski1@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dbm-database-service (>=0.2.5,<0.3.0)
+Requires-Dist: easy-crud-repo-service (>=0.1.6,<0.2.0)
+Requires-Dist: easyquery-query-builder (>=2.0.1,<3.0.0)
+Requires-Dist: easyvalid-data-validator (>=2.0.1,<3.0.0)
+Requires-Dist: jsonlines (>=3.1.0,<4.0.0)
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Requires-Dist: pytest (>=7.3.1,<8.0.0)
+Requires-Dist: pytest-mock (>=3.11.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# FloatApp
+
+Application that keeps the track of car fleet.
+FleetApp goals are:
+- to inform user about mot and insurance deadlines,
+- to send emails with notifications about those obligations,
+- prepare summaries about fleet for front end applications,
+- manage fleet entities by storing and updating them in database
+- to load data about Car, Mot and Insurance from different data sources [json, jsonl, csv, etc.]
+
+## Instalation
+
+
+## Tests
+https://github.com/DSmolke/flota-app
+
+## TESTS
+
+### 1. Clone repository and enter main directory:
+```angular2html
+    git clone https://github.com/DSmolke/flota-app
+    cd flota-app
+```
+
+### 2. Make sure your docker is running and port 3307 is empty, and run docker-compose command as well as poetry command to create environment
+```angular2html
+    docker-compose up -d
+    poetry install
+```
+
+### 3. Enter tests directory
+```angular2html
+    cd tests
+```
+You are ready to go. All .env files are placed in test/test_data/envs
+
+
+### 3. Run tests using:
+####Poetry:
+```angular2html
+    poetry run pytest -vv
+```
+
+# Introduction
+
+To understand logic of CarsFleetService, we need to start from knowing models that are providing data about fleet, as well as Repos that store them in database tables.
+
+
+### Car
+```angular2html
+    @dataclass
+class Car:
+    """
+    id, registration_number, first_registration_date, vin, brand, model
+    Default values are set to None because of design pattern 'Builder'
+    """
+    id: int = None
+    registration_number: str = None
+    first_registration_date: date = None
+    vin: str = None
+    brand: str = None
+    model: str = None
+
+    def __post_init__(self) -> None:
+        """
+        Checks if first_registration_date is date or iso representation of it,
+        and if it happens to be true then parse it to date object
+        """
+        if self.first_registration_date and type(self.first_registration_date) == str:
+            self.first_registration_date = date.fromisoformat(self.first_registration_date)
+
+    def update_id(self, id_: int) -> None:
+        """ Updates id using new one """
+        self.id = id_
+
+    def update_registration_number(self, new_registration_number: str) -> None:
+        """ Updates registration numer using new one """
+        self.registration_number = new_registration_number
+
+    def update_first_registration_date(self, new_first_registration_date: str) -> None:
+        """ Updates first_registration_date using new one """
+        self.first_registration_date = new_first_registration_date
+
+    def update_vin(self, new_vin: str) -> None:
+        """ Updates vin using new one """
+        self.vin = new_vin
+
+    def update_brand(self, new_brand: str) -> None:
+        """ Updates brand using new one """
+        self.brand = new_brand
+
+    def update_model(self, new_model: str) -> None:
+        """ Updates model using new one """
+        self.model = new_model
+
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> Self:
+        """ Creates new Car object using provided dict. Awaits json dict, so any data type used has to parseable """
+        return cls(
+            int(data["id"]),
+            data["registration_number"],
+            date.fromisoformat(data["first_registration_date"]),
+            data["vin"],
+            data["brand"],
+            data["model"]
+        )
+
+    @classmethod
+    def attr_names(cls) -> list[str]:
+        """ Returns attribute names as list. Used in CrudRepo """
+        return ['id', 'registration_number', 'first_registration_date', 'vin', 'brand', 'model']
+
+```
+
+Car stores data about vehicle that is part of our fleet.
+
+### BasicMot
+```angular2html
+@dataclass
+class BasicMot(Mot):
+    type: str | None = 'Basic'
+
+    def mot_start(self) -> datetime.date:
+        """ Uses BasicMot.start_date"""
+        return self.start_date
+
+    def duration(self) -> datetime.timedelta:
+        """ For basic mot duration is 365 days"""
+        return datetime.timedelta(365)
+```
+which extends Mot
+```angular2html
+@dataclass
+class Mot(ABC):
+    """
+    id: int | None - primary key of insurance
+    mot_code: str | None - unique identifier of mot, created by mot station
+    start_date: datetime.date | None - date that mot starts to be vaild
+    car_id: int | None - id of mot'ed Car object
+    type: str | None - type of mot
+
+    All values have default value of None because of Builder project pattern accept type - this attribute is set to
+    "Dealership"
+    """
+
+    id: int | None = None
+    mot_code: str = None
+    start_date: datetime.date | None = None
+    car_id: int | None = None
+    type: str | None = None
+
+    def __post_init__(self) -> None:
+        """ Makes sure that when date is stored as iso date str, it will be parsed to date object"""
+        if self.start_date and type(self.start_date) == str:
+            self.start_date = datetime.date.fromisoformat(self.start_date)
+
+    def deadline(self) -> datetime.date:
+        """ Template method that implements solution for calculation of duration of mot"""
+        return self.mot_start() + self.duration()
+
+    @abstractmethod
+    def mot_start(self) -> datetime.date:
+        """ How mot start date will be obtained? """
+        pass
+
+    @abstractmethod
+    def duration(self) -> datetime.timedelta:
+        """ How duration will be calculated?"""
+        pass
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> Self:
+        """
+        :param data: dict with attr name as key, and attr value as value
+        :return: Mot
+        """
+        return cls(
+            int(data["id"]),
+            data['mot_code'],
+            datetime.date.fromisoformat(data["start_date"]),
+            int(data['car_id'])
+        )
+
+    @classmethod
+    def attr_names(cls) -> list[str]:
+
+        return ['id', 'mot_code', 'start_id', 'car_id', 'type']
+
+```
+
+BasicMot represents MOT of car that belongs to your fleet.
+
+### BasicInsurance
+```angular2html
+@dataclass
+class BasicInsurance(Insurance):
+    """
+    id: int | None - primary key of insurance
+    insurance_code: str | None - unique identifier of insurance, created by insurance company
+    start_date: datetime.date | None - date that insurance starts to be vaild
+    car_id: int | None - id of insured Car object
+    type: str | None - type of insurance
+
+    All values have default value of None because of Builder project pattern accept type - this attribute is set to
+    "Basic"
+    """
+    type: str = 'Basic'
+
+    def insurance_start(self) -> datetime.date:
+        """ Uses BasicInsurance.start_date"""
+        return self.start_date
+
+    def duration(self) -> datetime.timedelta:
+        """ For basic insurance duration is 365 days"""
+        return datetime.timedelta(365)
+```
+which extends Insurance
+
+```angular2html
+@dataclass
+class Insurance(ABC):
+    """
+    id: int | None - primary key of insurance
+    insurance_code: str | None - unique identifier of insurance, created by insurance company
+    start_date: datetime.date | None - date that insurance starts to be vaild
+    car_id: int | None - id of insured Car object
+    type: str | None - type of insurance
+
+    All values have default value of None because of Builder project pattern
+    """
+    id: int | None = None
+    insurance_code: str | None = None
+    start_date: datetime.date | str | None = None
+    car_id: int | None = None
+    type: str | None = None
+
+    def __post_init__(self) -> None:
+        """ Makes sure that when date is stored as iso date str, it will be parsed to date object"""
+        if self.start_date and type(self.start_date) == str:
+            self.start_date = datetime.date.fromisoformat(self.start_date)
+
+    def deadline(self) -> datetime.date:
+        """ Template method that implements solution for calculation of duration of insurance"""
+        return self.insurance_start() + self.duration()
+
+    @abstractmethod
+    def insurance_start(self) -> datetime.date:
+        """ How insurance start date will be obtained? """
+        pass
+
+    @abstractmethod
+    def duration(self) -> datetime.timedelta:
+        """ How duration will be calculated?"""
+        pass
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> Self:
+        """
+
+        :param data: dict with attr name as key, and attr value as value
+        :return: Instance of insurance
+        """
+        return cls(
+            int(data["id"]),
+            data["insurance_code"],
+            datetime.date.fromisoformat(data["start_date"]),
+            int(data['car_id'])
+        )
+
+    @classmethod
+    def attr_names(cls) -> list[str]:
+        return ['id', 'insurance_code', 'start_id', 'car_id', 'type']
+```
+
+BasicInsurance represents Insurance of car that belongs to your fleet
+
+## CrudRepo
+
+CrudRepo is object that implements CRUD transactions with MySQL database table that uses entity namespaces to create queries and obtain data.
+
+[Link to my package](https://pypi.org/project/easy-crud-repo-service/)
+
+In a nutshell, you need to create connection pool, and provide it together with entity that you work with, so you make 
+CrudRepo(MySQLConnectionPoolBuilder(<path to .env file>).build(), Car)
+
+And there you have it. You have CarCrudRepo  that manages table cars in your database.
+
+[Link to template .env files](https://drive.google.com/drive/folders/1Ed1gQlnVKnk7hLUMWTGJ0W4l5b-yZPjs)
+
+## CarsRepo, BasicMotsRepo, BasicInsurancesRepo
+
+They are extending CrudRepo by adding some methods. You are going to use them.
+
+
+# Basic Usage
+
+### 1. [Download zipped template project and unzip somewhere](https://drive.google.com/drive/folders/1rfmO6vZB9BBk6mtfQnL8S29RN_jeNjzq)
+
+It's very convenient to analyse use-cases when you will have them ready in the code. Try to use interpreter that has at least Python 3.1.2 version.
+
+![img_template_project.jpg](documentation/images/img_template_project.png)
+
+### 2. Install package using pip
+Install flota-app globally and make sure that your interpreter is inheriting from global dependencies.
+
+```commandline
+pip install flota-app
+```
+
+### 3. Create docker container and database tables
+
+To create docker container enter template_project/demo_files_config and run command
+```commandline
+docker-compose up -d
+```
+
+Once it's done you can run main.py file
+
+### 3. Imports and logger set up
+
+```python
+from pathlib import Path
+from datetime import date
+
+from flota_app.models.car import Car
+from flota_app.models.mots.basic_mot import BasicMot
+from flota_app.models.insurances.basic_insurance import BasicInsurance
+from flota_app.factory.factories.car_factories.json_factories import \
+    FromJsonFileToCarsWithExpectedConstraintsDataFactory
+from flota_app.factory.processors.data_processor import DataProcesor
+from flota_app.repo.cars_repo import CarsRepo
+from flota_app.services.cars_fleet_sevice import CarsFleetService
+
+from easyvalid_data_validator.constraints import Constraint
+
+from dbm_database_service.managers import MySQLDatabaseManager
+from dbm_database_service.connectors import get_connection_pool
+
+
+
+import logging
+logging.basicConfig(level=logging.INFO)
+```
+
+### 3. Tables creation
+
+To work on CarsRepo, BasicMotsRepo and BasicInsurancesRepo objects we need to create proper structure in database.
+To achieve this you can manually run sql code in some database manager console, or let that code running as first:
+
+```python
+database_env_filepath = f"{Path.cwd().parent}\\demo_files\\config\\.env"
+
+connection_pool = get_connection_pool(database_env_filepath)
+dbm = MySQLDatabaseManager(connection_pool)
+dbm.dev_console("""
+        create table if not exists cars(
+        id                      int auto_increment primary key,
+        registration_number     varchar(7)   null,
+        first_registration_date varchar(11)  null,
+        vin                     varchar(17)  null,
+        brand                   varchar(250) null,
+        model                   varchar(250) null
+        );
+    """)
+
+dbm.dev_console("""
+        create table if not exists basic_mots(
+        id         int auto_increment primary key,
+        mot_code   varchar(50) null,
+        start_date varchar(11) null,
+        car_id     int         null,
+        type       varchar(50) null
+        );
+    """)
+
+dbm.dev_console("""
+        create table if not exists basic_insurances(
+        id             int auto_increment primary key,
+        insurance_code varchar(50) null,
+        start_date     varchar(11) null,
+        car_id         int         null,
+        type           varchar(50) null
+        );
+    """)
+```
+
+
+
+
+### 4. Loading cars objects
+
+- First, we want to obtain data about cars using factory.
+
+- You can download ready file [here](https://drive.google.com/drive/folders/1rfmO6vZB9BBk6mtfQnL8S29RN_jeNjzq) or let that template_project work for you. Cars data is stored in /demo_files/data/cars.jsonl
+
+- Processor is provided with factory that has path to json file, as well as constrains of car details and run process() method to get cars objects
+
+```python
+path = f"{Path.cwd().parent}\\demo_files\\data\\cars.json"
+
+constraints = {
+    "id": {Constraint.INT_GRATER: 0},
+    "registration_number": {Constraint.STRING_REGEX: r"^[A-Z0-9]{7}$"},
+    "first_registration_date": {Constraint.STRING_REGEX: r"^.*$"},
+    "brand": {Constraint.STRING_REGEX: r"^.*$"},
+    "model": {Constraint.STRING_REGEX: r"^.*$"}
+}
+factory = FromJsonFileToCarsWithExpectedConstraintsDataFactory(path, constraints)
+processor = DataProcesor(factory)
+cars = processor.process()
+```
+
+
+### 5. Creations of repos and CarsFleetService
+To have CarsFleetService going, we need to create Car, BasicMot and BasicInsurances repos.
+All that has to be given to them is .env filepath that contains all connection parameters used to work on database.
+
+```python
+database_env_filepath = f"{Path.cwd().parent}\\demo_files\\config\\.env"
+
+cars_repo = CarsRepo(database_env_filepath)
+    mots_repo = BasicMotsRepo(database_env_filepath)
+    insurances_repo = BasicInsurancesRepo(database_env_filepath)
+
+    cars_fleet_service = CarsFleetService(
+        cars_repo,
+        mots_repo,
+        insurances_repo
+    )
+```
+
+### 6. Adding objects into database
+To add some Cars, Mots or Insurances to database, we need to create them(by factory, or manually) and use designated methods. For example:
+- add_cars(cars)
+- add_mots(mots)
+- add_insurances(insurances)
+
+```python
+cars_fleet_service.add_cars(cars)
+
+mots = [
+    BasicMot(None, '1/111023', date(2023, 1, 21), 1),
+    BasicMot(None, '2/200023', date(2023, 2, 22), 2),
+    BasicMot(None, '3/1023', date(2023, 3, 23), 3)
+]
+
+insurances = [
+    BasicInsurance(None, 'PZU/111023', date(2023, 1, 21), 1),
+    BasicInsurance(None, 'WAR/200023', date(2023, 2, 22), 2),
+    BasicInsurance(None, 'KK/1023', date(2023, 3, 23), 3)
+]
+
+cars_fleet_service.add_mots(mots)
+cars_fleet_service.add_insurances(insurances)
+```
+
+### 7. CRUD transactions on database using objects
+We can manipulate tables rows by applying designated methods. Example:
+
+```python
+deleted_id = cars_fleet_service.delete_car_by_id(1)
+updated_mot_id = cars_fleet_service.update_mot(
+    BasicMot(1, '00/00000', date(2023, 1, 21), 1),
+    )
+cars_by_mots = cars_fleet_service.cars_with_mots_by_deadline()
+```
+
+Results in database:
+
+cars table
+![img.png](documentation/images/c.png)
+(Car with id=1 deleted, Car with id=4 added)
+
+basic_mots table
+![img.png](documentation/images/u.png)
+(BasicMot with id=1 is deleted and new object is created with id=4)
+
+Logging results:
+```commandline
+INFO:root:Added car id: 4
+INFO:root:Deleted car id: 1
+INFO:root:Updated car id: 4
+INFO:root:deadline: 2024-01-21, mot: BasicMot(id=4, mot_code='00/00000', start_date=datetime.date(2023, 1, 21), car_id=4, type='Basic'), car: Car(id=4, registration_number='WW12345', first_registration_date=datetime.date(2020, 12, 20), vin='ZJSER12412DFSWERQ', brand='Subaru', model='WRX')
+INFO:root:deadline: 2024-02-22, mot: BasicMot(id=2, mot_code='2/200023', start_date=datetime.date(2023, 2, 22), car_id=2, type='Basic'), car: Car(id=2, registration_number='DW12111', first_registration_date=datetime.date(2020, 6, 11), vin='3Z1SL65848Z411439', brand='AUDI', model='A3')
+INFO:root:deadline: 2024-03-22, mot: BasicMot(id=3, mot_code='3/1023', start_date=datetime.date(2023, 3, 23), car_id=3, type='Basic'), car: Car(id=3, registration_number='WB40511', first_registration_date=datetime.date(2021, 1, 25), vin='5G1SL65848Z411439', brand='BMW', model='X5')
+```
+
