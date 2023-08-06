@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Local-Xampp-Apache
+Version: 0.0.2
+Summary: Access the Windows XamPP Apache Server via Command lines
+Home-page: https://git.selfmade.ninja/SRIDHARDSCV/automate_xampp_windows
+Author: Sridhar
+Author-email: sridhardscv@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
