@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: Widget_Controller
+Version: 2.0.2
+Summary: Una libreria para crear facilmente UI (traducido de Tkinter y otros)
+Home-page: https://github.com/Z3R0GT/WC
+Download-URL: https://github.com/Z3R0GT/WC/releases/tag/BUILD-2.0
+Author: Z3R0_GT
+Author-email: contac.es.z3r0.gt@gmail.com
+License: Para Z3R0_GT - Z3R0GT  Licencia de Software - Version 0.4 - Junio 12 - 2023
+        
+        Contacto de gmail: contac.es.z3r0.gt
+        
+        Por la presente se otorga permiso, sin cargo, a cualquier persona, excepto a organizaciones (compaÃ±ias), obtener una copia del software y la documentaciÃ³n adjunta cubiertos por esta licencia (el "Software")
+        para usar, mostrar, ejecutar y transmitir el Software, se debe cumplir las siguientes condiciones:
+        
+           1. el uso del codigo fuente presente en este Software no puede ser replicado por ningun razon, a excepciÃ³n de la version 1.0 (escrito en el lenguaje de python) que puede ser utilizado por una autorizaciÃ³n directa o por escrito del creador de este Software (las bibliotecas presentes en el codigo de caracter externo, no son propiedad del autor).
+         
+           2. El uso del codigo solo debe ser para proyecto personales, mas no para aplicaciones de tipo comercial o empresarial, siendo el caso, la entidad (organicaciones, empresas....) deben de incluir en su acuerdo o en su defecto los creditos de dicho proyecto una acreditaciÃ³n que este Software se empleo para su creaciÃ³n en conjunto con el autor de este, a si mismo notificar a este mismo el uso este Software.
+        
+           3. Las versiones presentes, sin importar si estan bajo soporte o no, cuentan con el respaldo de esta licencia (a excepcion de los expuesto en el punto 1. ).
+        
+        Los avisos de derechos de autor en el Software y toda esta declaraciÃ³n, incluida la licencia anterior, esta restricciÃ³n y el siguiente descargo de responsabilidad deben incluirse en todas las copias del Software, en su totalidad, y cualquier trabajo que utilice alguna version de este (a excepcion de lo expuesto en el punto 1.)
+        
+        EL SOFTWARE SE PROPORCIONA "TAL CUAL" SIN GARANTIA DE NINGUN TIPO, EXPRESA O IMPLICITA, INCLUYENDO PERO NO LIMITADO A GARANTIAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN DETERMINADO,
+        TITULO Y NO INFRACCION. EN NINGUN CASO LOS TITULARES DE LOS DERECHOS DE AUTOR O CUALQUIER PERSONA QUE DISTRIBUYA EL SOFTWARE SERA RESPONSABLE DE CUALQUIER DAÃ‘O U OTRA RESPONSABILIDAD, YA SEA POR CONTRATO, AGRAVIO O DE CUALQUIER OTRA FORMA, QUE SURJA O ESTE RELACIONADO CON EL SOFTWARE O EL USO O DE OTRO MODO TRATAMIENTOS EN EL SOFTWARE.
+        
+Keywords: ui,UI,Tkinter,logging,build
+Requires: Tk
+Requires: Pillow
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# WC
+***
+Window Controller (controlador de ventanas) o WC es una libreria que empaqueta otras tanto grandes como pequeÃ±as, proveyendo multiples funciones para facilitar el crear GUIs, creado por
+Z3R0_GT con la iniciativa de "Facilitar el desarrollo de GUIs con python, sin perder mucho tiempo en el proceso con investigaciones para averiguar como lograrlo".
+
+tenemos la vision de ser una libreria usada por varias personas para facilitarles el proceso del desarrollo, con el objetivo de ser lo mas simples posibles
+
+## INSLACIÃ“N
+***
+Usa el siguiente comando para poder instalar la libreria (actualmente alojada gracias a Pypi)
+
+pip install Widget-Controller
+
+## LIBRERIAS
+***
+- Usamos las siguientes librerias externas (no viene pre-instalados con python):
+    - Pillow.
+    - tkVideoPlayer.
+
+- Pre-instalados:
+    - os.
+    - json.
+    - winsound
+
+# Â¿QUE OFRECEMOS?
+***
+- Usamos un tipeado quizas similar a java para crear GUIs basicas, teniendo las siguientes funciones:
+    - Inicio de aplicacion para correr mutiples ventanas como un solo proceso
+    - Nodos:
+        - Botones, areas de texto, Etiquetas tanto para incluir imagenes adaptables como texto corriente, areas especificas para incluir entrada de usuario, menu de opciones, lista de botones.
+    - Procesos:
+        - Puedes crear fuentes de texto (todas provenientes de tkinter), Editar areas de texto, crear ventanas (necesario para ejecuciÃ³n de programa), centrar ventanas, incluir barra de movimiento (scroll).
+    - Sistema:
+        - guardar y cargar archivos json (se usa diccionarios para este caso), la carga de videos, imagenes e otros, todo guardados para solo servir como llamada.
+        - crear y almacenar direcciones para su posterior uso.
+    - Desarrollador:
+        - puedas tambien revisar un listado de objetos en general, tanto datos almacenados, funciones y ventana creadas y objetos guardados dentro de la libreria.
+
+dentro de cada carpeta, se encuentra la version correspondiente a WC con un pequeÃ±o ejemplo para que puedas testear las capacidades de la version elegida, tambien es compatible (Version 4) para usarlo con consola.
+
+# VERSIONES
+***
+Numero de version que resibe o no soporte, ademas del tiempo de experaciÃ³n de soporte.
+
+| Version    | Soporte                       | Cotenido                 |
+| -------    | ------------------            | ---------                |
+| 6.0 > ...  |  X                            |aun en pruebas  25/07/2023|
+| 5.0 > 6.0  |  Y                            |Version de MP3 Y MP4      |
+| 4.0 > 4.9  |  Y                            |Carga pantalla            |
+| 1.0 > 2.0  |  X                            |Base de librerÃ­a          |
+
+Las versiones se aplicarÃ¡n bajo el siguiente condicionamiento para identificar y tener la capacidad de leer:
+--(Nombre de contrucciÃ³n) (Version numerica de lanzamiento).(NÃºmero de revision actulizado)--, por ejemplo: 
+
+BUILD 3.2   -- en este caso se puede decir, que la version a tratar es la BUILD cuya version 3, la revisiÃ³n de codigo corresponde a la segunda vez desde que se lanzÃ³. 
+Sin embargo en caso de encontrar un tercer numero como en este caso: 
+BUILD 5.0.1 -- se puede interpretar que la BUILD esta en su version 5, no se a revisado desde que se lanzÃ³ pero es la primera version pre-liminar para lanzar una revisiÃ³n pronto (el tercer numero).
+
+## Notas
+***
+1. Soporte implica soluciÃ³n de errores, mas no significa actualizaciÃ³n, si quiere una version con mas funciones mira las versiones presentes y sus respectivos datos.
+
+2. no somos dueÃ±os de ninguna libreria externa (expuesto en "LIBRERIAS") usada en este proyecto, en caso obtenga algun error de estas, puede reportarlo a la misma o consultar en la pgina de GitHub (https://github.com/Z3R0GT/WC/issues).
+
+3. las librerias que aparecen en [ LIBRERIAS](#librerias) pueden llegar a pertenecer a la ultima version sea que se halla publicado o aun se este trabajando en ella
+## Capturas
+***
+<img src="https://github.com/Z3R0GT/WC/blob/main/Screenshot/ExampleCode.png">
