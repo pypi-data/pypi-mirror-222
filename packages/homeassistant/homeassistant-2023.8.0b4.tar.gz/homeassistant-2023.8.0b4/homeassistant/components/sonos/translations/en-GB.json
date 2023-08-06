@@ -1,0 +1,31 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "microphone": {
+                "name": "Microphone"
+            }
+        },
+        "number": {
+            "audio_delay": {
+                "name": "Audio delay"
+            }
+        },
+        "switch": {
+            "night_mode": {
+                "name": "Night sound"
+            },
+            "status_light": {
+                "name": "Status light"
+            },
+            "sub_enabled": {
+                "name": "Subwoofer enabled"
+            },
+            "surround_enabled": {
+                "name": "Surround enabled"
+            },
+            "surround_mode": {
+                "name": "Surround music full volume"
+            }
+        }
+    }
+}

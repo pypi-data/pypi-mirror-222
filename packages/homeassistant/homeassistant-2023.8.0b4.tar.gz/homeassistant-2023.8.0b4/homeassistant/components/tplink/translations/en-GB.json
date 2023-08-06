@@ -1,0 +1,20 @@
+{
+    "entity": {
+        "sensor": {
+            "current_consumption": {
+                "name": "Current consumption"
+            },
+            "today_consumption": {
+                "name": "Today's consumption"
+            },
+            "total_consumption": {
+                "name": "Total consumption"
+            }
+        },
+        "switch": {
+            "led": {
+                "name": "LED"
+            }
+        }
+    }
+}

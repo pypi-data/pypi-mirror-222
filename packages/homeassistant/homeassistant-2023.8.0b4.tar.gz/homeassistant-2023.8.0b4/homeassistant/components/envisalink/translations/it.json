@@ -1,0 +1,13 @@
+{
+    "services": {
+        "alarm_keypress": {
+            "description": "Invia pressioni di tasti personalizzate all'allarme.",
+            "fields": {
+                "entity_id": {
+                    "description": "Nome della centrale di allarme da attivare.",
+                    "name": "Entit\u00e0"
+                }
+            }
+        }
+    }
+}

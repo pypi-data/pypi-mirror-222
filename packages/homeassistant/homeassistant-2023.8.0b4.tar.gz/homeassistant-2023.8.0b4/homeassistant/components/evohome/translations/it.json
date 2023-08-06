@@ -1,0 +1,27 @@
+{
+    "services": {
+        "set_system_mode": {
+            "fields": {
+                "mode": {
+                    "name": "Modalit\u00e0"
+                }
+            }
+        },
+        "set_zone_override": {
+            "fields": {
+                "duration": {
+                    "name": "Durata"
+                },
+                "entity_id": {
+                    "description": "L'entity_id della zona Evohome.",
+                    "name": "Entit\u00e0"
+                },
+                "setpoint": {
+                    "description": "La temperatura da utilizzare al posto del setpoint programmato.",
+                    "name": "Punto di riferimento"
+                }
+            },
+            "name": "Imposta l'esclusione della zona"
+        }
+    }
+}

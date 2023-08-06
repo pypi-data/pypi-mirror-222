@@ -1,0 +1,18 @@
+{
+    "services": {
+        "set_desk_db": {
+            "description": "Sets the \"Desk mode\" slider of the speaker in dB."
+        },
+        "set_treble_db": {
+            "name": "Set treble dB"
+        },
+        "set_wall_db": {
+            "description": "Sets the \"Wall mode\" slider of the speaker in dB.",
+            "name": "Set wall dB"
+        },
+        "update_dsp": {
+            "description": "Updates all DSP settings.",
+            "name": "Update DSP"
+        }
+    }
+}

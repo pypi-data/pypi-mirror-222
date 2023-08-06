@@ -1,0 +1,16 @@
+{
+    "services": {
+        "play_media": {
+            "fields": {
+                "media_content_id": {
+                    "name": "ID contenuto multimediale"
+                },
+                "media_content_type": {
+                    "description": "Tipo di contenuto da riprodurre. Deve essere uno tra MUSICA, PROGRAMMA TV, VIDEO, EPISODIO, CANALE o PLAYLIST MUSICALE.",
+                    "name": "Tipo di contenuto multimediale"
+                }
+            },
+            "name": "Riproduci contenuti multimediali"
+        }
+    }
+}

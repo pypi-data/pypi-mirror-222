@@ -1,0 +1,11 @@
+{
+    "services": {
+        "write": {
+            "description": "Chiama il comando di scrittura ebusd."
+        }
+    },
+    "state": {
+        "day": "Giorno",
+        "night": "Notte"
+    }
+}

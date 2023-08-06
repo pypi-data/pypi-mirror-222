@@ -1,0 +1,13 @@
+{
+    "issues": {
+        "deprecated_service_set_doorbell_message": {
+            "fix_flow": {
+                "step": {
+                    "confirm": {
+                        "description": "The `unifiprotect.set_doorbell_message` service is deprecated in favour of the new Doorbell Text entity added to each Doorbell device. It will be removed in v2023.3.0. Please update to use the [`text.set_value` service]({link})."
+                    }
+                }
+            }
+        }
+    }
+}

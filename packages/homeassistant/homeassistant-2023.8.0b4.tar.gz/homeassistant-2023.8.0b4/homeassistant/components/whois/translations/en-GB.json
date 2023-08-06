@@ -1,0 +1,9 @@
+{
+    "entity": {
+        "sensor": {
+            "admin": {
+                "name": "Admin"
+            }
+        }
+    }
+}
