@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lego_image_converter/__init__.py
+lego_image_converter/config.py
+lego_image_converter/converter.py
+lego_image_converter/utility.py
+lego_image_converter.egg-info/PKG-INFO
+lego_image_converter.egg-info/SOURCES.txt
+lego_image_converter.egg-info/dependency_links.txt
+lego_image_converter.egg-info/requires.txt
+lego_image_converter.egg-info/top_level.txt
