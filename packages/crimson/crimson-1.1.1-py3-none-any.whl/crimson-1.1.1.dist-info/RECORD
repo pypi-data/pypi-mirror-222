@@ -1,0 +1,16 @@
+CHANGELOG.rst,sha256=uM71nlINd4cd-KGtgzbtMTy0aOpgzWC0qF_VsjHLlCM,2632
+crimson/__init__.py,sha256=FkqvhOQMKaUm9JcrT6ms48Tkl3zU9dgl5HOmLXfPD6U,445
+crimson/cli.py,sha256=jUukPNl--kI2iQhnL_Mv6OgmReu2y83CvKsH1PDDy8c,5341
+crimson/fastqc.py,sha256=AjCVqLqj8b8QypYu-tBv1_ngeAh3EHpSLj0IrKcNFEc,8777
+crimson/flagstat.py,sha256=hLxm81tlj4-N37tt-XA4BtiVtl06jAY1WhqXBS8ivRc,2988
+crimson/fusioncatcher.py,sha256=61e20H70NRJTihyztv5b83gmvfMzqpCtiPY7i2AcLVo,6425
+crimson/picard.py,sha256=vs0L9i2nfGgeYg-9wZcJAubnGjQUvCjL8zqUhrydmAQ,3530
+crimson/star.py,sha256=7Bfyg2MZLyVJWW37xjjOBGO3dn9w4lYry0HF1_iKi54,3872
+crimson/star_fusion.py,sha256=VMYTA7xfSdl1E1-LDnBy55UpXAkeIDgd38P9cjDgLU0,12504
+crimson/utils.py,sha256=wOCH1N9q86CvKLHEfgas_22KUZanmuvgNDVI58vtI7Y,3400
+crimson/vep.py,sha256=9ftmrXafSlGP4pEWbvoiGBbSfRwnOm_OFN3AfSKChWI,3455
+crimson-1.1.1.dist-info/entry_points.txt,sha256=coaQ4_Cg2v5yKW6bOzHvdWlA0jVkrSEFFFhoCGn1F2Y,44
+crimson-1.1.1.dist-info/LICENSE,sha256=Jpgc1RXQU9t2KHzgr-cQv9gGUp5kgD_wlq0M5THD9gU,1566
+crimson-1.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+crimson-1.1.1.dist-info/METADATA,sha256=EW2YKBqoFioA9Sgv2yOc808dEFSyAhmvI-mvv-7THzE,6051
+crimson-1.1.1.dist-info/RECORD,,
