@@ -1,0 +1,16 @@
+README.md,sha256=zbpQmpuHvRpfMhN93pmrUvbKRD90YBcS-MIwJRbZC_w,1855
+todotree/Errors/ProjectFolderError.py,sha256=j3CZkwOsGEAnX04_nydjZlAnYqkI71fo8YD0s1assRc,196
+todotree/Errors/TaskParseError.py,sha256=KaRD6SZBs-rV5LXOCc3GDTVzCP55depI2t3Hbi0SFRk,180
+todotree/Errors/WishListFolderError.py,sha256=xn89qHeFNKibEb1QWhtdAjqq9o1c_EXGX8EKX_kqj_M,198
+todotree/Errors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todotree/Task.py,sha256=jMpbmDJ385XmFb9s3ujPo-1PIlVWI5J-qkHrFDPXr7k,12425
+todotree/Taskmanager.py,sha256=SYW8Xw37VK8W5ZA3xknfyIZdyMWrLbn7DZiydwWPl3o,11122
+todotree/Tree.py,sha256=V-CYpcsGZNXIciyqzd2nobbR3daHVJyA8D3vH7kpvaA,4493
+todotree/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todotree/config.py,sha256=C4FMecKKzrbQ93y6fS_vr5qs6gU44EVwwdXhKWtWlc8,5960
+todotree/main.py,sha256=T_Rj2EIfwqS7mi3PHG1XqNZ6jsN3AG9AxJIX5tmWJks,10611
+todotree-1.0.2.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+todotree-1.0.2.dist-info/METADATA,sha256=o-VSOieLvSMksHzMSlV4VuZt29ZGtQFjcTh3tCy9SM8,2589
+todotree-1.0.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+todotree-1.0.2.dist-info/entry_points.txt,sha256=GB_79Y5SM20bmyZ-Yrl58zd65iu3syQrClVE5YeQ5aE,47
+todotree-1.0.2.dist-info/RECORD,,
