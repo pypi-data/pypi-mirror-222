@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+plugin_sdk_python.egg-info/PKG-INFO
+plugin_sdk_python.egg-info/SOURCES.txt
+plugin_sdk_python.egg-info/dependency_links.txt
+plugin_sdk_python.egg-info/top_level.txt
