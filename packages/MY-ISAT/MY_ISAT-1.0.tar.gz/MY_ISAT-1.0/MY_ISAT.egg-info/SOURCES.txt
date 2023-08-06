@@ -1,0 +1,5 @@
+setup.py
+MY_ISAT.egg-info/PKG-INFO
+MY_ISAT.egg-info/SOURCES.txt
+MY_ISAT.egg-info/dependency_links.txt
+MY_ISAT.egg-info/top_level.txt
