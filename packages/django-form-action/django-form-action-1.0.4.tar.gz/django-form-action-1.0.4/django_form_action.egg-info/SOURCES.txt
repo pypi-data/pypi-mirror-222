@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+django_form_action.egg-info/PKG-INFO
+django_form_action.egg-info/SOURCES.txt
+django_form_action.egg-info/dependency_links.txt
+django_form_action.egg-info/requires.txt
+django_form_action.egg-info/top_level.txt
+form_action/__init__.py
+form_action/decorators.py
+form_action/mixins.py
