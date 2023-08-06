@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+IMALogger/IMALogger.py
+IMALogger/__init__.py
+IMALogger.egg-info/PKG-INFO
+IMALogger.egg-info/SOURCES.txt
+IMALogger.egg-info/dependency_links.txt
+IMALogger.egg-info/top_level.txt
