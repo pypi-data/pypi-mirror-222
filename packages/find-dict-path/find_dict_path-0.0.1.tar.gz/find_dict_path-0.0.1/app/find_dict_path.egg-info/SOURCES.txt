@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+app/find_dict_path/__init__.py
+app/find_dict_path/find_dict_path.py
+app/find_dict_path.egg-info/PKG-INFO
+app/find_dict_path.egg-info/SOURCES.txt
+app/find_dict_path.egg-info/dependency_links.txt
+app/find_dict_path.egg-info/requires.txt
+app/find_dict_path.egg-info/top_level.txt
