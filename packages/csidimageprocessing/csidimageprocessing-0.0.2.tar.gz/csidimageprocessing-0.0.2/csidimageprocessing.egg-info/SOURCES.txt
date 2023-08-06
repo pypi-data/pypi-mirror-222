@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+csidimageprocessing.egg-info/PKG-INFO
+csidimageprocessing.egg-info/SOURCES.txt
+csidimageprocessing.egg-info/dependency_links.txt
+csidimageprocessing.egg-info/requires.txt
+csidimageprocessing.egg-info/top_level.txt
