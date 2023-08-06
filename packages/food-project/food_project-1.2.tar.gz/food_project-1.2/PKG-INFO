@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: food_project
+Version: 1.2
+Summary: An example package.
+Home-page: UNKNOWN
+Author: Zukhra Khubieva & Vadim Petruhnenko \ shuygena
+Author-email: hubieva123@icloud.com
+License: UNKNOWN
+Description: Very tasty burger
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
