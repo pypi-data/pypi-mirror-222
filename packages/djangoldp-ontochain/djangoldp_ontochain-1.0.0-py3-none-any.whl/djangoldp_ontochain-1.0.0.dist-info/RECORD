@@ -1,0 +1,16 @@
+djangoldp_ontochain/__init__.py,sha256=CX9Kna65-ILa8egMqvJsE6Di1g3BvmMV32cZZ0ApwCY,51
+djangoldp_ontochain/admin.py,sha256=k31_sj4FcL2KXYqmaPmZLajE952ANeR6T8EsjMHDGPo,61
+djangoldp_ontochain/apps.py,sha256=gzsoaH0H98IWOYddK6RNn2cLZ15Q1F8tinC3yt1W7BE,111
+djangoldp_ontochain/factories.py,sha256=sxwsRnKuCHpZEefInN-A7hPnzRWjVYIOL7iGNiciI0U,329
+djangoldp_ontochain/models.py,sha256=kO2pxNFL3aVny5SdlVDE5J6wKR4pQ4k9no08lkwn-WI,2011
+djangoldp_ontochain/settings.py,sha256=JmEgyz4ObK6jXYCLaAB1AtZ7SrG07jYIIDIv9hytuQU,31
+djangoldp_ontochain/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoldp_ontochain/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoldp_ontochain/management/commands/mock_example.py,sha256=ueFs59dMv7qOvA_pp4QNi0r2q1z01JKX3-Er9gN560U,495
+djangoldp_ontochain/migrations/0001_initial.py,sha256=boQ27Jac_GiSch37Gr2VZeBF4xy8xSyQO8jJXg9W-GA,3582
+djangoldp_ontochain/migrations/0002_auto_20230419_1745.py,sha256=LD6zA4zAp5DZjx908gx0M8CrrsOutbLgBsnZ-nrejAU,396
+djangoldp_ontochain/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoldp_ontochain-1.0.0.dist-info/METADATA,sha256=B3xy1CK1CDMskvK5jWcoYkGoLnbYimTN6hj4LtiWTy0,389
+djangoldp_ontochain-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+djangoldp_ontochain-1.0.0.dist-info/top_level.txt,sha256=mwOyElkCVPqC53J8NJhowqwue3i2QNi2mOBKoqvgZ2U,20
+djangoldp_ontochain-1.0.0.dist-info/RECORD,,
