@@ -1,0 +1,11 @@
+napari_sam/__init__.py,sha256=lFx3Muh6JZoG7zgU4QALDRhF7M1zHaAwxK_6-Z-pfxQ,85
+napari_sam/_widget.py,sha256=_D0yCCimOfVIlagsOOgvSzFkIse_Ohu_1y63iWt36sM,67001
+napari_sam/napari.yaml,sha256=hagmZSuh3Amh7bvwNJCUQArm5yw0-KbxHyBe39JRQ5g,274
+napari_sam/slicer.py,sha256=5KioQ4VkgobihkFmGGxeKTd6-RxweGuG7XPxFKGJ_Uw,3767
+napari_sam/utils.py,sha256=bg3LNR1RCklcRBGwOkRGeQXdoLG_KWd8xiTyP81yth8,2602
+napari_sam-0.4.13.dist-info/LICENSE,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+napari_sam-0.4.13.dist-info/METADATA,sha256=-YUvnJitv_kCKoHKktPSKKmNa_Rfm89Yw1Eofy35mSo,6391
+napari_sam-0.4.13.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+napari_sam-0.4.13.dist-info/entry_points.txt,sha256=CiBzKfd54_e9ZikHws56BFnvfFBRRHgndDwflrJuIh0,54
+napari_sam-0.4.13.dist-info/top_level.txt,sha256=lkg7HfyS2RcaBon0GXFpKmi5LC2ELWWS7iCCEJmeIDU,11
+napari_sam-0.4.13.dist-info/RECORD,,
