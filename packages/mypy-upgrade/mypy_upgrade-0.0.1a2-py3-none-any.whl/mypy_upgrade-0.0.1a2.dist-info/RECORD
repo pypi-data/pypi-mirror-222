@@ -1,0 +1,11 @@
+mypy_upgrade/__about__.py,sha256=9c3aw-OMtfYh1gfCw4RU8_1p3w6zhcK_Kk395Q9jueI,137
+mypy_upgrade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_upgrade/__main__.py,sha256=gPGTi2rBYYIZuaHo_2eh2oaai8Q11U39sOkhegrwXGE,73
+mypy_upgrade/cli.py,sha256=PGRFrIp9IqfysXSO6G6pAGGPCMMe9wWD_o3qZ0Dlomo,9387
+mypy_upgrade/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_upgrade-0.0.1a2.dist-info/METADATA,sha256=RLd0IucfA1KPZqCwmZYNxjeuKq2jJb_MuZw9Wh0bYmg,4471
+mypy_upgrade-0.0.1a2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mypy_upgrade-0.0.1a2.dist-info/entry_points.txt,sha256=rfLh9Fixck29BVhT62fI6K_EKdkLCs0MSA8cm9AWa4Q,55
+mypy_upgrade-0.0.1a2.dist-info/licenses/AUTHORS.md,sha256=K8R91DQil-AZi2E_g-A-lx5vH0B4yoejzNPRpu-THiw,49
+mypy_upgrade-0.0.1a2.dist-info/licenses/LICENSE.txt,sha256=2aquB-YVqjqFXflyRuvYl-u7ecmviaFj92KiJ5S9BnQ,1099
+mypy_upgrade-0.0.1a2.dist-info/RECORD,,
