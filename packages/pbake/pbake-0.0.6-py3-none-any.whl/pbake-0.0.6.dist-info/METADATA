@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pbake
+Version: 0.0.6
+Summary: A lightweight make-like tool for Python
+Project-URL: Homepage, https://github.com/Madrugaur/bakepy
+Project-URL: Bug Tracker, https://github.com/Madrugaur/bakepy/issues
+Author-email: Braden Little <bml7569@rit.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: click
+Description-Content-Type: text/markdown
+
+# pbake
+A lightweight make-like tool for Python
