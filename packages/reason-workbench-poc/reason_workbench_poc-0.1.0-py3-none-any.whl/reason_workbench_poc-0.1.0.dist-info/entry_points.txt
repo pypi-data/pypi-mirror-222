@@ -1,0 +1,2 @@
+[console_scripts]
+reason_workbench_poc = reason_workbench_poc.main:main
