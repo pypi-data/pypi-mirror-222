@@ -1,0 +1,22 @@
+astropy
+numpy
+scipy
+shapely
+matplotlib
+
+[docs]
+sphinx
+sphinx-automodapi
+sphinx-astropy[confv2]
+sphinx-rtd-theme
+matplotlib
+batman-package
+
+[docs:python_version < "3.11"]
+tomli
+
+[test]
+pytest-doctestplus
+pytest>=4.6.0
+pytest-astropy
+batman-package
