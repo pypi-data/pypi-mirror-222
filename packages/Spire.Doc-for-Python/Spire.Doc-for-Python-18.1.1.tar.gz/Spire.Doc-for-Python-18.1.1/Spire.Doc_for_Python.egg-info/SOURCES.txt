@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+Spire.Doc_for_Python.egg-info/PKG-INFO
+Spire.Doc_for_Python.egg-info/SOURCES.txt
+Spire.Doc_for_Python.egg-info/dependency_links.txt
+Spire.Doc_for_Python.egg-info/top_level.txt
