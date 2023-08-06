@@ -1,0 +1,2 @@
+logger-extras==0.2.0
+rpi.GPIO==0.7.1
