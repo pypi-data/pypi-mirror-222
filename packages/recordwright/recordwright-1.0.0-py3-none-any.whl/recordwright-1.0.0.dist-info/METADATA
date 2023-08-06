@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: recordwright
+Version: 1.0.0
+Summary: An extension for recording and playback of web interactions in Playwright
+Home-page: https://github.com/kochelmonster/recordwright
+Author: Michael Reithinger
+Author-email: mreithinger@web.de
+License: MIT
+Keywords: library,testing,development,web
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Requires-Dist: playwright
+
