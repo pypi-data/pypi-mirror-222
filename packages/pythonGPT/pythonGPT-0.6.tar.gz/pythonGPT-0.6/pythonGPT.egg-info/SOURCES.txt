@@ -1,0 +1,7 @@
+setup.py
+pythonGPT/__init__.py
+pythonGPT.egg-info/PKG-INFO
+pythonGPT.egg-info/SOURCES.txt
+pythonGPT.egg-info/dependency_links.txt
+pythonGPT.egg-info/requires.txt
+pythonGPT.egg-info/top_level.txt
