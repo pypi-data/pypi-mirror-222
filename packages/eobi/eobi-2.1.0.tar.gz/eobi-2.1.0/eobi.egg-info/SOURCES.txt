@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+eobi.egg-info/PKG-INFO
+eobi.egg-info/SOURCES.txt
+eobi.egg-info/dependency_links.txt
+eobi.egg-info/top_level.txt
