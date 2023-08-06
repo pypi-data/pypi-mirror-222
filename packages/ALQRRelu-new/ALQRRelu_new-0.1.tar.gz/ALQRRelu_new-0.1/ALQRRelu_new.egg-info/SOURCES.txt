@@ -1,0 +1,6 @@
+setup.py
+ALQRRelu_new.egg-info/PKG-INFO
+ALQRRelu_new.egg-info/SOURCES.txt
+ALQRRelu_new.egg-info/dependency_links.txt
+ALQRRelu_new.egg-info/requires.txt
+ALQRRelu_new.egg-info/top_level.txt
