@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: lando_core
+Version: 0.0.2
+Summary: A small example package
+Author: lando
+Author-email: lando@gmail.com
+Requires-Python: ==3.10.*
+License-File: LICENSE
