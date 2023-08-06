@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/discord_serverless.py
+src/discord_serverless.egg-info/PKG-INFO
+src/discord_serverless.egg-info/SOURCES.txt
+src/discord_serverless.egg-info/dependency_links.txt
+src/discord_serverless.egg-info/requires.txt
+src/discord_serverless.egg-info/top_level.txt
