@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/templaterepo/__init__.py
+src/templaterepo.egg-info/PKG-INFO
+src/templaterepo.egg-info/SOURCES.txt
+src/templaterepo.egg-info/dependency_links.txt
+src/templaterepo.egg-info/not-zip-safe
+src/templaterepo.egg-info/requires.txt
+src/templaterepo.egg-info/top_level.txt
+src/templaterepo/_utils/__init__.py
+tests/test_template.py
