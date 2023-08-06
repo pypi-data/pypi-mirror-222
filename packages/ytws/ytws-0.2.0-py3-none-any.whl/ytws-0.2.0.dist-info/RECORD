@@ -1,0 +1,14 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/cli/main.py,sha256=KE4Wx5VWlt1vJgq2CdInE4mo95QUU5KNytzxIO3y9yo,3950
+src/whisper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/whisper/subtitles.py,sha256=iFotRolVaOpouviVs5BQmEUxW0aV_X1G53rDMQ7NN70,1172
+src/whisper/transcribe.py,sha256=WzkoYf6vvgYO6KQOecKir0zJoqC0Wwfs7BIRYGjH5uc,1082
+src/youtube/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/youtube/download.py,sha256=RqWdz5aHas_Ht0Bz-RpOx4wl42RFHcpmeGB_JVqNcUE,1019
+ytws-0.2.0.dist-info/LICENSE,sha256=IlaFhNGBoxCYRalnWtPBpPEIph-ZiT-jhLvnnDTW1e0,1083
+ytws-0.2.0.dist-info/METADATA,sha256=sJy6I_4bP6WD6rAeicW48f8230OVp2gqWRKv_bB8mw4,3900
+ytws-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ytws-0.2.0.dist-info/entry_points.txt,sha256=o-_Nkzp68q44bHKxVOnEEXVJhmdchoxlZVji3msUMS4,43
+ytws-0.2.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+ytws-0.2.0.dist-info/RECORD,,
