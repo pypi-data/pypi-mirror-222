@@ -1,0 +1,15 @@
+robocorp/workitems/__init__.py,sha256=twyOnjgz2XNNo-YcwkLN1PhJySi_FESf2Qf-Lpb3krI,4868
+robocorp/workitems/_adapters/__init__.py,sha256=rvXa_7c7EQXvYiCh1kFqLUPCU1WNJcmzM5vE6V_Xr9U,2792
+robocorp/workitems/_adapters/_base.py,sha256=zylInge9n3Wh7wzqyKQxh9IpYtN9bvGbqKK5MV_BQ3w,1831
+robocorp/workitems/_adapters/_file.py,sha256=gsZzvia3Kz3KdBhSW1cgy1b6pSeBCrJF2zby3pFFHYM,8119
+robocorp/workitems/_adapters/_robocorp.py,sha256=voRuFdfP_I5NzJbOyPTIun8OIYaYg7h6EHFequxj5LE,8966
+robocorp/workitems/_context.py,sha256=xGcvPln3WU4iyEDp1G5B3f2YXJDTXZRpI29QIwwbyu4,1423
+robocorp/workitems/_exceptions.py,sha256=ia4PY8Mm_cX6tR8f64nIMev5CaN4Ch9S5xqNWTHgUqA,958
+robocorp/workitems/_requests.py,sha256=a6N5ihVP014D-1CACCfNLeYtT4FRYvRZ1l9DNsfHCcM,6520
+robocorp/workitems/_types.py,sha256=JGzzi2Gw1Hb9duov0sTOQLfR2phJdozDMx02XPFypkg,1613
+robocorp/workitems/_utils.py,sha256=czjiCZk2_QxsQue76Ig8zC7Im8RZ5Eez9izczeFS0-w,2401
+robocorp/workitems/_workitem.py,sha256=C_n9Wjx_CGOM9DEfUjB0HAuLX5QliZR7hOKpW_SEKeA,16208
+robocorp/workitems/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robocorp_workitems-1.3.0.dist-info/METADATA,sha256=wctIuIcz8sN5_eEyzf4z_R0gOOor8_P3QyqHfV25wWs,3471
+robocorp_workitems-1.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+robocorp_workitems-1.3.0.dist-info/RECORD,,
