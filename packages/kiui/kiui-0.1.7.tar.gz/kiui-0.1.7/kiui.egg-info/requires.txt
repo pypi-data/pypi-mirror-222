@@ -1,0 +1,17 @@
+lazy_loader
+varname
+objprint
+
+[full]
+tqdm
+rich
+numpy
+scipy
+pandas
+trimesh
+numpytorch
+matplotlib
+opencv-python
+scikit-image
+rembg[cli,gpu]
+dearpygui
