@@ -1,0 +1,20 @@
+numpy
+scipy
+altair 
+plotly 
+matplotlib 
+scikit-learn 
+hdbscan
+pandas
+mkdocs
+mkdocs-material
+jupyter
+mkdocs-jupyter
+mypy
+mkdocstrings-python
+geopandas
+networkx
+tqdm
+pywavelets
+idendrogram @ git+https://github.com/kamicollo/idendrogram
+idendrogram-streamlit-component @ git+https://github.com/kamicollo/idendrogram-streamlit
