@@ -1,0 +1,3 @@
+[console_scripts]
+subsys = app.subsys:cli
+
