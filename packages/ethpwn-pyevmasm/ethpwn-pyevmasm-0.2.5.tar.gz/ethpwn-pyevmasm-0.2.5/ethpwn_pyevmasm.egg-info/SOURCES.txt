@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ethpwn_pyevmasm.egg-info/PKG-INFO
+ethpwn_pyevmasm.egg-info/SOURCES.txt
+ethpwn_pyevmasm.egg-info/dependency_links.txt
+ethpwn_pyevmasm.egg-info/entry_points.txt
+ethpwn_pyevmasm.egg-info/requires.txt
+ethpwn_pyevmasm.egg-info/top_level.txt
+pyevmasm/__init__.py
+pyevmasm/__main__.py
+pyevmasm/evmasm.py
+tests/test_EVMAssembler.py
