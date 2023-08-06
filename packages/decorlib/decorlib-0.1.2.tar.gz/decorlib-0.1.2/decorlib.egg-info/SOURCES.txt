@@ -1,0 +1,5 @@
+setup.py
+decorlib.egg-info/PKG-INFO
+decorlib.egg-info/SOURCES.txt
+decorlib.egg-info/dependency_links.txt
+decorlib.egg-info/top_level.txt

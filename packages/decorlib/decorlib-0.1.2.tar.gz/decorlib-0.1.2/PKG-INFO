@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: decorlib
+Version: 0.1.2
+Summary: Python library with decorators for ease of development
+Home-page: https://github.com/dubniczky/decorlib
+Author: Richard Antal Nagy
+Author-email: nagy.richard.antal@gmail.com
+License: MIT
+Keywords: decorator,development,library,performance,helper
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Python library with decorators for ease of development
