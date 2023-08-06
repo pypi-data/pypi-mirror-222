@@ -1,0 +1,16 @@
+idendrogram/__init__.py,sha256=w5Zf7pTWv7JbjiDB0WxOgfxiNxNd7w0H-04lzNmSzWU,1116
+idendrogram/base.py,sha256=l0alwT4YU_dKD9B7XBZySAv4Z1sEEA4ViIyf4BPhT6A,22311
+idendrogram/callbacks.py,sha256=il0Gd0dleRlpIIcgJMPxArGVJj3fX3QmjaQzYQTt1j0,5974
+idendrogram/clustering_data.py,sha256=6ko8Xu6x6__S8JrPusDc5x7WYfbCJTUxIKxLYsqfr3E,9012
+idendrogram/containers.py,sha256=mdydk-mYdfN4egCv1YzriZe9xYqLZqssTvIamM43Qac,6540
+idendrogram/targets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idendrogram/targets/altair.py,sha256=0vSPGgEJYAdC5oyx4juhHV4inaCdhvMgYhlMtJ6DTuQ,5847
+idendrogram/targets/common.py,sha256=iGO7B8BbBq8HAseR_2zuagBWOmlfeg52dwb9ZtNgJ0c,1099
+idendrogram/targets/json.py,sha256=Cx6kQA3DGsm9OqFIGbt-GWJPbeRWOYqtuneb6wLjsKY,887
+idendrogram/targets/matplotlib.py,sha256=uSZi7Hnn9hqseqUfUYDi3bwpMcghVV9raUQ2i2ScwLY,5430
+idendrogram/targets/plotly.py,sha256=WndAoh4Zpo1K40FxrXnx5fWMaeXaOcfG6QpYzglBUaY,6922
+idendrogram/targets/streamlit.py,sha256=W5B4JmZGYbhi9VlRNbFEj8S5Mkh-sXE69ukDwi3YX1E,1619
+idendrogram-0.2.0.dist-info/LICENSE,sha256=IcRWsEc1yrKjXF53WFRGj5Dz3yItH6zNuCM3kMJ3E-8,1063
+idendrogram-0.2.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+idendrogram-0.2.0.dist-info/METADATA,sha256=0VzYn-GnE0kv8Hc__M63HKAHLbimiLUEqICSLUL7Jo8,2486
+idendrogram-0.2.0.dist-info/RECORD,,
