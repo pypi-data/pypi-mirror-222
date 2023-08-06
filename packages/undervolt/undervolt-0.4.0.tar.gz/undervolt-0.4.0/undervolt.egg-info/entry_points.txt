@@ -1,0 +1,2 @@
+[console_scripts]
+undervolt = undervolt:main
