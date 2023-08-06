@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: microjoy
+Version: 0.0.3
+Summary: biblioteca para leitura de joystick com micropython
+Home-page: UNKNOWN
+Author: Issei momonge
+Author-email: mggyggf@gmail.com
+License: MIT License
+Keywords: joystick micropython
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# comu
+
+init
+
+    from j.joy import Joy
+    
+    j = Joy(35)
+
+    while True:
+        print(j.read())
+
+escala
+
+    from j.joy import Joy
+    
+    j=Joy(35,escala=(-10,10))
+
+    while True:
+        print(j.read())
+
+inverter o valor
+
+    from j.joy import Joy
+    
+    j=Joy(35, invert=True)
+
+    while True:
+        print(j.read())
+
