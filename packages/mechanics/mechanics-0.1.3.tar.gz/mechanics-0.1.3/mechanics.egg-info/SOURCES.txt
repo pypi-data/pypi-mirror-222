@@ -1,0 +1,7 @@
+README.md
+mechanics.py
+setup.py
+mechanics.egg-info/PKG-INFO
+mechanics.egg-info/SOURCES.txt
+mechanics.egg-info/dependency_links.txt
+mechanics.egg-info/top_level.txt
