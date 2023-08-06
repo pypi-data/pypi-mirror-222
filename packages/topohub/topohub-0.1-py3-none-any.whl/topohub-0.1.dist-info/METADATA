@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: topohub
+Version: 0.1
+Summary: A repository of reference Gabriel graph and real-world topologies for networking research
+Home-page: https://github.com/piotrjurkiewicz/topohub
+Author: Piotr Jurkiewicz
+Author-email: piotr.jerzy.jurkiewicz@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: System :: Networking
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
