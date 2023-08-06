@@ -1,0 +1,23 @@
+[project]
+name = "midpay"
+version = "0.0.1"
+authors = [
+    { name='Agung Yuliyanto', email='agung.96tm@gmail.com' },
+]
+description = "Auto Pay midtrans VA by CLI"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "click==8.1.6",
+    "Scrapy==2.9.0",
+]
+
+[project.scripts]
+midpay = "midpay.scripts:cli"
+
+[project.urls]
+"Homepage" = "https://github.com/BetterToPractice/midpay"
+"Bug Tracker" = "https://github.com/BetterToPractice/midpay/issues"
