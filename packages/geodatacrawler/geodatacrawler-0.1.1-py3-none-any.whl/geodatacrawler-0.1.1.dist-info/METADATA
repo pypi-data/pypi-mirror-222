@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: geodatacrawler
+Version: 0.1.1
+Summary: a crawler script to extract and author metadata of spatial datasets
+Home-page: https://github.com/pvgenuchten/pyGeoDataCrawler
+License: MIT
+Author: Paul van Genuchten
+Author-email: genuchten@yahoo.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Fiona (>=1.8.21,<2.0.0)
+Requires-Dist: GDAL (==3.3.2)
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: OWSLib (>=0.27.2,<0.28.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: bibtexparser (>=1.4.0,<2.0.0)
+Requires-Dist: jinja2-time (>=0.2.0,<0.3.0)
+Requires-Dist: mappyfile (>=0.9.7,<0.10.0)
+Requires-Dist: pandas (>=1.5.1,<2.0.0)
+Requires-Dist: pygeometa (==0.13.1)
+Requires-Dist: pyproj (>=3.4.0,<4.0.0)
+Requires-Dist: pysqlite3 (>=0.4.7,<0.5.0)
+Requires-Dist: rasterio (>=1.2.10,<2.0.0)
+Project-URL: Repository, https://github.com/pvgenuchten/pyGeoDataCrawler
