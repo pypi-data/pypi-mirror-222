@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rmgdatabase.egg-info/PKG-INFO
+rmgdatabase.egg-info/SOURCES.txt
+rmgdatabase.egg-info/dependency_links.txt
+rmgdatabase.egg-info/requires.txt
+rmgdatabase.egg-info/top_level.txt
+scripts/evansPolanyi.py
+scripts/exportKineticsLibraryToChemkin.py
+scripts/importChemkinLibrary.py
