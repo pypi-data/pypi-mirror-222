@@ -1,0 +1,10 @@
+pywikibot>=8
+requests
+zhconv
+cn2an
+tqdm
+dargs
+
+[test]
+pytest
+pytest-cov
