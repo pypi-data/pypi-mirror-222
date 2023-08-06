@@ -1,0 +1,15 @@
+circleml/__init__.py,sha256=fSH60J94R6iRUs8NPinJTd_zyvEb5YmLZ75TvZ_TnTE,704
+circleml/core/__init__.py,sha256=lakX6AWI4vQwISLdP1WIZScEgMcGVT29SwPpPyYqSgU,74
+circleml/core/base/__init__.py,sha256=2u5IelM_6RPY_ho6FzAuE4eXnJ-03F1HT27RnFWe4kU,26
+circleml/core/base/abcs.py,sha256=6Y3iAVr3LQpeYS71prf-gLu6vGbzvXeqTORen0bZ0Gw,432
+circleml/core/math/__init__.py,sha256=a4rmzfVAAgwG0JW6D4NQt4JFfuDjC2jivFvZ_rAOY8U,74
+circleml/core/math/math.py,sha256=z72idFcJuV8Ss2AOr5JlF5EVn4KbQlYT-YpzmYCN45A,1131
+circleml/knn/__init__.py,sha256=IxLoNks_5R-cxtsUExGKOppZLmFunBXb9VLEsvjslDI,104
+circleml/knn/knn.py,sha256=nyIzj8exxY8hizI-MsGZnhvdBZlktktIzBHlUTRhLyo,2669
+circleml/log/__init__.py,sha256=sFMzGKY05dj-P2A0PWh7aTp4KJlF8aUmOJNs0_TM5HQ,176
+circleml/log/logger.py,sha256=HfakmsYyVC3C39IaD9zOPvrUNv8XWBEQ2pFmEyKLYS0,1875
+circleml-0.0.1.dist-info/LICENSE,sha256=sO4i5PUfAZVa6BqtlLTPOMhobWNq_oO3rSYS0TgkmsA,11355
+circleml-0.0.1.dist-info/METADATA,sha256=4W6oaSCxHeWAsaT22e13Ofp7Hg7Fj-ud1J3Wlso4DP0,1690
+circleml-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+circleml-0.0.1.dist-info/top_level.txt,sha256=3AHl96Muyv0aCDYTO7CbXVD2T9r40Hs4B-0wAh4weYg,9
+circleml-0.0.1.dist-info/RECORD,,
