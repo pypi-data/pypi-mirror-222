@@ -1,0 +1,11 @@
+glm_met/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glm_met/glm_met.py,sha256=EVs1XFcFlI14SlRcIE7EEkekDbnm1l2PEFOqNdQU3M8,1254
+glm_met/openmeteo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glm_met/openmeteo/climate_change.py,sha256=Yc1FuubSprxdWwSGC0M0nzxeAgzO_wPW6xdTT1iVBTw,8600
+glm_met/openmeteo/historical.py,sha256=uX6cS_HfnUx_24TngYE0Q1-_PE3N-bhB0oVZWsospnM,10616
+glm_met/openmeteo/settings.py,sha256=fwf2i0RGQfwF_Rf2FriD_tLvCssqsoYhAp55Hb8rJt4,808
+glm_met-0.0.2.dist-info/LICENSE,sha256=ykDQ7WRKQ-5SG1_arkhcF40wM22xVEL0nKhgFUWhe3g,1065
+glm_met-0.0.2.dist-info/METADATA,sha256=KE1twtf4SqhpUDO3dO4CQB_9xvo5DWJ11LCvLIV64-Y,4552
+glm_met-0.0.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+glm_met-0.0.2.dist-info/top_level.txt,sha256=bW6xbavP8ZMHFpIugxktco5M8ksCf-cffrgbMby2O4Q,8
+glm_met-0.0.2.dist-info/RECORD,,
