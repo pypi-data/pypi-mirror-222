@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ydl-ipc
+Version: 0.2.0
+Summary: Simple inter-process communication
+License: MIT
+Author: Pioneers in Engineering
+Author-email: leadership@pioneers.berkeley.edu
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# YDL
+
+YDL is a simple inter-process communication framework. It is cross-platform and built on TCP sockets.
+
+The name stands for Yheavyweight Dcommunications and Lmarshalling, with the acronym being pronounced "yodel".
+
+## Installation
+
+You can install YDL from PyPI:
+```
+python -m pip install ydl-ipc
+```
+
