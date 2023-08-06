@@ -1,0 +1,5 @@
+starlette_logger/__init__.py,sha256=E7WWD8LlNfT1S85wFueWvvsoezl8dLyQ7wf1sVgn1xY,293
+starlette_logger/middleware.py,sha256=5K3ah3HM-YJz9UQKSQA_0oPm_6l0oVN6hT89KiHnpiA,3134
+starlette_logger-0.0.2.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+starlette_logger-0.0.2.dist-info/METADATA,sha256=Tln0mYFhwh-myBtvg3gDX0KDjV6ooJuNkNyX1wOr-U0,491
+starlette_logger-0.0.2.dist-info/RECORD,,
