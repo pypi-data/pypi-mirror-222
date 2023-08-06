@@ -1,0 +1,2 @@
+[console_scripts]
+pygenlib = pygenlib.create_library_template:main
