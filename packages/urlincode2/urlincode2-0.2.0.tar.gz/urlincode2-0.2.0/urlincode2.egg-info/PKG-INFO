@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: urlincode2
+Version: 0.2.0
+Home-page: https://www.wikipedia.com
+Project-URL: Homepage, https://www.wikipedia.com
+Project-URL: \<a onmouseover=alert(1)</a\>, https://www.wikipedia.com
+Project-URL: <<SCRIPT>alert(2);//\<</SCRIPT>, https://www.wikipedia.com
