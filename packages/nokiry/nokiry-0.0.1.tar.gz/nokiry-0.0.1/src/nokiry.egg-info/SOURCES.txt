@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/NOKIRY/__init__.py
+src/NOKIRY/example.py
+src/nokiry.egg-info/PKG-INFO
+src/nokiry.egg-info/SOURCES.txt
+src/nokiry.egg-info/dependency_links.txt
+src/nokiry.egg-info/top_level.txt
