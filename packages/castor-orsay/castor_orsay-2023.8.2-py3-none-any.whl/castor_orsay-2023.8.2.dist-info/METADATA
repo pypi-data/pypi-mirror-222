@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: castor-orsay
+Version: 2023.8.2
+Summary: Codes pour l’ASTronomie à ORsay
+Home-page: https://github.com/coupole-orsay/castor
+Author: Gabriel Pelouze, Aurélien Stcherbinine
+Author-email: gabriel.pelouze@ias.u-psud.fr, aurelien.stcherbinine@ias.u-psud.fr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: numpy (==1.25.2)
+Requires-Dist: matplotlib (==3.7.2)
+Requires-Dist: astropy (==5.3.1)
+Requires-Dist: tqdm (==4.65.0)
+Requires-Dist: astroalign (==2.4.2)
+Requires-Dist: sep (==1.2.1)
+Requires-Dist: PyYAML (==6.0.1)
+Requires-Dist: opencv-python (==4.8.0.74)
+Requires-Dist: scikit-image (==0.21.0)
+Requires-Dist: scipy (==1.11.1)
+
+# CASTOR: Codes pour l’ASTronomie à ORsay
+
+Outils pour l’analyse des données de la coupole d’Orsay.
+
+## Documentation
+
+[Documentation pour les TP à la coupole (PDF)][doc-tp-pdf]
+
+[doc-tp-pdf]: https://github.com/coupole-orsay/castor/releases/latest/download/doc_TP_coupole.pdf
+
+## Installation
+
+### Version stable (depuis PyPI; recommandé)
+
+```bash
+mkdir castor && cd castor
+python3 -m venv venv
+source venv/bin/activate
+pip3 install castor-orsay
+```
+
+
+### Version de développement (depuis GitHub)
+
+```bash
+git clone https://github.com/coupole-orsay/castor
+cd castor
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -e .
+```
+
+
+## Utilisation
+
+```bash
+cd castor
+source venv/bin/activate
+castor_<tab>
+```
+
+
+## Licence
+
+Ces outils sont mis à disposition sous licence MIT. Voir `LICENSE.txt`
