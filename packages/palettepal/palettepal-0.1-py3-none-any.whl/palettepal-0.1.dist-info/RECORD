@@ -1,0 +1,11 @@
+palettepal/__init__.py,sha256=B5gaXa_iv3KKAmR9gppWSb7F1Iaba-sVO-73URL8e70,20
+palettepal/__main__.py,sha256=sdR29bAf3HGQ0Eedc1MhPKVla65VRv_ltIEL1xBvQE0,105
+palettepal/colorapp.py,sha256=zWRswv9JoH4ftEjqx1TcU4phHhoibhPYjwCLeqGx3ME,23463
+palettepal/palette.py,sha256=O_aw4QQA3RTKdCA7Aq7l0qXpxW0sp9W82rFnnRYIYpA,8874
+palettepal/slider.py,sha256=FkmT2krl2rEsXHbpEsM1kYiq7O5J_vdvSQuQ1HAYmx8,7654
+palettepal-0.1.dist-info/LICENSE,sha256=yRqs152AzvTayJ9ikhbVHuPQsVj2Ylvv55RTQCVzDLU,1070
+palettepal-0.1.dist-info/METADATA,sha256=UWNk0eveBXKleBXt2bVNd08UpAraM2UbwgWYUtuqOYQ,832
+palettepal-0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+palettepal-0.1.dist-info/top_level.txt,sha256=hVlOcYNF7qKYV_ORXCs7jFAqx2LpXIOyrKtkUxAJkdE,11
+palettepal-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+palettepal-0.1.dist-info/RECORD,,

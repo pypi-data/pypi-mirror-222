@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: palettepal
+Version: 0.1
+Summary: Terminal-Based Color Editor and Palette Generator
+Home-page: https://github.com/cdelker/palettepal
+Author: Collin J. Delker
+Author-email: code@collindelker.com
+License: License :: OSI Approved :: MIT License
+Keywords: color,palette,rgb,ryb,hsl,textual,tui
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: textual (>=0.30)
+Requires-Dist: pyperclip
+
+# Palettepal
+
+Generate color palettes from your terminal.
+
+Install with:
+
+```
+pip install palettepal
+```
+
+And run from the command line:
+
+```
+python -m palettepal
+```
+
+Palettepal requires textual and pyperclip.
+
+
