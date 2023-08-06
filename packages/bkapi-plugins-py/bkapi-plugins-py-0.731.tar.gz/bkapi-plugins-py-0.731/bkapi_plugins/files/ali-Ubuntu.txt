@@ -1,0 +1,76 @@
+用你熟悉的编辑器打开：
+
+/etc/apt/sources.list
+
+替换默认的
+
+http://archive.ubuntu.com/
+
+为
+
+mirrors.aliyun.com
+
+以Ubuntu 14.04.5 LTS为例，最后的效果如下：
+
+deb https://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+
+## Not recommended
+# deb https://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+ubuntu 16.04 配置如下
+deb https://mirrors.aliyun.com/ubuntu/ xenial main
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial main
+
+deb https://mirrors.aliyun.com/ubuntu/ xenial-updates main
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial-updates main
+
+deb https://mirrors.aliyun.com/ubuntu/ xenial universe
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial universe
+deb https://mirrors.aliyun.com/ubuntu/ xenial-updates universe
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial-updates universe
+
+deb https://mirrors.aliyun.com/ubuntu/ xenial-security main
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial-security main
+deb https://mirrors.aliyun.com/ubuntu/ xenial-security universe
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial-security universe
+ubuntu 18.04(bionic) 配置如下
+deb https://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+
+# deb https://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+ubuntu 20.04(focal) 配置如下
+deb https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+
+# deb https://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+相关链接
+官方主页: http://www.ubuntu.com/

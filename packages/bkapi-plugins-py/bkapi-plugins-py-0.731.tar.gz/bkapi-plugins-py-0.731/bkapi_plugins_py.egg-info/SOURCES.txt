@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.cfg
+setup.py
+./setup.py
+./bkapi_plugins/__init__.py
+bkapi_plugins/__init__.py
+bkapi_plugins/files/ali-Ubuntu.txt
+bkapi_plugins/files/ali-centos.txt
+bkapi_plugins/files/ali-epel
+bkapi_plugins/files/ali-k8s
+bkapi_plugins/files/ali-pypi
+bkapi_plugins/files/centos8_base.repo
+bkapi_plugins_py.egg-info/PKG-INFO
+bkapi_plugins_py.egg-info/SOURCES.txt
+bkapi_plugins_py.egg-info/dependency_links.txt
+bkapi_plugins_py.egg-info/top_level.txt

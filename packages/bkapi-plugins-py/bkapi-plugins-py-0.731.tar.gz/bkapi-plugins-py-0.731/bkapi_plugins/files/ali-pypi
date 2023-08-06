@@ -1,0 +1,29 @@
+简介
+PyPI(Python Package Index)是Python编程语言的软件存储库。开发者可以通过PyPI查找和安装由Python社区开发和共享的软件，也可以将自己开发的库上传至PyPI。
+
+下载地址：https://mirrors.aliyun.com/pypi/
+
+公网配置方法
+a. 找到下列文件
+
+~/.pip/pip.conf
+b. 在上述文件中添加或修改:
+
+[global]
+index-url = http://mirrors.aliyun.com/pypi/simple/
+
+[install]
+trusted-host=mirrors.aliyun.com
+ECS内网配置方法
+a. 找到下列文件
+
+~/.pip/pip.conf
+b. 在上述文件中添加或修改:
+
+[global]
+index-url=http://mirrors.cloud.aliyuncs.com/pypi/simple/
+
+[install]
+trusted-host=mirrors.cloud.aliyuncs.com
+相关链接
+官方主页：https://pypi.org/
