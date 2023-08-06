@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: streamlit-calendar
+Version: 0.1.0
+Summary: 📆 A Streamlit component to show callendar using FullCalendar (https://fullcalendar.io)
+License: Apache-2.0
+Author: Muhammad Luqman
+Author-email: im.imperativa@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: streamlit (>=1.12.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+On Progress
+
