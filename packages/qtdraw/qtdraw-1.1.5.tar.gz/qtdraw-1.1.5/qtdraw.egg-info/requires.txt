@@ -1,0 +1,14 @@
+matplotlib
+seaborn
+pyqt5
+pyvista
+pyvistaqt
+click
+pymatgen
+gcoreutils
+
+[dev]
+sphinx
+sphinx-rtd-theme
+ipython
+multipie
