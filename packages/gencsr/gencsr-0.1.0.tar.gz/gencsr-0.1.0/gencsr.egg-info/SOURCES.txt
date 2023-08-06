@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+gencsr.py
+pyproject.toml
+gencsr.egg-info/PKG-INFO
+gencsr.egg-info/SOURCES.txt
+gencsr.egg-info/dependency_links.txt
+gencsr.egg-info/entry_points.txt
+gencsr.egg-info/requires.txt
+gencsr.egg-info/top_level.txt
