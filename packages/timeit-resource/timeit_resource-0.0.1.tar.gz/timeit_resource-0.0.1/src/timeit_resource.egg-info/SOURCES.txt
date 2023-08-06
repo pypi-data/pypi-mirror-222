@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/timeit_resource/__init__.py
+src/timeit_resource/timeit_resource.py
+src/timeit_resource.egg-info/PKG-INFO
+src/timeit_resource.egg-info/SOURCES.txt
+src/timeit_resource.egg-info/dependency_links.txt
+src/timeit_resource.egg-info/top_level.txt
