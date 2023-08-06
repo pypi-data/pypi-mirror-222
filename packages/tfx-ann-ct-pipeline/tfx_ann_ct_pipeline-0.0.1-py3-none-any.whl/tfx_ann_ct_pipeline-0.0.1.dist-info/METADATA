@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tfx-ann-ct-pipeline
+Version: 0.0.1
+Summary: This project is created to provide a simple way to
+Author: Manjesh Kumar
+License: MIT
+Requires-Dist: tfx (==1.6.1)
+Requires-Dist: apache-beam[interactive]
+Requires-Dist: apache-airflow
+
+This is a test deployment
