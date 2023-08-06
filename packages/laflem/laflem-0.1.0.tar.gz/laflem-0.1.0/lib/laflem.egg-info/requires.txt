@@ -1,0 +1,5 @@
+rich==13.*
+
+[dev]
+pylint
+twine
