@@ -1,0 +1,7 @@
+fastllm/__init__.py,sha256=NkC-ddH5hLmstyKivxYdktqwHZ8RYHtHBbdwbwQwDVA,137
+fastllm/base.py,sha256=MzQPvd2wycde4XGvC3gb2aDA7Q-4at5dQkM0NdFvlUg,22384
+fastllm/utils.py,sha256=BAuq1hbokM1cUxfeqGfBF9XfePot0ZDhCR3GDGqrXXw,1275
+fastllm-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastllm-0.1.5.dist-info/METADATA,sha256=ylSRq2frWBmAZo_QPyg1Ojw5e1Q9D6vwiPHGxttXQUg,7484
+fastllm-0.1.5.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+fastllm-0.1.5.dist-info/RECORD,,
