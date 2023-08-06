@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+tests/test_base.py
+xliee_sentry_telegram/__init__.py
+xliee_sentry_telegram/plugin.py
+xliee_sentry_telegram.egg-info/PKG-INFO
+xliee_sentry_telegram.egg-info/SOURCES.txt
+xliee_sentry_telegram.egg-info/dependency_links.txt
+xliee_sentry_telegram.egg-info/entry_points.txt
+xliee_sentry_telegram.egg-info/top_level.txt
