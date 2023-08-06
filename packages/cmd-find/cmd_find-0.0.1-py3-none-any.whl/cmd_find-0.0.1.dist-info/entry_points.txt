@@ -1,0 +1,3 @@
+[console_scripts]
+cmd-find = main:main
+cmd_find = main:main
