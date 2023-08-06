@@ -1,0 +1,6 @@
+scienced.py
+setup.py
+scienced.egg-info/PKG-INFO
+scienced.egg-info/SOURCES.txt
+scienced.egg-info/dependency_links.txt
+scienced.egg-info/top_level.txt
