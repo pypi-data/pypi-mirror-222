@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/bitchain/__init__.py
+src/bitchain/__main__.py
+src/bitchain/bitchain.py
+src/bitchain.egg-info/PKG-INFO
+src/bitchain.egg-info/SOURCES.txt
+src/bitchain.egg-info/dependency_links.txt
+src/bitchain.egg-info/top_level.txt
+src/bitchain.egg-info/zip-safe
