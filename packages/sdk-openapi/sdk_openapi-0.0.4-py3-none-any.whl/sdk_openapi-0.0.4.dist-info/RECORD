@@ -1,0 +1,7 @@
+openapi/__init__.py,sha256=l7RzaiKDxCT9lL0Rj4qFp0eJqRe4vd5EKC-EVUgimiw,180
+openapi/constants.py,sha256=jtgYpPTG7q3AObg87NsuDmYjui8YedEDbHnrxq4yr7U,130
+openapi/core.py,sha256=9Xzs0P71b1KybzjWR6QVdHOnCS1qUAaB37N_d4YMIrM,2046
+sdk_openapi-0.0.4.dist-info/METADATA,sha256=pyNhwi2q58RxtR6AlMf72RUsDFyz3IY44lox63NQIFg,914
+sdk_openapi-0.0.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+sdk_openapi-0.0.4.dist-info/top_level.txt,sha256=Pb4SBBr9VLEFStl0928njtFgKhh7dykWN1BHqfBFwCo,8
+sdk_openapi-0.0.4.dist-info/RECORD,,

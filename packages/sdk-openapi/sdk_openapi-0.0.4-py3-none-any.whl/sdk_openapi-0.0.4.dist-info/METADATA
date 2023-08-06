@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: sdk-openapi
+Version: 0.0.4
+Summary: The python package for api.qewertyy.me
+Home-page: https://github.com/Qewertyy/Open-API
+Author: Qewertyy
+Author-email: Qewertyy.irl@gmail.com
+Keywords: Python,API,Bard,Google Bard,Large Language Model,Chatbot API,Google API,Chatbot,Image Generations,Latent Diffusion,State of Art
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: aiohttp
+Requires-Dist: httpx[http2]
+Requires-Dist: asyncio
+
+Simple Usage for palm
+
+```python
+from openapi import Client
+import asyncio
+
+async def main(prompt: str) -> dict:
+    client = Client()
+    response = await client.palm(prompt)
+    return response
+
+if __name__ == "__main__":
+    print(asyncio.run(main("hemlo")))
+```
