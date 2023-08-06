@@ -1,0 +1,8 @@
+README.md
+auto_code_generation_execution.py
+setup.py
+auto_code_generation_execution.egg-info/PKG-INFO
+auto_code_generation_execution.egg-info/SOURCES.txt
+auto_code_generation_execution.egg-info/dependency_links.txt
+auto_code_generation_execution.egg-info/entry_points.txt
+auto_code_generation_execution.egg-info/top_level.txt
