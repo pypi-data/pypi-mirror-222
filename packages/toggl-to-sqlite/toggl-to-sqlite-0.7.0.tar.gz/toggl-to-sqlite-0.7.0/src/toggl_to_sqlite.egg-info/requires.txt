@@ -1,0 +1,15 @@
+sqlite-utils>=2.4.4
+click
+requests
+requests_mock
+toml
+click
+
+[test]
+pytest
+black
+isort
+coverage
+mypy
+cogapp
+pre-commit
