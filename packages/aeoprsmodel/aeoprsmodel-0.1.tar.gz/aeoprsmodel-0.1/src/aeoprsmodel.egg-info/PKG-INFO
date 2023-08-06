@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aeoprsmodel
+Version: 0.1
+Summary: ARLAS Earth Observation Product Registration Service Model
+Home-page: UNKNOWN
+Author: Gisaïa
+License: UNKNOWN
+Description: # AEOPRS Model
+        
+        This package contains the data model for sending requests to ARLAS Earth Observation Product Registration Services.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown

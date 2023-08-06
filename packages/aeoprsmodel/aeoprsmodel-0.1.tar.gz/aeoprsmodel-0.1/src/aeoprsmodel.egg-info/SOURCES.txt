@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/aeoprs/core/models/__init__.py
+src/aeoprs/core/models/mapper.py
+src/aeoprs/core/models/model.py
+src/aeoprsmodel.egg-info/PKG-INFO
+src/aeoprsmodel.egg-info/SOURCES.txt
+src/aeoprsmodel.egg-info/dependency_links.txt
+src/aeoprsmodel.egg-info/top_level.txt
