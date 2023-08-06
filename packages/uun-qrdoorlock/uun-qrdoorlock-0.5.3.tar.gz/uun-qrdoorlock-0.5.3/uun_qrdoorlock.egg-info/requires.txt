@@ -1,0 +1,5 @@
+uun-iot>=0.9.0
+pyserial
+pynacl
+validators
+termcolor
