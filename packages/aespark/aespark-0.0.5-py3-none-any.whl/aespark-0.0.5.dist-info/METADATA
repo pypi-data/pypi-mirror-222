@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: aespark
+Version: 0.0.5
+Summary: Generate a QR code that can adapt to the cylinder
+Home-page: https://pypi.org/project/aespark/
+Author: wtianxin
+Author-email: 1007582510@qq.com
+License: MIT
+Keywords: aespark
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities
+Requires-Dist: jieba (>=0.42.1)
+Requires-Dist: tqdm (>=4.64.1)
+Requires-Dist: jionlp (>=1.5.2)
+Requires-Dist: python-docx (>=0.8.11)
+
+pass
