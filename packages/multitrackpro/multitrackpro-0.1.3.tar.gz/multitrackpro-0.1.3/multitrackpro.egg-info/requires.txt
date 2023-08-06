@@ -1,0 +1,4 @@
+ultralytics>=8.0.125
+linetimer>=0.1.5
+opencv-python>=4.7.0
+pyqt6>=6.5.1
