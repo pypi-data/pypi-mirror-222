@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pytest-collect-appoint-info
+Version: 0.0.1
+Summary: set your encoding
+Home-page: https://github.com/pypa/sampleproject
+Author: jin.fang
+Author-email: xxxxxxxx@example.com
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Keywords: pytest,py.test,pytest_collect
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Pytest
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pytest
+
+show Chinese for your mark.parametrize().
+

@@ -1,0 +1,3 @@
+[pytest11]
+pytest-collect-appoint-info = pytest_collect_appoint_info
+
