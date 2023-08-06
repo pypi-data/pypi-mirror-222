@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mongodriver
+Version: 1.2.4
+Summary: Object-oriented interactions with MongoDB
+Author: Jake Strouse
+Author-email: jstrouse@meh.llc
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: pymongo (==3.12.0)
+Requires-Dist: pymongo[srv]
+
