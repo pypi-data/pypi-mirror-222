@@ -1,0 +1,5 @@
+!/bin/bash
+
+echo "i am swiftly"
+
+source ./swiftly.python.sh
