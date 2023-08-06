@@ -1,0 +1,24 @@
+# My Library
+
+This is a Python library for solving simple mechanics problems. Currently, it includes functions for the following calculations:
+
+1. `final_velocity(initial_velocity, acceleration, time)`: This function calculates the final velocity of an object given the initial velocity, acceleration, and time. The inputs and output are in meters per second (m/s).
+
+2. `displacement(initial_velocity, time, acceleration)`: This function calculates the displacement of an object given the initial velocity, time, and acceleration. The inputs and output are in meters (m).
+
+3. `force(mass, acceleration)`: This function calculates the force exerted on an object given the mass and acceleration. The mass is in kilograms (kg), the acceleration is in meters per second squared (m/s²), and the output is in newtons (N).
+
+4. `kinetic_energy(mass, velocity)`: This function calculates the kinetic energy of an object given the mass and velocity. The mass is in kilograms (kg), the velocity is in meters per second (m/s), and the output is in joules (J).
+
+5. `pendulum_period(length, gravity)`: This function calculates the period of a simple pendulum given the length of the pendulum and the acceleration due to gravity. The length is in meters (m), the gravity is in meters per second squared (m/s²), and the output is in seconds (s).
+
+## Usage
+
+Here's an example of how to use the `final_velocity` function:
+
+```python
+import mechanics
+
+v = mechanics.final_velocity(0, 9.8, 10)
+print(v)  # Prints: 98.0
+
