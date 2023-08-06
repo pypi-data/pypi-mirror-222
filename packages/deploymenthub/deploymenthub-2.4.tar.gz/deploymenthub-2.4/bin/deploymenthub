@@ -1,0 +1,51 @@
+#!/usr/bin/env python
+
+import argparse
+import os
+import json
+
+
+def main():
+    parser = argparse.ArgumentParser(description='CLI client for Deployment Hub.')
+    parser.add_argument('--project', '-p', required=True,
+                        help='Name of the project you want to deploy or manage.')
+    parser.add_argument('--action', '-a', required=True,
+                        help='The action that is requested for the project.')
+    parser.add_argument('--branch', '-b',
+                        help='Branch you want to deploy.')
+    parser.add_argument('--verbose', '-v', action='store_true',
+                        help='Run in verbose mode.')
+    parser.parse_args()
+    args = parser.parse_args()
+
+    project = args.project
+    action = args.action
+    branch = args.branch
+    verbose = args.verbose
+    url = "http://192.168.0.216:5555"
+
+    #http://192.168.0.216:5555/home-assistant/start/
+    list_of_projects = ['jaredwines', 'home-assistant', 'deployment-hub', 'alohamillworks', 'coastalteardrops', 'homebridge','deployment-hub-ui']
+
+    if project in list_of_projects:
+        if branch is None:
+            command = ('curl ' + url + '/' + project + '/' + action + '/')
+        else:
+            command = ('curl ' + url + '/' + project + '/' + action + '/' + branch + '/')
+
+        print(command)
+
+        if verbose:
+            command_list = json.loads(os.popen(command).read())
+            for commandRow in command_list:
+                print(commandRow)
+
+        else:
+            os.popen(command)
+
+    else:
+        print("Project does not exist!")
+
+
+if __name__ == '__main__':
+    main()
