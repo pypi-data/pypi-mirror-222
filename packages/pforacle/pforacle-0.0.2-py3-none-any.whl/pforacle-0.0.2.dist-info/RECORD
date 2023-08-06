@@ -1,0 +1,12 @@
+oracle/__init__.py,sha256=SXUyE9hmQeYBcmIxmXrAZAIeYfMHAA7cy2vPwgRceTo,82
+oracle/tools/__init__.py,sha256=SXUyE9hmQeYBcmIxmXrAZAIeYfMHAA7cy2vPwgRceTo,82
+oracle/tools/query.py,sha256=KIlb2-I_9uCfU986TXBpGkXN1BfNZvZpCQ01twaaJfo,1030
+oracle/tools/utils.py,sha256=NDuoTdwVb6Hh20lRWuSvOtbD8F4VUHopY-mGDs2fm0c,522
+oracle/yamls/query.yaml,sha256=W5WzhNck2e1p4GvgbZTdysb7gYEiLn47RjcRswbPp2s,362
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_query.py,sha256=qQkKy-CzhvCQDNEyertgXiCszaamNCmgrXSZhJodmKg,1029
+pforacle-0.0.2.dist-info/METADATA,sha256=Ez01QSJj4SHAUkH675AjgzEmwsY0CaL1d2JqSMA-dz8,137
+pforacle-0.0.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pforacle-0.0.2.dist-info/entry_points.txt,sha256=GeCcQbriyAyto9eKoNEL3uVYdpqe1A83GDqXOCJu6Hw,62
+pforacle-0.0.2.dist-info/top_level.txt,sha256=Vw5GiePoWI2ZzRd2gOtTet6YEDo9FJKM99xYhc8W-Ao,13
+pforacle-0.0.2.dist-info/RECORD,,
