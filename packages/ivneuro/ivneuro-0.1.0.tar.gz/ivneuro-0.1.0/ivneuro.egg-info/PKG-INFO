@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ivneuro
+Version: 0.1.0
+Summary: Tools for processing and analyzing neurophysiological signals recorded in-vivo.
+Author: Eric Casey
+Requires-Python: >=3.11.3
+License-File: LICENSE
