@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: clg-logger
+Version: 0.1.0
+Summary: Manage logging based on command-line options.
+Home-page: https://clg.readthedocs.org/en/latest/
+Download-URL: http://github.com/fmenabe/python-clg-logger
+Author: François Ménabé
+Author-email: francois.menabe@gmail.com
+License: MIT License
+Keywords: command-line,argparse,wrapper,clg,logging
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+python-clg-logger
+=================
+
+FIXME

@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+clg/logger.py
+clg_logger.egg-info/PKG-INFO
+clg_logger.egg-info/SOURCES.txt
+clg_logger.egg-info/dependency_links.txt
+clg_logger.egg-info/requires.txt
+clg_logger.egg-info/top_level.txt
