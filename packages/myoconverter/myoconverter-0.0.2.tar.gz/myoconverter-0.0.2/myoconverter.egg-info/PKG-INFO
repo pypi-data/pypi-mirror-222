@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: myoconverter
+Version: 0.0.2
+Summary: Tool for converting OpenSim musculoskeletal (MSK) models to the MuJoCo model format with optimized muscle kinematics and kinetics
+Home-page: https://github.com/MyoHub/myo-converter
+Author: Huawei Wang, Aleksi Ikkala
+Author-email: 
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Check the [GitHub repository](https://github.com/MyoHub/myo-converter) for up-to-date documentation
