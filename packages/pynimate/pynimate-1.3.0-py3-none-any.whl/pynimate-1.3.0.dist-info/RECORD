@@ -1,0 +1,13 @@
+pynimate/__init__.py,sha256=ciqy4KCZHsZBYuSVYKHB3t94WRIcejrTHG5hu0VvCE4,891
+pynimate/bar.py,sha256=Je_0B8g2RFkr8BA6v74wexCW0zmkSkURjMf_NuOnSYU,23970
+pynimate/barhplot.py,sha256=PouvTCKEqHeAqhJ7EDrQRuESGcDJXLt1dPWrfjoPksg,9812
+pynimate/baseplot.py,sha256=NvX8i-QDkd0iguKJQ7NJOMNqgbhupXfhSuqgrDj5Xl0,16889
+pynimate/canvas.py,sha256=YSpBVNaCLT9YmWeTaKbKgKaaL04hV9ZO7uqLHcJA_Nc,3567
+pynimate/datafier.py,sha256=ByuDuMuhrLYLDB3kfWPyRmmbQTMZGPMq0Qqt271B0G8,18616
+pynimate/lineplot.py,sha256=cLTn5QNzEs06EsjRlRB2uUb1-7rp44mlZ_Z1SffEdfc,8430
+pynimate/utils.py,sha256=O9_2IwLGYuFAyBHK8qF6G2dUHlQx2Nh1ZZ62icgSxio,691
+pynimate-1.3.0.dist-info/LICENSE,sha256=ZAbr1XAXi2kA2jlZlcuC77qpID3N32AmEMRwxpiNn7M,1071
+pynimate-1.3.0.dist-info/METADATA,sha256=_3rdgZWDi7iPaKOruyy4dx3uY-yQ9Cakk0IHaVHvubY,3224
+pynimate-1.3.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pynimate-1.3.0.dist-info/top_level.txt,sha256=Pz61gMNrg5I484KmJ8ZuMrDVNx3_eIat4JLC4XpHT5s,9
+pynimate-1.3.0.dist-info/RECORD,,
