@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sdk-test-sdk
+Version: 2.0.0
+Summary: An awesome SDK to say hello!
+Home-page: https://github.com/your/repo
+Author: Your Name
+Author-email: your@email.com
+License: MIT
+Keywords: python sample project example
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy (==1.24.4)
+
+# 添加关于SDK的说明和用法等信息，文件主要是用来对此次发行的包的详细说明，包括用法和注意事项等
+
+
+# 安装
+pip install sdk_test_sdk-1.0.0-py3-none-any.whl
+
+
+# 使用
+import sdk_test_sdk
+
+
+sdk_test_sdk.test_numpy()
+sdk_test_sdk.test_hello()
+
+
