@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+fairaudit/__init__.py
+fairaudit/auditor.py
+fairaudit/bootstrap.py
+fairaudit/flag.py
+fairaudit/groups.py
+fairaudit/metrics.py
+fairaudit/shifts.py
+fairaudit.egg-info/PKG-INFO
+fairaudit.egg-info/SOURCES.txt
+fairaudit.egg-info/dependency_links.txt
+fairaudit.egg-info/requires.txt
+fairaudit.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+numpy
+scipy
+cvxpy
+scikit-learn
+matplotlib
+statsmodels
+tqdm
