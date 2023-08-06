@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: yahoorequests
+Version: 1.0
+Summary: A simple Python library for getting stock prices and company names from Yahoo Finance.
+Home-page: https://github.com/TheodorGajhede/YahooRequests
+License: MIT
+Keywords: Stocks,Yahoo,Finance
+Author: Theodor Gajhede
+Author-email: theodorgajhede@gmail.com
+Requires-Python: >=3.4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.0,<3.0)
+Project-URL: Repository, https://github.com/TheodorGajhede/YahooRequests.git
+Description-Content-Type: text/markdown
+
+# Yahoo Requests
+
+A small Python library for getting prices and full names of companies using Yahoo.
+
+## Author
+
+Theodor Gajhede from the north of Denmark
+
+## Usage
+
+```python
+from YahooRequests import YahooRequests as yr
+
+# Get the live price of Google
+price = yr.price("googl")
+
+# Get the full company name of Google
+name = yr.name("googl")
+```
+## Installation
+```python
+pip install YahooRequests 
+```
+## Support
+If ``` import YahooRequests from YahooRequests``` doesn't work
+ try using the "--user" flag when  installing with pip or contact RedDied at reddied@gmail.com
+
+## Credits
+#### Thanks to u/Diapolo10 for helping with version 0.2.
