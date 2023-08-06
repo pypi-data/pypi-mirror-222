@@ -1,0 +1,1 @@
+from news_toolkit_api.repository.article import ArticleRepository
