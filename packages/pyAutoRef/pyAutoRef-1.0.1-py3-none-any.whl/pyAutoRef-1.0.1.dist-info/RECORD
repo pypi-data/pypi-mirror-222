@@ -1,0 +1,13 @@
+pyAutoRef/__init__.py,sha256=VeW9KzGHshqGwDy5Dxi1b1x8IYxt552mTvhFytNh_1I,55
+pyAutoRef/autoref.py,sha256=lft-s1F0wrQon2SX0qrBEl965aW0ClAELWPpDm8g0Ak,3473
+pyAutoRef/model.onnx,sha256=ci-gHeFNOraubS15UL07KholDEzf_SzRuHR9L9YG0Rk,44612745
+pyAutoRef/normalization.py,sha256=n4jUzmZ7cw0uuqJwLzeIAeyNzwrqhoTWnvEcRwBnJn4,2003
+pyAutoRef/object_detection.py,sha256=P1Ho1A5zUf7y-yAaVW9PDpHAAF-8f3ii1VuSbJpSuoM,2625
+pyAutoRef/post_processing.py,sha256=E5SIpf3yJeNDSWIENPql-cMq0sgsr91e_zVV5Xp7rd8,3897
+pyAutoRef/pre_processing.py,sha256=1YFBxCbeNM5A1ew6tILmxlz8TQo5UyoGbWC1AHkYn9Y,3098
+pyAutoRef/utils.py,sha256=lQQYKy4rqLLpsktab3HMqZ-CBm2iO_Pyy6np6Nlh1pg,27708
+pyAutoRef-1.0.1.dist-info/LICENSE,sha256=v8s9gG9xn8vKvYfTsRFedZS6DKknsqUR2M_jDrGFl0Y,1171
+pyAutoRef-1.0.1.dist-info/METADATA,sha256=h17zHIxX5RlSIlws_C3WduFQaoHvjgnSo8xuPbS1wlU,3908
+pyAutoRef-1.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pyAutoRef-1.0.1.dist-info/top_level.txt,sha256=rEXmZQjytc_j_Bdtevy-YoaAkHhLbeFHIVHF3tZY0YY,10
+pyAutoRef-1.0.1.dist-info/RECORD,,
