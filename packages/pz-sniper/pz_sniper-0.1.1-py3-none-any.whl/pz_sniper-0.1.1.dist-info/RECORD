@@ -1,0 +1,14 @@
+sniper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sniper/ami.py,sha256=Q4D6RjG06Ib4V518tjwfC1w7yCOWGNDf1c7Li6gnPcQ,947
+sniper/aws.py,sha256=5K_fyqp2QrsTbAq9NCzqCXl-Q2Rww4somC3h8FvzqoQ,151
+sniper/cli.py,sha256=CgFNlj4j1mpe0WAHbT6XvOUe1Xp3z99wKL8gdO_x9Ms,655
+sniper/engine.py,sha256=J6khTFQQ8yukpfKuGrTt1zaUlu6ZCujAd_UOYE8iW8g,1265
+sniper/region.py,sha256=Hz6VG2A9Ij2KYQi1nt4wC__CwukUZpI_44N7h6wD8W4,439
+sniper/snapshot.py,sha256=ZJpX5-NNEltL59Xr0HdJS1fnuo9vMirw-A5ExWoBpwA,963
+sniper/spreadsheet.py,sha256=DQNGwGnE91OQ-jCYqICZAA8o4LqHsyGMfkXY4P4vAdk,343
+pz_sniper-0.1.1.dist-info/LICENSE,sha256=Rey-l8aG5FNy4hx0_wxc9SA9-wNcFHKYo6VyrRLaFqo,1066
+pz_sniper-0.1.1.dist-info/METADATA,sha256=RoCSp7-J6AO-ycI9xcqVpfgbsDavzGVLH59XBhzuAes,380
+pz_sniper-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pz_sniper-0.1.1.dist-info/entry_points.txt,sha256=xEDEacEL4qLcu2Q3WyYu8_B09_5s474tKkslwcDgeto,43
+pz_sniper-0.1.1.dist-info/top_level.txt,sha256=fvWXfkSItjwlCE7Wsqxhyhr0ymbo7p8BJjGeYK55W3o,7
+pz_sniper-0.1.1.dist-info/RECORD,,
