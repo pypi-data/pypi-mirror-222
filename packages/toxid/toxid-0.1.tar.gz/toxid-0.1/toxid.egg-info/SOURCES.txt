@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+toxid.egg-info/PKG-INFO
+toxid.egg-info/SOURCES.txt
+toxid.egg-info/dependency_links.txt
+toxid.egg-info/requires.txt
+toxid.egg-info/top_level.txt
