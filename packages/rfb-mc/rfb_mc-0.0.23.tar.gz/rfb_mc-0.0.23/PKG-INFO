@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rfb_mc
+Version: 0.0.23
+Summary: Performs model counting using restrictive formulas
+Home-page: https://github.com/Meterius/rfb-mc
+Author: Jonah Leander Hoff
+Author-email: jonah-hoff@outlook.com
+Project-URL: Bug Tracker, https://github.com/Meterius/rfb-mc/issues
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Restrictive Formula based Model Counting
+
+<hr />
+
+rfb_mc is a python package that implements SMT model counting using restrictive formulas.
