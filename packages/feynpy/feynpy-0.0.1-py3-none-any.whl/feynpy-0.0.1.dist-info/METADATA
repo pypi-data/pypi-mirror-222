@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: feynpy
+Version: 0.0.1
+Summary: Compute Feynman diagrams
+Home-page: https://github.com/APN-Pucky/feynpy
+Author: Alexander Puck Neuwirth
+Author-email: alexander@neuwirth-informatik.de
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: feynml (>=0.2.12)
+Requires-Dist: feynmodel (>=0.0.4)
+Project-URL: Repository, https://github.com/APN-Pucky/feynpy
+Description-Content-Type: text/markdown
+
+# FeynPy
+
+

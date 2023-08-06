@@ -1,0 +1,12 @@
+feynpy/__init__.py,sha256=HfDrTjIFs8DqjJp1On7KbntIVDGkiXkgytzXTnvOG9w,127
+feynpy/color.py,sha256=4IWEuLrEYRIH9iO9J5dIrfjNrCYaiFz3WZjSikcjXV0,689
+feynpy/emplace.py,sha256=ajz1GSNU9xYVrFEDSz6Xwg7amWQ_yvW75tQa1ZvRIWc,3
+feynpy/leg.py,sha256=RHMda8kIbo8OaOevoOqFTq-SZzxbHI6qkWrq5zYFAVk,1017
+feynpy/lorentz.py,sha256=bvs8MgtanIeP3N6MImzKtrEGEKgsahTc6bJnMyQmMjs,207
+feynpy/propagator.py,sha256=KiPssaf8tJCTOueULDNtrH5Plh7Sh0G-5KkE5dV_OWM,774
+feynpy/util.py,sha256=aqHPfN1uP9t3KY6em1-5Z8phbFEbdsDhTd-I9hTvdq4,424
+feynpy/vertex.py,sha256=76pRN7MI-SA87xgYb4upnfp_-CGL-GDxmoZB_djHDr0,1510
+feynpy-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+feynpy-0.0.1.dist-info/METADATA,sha256=Uof89LnvUSUj92lLpn0mkVeaVE_-k3k8HD3qJD7iEKU,669
+feynpy-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+feynpy-0.0.1.dist-info/RECORD,,
