@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: powerpoint-generative-ai
+Version: 0.1.5
+Summary: Library written by Width.Ai. Streamlines the utilization of GPT models for automatic PowerPoint content generation. Also offers semantic searches on slide content, enabling you to quickly pinpoint relevant information
+Home-page: https://github.com/Width-ai/powerpoint-generative-ai
+Download-URL: https://github.com/Width-ai/powerpoint-generative-ai/archive/refs/tags/v0.1.5.tar.gz
+Author: Patrick Hennis
+Author-email: patrick@width.ai
+License: MIT
+Keywords: LLM,Semantic Search,PowerPoints
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: langchain (==0.0.242)
+Requires-Dist: openai (==0.27.8)
+Requires-Dist: python-pptx (==0.6.21)
+Requires-Dist: backoff (==2.2.1)
+Requires-Dist: pinecone-client (==2.2.2)
+
