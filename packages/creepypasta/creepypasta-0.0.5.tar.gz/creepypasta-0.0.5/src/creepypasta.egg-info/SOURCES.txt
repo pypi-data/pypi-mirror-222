@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/creepypasta/__init__.py
+src/creepypasta/pasta_listings.py
+src/creepypasta/pasta_stories.py
+src/creepypasta.egg-info/PKG-INFO
+src/creepypasta.egg-info/SOURCES.txt
+src/creepypasta.egg-info/dependency_links.txt
+src/creepypasta.egg-info/requires.txt
+src/creepypasta.egg-info/top_level.txt
+test/test-units.py

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: creepypasta
+Version: 0.0.5
+Summary: A small package to crawl CreepyPasta and parse into structured data.
+Home-page: https://jellomoat.github.io/pasta/
+Author: Stephanie Andrews
+Author-email: Stephanie Andrews <jellomoat@gmail.com>
+Project-URL: Homepage, https://github.com/jellomoat/pasta
+Project-URL: Bug Tracker, https://github.com/jellomoat/pasta/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 🕯️ creepypasta
+
+Docs => https://jellomoat.github.io/pasta/
