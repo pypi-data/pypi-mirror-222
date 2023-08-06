@@ -1,0 +1,11 @@
+jupylint/__init__.py,sha256=PZDF4OhZcrFq2wxzzffrH3DT57oGyqggJN_OvW797oI,109
+jupylint/__main__.py,sha256=BohrifmqNQoACvppoxNd5uZkCjgc32ykfev-dWmvuPo,89
+jupylint/_test.py,sha256=rZZ4r9_46FpNR3lhCjo9FMxklCSZ4zZaCYPYfJBS3xU,6994
+jupylint/_test_template.py,sha256=nYs7vUWPtIAL_LV49ZoDPcxF9hlI0OGWQTZPU6o_i44,2381
+jupylint/jupylint.py,sha256=pI_MUUwvjjuJjPNIm47klZfkGsc_ePqTo4TssAS4IzA,5341
+jupylint-2.2.4.dist-info/LICENSE,sha256=PMeqRKpbdRTFNr5fu8ZA0XezLrIqTdLkpqyhbzY66p8,1071
+jupylint-2.2.4.dist-info/METADATA,sha256=6rz22LvZJ9nVlG-z9681SQpqc9PNBso59ThVOc72DD8,2170
+jupylint-2.2.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+jupylint-2.2.4.dist-info/entry_points.txt,sha256=5XqX2AHkdQ2xtJ8Cxg-TUiFfJ5kubS0jjdM0ejSKJWw,52
+jupylint-2.2.4.dist-info/top_level.txt,sha256=DwXmf-7Xqm_jaCXeHO2PK4rriye-jZRdj_cdNYsvxIc,9
+jupylint-2.2.4.dist-info/RECORD,,
