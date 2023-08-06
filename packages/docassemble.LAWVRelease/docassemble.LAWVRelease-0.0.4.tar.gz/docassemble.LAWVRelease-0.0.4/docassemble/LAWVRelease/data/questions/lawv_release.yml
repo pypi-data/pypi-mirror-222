@@ -1,0 +1,218 @@
+metadata:
+  title: |
+    LAWV Release
+  short title: |
+    LAWV Release
+  description: |
+    This interview allows advocates to generate and email
+    a release of information to a client and receive a signed
+    copy back.
+  authors:
+    - name: Dane W. Henry, Esq.
+      organization: Legal Aid of West Virginia, Inc.
+  revision_date: 2020-12-04
+---
+objects:
+  - a: Individual
+  - c: Individual
+  - endpoint: DADict
+---
+mandatory: True
+code: |
+  multi_user = True
+  attorney_setup  
+  if not birthdays_match:
+    failure_reason = "Sorry the birthday you entered did not match."
+    challenge_fail
+  agrees_to_sign  
+  c_method
+  if c_method == 'type':
+    c.signature = '/s/' + c.name.full()
+  date = current_datetime()
+  c.signature
+  final_screen  
+---
+ga id: attorneyInfo
+question: |
+  First, enter your information
+subquestion: |
+  The information is needed to get the signed release
+  agreement back from the client.
+fields:
+  - First Name: a.name.first
+  - Last Name: a.name.last
+  - Email Address: a.email
+    datatype: email
+---
+ga id: clientInfo
+question: |
+  Now, enter some information about the client
+subquestion: |
+  Information about the client is used to make sure
+  the person who receives the release is the client
+fields:
+  - First Name: c.name.first
+  - Last Name: c.name.last
+  - Birthdate: c.birthdate
+    datatype: date
+    default: |
+      ${ today().minus(years=50) }
+  - Email Address: c.email
+    datatype: email
+---
+ga id: clientBirthday
+question: |
+  Please enter your birthday
+fields:
+  - no label: challenge
+    datatype: date
+    default: |
+      ${ today().minus(years=50) }
+---
+ga id: clientReview
+question: |
+  Review
+subquestion: |
+  ${ a.name.full() } has submitted a release for your signature. Legal 
+  Aid of West Virginia is asking you to sign this release so that 
+  our advocates can get important paperwork about your case from someone 
+  else, like DHHR or another similar agency.
+
+  The release authorizes Legal Aid of West Virginia to access "any 
+  and all requested records for information, including psychiatric 
+  records or records relating to treatment for alcoholism or substance 
+  addiction pertaining to me that the person or agency may have, including 
+  written or electronic reports, copies, computations and excerpts, and 
+  hereby waive the limitations on access of information about me 
+  provided in the Privacy Act of 1974."
+
+  The release is effective for 1 year after you sign it.
+field: agrees_to_sign
+continue button label: I agree to sign
+---
+ga id: clientSignature
+question: |
+  How would you like your name signed?
+subquestion: |
+  **Typed** will insert '/s/ ${ c.name.full()}'
+
+  **Digitally Sign** will allow you to use the mouse, trackpad,
+  or finger (device depending) to sign your name
+field: c_method
+choices:
+  - Type: type
+  - Digitally Sign: sign
+under: |
+  After you sign the release a copy will be provided to both you and Legal Aid of West Virginia.
+---
+ga id: clientDigitalSignature
+question: |
+  Sign your name
+signature: c.signature
+under: |
+  ${ c.name.full() }
+---
+event: attorney_final
+question: |
+  Email Sent - Done for now
+subquestion: |
+  An email has been sent to ${ c.email } for them to 
+  review the terms and sign.  Once signed, a copy will
+  be sent to your email: ${ a.email }
+action buttons:
+  - label: Leave
+    action: https://www.lawv.net
+    color: warning
+    icon: sign-out-alt
+need:
+  - attorney_setup
+---
+ga id: releaseComplete
+event: final_screen
+question: |
+  Thank You
+subquestion: |
+  % if client_emailed and attorney_emailed:
+  Thank you for completing the signature. 
+  
+  A copy will be sent to your email: ${ c.email }.
+  % else:
+  There was a problem sending the e-mail.
+  % endif
+action buttons:
+  - label: Exit
+    action: https://www.lawv.net
+    color: danger
+    icon: sign-out-alt
+---
+code: |
+  client_emailed = send_email(to=c,attachments=lawv_release,template=see_attached)
+---
+code: |
+  attorney_emailed = send_email(to=a,attachments=lawv_release,template=see_attached)
+---
+ga id: challengeFail
+event: challenge_fail
+question: |
+  It appears you encountered a problem
+subquestion: |  
+  Reason: ${ failure_reason }  
+action buttons:
+  - label: Exit
+    action: https://www.lawv.net
+    color: danger
+    icon: sign-out-alt
+---
+template: notification
+subject: |
+  A document is awaiting your signature.
+content: |
+  Dear ${ c.name.full() },
+  
+  ${ a.name.full() } has created a document that requires your signature.
+  After you sign it, a copy will be emailed to you for your records.
+
+  Please click the following URL:
+
+  [${ interview_url() }](${ interview_url() })
+
+  Legal Aid of West Virginia
+
+  *NOTE: This email address is not monitored.  Please do not reply to this message.  
+  Contact your attorney or paralegal through your normal method of communication.*
+---
+template: see_attached
+subject: |
+  A document has been created.
+content: |
+  Here is a copy of the document you signed.
+
+  *NOTE: This email address is not monitored.  Please do not reply to this message.  
+  Contact your attorney or paralegal through your normal method of communication.*
+---
+attachment:
+  - name: LAWV Authorization and Release
+    filename: ${ c.name.full() } Release
+    pdf template file: lawv_release.pdf
+    editable: False
+    variable name: lawv_release
+    fields:
+      - "name" : ${ c.name.full() }
+      - "signature": ${ c.signature.show(width='3in') if c_method == 'sign' else '' }
+      - "signature_text": |
+          ${ '/s/ ' + c.name.full() if c_method == 'type' else ''}
+      - "date": ${ date.format() }
+---
+code: |
+  a.name.first
+  c.name.first  
+  send_email(to=c,template=notification)
+  attorney_setup = True
+  prevent_going_back()
+  force_ask('attorney_final')
+---
+code: |
+  if c.birthdate.format() == challenge.format():
+    birthdays_match = True
+  else:
+    birthdays_match = False
