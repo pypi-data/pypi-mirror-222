@@ -1,0 +1,3 @@
+[console_scripts]
+mp=auto_media_platform.main:main
+
