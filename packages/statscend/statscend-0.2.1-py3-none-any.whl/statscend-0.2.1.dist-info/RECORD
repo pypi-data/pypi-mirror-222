@@ -1,0 +1,13 @@
+statscend/__init__.py,sha256=1icq8LPenbIEHkwStRZVQROxZgprptkg14653TXw_Jc,538
+statscend/bn_logistic_regression.py,sha256=3X4jIagdrcJke1ZuNPY7exZtS6bWFNzSdMZ8DNS2dpw,2722
+statscend/datasets.py,sha256=IUq-sky5vrpddOI9C621-RJ6-GXs5FOjnHTFpYJz-88,939
+statscend/linear_regression.py,sha256=-d2F3ljQ99qjZj3RmADlOWiydukAqQ4Rn1BeCj5OdjM,2963
+statscend/mahalanobis_distance.py,sha256=vzUuxZmSMTbHjvrYVRZWH-GUdLtiQfhqJnIQB-G-nKc,601
+statscend/manova.py,sha256=sjviFoAg2AeOfnPg527jyLsEOELz51ThVy4TJppo9ig,683
+statscend/mn_logistic_regression.py,sha256=_27pboz0TCu9DKCcbCGO1AHHyi5oz43giCKmfTO9Wzs,1689
+statscend/ordinal_regression.py,sha256=Qq6B1MgGawKrwHfp1KM3c3ewh2fPbN1YMKCDbuLPV9Q,1822
+statscend/vif.py,sha256=XljrC2QGWY7Lx9hee7osWo_kPdrHopktXrtbJa5drtg,603
+statscend-0.2.1.dist-info/METADATA,sha256=JrB6ME_lY3DUF24LV4h4klcIV-o8Hlx-12L2-TrT1Q4,15358
+statscend-0.2.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+statscend-0.2.1.dist-info/licenses/LICENSE,sha256=XPLgPo6AJMgUjQyrj2zTWmgXoZGxYQhDmiCXdnfRZFU,1075
+statscend-0.2.1.dist-info/RECORD,,
