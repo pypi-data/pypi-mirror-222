@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tibber-python-lib-template
+Version: 0.1.0
+Summary: Template for a Python library
+Project-URL: Documentation, https://github.com/tibber/python-lib-template#readme
+Project-URL: Issues, https://github.com/tibber/python-lib-template/issues
+Project-URL: Source, https://github.com/tibber/python-lib-template
+Author-email: Caspar Nettelbladt <caspar.n@gmail.com>
+License-Expression: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Python Lib Template
+
+```bash
+
+pip install --upgrade build
+pip install --upgrade twine
+```
