@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fastapi-sa-manager
+Version: 0.1.2
+Summary: FastAPI-sa-manager is an SQLAlchemy ORM extension for FastAPI helping you to build CRUD APIs fast and easy.
+Author: esanzy87
+Author-email: esanzy87@gmail.com
+Keywords: fastapi,sqlalchemy
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+License-File: LICENSE.md
+Requires-Dist: fastapi
+Requires-Dist: sqlalchemy
+
