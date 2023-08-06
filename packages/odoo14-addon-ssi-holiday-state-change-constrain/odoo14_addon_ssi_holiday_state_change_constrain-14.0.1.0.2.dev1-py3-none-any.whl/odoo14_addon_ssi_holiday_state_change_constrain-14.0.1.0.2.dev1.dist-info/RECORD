@@ -1,0 +1,11 @@
+odoo/addons/ssi_holiday_state_change_constrain/README.rst,sha256=efIbZwFsOXT1KY56A40dpKQebk19yjhCgRvefVGd47Y,1423
+odoo/addons/ssi_holiday_state_change_constrain/__init__.py,sha256=M7twq1SJz2cc98CkgeiDiDg05QWWFb09lt5oh03-axA,181
+odoo/addons/ssi_holiday_state_change_constrain/__manifest__.py,sha256=rc_hG0Worhh5iH63nM-2Wh1tpsNCX_wC97GbqJczuco,569
+odoo/addons/ssi_holiday_state_change_constrain/models/__init__.py,sha256=fXHfCJFpSx3iZaw7gTXBl8Nbo-PBaPP5DJBlR9hG538,202
+odoo/addons/ssi_holiday_state_change_constrain/models/leave.py,sha256=iUQyfgxnubbWlReGx6agACmy_JGpZ2Ly3Ba5UawIfGk,380
+odoo/addons/ssi_holiday_state_change_constrain/models/leave_allocation.py,sha256=Vcsp7oFEun1u7njlz8sYt4QqKimk-02-3XVGJUHRpbk,412
+odoo/addons/ssi_holiday_state_change_constrain/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_holiday_state_change_constrain-14.0.1.0.2.dev1.dist-info/METADATA,sha256=VgK-v-rOJ7bqfw4cQZlqN4DQJC4W-tSbdnvg5R2AQ5I,2076
+odoo14_addon_ssi_holiday_state_change_constrain-14.0.1.0.2.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_holiday_state_change_constrain-14.0.1.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_holiday_state_change_constrain-14.0.1.0.2.dev1.dist-info/RECORD,,
