@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+tabpymigrate/__init__.py
+tabpymigrate/config.py
+tabpymigrate/mapping.py
+tabpymigrate/tabpymigrate.py
+tabpymigrate/tabpymigrate_download.py
+tabpymigrate/tabpymigrate_publish.py
+tabpymigrate.egg-info/PKG-INFO
+tabpymigrate.egg-info/SOURCES.txt
+tabpymigrate.egg-info/dependency_links.txt
+tabpymigrate.egg-info/requires.txt
+tabpymigrate.egg-info/top_level.txt
