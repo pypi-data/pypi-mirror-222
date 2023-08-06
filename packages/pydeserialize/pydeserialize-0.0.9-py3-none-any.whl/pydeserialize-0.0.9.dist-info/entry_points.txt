@@ -1,0 +1,3 @@
+[console_scripts]
+pydeserialize=pydeserialize.pydeserialize:argumentos
+
