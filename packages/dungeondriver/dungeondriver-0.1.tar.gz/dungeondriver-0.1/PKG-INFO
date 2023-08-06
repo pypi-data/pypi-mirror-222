@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: dungeondriver
+Version: 0.1
+Summary: Dungeon Driver : A companion for your dungeon diving applications
+Provides-Extra: test
+Provides-Extra: dev
