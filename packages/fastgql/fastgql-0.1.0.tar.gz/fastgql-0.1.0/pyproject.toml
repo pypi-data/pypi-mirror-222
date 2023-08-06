@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastgql"
+version = "0.1.0"
+description = "FastAPI for GraphQL"
+authors = ["Jeremy Berman <jerber@sas.upenn.edu>"]
+readme = "README.md"
+exclude = ["tests/**/*"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.100.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

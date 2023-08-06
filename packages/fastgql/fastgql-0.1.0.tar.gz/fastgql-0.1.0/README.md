@@ -1,0 +1,1 @@
+FastGQL: FastAPI or GraphQL
