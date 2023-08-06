@@ -1,0 +1,2 @@
+[console_scripts]
+easy-reports = easy_reports.cli:main

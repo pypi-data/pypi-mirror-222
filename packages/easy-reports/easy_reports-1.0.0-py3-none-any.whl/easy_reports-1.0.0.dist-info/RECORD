@@ -1,0 +1,16 @@
+easy_reports/__init__.py,sha256=d1q7RXXoeGzzNW8zFs4MY6BLxwk7xGkHDIlkEPh95Ao,52
+easy_reports/base.py,sha256=aYjDE_neh2iXAtbDpIgpMfb1_34MHzsjb_XSwbJxscY,17475
+easy_reports/cli.py,sha256=x5_qZiYfQvcyhVOZADWmAXrV0iekPdQ7mg9b6KD6Zbg,571
+easy_reports/config.py,sha256=tg5CnrdlzNOvKppXMABnO8CcQXFqR2EjCmh-gnQ2bmU,2431
+easy_reports/data.py,sha256=W8m6C8CP33D-7HcQiAInpos61pvpx0RUaQba2z_IYS8,9423
+easy_reports/defaults.py,sha256=zt4rm8-h30nrubeQud-yv1BBRFxG-WXeJveVyCLOhDc,1699
+easy_reports/email.py,sha256=X8vp-ZrTaPu96mdh9-CVJEWTJztY-kCEsxIKmPmgZsc,3197
+easy_reports/email_smtplib.py,sha256=4j2hrZVvTDZH0MBYQ8Pa6iFAGHS2h_K9LhSrt6PxPqQ,3235
+easy_reports/excel.py,sha256=suhOIFRGscqHJmOCtap_g9ZscjOD5dZzLkLBui0F01M,15508
+easy_reports/boilerplate/report.py,sha256=U2FD435H-_QsSXFA_pk5eH1yymYoprL2kgP7wz913qI,2558
+easy_reports-1.0.0.dist-info/LICENCE,sha256=4q_GAnB1zkKs6PAHQ0MnCg4-C_JRFGZcU9IUHORC-TA,1071
+easy_reports-1.0.0.dist-info/METADATA,sha256=mgvGsq5dMMbqm22VRYR48QLqU99fL9N_thmAOJx9pl8,9961
+easy_reports-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+easy_reports-1.0.0.dist-info/entry_points.txt,sha256=iaRRNVJWhBvMI1LAoF9csnio1b1vv3Ed61Ho1HA-d4k,55
+easy_reports-1.0.0.dist-info/top_level.txt,sha256=QCEORtavOpOvlErtxOC52qmY0o8fw3FrWBhXHbaSpro,13
+easy_reports-1.0.0.dist-info/RECORD,,
