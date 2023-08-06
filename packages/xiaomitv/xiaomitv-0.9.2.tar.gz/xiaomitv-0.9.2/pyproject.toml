@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xiaomitv"
+version = "0.9.2"
+authors = [
+  { name="zhbjsh", email="zhbjsh@outlook.com" },
+]
+description = "Remote control for Xiaomi TVs"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+keywords = [
+  "xiaomi tv",
+  "mi tv",
+  "xiaomi",
+  "remote control",
+]
+dependencies = [
+  "aiohttp >= 3.8.5",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/zhbjsh/xiaomitv"
+"Bug Tracker" = "https://github.com/zhbjsh/xiaomitv/issues"

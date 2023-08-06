@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/xiaomitv/__init__.py
+src/xiaomitv.egg-info/PKG-INFO
+src/xiaomitv.egg-info/SOURCES.txt
+src/xiaomitv.egg-info/dependency_links.txt
+src/xiaomitv.egg-info/requires.txt
+src/xiaomitv.egg-info/top_level.txt
