@@ -1,0 +1,10 @@
+umka-0.1.0.dist-info/METADATA,sha256=K6LrH4EV5FZ7U9xNbYBlandTxKsuIJMqSSbTepzZC4M,223
+umka-0.1.0.dist-info/WHEEL,sha256=3eF7E69w5Xxpb7h1qHVNi_Fl69_A4_K7f97KXlpXIAU,104
+umka/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+umka/test/fuzz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+umka/test/fuzz/test_fuzz.py,sha256=PoyLmOH1wQ7kN_RosCI0xORX-x1kxQiN2T71JQZaBXc,1214
+umka/__init__.py,sha256=Wjead7S0zdf1OdcHOWkQycDju2HZbf9-Be4avPHNR7w,38
+umka/fuzz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+umka/fuzz/fuzz.py,sha256=Y73ekyiR2r894_ztZ5KeKWmdq8wZTgdJXPx83RXe-3c,1106
+umka/fuzz/umka_rs.cpython-311-darwin.so,sha256=4IFUgmcCbo7__sNkAMr8YbDz15izcJL6F_omSpxWy4U,14925108
+umka-0.1.0.dist-info/RECORD,,
