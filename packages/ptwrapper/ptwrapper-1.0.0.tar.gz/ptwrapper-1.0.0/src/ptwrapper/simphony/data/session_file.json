@@ -1,0 +1,43 @@
+{
+    "sessionConfiguration": {
+        "sessionID":"OSVE_VV_T002_PT",
+        "version":"1.0.0",
+		"simulationConfiguration":
+        {
+            "timeStep":1
+        },
+        "attitudeSimulationConfiguration":
+        {
+            "kernelsList":
+            {
+                "id":"CREMA 3.0",
+                "version": "1.0.0",
+                "baselineRelPath":"kernel",
+                "fileList": []
+            },
+            "baselineRelPath":"config/age",
+            "ageConfigFileName":".",
+            "userDefinitionFile": "CFG_AGM_JUI_MULTIBODY_FIXED_DEFINITIONS.xml",
+            "predefinedBlockFile": "CFG_AGM_JUI_MULTIBODY_PREDEFINED_BLOCK.xml",
+            "eventDefinitionsFile": "CFG_AGM_JUI_MULTIBODY_EVENT_DEFINITIONS.xml"
+        },
+        "inputFiles":
+        {
+            "baselineRelPath":"ptr",
+            "xmlPtrPath":"PTR_PT_V1.ptx"
+        },
+        "outputFiles":
+        {
+            "baselineRelPath":"output",
+            "ckAttitudeFilePath":"juice_sc_ptr.bc",
+            "ckConfig":
+            {
+                "ckFrameId":  -28001,
+                "ckTimeStep": 5
+            },
+            "attitudeXmlPtr": "ptr_resolved.ptx",
+            "simOutputFilesPath": "simOutput.out",
+            "txtAttitudeFilePath": "quaternions.csv"
+        }
+    }
+}
