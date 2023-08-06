@@ -1,0 +1,32 @@
+site_name: MAPHIS documentation
+
+theme:
+  name: "material"
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+plugins:
+  - search
+  - mkdocstrings
+  - glightbox
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+nav:
+  - index.md
+  - FAQ.md
+  - Tutorials:
+    - Creating a new plugin: create_new_plugin.md
+    - publishing_your_plugin.md
+  - reference.md
