@@ -1,0 +1,2 @@
+[console_scripts]
+auto_code_generation_execution = auto_code_generation_execution:main
