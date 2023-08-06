@@ -1,0 +1,7 @@
+include requirements.txt
+include LICENSE
+include CREDITS.md
+include examples/
+include docs/
+include tests/
+include scripts/
