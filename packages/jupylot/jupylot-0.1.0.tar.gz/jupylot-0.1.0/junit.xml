@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="2.06">
+  <testsuite name="jupylot" errors="0" failures="0" skipped="0" timestamp="2023-08-03T02:21:27" time="1.765" tests="1">
+    <testcase classname="jupylot should be tested" name="jupylot should be tested" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
