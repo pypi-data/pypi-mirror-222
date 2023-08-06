@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d253e40c-0206-4e0d-aa6f-481e439a075d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/example/templates/example/actions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/templates/example/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/@fortawesome/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/@fortawesome/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/@fortawesome/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/@fortawesome/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/@fortawesome/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/@fortawesome/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/@fortawesome/fa-v4compatibility.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/@fortawesome/fa-v4compatibility.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/bootstrap-icons/bootstrap-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/bootstrap-icons/bootstrap-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-duotone.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-duotone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-duotone.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-duotone.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-outline.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-outline.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-outline.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-solid.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-solid.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/keenicons/keenicons-solid.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/fonts/line-awesome/la-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/header/_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_template/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_template/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_template/sidebars.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_template/sidebars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_template/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_template/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/context_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/css/style.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/static/base_template/css/style.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/css/style.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/static/base_template/css/style.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/js/custom/authentication/reset-password/new-password.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/js/custom/authentication/reset-password/reset-password.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/js/custom/authentication/sign-in/general.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/js/custom/authentication/sign-in/i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/js/custom/authentication/sign-in/two-steps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/js/custom/authentication/sign-up/coming-soon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/js/custom/authentication/sign-up/free-trial.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/js/custom/authentication/sign-up/general.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/js/scripts.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/static/base_template/js/scripts.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/plugins.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/plugins.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/plugins.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/plugins.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/plugins.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/static/base_template/plugins/global/plugins.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/sidebar/_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/footer/__footer_links.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/footer/__footer_links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/footer/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/footer/_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/header/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/header/_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/header/_left_menus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/header/_left_menus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/header/_right_menus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/header/_right_menus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/sidebar/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/sidebar/_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/sidebar/_logo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/sidebar/_logo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/sidebar/_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/sidebar/_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/toolbar/_page-title.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/toolbar/_page-title.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/toolbar/_toolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/toolbar/_toolbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/_scrolltop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/_scrolltop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/general/_button-indicator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/general/_notice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/theme-mode/__menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/theme-mode/__menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/theme-mode/_init.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/theme-mode/_init.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/cards/_widget-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/cards/_widget-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/cards/_widget-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/cards/_widget-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/charts/_widget-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/charts/_widget-31.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/charts/_widget-35.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/charts/_widget-36.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/charts/_widget-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/engage/_widget-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/lists/_widget-26.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/tables/_widget-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/templates/base_template/partials/widgets/tables/_widget-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base_template/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/base_template/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MjfEgrES5VlQ7Q4JG4KyT07lYZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/codtail/Documents/Projects/DjangoBaseTemplate/base_template/src/base_template/templates/base_template/layout/partials",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials" />
+      <recent name="$PROJECT_DIR$/src/base_template/static/base_template/js" />
+      <recent name="$PROJECT_DIR$/src/base_template/static/base_template" />
+      <recent name="$PROJECT_DIR$/src/base_template/templates/base_template/partials/theme-mode" />
+      <recent name="$PROJECT_DIR$/src/base_template/templates/base_template/partials" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/sidebar" />
+      <recent name="$PROJECT_DIR$/.github" />
+      <recent name="$PROJECT_DIR$/.github/workflows" />
+      <recent name="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/header" />
+      <recent name="$PROJECT_DIR$/src/base_template/templates/base_template/layout/partials/footer" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="base_template" type="Python.DjangoServer" factoryName="Django server">
+      <module name="base_template" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d253e40c-0206-4e0d-aa6f-481e439a075d" name="Changes" comment="" />
+      <created>1678285802756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678285802756</updated>
+      <workItem from="1678285804107" duration="3071000" />
+      <workItem from="1678309805995" duration="25759000" />
+      <workItem from="1679262777259" duration="793000" />
+      <workItem from="1683061555245" duration="2008000" />
+      <workItem from="1683068704396" duration="5000" />
+      <workItem from="1683112209958" duration="658000" />
+      <workItem from="1683115744635" duration="685000" />
+      <workItem from="1683989292397" duration="1596000" />
+      <workItem from="1690467990594" duration="6815000" />
+      <workItem from="1690554581920" duration="2366000" />
+      <workItem from="1690563095134" duration="19501000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
