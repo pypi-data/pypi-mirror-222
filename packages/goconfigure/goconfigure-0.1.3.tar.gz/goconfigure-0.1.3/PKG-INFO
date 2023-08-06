@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: goconfigure
+Version: 0.1.3
+Summary: Basic python config parser which attempts to coerce types
+Home-page: https://github.com/lewis-morris/GoConfigure
+Author: Lewis Morris
+Author-email: lewis.morris@gmail.com
+License: MIT
