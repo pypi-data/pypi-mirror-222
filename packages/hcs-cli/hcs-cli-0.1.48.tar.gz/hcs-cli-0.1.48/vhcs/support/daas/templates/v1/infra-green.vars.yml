@@ -1,0 +1,23 @@
+deploymentId: 
+vars:
+  orgId: 
+  region: 
+  provider:
+    id:
+    subscriptionId:
+  newProvider:
+    subscriptionId: 
+    directoryId: 
+    applicationId: 
+    applicationKey: 
+  network:
+    cidr:
+  edge:
+    privateDNS: titan.vmware.com
+    managedIdentityId: 
+  uag: {}
+  desktop:
+    adminUsername: localadmin
+    adminPassword: Hellomortal1!
+    userGroup: 
+  
