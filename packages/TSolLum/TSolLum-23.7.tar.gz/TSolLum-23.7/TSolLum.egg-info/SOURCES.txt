@@ -1,0 +1,15 @@
+README.md
+setup.py
+TSolLum/__init__.py
+TSolLum/astm_g_173
+TSolLum/d65
+TSolLum/exceptions.py
+TSolLum/read_spectrum.py
+TSolLum/spectra.py
+TSolLum/transmittance_calculator.py
+TSolLum/v-lambda
+TSolLum.egg-info/PKG-INFO
+TSolLum.egg-info/SOURCES.txt
+TSolLum.egg-info/dependency_links.txt
+TSolLum.egg-info/requires.txt
+TSolLum.egg-info/top_level.txt
