@@ -1,0 +1,8 @@
+protosaurus/protosaurus_ext.abi3.so,sha256=X4AQeB36-6F-CoYTrt6IA3YoFU1B80NJGZiC21Ta5rM,4022800
+protosaurus/__init__.py,sha256=LZogscuszj6iaBTtv9rJfeAgkThIuaWsEEnMfElm0uI,37
+protosaurus/cli.py,sha256=N1pse4HWFFbq0HQFxJxWMWXDp8pMdVop8dqPFNbPyiU,3094
+protosaurus-0.3.0.dist-info/RECORD,,
+protosaurus-0.3.0.dist-info/WHEEL,sha256=zsxa1BOCz7TNXCtTYhK8FaJ6PaGw_l85SGh-Js1GZuE,115
+protosaurus-0.3.0.dist-info/METADATA,sha256=ZMD0-GHKMM0NSK3Erkj0dHpOemNRXywIDkSNH2SBl3U,2443
+protosaurus-0.3.0.dist-info/entry_points.txt,sha256=FKt5JS3GCdXC1Gu0lT-iQNpNiRyUIgHQvoxyUrQppdM,54
+protosaurus-0.3.0.dist-info/licenses/LICENSE,sha256=_ObaF4XVbgVs5aOZW_qHDZD4UlFoUh4qxEasjhJb-Cs,766
