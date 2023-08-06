@@ -1,0 +1,9 @@
+pydeserialize/__init__.py,sha256=tVIx2VW0g9CgwPfWUR-CG1oMmii5BOAyDbS6_v8OH5A,41
+pydeserialize/encoded.py,sha256=6nW3IalLU6AfqcO5xrasu4h1YlK8Qy02nuy2e-fs0W4,419
+pydeserialize/pydeserialize.py,sha256=iCC13jZGNZIUfT8YQd642mZfXFSkep98-YkbOYaNoVE,1664
+pydeserialize/run.py,sha256=CHLUSRVgnfSybx1kvvVvINReAG-wRKuFFhH8MNuBRiM,1449
+pydeserialize-0.1.0.dist-info/LICENSE,sha256=NjOjKCd6bIjovgNTvibhHEAbWk9xdPnE1hnq9m3P4-g,1078
+pydeserialize-0.1.0.dist-info/METADATA,sha256=v-Ub4iDtia59cDI9S4a4rdFSynbng8engm5YJtxcWaw,3375
+pydeserialize-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pydeserialize-0.1.0.dist-info/entry_points.txt,sha256=8DaCJ7S2eA1TF39fEdMJsyqCHQlinK80Q3cA5PO7Yzk,72
+pydeserialize-0.1.0.dist-info/RECORD,,
