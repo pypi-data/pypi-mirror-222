@@ -1,0 +1,12 @@
+include README.md LICENSE
+include spylizard/libmetis.so
+include spylizard/libopenblas.so.0
+include spylizard/libpetsc.so.3.019
+include spylizard/libslepc.so
+include spylizard/libslepc.so.3.019.1
+include spylizard/spylizard.so
+include spylizard/libopenblas.so
+include spylizard/libpetsc.so
+include spylizard/libpetsc.so.3.019.3
+include spylizard/libslepc.so.3.019
+include spylizard/libsparselizard.so
