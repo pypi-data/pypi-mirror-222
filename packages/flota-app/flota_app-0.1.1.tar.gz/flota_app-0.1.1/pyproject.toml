@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "flota-app"
+version = "0.1.1"
+description = ""
+authors = ["Smolke <d.smolczynski1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flota_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.3.1"
+jsonlines = "^3.1.0"
+dbm-database-service = "^0.2.5"
+easyvalid-data-validator = "^2.0.1"
+easy-crud-repo-service = "^0.1.6"
+pytest-mock = "^3.11.1"
+easyquery-query-builder = "^2.0.1"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
