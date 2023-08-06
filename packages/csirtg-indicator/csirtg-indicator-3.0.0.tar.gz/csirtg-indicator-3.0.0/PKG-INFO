@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: csirtg-indicator
+Version: 3.0.0
+Summary: CSIRTG Indicator v3 Framework
+Home-page: https://github.com/csirtgadgets/csirtg-indicator-v3
+Author: Wes Young
+Author-email: wes@csirtgadgets.com
+License: MPL2
+Keywords: security
+Classifier: Programming Language :: Python
+License-File: LICENSE
