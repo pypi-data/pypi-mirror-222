@@ -1,0 +1,40 @@
+[project]
+name = "androtools"
+version = "0.1.10"
+description = "一个对Android SDK相关的命令封装的库"
+authors = [{ name = "kin9-0rz", email = "kin9-0rz@outlook.com" }]
+readme = "README.md"
+requires-python = ">= 3.8"
+classifiers = [
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Natural Language :: Chinese (Simplified)",
+  "Development Status :: 3 - Alpha",
+]
+repository = "https://gitee.com/kin9-0rz/apkutils"
+license = "MIT"
+dependencies = [
+    "click>=8.1.6",
+    "psutil>=5.9.5",
+    "func-timeout>=4.3.5",
+]
+
+[project.scripts]
+androtools = "androtools.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev_dependencies = []
+dev-dependencies = [
+    "pytest>=7.4.0",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
