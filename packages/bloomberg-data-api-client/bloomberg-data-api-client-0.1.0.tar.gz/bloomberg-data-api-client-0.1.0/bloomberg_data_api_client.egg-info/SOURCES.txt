@@ -1,0 +1,5 @@
+pyproject.toml
+bloomberg_data_api_client.egg-info/PKG-INFO
+bloomberg_data_api_client.egg-info/SOURCES.txt
+bloomberg_data_api_client.egg-info/dependency_links.txt
+bloomberg_data_api_client.egg-info/top_level.txt
