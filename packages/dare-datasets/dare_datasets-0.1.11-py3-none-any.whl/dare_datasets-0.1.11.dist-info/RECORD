@@ -1,0 +1,13 @@
+dare_datasets/__init__.py,sha256=yEPMzYJuU1PorIFnKPy6k6AKrKmcKDjqzgE4DZ7q_ZM,91
+dare_datasets/dataset_abc.py,sha256=heNxhmTfsbhReFjPJfrFP0GmPCQ4KR0SymwuL-LIU8Y,2492
+dare_datasets/iris.py,sha256=6hlp-I2EuPT33sU4lngbYA49gMzBuQLgdC6UiUv6mvY,1973
+dare_datasets/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dare_datasets/processing/qr2t_benchmark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dare_datasets/processing/qr2t_benchmark/qr2t_to_totto.py,sha256=aMVtbf8pNkjKa7bkehdc-vm3kFRpnGbgpf-zeqRt3Sc,2128
+dare_datasets/processing/qr2t_benchmark/totto_to_concise_input.py,sha256=_dWm7LjqKA1874Wt1fsHSQzB_a0sIhtzDcpGcZ6Kw-I,2741
+dare_datasets/qr2t_benchmark.py,sha256=wc_9x-nrrwb59RUrTIBCVLvnCB6LvPpgmsAEUVdnhtA,3390
+dare_datasets/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dare_datasets/utils/downloader.py,sha256=UYHr9MeNZ6WSaHfh3NpM1T2jHDQ6Pl7CeSNdwoHKpbE,711
+dare_datasets-0.1.11.dist-info/METADATA,sha256=r8TFK0iT9klI5Vkr_B8cV1iqhAyf8tE-kPact-gyPM0,1806
+dare_datasets-0.1.11.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+dare_datasets-0.1.11.dist-info/RECORD,,
