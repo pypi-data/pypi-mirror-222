@@ -1,0 +1,13 @@
+oi_platform_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oi_platform_client/cfg.py,sha256=YClb6fOGuyAH6sXXjI7zoi4IkVSC9NS-YLDJk5vFAxY,16
+oi_platform_client/converter.py,sha256=5Y_8Dmpg8zVjZBg_FCMe_jSHhqtsqzL2bKjBmihTirQ,4444
+oi_platform_client/dataset.py,sha256=lbmVu-I9Tbx01dwgwSW-XvKyNyPNJVf8gBYPbwOKcf8,2047
+oi_platform_client/lib.py,sha256=cYtbMBcFYtoazDCN8LuCdJOyZyjsEext3j_c1jrvhj0,7385
+oi_platform_client/main.py,sha256=t6hTvJ7rD0Bs9cNoc0nNpOPJPn9Ai8XIwfK8xuOAqWs,6653
+oi_platform_client/retrieve.py,sha256=FkEo2zspxmJZoA81EnBsC82qBsxlnu66udybMHrq0oU,2550
+oi_platform_client/schema.py,sha256=1MwC5hUJfkyrjFPlNspqT2qgKO9fV4j-VpyicYp_qJw,4580
+oi_platform_client/units.py,sha256=ck0zrXA1xJiie0GcYGctzzh2H4kkRX9dVONS5jr5Hag,7509
+oi_platform_client-0.0.1.dist-info/METADATA,sha256=9J_VKhGlO2z0rYjRBxM_t4BLrwFmYL_VK8jTYm4u9XY,17417
+oi_platform_client-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+oi_platform_client-0.0.1.dist-info/top_level.txt,sha256=qVsRE_iiKuwFCEn6sZLSZhvuCVSNiZEkmtAMOxwxdCk,19
+oi_platform_client-0.0.1.dist-info/RECORD,,
