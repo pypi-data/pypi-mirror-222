@@ -1,0 +1,10 @@
+deepclient/__init__.py,sha256=7SphgsN1GNRAfAsQrMpQxlXzNobWEoxgOhx1RzzJG5E,134
+deepclient/deep_client.py,sha256=-TOYWGT0W-_rfPo_EdlgNApS-sZa2HQ87hkBvOn9XvY,27126
+deepclient/deep_client_options.py,sha256=n-YDiHUJp_MjoSwhA6ssgR6zmjUNh2NBAD-LopCzdto,933
+deepclient/query.py,sha256=TI0n6_virFLofpuCaOwZt5PWWPRcym1yyqsPEZVWQCw,2759
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_deep_client.py,sha256=jPTMGMGLPitgidUYkfZ8CEcidcaSGP2S8t5h2b5T67g,16021
+deepclient_test-1.0.4.dist-info/METADATA,sha256=97FmsHsYRS-lSdA9wRfWEDnVaWX8SzPnSDqyGA0wYUU,1137
+deepclient_test-1.0.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+deepclient_test-1.0.4.dist-info/top_level.txt,sha256=3iqb4DroGDET2vTBite0bIVhcZCqqnEByW9YjWNOUYM,17
+deepclient_test-1.0.4.dist-info/RECORD,,
