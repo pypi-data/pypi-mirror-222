@@ -1,0 +1,5 @@
+__version__ = "0.3"
+__author__ = "Levente Hunyadi"
+__copyright__ = "Copyright 2023, Levente Hunyadi"
+__license__ = "MIT"
+__maintainer__ = "Levente Hunyadi"
