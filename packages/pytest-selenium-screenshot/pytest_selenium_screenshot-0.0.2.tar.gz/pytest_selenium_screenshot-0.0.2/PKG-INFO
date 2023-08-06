@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytest-selenium-screenshot
+Version: 0.0.2
+Summary: Selenium report generator with screenshots
+Author-email: Harmin Parra Rueda <harmin.rueda@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pytest >= 7.2.2
+Requires-Dist: pytest-html == 3.2.0
+Requires-Dist: pytest-varaibles == 3.0.0
+Requires-Dist: selenium == 4.10.0
+Project-URL: Home, https://github.com/harmin-parra/pytest-selenium-screenshot
+
+# pytest-selenium-screenshot
+
