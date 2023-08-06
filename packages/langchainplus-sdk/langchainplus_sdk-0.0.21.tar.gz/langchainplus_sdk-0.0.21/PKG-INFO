@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: langchainplus-sdk
+Version: 0.0.21
+Summary: Client library to connect to the LangSmith LLM Tracing and Evaluation Platform.
+License: MIT
+Author: LangChain
+Requires-Python: >=3.8.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1,<2)
+Requires-Dist: requests (>=2,<3)
+Description-Content-Type: text/markdown
+
+# LangSmith Client SDK
+
+**Deprecated:** For the up-to-date langsmith client SDK, see the [langsmith](https://pypi.org/project/langsmith) package (https://pypi.org/project/langsmith).
+
+
+This package contain(ed) the python client for interacting with the [LangSmith platform](https://smith.langchain.com/).
+
+To install:
+
+```bash
+pip install -U langsmith
+```
+
+## Additional Documentation
+
+To learn more about the LangSmith platform, check out the [docs](https://docs.smith.langchain.com/docs/).
+
