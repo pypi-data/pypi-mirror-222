@@ -1,0 +1,11 @@
+duotecno/controller.py,sha256=In2bR2ZMSJq1qC2ySeeSrgoYLx0ryXJzTBDUDIB_csU,4990
+duotecno/exceptions.py,sha256=7iQGQb0jEnzTG1LY4XgQ6CvOqvUEEW7pgIlO2Snb-SQ,125
+duotecno/node.py,sha256=YoGJu1sbag6ZwSPNvL32c2MfTERw7KDWkc-CpRm2Z0M,2909
+duotecno/protocol.py,sha256=3rMLgAS8WG1QjTy_Zh0IoD5NRCP56PnAYsRNjZWSALo,7610
+duotecno/unit.py,sha256=f8bBIu_TH0J4V1Qqxhs0yfVfOXDTUezUQV7KRNEM6U8,4398
+examples/read.py,sha256=g8A1OvNJFfcWkfjIvk-UQyhW4hQ9QYyl3RbV1ks4Oc8,765
+pyDuotecno-2023.8.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyDuotecno-2023.8.0.dist-info/METADATA,sha256=RidTpTp8hVD_o4UFw_pDi7ID9eYaC-B0p5v6uUSKKOA,1119
+pyDuotecno-2023.8.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pyDuotecno-2023.8.0.dist-info/top_level.txt,sha256=hGQFEtqBEIrkEuHm2lK9Sl-cdx1W5zutik1ykcVLirY,23
+pyDuotecno-2023.8.0.dist-info/RECORD,,
