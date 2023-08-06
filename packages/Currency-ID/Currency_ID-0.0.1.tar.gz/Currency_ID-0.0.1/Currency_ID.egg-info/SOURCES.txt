@@ -1,0 +1,9 @@
+LICENCE.txt.txt
+README.md
+setup.py
+Country_ID/ID.py
+Country_ID/__init__.py
+Currency_ID.egg-info/PKG-INFO
+Currency_ID.egg-info/SOURCES.txt
+Currency_ID.egg-info/dependency_links.txt
+Currency_ID.egg-info/top_level.txt
