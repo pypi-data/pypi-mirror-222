@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: drb-topics
+Version: 1.0.0
+Summary: Data Request Broker topics package
+Author: GAEL Systems
+Author-email: drb-python@gael.fr
+License: LGPLv3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Provides-Extra: all
+Requires-Dist: drb-topics[sentinel] ; extra == 'all'
+Requires-Dist: drb-topics[landsat8] ; extra == 'all'
+Requires-Dist: drb-topics[geojson] ; extra == 'all'
+Provides-Extra: geojson
+Requires-Dist: drb-topic-geojson ; extra == 'geojson'
+Provides-Extra: landsat8
+Requires-Dist: drb-topic-landsat8 ; extra == 'landsat8'
+Provides-Extra: safe
+Requires-Dist: drb-topic-safe ; extra == 'safe'
+Provides-Extra: sentinel
+Requires-Dist: drb-topics[safe] ; extra == 'sentinel'
+Requires-Dist: drb-topics[sentinel1] ; extra == 'sentinel'
+Requires-Dist: drb-topics[sentinel2] ; extra == 'sentinel'
+Requires-Dist: drb-topics[sentinel3] ; extra == 'sentinel'
+Requires-Dist: drb-topics[sentinel5p] ; extra == 'sentinel'
+Provides-Extra: sentinel1
+Requires-Dist: drb-topic-sentinel1 ; extra == 'sentinel1'
+Provides-Extra: sentinel2
+Requires-Dist: drb-topic-sentinel2 ; extra == 'sentinel2'
+Provides-Extra: sentinel3
+Requires-Dist: drb-topic-sentinel3 ; extra == 'sentinel3'
+Provides-Extra: sentinel5p
+Requires-Dist: drb-topic-sentinel5p ; extra == 'sentinel5p'
+
+# topics
+
+# DRB Topics
+**_drb-topics_** is a Python plugin for **DRB**, to help the installations
+of drb topics.
+
+## Installation
+```shell
+pip install drb-topics[OPTIONAL]
+```
+
+## Topic
+Here the list of all the topics downloadable with this project.
+
+| name       | category | package              |
+|:-----------|:---------|:---------------------|
+| safe       | SENTINEL | drb-topic-safe       |
+| sentinel1  | SENTINEL | drb-topic-sentinel1  |
+| sentinel2  | SENTINEL | drb-topic-sentinel2  |
+| sentinel3  | SENTINEL | drb-topic-sentinel3  |
+| sentinel5p | SENTINEL | drb-topic-sentinel5p |
+| landsat8   | NONE     | drb-topic-landsat8   |
+| geojson    | NONE     | drb-topic-geojson    |
+
+You can download a topic with his name like:
+```shell
+pip install drb-topics[geojson]
+```
+to only download the topic geojson
+
+To download all the sentinel topic:
+```shell
+pip install drb-topics[sentinel]
+```
+
+To download all the topics:
+```shell
+pip install drb-topics[all]
+```
