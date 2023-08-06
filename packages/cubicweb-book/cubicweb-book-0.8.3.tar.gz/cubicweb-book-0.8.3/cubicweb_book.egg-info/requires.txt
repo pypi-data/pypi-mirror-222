@@ -1,0 +1,4 @@
+cubicweb<4.0.0,>=3.24.0
+cubicweb-addressbook<2.0.0,>=1.13.0
+cubicweb-person<2.0.0
+cubicweb-file<4.0.0
