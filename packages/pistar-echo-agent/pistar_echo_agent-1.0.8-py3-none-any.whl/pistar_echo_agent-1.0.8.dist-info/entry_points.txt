@@ -1,0 +1,2 @@
+[console_scripts]
+pistar-echo-agent = pistar_echo_agent.__main__:main
