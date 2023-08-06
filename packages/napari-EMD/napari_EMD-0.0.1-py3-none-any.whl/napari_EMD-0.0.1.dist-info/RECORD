@@ -1,0 +1,13 @@
+napari_emd/__init__.py,sha256=HtalMhgxZEI8Mm2lEGyFpr75XnfngHhudQFvhno33ZY,92
+napari_emd/_reader.py,sha256=NynnpNR8ayYexRdxfeR6GThNUK_siV6dqGpQawKbeoU,6610
+napari_emd/_widget.py,sha256=urO-Bkx9diZMq3xHUh23BdwTD-GnMin68zIWX3x9q1I,6012
+napari_emd/napari.yaml,sha256=e71gtB594hp-pPz8w6DVRhqgBvVbrRhMrr0qs5aM-xQ,593
+napari_emd/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_emd/_tests/test_reader.py,sha256=zRvSGlPGPBQFTFqccB8wwK_nOHOQv7fuNRmzqcYAbbI,3063
+napari_emd/_tests/test_widget.py,sha256=V-nAK3L65Da7MEABH7dVh2JyIJ4tD1q97AmTyZvVN0o,424
+napari_EMD-0.0.1.dist-info/LICENSE,sha256=u8CaZW4gzmFhlix7J-xfA7-VVfNbRxGf7T9AY6smmgc,1489
+napari_EMD-0.0.1.dist-info/METADATA,sha256=J_oXztaByGoUlPOZdfZuRxjSPD1ub3oFEcyioaz8trU,4754
+napari_EMD-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+napari_EMD-0.0.1.dist-info/entry_points.txt,sha256=fQW89qPD6jDa2YUXh7Fm9Ln1rUzwo33LqIYLrWFRtWA,54
+napari_EMD-0.0.1.dist-info/top_level.txt,sha256=Or66_eSeqdLs3-3wK_Y-xya9vV-OuEyBeDRfQt3ZAiI,11
+napari_EMD-0.0.1.dist-info/RECORD,,
