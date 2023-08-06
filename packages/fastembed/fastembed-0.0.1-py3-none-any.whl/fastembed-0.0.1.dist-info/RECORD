@@ -1,0 +1,7 @@
+fastembed/embedding.py,sha256=WRO7LWrNdENVo-4Nb0uSVwfgVyrnvMhwP4KYtsZOLHE,8552
+fastembed/qdrant_client.py,sha256=sLQg1PSeHdrOkqM4yJ1sucoZQ5569jaLcDHYnNOcFlU,623
+fastembed/qdrant_mixin.py,sha256=sZk65T0SbFQDPILJl75SYZanKiHLbyI2jzxnWRsPyGs,5759
+fastembed-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastembed-0.0.1.dist-info/METADATA,sha256=O3sae1Cffh2zUMKm9-0eeeKYeH-f1-pF2ztcCBq4c2o,2419
+fastembed-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+fastembed-0.0.1.dist-info/RECORD,,
