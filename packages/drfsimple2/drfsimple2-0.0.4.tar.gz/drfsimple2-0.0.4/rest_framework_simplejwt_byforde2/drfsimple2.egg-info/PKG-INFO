@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: drfsimple2
+Version: 0.0.4
+Summary: fixed _id fields to work with pymongo and djongo, error for blacklist app.
+Home-page: https://github.com/Siliphon/rest_framework_simplejwt_djongo_byforde
+Author: Forde
+Author-email: for.dev@outlook.com
+Project-URL: Bug Tracker, https://github.com/Siliphon/rest_framework_simplejwt_djongo_byforde/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Hello World
+
+remove regular rest_framework_simplejwt be for installing drksimple2
