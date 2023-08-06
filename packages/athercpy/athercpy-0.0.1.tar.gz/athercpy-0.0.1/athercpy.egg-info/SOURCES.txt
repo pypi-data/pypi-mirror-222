@@ -1,0 +1,7 @@
+README.md
+setup.py
+athercpy/__init__.py
+athercpy.egg-info/PKG-INFO
+athercpy.egg-info/SOURCES.txt
+athercpy.egg-info/dependency_links.txt
+athercpy.egg-info/top_level.txt
