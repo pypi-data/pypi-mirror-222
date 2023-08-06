@@ -1,0 +1,15 @@
+libre_chat/__init__.py,sha256=64v4CRk855_P408L2UuZRHWwVyNdXQyw4rCIMzlGxi0,235
+libre_chat/__main__.py,sha256=rdXiI-ik8m3_fW8J6_68wgSRPsSnW9yT3tPcQsOsRPI,2786
+libre_chat/chat_conf.py,sha256=LeaUUAs87Z5ILmpLOuzXiEY0dItwUJWOyvYIWT4ALLI,2773
+libre_chat/chat_endpoint.py,sha256=4WE6BYK8praWi0uGdrOmukLRsJZ0h9GuVScbxzuA2mw,3107
+libre_chat/chat_router.py,sha256=XErNi-et8xw1MexlLxHkec7CmkLLaB4XUdHBfVRcQlo,3577
+libre_chat/llm.py,sha256=q8ilg6EmEl0nJfRKFzRNEe8ytn-K2a-h5Hl4xCCFQ3s,9931
+libre_chat/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libre_chat/ui.py,sha256=o6Lm8pRvIj_lefnPjRI864_FFNFf44fqjwNdNpQvwaU,1471
+libre_chat/utils.py,sha256=Lsxhm-z6Gaq0lIdmz2BGzLt5KXydFgAHlSChT-ZCS44,2338
+libre_chat/templates/index.html,sha256=Ue-uzqxDcNHzu-eS92u6b6waQh8ohXTlD2reW3Fe2nk,10279
+libre_chat-0.0.4.dist-info/METADATA,sha256=xd1USQSZ23MD_mcmmGKsRScmyOWV3XWF9fPvRjfwaNg,12781
+libre_chat-0.0.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+libre_chat-0.0.4.dist-info/entry_points.txt,sha256=2eVAkdSwzyV9dlF_V7S5aeHWXnqDRmSbaxdBGs7xPAY,55
+libre_chat-0.0.4.dist-info/licenses/LICENSE.txt,sha256=loTQ7kHiArbzmUiDfwSTByh1ccRBMANQnZzfe2Nebbk,1106
+libre_chat-0.0.4.dist-info/RECORD,,
