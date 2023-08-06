@@ -1,0 +1,10 @@
+biochatter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biochatter/_stats.py,sha256=-hYMTX2C6O8dh2ZC9SyAKv75X-tUNMrT1k2jMyvEzmE,2672
+biochatter/llm_connect.py,sha256=EfnDuk0KxWX2QEHsHuSbG7Cp72W5DL2vTe9BnepwCI0,18628
+biochatter/podcast.py,sha256=T8MYrFepfGfyAa9Q1eEOCPRf_AgkHROM8EKH_l4BJAg,5922
+biochatter/vectorstore.py,sha256=0L5hfOvl1iUtWFDD9aaDIThs3ZzS10RnkOatfzk814Q,8432
+biochatter/vectorstore_host.py,sha256=AxCsu5G28zSLUVn-31GGOA-iUVIoBFR2FHy8aRiMncQ,6158
+biochatter-0.1.7.dist-info/LICENSE,sha256=QRN3grTnzT9Fmfaxmln5-1FX6blKITzaNzIGI7hqwDU,1066
+biochatter-0.1.7.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+biochatter-0.1.7.dist-info/METADATA,sha256=pXT-Hg8E4b3b4X28j6zqUwBgxONm0Qh1KY-oDXMCEvo,2683
+biochatter-0.1.7.dist-info/RECORD,,
