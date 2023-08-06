@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: otel-hooks-implement-django-instrument
+Version: 0.0.1
+Summary: Implement hooks for opentelemetry-instrument
+Home-page: UNKNOWN
+Author: Huy Nguyen Dinh
+Author-email: huyn27316@gmail.com
+Maintainer: Huy Nguyen Dinh
+Maintainer-email: huyn27316@gmail.com
+License: BSD
+Keywords: OpenTelemetry,Django,Logging,Requests,Instrument,Hooks
+Platform: UNKNOWN
+Requires-Dist: Django (>=3.1)
+Requires-Dist: opentelemetry-api (>=1.12.0)
+Requires-Dist: opentelemetry-exporter-jaeger (>=1.12.0)
+Requires-Dist: opentelemetry-instrumentation-django (>=0.33b0)
+Requires-Dist: opentelemetry-instrumentation-logging (>=0.33b0)
+Requires-Dist: opentelemetry-instrumentation-requests (>=0.33b0)
+Requires-Dist: opentelemetry-instrumentation-wsgi (>=0.33b0)
+Requires-Dist: opentelemetry-instrumentation (>=0.33b0)
+Requires-Dist: opentelemetry-sdk (>=1.12.0)
+Requires-Dist: opentelemetry-util-http (>=0.33b0)
+Requires-Dist: requests (>=2.0)
+
+UNKNOWN
+

@@ -1,0 +1,11 @@
+tracing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracing/decorators.py,sha256=5Fcoyx5BCJW-oCd0DkTSP7MkAh8Qt9-7_nShWREl_RI,238
+tracing/hooks.py,sha256=rKKawHs5H80qLqPdRFv15Za8nn58YXeAEDMZ7QGhEGI,1936
+tracing/implementation_otel_hooks.py,sha256=psFg9jFyVm5MheQlENN0E4AixAytrqh7I7pptPN4aSM,855
+tracing/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracing/tracers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracing/tracers/jaeger.py,sha256=IRn_eb3hJxacvp-GEf8NVimmoBR1uaRbI6JXYvRYVuU,675
+otel_hooks_implement_django_instrument-0.0.1.dist-info/METADATA,sha256=_5wPr0igiCT4uy9uGHmGt_LvFjIwum4t9TikobpMlaU,950
+otel_hooks_implement_django_instrument-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+otel_hooks_implement_django_instrument-0.0.1.dist-info/top_level.txt,sha256=a_PXcpVC6M1lHYEmd8LmQBu5NUflPrcU4wXQmpeGgxk,8
+otel_hooks_implement_django_instrument-0.0.1.dist-info/RECORD,,
