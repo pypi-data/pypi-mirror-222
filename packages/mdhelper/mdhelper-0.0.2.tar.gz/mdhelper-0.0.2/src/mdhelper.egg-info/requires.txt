@@ -1,0 +1,6 @@
+matplotlib
+mdanalysis
+netCDF4
+numpy
+scipy
+sympy
