@@ -1,0 +1,10 @@
+isic_metadata/__init__.py,sha256=L5JjG_sSAs4JWk6LfYo96zKd08pP7ionZUcMqz-XYw8,3994
+isic_metadata/fields.py,sha256=UXYiswn-DOh6fZLKNEn31hvZhPdcWScwciH6kvDaqQE,9446
+isic_metadata/metadata.py,sha256=R3hLl85CAI4Zc20zt8cpzFjVxiwbB8UROIYnFJeUie4,4997
+isic_metadata/utils.py,sha256=wkYTvM1lCwKjCx8a-M5kXF_9FFMcImHZtElhchhcZ40,563
+isic_metadata/validators.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isic_metadata-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+isic_metadata-0.0.8.dist-info/METADATA,sha256=5rnz1A8loBctQsMMZnT1ASRVbJGbb6ohMcgiaw0YemQ,990
+isic_metadata-0.0.8.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+isic_metadata-0.0.8.dist-info/top_level.txt,sha256=eo3H1tYbW5krWO-13ScuC47auDxDElO-_hW6LcQMhrI,14
+isic_metadata-0.0.8.dist-info/RECORD,,
