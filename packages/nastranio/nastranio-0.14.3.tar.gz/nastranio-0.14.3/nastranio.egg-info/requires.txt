@@ -1,0 +1,15 @@
+numpy
+colorama==0.4.4
+pyyaml
+pandas
+vg
+tqdm
+deepdiff
+networkx
+msgpack==0.6.2
+msgpack-numpy
+numtools
+click
+pyNastran
+cpylog
+scipy
