@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rmgdatabase
+Version: 4.0.0a0
+Summary: The Amazing Database of chemical information used in Reaction Mechanism Generator
+Home-page: http://reactionmechanismgenerator.github.io/
+Author: William H. Green and the RMG Team
+Author-email: RMG Team <rmg_dev@mit.edu>
+License: MIT
+Project-URL: Homepage, https://github.com/JacksonBurns/RMG-actually-a-database
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# RMG-actually-a-database
+Fork of RMG-database that flattens all of the files into an actual relational database and exposes the data through an interface.
+
+Broadly compatible with Python, individually packageable (installable with `pip` and `conda`), and standalone for other research applications.
+
