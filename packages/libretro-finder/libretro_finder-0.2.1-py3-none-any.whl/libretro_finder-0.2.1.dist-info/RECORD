@@ -1,0 +1,9 @@
+config/__init__.py,sha256=iAkzhi3rskT1swzJu7HBB0INbF74cv5UT_xMAsaO6Ec,2098
+libretro_finder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libretro_finder/main.py,sha256=B0xK4e6T_fJUuuLsntxtHynnB3ZVofXee9dWlNDBUTk,4160
+libretro_finder/utils.py,sha256=GR6aPwiih8u1jQbWXFqZeRc8BPCPtjuLaiuPfZIA8WU,5979
+libretro_finder-0.2.1.dist-info/entry_points.txt,sha256=vIAy9JIDOqTxuYMRWLqAqFUkuvd5rj7aCQsBNzUfyZk,61
+libretro_finder-0.2.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+libretro_finder-0.2.1.dist-info/METADATA,sha256=GSTTsNtQRt4CNJG2anPAWvOjtl7KUENUUa1B-79cDP4,6396
+libretro_finder-0.2.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+libretro_finder-0.2.1.dist-info/RECORD,,
