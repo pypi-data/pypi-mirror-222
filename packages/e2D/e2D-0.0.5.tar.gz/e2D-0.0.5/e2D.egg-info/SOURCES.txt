@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+e2D/__init__.py
+e2D/pg.py
+e2D.egg-info/PKG-INFO
+e2D.egg-info/SOURCES.txt
+e2D.egg-info/dependency_links.txt
+e2D.egg-info/requires.txt
+e2D.egg-info/top_level.txt
