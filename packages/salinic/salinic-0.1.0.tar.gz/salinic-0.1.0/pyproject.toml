@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "salinic"
+version = "0.1.0"
+description = "Search abstraction layer"
+authors = ["Eugen Ciur <eugen@papermerge.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.1.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
