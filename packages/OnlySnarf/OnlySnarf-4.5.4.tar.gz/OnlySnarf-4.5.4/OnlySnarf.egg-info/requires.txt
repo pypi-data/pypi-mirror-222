@@ -1,0 +1,11 @@
+ffmpeg
+inquirer
+wget
+selenium
+webdriver_manager
+validators
+flask
+
+[dev]
+pytest
+flask-unittest
