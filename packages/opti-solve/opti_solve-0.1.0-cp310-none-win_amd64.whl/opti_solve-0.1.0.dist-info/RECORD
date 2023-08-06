@@ -1,0 +1,5 @@
+opti_solve-0.1.0.dist-info/METADATA,sha256=oVqBIT0g3dD33XHRFTOLl9I3HW2b_8_EMPl0z1Wskpw,447
+opti_solve-0.1.0.dist-info/WHEEL,sha256=-PuAQKhWk4Rq8-gidZtX5jsMnCkejTgnWqEYioAwMzo,97
+opti_solve/__init__.py,sha256=z5oQEjFTIWdeu9SblfJ8ZW9Pa9ZvuLqZFlVn1ZBcHqU,123
+opti_solve/opti_solve.cp310-win_amd64.pyd,sha256=Wt48ZOLZXsmUvAzZhWVdPX7574qlYV5UY08BbSUYXyQ,232960
+opti_solve-0.1.0.dist-info/RECORD,,
