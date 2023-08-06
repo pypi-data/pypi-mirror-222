@@ -1,0 +1,8 @@
+setup.py
+My-Python-Module/VS_pythonmodule.py
+My-Python-Module/__init__.py
+VS_Python_Module.egg-info/PKG-INFO
+VS_Python_Module.egg-info/SOURCES.txt
+VS_Python_Module.egg-info/dependency_links.txt
+VS_Python_Module.egg-info/requires.txt
+VS_Python_Module.egg-info/top_level.txt

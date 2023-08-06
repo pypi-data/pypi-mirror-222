@@ -1,0 +1,1 @@
+from VS_pythonmodule import get_int, hello
