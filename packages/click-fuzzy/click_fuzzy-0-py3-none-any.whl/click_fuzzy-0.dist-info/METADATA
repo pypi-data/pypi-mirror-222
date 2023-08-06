@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: click-fuzzy
+Version: 0
+Summary: Fuzzy subcommand matching for click
+Author-email: Amethyst Reese <amethyst@n7.gg>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: attribution==1.6.2 ; extra == "dev"
+Requires-Dist: black==23.3.0 ; extra == "dev"
+Requires-Dist: flake8==6.0.0 ; extra == "dev"
+Requires-Dist: flit==3.8.0 ; extra == "dev"
+Requires-Dist: mypy==1.2.0 ; extra == "dev"
+Requires-Dist: ufmt==2.0.1 ; extra == "dev"
+Requires-Dist: usort==1.0.6 ; extra == "dev"
+Project-URL: Home, https://github.com/amyreese/click-fuzzy
+Provides-Extra: dev
+
+# Click Fuzzy Commands
+
+Fuzzy subcommand matching for click
+
+[![version](https://img.shields.io/pypi/v/click-fuzzy.svg)](https://pypi.org/project/click-fuzzy)
+[![license](https://img.shields.io/pypi/l/click-fuzzy.svg)](https://github.com/amyreese/click-fuzzy/blob/main/LICENSE)
+
+
+Install
+-------
+
+```shell-session
+$ pip install click-fuzzy
+```
+
+
+Usage
+-----
+
+```py
+import click_fuzzy
+```
+
+
+License
+-------
+
+Click Fuzzy Commands is copyright Amethyst Reese, and licensed under the MIT license.

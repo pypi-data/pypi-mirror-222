@@ -1,0 +1,3 @@
+[console_scripts]
+click-fuzzy=click_fuzzy.__main__:main
+
