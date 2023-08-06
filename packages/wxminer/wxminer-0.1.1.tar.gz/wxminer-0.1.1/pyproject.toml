@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "wxminer"
+version = "0.1.1"
+description = "Deep into WeChat"
+authors = ["xleven <xleven@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/xleven/wxminer"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+ibackupy = "^0.1.2"
+lxml = "^4.9.2"
+
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+default = true
+secondary = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
