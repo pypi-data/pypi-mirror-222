@@ -1,0 +1,2 @@
+# pastewin
+Pastebin, for winners
