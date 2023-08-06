@@ -1,0 +1,7 @@
+defaults:
+  - __init__
+  - /pipeline@pipeline: dataset_preprocessing
+
+_config_name_: datasets
+pipelines:
+  - pipeline
