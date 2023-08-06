@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+app/weekfivepackage/__init__.py
+app/weekfivepackage.egg-info/PKG-INFO
+app/weekfivepackage.egg-info/SOURCES.txt
+app/weekfivepackage.egg-info/dependency_links.txt
+app/weekfivepackage.egg-info/top_level.txt
+app/weekfivepackage/src/__init__.py
+app/weekfivepackage/src/week2_to_4.py
