@@ -1,0 +1,4 @@
+kubernetes>=26.0.0
+
+[dev]
+pip-tools

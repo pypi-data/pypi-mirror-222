@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/konfigmapedit/__init__.py
+src/konfigmapedit/__main__.py
+src/konfigmapedit/app_module.py
+src/konfigmapedit.egg-info/PKG-INFO
+src/konfigmapedit.egg-info/SOURCES.txt
+src/konfigmapedit.egg-info/dependency_links.txt
+src/konfigmapedit.egg-info/entry_points.txt
+src/konfigmapedit.egg-info/requires.txt
+src/konfigmapedit.egg-info/top_level.txt

@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: konfigmapedit
+Version: 0.1.0
+Summary: Edit multi-file Kubernetes configmaps by downloading them into a folder, let you edit in an interactive shell and uploads them after.
+Author-email: Armin Zentai <armin@zentai.name>
+License: MIT License
+        
+        Copyright (c) 2023
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: kubernetes,configmap,edit,editor,interactive
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# Konfigmapedit
+
+Edit multi-file Kubernetes configmaps by downloading them into a folder, let you edit in a shell and uploads them.
+
+## Installation
+
+You can install the Konfigmapedit from PyPi:
+
+```
+pip install konfigmapedit
+```
+
+The konfigmapedit is supported on Python 3.6 and above on Linux/MacOS.
+
+## How to use
+
+```
+# This creates a temp dir on a local machine and downloads a kubernetes configmap into it and invokes a shell in the temp dir.
+# The -n flag is the namespace and the configmap1 is the name of the configmap.
+$ konfigmapedit -n app1 configmap1
+configmap/configmap1 in namespace app1:
+You are now in an interactive shell. Edit the configmap files and exit the shell to upload the changes.
+$ konfigmapedit-g6r00xk9
+# here you can use shell commands, like ls, vim, nano, etc. or just open it in any editor.
+# after you finished the editing you can exit the shell (ctrl+D or exit command) and the konfigmapedit will display the changes and if you accept them it will upload the changes.
+```
+
+## k9s plugin
+
+You can use it as a k9s plugin too, where Ctrl-F on configmaps will invoke this tool.
+
+Install instructions: https://k9scli.io/topics/plugins/
+
+```yaml
+plugin:
+  editConfigMap:
+    shortCut: Ctrl-F
+    description: Edit as files
+    scopes:
+    - cm
+    command: konfigmapedit
+    background: false
+    args:
+    - '-n'
+    - $NAMESPACE
+    - $NAME
+```
