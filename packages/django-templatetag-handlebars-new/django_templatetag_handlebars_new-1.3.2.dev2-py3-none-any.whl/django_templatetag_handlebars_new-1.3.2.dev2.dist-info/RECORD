@@ -1,0 +1,11 @@
+templatetag_handlebars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templatetag_handlebars/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templatetag_handlebars/tests.py,sha256=EzgRj4iTlzzzH9ciCKT44mflNk_YrXKxw1xPnHwewOU,4015
+templatetag_handlebars/static/handlebars.js,sha256=UMNLYUU--vPODHfsOtoQC2n70xWtEmS3J7B8X8t_eRI,49699
+templatetag_handlebars/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templatetag_handlebars/templatetags/templatetag_handlebars.py,sha256=53fjptdZw8Hr_GJuZB7N509y1L_9IovbpNx7G6cKtE8,4805
+django_templatetag_handlebars_new-1.3.2.dev2.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+django_templatetag_handlebars_new-1.3.2.dev2.dist-info/METADATA,sha256=XyXzvjp-nBBouAOauQ50x2TOuPQg7uaGcw7xTvncQaE,1020
+django_templatetag_handlebars_new-1.3.2.dev2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+django_templatetag_handlebars_new-1.3.2.dev2.dist-info/top_level.txt,sha256=aT7b3qy1wZ8w51ivnfLr7F5ngDuXe2PVa4Jc5Fp6Des,23
+django_templatetag_handlebars_new-1.3.2.dev2.dist-info/RECORD,,
