@@ -1,0 +1,6 @@
+googleCode.py
+setup.py
+googleCode.egg-info/PKG-INFO
+googleCode.egg-info/SOURCES.txt
+googleCode.egg-info/dependency_links.txt
+googleCode.egg-info/top_level.txt
