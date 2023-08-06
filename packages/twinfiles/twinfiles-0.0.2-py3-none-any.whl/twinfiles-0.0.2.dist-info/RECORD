@@ -1,0 +1,10 @@
+tests/test_version.py,sha256=a-vFysy1Lk7SZpvNUvfx3hEEWN_l5zEVAtmj6P2em7o,86
+twinfiles/__main__.py,sha256=OGuaoNR81MKPv5xbRmYs72_05mYu-2FJhVO3PzCHCqY,494
+twinfiles/finder.py,sha256=K4wA3A7cv5P4mz0eNuQJ21BRg8gFLPQMqkbCWkGM0sI,4302
+twinfiles/version.py,sha256=akDh8M63SIkUdcs4zBTuYU7Q6eQspZu0Ii2tOpXGYNc,160
+twinfiles-0.0.2.dist-info/LICENSE,sha256=gyn6BihCpCx3nbL-fZalG6nlGWSWTVG-knJ8_W2QeDw,1064
+twinfiles-0.0.2.dist-info/METADATA,sha256=GA2GNI4e4Mgow83RdQb20JiQH9YN8Y8-KW4yKjw29wo,1243
+twinfiles-0.0.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+twinfiles-0.0.2.dist-info/entry_points.txt,sha256=3nOGjjsR68AHBx1JzwALwt1CjPVFjJlA-Hqco1REqOo,58
+twinfiles-0.0.2.dist-info/top_level.txt,sha256=qIQ2E-wKNEwr2FX_EM-JoUuhdxJ3H9kRWR-NKfP1pV0,21
+twinfiles-0.0.2.dist-info/RECORD,,
