@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fastmega/__init__.py
+fastmega/mymega.py
+fastmega.egg-info/PKG-INFO
+fastmega.egg-info/SOURCES.txt
+fastmega.egg-info/dependency_links.txt
+fastmega.egg-info/requires.txt
+fastmega.egg-info/top_level.txt
