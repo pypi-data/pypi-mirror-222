@@ -1,0 +1,17 @@
+numpy
+matplotlib
+ipython
+scikit-image
+dask[distributed]
+PyWavelets
+katbeam
+pytest>=6.2.2
+numexpr
+pyscilog>=0.1.2
+Click
+omegaconf
+codex-africanus[astropy,dask,ducc0,python-casacore,scipy]
+dask-ms[s3,xarray,zarr]
+stimela==2.0rc6
+QuartiCal
+sympy
