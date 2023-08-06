@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: umka
+Version: 0.1.1
+Classifier: Programming Language :: Python
+Requires-Dist: polars ==0.17.1
+Requires-Dist: pyarrow
+Summary: Umka is a Python library for extending Polars
+Requires-Python: >=3.8
