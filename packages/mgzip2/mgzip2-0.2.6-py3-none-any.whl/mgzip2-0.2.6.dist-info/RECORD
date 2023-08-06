@@ -1,0 +1,8 @@
+mgzip/__init__.py,sha256=anUZvThkHt4Sj7hos9VaNUwBpFyXJRwwQvOYDZauR-o,372
+mgzip/__main__.py,sha256=VoCNN60f1ec7lZwGnxKfkkqWvUXT0HGwD2hdvOBcUBs,789
+mgzip/multiProcGzip.py,sha256=4-CID4AODcDjpe-IA-icOvF_M2ac08vA_Vx9q8vNmHA,27531
+mgzip2-0.2.6.dist-info/LICENSE,sha256=6Q_7o7QYPeEpPL_gGC8K2lU4u-pxL2Amocog3ICFBug,1067
+mgzip2-0.2.6.dist-info/METADATA,sha256=DJ4L3ufpH1Eib880X3y6IpYX_3-6exFLyAZlyMr4mx8,2514
+mgzip2-0.2.6.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+mgzip2-0.2.6.dist-info/top_level.txt,sha256=fU3rukOzphccO-1Z-IbM7Nxaf5rI8EkwOTCZInhCngg,6
+mgzip2-0.2.6.dist-info/RECORD,,
