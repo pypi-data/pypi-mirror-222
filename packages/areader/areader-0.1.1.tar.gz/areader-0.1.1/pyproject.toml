@@ -1,0 +1,40 @@
+[project]
+name = "areader"
+version = "0.1.1"
+description = "Terminal based archives reader for Hyperkitty, GNU Mailman's archiver"
+authors = [
+    { name = "Abhilash Raj", email = "raj.abhilash1@gmail.com" },
+]
+dependencies = [
+    "textual>=0.30.0",
+    "httpx",
+    "marshmallow",
+    "timeago",
+    "orm[sqlite]>=0.3.1",
+    "greenlet>=2.0.2",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "Apache-2.0"
+
+[project.scripts]
+areader = "archive_reader.app:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dependencies = [
+    "textual-dev",
+    "blue",
+    "flake8",
+]
+
+[tool.pdm.scripts]
+format = "pdm run blue src/"
+flake8 = "pdm run flake8 src/"
