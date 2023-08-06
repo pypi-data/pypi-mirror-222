@@ -1,0 +1,3 @@
+[console_scripts]
+daily_task_manager = daily_task_manager.script:main
+

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+daily_task_manager/__init__.py
+daily_task_manager/script.py
+daily_task_manager.egg-info/PKG-INFO
+daily_task_manager.egg-info/SOURCES.txt
+daily_task_manager.egg-info/dependency_links.txt
+daily_task_manager.egg-info/entry_points.txt
+daily_task_manager.egg-info/requires.txt
+daily_task_manager.egg-info/top_level.txt

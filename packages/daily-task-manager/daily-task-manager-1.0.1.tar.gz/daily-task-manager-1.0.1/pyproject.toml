@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "daily-task-manager"
+version = "1.0.1"
+description = "Python package for managing daily tasks at work."
+authors = ["Sanket"]
+license = "MIT"
+homepage = "https://github.com/sanket-parte/daily_task_manager"
+repository = "https://github.com/sanket-parte/daily_task_manager.git"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tabulate = "^0.8.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
