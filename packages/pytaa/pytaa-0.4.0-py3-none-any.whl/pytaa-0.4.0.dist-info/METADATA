@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pytaa
+Version: 0.4.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: oronimbus
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (<=1.24,>1)
+Requires-Dist: pandas (<2,>1)
+Requires-Dist: numba (<1)
+Requires-Dist: scipy (<2,>1)
+Requires-Dist: yfinance (>0.1)
+
+A package for tactical asset allocation and backtesting.
+
+
