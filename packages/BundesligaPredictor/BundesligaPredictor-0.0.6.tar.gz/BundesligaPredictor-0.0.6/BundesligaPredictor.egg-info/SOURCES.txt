@@ -1,0 +1,16 @@
+setup.py
+BundesligaPredictor.egg-info/PKG-INFO
+BundesligaPredictor.egg-info/SOURCES.txt
+BundesligaPredictor.egg-info/dependency_links.txt
+BundesligaPredictor.egg-info/requires.txt
+BundesligaPredictor.egg-info/top_level.txt
+scripts/__init__.py
+scripts/load.py
+scripts/preprocess.py
+scripts/scraper.py
+scripts/serve.py
+scripts/test.py
+scripts/train.py
+tests/__init__.py
+tests/preprocess_test.py
+tests/scraper_test.py
