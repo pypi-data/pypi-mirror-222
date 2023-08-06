@@ -1,0 +1,86 @@
+[tool.poetry]
+name = "openfaceid"
+version = "0.1.4"
+description = "Identity Verification with Facial Recognition"
+authors = ["Abdulhalim Kara <ahalimkara@gmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+repository = "https://github.com/ahalimkara/openfaceid"
+packages = [
+    { include = "openfaceid", from = "src" },
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+numpy = "^1.25.1"
+pillow = "^10.0.0"
+dlib = "^19.24.2"
+faiss-cpu = { version = "^1", optional = true }
+pinecone-client = { version = "^2.2.2", optional = true }
+pytest-vcr = { version = "^1.0.2", optional = true }
+
+
+[tool.poetry.group.lint.dependencies]
+black = "^23.7.0"
+ruff = "^0.0.278"
+types-pillow = "^10.0.0.2"
+
+
+[tool.poetry.group.typing.dependencies]
+mypy = "^1.4.1"
+types-toml = "^0.10.8.6"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+
+[tool.poetry.extras]
+all = [
+    "faiss-cpu",
+    "pinecone-client",
+    "pytest-vcr",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+select = [
+    "E", # pycodestyle
+    "F", # pyflakes
+    "I", # isort
+]
+
+[tool.isort]
+profile = "black"
+combine_as_imports = true
+
+[tool.mypy]
+mypy_path = "src"
+disallow_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = ["dlib.*", "_dlib_pybind11.*", "faiss.*", "pinecone.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = [
+    "--strict-config",
+    "--strict-markers",
+]
+filterwarnings = [
+    "error",
+    "ignore:distutils Version classes are deprecated:DeprecationWarning",
+    "ignore:HTTPResponse\\.getheader\\(\\) is deprecated and will be removed in urllib3:DeprecationWarning",
+]
