@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: censoredzz
+Version: 1.0.6
+Summary: Python package for censoring profane words in Nepali-(Roman) text
+Home-page: https://github.com/12-Twelvve/pypi_censored_text
+Author: Kuber Budhathoki
+Author-email: koobear99@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: regex
+Requires-Dist: scikit-learn
+
+# Censoredzz
+
+censor your profane words in Nepali-(Roman) text
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install censoredzz
+```
+
+## usage
+
+```bash
+from censoredzz import censor, profanity
+```
+To censor the word.
+input: "text".
+output: "censored text"
+```bash
+censor.censor_text("ta badword ho")
+```
+output:
+"ta ****** ho"
+
+To check the profane word.
+input: "text".
+output: "1/0"
+```bash
+profanity.has_profanity("ta badword ho")
+```
+output:
+1
