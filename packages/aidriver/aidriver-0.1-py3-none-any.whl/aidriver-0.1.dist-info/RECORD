@@ -1,0 +1,7 @@
+ai_driver/main.py,sha256=oQGgclmz9vKL-yCo0mwNI6NURNtdZiWD9zeXQM2mquk,4785
+ai_driver/tests/test_main.py,sha256=82skmwfiZtyOLDu9hSEkWr31r9ICvUNewsu5eYO4vrs,1048
+ai_driver/tests/test_data/PlayerDnDBasicRules_v0.2_PrintFriendly.pdf,sha256=dr17yhcAiRq2jLoRZmnOZpHnatMONFvSmedslYT3iRQ,2869842
+aidriver-0.1.dist-info/METADATA,sha256=T5PaY6Tc_4g6VhaTj8GYpcVJnueyKKln7kXRgP2suos,1071
+aidriver-0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+aidriver-0.1.dist-info/top_level.txt,sha256=aUj1CXusiL0FKTtsjvPvKlohjCy2nGHYsgdg2JfkCFQ,10
+aidriver-0.1.dist-info/RECORD,,
