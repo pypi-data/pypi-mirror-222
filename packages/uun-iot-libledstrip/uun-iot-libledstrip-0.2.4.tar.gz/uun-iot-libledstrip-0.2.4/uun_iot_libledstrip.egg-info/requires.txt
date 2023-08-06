@@ -1,0 +1,14 @@
+
+[dev]
+colored==1.4.4
+
+[gpio]
+RPi.GPIO
+
+[i2c]
+smbus2
+
+[neopixel]
+rpi_ws281x
+adafruit-circuitpython-neopixel
+adafruit-blinka
