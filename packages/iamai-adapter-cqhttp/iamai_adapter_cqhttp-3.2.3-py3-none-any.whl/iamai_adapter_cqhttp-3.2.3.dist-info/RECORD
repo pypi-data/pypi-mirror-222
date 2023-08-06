@@ -1,0 +1,9 @@
+iamai/adapter/cqhttp/__init__.py,sha256=RP7XHDzksfdETEyi6XtdIryXl0GEyP1fvNRRquBQtrM,7954
+iamai/adapter/cqhttp/config.py,sha256=7H46oKuwYVfXs-ou2sGokKftWi0cE3llK2Wdqj2tI_o,899
+iamai/adapter/cqhttp/event.py,sha256=7uZyO4AQUrKiZX1UK_vp0p7pxNTYKDQ_VJ5IuDqhET8,13961
+iamai/adapter/cqhttp/exceptions.py,sha256=HWwRSkPiEIFisLsEn-_UpjPTgPNKhPb07a7UhoENdHY,656
+iamai/adapter/cqhttp/message.py,sha256=rIVbEitZnJS7LxMgsPzaVdJLyNxlqcgR43qGiZBstH4,7452
+iamai_adapter_cqhttp-3.2.3.dist-info/LICENSE,sha256=TfPDBt3ar0uv_f9cqCDMZ5rIzW3CY8anRRd4PkL6ejs,34522
+iamai_adapter_cqhttp-3.2.3.dist-info/METADATA,sha256=7dgEJMVv4cBD2DuMBLr5iMytL28vBpLw-kv7bCAClKQ,1331
+iamai_adapter_cqhttp-3.2.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+iamai_adapter_cqhttp-3.2.3.dist-info/RECORD,,
