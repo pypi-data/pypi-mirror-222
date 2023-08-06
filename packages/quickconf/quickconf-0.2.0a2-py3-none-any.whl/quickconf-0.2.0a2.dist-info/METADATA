@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: quickconf
+Version: 0.2.0a2
+Summary: Simple and flexible TOML-file based configurations framework
+Author-email: Kenneth Trelborg Vestergaard <mortencombat@fastmail.com>
+Project-URL: homepage, https://github.com/mortencombat/quickconf
+Project-URL: repository, https://github.com/mortencombat/quickconf
+Keywords: configuration,settings,options,toml
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs
+Requires-Dist: tomli (>=2.0) ; python_version < "3.11"
+Provides-Extra: build
+Requires-Dist: setuptools ; extra == 'build'
+Requires-Dist: build ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Provides-Extra: save
+Requires-Dist: tomlkit (<1.0,>=0.12.1) ; extra == 'save'
+Provides-Extra: test
+Requires-Dist: pre-commit ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+[github_release]: https://img.shields.io/github/release/mortencombat/quickconf.svg?logo=github&logoColor=white
+[pypi_version]: https://img.shields.io/pypi/v/quickconf.svg?logo=python&logoColor=white
+[python_versions]: https://img.shields.io/pypi/pyversions/quickconf.svg?logo=python&logoColor=white
+[github_license]: https://img.shields.io/github/license/mortencombat/quickconf.svg?logo=github&logoColor=white
+[github_action]: https://github.com/mortencombat/quickconf/actions/workflows/tests.yml/badge.svg?branch=main
+
+[![GitHub Release][github_release]](https://github.com/mortencombat/quickconf/releases/)
+[![PyPI Version][pypi_version]](https://pypi.org/project/quickconf/)
+[![Python Versions][python_versions]](https://pypi.org/project/quickconf/)
+[![License][github_license]](https://github.com/mortencombat/quickconf/blob/main/LICENSE)
+<br>
+[![Tests][github_action]](https://github.com/mortencombat/quickconf/actions/workflows/tests.yml)
+
+# quickconf
+
+Simple and flexible TOML-file based configurations framework
+
+If [TOML Kit](https://pypi.org/project/tomlkit/) is installed, `quickconf` will use that and supports both reading and writing configuration files. If `tomlkit` is not available, `quickconf` will use the Python system library `tomllib` but will support only reading of configuration files.
+
+Install `quickconf` with optional dependency `save` to ensure `tomlkit` is also installed: `pip install quickconf[save]`
