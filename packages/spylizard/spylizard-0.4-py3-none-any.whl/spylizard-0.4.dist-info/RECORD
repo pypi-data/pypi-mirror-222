@@ -1,0 +1,17 @@
+spylizard/__init__.py,sha256=vPe2QjhHiwev23iRbomBmszAlL2hG-CZ1uilzpOBu3E,25
+spylizard/libmetis.so,sha256=UApD-3-M9gEnUCwAoXgEbX00zo8BBUcHMf0qkE5mmfI,491208
+spylizard/libopenblas.so,sha256=FAlKXhMA6YMmrF-rmakyl9Rx2Kfm8U-Dn1Kho5y6Ohg,14288160
+spylizard/libopenblas.so.0,sha256=FAlKXhMA6YMmrF-rmakyl9Rx2Kfm8U-Dn1Kho5y6Ohg,14288160
+spylizard/libpetsc.so,sha256=6BzcG8_5OIS5fNliN28_2wL-rdgLAFY0lEvGlLp_2L8,27024712
+spylizard/libpetsc.so.3.019,sha256=6BzcG8_5OIS5fNliN28_2wL-rdgLAFY0lEvGlLp_2L8,27024712
+spylizard/libpetsc.so.3.019.3,sha256=6BzcG8_5OIS5fNliN28_2wL-rdgLAFY0lEvGlLp_2L8,27024712
+spylizard/libslepc.so,sha256=RloPmXby5wpa7yPHVsmOKbWbH7Q1LENzPXlwMb-DKnY,4159200
+spylizard/libslepc.so.3.019,sha256=RloPmXby5wpa7yPHVsmOKbWbH7Q1LENzPXlwMb-DKnY,4159200
+spylizard/libslepc.so.3.019.1,sha256=RloPmXby5wpa7yPHVsmOKbWbH7Q1LENzPXlwMb-DKnY,4159200
+spylizard/libsparselizard.so,sha256=Eova2OoIGFeKZC-Obn8dSOwHn4mZp2Hvd1yJ0vQ0agU,6233440
+spylizard/spylizard.so,sha256=0lOqkVxDeAyPjhr2W1bCgkw3n7jpo6GAPu1B8DITJhs,2051872
+spylizard-0.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spylizard-0.4.dist-info/METADATA,sha256=WdeSzhwn1gY3brmUx5Z9RY_uhVctBoSXWP2hIhKjaWg,685
+spylizard-0.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+spylizard-0.4.dist-info/top_level.txt,sha256=nPwy1gVzH73wPzJiz0sLJXxyKGjqt8rHgVcDmInuZQg,10
+spylizard-0.4.dist-info/RECORD,,
