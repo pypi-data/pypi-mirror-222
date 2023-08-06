@@ -1,0 +1,1 @@
+from minio import add_file
