@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: forked-ecephys-spike-sorting
+Version: 0.1.1
+Summary: Tools for spike-sorting Allen Institute Neuropixels data
+Home-page: https://github.com/AllenInstitute/ecephys_spike_sorting
+Author: Josh Siegle, Nile Graddis, Xiaoxuan Jia, Gregg Heller, Chris Mochizuki, Dan Denman
+Author-email: joshs@alleninstitute.org
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: GitPython
+Requires-Dist: pillow
+Requires-Dist: argschema
+Requires-Dist: xmljson
+Requires-Dist: xarray
+Requires-Dist: scikit-learn
+Requires-Dist: h5py
+Requires-Dist: joblib
+
+UNKNOWN
+
