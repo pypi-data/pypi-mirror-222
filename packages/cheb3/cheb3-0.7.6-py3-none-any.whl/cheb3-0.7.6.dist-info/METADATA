@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cheb3
+Version: 0.7.6
+Summary: Web3 CTF tool based on web3.py
+Author-email: YanhuiJessica <y4nhv1@gmail.com>
+Project-URL: Homepage, https://github.com/YanhuiJessica/cheb3
+Project-URL: Documentation, https://cheb3.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/YanhuiJessica/cheb3
+Project-URL: Bug Reports, https://github.com/YanhuiJessica/cheb3/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: web3 (>=6.0.0)
+Requires-Dist: py-solc-x
+Requires-Dist: loguru
+
