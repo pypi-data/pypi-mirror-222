@@ -1,0 +1,6 @@
+TencentDevs.py
+setup.py
+TencentDevs.egg-info/PKG-INFO
+TencentDevs.egg-info/SOURCES.txt
+TencentDevs.egg-info/dependency_links.txt
+TencentDevs.egg-info/top_level.txt
