@@ -1,0 +1,9 @@
+aws_cdk_github_oidc/__init__.py,sha256=FlpHoRn76_Cs3J15gdXYics9Pap0KnEVOCzauJJXltE,56368
+aws_cdk_github_oidc/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk_github_oidc/_jsii/__init__.py,sha256=MlyQWoY_1eNjTwj_L5UxfsBIz-crX2jy9qOvHGcRQk4,418
+aws_cdk_github_oidc/_jsii/aws-cdk-github-oidc@2.3.4.jsii.tgz,sha256=SMfAIeY9Ivf99Me1YiginmDwzULsyOZcBQqRYWP9Hig,72346
+aws_cdk_github_oidc-2.3.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_cdk_github_oidc-2.3.4.dist-info/METADATA,sha256=DH37nRwq_0xUfMn0R8mQm6Xrk2JzQeLL7z-g-tqccvc,8614
+aws_cdk_github_oidc-2.3.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+aws_cdk_github_oidc-2.3.4.dist-info/top_level.txt,sha256=uvSuuX_ZMlAkRL9ZithuXWt42n6gzpWf5MY-4xX3bZo,20
+aws_cdk_github_oidc-2.3.4.dist-info/RECORD,,
