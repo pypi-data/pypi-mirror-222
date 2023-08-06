@@ -1,0 +1,1 @@
+__version__ = '1.12.6' # Don't forget to match with pyproject.toml and docs/source/conf.py
