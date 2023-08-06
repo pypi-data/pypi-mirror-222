@@ -1,0 +1,14 @@
+landfall/__init__.py,sha256=09a7zvMuDlBQInjNnOKIfjcG-Lh8Sa_oUHC3gZuSO2Q,216
+landfall/color.py,sha256=e6e2m7tWn5DimctSOjyumgWnSwndwLVFNJiKJZwgd1A,1947
+landfall/colorsys.py,sha256=lLryIPPOiRmN1ZnxuAECCp53zXvLdqb2WcnyzdSZFP8,631
+landfall/combos.py,sha256=0LxzIp59GheaM6t7OoZ-S6OKid2pRVP9enKt_K-oZfs,865
+landfall/context.py,sha256=K2kTynphkWkDlFPvqk0nm4b2L67DQxn1Gfqih6XF3wU,508
+landfall/distinctipy.py,sha256=39SXHzQUmB8RgA7_RWx6Pf9MmOd9kgwv8bUmq4RGrEU,321
+landfall/plot.py,sha256=F_OB0v2ZoSwcL7c9jDqdjs_6WNG8Ab_ea30AYm-u2_k,2307
+landfall/points.py,sha256=STPEpIeDogeIFRRfmk1oaX25UKzF06Ycm8s4ub9mkrA,3837
+landfall/polygons.py,sha256=z6a3JzQazr8EOYFWY0p7AyqGN5lNSAFOBWUiAfXl4W0,4114
+landfall-0.3.5.dist-info/LICENSE,sha256=oFq9FEIyAGvzUW2asR4JnQiFiH0X7cNCLO4N_bhiZUk,1068
+landfall-0.3.5.dist-info/METADATA,sha256=VwmHnbd7_TvLkkwdcHiGSLlEF1Ye-HUFPmhiU3-6-e0,2168
+landfall-0.3.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+landfall-0.3.5.dist-info/top_level.txt,sha256=5hJHa8DW6HpsYFUTstoguc1LYRkKgyatMMdGtvMQRVs,9
+landfall-0.3.5.dist-info/RECORD,,
