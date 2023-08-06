@@ -1,0 +1,9 @@
+stretchable-1.0.0a1.dist-info/METADATA,sha256=d7YTu4GdJj4t9x6sKOPaH4jHDSwh2k8ltzBtBUv3ua0,2319
+stretchable-1.0.0a1.dist-info/WHEEL,sha256=5dOivNq_VIJBDAyqRCOHhr65zJfDvGy0Z7_J1flR7sU,90
+stretchable-1.0.0a1.dist-info/license_files/LICENSE,sha256=ICo42IBkViHgT3nUFDsRIWXd28vhSnpcw96zIBOeNGg,1106
+stretchable/layout.py,sha256=p23MpKxbL1SXCMhVGiYyyhdcfNfZAaVbrH1lIaUMksI,1505
+stretchable/node.py,sha256=nlT1EDzzoSPJPMW1LBJG28-ZJuDywu8w8EUVxWdIGTM,6686
+stretchable/style.py,sha256=gpwWZhhJsWC2jMjR25wwPpt31UEA9o2vgXB9Iva02Og,11699
+stretchable/__init__.py,sha256=bTJ-5Kj0l4K_r-RdPH-_nx_qaYnjC3c2dMzCzdYjgCw,608
+stretchable/stretch.pyd,sha256=t4iSuLB6LhhjIx6E5eUqMWsBH8qm32kieRZU1bW1Jqc,344576
+stretchable-1.0.0a1.dist-info/RECORD,,
