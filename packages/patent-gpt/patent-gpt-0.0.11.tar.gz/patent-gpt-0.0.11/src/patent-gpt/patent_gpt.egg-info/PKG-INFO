@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: patent-gpt
+Version: 0.0.11
+Summary: A package created to make patent search easier using latest LLM tools.
+Home-page: https://github.com/Zackriya-Solutions/patent-gpt
+Author: Zackriya Solutions
+Author-email: sujith@zackriya.com
+Project-URL: Bug Tracker, https://github.com/Zackriya-Solutions/patent-gpt/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Quick Process Integration
+
+A package created to make patent search easier using latest LLM tools.
+
+## The project
+
+A package created to make patent search easier using latest LLM tools.
+
+## Install
+
+``` $ pip3 install patent-gpt ```
