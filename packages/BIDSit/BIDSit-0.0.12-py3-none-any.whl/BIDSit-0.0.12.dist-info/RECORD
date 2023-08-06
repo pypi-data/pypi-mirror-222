@@ -1,0 +1,16 @@
+BIDSit/BIDSit.py,sha256=WMz6n1aBkcYgs0AcF6rS-_pbianVAX9xGO8t1Vf6oTk,49238
+BIDSit/Test_script.py,sha256=GKgjsbRRwPabGi0W6J09Cbn6H2RzPROVeL3sDKO0Pcw,5330
+BIDSit/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+BIDSit/__main__ .py,sha256=kWL0O-52eazGEGauofF4bgCbhl_wxzR1DXJ4Ej-FRO0,83
+BIDSit/__main__.py,sha256=aDVULF5VZdp0EJK6us7XnKiBRgIjMmtjS-BjOdLxFVU,58
+BIDSit/dicom_to_bids2.py,sha256=U9p7KC_H5JkeqI_2GNsV1o-GU7Jn6JwgHKP3tQa-8LA,24979
+BIDSit/go.py,sha256=KSNkKrx85rXZiZhA1ZzrPYGPd9Sn0p08QZoL58oHhT8,68398
+BIDSit/main.py,sha256=kWL0O-52eazGEGauofF4bgCbhl_wxzR1DXJ4Ej-FRO0,83
+BIDSit/version.py,sha256=U76tYbAxkfb-rVRjqQ857fsBegSssAksRZ4JE3OiCvY,577
+BIDSit/run/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+BIDSit/run/go.py,sha256=KSNkKrx85rXZiZhA1ZzrPYGPd9Sn0p08QZoL58oHhT8,68398
+BIDSit-0.0.12.dist-info/METADATA,sha256=Ema1NcaLsPj3QE__S_BlGUANcsMzOc2wD1U8WoUU__k,1332
+BIDSit-0.0.12.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+BIDSit-0.0.12.dist-info/entry_points.txt,sha256=0v4FtUwB3hd8zn07eBuE9G7o-fSSfeJc46h3wOrCX1I,39
+BIDSit-0.0.12.dist-info/top_level.txt,sha256=1TsEfc-Z6OCcRlDflCnb_CtHcwKa-mYZqNswV35_YnA,7
+BIDSit-0.0.12.dist-info/RECORD,,
