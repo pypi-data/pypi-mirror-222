@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+simple_calculate/__init__.py
+simple_calculate/add_num.py
+simple_calculate/calculate.py
+simple_calculate_zmw.egg-info/PKG-INFO
+simple_calculate_zmw.egg-info/SOURCES.txt
+simple_calculate_zmw.egg-info/dependency_links.txt
+simple_calculate_zmw.egg-info/top_level.txt
