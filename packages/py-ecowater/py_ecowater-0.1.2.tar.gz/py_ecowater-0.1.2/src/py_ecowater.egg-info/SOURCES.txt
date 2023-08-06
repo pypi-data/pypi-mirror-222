@@ -1,0 +1,14 @@
+LICENSE
+README.md
+VERSION.txt
+pyproject.toml
+setup.cfg
+src/py_ecowater/__init__.py
+src/py_ecowater/constants.py
+src/py_ecowater/ecowater_client.py
+src/py_ecowater/exception.py
+src/py_ecowater/model.py
+src/py_ecowater.egg-info/PKG-INFO
+src/py_ecowater.egg-info/SOURCES.txt
+src/py_ecowater.egg-info/dependency_links.txt
+src/py_ecowater.egg-info/top_level.txt
