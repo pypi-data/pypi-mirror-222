@@ -1,0 +1,10 @@
+changemaker/__init__.py,sha256=Qyi6X8rwwfsnhZ4JMtZ8xGG7YnAAW-Apn5v1OWqa30w,16
+changemaker/debugger.py,sha256=CpSHYpjQfRYSNDiYdz7M8mJrMDcwVP9wVpvsM2m-aas,471
+changemaker/generator.py,sha256=f80-yx4PWroWWBEnEe6lda2l_6CUCgNf_U86ltd7Og0,7771
+changemaker/utils/rst.py,sha256=HRgBUNkbqj9rNZ1PrDjuRyVZYJT2MNCjYhmEaqKcmWQ,2788
+changelog_generator-0.7.dist-info/LICENSE,sha256=khwb-_X88C6Va_FZB_sJgB-xukCrEvkq8C3P_IGzysE,1078
+changelog_generator-0.7.dist-info/METADATA,sha256=vWO6tjDBcl5QQRtrjF1gpMGqVCrl0FeJQ4AGYqMSv6Q,6086
+changelog_generator-0.7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+changelog_generator-0.7.dist-info/entry_points.txt,sha256=8sxfw8m8GmGHIhcwShQ7G53xBuMBYsTdTuR3QKmPJrM,57
+changelog_generator-0.7.dist-info/top_level.txt,sha256=G-ZPmDgo1URNo8Q-4vnwBWYVv42gqvl0i0iqzwoarWU,12
+changelog_generator-0.7.dist-info/RECORD,,
