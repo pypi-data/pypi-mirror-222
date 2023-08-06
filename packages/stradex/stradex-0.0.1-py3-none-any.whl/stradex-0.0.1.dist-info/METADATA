@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: stradex
+Version: 0.0.1
+Summary: Stradex: An Event-driven Framework for Algorithmic  Trading Analysis and backtester
+Author: jialuechen
+Author-email: jialuechen@outlook.com
+License: MIT
+Keywords: quant,trade,System Trading,backtester
+Platform: Independant
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: matplotlib (>=3.7.0)
+Requires-Dist: pyecharts (>=2.0.3)
+
+<div align="center">
+<img src="assets/stradex-logo.png" width="55%">
+</div>
+
+# Stradex: Strategies, Trading and Execution in one library
+
+Stradex is an asynchronous event-driven algorithmic trading framework built in Python (with C++ acceleration components). It is created to support live trading based on Interactive Brokers TWS API.
+
+Stradex intergrates support for creating trading strategies, backtesting, market impact / slippage modeling as well as risk management through built-in algorithm controls.
+
+## Installation
+```
+pip install --upgrade stradex
+```
+
+## Required Software
++ Latest Interactive Brokers Trader Workstation or IB Gateway(If you want to try paper/live trading). Make sure the API port is enabled.
+
+## Required Third-Party Python Library
++ ibapi (please follow the official installation guide on Interactive Brokers website. Personal recommended choice is to run its setup.py to install it as a regular library)
++ pandas
++ numpy
++ matplotlib
++ psycopg2
++ TA-Lib
+
+## License
+stradex is licensed under MIT.
