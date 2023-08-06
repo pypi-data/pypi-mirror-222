@@ -1,0 +1,2 @@
+[nbdev]
+mindstorm = mindstorm._modidx:d
