@@ -1,0 +1,15 @@
+pydantic-settings>=2.0
+
+[aws]
+
+[azure]
+
+[dev]
+black
+twine
+
+[gcp]
+
+[test]
+pytest
+pytest-cov
