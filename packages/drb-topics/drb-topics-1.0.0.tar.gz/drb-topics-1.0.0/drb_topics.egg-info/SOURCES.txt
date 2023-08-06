@@ -1,0 +1,14 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+_version.py
+pyproject.toml
+setup.cfg
+setup.py
+versioneer.py
+drb_topics.egg-info/PKG-INFO
+drb_topics.egg-info/SOURCES.txt
+drb_topics.egg-info/dependency_links.txt
+drb_topics.egg-info/not-zip-safe
+drb_topics.egg-info/requires.txt
+drb_topics.egg-info/top_level.txt
