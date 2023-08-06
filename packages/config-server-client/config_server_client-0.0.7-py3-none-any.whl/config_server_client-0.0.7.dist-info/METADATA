@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: config-server-client
+Version: 0.0.7
+Summary: A test package
+Home-page: UNKNOWN
+Author: Jayant
+Author-email: jayantreddybodkurwar@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
