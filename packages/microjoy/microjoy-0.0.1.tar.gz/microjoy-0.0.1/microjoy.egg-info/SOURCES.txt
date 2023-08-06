@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+j/joy.py
+microjoy.egg-info/PKG-INFO
+microjoy.egg-info/SOURCES.txt
+microjoy.egg-info/dependency_links.txt
+microjoy.egg-info/top_level.txt
