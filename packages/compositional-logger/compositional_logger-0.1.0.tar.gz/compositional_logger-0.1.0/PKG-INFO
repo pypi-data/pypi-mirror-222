@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: compositional_logger
+Version: 0.1.0
+Summary: Package for data logging in compositional style
+Home-page: https://github.com/Warrfie/compositional_logger
+Author: Kuklikov Maxim (Warrfie)
+Author-email: "MaximKuklikov(Warrfie)" <warrfie@gmail.com>
+Project-URL: Homepage, https://github.com/Warrfie/compositional_logger
+Keywords: QA,SET,logging,testing,autotesting
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![PyPi Package Version](https://img.shields.io/pypi/v/combidata.svg)](https://pypi.python.org/pypi/compositional_logger)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/combidata.svg)](https://pypi.python.org/pypi/compositional_logger)
+[![PyPi status](https://img.shields.io/pypi/status/combidata.svg?style=flat-square)](https://pypi.python.org/pypi/compositional_logger)
+
+# <p align="center">Compositional logger
+
