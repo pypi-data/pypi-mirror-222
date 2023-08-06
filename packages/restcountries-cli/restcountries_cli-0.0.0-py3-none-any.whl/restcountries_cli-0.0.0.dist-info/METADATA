@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: restcountries-cli
+Version: 0.0.0
+Summary: Client for rest countries API to access data
+Home-page: https://github.com/martingaldeca/restcountries_cli
+License: MIT
+Keywords: restcountries,country,countries,data,api
+Author: martingaldeca
+Author-email: martingaldeca@gmail.com
+Maintainer: martingaldeca
+Maintainer-email: martingaldeca@gmail.com
+Requires-Python: >=3.11,<4.0.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: pydantic (==2.1.1)
+Requires-Dist: requests-cache (==1.1.0)
+Project-URL: Repository, https://github.com/martingaldeca/restcountries_cli
+Description-Content-Type: text/x-rst
+
+# TODO
