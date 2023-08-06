@@ -1,0 +1,2 @@
+Currently we are depending on `gpt-cli/openai/` implementation when importing gpt.
+This NEEDS to be fixed.
