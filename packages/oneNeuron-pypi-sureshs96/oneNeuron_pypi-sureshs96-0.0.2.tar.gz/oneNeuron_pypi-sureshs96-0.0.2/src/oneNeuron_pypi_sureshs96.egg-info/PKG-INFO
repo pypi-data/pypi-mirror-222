@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: oneNeuron-pypi-sureshs96
+Version: 0.0.2
+Summary: its an implimentation of Perceptron
+Home-page: https://github.com/sureshs96/oneNeuron_pypi
+Author: sureshs96
+Author-email: sunny.c17hawke@gmail.com
+Project-URL: Bug Tracker, https://github.com/sureshs96/oneNeuron_pypi/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_pypi
+oneNeuron python package creation
+
+## How to use -
+```python
+    from oneNeuron.perceptron import Perceptron
+    from utils.common_utils import prepare_data, save_model, save_plot
+    ## Get X and y from dataframe
+    X,y = prepare_data(df)
+    model = Perceptron(eta, epochs)
+    model.fit(X,y)
+    _ = model.total_loss()
+    save_model(model, modelname)
+    save_plot(df , plotfilename, model)
+```
+# Reference -
+[official python docs](https://packaging.python.org/tutorials/packaging-projects/)
+
+[github docs for github actions](https://docs.github.com/en/actions/guides/building-and-testing-python#publishing-to-package-registeries)
