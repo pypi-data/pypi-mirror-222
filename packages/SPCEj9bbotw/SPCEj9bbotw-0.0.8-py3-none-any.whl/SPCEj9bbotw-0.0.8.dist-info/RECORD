@@ -1,0 +1,14 @@
+SPCEj9bbotw_/__init__.py,sha256=sj5YShuneI6fXf0bRsSyZ4frZzNOjTWjEkkPE4zqYNI,25
+SPCEj9bbotw_/_main.py,sha256=LFFGyRDE5eNwlSG4IdC7YFpdCiPvB4FpuiIGpbMmL8Y,2048
+SPCEj9bbotw_/functions/_.py,sha256=QktrFebjXAVkbA1i2Eb1n-jof4lOQm8t4lKn8MY7HQA,3024
+SPCEj9bbotw_/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SPCEj9bbotw_/functions/_matrix.py,sha256=tqvjb9Ca9xcx3mfP70UFMCGSaazKeeOnCwFJVEJViyw,3025
+SPCEj9bbotw_/functions/_plot.py,sha256=ai_84pywtaSPytBP4LEjPfsfvSieAURug-BLxSE7vOg,2917
+SPCEj9bbotw_/optimizer/__init__.py,sha256=UA2UrbgRbs4BVrDpxQK9k4wJnZ3dNVad-vKCCD9DMog,75
+SPCEj9bbotw_/optimizer/kernels.py,sha256=NZd_qg0KDga39szaaHc1qCOWLBCqK-V8ZePH5QbopkE,9055
+SPCEj9bbotw_/optimizer/optimizer.py,sha256=4MpKQwx8IluKE0gxgURDkke6W5oKNI7eI-0aX7qnEGU,6764
+SPCEj9bbotw_/optimizer/optimizer_matrix.py,sha256=VZjLwzt8npTpyt_VsPLKWrk_3qzalGL2OUZaUceONO4,6989
+SPCEj9bbotw-0.0.8.dist-info/METADATA,sha256=NdB_wPwBatJcQQIek-fTgr3ATn4p52XXrApTbklftJ4,60
+SPCEj9bbotw-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+SPCEj9bbotw-0.0.8.dist-info/top_level.txt,sha256=lidAR5EBW41BQ-_SyrCDCP2KvYGs5Oo9kmikbUWS0_E,13
+SPCEj9bbotw-0.0.8.dist-info/RECORD,,
