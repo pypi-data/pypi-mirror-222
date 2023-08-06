@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+MyOverlay.egg-info/PKG-INFO
+MyOverlay.egg-info/SOURCES.txt
+MyOverlay.egg-info/dependency_links.txt
+MyOverlay.egg-info/requires.txt
+MyOverlay.egg-info/top_level.txt
