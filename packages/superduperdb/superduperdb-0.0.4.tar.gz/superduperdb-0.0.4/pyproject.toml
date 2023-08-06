@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "superduperdb"
+description = "🔮 Super-power your database with AI 🔮"
+readme = "README.md"
+license = {file = "LICENSE"}
+maintainers = [{name = "Duncan Blythe", email = "opensource@superduperdb.com"}]
+keywords = [
+    "mongo",
+    "mongodb",
+    "pymongo",
+    "data-science",
+    "machine-learning",
+    "mlops",
+    "vector-database",
+    "ai",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: GPU :: NVIDIA CUDA",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Database",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed"
+]
+requires-python = ">=3.8"
+dynamic = ["dependencies", "version"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements/requirements.in"] }
+version = {attr = "superduperdb.__version__"}
+
+[project.urls]
+homepage = "https://www.superduperdb.com/"
+documentation = "https://superduperdb.github.io/superduperdb/"
+source = "https://github.com/SuperDuperDB/superduperdb/"
+
+[tool.black]
+skip-string-normalization = true
+target-version = ["py38"]
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "-W ignore"
+
+[tool.interrogate]
+# Uncomment these next lines to generate a badge
+#
+# badge-format = "svg"
+# generate-badge = "docs"
+
+color = true
+exclude = []
+fail-under = 36.1
+ignore-magic = true
+ignore-nested-classes = false
+ignore-nested-functions = true
+ignore-private = true
+ignore-property-decorators = true
+ignore-regex = []
+ignore-semiprivate = true
+omit-covered-files = true
+quiet = false
+verbose = 0
+whitelist-regex = []
+
+[tool.isort]
+profile = "black"
