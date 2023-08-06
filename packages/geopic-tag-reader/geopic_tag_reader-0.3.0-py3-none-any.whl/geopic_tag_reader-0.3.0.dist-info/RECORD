@@ -1,0 +1,10 @@
+geopic_tag_reader/__init__.py,sha256=vLNqGoHKTkSX80Hr8VYXEaAGC_rxLRroxFu0wD5-qcw,46
+geopic_tag_reader/main.py,sha256=_DveeQbxj4TqTNqm-qbzpr8oDbkanFT1L0bV8G9ZYjE,2143
+geopic_tag_reader/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geopic_tag_reader/reader.py,sha256=bACD7mN59s8v88Qgdklkru5nW7X1rOlFV0F9-2GYTiY,13532
+geopic_tag_reader/writer.py,sha256=Cf6mnsVjZqdTuTzB7rKcqXXhk_qvyCTzGcOdPG1xtoA,3559
+geopic_tag_reader-0.3.0.dist-info/entry_points.txt,sha256=c9YwjCNhxveDf-61_aSRlzcpoutvM6KQCerlzaVt_JU,64
+geopic_tag_reader-0.3.0.dist-info/LICENSE,sha256=oHWDwXkJJb9zJzThMN3F9Li4yFhz1qxOUByouY7L3bI,1070
+geopic_tag_reader-0.3.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+geopic_tag_reader-0.3.0.dist-info/METADATA,sha256=DBB7UGx_yOH8yybxVVFd_PCvbpXaRCrOa7uGyRdg87M,7691
+geopic_tag_reader-0.3.0.dist-info/RECORD,,
