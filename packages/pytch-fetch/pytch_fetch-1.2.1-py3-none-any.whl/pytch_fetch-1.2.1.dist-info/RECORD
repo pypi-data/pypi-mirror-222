@@ -1,0 +1,10 @@
+pytch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytch/__main__.py,sha256=vsAYP1_02ENsRF9BjMo86cRVeIHHC2kpxB5rQgsxak4,3505
+pytch/art.py,sha256=hi4FNoH_uuPKlC0_og0f07RXhLjP4yXbpB_JFjY1Z-g,22608
+pytch/funcs.py,sha256=LFfTpuxuCXhcStvvNIz7Thy8NbnOVoFAZuekVE-lUas,6756
+pytch_fetch-1.2.1.dist-info/LICENSE,sha256=hviJ_sPGeBXhC1j6KZHsF7Y_Vsbk_5OM2b4e2NS2LX8,1066
+pytch_fetch-1.2.1.dist-info/METADATA,sha256=gRxkjjStlJhrKndbXeibYsaGtWz8FNmkptY0X95pUU0,4356
+pytch_fetch-1.2.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pytch_fetch-1.2.1.dist-info/entry_points.txt,sha256=IMB0jl_LzU_bAiYFnMrdQZoV31CDr1ovwjS__VrMI90,46
+pytch_fetch-1.2.1.dist-info/top_level.txt,sha256=aEziltXsrBYwCdHEjgvPwnLKijUjCosJbrjzgoFJFsY,6
+pytch_fetch-1.2.1.dist-info/RECORD,,
