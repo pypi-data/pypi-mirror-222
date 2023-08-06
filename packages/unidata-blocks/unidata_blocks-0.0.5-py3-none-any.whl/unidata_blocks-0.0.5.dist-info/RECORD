@@ -1,0 +1,9 @@
+unidata_blocks/__init__.py,sha256=ordZ3yGOx11KH6QHWrRkmGGVV7pirPjTnhpLIZI2IhY,3635
+unidata_blocks/unidata/Blocks.txt,sha256=Up3F0PY4bVLy9W4AS7-rSM4tWH7qnTi6VGxAUkkb2CA,10951
+unidata_blocks/unidata/lang-codes.txt,sha256=cS8fEEHwaENmfItkkgJ-6un4QDLMKPFdkARaj8rir94,11
+unidata_blocks/unidata/translations/zh-hans.txt,sha256=qtNy0Ic9YWZCPeHp8ZtlRkty6smAvDHEsb86OzaeGHY,10892
+unidata_blocks-0.0.5.dist-info/LICENSE,sha256=KtEAp6PdkHpy5KNgBAdtRUvP6-KffM4uJ1Smx1GF6S8,1064
+unidata_blocks-0.0.5.dist-info/METADATA,sha256=cfwPIpEO5Q2S8i2oflICMquW_-R1LXMQ-8pVR38KIs0,1350
+unidata_blocks-0.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+unidata_blocks-0.0.5.dist-info/top_level.txt,sha256=kOnj6fSo1ZvmP0rK8JSntw280q1LmH7U_k6xdN2cJ7k,15
+unidata_blocks-0.0.5.dist-info/RECORD,,
