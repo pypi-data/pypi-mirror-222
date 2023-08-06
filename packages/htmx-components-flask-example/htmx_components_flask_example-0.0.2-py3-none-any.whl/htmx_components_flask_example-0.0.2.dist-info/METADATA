@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: htmx-components-flask-example
+Version: 0.0.2
+Summary: An example Flask application using HTMX Components Flask
+Author: Neil McGuigan
+Project-URL: Homepage, https://github.com/neilmcguigan/htmx-components-flask-example
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask (==2.3.2)
+Requires-Dist: flask-sqlalchemy (==3.0.5)
+Requires-Dist: flask-wtf[email] (==1.1.1)
+Requires-Dist: htmx-components-flask
+
+# htmx-components-flask-example
+
+A sample Flask application for https://github.com/neilmcguigan/htmx-components-flask
+
+Usage:
+
+```
+git clone https://github.com/neilmcguigan/htmx-components-flask-example.git
+
+cd htmx-components-flask-example
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+pip install .
+
+flask run
+
+go to http://localhost:5000
+```
