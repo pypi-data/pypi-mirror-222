@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bin/nec_beamer
+nec_beamer/__init__.py
+nec_beamer/nec_beamer.py
+nec_beamer.egg-info/PKG-INFO
+nec_beamer.egg-info/SOURCES.txt
+nec_beamer.egg-info/dependency_links.txt
+nec_beamer.egg-info/not-zip-safe
+nec_beamer.egg-info/requires.txt
+nec_beamer.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nec_beamer
+Version: 0.1.3
+Summary: NEC Beamer Web Interface Wrapper
+Home-page: https://github.com/heinrich-foto/nec_beamer
+Author: Heinrich-Foto
+Author-email: nec_beamer@heinrich-foto.de
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nec_beamer_control
+
+Command Line Interface for a NEC Beamer Web UI.
+This is implemented with the NEC Beamer NP2000
+
+Web Interface has a Copyright (C) NEC Viewtechnology, Ltd. 2002-2006
+
