@@ -1,0 +1,18 @@
+[project]
+name = "htmx-components-python"
+authors = [
+    {name = "Neil McGuigan"},
+]
+version = "0.0.2"
+description = "HTMX Components common util for Python"
+classifiers = []
+dependencies = [
+    
+]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/neilmcguigan/htmx-components-python"
