@@ -1,0 +1,8 @@
+README.md
+setup.py
+attrdictx/__init__.py
+attrdictx/attrdictx.py
+attrdictx.egg-info/PKG-INFO
+attrdictx.egg-info/SOURCES.txt
+attrdictx.egg-info/dependency_links.txt
+attrdictx.egg-info/top_level.txt
