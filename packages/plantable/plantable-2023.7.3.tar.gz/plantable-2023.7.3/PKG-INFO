@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: plantable
+Version: 2023.7.3
+Summary: Server for Seatable Webhook
+Author: Woojin Cho
+Author-email: w.cho@cj.net
+License: MIT License
+Requires-Python: >=3.8
+
+# plantable
+Server for SeaTable Webhook
