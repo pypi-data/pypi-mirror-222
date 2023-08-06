@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+Electroplot.egg-info/PKG-INFO
+Electroplot.egg-info/SOURCES.txt
+Electroplot.egg-info/dependency_links.txt
+Electroplot.egg-info/requires.txt
+Electroplot.egg-info/top_level.txt
