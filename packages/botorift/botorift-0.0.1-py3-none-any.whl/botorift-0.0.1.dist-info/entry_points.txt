@@ -1,0 +1,2 @@
+[nbdev]
+botorift = botorift._modidx:d
