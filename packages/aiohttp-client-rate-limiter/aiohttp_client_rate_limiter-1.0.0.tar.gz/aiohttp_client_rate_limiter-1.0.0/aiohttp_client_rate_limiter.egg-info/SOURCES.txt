@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aiohttp_client_rate_limiter.egg-info/PKG-INFO
+aiohttp_client_rate_limiter.egg-info/SOURCES.txt
+aiohttp_client_rate_limiter.egg-info/dependency_links.txt
+aiohttp_client_rate_limiter.egg-info/requires.txt
+aiohttp_client_rate_limiter.egg-info/top_level.txt
+aiohttp_rate_limiter/ClientSession.py
+aiohttp_rate_limiter/__init__.py
