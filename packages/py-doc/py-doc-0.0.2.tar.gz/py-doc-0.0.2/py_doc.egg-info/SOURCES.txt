@@ -1,0 +1,9 @@
+README.md
+setup.py
+py_doc.egg-info/PKG-INFO
+py_doc.egg-info/SOURCES.txt
+py_doc.egg-info/dependency_links.txt
+py_doc.egg-info/requires.txt
+py_doc.egg-info/top_level.txt
+pydoc/__init__.py
+pydoc/multiplication.py
