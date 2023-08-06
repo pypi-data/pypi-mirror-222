@@ -1,0 +1,13 @@
+simpsom/__init__.py,sha256=hbr3dopmp1zOkM_buJeWWkqppF9NJOVjS2v64lM6ebM,273
+simpsom/_version.py,sha256=nehfe9dmSfPrJhfzZAOFa9vikhH5_pvyMeA4Nv8I8H0,24
+simpsom/distances.py,sha256=gIgrZhT7mykr7b6sO1BoUhbgMNxp1ezhVEFayQh8tgk,6304
+simpsom/early_stop.py,sha256=nQae7ERbwupeIz3NkuirkCDluM5hoZlE8HFSx_VG6Xk,2598
+simpsom/neighborhoods.py,sha256=yobxmGkyjqXr8liLRZxgM7XRIpFKX5Wa_UAS2R82_2k,3849
+simpsom/network.py,sha256=BAi4bI-7fvkaezPH1HhToJyO6LjTbYuEDETqAZ9cNfw,42380
+simpsom/plots.py,sha256=2EtlyS1Hejpa6tRv1mteSifCdL0CPWqRn0Z140eHF14,8745
+simpsom/polygons.py,sha256=XJtqqxxDsi1P1JiIDguQzqCzwfkAI7gB2V7gi3OB-Yc,13329
+simpsom-3.0.0b0.dist-info/LICENSE.txt,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+simpsom-3.0.0b0.dist-info/METADATA,sha256=MvSZrtZIxGat3jbS4IpEr1nI_gt7mfdrlBm4gUaqtZ8,4762
+simpsom-3.0.0b0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+simpsom-3.0.0b0.dist-info/top_level.txt,sha256=b6UsltGnT1g9U-htl7fN5EhEL3vXHuua3wVPQ5cZSOQ,8
+simpsom-3.0.0b0.dist-info/RECORD,,
