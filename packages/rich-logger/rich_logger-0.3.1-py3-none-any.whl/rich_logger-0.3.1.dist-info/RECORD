@@ -1,0 +1,10 @@
+rich_logger/__init__.py,sha256=SkiumTEA9Dk_QIefJBrCXxIJJMKTuSZuGknB8dr3DqA,421
+rich_logger/pl_logger.py,sha256=4CGey7Zj6eMRd1x79VUcXisokZLTirnGXqOr_55k1aU,2984
+rich_logger/spacy_logger.py,sha256=rrRX3dsALRdzrh3F4U5XC3W-3bUe0seC_cA_PXTNlVY,3668
+rich_logger/table_printer.py,sha256=AEq9T_b3LGdp7rh8gCuF14Uygnk7BwdqFiSqenAxJ8w,19428
+rich_logger-0.3.1.dist-info/LICENSE,sha256=m9jcZq031hhgKX2MGnHsBnR-F3Dc9WAtrZyD4677KSg,1525
+rich_logger-0.3.1.dist-info/METADATA,sha256=fExroManwnFiGBxZEu9Tlz0aTIT4n8Pa-OIqGItdjro,4599
+rich_logger-0.3.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+rich_logger-0.3.1.dist-info/entry_points.txt,sha256=EhqZVHofmtJL0Forw6NibiyshQ7Q7OEqlt-tce3Ecws,67
+rich_logger-0.3.1.dist-info/top_level.txt,sha256=sK1tEoiIS9AB_lEZYYma1tR3Kb42h0deStyw2frR6Ig,12
+rich_logger-0.3.1.dist-info/RECORD,,
