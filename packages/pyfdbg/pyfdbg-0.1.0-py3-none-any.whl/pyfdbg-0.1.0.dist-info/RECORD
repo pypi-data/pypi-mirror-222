@@ -1,0 +1,10 @@
+pyfdbg/__init__.py,sha256=vwKt7WX1i1hqvmPxi0ODI5KTQHcOSwNN5XTeq4iQho8,2432
+pyfdbg/__main__.py,sha256=a-3N9bAN2DJCS-PFEHoYEJ-_t7lq2zmJpK-WDYrlBo8,35
+pyfdbg/data.py,sha256=N9jOUXBsHwQSlh-PJ9E5oOFYmVhLG7wMyOKfa9xLLE8,2077
+pyfdbg/stdlib.py,sha256=eycZccJE6NK4Rxxpkvw3_Ck3wQ1lmx_pWdNFNEL3YGM,27
+pyfdbg-0.1.0.dist-info/LICENSE,sha256=kG_6qUnDa_JpdVPQCJhpccpIACtnNCA9SFkBxv2_I88,1069
+pyfdbg-0.1.0.dist-info/METADATA,sha256=FW8MaUs1FZqpL7-O4s64yPdj_PtfL1acKQrcVTRaq4I,2298
+pyfdbg-0.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pyfdbg-0.1.0.dist-info/entry_points.txt,sha256=hawsw0SJ8XncNrlFKkj1PcXDM9VTbnk_0eocwjSPF_4,39
+pyfdbg-0.1.0.dist-info/top_level.txt,sha256=7rNIFXMTiaW3IVl7Zfe3ysnXrfWBMQYXeeG6ytfPc74,7
+pyfdbg-0.1.0.dist-info/RECORD,,
