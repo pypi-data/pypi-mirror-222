@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "constrained"
+version = "0.0.0"
+description = "A Python library for enforcing type, range, and lexical constraints."
+authors = ["Jacob Valdez <jacobfv123@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lark = "^1.1.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[tool.poetry.scripts]
+test = "pytest"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
