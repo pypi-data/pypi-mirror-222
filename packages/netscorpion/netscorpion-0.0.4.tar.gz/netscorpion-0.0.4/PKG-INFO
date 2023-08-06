@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: netscorpion
+Version: 0.0.4
+Summary: The easier way to handle networking in Python
+Author: Netscorpion
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
