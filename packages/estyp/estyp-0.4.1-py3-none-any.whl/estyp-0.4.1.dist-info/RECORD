@@ -1,0 +1,10 @@
+estyp/__init__.py,sha256=QblfAna8pDhZEkecAhpQE1LbnOMffxkTObZ9d3jdThc,102
+estyp/linear_model/__init__.py,sha256=ZFg8JVt4d3FaPeOD15uByxw580UHhFtuAFKpNJAEyWA,6157
+estyp/linear_model/stepwise/__init__.py,sha256=e_we2YLe0SJwF9Rov9nQZ1bhTte_sHAe6VG0t4xmGE0,2903
+estyp/linear_model/stepwise/__base/__init__.py,sha256=aAllhAKfL54hODf_ZMVC7-0o-HQKPENBtdCq7EEmWEU,5159
+estyp/testing/__init__.py,sha256=P9W-URqt9Sn9gq8lQDAFx-YsOTcZcJcr3GkpU70BxdA,19748
+estyp/testing/__base/__init__.py,sha256=LuR0uWNUu7qOcdzqQVmueR0H8jJSbyGv-Xpyu0ofBHA,23090
+estyp-0.4.1.dist-info/METADATA,sha256=uRoNrYLOzpGFXZOTvsZcrzh7pu9d5eofOyt_ZCAVssc,5730
+estyp-0.4.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+estyp-0.4.1.dist-info/licenses/LICENSE,sha256=EenxRerswcXKa-fPOIYjPCj8UYW4KJKt4ebutjLT8z0,1101
+estyp-0.4.1.dist-info/RECORD,,
