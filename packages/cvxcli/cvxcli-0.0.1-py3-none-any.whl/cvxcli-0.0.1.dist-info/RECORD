@@ -1,0 +1,8 @@
+cvx/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvx/cli/smallest_eigenvalue.py,sha256=m7VAWtwTeDeFD4eWH6toybaFdwnZnF3jqXhAfAuHfqc,707
+cvx/cli/weather.py,sha256=CeGuTYdcVa3Pz6Rf7nj_KHbQPG-wMd47rn0uyNJnGOQ,1091
+cvxcli-0.0.1.dist-info/LICENSE,sha256=fYs43QaJw7eWpjMjYIGbmLOQE8-MfUzVhtJTVIf2O4E,10790
+cvxcli-0.0.1.dist-info/METADATA,sha256=YtH4KJqeRx62wxZ_bLU1Ov_ivbedLXQI4KxNEuSqkHc,1988
+cvxcli-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+cvxcli-0.0.1.dist-info/entry_points.txt,sha256=omywKZccmm86EMYLz42P524XenjUbg5dVcY5fqCogf4,101
+cvxcli-0.0.1.dist-info/RECORD,,
