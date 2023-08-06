@@ -1,0 +1,7 @@
+license.txt
+setup.py
+aasthaadvancepackage/__init__.py
+aasthaadvancepackage.egg-info/PKG-INFO
+aasthaadvancepackage.egg-info/SOURCES.txt
+aasthaadvancepackage.egg-info/dependency_links.txt
+aasthaadvancepackage.egg-info/top_level.txt
