@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "prog_shojin_util"
+version = "0.1.1" # using poetry-dynamic-versioning
+description = "extracting and filtering problems from AtCoder, Yukicoder, and more."
+authors = ["Kazuya Isawa <torune.summer@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/edge2992/prog_shojin_util"
+packages = [{include = "prog_shojin_util"}]
+
+[tool.poetry.scripts]
+pshu = "prog_shojin_util.__main__:main"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+style = "pep440"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.6"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+pandas = "^2.0.3"
+tabulate = "^0.9.0"
+Sphinx = {version = "^4.3.2", optional = true, extras = ["docs"]}
+sphinx-autodoc-typehints = {version = "1.12.0", optional = true, extras = ["docs"]}
+sphinx-rtd-theme = {version = "^1.0.0", optional = true, extras = ["docs"]}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-mock = "^3.11.1"
+flake8 = "^6.0.0"
+black = "^23.7.0"
+pyproject-flake8 = "^6.0.0.post1"
+types-requests = "^2.31.0.2"
+pre-commit = "^3.3.3"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.extras]
+docs = [
+  "Sphinx",
+  "sphinx-rtd-theme",
+  "sphinx-autodoc-typehints",
+]
+
+[tool.black]
+line-length = 88
+
+[tool.flake8]
+max-line-length = 100
+per-file-ignores = """
+    */__init__.py:F401
+"""
+[tool.mypy]
+python_version = "3.10"
+install_types = true
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+strict_optional = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
