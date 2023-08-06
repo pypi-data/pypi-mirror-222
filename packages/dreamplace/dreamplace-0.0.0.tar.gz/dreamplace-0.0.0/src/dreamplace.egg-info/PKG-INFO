@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dreamplace
+Version: 0.0.0
+Summary: Deep learning toolkit-enabled VLSI placement.
+Author-email: Yibo Lin <yibolin@pku.edu.cn>
+Project-URL: Homepage, https://github.com/limbo018/DREAMPlace
+Project-URL: Bug Tracker, https://github.com/limbo018/DREAMPlace/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# DREAMPlace
+Deep learning toolkit-enabled VLSI placement.
+
+https://github.com/limbo018/DREAMPlace
+
+Currently just a placeholder. The pip-installable version is coming soon.
+
