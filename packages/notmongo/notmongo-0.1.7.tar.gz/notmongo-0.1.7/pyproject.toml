@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-rust", "pymongo"]
+
+[project]
+name = "notmongo"
+dependencies = ["pymongo"]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = { file = "src/notmongo/version.txt" }
+
+[tool.black]
+
+[tool.isort]
+profile = "black"
