@@ -1,0 +1,9 @@
+mongotic/__init__.py,sha256=SQx5AwcUp6qhWXYy8ohegHQhZbElgeBCJeymrs3AeuI,638
+mongotic/exceptions.py,sha256=_lZwovDrd18dUHDop5pF4mhexBPNr126xF2gOLA2-EA,36
+mongotic/model.py,sha256=rMIZAPwQO2bj9xJXiirm8n4p1Kp4QcufkWT97RM9SCY,5338
+mongotic/orm.py,sha256=V2HQThkk_amq6HxMAp3ELf8TH0xfHUyBe-v_OF9Fy-Q,8282
+mongotic/version.py,sha256=CpXi3jGlx23RvRyU7iytOMZrnspdWw4yofS8lpP1AJU,18
+mongotic-0.2.0.dist-info/LICENSE,sha256=9UxeQmQWWVnfvo68eGZOyxHB68Fb4ssIxHeCk-oIZvY,1066
+mongotic-0.2.0.dist-info/METADATA,sha256=2SO_Q1sJuCqDPvSjFQMde6JqL9u1UZxBsRfuzPlsC6I,4502
+mongotic-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+mongotic-0.2.0.dist-info/RECORD,,
