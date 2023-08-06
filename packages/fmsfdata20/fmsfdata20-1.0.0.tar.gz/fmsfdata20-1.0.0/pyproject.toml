@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "fmsfdata20"
+version = "1.0.0"
+description = ""
+authors = ["franciscobmacedo <franciscovcbm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+xsdata = "^23.7"
+pyyaml = "^6.0.0"
+tablib = "^3.5.0"
+lxml = "^4.0.0"
+pandas = { version = "^2.0.3", optional = true }
+more-itertools = "^10.0.0"
+openpyxl = "^3.1.2"
+pyhumps = "^3.8.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+isort = "^5.12.0"
+black = "^23.7.0"
+
+
+[tool.poetry.extras]
+pandas = ["pandas"]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
