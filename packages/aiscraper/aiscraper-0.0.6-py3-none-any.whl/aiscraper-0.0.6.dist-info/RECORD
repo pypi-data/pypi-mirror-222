@@ -1,0 +1,9 @@
+aiscraper/__init__.py,sha256=CpEPnQ9EPixRTQLshfZL4JZ4nGWtbp92W81GlzEy8m4,77
+aiscraper/vanila_crawler/__init__.py,sha256=tkyolu0OO4GDt8lntR7tlSzv4EKT-l_BM85Od386JIs,131
+aiscraper/vanila_crawler/requests_handler.py,sha256=Ijyb-ZF1KjlyHm3gvh6sYzp9rXRYycpNjDortPc8uS4,1096
+aiscraper/vanila_crawler/web_crawler.py,sha256=E7kRelS7krwFle6HoNX541yIECsnnJrEpTE3kdy_QMc,1874
+aiscraper-0.0.6.dist-info/LICENSE,sha256=SgdjMOUFBgzCO1JqnINtTL2LLwP5lmMxaAAaAZy6QlI,1091
+aiscraper-0.0.6.dist-info/METADATA,sha256=D3qgvjMzY0LmMqHgmgEBK-FdgohrTexYL29tnqVRFMc,303
+aiscraper-0.0.6.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+aiscraper-0.0.6.dist-info/top_level.txt,sha256=MAcHPBSFzKBXpCO6gZ_yKSR5vfUqsTLYG721kqP7kvQ,10
+aiscraper-0.0.6.dist-info/RECORD,,
