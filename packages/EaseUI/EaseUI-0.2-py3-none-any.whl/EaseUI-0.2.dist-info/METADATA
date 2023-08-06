@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: EaseUI
+Version: 0.2
+Summary: A Python library for rapid UI prototyping
+Home-page: http://github.com/PainDe0Mie/easeui
+Author: PainDe0Mie
+Author-email: painde0mie@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pillow
+Requires-Dist: tkhtmlview
+Requires-Dist: matplotlib
+
+![Logo](https://i.imgur.com/2eEdAkC.png)
+
+## Installation
+
+Install easeui with pip
+
+```bash
+  pip install easeui
+```
+## Features
+
+- More widgets (PieChart, WebView, ColorPicker..)
+- A app for make your app
+- A Code Editor for button
+
+## Code
+
+Code your app yourself and enjoy more widgets than tkinter !
+
+```python
+import easeui
+
+root = easeui.Window()
+root.title("Your app")
+root.geometry("909x474")
+
+button_1 = easeui.Button(root, text="Nouveau Bouton")
+button_1.place(x=128, y=175)
+
+def abutton_1():
+    print("hey !")
+
+button_1.config(command=abutton_1)
+easeui.Entry(root).place(x=158, y=287)
+easeui.Image(root, image_path="C:/Users/axelr/Downloads/EaseUI__1_-removebg-preview.png").place(x=456, y=24)
+
+root.run()
+```
+
+Otherwise you can use AppDesigner !
+
+## Screenshots
+
+#### AppDesigner:
+
+![App Screenshot](https://i.imgur.com/Um9APRH.png)
+
+#### Editor Code:
+
+![App Screenshot2](https://i.imgur.com/ZjV4owx.png)
+
+## Authors
+
+- [PainDe0Mie](https://www.github.com/PainDe0Mie)
+           
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
