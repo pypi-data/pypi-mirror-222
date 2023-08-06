@@ -1,0 +1,11 @@
+README.md
+setup.py
+Pygeun/__init__.py
+Pygeun/gradient_descent.py
+Pygeun/levenberg_marquardt.py
+Pygeun/newton_raphson.py
+Pygeun.egg-info/PKG-INFO
+Pygeun.egg-info/SOURCES.txt
+Pygeun.egg-info/dependency_links.txt
+Pygeun.egg-info/not-zip-safe
+Pygeun.egg-info/top_level.txt
