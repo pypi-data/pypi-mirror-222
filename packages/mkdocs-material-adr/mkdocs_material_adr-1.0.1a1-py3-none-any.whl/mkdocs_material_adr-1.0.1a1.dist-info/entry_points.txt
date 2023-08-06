@@ -1,0 +1,3 @@
+[mkdocs.themes]
+mkdocs-material-adr=mkdocs_material_adr
+
