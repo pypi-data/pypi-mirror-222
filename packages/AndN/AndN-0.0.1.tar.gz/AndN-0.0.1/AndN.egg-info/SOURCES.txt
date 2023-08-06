@@ -1,0 +1,12 @@
+README.md
+setup.py
+AndN.egg-info/PKG-INFO
+AndN.egg-info/SOURCES.txt
+AndN.egg-info/dependency_links.txt
+AndN.egg-info/top_level.txt
+AndroidQQ/Android.py
+AndroidQQ/Tcp.py
+AndroidQQ/__init__.py
+AndroidQQ/proto/IM_pb2.py
+AndroidQQ/proto/IM_r_pb2.py
+AndroidQQ/proto/__init__.py
