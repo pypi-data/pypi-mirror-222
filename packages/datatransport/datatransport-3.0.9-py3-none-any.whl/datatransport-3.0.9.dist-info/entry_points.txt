@@ -1,0 +1,23 @@
+[console_scripts]
+archivegroups = datatransport.components.archivegroups:main
+cancelnewsgroup = datatransport.commands.cancelnewsgroup:main
+console = datatransport.commands.console:main
+directoryservice = datatransport.components.directoryservice:main
+diskmonitor = datatransport.components.diskmonitor:main
+filepost = datatransport.components.filepost:main
+filewatch = datatransport.components.filewatch:main
+groupcontrol = datatransport.components.groupcontrol:main
+instrumentstatus = datatransport.components.InstrumentStatus:main
+listnewsgroups = datatransport.commands.listnewsgroups:main
+newsgateway = datatransport.components.NewsGateway:main
+newsgroupmonitor = datatransport.components.NewsgroupMonitor:main
+plottool = datatransport.components.PlotTool:main
+postdatafiles = datatransport.components.PostDataFiles:main
+realtimefeed = datatransport.components.RealTimeFeed:main
+resourcemonitor = datatransport.components.ResourceMonitor:main
+transport-create-app = datatransport.commands.transport_create_app:main
+transportctl = datatransport.commands.transportctl:main
+transportd = datatransport.commands.transportd:main
+transportps = datatransport.commands.transportps:main
+viewlog = datatransport.commands.viewlog:main
+watchurl = datatransport.components.WatchURL:main
