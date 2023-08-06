@@ -1,0 +1,1 @@
+from rest_framework_simplejwt_byforde2.token_blacklist import models
