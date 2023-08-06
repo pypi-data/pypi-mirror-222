@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "hypymedia"
+version = "0.1.1"
+description = "HTML creation via Python for HATEOAS applications. #hypermediaFTW"
+authors = ["Tel Stupple <telstupple@gmail.com>"]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/telboyWA/hypymedia"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+twine = "^4.0.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
