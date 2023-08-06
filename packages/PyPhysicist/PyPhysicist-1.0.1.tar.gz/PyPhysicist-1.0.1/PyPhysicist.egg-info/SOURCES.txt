@@ -1,0 +1,5 @@
+setup.py
+PyPhysicist.egg-info/PKG-INFO
+PyPhysicist.egg-info/SOURCES.txt
+PyPhysicist.egg-info/dependency_links.txt
+PyPhysicist.egg-info/top_level.txt
