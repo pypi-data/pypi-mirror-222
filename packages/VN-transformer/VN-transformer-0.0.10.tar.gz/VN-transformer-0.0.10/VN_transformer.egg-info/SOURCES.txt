@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+VN_transformer/VN_transformer.py
+VN_transformer/__init__.py
+VN_transformer/rotations.py
+VN_transformer.egg-info/PKG-INFO
+VN_transformer.egg-info/SOURCES.txt
+VN_transformer.egg-info/dependency_links.txt
+VN_transformer.egg-info/requires.txt
+VN_transformer.egg-info/top_level.txt
+tests/test.py
