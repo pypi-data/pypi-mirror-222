@@ -1,0 +1,9 @@
+License.txt
+setup.py
+FedxD/__init__.py
+FedxD/color.py
+FedxD/converters.py
+FedxD.egg-info/PKG-INFO
+FedxD.egg-info/SOURCES.txt
+FedxD.egg-info/dependency_links.txt
+FedxD.egg-info/top_level.txt
