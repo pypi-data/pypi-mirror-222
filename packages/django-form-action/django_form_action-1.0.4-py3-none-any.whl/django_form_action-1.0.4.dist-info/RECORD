@@ -1,0 +1,8 @@
+form_action/__init__.py,sha256=LmqkBaJeCuyI7dZxFUzwWU5WEm58-KquQCK1KruzZm0,110
+form_action/decorators.py,sha256=28RIjHGO0NsooC7EnbkyOYpDlMt6g5Ae0zc0gJ-KOKI,3420
+form_action/mixins.py,sha256=0K1FIu96n4OeM4qAeClCFTGOzExUqePe3VxdyOuF2m4,1230
+django_form_action-1.0.4.dist-info/LICENSE,sha256=3vSAvPHyOkjRbNqZLBbstiUQXAo_MceOqQ2pVf-mw-8,1064
+django_form_action-1.0.4.dist-info/METADATA,sha256=hTuRmmj_J8LZpfgsQS3BkjJD-VO6MR3t3S4nwzw90dU,2283
+django_form_action-1.0.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+django_form_action-1.0.4.dist-info/top_level.txt,sha256=KM-J7jtF0sH_Cb1FGw83BZqPwcU-Ua__V1w3gqkNmIY,12
+django_form_action-1.0.4.dist-info/RECORD,,
