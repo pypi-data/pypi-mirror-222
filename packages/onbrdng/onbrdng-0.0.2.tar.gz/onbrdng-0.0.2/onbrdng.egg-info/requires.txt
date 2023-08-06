@@ -1,0 +1,10 @@
+pandas
+scipy
+plotly
+statsmodels
+tqdm
+xgboost
+scikit-learn
+requests
+joblib
+lxml
