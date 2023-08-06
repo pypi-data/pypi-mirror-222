@@ -1,0 +1,15 @@
+
+<http://cambridgesemantics.com/FileBackedLinkedDataSet/93561623bee2438a860439899b5a8845> {
+	<http://cambridgesemantics.com/FileBackedLinkedDataSet/93561623bee2438a860439899b5a8845> <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#dataFilesOnly> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#dataFormat> "ttl.gz" ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#dataset> <http://cambridgesemantics.com/FileBackedLinkedDataSet/93561623bee2438a860439899b5a8845> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#hasTextIndexDocs> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+		<http://cambridgesemantics.com/ontologies/2009/05/LinkedData#hasTextIndexSnapshot> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+		<http://purl.org/dc/elements/1.1/title> "Empty Dataset" ;
+		<http://purl.org/dc/terms/created> "2023-07-20T21:30:42.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/creator> <http://openanzo.org/system/internal/sysadmin> ;
+		<http://purl.org/dc/terms/modified> "2023-07-20T21:30:43.898Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+		<http://purl.org/dc/terms/modifier> <http://openanzo.org/system/internal/sysadmin> ;
+		a <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#ComponentBasedLinkedDataSet> , <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#FileBasedLinkedDataSet> , <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#LinkedDataConfig> , <http://cambridgesemantics.com/ontologies/2009/05/LinkedData#LinkedDataSet> ;
+		<http://www.w3.org/2000/01/rdf-schema#label> "Empty Dataset" .
+}
