@@ -1,0 +1,76 @@
+$def with (resource)
+<!doctype html>
+<html lang=en-us class=dark>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="initial-scale=1.0,user-scalable=no,\
+maximum-scale=1,width=device-width">
+<meta name=apple-mobile-web-app-capable content=yes>
+<meta name=apple-mobile-web-app-status-bar-style content=black-translucent>
+<title>
+$if "title" in resource:
+    $resource.title &mdash;
+IndieWeb.rocks</title>
+<link rel=stylesheet href=/static/web.css>
+<link rel=stylesheet href=/static/screen.css>
+<link rel=icon href=/static/favicon.ico>
+$if not isinstance(resource, str) and "head" in resource:
+    $:resource.head()
+</head>
+<body
+$if "body_classes" in resource:
+     class="$' '.join(resource.body_classes)"\
+>
+
+<style>
+body > nav, body > footer {
+  font-family: sans-serif; }
+body > nav {
+  display: grid;
+  font-size: .85em;
+  grid-template-columns: 75% 25%; }
+body > nav a,
+body > footer a {
+  text-decoration: none; }
+</style>
+
+<nav>
+$# <div><a href=/ rel=home><img src=/static/favicon.ico
+$# style=height:3em;position:relative;top:.2em;width:3em></a></div>
+$# , "Places", "Events", "Recipes", "Reviews", "Projects"):
+<form id=search action=/search method=get>
+
+<strong class=h-app><a href=/ class="u-url p-name"
+rel=home>IndieWeb.rocks</a></strong>&thinsp;&hybull;&thinsp;\
+$for object in ("People", "Posts"):
+    <a href=/$object.lower()>$object</a>\
+    $if not loop.last:
+        &thinsp;&hybull;&thinsp;\
+<br>
+<input name=q type=text placeholder="web address or keyword">
+<button>Search</button>
+<small><a href=/categories>Categories</a></small>
+</form>
+<div style=text-align:right>
+$if tx.user.session:
+    $if tx.user.is_owner:
+        <form method=post action=/owner/sign-out>
+    $else:
+        <form method=post action=/guests/sign-out>
+    $if tx.user.session["uid"][0] == "/":
+        <a href=/owner>Site Owner</a>
+    $else:
+        <a href=/$uri(tx.user.session["uid"][0]).minimized>$tx.user.session["name"][0]</a>
+    <br><button>Sign Out</button>
+    </form>
+$else:
+    <a href=/guests><button>Sign In</button></a>
+</div>
+</nav>
+
+<article>
+$:resource
+</article>
+
+</body>
+</html>

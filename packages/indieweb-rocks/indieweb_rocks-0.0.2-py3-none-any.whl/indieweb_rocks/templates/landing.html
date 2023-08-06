@@ -1,0 +1,132 @@
+$def with (posts, categories, people)
+<style>
+ul {
+  margin: 0; }
+li {
+  clear: both; }
+.postmetadata a, .sidebar a {
+  text-decoration: none; }
+#people {
+  font-size: .9em; }
+#services {
+  font-size: .7em }
+</style>
+
+$# <div style="display:grid;grid-column-gap:1em;grid-template-columns:12em 38em;margin-top:1em">
+
+<p style=color:#444;text-align:center><small>A firehose feed of all posts in the known IndieWeb from the last 72 hours.</small></p>
+
+<div>
+<ul style=padding:0>
+$for post in posts:
+    $ details = post["details"]
+    $ post_type = details.pop("type", "HELLO")
+    $ entry_type = None
+    $if post_type == "entry":
+        $ content = details.pop("content", None)
+        $ details.pop("content-plain", None)
+        $ entry_type = details.pop("post-type")
+        <li style=display:table;margin-bottom:1em;width:100%>
+        $if entry_type == "photo":
+            <img style=display:block;margin:0;width:100% src=$details.pop("photo")>
+            $if content := details.pop("content", None):
+                <p>$:content</p>
+                $ details.pop("content-plain")
+        <div style=background-color:#ddd;margin:0;padding:.5em>
+        $if entry_type == "photo":
+            $pass
+        $if entry_type == "check-in":
+            $ checkin = details.pop("checkin")
+            <p>Checked in to $checkin["name"].</p>
+        $elif entry_type == "note":
+            $ summary = details.pop("summary", None)  # do something if diff from content
+            $if content:
+                $:content
+            $else:
+                $details.pop("name", "UNKNOWN NOTE CONTENT")
+        $elif entry_type == "article":
+            <h3>$details.pop("name")</strong></h3>
+            $:content
+        $elif entry_type == "rsvp":
+            <p>RSVP <code>$details.pop("rsvp")[0]["url"]</code>
+            for $details.pop("in-reply-to")[0]["url"]</p>
+        $elif entry_type == "listen":
+            $ listened_url = details.pop("listen-of")[0]["url"]
+            <p>Listened to <a href=$listened_url>$listened_url</a></p>
+            $if summary := details.pop("summary", None):
+                <p><small>$:summary</small></p>
+        $elif entry_type == "bookmark":
+            $ bookmarked_url = details.pop("bookmark-of")[0]["url"]
+            $ bookmarked_title = details.pop("name", details.pop("summary", bookmarked_url))
+            <p>Bookmarked <a href=$bookmarked_url>$bookmarked_title</a></p>
+        $elif entry_type == "repost":
+            $for repost in details.pop("repost-of"):
+                $ repost_url = repost.pop("url")
+                <p>Repost of <a href=$repost_url>$repost_url</a></p>
+                <div class=uninterpreted>
+                <pre>$pformat(repost)</pre>
+                </div>
+        $elif entry_type == "reply":
+            <p>In reply to: </p>
+    $else:
+        <p><strong>$post_type</strong> post type</p>
+    </div>
+
+    $if categories := details.pop("category", []): 
+        <p style=text-align:right><small><small>
+        $for category in categories:
+            <a href=>$:category</a>\
+            $if not loop.last:
+                ,
+        </small></small></p>
+
+    <p class=postmetadata
+    style="clear:both;margin:0 0 .25em 0;text-align:right"><small>
+    $if location := details.pop("location", None):
+        $if latitude := location.pop("latitude", None):
+            $ longitude = location.pop("longitude")
+            <a href=/map/$latitude,$longitude><small>($latitude, $longitude)</small></a>
+    $post["crawled"].diff_for_humans()
+    $if " " in post["url"]:
+        $continue
+    <a style=color:green href=$post["url"]><img
+    style=height:1.25em;position:relative;top:.25em;width:1.25em
+    src=/sites/$(uri(post["url"]).host.removeprefix("www."))/icon.png>
+    $uri(post["url"]).path.rstrip("/")</a>
+    $if syndications := details.pop("syndication", None):
+        $for syndication in syndications:
+            <a href=$syndication><img style=height:1.25em;position:relative;top:.25em;width:1.25em
+            src=/sites/$(uri(syndication).host.removeprefix("www."))/icon.png></a>
+    </small></p>
+
+    $ author_source = None
+    $if author := details.pop("author", None):
+        $ author_source = author.get("url")
+    $if not author_source:
+        $ author_source = post["url"]
+    $if author_source.startswith("mailto:"):
+        $continue
+    $ author_url = uri(author_source).host
+    $if author_url not in people:
+        $ author_url = author_url.removeprefix("www.")
+        $if author_url not in people:
+            $ author_url = f"www.{author_url}"
+            $if author_url not in people:
+                $continue
+    <div class=postmetadata style="display:grid;float:right;font-size:.75em;grid-template-columns:auto 2em;grid-column-gap:.5em;margin-right:.25em;text-align:right">
+    <span><a href=/$author_url style=color:black>$people[author_url]<br><small
+    style=color:green>$author_url</small></a></span>
+    <img style=height:2.25em;width:2.25em src=/sites/$author_url/photo.png>
+    </div>
+
+    $if details:
+        <small><strong>$entry_type</strong></small>
+        <div class=uninterpreted>
+        <pre>$pformat(details)</pre>
+        </div>
+    </li>
+</ul>
+<!--p><a href=/>more..</a></p-->
+</div>
+
+$# </div>
