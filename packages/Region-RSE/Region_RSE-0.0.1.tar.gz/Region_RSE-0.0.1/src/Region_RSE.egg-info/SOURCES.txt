@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/Region_RSE/__init__.py
+src/Region_RSE/main.py
+src/Region_RSE.egg-info/PKG-INFO
+src/Region_RSE.egg-info/SOURCES.txt
+src/Region_RSE.egg-info/dependency_links.txt
+src/Region_RSE.egg-info/requires.txt
+src/Region_RSE.egg-info/top_level.txt
