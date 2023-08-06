@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mcsrv-xImAnton
+Version: 1.3.0
+Summary: Manage your Minecraft Server with more comfort from the CLI
+Home-page: https://github.com/xImAnton/MCManager
+Author: xImAnton_
+Author-email: admin@ximanton.de
+Project-URL: Bug Tracker, https://github.com/xImAnton/MCManager/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: click (==8.1.6)
+Requires-Dist: inquirer (==2.9.2)
+Requires-Dist: psutil (==5.9.0)
+Requires-Dist: colorama (==0.4.5)
+Requires-Dist: Flask (==2.3.2)
+Requires-Dist: dispenser (==0.3.0)
+
+
+# MCSRV
+
+Manage your Minecraft Servers on Linux with a convenient CLI
+
+*More Documentation coming...*
+
+## .bashrc function
+
+Pasting this function into your `.bashrc` allows for a quicker navigation
+between server directories. By typing `mcd <server-id>`, your shell cd's into
+the directory of the server. (mcd: short for mc-cd)
+```bash
+function mcd {
+  if [ -z "$1" ]
+  then
+          echo -e "Available Servers:\n$(mcsrv list --props i --plain | sed 's/^/  /')"
+          return
+  fi
+  eval "cd $(mcsrv dir $1)"
+}
+```
