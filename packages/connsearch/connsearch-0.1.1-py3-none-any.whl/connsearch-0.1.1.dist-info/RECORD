@@ -1,0 +1,17 @@
+connsearch/__init__.py,sha256=07dxAAtbWW1vPpH6Y6A57_Vx9t8pc3NW91ng57Cp7X0,824
+connsearch/components.py,sha256=4XWktzQWF_GfQ9zhBOHlu7WNZQhWvC3JJwW52-h85P4,4860
+connsearch/connsearcher.py,sha256=mPwdPHXcDlzS7MLnJSZsyS-TgNivt-p4fHTAUa7wK88,23068
+connsearch/corrsim.py,sha256=0xmbZQPR11ZwQDkrLCmFZijoO2tl2pb5RQOIDeF-msQ,11551
+connsearch/crossval.py,sha256=GTkf4NduIopFIIdpUaTXv-4jsWCaxXGYmpK7GyqPEHY,8260
+connsearch/utils.py,sha256=lY3FSXxagmkUIuZX6bCRXpxCfgop9I3-BDxagXqWF0Y,7206
+connsearch/permute/__init__.py,sha256=QTS2kpYiDkiAvJCeWpSdtvIncOmAbW0gjCiTAvZXeYY,274
+connsearch/permute/perm_manager.py,sha256=6YyE5VAdKf-8dax4WwIQIYTsd8YL8SlefgkgKRZGTHM,16809
+connsearch/permute/shuffle.py,sha256=epXf9sl_SbFwD4T8YajOIyPEVF_sRlS9qCty3xAa-0A,3406
+connsearch/report/__init__.py,sha256=4UEO1VQtgGwBLonnNnNT4jW1Ql3a7qHhYKst9ugxAVQ,350
+connsearch/report/plots.py,sha256=naTDhDtPVgQCJX0tcMU7_wovL5s5TAxfTAX5BuoODkU,12857
+connsearch/report/tables.py,sha256=BaTxGwDwdVqJvShfdhU6VAdGnqQOAnRikaoOjG106fo,6827
+connsearch-0.1.1.dist-info/LICENSE,sha256=KGLk6qF3yFNttpVfe2kqG4dePfYU0eAW5RIS0FE-OiA,1089
+connsearch-0.1.1.dist-info/METADATA,sha256=b0MVF7HSo3cKymkMz6NzJ72FqNkrvfnokpHnFhS6hPY,1187
+connsearch-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+connsearch-0.1.1.dist-info/top_level.txt,sha256=t9gf1WkK2RH3FfQRFZYHkqsZZRmGIxJeBzDBpSe_SJs,11
+connsearch-0.1.1.dist-info/RECORD,,
