@@ -1,0 +1,1 @@
+include coar_notify_validator/shape_files/data/*.ttl
