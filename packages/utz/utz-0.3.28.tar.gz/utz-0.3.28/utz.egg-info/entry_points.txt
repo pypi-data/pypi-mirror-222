@@ -1,0 +1,4 @@
+[console_scripts]
+git-meta-branch-update = utz.git.git_meta_branch_update:main
+git-update-submodules = utz.git.git_update_submodules:main
+
