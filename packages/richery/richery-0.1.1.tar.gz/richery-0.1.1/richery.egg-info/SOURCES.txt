@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+richery/__init__.py
+richery/ansitool.py
+richery/canvas.py
+richery/colordef.py
+richery/textwork.py
+richery.egg-info/PKG-INFO
+richery.egg-info/SOURCES.txt
+richery.egg-info/dependency_links.txt
+richery.egg-info/requires.txt
+richery.egg-info/top_level.txt
