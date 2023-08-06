@@ -1,0 +1,2 @@
+[console_scripts]
+qiuwenbot = qiuwenbot.__main__:main
