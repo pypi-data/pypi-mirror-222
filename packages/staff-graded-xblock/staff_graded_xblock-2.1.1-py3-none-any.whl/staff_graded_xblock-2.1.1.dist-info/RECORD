@@ -1,0 +1,12 @@
+staff_graded/__init__.py,sha256=og1_cb-x2Ww4I7_Bvqq4TZPewBoZzPMozJ8gOlZGvYw,96
+staff_graded/staff_graded.py,sha256=SR71inxPRb4MduMiFEoGyDh4S2lIsl5PTujdeqqTcu8,11681
+staff_graded/static/README.txt,sha256=bdJ-FpDeHWYyrxLCGpUvvscSMVrci-pKHC5R7shvg9M,767
+staff_graded/static/css/staff_graded.css,sha256=T5tztidpDdZvWBHv-Beb33KRRP6dXa7_yf48V-dF4Pw,208
+staff_graded/static/html/staff_graded.html,sha256=u_0ur6UAY2xc3RAa7mdAteQo1o5llC50tC_Glk4p9Ig,3390
+staff_graded/static/js/src/staff_graded.js,sha256=AtRZpa60iJhTKc4TyIbaL1zHryYGuUHT1j2Bo_6cXyU,3485
+staff_graded_xblock-2.1.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+staff_graded_xblock-2.1.1.dist-info/METADATA,sha256=i7nPe86ghvuK6Dwn9_zmUzZL0nNOCqE2GQdq7NdGwEA,707
+staff_graded_xblock-2.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+staff_graded_xblock-2.1.1.dist-info/entry_points.txt,sha256=U2KyGl6beZOQnbvNQRKSv4YDm7Ij8--Zh1mvkDH8yT0,63
+staff_graded_xblock-2.1.1.dist-info/top_level.txt,sha256=HRjtLkKFrBfFQ8lKTChel9kkF9vhWL1GQlbs4TOiYKM,13
+staff_graded_xblock-2.1.1.dist-info/RECORD,,
