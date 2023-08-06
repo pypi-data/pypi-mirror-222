@@ -1,0 +1,1 @@
+from strprogressbar.strprogressbar import ProgressBar
