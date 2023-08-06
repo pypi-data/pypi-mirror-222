@@ -1,0 +1,110 @@
+site_name: Libre Chat
+site_description: API and UI to deploy LLM models
+site_author: Vincent Emonet
+site_url: https://vemonet.github.io/libre-chat
+repo_name: vemonet/libre-chat
+repo_url: https://github.com/vemonet/libre-chat
+edit_uri: "edit/main/docs/"
+copyright: Copyright &copy; 2023 Vincent Emonet
+
+theme:
+  name: "material"
+  favicon: assets/logo.png
+  logo: assets/logo.png
+  # icon:
+  #   logo: material/microscope
+  language: en
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - content.code.annotate
+    # - content.tabs.link
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+# https://fontawesome.com/icons/
+# https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+nav:
+  - About:
+    - About: index.md
+    - Configure:
+      - 💬 Conversational agent: configure-conversation.md
+      - 📚️ Documents-based QA: configure-documents-qa.md
+    - Deploy:
+      - 🐳 With Docker: use-docker.md
+      - 🐍 With pip: use-pip.md
+    - 🛠️ Development: development.md
+  - Code reference:
+      - LLM: Llm.md
+      - LLM Endpoint: ChatEndpoint.md
+      - LLM Router: ChatRouter.md
+      - LLM Config: ChatConf.md
+  - Issues: https://github.com/vemonet/libre-chat/issues" target="_blank
+
+plugins:
+# - admonition
+- search
+- autorefs
+- mkdocstrings:
+    default_handler: python
+    handlers:
+      python:
+        options:
+          show_source: true
+    # custom_templates: templates
+
+watch:
+  - src
+  - docs
+
+# https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - attr_list
+  - smarty
+
+
+extra_css:
+  - assets/custom.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/libre-chat
+    - icon: fontawesome/brands/github
+      link: https://github.com/vemonet
+    # - icon: fontawesome/brands/docker
+    #   link: https://github.com/orgs/vemonet/packages
+    # - icon: fontawesome/brands/twitter
+    #   link: https://twitter.com/um_ids
