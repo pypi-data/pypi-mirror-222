@@ -1,0 +1,7 @@
+loguru
+nb-cli
+nonebot2
+openai
+pyyaml
+qq-botpy
+watchdog
