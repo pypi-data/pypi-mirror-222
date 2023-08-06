@@ -1,0 +1,3 @@
+[console_scripts]
+extract_tron_transactions=trongrid_extractoor:extract_tron_transactions
+
