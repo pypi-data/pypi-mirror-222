@@ -1,0 +1,13 @@
+securityLayer/AccessControl.py,sha256=s2kIePbTqhw66kfXwjjOE_4c6sbnEgImcZ62413IsVg,10101
+securityLayer/AuthAnswer.py,sha256=FehLJgp0zMcISemZjjYueOw_STeetXnINYkbI-DZEVk,233
+securityLayer/Error.py,sha256=xwBUuD73kxjzf4LMRQOAv5SHKMYOY8E7NKRgXnkJNKs,10152
+securityLayer/SSO.py,sha256=MiUJ1ZpyPSBP7f4pPrsx9zNrb-YnJapiQ6_fuQcyAOE,16797
+securityLayer/SecurityLayer.py,sha256=7ZQAQSbeTi6NhcaDuHkImzK-Zvl3ahLRKn0U5YaDk1E,17172
+securityLayer/__init__.py,sha256=eBs4ZGi21E279Gz4z5Fp0LoiLJiB0BfUqTSM-g_QQ80,125
+securityLayer/__version__.py,sha256=XU_TcX65JQ4oor2XJYdIKOJwS8FpyX8DvYlQwcyA7dw,157
+securityLayer/default.py,sha256=wU9hR8jxxKe52jpauk0Du7rns9BhhGy2u9fId2ziZPI,55
+d20_securityLayer-2.0.0a28.dist-info/LICENSE,sha256=IAaaS7zw5PIwsp9zajc_08dzPMbu4Eqz0tcr9t-QEeI,1064
+d20_securityLayer-2.0.0a28.dist-info/METADATA,sha256=520EPD3aiGg6F7iEf3mb6sfDQ5sY9DMskoT7bTzYxF8,846
+d20_securityLayer-2.0.0a28.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+d20_securityLayer-2.0.0a28.dist-info/top_level.txt,sha256=6_vAYlNczxzdQ-87ZBFtQf2Yi6YGAsCGbCQiDBMZZ3M,14
+d20_securityLayer-2.0.0a28.dist-info/RECORD,,
