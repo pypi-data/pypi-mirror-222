@@ -1,0 +1,2 @@
+[console_scripts]
+cap = colossalai_platform.cli:cli
