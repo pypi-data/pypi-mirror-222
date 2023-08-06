@@ -1,0 +1,7 @@
+aioTrends/SETUP.py
+aioTrends/test_example.py
+aioTrends.egg-info/PKG-INFO
+aioTrends.egg-info/SOURCES.txt
+aioTrends.egg-info/dependency_links.txt
+aioTrends.egg-info/requires.txt
+aioTrends.egg-info/top_level.txt
