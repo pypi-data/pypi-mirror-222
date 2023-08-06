@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: py-doc
+Version: 0.0.2
+Summary: Used for working with documentations in Python.
+Home-page: 
+Author: Connor Holm
+Author-email: connorjholm@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# PyDoc
+A library for interacting with pdf documents.
+
+### Installation
+```
+pip install pydoc
+```
+
+### Get Started
+How to use the library:
+```python
+from pydoc import Multiplication
+
+# Instantiate a Multiplication object
+multiplication = Multiplication(2)
+
+# Call the multiply method
+result = multiplication.multiply(5)
+```
+
