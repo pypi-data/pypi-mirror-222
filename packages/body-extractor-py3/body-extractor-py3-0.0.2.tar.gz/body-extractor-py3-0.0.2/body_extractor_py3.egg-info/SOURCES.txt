@@ -1,0 +1,8 @@
+setup.py
+body_extractor/__init__.py
+body_extractor/extractor.py
+body_extractor_py3.egg-info/PKG-INFO
+body_extractor_py3.egg-info/SOURCES.txt
+body_extractor_py3.egg-info/dependency_links.txt
+body_extractor_py3.egg-info/requires.txt
+body_extractor_py3.egg-info/top_level.txt

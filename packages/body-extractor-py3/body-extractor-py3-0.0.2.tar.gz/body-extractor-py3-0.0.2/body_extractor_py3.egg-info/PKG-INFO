@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: body-extractor-py3
+Version: 0.0.2
+Summary: HTML body content extractor
+Home-page: https://github.com/supercoderhawk/html-body-extractor
+Author: supercoderhawk
+Author-email: supercoderhawk@gmail.com
+License: MIT License
