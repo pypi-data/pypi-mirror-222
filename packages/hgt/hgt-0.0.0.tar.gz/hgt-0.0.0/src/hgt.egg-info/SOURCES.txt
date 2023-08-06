@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/hgt/__init__.py
+src/hgt.egg-info/PKG-INFO
+src/hgt.egg-info/SOURCES.txt
+src/hgt.egg-info/dependency_links.txt
+src/hgt.egg-info/not-zip-safe
+src/hgt.egg-info/requires.txt
+src/hgt.egg-info/top_level.txt
