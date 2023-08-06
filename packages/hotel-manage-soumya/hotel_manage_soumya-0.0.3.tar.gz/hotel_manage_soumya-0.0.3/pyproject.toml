@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "hotel_manage_soumya"
+version = "0.0.3"
+authors = [
+{ name="Soumya Ksoochik", email="soumyaksoochik96@gmail.com" },
+]
+description = "Hotel-Manage-Soumya is a lightweight Python library designed to simplify and streamline the management of bookings, rooms, and users within Flask web applications. With its easy-to-use classes and methods, it provides a set of essential functionalities for handling booking management, room management, and user management."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+"Programming Language :: Python :: 3",
+"License :: OSI Approved :: MIT License",
+"Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/soumyak96/hotel_manage_soumya"
+"Bug Tracker" = "https://github.com/soumyak96/hotel_manage_soumya/issues"
