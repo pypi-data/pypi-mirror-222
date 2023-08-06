@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: SRLR
+Version: 0.1.2
+Summary: A package for sketched ridgeless estimator simulations, optimizing generalization. Identify the best sketching size to minimize out-of-sample risks. Stable risk curves in optimally sketched estimator eliminate peaks found in full-sample estimator. SRLR offers practical method to discover the ideal sketching size.
+Home-page: https://github.com/statsle/SRLR_python
+Author: Siyue Yang
+Author-email: syue.yang@mail.utoronto.ca
+License: MIT
+Keywords: python,sketched ridgeless linear regression
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21)
+Requires-Dist: scipy (>=1.7)
+Requires-Dist: joblib (>=1.3)
+Requires-Dist: scikit-learn (>=1.0)
+Requires-Dist: matplotlib (>=3.2)
+Requires-Dist: scienceplots (>=2.1)
+
+# SRLR
+
+Sketched Ridgeless Linear Regression
+
+## Description
+
+This repository presents numerical simulations that analyze the empirical risks of the sketched ridgeless estimator, aiming to enhance generalization performance. The simulations focus on determining optimal sketching sizes that minimize out-of-sample prediction risks. The results reveal that the optimally sketched estimator exhibits stable risk curves, effectively eliminating the peaks observed in the full-sample estimator. Additionally, we introduce a practical procedure to empirically identify the optimal sketching size.
+
+Suppose we observe data vectors  (x<sub>i</sub>,y<sub>i</sub>) that follow a linear model y<sub>i</sub>=x<sub>i</sub><sup>T</sup>&beta;<sup>*</sup>+&epsilon;<sub>i</sub>, i=1,...n, where y<sub>i</sub> is a univariate response,  x<sub>i</sub> is a d-dimensional predictor, &beta;<sup>*</sup> denotes the vector of regression coefficients, and &epsilon;<sub>i</sub> is a random error. We consider the ridgeless least square estimator β̂=(X<sup>T</sup>X)<sup>+</sup>X<sup>T</sup>Y.
+
+With this package, the simulation results in [this paper](https://arxiv.org/abs/2302.01088) can be reporduced.
+
+## Examples
+
+Please refer to [tutorial.ipynb](https://github.com/statsle/SRLR_python/blob/main/tutorial.ipynb) for a comprehensive example and step-by-step guide.
+
+
+## Reference
+
+Chen, X., Zeng, Y., Yang, S. and Sun, Q. Sketched Ridgeless Linear Regression: The Role of Downsampling. [Paper](https://arxiv.org/abs/2302.01088)
+
+
