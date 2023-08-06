@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+pyproject.toml
+vistaml.egg-info/PKG-INFO
+vistaml.egg-info/SOURCES.txt
+vistaml.egg-info/dependency_links.txt
+vistaml.egg-info/top_level.txt
