@@ -1,0 +1,12 @@
+TSolLum/__init__.py,sha256=aR9eca0idmWJEfHfI21nCyjqOynlS3EZ496Ki5IVM3g,192
+TSolLum/astm_g_173,sha256=Q50dFyb7aH6NYlm8t5CyOWzeeh2B52IjWB1Py08c_3s,31761
+TSolLum/d65,sha256=oWG6m6rXZr1u3JUow_g8iuibidpF_Tv1Sp_dPbeXv1I,4533
+TSolLum/exceptions.py,sha256=cPLpsCbv2iammJS-LTGcX2tHqjXvtcyaE7VoF06duw0,1217
+TSolLum/read_spectrum.py,sha256=PyCKeUGzQ_guIHhB31JZHt_VSzg-dens-4RZRZEYBjY,3435
+TSolLum/spectra.py,sha256=SfUrLXXReoOQ07N2Cf8kUXf0erJgdio9NYq5uGl_qt4,8871
+TSolLum/transmittance_calculator.py,sha256=SdA6eN3gqeW5e5y-O6AiIf-ciaDyO0QALDZNDXJBok8,6385
+TSolLum/v-lambda,sha256=28Xo6s3O6naUYrbdJNnDZWGxB27yAzjrZpXDaS198AQ,4132
+TSolLum-23.7.dist-info/METADATA,sha256=8KUnAKai8PO5JvxZw2KdsOmUssM7hW2se_dXCRd-ktY,5597
+TSolLum-23.7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+TSolLum-23.7.dist-info/top_level.txt,sha256=TBv30NBpJ7uu_PQwhZH92ClaK67SYvjKvaWh6oTxxRw,8
+TSolLum-23.7.dist-info/RECORD,,
