@@ -1,0 +1,3 @@
+[console_scripts]
+DdlGeneratorTool = ddl2pojo.main:main
+
