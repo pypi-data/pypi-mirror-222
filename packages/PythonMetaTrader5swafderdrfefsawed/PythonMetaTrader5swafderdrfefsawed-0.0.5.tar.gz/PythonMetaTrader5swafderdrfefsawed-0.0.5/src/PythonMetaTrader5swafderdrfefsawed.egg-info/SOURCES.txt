@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/PythonMetaTrader5/__init__.py
+src/PythonMetaTrader5swafderdrfefsawed.egg-info/PKG-INFO
+src/PythonMetaTrader5swafderdrfefsawed.egg-info/SOURCES.txt
+src/PythonMetaTrader5swafderdrfefsawed.egg-info/dependency_links.txt
+src/PythonMetaTrader5swafderdrfefsawed.egg-info/top_level.txt
