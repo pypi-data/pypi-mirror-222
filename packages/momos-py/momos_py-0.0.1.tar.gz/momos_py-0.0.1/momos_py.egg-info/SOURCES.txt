@@ -1,0 +1,9 @@
+setup.py
+momos_py/__init__.py
+momos_py/postgres_psycopg2.py
+momos_py/read_gs.py
+momos_py.egg-info/PKG-INFO
+momos_py.egg-info/SOURCES.txt
+momos_py.egg-info/dependency_links.txt
+momos_py.egg-info/requires.txt
+momos_py.egg-info/top_level.txt
