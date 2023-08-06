@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: emcstream
+Version: 0.1
+Summary: A python implementation for online embedding and clustering of evolving data streams
+Home-page: https://gitlab.com/alaettinzubaroglu/emcstream
+Author: Alaettin Zubaroğlu
+Author-email: alaettinzubaroglu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

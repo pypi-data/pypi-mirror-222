@@ -1,0 +1,6 @@
+numpy
+scikit-learn
+pandas
+umap-learn
+matplotlib
+statistics
