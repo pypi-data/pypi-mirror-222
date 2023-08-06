@@ -1,0 +1,2 @@
+[console_scripts]
+synapsectl = synapsectl.__main__:main

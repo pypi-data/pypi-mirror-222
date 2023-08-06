@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+synapsectl/__init__.py
+synapsectl/__main__.py
+synapsectl/api.py
+synapsectl/config.py
+synapsectl.egg-info/PKG-INFO
+synapsectl.egg-info/SOURCES.txt
+synapsectl.egg-info/dependency_links.txt
+synapsectl.egg-info/entry_points.txt
+synapsectl.egg-info/top_level.txt
