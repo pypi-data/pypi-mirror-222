@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: digital-sport
+Version: 0.2.1
+Summary: Sport Api - structured data.
+Home-page: https://github.com/repen/digital-sport
+Author: Andrey Plugin
+Author-email: 9keepa@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+### Описание
+
+Получение структурированной информации по спортивным  live событиям.
+
+Очень важно, все данные доступны в live режиме. Данные только по футболу.
+
+Нельзя получать данные по матчам которые уже:
+- сыграны
+- запланированы
+
+
+### Установка
+
+1. `pip install digital-sport`
+
+
+Вопросы по работе библиотеки:
+
+- help in telegram `@sport_user`
+    
+
+#### Получить live матчи.
+
+```
+from sport import FootballSport
+
+football = FootballSport()
+
+fixtures = football.live()
+
+print(fixtures)
+```
+
+#### Получить статистику по мачту.
+
+Необходим id матча.
+
+```
+# Статистика матча
+data = football.statistics("match_id")
+print(data)
+```
+
+#### Получить коеффициенты на матч
+
+Необходим id матча.
+
+```
+data = football.odds("match_id")
+print(data)
+```
+
+#### Получить последние/очные игры команд
+
+Необходим id матча.
+```
+data = football.h2h("match_id")
+print(data)
+```
+
+#### Прикрепить статистику к live матчам.
+
+Для матчей у которых имеется статистика к этим объектам добавится их статистика.
+Работа в многопоточном режиме.
+Необходимо передать в метод список live матчей. 
+
+```
+fixtures = football.add_statistics(fixtures)
+```
+
+#### Цели
+
+- [ ] Реализовать интерфейс к live событиям по теннису.
+- [ ] Реализовать интерфейс к live событиям по баскетболу.
+
+
