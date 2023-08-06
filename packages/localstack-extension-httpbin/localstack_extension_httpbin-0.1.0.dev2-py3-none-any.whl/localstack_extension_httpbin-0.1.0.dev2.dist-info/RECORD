@@ -1,0 +1,16 @@
+localstack_httpbin/__init__.py,sha256=bP3Uy_Wrt0a9BiK7ArSzjIxJNYCSDaPwH3yNTIIUkI0,28
+localstack_httpbin/extension.py,sha256=ki-tDSiB9gzwjydCwZZzKu3hXxrUBJgPuo6bTX04K2s,1615
+localstack_httpbin/server.py,sha256=DtedqOq6s4_9upQoO1NFYstBR-ThZhnFQYsm4RqFSFE,750
+localstack_httpbin/vendor/__init__.py,sha256=7-xcHvuQ3nJUup8nML_-n9xByM4PF32GcXsSt_jCIIo,25
+localstack_httpbin/vendor/httpbin/__init__.py,sha256=vB3TUDs7GtsIcJHYvtQJ6eF0w5-Gy2_V6H-_hJbmQdg,45
+localstack_httpbin/vendor/httpbin/core.py,sha256=M_Fec7SW4Do8codpz52oRU5K2jqYu-AAfrogjSliJvo,44092
+localstack_httpbin/vendor/httpbin/filters.py,sha256=-ZhKW3IkjPwP4Cb5CZd35jFf5CZrPCGsvP4Pt2Pm5dw,2306
+localstack_httpbin/vendor/httpbin/helpers.py,sha256=98fcvG0rrU7-zj_RUTj9-jPOWxTSurgRE4ZwrqEvvz4,13788
+localstack_httpbin/vendor/httpbin/structures.py,sha256=tc4F-2qc_Z0G87H-3uxf00E3KFaV8BlikycXxcjMl7g,681
+localstack_httpbin/vendor/httpbin/utils.py,sha256=WMml6GxSBCJjIbWVIAu0ILtSTnPgt0jrNYiU8MWeWPo,588
+localstack_httpbin/vendor/httpbin/version.py,sha256=i_6wJIURm_6U_nR-w9mRTH8A9Q-OeRmOIrgefizQBJE,23
+localstack_extension_httpbin-0.1.0.dev2.dist-info/METADATA,sha256=lOEkpfWyT3F2UPs9_LuK9HnbAyFJVih99P2QmaWiZZA,2390
+localstack_extension_httpbin-0.1.0.dev2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+localstack_extension_httpbin-0.1.0.dev2.dist-info/entry_points.txt,sha256=yQd2r94ZAaR32o_Yxqt8IwwRA5M5eLos9ac_Vg3fCxw,80
+localstack_extension_httpbin-0.1.0.dev2.dist-info/top_level.txt,sha256=xgv38hoSWRSAOeWd_49B2V_fMuI_g_zYg2EeaEc5J8I,19
+localstack_extension_httpbin-0.1.0.dev2.dist-info/RECORD,,
