@@ -1,0 +1,6 @@
+scientifiction.py
+setup.py
+scientifiction.egg-info/PKG-INFO
+scientifiction.egg-info/SOURCES.txt
+scientifiction.egg-info/dependency_links.txt
+scientifiction.egg-info/top_level.txt
