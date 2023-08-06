@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: KKMeans
+Version: 0.0.6
+Summary: https://github.com/bauxn/kernel-kmeans. openMP is not enabled when installing via PiPy
+Author-email: Paul Theis <keymailt7@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: license.txt
+Requires-Dist: numpy (>=1.25)
+
+This is the github repository for my bachelor thesis.<br>
+<br>
+pip install . <br>
+works for windows11 and ubuntu 22 <br>
+upgrade pip before installation, as pyproject.toml without setup.cfg is a rather new standard <br>
