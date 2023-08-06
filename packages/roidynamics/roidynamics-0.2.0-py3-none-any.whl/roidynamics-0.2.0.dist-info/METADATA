@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: roidynamics
+Version: 0.2.0
+Summary: Time-evolution analysis of image intensity under specific mask geometries
+Project-URL: homepage, https://github.com/guiwitz/roidynamics
+Project-URL: repository, https://github.com/guiwitz/roidynamics
+Author-email: Guillaume Witz <guillaume.witz@unibe.ch>
+License: BSD 3-Clause License
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: imageio
+Requires-Dist: imageio-ffmpeg
+Requires-Dist: matplotlib
+Requires-Dist: microfilm[multipage]
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-image
+Provides-Extra: interactive
+Requires-Dist: ipywidgets; extra == 'interactive'
+Requires-Dist: jupyterlab; extra == 'interactive'
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/guiwitz/roidynamics/master?urlpath=lab)
+[![PyPI](https://img.shields.io/pypi/v/roidynamics.svg?color=green)](https://pypi.org/project/roidynamics)
+[![CI](https://github.com/guiwitz/roidynamics/actions/workflows/test_and_deploy.yml/badge.svg)](https://github.com/guiwitz/roidynamics/actions/workflows/test_and_deploy.yml)
+
+# roidynamics
+
+Small Python package providing tools to analyze the dynamics of intensity in time-lapse microscopy images split into regions of specific geometries.  
+
+## Installation
+
+You can install this package directly using: 
+
+```
+pip install roidynamics
+```
+
+**Note**: If you encounter errors when trying to use the ND2 format because of errors related to unusual ROIs (non-square), you can try to install an alternative version with:
+
+```
+pip install git+https://github.com/guiwitz/nd2reader.git@master#egg=nd2reader -U
+```
+
+## Authors
+
+This package has been created by Guillaume Witz, Data Science Lab, University of Bern in collaboration with Jakobus van Unen, Pertz lab, Institute of Cell Biology, University of Bern.

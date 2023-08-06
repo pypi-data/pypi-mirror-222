@@ -1,0 +1,16 @@
+roidynamics/__init__.py,sha256=3EkMfS9QDyDV_aTteO1yXlHzYElld-pBTxVVFaWsHeE,274
+roidynamics/splitmask.py,sha256=PQZ8ay6QhevYLkX9oxWFU0heLFuZrLYGK5ET-0ipIbo,16624
+roidynamics/utils.py,sha256=tvBWp0qTFuGteDyuyhh7WVjFwCeMi6XbbMOVSFjfmGI,1110
+roidynamics/tests/create_roi.ipynb,sha256=xvdgrX1VPXq3e0RUTc-DRvrCrA0gHTGrANw8LBsCCHw,41039
+roidynamics/tests/test_splitmask.py,sha256=cOhpj_SAd9pqUQDAJGoNQDyNhRCWOu-WK0HFVApB_Ko,3063
+roidynamics/tests/test_folders/concentric_mask_w4_n3.tif,sha256=QoLX0QkDKBDu3WHJMRm-nEGVm4WF4CeAimPPi3cgpw4,24256
+roidynamics/tests/test_folders/concentric_mask_w4_n3_b.tif,sha256=Elyogs_Bpt5lf9tz9d-uc4yFJ__OVr4jvbVNLpds_Oo,24256
+roidynamics/tests/test_folders/concentric_time.tif,sha256=u-VGXm7YsSX59NtLtGstSJFY41WWW2twdQRtP5U1YRY,243410
+roidynamics/tests/test_folders/test_multipage_good/C1-MAX_mitosis.tif,sha256=1ncVJM7rUvXLiVZYMTpfor4aTUw3GRHgx5NHfb038ek,3427188
+roidynamics/tests/test_folders/test_multipage_good/C2-MAX_mitosis.tif,sha256=I67QQD4KS2VjLwJ1IYS4V1rpFlFhtHqdZ3rrXjDzBFI,3427188
+roidynamics/tests/test_folders/test_multipage_good/multiroi.bmp,sha256=6tjRwSaj5GxooEYGvYe3EhYNHU0W6HbfOYejdejjBHo,34790
+roidynamics/tests/test_folders/test_multipage_good/roi.bmp,sha256=qp8cICXvEZMBPEiy7QK2xPx8eAZKV1JVf6hueTaRC8g,34790
+roidynamics-0.2.0.dist-info/METADATA,sha256=_oMy_aLj7mmBBWGOl3VmUAW-XkWkm2mJWuOMQR_N5bE,2583
+roidynamics-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+roidynamics-0.2.0.dist-info/licenses/LICENSE,sha256=1xVPBV4mQqPcVPfNrZxt2NiZJXN_KpVNFDRsrblAB-8,1561
+roidynamics-0.2.0.dist-info/RECORD,,
