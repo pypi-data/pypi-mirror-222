@@ -1,0 +1,2 @@
+[aioworkers.storage]
+pg_ro = aioworkers_pg.storage:RoStorage

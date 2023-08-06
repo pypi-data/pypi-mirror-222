@@ -1,0 +1,12 @@
+aioworkers_pg/__init__.py,sha256=L6JMu3cyEL1Ljb7PeJcebm5_XTmE3JxUVlfcNXFm4gQ,24
+aioworkers_pg/abc.py,sha256=9Wa0JUa6i2sP_0YE7TeXMPDg2uRy4ip6s4ou_XDvgDQ,1292
+aioworkers_pg/base.py,sha256=B51WLldL1YEXgsgW1P7ghBMoJx45-EyFn5uBRNRVBhM,2929
+aioworkers_pg/formatter.py,sha256=8J-AgkgmLs1Ii75tBl8i4602BFoo0iGRLyklkj3bf2c,617
+aioworkers_pg/sa.py,sha256=R27FI-UmGgIGfCJateG0Ad7xG5eZx0ZR7PKvJhfKjE4,1437
+aioworkers_pg/sql.py,sha256=JKIrsFT0s0lzyVbVTSdHm3mjayNfNIDgUob3qzGkqfM,1894
+aioworkers_pg/storage.py,sha256=nOtpwNT52fMntBBnF1fKGHJ_N7S8CXfqRz5sTF43D4w,1056
+aioworkers_pg-0.4.0a1.dist-info/METADATA,sha256=GxiMD4rkMEOY676tJn83-BH1mdIzNf9NB-MBsIoGz5U,5226
+aioworkers_pg-0.4.0a1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+aioworkers_pg-0.4.0a1.dist-info/entry_points.txt,sha256=4P8gL6Bf2pf4bHm0NqS_Vg-xxI3lxPAbcfWPtusGrCw,61
+aioworkers_pg-0.4.0a1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aioworkers_pg-0.4.0a1.dist-info/RECORD,,
