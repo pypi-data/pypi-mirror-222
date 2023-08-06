@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: txt2voice
+Version: 0.1.0
+Summary: Convert text to voice
+Author: zemags
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/zemags/python-yandex-speech-kit
+
+# python-yandex-speech-kit
+SDK for converting text to audio using Yandex premium voices.
+
