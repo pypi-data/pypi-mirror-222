@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: clean-print-utils
+Version: 1.0.0
+Summary: A package with utility functions to make cli printing easy
+Author-email: destrex-271 <destrex271@gmail.com>, darth-boson <zboson123@outlook.com>
+Project-URL: Homepage, https://github.com/destrex271/print_utils
+Project-URL: Bug Tracker, https://github.com/destrex271/print_utils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
