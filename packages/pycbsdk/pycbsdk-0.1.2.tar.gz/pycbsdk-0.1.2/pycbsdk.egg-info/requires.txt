@@ -1,0 +1,6 @@
+numpy
+aenum
+ifaddr
+
+[tests]
+pytest
