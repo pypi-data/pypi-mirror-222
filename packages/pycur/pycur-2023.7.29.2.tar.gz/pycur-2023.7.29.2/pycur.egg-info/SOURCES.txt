@@ -1,0 +1,7 @@
+README.md
+setup.py
+pycur/__init__.py
+pycur.egg-info/PKG-INFO
+pycur.egg-info/SOURCES.txt
+pycur.egg-info/dependency_links.txt
+pycur.egg-info/top_level.txt
