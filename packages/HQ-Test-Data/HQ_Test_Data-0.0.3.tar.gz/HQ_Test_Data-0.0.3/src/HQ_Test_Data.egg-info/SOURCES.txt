@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/HQ_Test_Data/__init__.py
+src/HQ_Test_Data/main.py
+src/HQ_Test_Data.egg-info/PKG-INFO
+src/HQ_Test_Data.egg-info/SOURCES.txt
+src/HQ_Test_Data.egg-info/dependency_links.txt
+src/HQ_Test_Data.egg-info/requires.txt
+src/HQ_Test_Data.egg-info/top_level.txt
