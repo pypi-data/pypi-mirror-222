@@ -1,0 +1,13 @@
+biopython==1.79
+certifi==2022.12.7
+lxml==4.9.1
+numpy==1.19.5
+pandas==1.4.3
+plotly==5.10.0
+pyopenms==2.6.0
+pyteomics==4.5.4
+python-dateutil==2.8.2
+pytz==2022.2.1
+PyYAML==6.0
+six==1.15.0
+tenacity==8.0.1
