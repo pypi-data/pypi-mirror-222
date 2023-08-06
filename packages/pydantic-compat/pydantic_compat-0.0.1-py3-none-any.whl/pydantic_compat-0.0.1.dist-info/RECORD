@@ -1,0 +1,11 @@
+pydantic_compat/__init__.py,sha256=zP1_EancuOI7HZcz1IWltveh-K6kYfEy7GLbSM25nb4,1123
+pydantic_compat/_shared.py,sha256=5FB-bulcGoIywBZN5A3Spa-0IJzVz-bUufHt9b2soOQ,1339
+pydantic_compat/_v1_decorators.py,sha256=4Re1kc2ffBrdPJkMy40k5K2AIiq5YIM9zP3uvWbntlk,2831
+pydantic_compat/_v1_mixin.py,sha256=7CmaNPWUIJ7xTIfG7LqSvWzMesBUeqJdbOo_l4Xx7Xo,5200
+pydantic_compat/_v2_decorators.py,sha256=BWcSlSDUioOg4xKiO7KOAqSdn9Q6XWRjosUavkGPshU,2465
+pydantic_compat/_v2_mixin.py,sha256=7CjMi3PqvgWClPrI3kahCRf2lpNaXE4YIWja5lAB42g,3548
+pydantic_compat/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_compat-0.0.1.dist-info/METADATA,sha256=iVTi59p5jsU7UYJEU1Voi9lW9pWEs-83tGb9nVxkvMc,7317
+pydantic_compat-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pydantic_compat-0.0.1.dist-info/licenses/LICENSE,sha256=qCPTFXO3eX_MDau0dZ0DA5CuJoSIoqUzb-smzdsQYQk,1479
+pydantic_compat-0.0.1.dist-info/RECORD,,
