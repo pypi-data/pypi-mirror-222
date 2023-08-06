@@ -1,0 +1,11 @@
+commander/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commander/cli.py,sha256=b_QMco224EuNlavkhVTWZR35jBlulQwCC69mIHHvNdE,15746
+commander/spinner.py,sha256=Q85GJ3AvM5-Yxruo-wudJD3bZlKcXYSNQtF4hC9zuf0,865
+commander/ssh.py,sha256=A55rN76eprBtxqIlgJc6aLspootWI2SRgmSm5Cc46fw,2565
+commander/util.py,sha256=LNSAOML7d-u9xbHkEZXg1DY81C_IgSwWTrxeeQ-W4ho,2970
+SliceCommander-0.1.post3.dist-info/LICENSE,sha256=r4LPVcbJGEazXpYqJoenrvyEVSSFXKhnWqJgkSirH_s,1513
+SliceCommander-0.1.post3.dist-info/METADATA,sha256=qxV5ap62p91e-It7_79EPCfgUmylXFgiUG_6prbYbrs,1754
+SliceCommander-0.1.post3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+SliceCommander-0.1.post3.dist-info/entry_points.txt,sha256=fdD5pNs4wrf7aGJk1MfczGjYP5wVVVP7tJU6k_E5Pg0,55
+SliceCommander-0.1.post3.dist-info/top_level.txt,sha256=yzxJHOjo0OlXGxCp1O7xGnGWEZ3lyYItg09pL9UsLUE,10
+SliceCommander-0.1.post3.dist-info/RECORD,,
