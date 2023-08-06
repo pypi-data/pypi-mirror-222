@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "nbdocgen"
+version = "0.1.0"
+description = "nbdocgen is a command line tool to generate documentation for each and every cell in a Jupyter notebook using OpenAI Chat Completion APIs."
+authors = ["Santi Adavani <santis@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+click = "^8.1.6"
+openai = "^0.27.8"
+rich = "^13.4.2"
+black = "^23.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+nbdocgen = "nbdocgen.docgen:docgen"
