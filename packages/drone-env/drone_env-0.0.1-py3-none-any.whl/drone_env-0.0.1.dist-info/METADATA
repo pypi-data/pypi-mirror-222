@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: drone-env
+Version: 0.0.1
+Summary: A OpenAI Gym Env for Parrot Mini Drone
+Requires-Dist: gymnasium (==0.28.1)
+Requires-Dist: numpy (==1.25.1)
+Requires-Dist: matlabengine (==9.14.3)
+
