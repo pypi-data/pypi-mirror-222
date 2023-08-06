@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mpoints
+Version: 0.3.0
+Summary: Calibration and simulation of state-dependent Hawkes processes.
+Author-email: Maxime Morariu-Patrichi <maximemorariu@me.com>, Claudio Bellani <claudio.bellani01@gmail.com>
+License-File: LICENSE
