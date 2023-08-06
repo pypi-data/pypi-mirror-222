@@ -1,0 +1,16 @@
+easyllm/__init__.py,sha256=nDMnQPx629VT2yXRBT4sZ1P4tCsp4AlJGe7AK7mt_rs,135
+easyllm/cli.py,sha256=WPWywTaiDD448NR0Xc_I5QFebgSymx01m2TalTBbRbA,304
+easyllm/utils.py,sha256=6QjR9e_a-V31ofDr9GQ1sDaKcVoatWqCJc9Fve6p6pg,978
+easyllm/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easyllm/clients/huggingface.py,sha256=0RxGKMYpkgxDz4l4YDhRjymuPZDyB0pDjmkSjR_2XJs,6981
+easyllm/evol_instruct/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easyllm/prompt_utils/__init__.py,sha256=e7dxOO7sZGFNkqjDINTtObyWfzZn3CRfyufBnTrAVUw,63
+easyllm/prompt_utils/base.py,sha256=RzN9l7KJiKbs9mmui8mGufI0SUAvtQoj2fUcAGlpkxc,743
+easyllm/prompt_utils/llama2.py,sha256=XmPTgO9Y4wK2xSvd7LUcvpHT4wYG2jB7xWKA_4hAvEQ,1266
+easyllm/schema/base.py,sha256=2DaFPBFt0Df9TBHn2CH5P-JWSrZ8AORw7q2IQBNMr2M,267
+easyllm/schema/openai.py,sha256=ahd0PMfPq5UBPQqSVeWGsTdSYO6yMRYw4dHWbH98QO0,2314
+easyllm-0.1.0.dist-info/METADATA,sha256=gVocRHkwlZRB0Nvlv5QB5aertt6seRfcG9ByESQn_mU,5754
+easyllm-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+easyllm-0.1.0.dist-info/entry_points.txt,sha256=C1RWp_mfRPHQEX1y9FEozNTYLwIlibcDQWdHZwsvIO4,45
+easyllm-0.1.0.dist-info/licenses/LICENSE,sha256=dmYOKGkZBeHA5EeMSi8FhJNy1sqpMD-A5xtq803QiCA,1071
+easyllm-0.1.0.dist-info/RECORD,,
