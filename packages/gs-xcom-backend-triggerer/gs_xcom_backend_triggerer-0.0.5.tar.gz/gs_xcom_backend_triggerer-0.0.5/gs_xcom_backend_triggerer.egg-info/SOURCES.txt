@@ -1,0 +1,8 @@
+setup.py
+gs_xcom_backend/__init__.py
+gs_xcom_backend/deferrer.py
+gs_xcom_backend/triggerer.py
+gs_xcom_backend_triggerer.egg-info/PKG-INFO
+gs_xcom_backend_triggerer.egg-info/SOURCES.txt
+gs_xcom_backend_triggerer.egg-info/dependency_links.txt
+gs_xcom_backend_triggerer.egg-info/top_level.txt
