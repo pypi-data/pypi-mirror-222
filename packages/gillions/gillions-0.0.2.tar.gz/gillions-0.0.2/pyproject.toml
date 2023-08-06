@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gillions"
+authors = [
+    {name = "Francis Potter", email = "gillions@steampunkwizard.ca"}
+]
+description = "Placeholder for a personal accounting system"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "wizlib >= 0.8.4"
+]
+dynamic = ["version"]
+
+[tool.setuptools.package-dir]
+gillions = "gillions"
+
+[project.scripts]
+gillions = "gillions.handler:GillionsHandler.shell"
+
+[tool.setuptools.dynamic]
+version = {file = [".version"]}

@@ -1,0 +1,14 @@
+.version
+pyproject.toml
+gillions/__init__.py
+gillions/__main__.py
+gillions/handler.py
+gillions.egg-info/PKG-INFO
+gillions.egg-info/SOURCES.txt
+gillions.egg-info/dependency_links.txt
+gillions.egg-info/entry_points.txt
+gillions.egg-info/requires.txt
+gillions.egg-info/top_level.txt
+gillions/command/__init__.py
+gillions/command/null_command.py
+test/test_null.py

@@ -1,0 +1,2 @@
+[console_scripts]
+gillions = gillions.handler:GillionsHandler.shell
