@@ -1,0 +1,31 @@
+name: napari-caphid
+display_name: CAphid
+contributions:
+  commands:
+    - id: napari-caphid.get_reader
+      python_name: napari_caphid._reader:napari_get_reader
+      title: Open data with CAphid
+    - id: napari-caphid.write_multiple
+      python_name: napari_caphid._writer:write_multiple
+      title: Save multi-layer data with CAphid
+    - id: napari-caphid.write_single_image
+      python_name: napari_caphid._writer:write_single_image
+      title: Save image data with CAphid
+    - id: napari-caphid.make_process_func
+      python_name: napari_caphid._widget:process_func
+      title: Update table
+      
+  readers:
+    - command: napari-caphid.get_reader
+      accepts_directories: false
+      filename_patterns: ['*.npy']
+  writers:
+    - command: napari-caphid.write_multiple
+      layer_types: ['image*','labels*']
+      filename_extensions: []
+    - command: napari-caphid.write_single_image
+      layer_types: ['image']
+      filename_extensions: ['.npy']
+  widgets:
+    - command: napari-caphid.make_process_func
+      display_name: Update table

@@ -1,0 +1,16 @@
+napari_caphid/__init__.py,sha256=s1t21ubgVm246jpuqjNrrI59hBf77dCBHxhE_fcYtY0,272
+napari_caphid/_reader.py,sha256=PdW16yIyvcmbOa07KGVeYfVMUUV6htdCCLgOmCHu6Lk,2556
+napari_caphid/_widget.py,sha256=MMB2yGXhV4S4AewZMyUvfTu5ohY3KmMlGYL55ZQSSQk,6237
+napari_caphid/_writer.py,sha256=Vv27z5zaqeClMDHr3_E2WpIcnHVj5cgzffWNHAPpJ2M,956
+napari_caphid/napari.yaml,sha256=d8cr28tN2_26x7ewh06HAopu7XsFdZntOYIGQ18vZM0,1091
+napari_caphid/utils.py,sha256=1z_txVQZiVaheXKKkA26wEOQwk-xlvLCI3CeJ5HzVI4,1637
+napari_caphid/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_caphid/_tests/test_reader.py,sha256=_2YiX36SM7d5T32YMsjs20EORlSmDdnc3rcyXePm2Is,1006
+napari_caphid/_tests/test_widget.py,sha256=bufr66sfIzI8H-6ADvl48MUvehUow_BOKGe0834Ouu8,1282
+napari_caphid/_tests/test_writer.py,sha256=01oefAx42WXQt_u0qPy5ng_t-F-YMN2CREVVvASee7o,129
+napari_caphid-0.0.1.dist-info/LICENSE,sha256=2d6UN5iA5lFFv2HM3etV0jWnvuKU0nQfqQ9UYX7sTVA,1520
+napari_caphid-0.0.1.dist-info/METADATA,sha256=wIvlWEhiQ6PIpK0syLNlLaUGE4b2AMgAO5PxrDQ5Lvk,6759
+napari_caphid-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+napari_caphid-0.0.1.dist-info/entry_points.txt,sha256=O-C76kmf_rYZmMDZXqGOkUO3EW1AfX2ffKpnqmRVfxg,60
+napari_caphid-0.0.1.dist-info/top_level.txt,sha256=6kSbPRQd55vFeNGqUTdunHbux7FiHu6DuXk1zxyj3YU,14
+napari_caphid-0.0.1.dist-info/RECORD,,

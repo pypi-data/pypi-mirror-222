@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-caphid = napari_caphid:napari.yaml
