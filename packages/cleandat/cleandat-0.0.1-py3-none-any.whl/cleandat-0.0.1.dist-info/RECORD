@@ -1,0 +1,15 @@
+cleandat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cleandat/cleanup.py,sha256=_1TrJUPIy_I9LantZ8TbUxH9aF9eBOOa_vNWK59Tamw,7221
+cleandat/constants.py,sha256=AOEbJnfdChOt4w1ajmN1aFZUKYmPOXCufAoaubRUXUA,131
+cleandat/date.py,sha256=7qJfY3Eb0XOZMl9skgTCRXHpcOVJ6RAfqlq0poaJZ8Q,3042
+cleandat/encoding.py,sha256=jZijqoETljsR6IvHm3swjPhncKJQ-cNWIgc9r1n1n_U,5152
+cleandat/workflows.py,sha256=gQ5WYci2zxS7gOmhapqkxyc5wRBDHbsUGR1OEYevlOA,2377
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cleanup.py,sha256=RewarTkuT0ylsv0YODtLbi2H6aVgFbOpPagh2Jm3_AU,1236
+tests/test_date.py,sha256=52ehbNvfwJr54w1I8-yCcMOuv_FramBDsyvQMfTqr3A,2121
+tests/test_encoding.py,sha256=ZDcYdbMxNyMrjA93sn3_qMm5gWLjeIoNSGCoXdX1_I8,2926
+cleandat-0.0.1.dist-info/LICENSE,sha256=0GfO8tHsgQcZbSf0fMYHzOHQLoZqmfe5PiUh3bWNg0A,1066
+cleandat-0.0.1.dist-info/METADATA,sha256=M-kpfMarwGVXUhdHDsKSs-CBRrmOnstq-HII9JiYAx8,1106
+cleandat-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+cleandat-0.0.1.dist-info/top_level.txt,sha256=W_x_xAG0W7QylK6fTqTAHg4htNLv4igbCd4Fcg68nPE,15
+cleandat-0.0.1.dist-info/RECORD,,
