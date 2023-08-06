@@ -1,0 +1,6 @@
+MdrisLJ.py
+setup.py
+MdrisLJ.egg-info/PKG-INFO
+MdrisLJ.egg-info/SOURCES.txt
+MdrisLJ.egg-info/dependency_links.txt
+MdrisLJ.egg-info/top_level.txt
