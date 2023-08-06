@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/circleai/__init__.py
+src/circleai.egg-info/PKG-INFO
+src/circleai.egg-info/SOURCES.txt
+src/circleai.egg-info/dependency_links.txt
+src/circleai.egg-info/top_level.txt

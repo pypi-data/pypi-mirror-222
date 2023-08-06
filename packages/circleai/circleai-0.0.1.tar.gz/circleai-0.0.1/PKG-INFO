@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: circleai
+Version: 0.0.1
+Summary: A machine learning library for Python.
+Author-email: SamTheProgrammer <user@example.com>
+Project-URL: Homepage, https://github.com/tetrahedronai/circle
+Project-URL: Bug Tracker, https://github.com/tetrahedronai/circle/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<center>
+<img src="assets/logo.svg" alt="CircleAI Logo" />
+
+# CircleAI
+
+</center>
+
+CircleAI is a Python framework designed to speed up your machine learning workflows.
+
+## Installation
+
+Run one of the following commands in your terminal.
+
+```shell
+pip install circleai
+py -m pip install circleai # windows
+python3 -m pip install circleai # if the above don't work
+```
