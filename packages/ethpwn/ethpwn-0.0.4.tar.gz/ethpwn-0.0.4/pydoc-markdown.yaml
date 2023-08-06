@@ -1,0 +1,27 @@
+loaders:
+- type: python
+  search_path: [./src]
+renderer:
+  type: mkdocs
+  mkdocs_config:
+    site_name: ethpwn - the Swiss Army Knife for Ethereum
+    theme:
+      name: material
+      features:
+        - navigation.instant
+        - navigation.tabs
+    markdown_extensions:
+      - tables
+      - mkdocs-click
+      - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+      - pymdownx.inlinehilite
+      - pymdownx.snippets
+      - pymdownx.superfences
+  pages:
+  - title: API Documentation
+    name: index
+    contents:
+    - ethpwn.*
