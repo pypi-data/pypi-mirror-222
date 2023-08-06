@@ -1,0 +1,2 @@
+[console_scripts]
+lastfm-mpris2-scrobbler = src.__main__:main
