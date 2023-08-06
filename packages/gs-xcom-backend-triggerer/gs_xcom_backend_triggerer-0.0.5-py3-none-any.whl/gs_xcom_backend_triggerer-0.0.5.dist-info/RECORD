@@ -1,0 +1,7 @@
+gs_xcom_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gs_xcom_backend/deferrer.py,sha256=HNaX_Syt3_QuPlidzJXtoS-VtzSqQsKtgeC-ieWrLSc,3648
+gs_xcom_backend/triggerer.py,sha256=s6C12eU2eCjt2mzF0UR3TAE7agMfcuJNQKf3DsewAZM,1289
+gs_xcom_backend_triggerer-0.0.5.dist-info/METADATA,sha256=LCegmXX_T16Y5zSZ9qU8XkCCwqle3qqTiG_F2tVAPro,536
+gs_xcom_backend_triggerer-0.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+gs_xcom_backend_triggerer-0.0.5.dist-info/top_level.txt,sha256=wo6sBbgl1FEXXWHhrir1qJF5SLlDVJvw-s67X-o9xYU,16
+gs_xcom_backend_triggerer-0.0.5.dist-info/RECORD,,
