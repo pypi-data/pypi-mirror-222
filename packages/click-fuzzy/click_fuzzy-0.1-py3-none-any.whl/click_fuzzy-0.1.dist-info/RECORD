@@ -1,0 +1,9 @@
+click_fuzzy/__init__.py,sha256=od4N1k1zCFqjxDANPOgdppPmTJQsiY8tyDNrS2YA45U,250
+click_fuzzy/__version__.py,sha256=TJ-mQ3EzQCc4wm_hG9_IlGMCQzwMidlShB68d6HJh-E,154
+click_fuzzy/core.py,sha256=oYmbJh6CA3h3goqqfaFI_-UMpm9d32AikSTHn3uTanE,1784
+click_fuzzy/tests/__init__.py,sha256=sp0-HYboM6gOYrUxWy8xna-hdJyMUtKBvAKrpRBcDCE,90
+click_fuzzy/tests/smoke.py,sha256=l9GAwFN47SjQBASojDgUst1VMqy83Uo4vmyIuDeZJnI,4089
+click_fuzzy-0.1.dist-info/LICENSE,sha256=I_oEnA4w3xfb-mXF7eeYP33Rx3rZZKz69XISkwdIhMg,1066
+click_fuzzy-0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+click_fuzzy-0.1.dist-info/METADATA,sha256=WKN0Z9gQ28wj5OXdDEzTCAGj9d1ra6TWH8gpeLnRcVc,1487
+click_fuzzy-0.1.dist-info/RECORD,,
