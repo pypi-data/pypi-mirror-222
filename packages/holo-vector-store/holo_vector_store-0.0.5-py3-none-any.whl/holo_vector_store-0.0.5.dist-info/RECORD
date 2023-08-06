@@ -1,0 +1,8 @@
+holo_vector_store/__about__.py,sha256=QkXEE4co5nsXNTVeiY3Uw4M6JBIHPYkACT28wbIT42g,145
+holo_vector_store/__init__.py,sha256=YSsRhhCOxGMMxOhd-zmgQEZpCtYrwvod18vV2P747sc,188
+holo_vector_store/holo_vector_store.py,sha256=oCvW2wiOfzkaByv2RcnjCyC4fU36IXPwHFuyBp4CVYI,7080
+holo_vector_store/hologres_wrapper.py,sha256=n2GWhWgeJESlr0uE2FyVfSXTGumyN4q7xXry_WQeYIA,7684
+holo_vector_store-0.0.5.dist-info/METADATA,sha256=dA6LZ8--JuRXCZWIEC3dX2W4QqALo1Mk9pZOtSkEb2U,1552
+holo_vector_store-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+holo_vector_store-0.0.5.dist-info/licenses/LICENSE.txt,sha256=QmIbPD_z_jS7MdySFQN_BWJrRepe8mHikLo_k7NHcJ0,1069
+holo_vector_store-0.0.5.dist-info/RECORD,,
