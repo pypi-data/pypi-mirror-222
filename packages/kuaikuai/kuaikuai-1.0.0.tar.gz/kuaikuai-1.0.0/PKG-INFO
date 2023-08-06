@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kuaikuai
+Version: 1.0.0
+Summary: 請你乖乖的不要宕機喔！
+License: MIT
+Author: 快乐的老鼠宝宝
+Author-email: laoshubaby@protonmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# kuaikuai
+
+项目主页： https://github.com/LaoshuBaby/e-kuaikuai
+
