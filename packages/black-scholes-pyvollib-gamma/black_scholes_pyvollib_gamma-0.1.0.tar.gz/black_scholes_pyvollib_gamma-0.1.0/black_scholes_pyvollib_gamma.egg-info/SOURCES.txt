@@ -1,0 +1,6 @@
+setup.py
+black_scholes_pyvollib_gamma.egg-info/PKG-INFO
+black_scholes_pyvollib_gamma.egg-info/SOURCES.txt
+black_scholes_pyvollib_gamma.egg-info/dependency_links.txt
+black_scholes_pyvollib_gamma.egg-info/requires.txt
+black_scholes_pyvollib_gamma.egg-info/top_level.txt

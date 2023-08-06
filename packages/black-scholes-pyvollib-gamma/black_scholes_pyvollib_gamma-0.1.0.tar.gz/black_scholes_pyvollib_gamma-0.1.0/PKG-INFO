@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: black_scholes_pyvollib_gamma
+Version: 0.1.0
+Summary: Custom package with only the gamma function from py_vollib
