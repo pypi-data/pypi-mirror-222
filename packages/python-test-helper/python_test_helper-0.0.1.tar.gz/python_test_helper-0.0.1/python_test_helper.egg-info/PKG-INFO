@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: python-test-helper
+Version: 0.0.1
+Summary: Simple Methods to help you in your tests
+Home-page: https://github.com/delrey1/python-test-helper
+Keywords: python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Python Test Helper
+
+## Contents
+
+### jwt_helper
+
+`sleep_until_access_token_ready`
+
+* Use this if your computer clock is behind the token server
+
+### request_helper
+
+`RequestHelper`
+
+* Extends the requests `Session` to allow a `base_url` to be provided
