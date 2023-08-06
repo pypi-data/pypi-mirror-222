@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: connsearch
+Version: 0.1.1
+Summary: Analysis of connectivity data by dividing the connectome and fitting independent models
+Home-page: https://github.com/paulcbogdan/ConnSearch-Package
+Author: paulcbogdan
+Author-email: paulcbogdan@gmail.com
+License: MIT
+Keywords: fmri,connectivity,multivariate,machine learning
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+`connsearch` is a Python package for analysis of functional connectivity data.
+It is premised on dividing the connectome into network components and fitting an independent model for each component.
+
+See our GitHub repo: [GitHub repo](https://github.com/paulcbogdan/ConnSearch-Package) 
+
+See also our paper: Bogdan, P.C., Iordan, A. D., Shobrook, J., & Dolcos, F. (2023). ConnSearch: A Framework for Functional Connectivity Analysis Designed for Interpretability and Effectiveness at Limited Sample Sizes. NeuroImage, 120274.
