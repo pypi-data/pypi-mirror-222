@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+httpcats_and_httpdog/__init__.py
+httpcats_and_httpdog.egg-info/PKG-INFO
+httpcats_and_httpdog.egg-info/SOURCES.txt
+httpcats_and_httpdog.egg-info/dependency_links.txt
+httpcats_and_httpdog.egg-info/requires.txt
+httpcats_and_httpdog.egg-info/top_level.txt
