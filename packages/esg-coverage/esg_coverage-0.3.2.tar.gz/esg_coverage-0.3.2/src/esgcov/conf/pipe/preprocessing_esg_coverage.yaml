@@ -1,0 +1,5 @@
+defaults:
+  - __dataframe_external_funcs__
+
+run:
+  _target_: esgcov.datasets.preprocessing.preprocessing_esg_coverage

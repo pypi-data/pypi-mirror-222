@@ -1,0 +1,9 @@
+# @package _global_
+defaults:
+  - __init__
+  - /task@task: datasets
+  - override /project: esgcov
+
+workflow_name: datasets
+tasks:
+  - task
