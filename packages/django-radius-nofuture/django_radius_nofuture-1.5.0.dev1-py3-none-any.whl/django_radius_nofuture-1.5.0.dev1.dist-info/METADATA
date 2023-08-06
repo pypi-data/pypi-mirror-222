@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-radius-nofuture
+Version: 1.5.0.dev1
+Summary: Django authentication backend for RADIUS
+Home-page: http://robgolding63.github.com/django-radius/
+Author: Rob Golding
+Author-email: rob@robgolding.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyrad (!=2.2,>=1.2)
+
+django-radius without "future" dependency, based on official git commit "4c082470b0"
+
+
