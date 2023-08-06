@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+ixBrowser/__init__.py
+ixBrowser/client.py
+ixBrowser.egg-info/PKG-INFO
+ixBrowser.egg-info/SOURCES.txt
+ixBrowser.egg-info/dependency_links.txt
+ixBrowser.egg-info/requires.txt
+ixBrowser.egg-info/top_level.txt
+ixBrowser/tests/__init__.py
+ixBrowser/tests/test_ixbrowser.py
+ixBrowser/utils/__init__.py
+ixBrowser/utils/use_logger.py

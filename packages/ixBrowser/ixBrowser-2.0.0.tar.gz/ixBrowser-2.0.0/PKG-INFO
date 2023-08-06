@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: ixBrowser
+Version: 2.0.0
+Summary: A SDK for ixBrowser
+Home-page: https://github.com/ontisme/ixBrowser
+Download-URL: https://pypi.org/project/ixBrowser/
+Author: Alan Ting & Ontisme
+Author-email: alanting0716@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+ixBrowser
+=======
+
+Client for ixBrowser API written in Python
+
+Installation
+============
+
+```
+pip install ixBrowser
+```
+
+Usage
+=====
+
+```python
+from ixBrowser import ixBrowser
+
+ixbrowser = IxBrowser()
+
+# Get the list of profiles
+ixbrowser.api_browser_list()
+
+# Open the browser
+ixbrowser.api_browser_open(1)
+
+# Close the browser
+ixbrowser.api_browser_close(1)
+```
+
+Build
+=====
+```bash
+pip install twine setuptools
+
+python setup.py sdist bdist_wheel
+twine upload  --skip-existing dist/*
+```
