@@ -1,0 +1,4 @@
+numpy
+markovclick
+pygraphviz
+pypdf
