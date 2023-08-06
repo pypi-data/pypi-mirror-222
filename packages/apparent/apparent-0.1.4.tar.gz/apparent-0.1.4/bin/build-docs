@@ -1,0 +1,7 @@
+#
+# Copyright (c) Arnon Moscona 2023. under Apache2 license
+#
+
+#!/bin/sh
+rm -rf html/apparent
+pdoc --html apparent
