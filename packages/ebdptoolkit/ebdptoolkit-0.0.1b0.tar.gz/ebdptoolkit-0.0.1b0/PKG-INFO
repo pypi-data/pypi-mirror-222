@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ebdptoolkit
+Version: 0.0.1b0
+Summary: Spatial analysis toolkit for reproducible Evidence Based urban Design and Planning (EBDP)
+Keywords: network-topology architecture urban-planning python3 networkx networks spatial-analysis geographical-information-system spatial-data morphometrics network-analysis spatial-data-analysis centrality shapely landuse network-centralities
+Home-page: https://github.com/UCL/ba-ebdp-toolkit
+Author-Email: Gareth Simons <info@benchmarkurbanism.com>
+Maintainer-Email: Gareth Simons <info@benchmarkurbanism.com>
+License: AGPL-3.0
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Homepage, https://github.com/UCL/ba-ebdp-toolkit
+Project-URL: Documentation, https://github.com/UCL/ba-ebdp-toolkit
+Project-URL: Repository, https://github.com/UCL/ba-ebdp-toolkit
+Requires-Python: <3.12,>=3.10
+Requires-Dist: duckdb>=0.8.1
+Requires-Dist: geopandas>=0.13.2
+Requires-Dist: pyarrow>=12.0.1
+Requires-Dist: fastparquet>=2023.7.0
+Requires-Dist: ipykernel>=6.25.0
+Requires-Dist: networkx>=3.1
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: shapely>=2.0.1
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: asyncpg>=0.28.0
+Requires-Dist: sqlalchemy>=2.0.19
+Requires-Dist: python-dotenv>=1.0.0
+Description-Content-Type: text/markdown
+
+# ebdp-lightweight
+
+Lightweight modelling workflow for EBDP TWIN2EXPAND project
+
+## Development
+
+Project configuration is managed using a `pyproject.toml` file. [`pdm`](https://github.com/pdm-project/pdm) is suggested for installation and management of the packages and related upgrades. For example: `pdm install` will install packages listed in the `pyproject.toml` file and creates a self-contained development environment in a `.venv` folder.
+
+## Data Loading
+
+See the [data_loading_notes.md](src/data/data-loading-notes.md)
+
+## Licenses
+
+This repo depends on copy-left open source packages licensed as AGPLv3 and therefore adopts the same license.
+
+The Overture Maps data source is licensed [Community Data License Agreement – Permissive, Version 2.0](https://cdla.dev) with some layers licensed as [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl/).

@@ -1,0 +1,167 @@
+[project]
+name = "ebdptoolkit"
+version = "0.0.1b0"
+description = "Spatial analysis toolkit for reproducible Evidence Based urban Design and Planning (EBDP)"
+readme = "README.md"
+requires-python = ">=3.10, <3.12"
+authors = [
+    { name = "Gareth Simons", email = "info@benchmarkurbanism.com" },
+]
+maintainers = [
+    { name = "Gareth Simons", email = "info@benchmarkurbanism.com" },
+]
+keywords = [
+    "network-topology",
+    "architecture",
+    "urban-planning",
+    "python3",
+    "networkx",
+    "networks",
+    "spatial-analysis",
+    "geographical-information-system",
+    "spatial-data",
+    "morphometrics",
+    "network-analysis",
+    "spatial-data-analysis",
+    "centrality",
+    "shapely",
+    "landuse",
+    "network-centralities",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "duckdb>=0.8.1",
+    "geopandas>=0.13.2",
+    "pyarrow>=12.0.1",
+    "fastparquet>=2023.7.0",
+    "ipykernel>=6.25.0",
+    "networkx>=3.1",
+    "pandas>=2.0.3",
+    "shapely>=2.0.1",
+    "tqdm>=4.65.0",
+    "asyncpg>=0.28.0",
+    "sqlalchemy>=2.0.19",
+    "python-dotenv>=1.0.0",
+]
+
+[project.license]
+text = "AGPL-3.0"
+
+[project.urls]
+homepage = "https://github.com/UCL/ba-ebdp-toolkit"
+documentation = "https://github.com/UCL/ba-ebdp-toolkit"
+repository = "https://github.com/UCL/ba-ebdp-toolkit"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.7.0",
+    "pyright>=1.1.320",
+    "pylint>=2.17.5",
+    "pytest>=7.4.0",
+    "pip>=23.2.1",
+]
+
+[tool.pdm.scripts]
+docstyle = "pydocstyle --config=pyproject.toml"
+typechecks = "pyright ."
+linting = "pylint --rcfile=pyproject.toml ./src"
+tests = "pytest ./tests"
+
+[tool.pdm.scripts.formatting]
+shell = "black --config=pyproject.toml ./ && isort --settings-file=pyproject.toml ./"
+
+[tool.pdm.scripts.verify_project]
+shell = "pdm run formatting && pdm run linting && pdm run typechecks && pdm run tests"
+
+[tool.black]
+line-length = 120
+color = true
+
+[tool.pylint.master]
+disable = [
+    "missing-module-docstring",
+    "no-name-in-module",
+    "pointless-string-statement",
+    "logging-fstring-interpolation",
+    "R0801",
+]
+jobs = 0
+output-format = "colorized"
+
+[tool.pylint.basic]
+good-names = [
+    "a",
+    "b",
+    "x",
+    "y",
+    "ax",
+    "mu",
+    "qs",
+    "xs",
+    "ys",
+    "wt",
+]
+
+[tool.pylint.design]
+max-args = 10
+
+[tool.pylint.format]
+max-line-length = 120
+
+[tool.pyright]
+pythonVersion = "3.9"
+include = [
+    "src",
+]
+exclude = [
+    "**/__pycache__",
+    "**/__pypackages__",
+    "build",
+    "docs",
+    "**/temp/",
+    "tests/",
+    "dist",
+    ".venv",
+]
+typeCheckingMode = "strict"
+
+[tool.pydocstyle]
+ignore = [
+    "D100",
+    "D104",
+    "D200",
+    "D203",
+    "D401",
+    "D403",
+    "D212",
+]
+match = "(?!test_).*\\.py"
+match_dir = "^(?!(__pypackages__|.venv|build|docs|tests)).*"
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true
+line_length = 120
+atomic = true
+filter_files = true
+src_paths = [
+    "src",
+]
+
+[tool.pytest.ini_options]
+console_output_style = "count"
+log_cli = true
+log_cli_level = "INFO"
+testpaths = [
+    "tests",
+]
+addopts = ""
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
