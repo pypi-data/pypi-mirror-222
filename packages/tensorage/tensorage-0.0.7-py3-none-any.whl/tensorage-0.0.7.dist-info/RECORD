@@ -1,0 +1,12 @@
+tensorage/__init__.py,sha256=C9Z6ie4pSPQHCmMo9O5ebco_DaRFX1MH3RxEBPWPuks,71
+tensorage/__version__.py,sha256=7sNbee72r3qCAVloFm2RRWCTa9gVjMS7nCJcJ-URzl4,21
+tensorage/auth.py,sha256=063xntx8jA9RlajGAZuqPhXMKZyVETpNX9CDHkWvUo8,1465
+tensorage/db_init.py,sha256=Vkm3sO_hOtYGKnHquMFxL8txnKjDyQc5fxkh-e59-RQ,2388
+tensorage/session.py,sha256=6Q3qusj7u7UnrdkhwlPKQ9_dj390jZswPXqBOoTE_VI,2287
+tensorage/store.py,sha256=bbgon5kBd1x0ZrII1SXacoMoPn0kkqVUugrR9bWNHIw,7351
+tensorage/types.py,sha256=hlJ_QcKjKNXqhQSuD419t1XvGz4drLt5OJGfUS9Rt3U,155
+tensorage-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tensorage-0.0.7.dist-info/METADATA,sha256=GizHbLh9dmltmJ6vzNAowfjbUqyvy_Dc1HP15hqp9Wk,351
+tensorage-0.0.7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+tensorage-0.0.7.dist-info/top_level.txt,sha256=H7WtvSPW4ya5Tf4ttQrDAXbup4Hwen6GqRlGOO6y-Ko,10
+tensorage-0.0.7.dist-info/RECORD,,
