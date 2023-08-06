@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+staticmap/__init__.py
+staticmap/staticmap.py
+staticmap/tests.py
+staticmap.egg-info/PKG-INFO
+staticmap.egg-info/SOURCES.txt
+staticmap.egg-info/dependency_links.txt
+staticmap.egg-info/requires.txt
+staticmap.egg-info/top_level.txt
