@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: TcpingLib
+Version: 1.0
+Summary: A Tcping Lib
+Home-page: https://puqiar.top
+Author: PuqiAR
+Author-email: 2758126410@qq.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: socket
+Requires-Dist: struct
+Requires-Dist: array
+Requires-Dist: time
+
+
+# tcping lib version 1.0
+
+## libs: 
+
+> socket
+
+> array
+
+> struct
+
+> time
+
+------
+
+### 使用方法: 创建Tcping对象
+
+#### arguments:
+
+> IP <- 目标地址
+
+> port <- 端口'0' 则为自动寻找
+
+> timeout <-超时时间
+
