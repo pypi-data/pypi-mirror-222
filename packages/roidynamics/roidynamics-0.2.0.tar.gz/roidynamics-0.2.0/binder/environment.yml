@@ -1,0 +1,12 @@
+name: roidynamics
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - jupyter
+  - jupyterlab
+  - pip
+  - ipympl
+  - pip:
+    - tqdm
+    - roidynamics
