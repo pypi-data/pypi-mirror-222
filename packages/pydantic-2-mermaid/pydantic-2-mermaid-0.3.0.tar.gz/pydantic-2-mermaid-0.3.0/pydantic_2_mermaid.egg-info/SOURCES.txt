@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+pydantic_2_mermaid/__init__.py
+pydantic_2_mermaid/__main__.py
+pydantic_2_mermaid/mermaid_generator.py
+pydantic_2_mermaid/models.py
+pydantic_2_mermaid/py.typed
+pydantic_2_mermaid.egg-info/PKG-INFO
+pydantic_2_mermaid.egg-info/SOURCES.txt
+pydantic_2_mermaid.egg-info/dependency_links.txt
+pydantic_2_mermaid.egg-info/entry_points.txt
+pydantic_2_mermaid.egg-info/requires.txt
+pydantic_2_mermaid.egg-info/top_level.txt
+tests/test_basic_test.py
