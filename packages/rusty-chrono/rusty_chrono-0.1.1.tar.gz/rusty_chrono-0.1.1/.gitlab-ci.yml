@@ -1,0 +1,48 @@
+image: docker:20.10.16 #*
+
+variables:
+  DOCKER_TLS_CERTDIR: "/certs"
+  TAG: "latest"
+
+services:
+  - docker:20.10.16-dind 
+
+stages:
+  - image
+  - test
+  - build
+
+
+build_Rust_Python_image:
+  stage: image
+  before_script:
+    - docker info
+  script:
+    - docker build -t "$DOCKER_HUB_REGISTRY/rust_python:$TAG" .
+    - docker login --username "$DOCKER_HUB_USERNAME" --password "$DOCKER_HUB_TOKEN"
+    - docker push "$DOCKER_HUB_REGISTRY/rust_python:$TAG"
+
+
+rust_tests:
+  stage: test
+  image: "$DOCKER_HUB_REGISTRY/rust_python:$TAG"
+  script:
+    - cargo clean
+    - cargo test --verbose
+
+
+build_project:
+  stage: build
+  image: "$DOCKER_HUB_REGISTRY/rust_python:$TAG"
+  script:
+    - python --version
+    - pip freeze
+    - ls -al
+    - maturin build
+  artifacts:
+    untracked: false
+    when: on_success
+    expire_in: "10 min"
+    paths:
+      - target
+
