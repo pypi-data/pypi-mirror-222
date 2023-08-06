@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: USSZmqTools
+Version: 0.1.0
+Summary: A Python package implementing a broker-worker pattern using ZeroMQ for communication.
+Home-page: https://github.com/USSVision/USSCommonTools/tree/main/Packages/USSZmqTools
+Author: USS Vision
+Author-email: bhelfer@ussvision.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+This package provides a basic implementation of a broker-worker pattern using ZeroMQ (ZMQ) for communication. It includes three classes: BrokerWorker, BrokerClient, and Broker. The BrokerWorker class represents a worker that connects to a broker endpoint using ZMQ. The BrokerClient class represents a client that connects to a broker endpoint using ZMQ. The Broker class represents the broker itself and handles communication between clients and workers. This package is suitable for building distributed systems or task queues.
+

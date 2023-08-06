@@ -1,0 +1,9 @@
+README.md
+setup.py
+USSZmqTools/__init__.py
+USSZmqTools/core.py
+USSZmqTools.egg-info/PKG-INFO
+USSZmqTools.egg-info/SOURCES.txt
+USSZmqTools.egg-info/dependency_links.txt
+USSZmqTools.egg-info/requires.txt
+USSZmqTools.egg-info/top_level.txt
