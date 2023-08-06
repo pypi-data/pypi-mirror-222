@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tka
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/tkanalytics/tka
+Author: Filip Cvetko
+Requires-Python: >=3.10,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/tkanalytics/tka.git
+Description-Content-Type: text/markdown
+
+# tka
+An SDK full of utility functions in drug discovery and loaded external open-source models
+
