@@ -1,0 +1,12 @@
+frigobar/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+frigobar/__main__.py,sha256=M8hZ0bjTtd1kpjjFt6zzvRsX2WjLAHu8KVVhyCmAYd0,33
+frigobar/cli.py,sha256=_j_ExANUcxthbavaiEzRwhztDVUEMUEpYGHkyNJK6rs,2040
+frigobar/frigobar.py,sha256=bLLyIjbeKzFN9vCKT6Pln7sDj_KvLm3VU8_jEWa7aBA,5001
+frigobar/downloaders/download_deps.ps1,sha256=itotqxRe2bISu2Wl4sTkMHOBuulBhpQQafpKROy8Wx0,489
+frigobar/downloaders/download_pip.ps1,sha256=P9g63AX4zk43PluxUjZ3nND0Gfo1Ntzf5CFk20V06o4,1011
+frigobar/downloaders/download_python.ps1,sha256=siTiFBpnDCNmAXcXMnaGhI8UccyouxH6QWMPvkmvsfI,2177
+frigobar-1.dist-info/METADATA,sha256=oaIyRDvOTmEYOPdBipog9me-NJcwm4V2g9s771V4LNM,1905
+frigobar-1.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+frigobar-1.dist-info/entry_points.txt,sha256=JyJfobMY7AAZk-f7Go6VV--gIZfskppUKk9-5aNPFc4,47
+frigobar-1.dist-info/licenses/license,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+frigobar-1.dist-info/RECORD,,
