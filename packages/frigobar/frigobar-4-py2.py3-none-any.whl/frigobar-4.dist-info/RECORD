@@ -1,0 +1,14 @@
+frigobar/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+frigobar/__main__.py,sha256=M8hZ0bjTtd1kpjjFt6zzvRsX2WjLAHu8KVVhyCmAYd0,33
+frigobar/cli.py,sha256=Zos3tlvt2W-Nsq3KwFcKyMJBWdJMaTfqTd50UOura_Q,2196
+frigobar/frigobar.py,sha256=XW4e-T_gT9HPDPi_PvfPs_7C627sxj9filwm2saq5ko,5724
+frigobar/_tkinter/_tkinter.pyd,sha256=mStyiMrcoqe7U-ONMjXbS_r_tTsGOnGo-eGYSqbjAmg,55296
+frigobar/downloaders/download_deps.ps1,sha256=itotqxRe2bISu2Wl4sTkMHOBuulBhpQQafpKROy8Wx0,489
+frigobar/downloaders/download_pip.ps1,sha256=PHMZWloCIAyeWnz2BZDUt_sF_ILP_Id_6gwWBeesCrM,979
+frigobar/downloaders/download_python.ps1,sha256=VZdTeK9kRCTBKbiBUXpr5fTqhIQ7At7LkVLAJnouMAA,2468
+frigobar/downloaders/download_tkinter.ps1,sha256=WJGkPE_gs8CvMXquRF9cpGeuVWSVzuCrIxEYip8D5q4,3465
+frigobar-4.dist-info/METADATA,sha256=FFBPXUHaAQjuPyqTCSk62Tkc3_EbGBlbC9h35IDT9Fs,3201
+frigobar-4.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+frigobar-4.dist-info/entry_points.txt,sha256=JyJfobMY7AAZk-f7Go6VV--gIZfskppUKk9-5aNPFc4,47
+frigobar-4.dist-info/licenses/license,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+frigobar-4.dist-info/RECORD,,
