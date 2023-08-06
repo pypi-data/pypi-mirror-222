@@ -1,0 +1,17 @@
+src/setup.py
+src/food_project/__init__.py
+src/food_project.egg-info/PKG-INFO
+src/food_project.egg-info/SOURCES.txt
+src/food_project.egg-info/dependency_links.txt
+src/food_project.egg-info/entry_points.txt
+src/food_project.egg-info/not-zip-safe
+src/food_project.egg-info/top_level.txt
+src/food_project/bread/__init__.py
+src/food_project/bread/bulo4ka/__init__.py
+src/food_project/bread/bulo4ka/bulo4ka_s_kunjutom.py
+src/food_project/extra/__init__.py
+src/food_project/extra/cheese.py
+src/food_project/extra/sause.py
+src/food_project/extra/vegetables/__init__.py
+src/food_project/meat/__init__.py
+src/food_project/meat/kotleta.py
